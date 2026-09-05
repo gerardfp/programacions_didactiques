@@ -1,0 +1,1685 @@
+{
+  "0221": {
+    "nombre": "Montaje y mantenimiento de equipos",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Selecciona los componentes de integración de un eq...",
+        "ras": [
+          1
+        ],
+        "horas": 27,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Ensambla un equipo microinformático, interpretando...",
+        "ras": [
+          2
+        ],
+        "horas": 27,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Mide parámetros eléctricos, identificando el tipo...",
+        "ras": [
+          3
+        ],
+        "horas": 27,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Mantiene equipos informáticos interpretando las re...",
+        "ras": [
+          4
+        ],
+        "horas": 27,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Instala software en un equipo informático utilizan...",
+        "ras": [
+          5
+        ],
+        "horas": 27,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Reconoce nuevas tendencias en el ensamblaje de equ...",
+        "ras": [
+          6
+        ],
+        "horas": 27,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 7",
+        "nombre": "Unidad de Programación 7: Mantiene periféricos, interpretando las recomendac...",
+        "ras": [
+          7
+        ],
+        "horas": 27,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 8",
+        "nombre": "Unidad de Programación 8: Cumple las normas de prevención de riesgos laboral...",
+        "ras": [
+          8
+        ],
+        "horas": 31,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 12.5,
+      "2": 12.5,
+      "3": 12.5,
+      "4": 12.5,
+      "5": 12.5,
+      "6": 12.5,
+      "7": 12.5,
+      "8": 12.5
+    },
+    "formula_evaluacion": "Módulo = 0.12 · RA_1 + 0.12 · RA_2 + 0.12 · RA_3 + 0.12 · RA_4 + 0.12 · RA_5 + 0.12 · RA_6 + 0.12 · RA_7 + 0.12 · RA_8",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Montaje y mantenimiento de equipos se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0222": {
+    "nombre": "Sistemas operativos monopuesto",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Reconoce las características de los sistemas de ar...",
+        "ras": [
+          1
+        ],
+        "horas": 26,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Instala sistemas operativos, relacionando sus cara...",
+        "ras": [
+          2
+        ],
+        "horas": 26,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Realiza tareas básicas de configuración de sistema...",
+        "ras": [
+          3
+        ],
+        "horas": 26,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Realiza operaciones básicas de administración de s...",
+        "ras": [
+          4
+        ],
+        "horas": 26,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Crea máquinas virtuales identificando su campo de...",
+        "ras": [
+          5
+        ],
+        "horas": 26,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Sistemas operativos monopuesto se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0223": {
+    "nombre": "Aplicaciones ofimáticas",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Instala y actualiza aplicaciones ofimáticas, inter...",
+        "ras": [
+          1
+        ],
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Elabora documentos y plantillas, describiendo y ap...",
+        "ras": [
+          2
+        ],
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Elabora documentos y plantillas de cálculo, descri...",
+        "ras": [
+          3
+        ],
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Elabora documentos con bases de datos ofimáticas d...",
+        "ras": [
+          4
+        ],
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Manipula imágenes digitales analizando las posibil...",
+        "ras": [
+          5
+        ],
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Manipula secuencias de vídeo analizando las posibi...",
+        "ras": [
+          6
+        ],
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 7",
+        "nombre": "Unidad de Programación 7: Elabora presentaciones multimedia describiendo y a...",
+        "ras": [
+          7
+        ],
+        "horas": 25,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 8",
+        "nombre": "Unidad de Programación 8: Realiza operaciones de gestión del correo y la age...",
+        "ras": [
+          8
+        ],
+        "horas": 25,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 9",
+        "nombre": "Unidad de Programación 9: Aplica técnicas de soporte en el uso de aplicacion...",
+        "ras": [
+          9
+        ],
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 11.1,
+      "2": 11.1,
+      "3": 11.1,
+      "4": 11.1,
+      "5": 11.1,
+      "6": 11.1,
+      "7": 11.1,
+      "8": 11.1,
+      "9": 11.2
+    },
+    "formula_evaluacion": "Módulo = 0.11 · RA_1 + 0.11 · RA_2 + 0.11 · RA_3 + 0.11 · RA_4 + 0.11 · RA_5 + 0.11 · RA_6 + 0.11 · RA_7 + 0.11 · RA_8 + 0.11 · RA_9",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "9": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Aplicaciones ofimáticas se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0224": {
+    "nombre": "Sistemas operativos en red",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Instala sistemas operativos en red describiendo su...",
+        "ras": [
+          1
+        ],
+        "horas": 23,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Gestiona usuarios y grupos de sistemas operativos...",
+        "ras": [
+          2
+        ],
+        "horas": 23,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Realiza tareas de gestión sobre dominios identific...",
+        "ras": [
+          3
+        ],
+        "horas": 23,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Gestiona los recursos compartidos del sistema, int...",
+        "ras": [
+          4
+        ],
+        "horas": 23,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Realiza tareas de monitorización y uso del sistema...",
+        "ras": [
+          5
+        ],
+        "horas": 23,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Realiza tareas de integración de sistemas operativ...",
+        "ras": [
+          6
+        ],
+        "horas": 25,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 16.7,
+      "2": 16.7,
+      "3": 16.7,
+      "4": 16.7,
+      "5": 16.7,
+      "6": 16.5
+    },
+    "formula_evaluacion": "Módulo = 0.17 · RA_1 + 0.17 · RA_2 + 0.17 · RA_3 + 0.17 · RA_4 + 0.17 · RA_5 + 0.17 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Sistemas operativos en red se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0225": {
+    "nombre": "Redes locales",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Reconoce la estructura de redes locales cableadas...",
+        "ras": [
+          1
+        ],
+        "horas": 37,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Despliega el cableado de una red local interpretan...",
+        "ras": [
+          2
+        ],
+        "horas": 37,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Interconecta equipos en redes locales cableadas de...",
+        "ras": [
+          3
+        ],
+        "horas": 37,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Instala equipos en red, describiendo sus prestacio...",
+        "ras": [
+          4
+        ],
+        "horas": 37,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Mantiene una red local interpretando recomendacion...",
+        "ras": [
+          5
+        ],
+        "horas": 37,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Cumple las normas de prevención de riesgos laboral...",
+        "ras": [
+          6
+        ],
+        "horas": 40,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 16.7,
+      "2": 16.7,
+      "3": 16.7,
+      "4": 16.7,
+      "5": 16.7,
+      "6": 16.5
+    },
+    "formula_evaluacion": "Módulo = 0.17 · RA_1 + 0.17 · RA_2 + 0.17 · RA_3 + 0.17 · RA_4 + 0.17 · RA_5 + 0.17 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Redes locales se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0226": {
+    "nombre": "Seguridad informática",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Aplica medidas de seguridad pasiva en sistemas inf...",
+        "ras": [
+          1
+        ],
+        "horas": 21,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Gestiona dispositivos de almacenamiento describien...",
+        "ras": [
+          2
+        ],
+        "horas": 21,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Aplica mecanismos de seguridad activa describiendo...",
+        "ras": [
+          3
+        ],
+        "horas": 21,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Asegura la privacidad de la información transmitid...",
+        "ras": [
+          4
+        ],
+        "horas": 21,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Reconoce la legislación y normativa sobre segurida...",
+        "ras": [
+          5
+        ],
+        "horas": 21,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Seguridad informática se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0227": {
+    "nombre": "Servicios en red",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Instala servicios de configuración dinámica, descr...",
+        "ras": [
+          1
+        ],
+        "horas": 17,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Instala servicios de resolución de nombres, descri...",
+        "ras": [
+          2
+        ],
+        "horas": 17,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Instala servicios de transferencia de ficheros, de...",
+        "ras": [
+          3
+        ],
+        "horas": 17,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Gestiona servidores de correo electrónico identifi...",
+        "ras": [
+          4
+        ],
+        "horas": 17,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Gestiona servidores web identificando requerimient...",
+        "ras": [
+          5
+        ],
+        "horas": 17,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Gestiona métodos de acceso remoto describiendo sus...",
+        "ras": [
+          6
+        ],
+        "horas": 17,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 7",
+        "nombre": "Unidad de Programación 7: Despliega redes inalámbricas seguras justificando...",
+        "ras": [
+          7
+        ],
+        "horas": 17,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 8",
+        "nombre": "Unidad de Programación 8: Establece el acceso desde redes locales a redes pú...",
+        "ras": [
+          8
+        ],
+        "horas": 21,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 12.5,
+      "2": 12.5,
+      "3": 12.5,
+      "4": 12.5,
+      "5": 12.5,
+      "6": 12.5,
+      "7": 12.5,
+      "8": 12.5
+    },
+    "formula_evaluacion": "Módulo = 0.12 · RA_1 + 0.12 · RA_2 + 0.12 · RA_3 + 0.12 · RA_4 + 0.12 · RA_5 + 0.12 · RA_6 + 0.12 · RA_7 + 0.12 · RA_8",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Servicios en red se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0228": {
+    "nombre": "Aplicaciones web",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Instala gestores de contenidos, identificando sus...",
+        "ras": [
+          1
+        ],
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Instala sistemas de gestión de aprendizaje a dista...",
+        "ras": [
+          2
+        ],
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Instala servicios de gestión de archivos web, iden...",
+        "ras": [
+          3
+        ],
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Instala aplicaciones de ofimática web, describiend...",
+        "ras": [
+          4
+        ],
+        "horas": 25,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Instala aplicaciones web de escritorio, describien...",
+        "ras": [
+          5
+        ],
+        "horas": 25,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Aplicaciones web se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0229": {
+    "nombre": "Formación y orientación laboral",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Aplica las estrategias del trabajo en equipo, valo...",
+        "ras": [
+          2
+        ],
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Ejerce los derechos y cumple las obligaciones que...",
+        "ras": [
+          3
+        ],
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Determina la acción protectora del sistema de la S...",
+        "ras": [
+          4
+        ],
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Evalúa los riesgos derivados de su actividad, anal...",
+        "ras": [
+          5
+        ],
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Participa en la elaboración de un plan de prevenci...",
+        "ras": [
+          6
+        ],
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Aplica las medidas de prevención y protección, ana...",
+        "ras": [
+          7
+        ],
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "2": 16.7,
+      "3": 16.7,
+      "4": 16.7,
+      "5": 16.7,
+      "6": 16.7,
+      "7": 16.5
+    },
+    "formula_evaluacion": "Módulo = 0.17 · RA_2 + 0.17 · RA_3 + 0.17 · RA_4 + 0.17 · RA_5 + 0.17 · RA_6 + 0.17 · RA_7",
+    "instrumentos": {
+      "2": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Formación y orientación laboral se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0230": {
+    "nombre": "Empresa e Iniciativa Emprendedora",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Reconoce las capacidades asociadas a la iniciativa...",
+        "ras": [
+          1
+        ],
+        "horas": 16,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Define la oportunidad de creación de una pequeña e...",
+        "ras": [
+          2
+        ],
+        "horas": 16,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Realiza las actividades para la constitución y pue...",
+        "ras": [
+          3
+        ],
+        "horas": 16,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Realiza actividades de gestión administrativa y fi...",
+        "ras": [
+          4
+        ],
+        "horas": 17,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 25.0,
+      "2": 25.0,
+      "3": 25.0,
+      "4": 25.0
+    },
+    "formula_evaluacion": "Módulo = 0.25 · RA_1 + 0.25 · RA_2 + 0.25 · RA_3 + 0.25 · RA_4",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Empresa e Iniciativa Emprendedora se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0231": {
+    "nombre": "Formación en Centros de Trabajo",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Identifica la estructura y organización de la empr...",
+        "ras": [
+          1
+        ],
+        "horas": 76,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Aplica hábitos éticos y laborales, desarrollando s...",
+        "ras": [
+          2
+        ],
+        "horas": 76,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Monta equipos informáticos, siguiendo los procesos...",
+        "ras": [
+          3
+        ],
+        "horas": 76,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Participa en el diagnóstico y reparación de avería...",
+        "ras": [
+          4
+        ],
+        "horas": 76,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Instala sistemas operativos y aplicaciones respeta...",
+        "ras": [
+          5
+        ],
+        "horas": 76,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Formación en Centros de Trabajo se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  }
+}

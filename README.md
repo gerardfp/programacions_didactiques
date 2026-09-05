@@ -2,110 +2,93 @@
 
 Sistema integral de generación sistemática y automatizada de **Programaciones Didácticas oficiales de Formación Profesional** en formato nativo OpenDocument (`.odt`), editable directamente con LibreOffice Writer y conforme a la **Ley Orgánica 3/2022** y el **Real Decreto 659/2023**.
 
+El sistema está completamente integrado en un único script ejecutable, **`generador_pd.py`**, que reúne y permite ejecutar de forma individual sus **tres funciones principales**:
+1. **Parseo y extracción de currículos** (`--parse-xml`): Extrae decretos oficiales en XML del BOE, extrae competencias y módulos, y genera el archivo `curriculum_<ciclo>.json`.
+2. **Generador del andamiaje pedagógico oficial** (`--generar-pedagogia`): Produce el archivo pedagógico específico por ciclo (`pedagogia_<ciclo>.json`) con unidades didácticas y ponderaciones proporcionales por RA, diseñado como plantilla base para modelos de IA o profesorado.
+3. **Generador de Programaciones Didácticas** (`--all`, `--ciclo`, `--modulo`): Motor de maquetación ODF que une currículo, pedagogía y plantilla visual para generar los documentos `.odt` editables.
+
+> **Comprobación y Subsanación Automática de Datos**:
+> No es necesario validar manualmente los archivos JSON. Cada vez que el programa se ejecuta, analiza automáticamente la integridad de los currículos y de la pedagogía. Si detecta datos ausentes o incompletos (como siglas, horas, RAs, ponderaciones o recursos), **emite un aviso explícito al usuario (`[AVISO]`) y crea automáticamente datos genéricos coherentes**, permitiendo que la generación continúe sin interrupciones.
+
+> **Política de Respaldo y Nuevas Versiones**:
+> Ningún archivo JSON existente es jamás borrado ni sobrescrito. Si el archivo base ya existe, **la nueva versión generada se guarda con una marca de tiempo** (`_YYYYMMDD_HHMMSS.json`), manteniendo intacto el archivo previo.
+
 ---
 
-## 🚀 1. Comandos de Generación (CLI)
+## 🚀 1. Flujo de Trabajo en Tres Pasos (con `generador_pd.py`)
 
-El generador se ejecuta desde la terminal mediante el script principal [`generador_pd.py`](generador_pd.py). Produce directamente documentos `.odt` listos para su uso docente e inspección educativa.
+```mermaid
+flowchart LR
+    A["1. BOE XML"] -->|generador_pd.py --parse-xml| B["curriculum_&lt;ciclo&gt;.json"]
+    B -->|generador_pd.py --generar-pedagogia| C["pedagogia_&lt;ciclo&gt;.json"]
+    C -.->|Revisión docente / IA| C
+    B & C -->|generador_pd.py --all| D["Programaciones (.odt)"]
+```
 
-### Requisitos previos
-- **Python 3.10** o superior.
-- No requiere dependencias externas obligatorias (utiliza bibliotecas nativas de la biblioteca estándar de Python: `xml.etree.ElementTree`, `zipfile`, `json`, `re`, `argparse`).
-- Para abrir, editar o exportar a PDF los archivos generados: **LibreOffice** (v7.x / v24.x o posterior).
-
----
-
-### Casos de uso principales
-
-#### A. Generar sistemáticamente TODOS los ciclos y módulos
-Genera las 30 programaciones didácticas de todos los ciclos formativos configurados (DAM, DAW, SMX):
+### Paso 1: Parsear el XML del BOE y Generar el Currículo
+Descarga el XML oficial del decreto del BOE y procésalo directamente:
 ```bash
+# Parsear XML oficial y generar curriculum_<ciclo>.json:
+python generador_pd.py --parse-xml curriculums_originals/ASIR.xml --ciclo ASIR
+```
+
+### Paso 2: Generar el Andamiaje Pedagógico del Ciclo
+Genera el archivo `pedagogia_<ciclo>.json` con ponderaciones proporcionales (suman 100%), 1 UP y 2 instrumentos genéricos por cada RA, y recursos estándar:
+```bash
+# Generar pedagogía para un ciclo específico:
+python generador_pd.py --generar-pedagogia --ciclo DAM
+
+# Generar pedagogía para todos los ciclos disponibles:
+python generador_pd.py --generar-pedagogia --all
+```
+*(Este archivo JSON resultante sirve como andamiaje o plantilla para que un modelo de inteligencia artificial o el docente personalice la metodología y recursos).*
+
+### Paso 3: Generar las Programaciones Didácticas ODT
+Genera los documentos `.odt` oficiales listos para inspección o uso docente:
+```bash
+# Generar todas las programaciones de todos los ciclos:
 python generador_pd.py --all
-```
 
-#### B. Generar todas las programaciones de un ciclo específico
-Utiliza el parámetro `--ciclo` seguido del código del ciclo (`DAM`, `DAW`, `SMX`):
-```bash
+# Generar solo las de un ciclo:
 python generador_pd.py --ciclo DAM
-python generador_pd.py --ciclo DAW
-python generador_pd.py --ciclo SMX
-```
 
-#### C. Generar un único módulo profesional
-Utiliza el parámetro `--modulo` indicando su código oficial de 4 dígitos o parte de su nombre:
-```bash
-# Por código oficial de módulo
+# Generar un único módulo:
 python generador_pd.py --modulo 0489
-
-# Especificando ciclo para resolver módulos comunes (ej. 0483 Sistemas Informáticos)
-python generador_pd.py --ciclo DAM --modulo 0483
-python generador_pd.py --ciclo DAW --modulo 0483
 ```
 
 ---
 
-### Parámetros y Opciones Avanzadas
+## 🛠️ 2. Opciones y Parámetros del Comando (`generador_pd.py`)
 
-| Parámetro | Argumento | Descripción | Valor por defecto |
-| :--- | :--- | :--- | :--- |
-| `--all` | Ninguno | Genera sistemáticamente todos los módulos de todos los ciclos | — |
-| `--ciclo` | `CODIGO` | Filtra por ciclo formativo (ej. `DAM`, `DAW`, `SMX`) | Todos |
-| `--modulo` | `CODIGO` | Genera solo el módulo indicado (código o nombre) | — |
-| `--curso-escolar` / `--curso-academico` | `"AÑO / AÑO"` | Curso escolar reflejado en portadas y encabezados | `"2026 / 2027"` |
-| `--plantilla` / `--template` | `RUTA.fodt` | Ruta a una plantilla ODF base alternativa | `plantilla.fodt` |
-| `--output-dir` | `CARPETA` | Carpeta raíz de salida de los documentos | `programaciones` |
-| `--output` / `-o` | `ARCHIVO.odt` | Nombre de archivo de salida personalizado (con `--modulo`) | Nomenclatura estándar |
-
-#### Ejemplos de personalización:
-```bash
-# Cambiar el curso escolar a 2025/2026:
-python generador_pd.py --all --curso-escolar "2025 / 2026"
-
-# Usar una plantilla visual alternativa:
-python generador_pd.py --all --plantilla plantilla_V2.fodt
-
-# Generar un módulo en un archivo específico de destino:
-python generador_pd.py --modulo 0489 --output mi_programacion_pdm.odt
-```
+| Función / Parámetro | Argumento | Descripción |
+| :--- | :--- | :--- |
+| **[Función 1: Currículo]** | | |
+| `--parse-xml` | `ARCHIVO.xml` | Parsea un archivo oficial XML del BOE y genera `curriculum_<ciclo>.json` |
+| **[Función 2: Pedagogía]** | | |
+| `--generar-pedagogia` | Ninguno | Genera el andamiaje pedagógico JSON para el ciclo (`--ciclo`) o todos (`--all`) |
+| **[Función 3: Generación ODT]** | | |
+| `--all` | Ninguno | Aplica la acción a todos los ciclos disponibles (generar ODTs o pedagogía) |
+| `--ciclo` | `CODIGO` | Filtra por ciclo formativo (ej. `DAM`, `DAW`, `SMX`, `ASIR`) |
+| `--modulo` | `CODIGO` | Genera solo el módulo indicado (por código o nombre) |
+| `--curso-escolar` | `"AÑO / AÑO"` | Curso escolar reflejado en portadas y encabezados (por defecto: `"2026 / 2027"`) |
+| `--plantilla` | `RUTA.fodt` | Ruta a una plantilla ODF base alternativa (por defecto: `plantilla.fodt`) |
+| `--output-dir` | `CARPETA` | Carpeta raíz de salida de los documentos (por defecto: `programaciones`) |
+| `--output` / `-o` | `ARCHIVO` | Nombre de archivo de salida personalizado (.odt o .json) |
 
 ---
 
-### Nomenclatura estándar de los archivos generados
+## 🧩 3. Procedimiento para Añadir Nuevos Ciclos Formativos
 
-Los archivos `.odt` se guardan automáticamente dentro de subcarpetas por ciclo (`programaciones/DAM/`, `programaciones/DAW/`, `programaciones/SMX/`) siguiendo el patrón estandarizado:
+El sistema está diseñado para incorporar nuevos títulos de Formación Profesional de manera modular:
 
-$$\mathbf{PD\_\{curso\_escolar\}\_\{ciclo\}\{curso\}\_\{codigo\}\_\{siglas\}.odt}$$
-
-- **Ejemplo**: `PD_26-27_DAM2_0489_PMYDM.odt`
-  - `PD`: Programación Didáctica
-  - `26-27`: Curso escolar 2026 / 2027
-  - `DAM2`: Ciclo DAM, 2º curso
-  - `0489`: Código oficial del módulo en el Real Decreto
-  - `PMYDM`: Siglas oficiales del módulo (Programación multimedia y dispositivos móviles)
-
----
-
-## 🧩 2. Procedimiento para Añadir Nuevos Ciclos Formativos
-
-El sistema está diseñado para incorporar nuevos títulos de Formación Profesional de manera modular sin tener que modificar la lógica del motor de generación.
-
-Hay dos vías posibles:
-
-### Opción A (Recomendada): Ingesta Automática del XML Oficial del BOE
-
-1. **Descargar el Real Decreto del título en XML**:
-   - Entra en el portal del [Boletín Oficial del Estado (BOE)](https://www.boe.es).
-   - Localiza el Real Decreto que establece el título y las enseñanzas mínimas del ciclo (por ejemplo, *Real Decreto 405/2023 de ASIR* o *Ciberseguridad*).
-   - Abre la versión XML oficial de la disposición (enlace *«XML»* en la cabecera de la web del BOE).
-2. **Guardar el archivo XML**:
-   - Guarda el archivo en la carpeta `curriculums_originals/` con el nombre del ciclo en mayúsculas (ej. `curriculums_originals/ASIR.xml`).
-3. **Ejecutar el generador**:
-   - Al ejecutar `python generador_pd.py --ciclo ASIR` o `python generador_pd.py --all`:
-     - El componente `BoeCurriculumXmlParser` detecta automáticamente el nuevo archivo XML.
-     - Extrae la normativa, las competencias generales y profesionales, las cualificaciones, las unidades de competencia, los módulos profesionales, todos los Resultados de Aprendizaje (RAs) con sus Criterios de Evaluación (CEs) y las orientaciones pedagógicas del BOE.
-     - Crea automáticamente el archivo caché `curriculum_asir.json` y genera los documentos `.odt`.
-
----
+### Opción A (Recomendada): Parseo de XML Oficial del BOE
+1. Descarga el XML oficial del decreto del BOE y guárdalo en `curriculums_originals/<CICLO>.xml`.
+2. Ejecuta:
+   ```bash
+   python generador_pd.py --parse-xml curriculums_originals/ASIR.xml --ciclo ASIR
+   python generador_pd.py --generar-pedagogia --ciclo ASIR
+   python generador_pd.py --ciclo ASIR
+   ```
 
 ### Opción B: Creación Directa de un archivo JSON (`curriculum_<ciclo>.json`)
 
@@ -164,16 +147,47 @@ Si no se dispone del XML del BOE, puede crearse un archivo `curriculum_<codigo_c
 
 ## 📖 3. Procedimiento para Añadir o Personalizar Módulos Profesionales
 
-### Paso 1: Definir los Datos Pedagógicos en `pedagogia_modulos.json`
+## 📖 4. Resolución Pedagógica en Cascada
 
-Abre el archivo `pedagogia_modulos.json` y añade una entrada identificada por el código de 4 dígitos del módulo (ej. `"0369"`):
+Para determinar la metodología, unidades didácticas, ponderaciones de RAs, instrumentos y recursos de un módulo, el sistema busca los datos siguiendo una **estricta resolución en cascada de 4 niveles**:
+
+```mermaid
+flowchart TD
+    N1["1. ¿Existe pedagogia_&lt;ciclo&gt;_&lt;modulo&gt;[_timestamp].json?"]
+    N1 -->|Sí| U1["Usar datos de archivo de módulo"]
+    N1 -->|No| N2["2. ¿Existe pedagogia_&lt;ciclo&gt;[_timestamp].json?"]
+    
+    N2 -->|Tiene el módulo| U2A["Usar módulo del archivo de ciclo"]
+    N2 -->|Tiene 'generico'| U2B["Usar 'generico' de ciclo"]
+    N2 -->|No / No existe| N3["3. ¿Existe pedagogia[_timestamp].json global?"]
+    
+    N3 -->|Tiene el módulo o 'generico'| U3["Usar datos globales"]
+    N3 -->|No existe ninguno| N4["4. Generar automáticamente 'pedagogia.json' con 'generico'"]
+```
+
+1. **Nivel 1 (Máxima prioridad)**: Archivo específico de ciclo y módulo `pedagogia_<ciclo>_<modulo>[_timestamp].json` (ej. `pedagogia_dam_0489.json` o `pedagogia_dam_0489_20260905_120000.json`). Si existen múltiples versiones con timestamp, se selecciona la más reciente.
+2. **Nivel 2**: Archivo específico de ciclo `pedagogia_<ciclo>[_timestamp].json` (ej. `pedagogia_dam.json`):
+   - Si contiene la clave del módulo (`"0489"`), se usa esa.
+   - Si no, pero contiene una clave `"generico"`, se usan los datos genéricos definidos para ese ciclo.
+3. **Nivel 3**: Archivo global de pedagogía `pedagogia[_timestamp].json` (ej. `pedagogia.json`):
+   - Si contiene el módulo o una entrada `"generico"`, se usa esa.
+4. **Nivel 4 (Creación automática si no hay ninguno)**:
+   - Si al ejecutarse el programa para generar programaciones no se encuentra **ningún** archivo de pedagogía en el sistema, **se genera automáticamente `pedagogia.json` con un módulo genérico**, informando al usuario de dicha creación.
+
+> **Adaptación automática**: Siempre que se utiliza un módulo genérico (clave `"generico"` o generado), el sistema adapta dinámicamente las unidades didácticas y ponderaciones equitativas (suman 100%) al número real de Resultados de Aprendizaje (RAs) y horas del módulo a maquetar.
+
+---
+
+### Personalización de un Módulo Profesional
+
+Para personalizar la pedagogía de un módulo, basta con crear su archivo específico (Nivel 1, ej. `pedagogia_dam_0489.json`) o añadirlo en el archivo de su ciclo (Nivel 2, `pedagogia_dam.json`):
 
 ```json
-"0369": {
+{
   "unidades": [
     {
       "codigo": "UD 1",
-      "nombre": "Arquitectura y Selección de Sistemas Operativos",
+      "nombre": "Arquitectura y Desarrollo Móvil",
       "ras": [1],
       "horas": 30,
       "trimestre": "1er Trimestre",
@@ -182,8 +196,8 @@ Abre el archivo `pedagogia_modulos.json` y añade una entrada identificada por e
     },
     {
       "codigo": "UD 2",
-      "nombre": "Instalación y Configuración del Sistema",
-      "ras": [1, 2],
+      "nombre": "Interfaces Gráficas y Layouts",
+      "ras": [2],
       "horas": 35,
       "trimestre": "1er Trimestre",
       "inicio": "Octubre",
@@ -191,56 +205,73 @@ Abre el archivo `pedagogia_modulos.json` y añade una entrada identificada por e
     }
   ],
   "ra_ponderaciones": {
-    "1": 20.0,
-    "2": 25.0,
-    "3": 25.0,
-    "4": 30.0
+    "1": 40.0,
+    "2": 60.0
   },
-  "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.25 · RA_2 + 0.25 · RA_3 + 0.30 · RA_4",
+  "formula_evaluacion": "Módulo = 0.40 · RA_1 + 0.60 · RA_2",
   "instrumentos": {
     "1": [
-      {
-        "nombre": "Prácticas de laboratorio de instalación y particionado",
-        "peso_ra": 60.0
-      },
-      {
-        "nombre": "Prueba escrita objetiva de conceptos arquitectónicos",
-        "peso_ra": 40.0
-      }
+      {"nombre": "Proyecto práctico de entorno Android", "peso_ra": 60.0},
+      {"nombre": "Cuestionario técnico conceptual", "peso_ra": 40.0}
+    ],
+    "2": [
+      {"nombre": "Desarrollo de aplicación responsive", "peso_ra": 70.0},
+      {"nombre": "Revisión de diseño de interfaces", "peso_ra": 30.0}
     ]
   },
-  "metodologia": "El módulo se desarrolla mediante supuestos prácticos en máquinas virtuales...",
+  "metodologia": "Metodología activa basada en retos semanales...",
   "recursos_software": [
-    "VirtualBox / VMware Workstation",
-    "Distribuciones GNU/Linux Ubuntu Server y Rocky Linux",
-    "Microsoft Windows Server"
+    "Android Studio / Kotlin",
+    "Emulador Android y dispositivos físicos"
   ],
   "recursos_hardware": [
-    "Equipos con soporte de virtualización hardware (VT-x / AMD-V)",
-    "Red de laboratorio con switch dedicado"
+    "Equipos con soporte de virtualización VT-x / AMD-V",
+    "Dispositivos móviles Android para pruebas"
   ],
-  "espacios": "Aula polivalente y laboratorio de informática de redes y sistemas."
+  "espacios": "Laboratorio de informática y desarrollo de aplicaciones."
 }
 ```
-
-> **Nota**: Si añades un módulo al currículo pero **no** lo defines en `pedagogia_modulos.json`, el generador no fallará: calculará automáticamente una distribución matemática coherente de unidades didácticas, ponderaciones equitativas que sumen exactamente 100.0%, fórmula de evaluación e instrumentos estándar (60% práctico / 40% teórico).
 
 ---
 
-### Paso 2: Registrar las Siglas del Módulo para la Nomenclatura de Archivos
+### Paso 2: Indicar las Siglas del Módulo en el Currículo JSON
 
-En `generador_pd.py`, localiza el diccionario `KNOWN_MODULE_INITIALS` (alrededor de la línea 50) y añade el código de módulo junto a sus siglas oficiales:
+Las siglas oficiales del módulo para la nomenclatura de archivos se declaran directamente en el archivo `curriculum_<ciclo>.json`, dentro de la definición del módulo (campo `"siglas"`):
 
-```python
-KNOWN_MODULE_INITIALS = {
-    # ... módulos existentes ...
-    "0369": "ISO",      # Implantación de sistemas operativos
-    "0370": "PAR",      # Planificación y administración de redes
-    "0371": "FH",       # Fundamentos de hardware
-    "0372": "GBD",      # Gestión de bases de datos
+```json
+{
+  "codigo": "0369",
+  "nombre": "Implantación de sistemas operativos",
+  "siglas": "ISO",
+  "curso_orientativo": "1º",
+  "horas": 160
 }
 ```
-*Si un módulo no está en este diccionario, el generador extraerá automáticamente las siglas a partir de las iniciales de su denominación oficial.*
+
+> **Nota**: Si se omite el campo `"siglas"`, el generador no fallará: calculará automáticamente unas siglas consistentes a partir de las iniciales de su denominación oficial.
+
+---
+
+### Paso 3: Centralización de Valores por Defecto (`DEFAULT_CONFIG`)
+
+Todos los valores por defecto del sistema (centro educativo, departamento docente, curso escolar, textos de respaldo sin acreditación directa, recursos e instrumentos estándar) están reunidos en la estructura `DEFAULT_CONFIG` al inicio de `generador_pd.py`:
+
+```python
+DEFAULT_CONFIG = {
+    "metadata": {
+        "centro": "IES Benigasló",
+        "profesor": "Profesorado del Departamento de Informática",
+        "curso_academico": "2026 / 2027",
+        "familia_profesional": "Informática y Comunicaciones",
+        "nivel": "Grado Superior",
+        "output_dir": "programaciones",
+        "template_path": "plantilla.fodt"
+    },
+    "acreditacion": { ... },
+    "pedagogia": { ... }
+}
+```
+Cualquier ajuste institucional general puede realizarse modificando directamente este diccionario de configuración.
 
 ---
 
@@ -262,8 +293,10 @@ La plantilla base está en formato **Flat XML ODF** (`plantilla.fodt`). Puede ab
    - `Tabla_Evaluacion_Instrumentos`: Instrumentos de evaluación por cada RA y porcentaje final.
 3. **Placeholders admitidos**:
    Puedes insertar libremente placeholders en el texto o celdas de la plantilla:
-   - `{{modulo}}`: Denominación oficial completa (código y nombre).
-   - `{{codigo_modulo}}`: Código de 4 dígitos.
+   - `{{modulo}}`: Denominación oficial completa (código y nombre, ej. `0489 - Programación multimedia...`).
+   - `{{nombre_modulo}}` (o `{{modulo_nombre}}`): Denominación del módulo **únicamente** (sin el código numérico, ej. `Programación multimedia y dispositivos móviles`).
+   - `{{codigo_modulo}}` (o `{{modulo_codigo}}`): Código oficial de 4 dígitos (ej. `0489`).
+   - `{{siglas}}` (o `{{modulo_siglas}}`): Siglas oficiales del módulo (ej. `PMYDM`).
    - `{{ciclo}}`: Título completo del ciclo y siglas.
    - `{{familia}}`: Familia profesional.
    - `{{curso}}`: Curso (1º o 2º).
@@ -282,13 +315,15 @@ La plantilla base está en formato **Flat XML ODF** (`plantilla.fodt`). Puede ab
 
 ```text
 programacions_didactiques/
-├── generador_pd.py             # Script principal y orquestador CLI de generación
+├── generador_pd.py             # Script único: Parseo XML, Generación pedagógica y Maquetación ODT
 ├── plantilla.fodt              # Plantilla maestra editable en LibreOffice Writer
 ├── README.md                   # Esta documentación técnica de referencia
 ├── curriculum_dam.json         # Currículo oficial de DAM (BOE)
 ├── curriculum_daw.json         # Currículo oficial de DAW (BOE)
 ├── curriculum_smx.json         # Currículo oficial de SMX (BOE)
-├── pedagogia_modulos.json      # Programación pedagógica detallada por módulo
+├── pedagogia_dam.json          # Andamiaje pedagógico de DAM
+├── pedagogia_daw.json          # Andamiaje pedagógico de DAW
+├── pedagogia_smx.json          # Andamiaje pedagógico de SMX
 ├── curriculums_originals/      # Depósito de archivos XML oficiales descargados del BOE
 │   ├── DAM_DAW.xml
 │   ├── SMX.xml
@@ -299,12 +334,3 @@ programacions_didactiques/
     └── SMX/                    # Archivos PD_26-27_SMX*.odt
 ```
 
----
-
-## ⚖️ Marco Normativo Aplicado
-
-Las programaciones didácticas generadas cumplen con la normativa educativa de Formación Profesional en España:
-- **Ley Orgánica 3/2022, de 31 de marzo**, de ordenación e integración de la Formación Profesional.
-- **Real Decreto 659/2023, de 18 de julio**, por el que se desarrolla la ordenación del Sistema de Formación Profesional.
-- **Real Decreto 500/2024, de 21 de mayo**, de adecuación de créditos ECTS y atribuciones docentes.
-- **Principios DUA (Diseño Universal para el Aprendizaje)**: Garantía de accesibilidad, múltiples formas de representación y evaluación formativa continua.

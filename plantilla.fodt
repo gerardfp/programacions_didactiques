@@ -1,37 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><dc:date>2026-09-05T15:56:43.645374700</dc:date><meta:editing-duration>PT34M31S</meta:editing-duration><meta:editing-cycles>7</meta:editing-cycles><meta:generator>LibreOffice/25.8.2.2$Windows_X86_64 LibreOffice_project/d401f2107ccab8f924a8e2df40f573aab7605b6f</meta:generator><meta:document-statistic meta:table-count="9" meta:image-count="3" meta:object-count="0" meta:page-count="8" meta:paragraph-count="151" meta:word-count="1716" meta:character-count="12584" meta:non-whitespace-character-count="11016"/></office:meta>
+ <office:meta><dc:date>2026-09-05T17:04:17.390408300</dc:date><meta:editing-duration>PT56M40S</meta:editing-duration><meta:editing-cycles>15</meta:editing-cycles><meta:generator>LibreOffice/25.8.2.2$Windows_X86_64 LibreOffice_project/d401f2107ccab8f924a8e2df40f573aab7605b6f</meta:generator><meta:document-statistic meta:table-count="9" meta:image-count="3" meta:object-count="0" meta:page-count="8" meta:paragraph-count="152" meta:word-count="1719" meta:character-count="12629" meta:non-whitespace-character-count="11059"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">211072</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">3764</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">26871</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">9982</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">53742</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">19964</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
-   <config:config-item-map-indexed config:name="Views">
-    <config:config-item-map-entry>
-     <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">19680</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">160057</config:config-item>
-     <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">211072</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">26869</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">221052</config:config-item>
-     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-     <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
-     <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
-     <config:config-item config:name="ZoomFactor" config:type="short">120</config:config-item>
-     <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
-     <config:config-item config:name="KeepRatio" config:type="boolean">false</config:config-item>
-     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
-     <config:config-item config:name="LegacySingleLineFontwork" config:type="boolean">false</config:config-item>
-     <config:config-item config:name="ConnectorUseSnapRect" config:type="boolean">false</config:config-item>
-     <config:config-item config:name="IgnoreBreakAfterMultilineField" config:type="boolean">false</config:config-item>
-     <config:config-item config:name="UseTrailingEmptyLinesInLayout" config:type="boolean">false</config:config-item>
-    </config:config-item-map-entry>
-   </config:config-item-map-indexed>
   </config:config-item-set>
   <config:config-item-set config:name="ooo:configuration-settings">
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
@@ -84,7 +62,7 @@
    <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IgnoreHiddenCharsForLineCalculation" config:type="boolean">true</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">2133348</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">2567975</config:config-item>
    <config:config-item config:name="RsidRoot" config:type="int">2082192</config:config-item>
    <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
@@ -173,7 +151,7 @@
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:writing-mode="lr-tb" style:flow-with-text="false"/>
-   <style:paragraph-properties fo:line-height="130%" style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0cm" style:font-independent-line-spacing="false">
+   <style:paragraph-properties fo:line-height="130%" style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0cm" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties fo:color="#1e293b" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="10.5pt" fo:language="es" fo:country="ES" style:letter-kerning="true" style:font-name-asian="Segoe UI" style:font-size-asian="12pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Tahoma" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -337,7 +315,7 @@
    <style:table-properties style:width="17cm" table:align="margins"/>
   </style:style>
   <style:style style:name="HeaderTable.A" style:family="table-column">
-   <style:table-column-properties style:column-width="5.667cm" style:rel-column-width="3212*"/>
+   <style:table-column-properties style:column-width="5.667cm" style:rel-column-width="21845*"/>
   </style:style>
   <style:style style:name="HeaderTable.A1" style:family="table-cell">
    <style:table-cell-properties fo:padding="0cm" fo:border="none"/>
@@ -346,7 +324,10 @@
    <style:table-properties style:width="17cm" table:align="margins"/>
   </style:style>
   <style:style style:name="Tabla2.A" style:family="table-column">
-   <style:table-column-properties style:column-width="5.667cm" style:rel-column-width="21845*"/>
+   <style:table-column-properties style:column-width="8.5cm" style:rel-column-width="32767*"/>
+  </style:style>
+  <style:style style:name="Tabla2.B" style:family="table-column">
+   <style:table-column-properties style:column-width="8.5cm" style:rel-column-width="32768*"/>
   </style:style>
   <style:style style:name="Tabla2.A1" style:family="table-cell">
    <style:table-cell-properties fo:padding="0.097cm" fo:border="none"/>
@@ -358,7 +339,7 @@
    <style:table-column-properties style:column-width="17cm" style:rel-column-width="65535*"/>
   </style:style>
   <style:style style:name="Tabla3.A1" style:family="table-cell">
-   <style:table-cell-properties fo:background-color="#172033" fo:padding="0.097cm" fo:border="0.5pt solid #000000">
+   <style:table-cell-properties fo:background-color="#ffffff" fo:padding="0.097cm" fo:border="none">
     <style:background-image/>
    </style:table-cell-properties>
   </style:style>
@@ -369,12 +350,22 @@
    <style:table-column-properties style:column-width="8.497cm"/>
   </style:style>
   <style:style style:name="CoverMeta.A1" style:family="table-cell">
-   <style:table-cell-properties fo:background-color="#172033" fo:padding="0.27cm" fo:border="0.6pt solid #ffffff" fo:vertical-align="middle">
+   <style:table-cell-properties fo:background-color="#1e3a8a" fo:padding="0.27cm" fo:border-left="0.6pt solid #d9e2f0" fo:border-right="none" fo:border-top="0.6pt solid #d9e2f0" fo:border-bottom="0.6pt solid #d9e2f0" fo:vertical-align="middle">
     <style:background-image/>
    </style:table-cell-properties>
   </style:style>
   <style:style style:name="CoverMeta.B1" style:family="table-cell">
-   <style:table-cell-properties fo:background-color="#ffffff" fo:padding="0.27cm" fo:border="0.6pt solid #ffffff" fo:vertical-align="middle">
+   <style:table-cell-properties fo:background-color="#ffffff" fo:padding="0.27cm" fo:border="0.6pt solid #d9e2f0" fo:vertical-align="middle">
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="CoverMeta.A2" style:family="table-cell">
+   <style:table-cell-properties fo:background-color="#1e3a8a" fo:padding="0.27cm" fo:border-left="0.6pt solid #d9e2f0" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.6pt solid #d9e2f0" fo:vertical-align="middle">
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="CoverMeta.B2" style:family="table-cell">
+   <style:table-cell-properties fo:background-color="#ffffff" fo:padding="0.27cm" fo:border-left="0.6pt solid #d9e2f0" fo:border-right="0.6pt solid #d9e2f0" fo:border-top="none" fo:border-bottom="0.6pt solid #d9e2f0" fo:vertical-align="middle">
     <style:background-image/>
    </style:table-cell-properties>
   </style:style>
@@ -514,122 +505,143 @@
    <style:text-properties fo:font-weight="normal" officeooo:paragraph-rsid="0020041d" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Header_5f_Text_5f_Center">
-   <style:text-properties fo:font-weight="normal" officeooo:paragraph-rsid="0020041d" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="00231e9f" officeooo:paragraph-rsid="00231e9f" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Header_5f_Text_5f_Center">
    <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
-   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="normal" officeooo:paragraph-rsid="00231e9f" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties officeooo:paragraph-rsid="0025e8c9"/>
   </style:style>
-  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-top="1cm" fo:margin-bottom="0.25cm" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties fo:color="#67e8f9" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="8.5pt" fo:letter-spacing="0.079cm" fo:font-weight="bold"/>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="end" style:justify-single-word="false"/>
+   <style:text-properties officeooo:paragraph-rsid="0025e8c9"/>
   </style:style>
-  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties fo:color="#ffffff" loext:opacity="100%" fo:font-size="26pt" fo:font-weight="bold" officeooo:rsid="0020041d" officeooo:paragraph-rsid="0020041d" style:font-size-asian="26pt" style:font-weight-asian="bold" style:font-size-complex="26pt" style:font-weight-complex="bold"/>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="0025e8c9"/>
   </style:style>
   <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="0020041d" officeooo:paragraph-rsid="0020041d"/>
+   <style:text-properties fo:color="#172033" loext:opacity="100%" fo:font-size="26pt" fo:font-weight="bold" officeooo:rsid="0020041d" officeooo:paragraph-rsid="0020041d" style:font-size-asian="26pt" style:font-weight-asian="bold" style:font-size-complex="26pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties fo:color="#67e8f9" loext:opacity="100%" fo:font-size="16pt" fo:font-weight="bold" officeooo:rsid="0020041d" officeooo:paragraph-rsid="0020041d" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
+   <style:paragraph-properties fo:margin-top="0.499cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:color="#172033" loext:opacity="100%" fo:font-size="14pt" fo:font-weight="bold" officeooo:rsid="00254e1f" officeooo:paragraph-rsid="00254e1f" style:font-size-asian="14pt" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="end" style:justify-single-word="false"/>
-   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9.5pt" fo:font-weight="bold"/>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.499cm" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:color="#1e3a8a" loext:opacity="100%" fo:font-size="22pt" fo:font-weight="bold" officeooo:rsid="0020041d" officeooo:paragraph-rsid="0020041d" style:font-size-asian="22pt" style:font-weight-asian="bold" style:font-size-complex="22pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false"/>
-   <style:text-properties fo:color="#0f172a" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9.5pt" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="0000e7f1"/>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="end" style:justify-single-word="false"/>
+   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9.5pt" fo:font-weight="bold" officeooo:paragraph-rsid="00243ad3"/>
   </style:style>
   <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="end" style:justify-single-word="false"/>
-   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9.5pt" fo:font-weight="bold" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="0000e7f1"/>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false"/>
+   <style:text-properties fo:color="#172033" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9.5pt" fo:font-weight="bold" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="00243ad3" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="end" style:justify-single-word="false"/>
-   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9.5pt" fo:font-weight="bold" officeooo:paragraph-rsid="0000e7f1"/>
+   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9.5pt" fo:font-weight="bold" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="00243ad3"/>
   </style:style>
   <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false"/>
-   <style:text-properties fo:color="#0f172a" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9.5pt"/>
+   <style:text-properties fo:color="#172033" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9.5pt" fo:font-weight="bold" officeooo:paragraph-rsid="00243ad3" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="Standard">
-   <style:paragraph-properties fo:margin-top="0.72cm" fo:margin-bottom="0.319cm" style:contextual-spacing="false" style:page-number="auto" fo:break-before="page" fo:padding-left="0.28cm" fo:padding-right="0cm" fo:padding-top="0cm" fo:padding-bottom="0.12cm" fo:border-left="4pt solid #06b6d4" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.99pt solid #d9e2f0" fo:keep-with-next="always"/>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-size="6pt" officeooo:paragraph-rsid="00243ad3" style:font-size-asian="5.25pt" style:font-size-complex="6pt"/>
   </style:style>
   <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.18cm" style:contextual-spacing="false" fo:padding-left="0.22cm" fo:padding-right="0cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="2.49pt solid #2563eb" fo:border-right="none" fo:border-top="none" fo:border-bottom="none" fo:keep-with-next="always"/>
-   <style:text-properties fo:color="#2563eb" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="11.5pt" officeooo:paragraph-rsid="0020041d"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false"/>
+   <style:text-properties fo:font-size="6pt" style:font-size-asian="5.25pt" style:font-size-complex="6pt"/>
   </style:style>
-  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.22cm" style:contextual-spacing="false" fo:line-height="125%"/>
-   <style:text-properties fo:color="#172033" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="10pt"/>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="Standard">
+   <style:paragraph-properties fo:margin-top="0.72cm" fo:margin-bottom="0.319cm" style:contextual-spacing="false" style:page-number="auto" fo:break-before="page" fo:padding-left="0.28cm" fo:padding-right="0cm" fo:padding-top="0cm" fo:padding-bottom="0.12cm" fo:border-left="4pt solid #06b6d4" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.99pt solid #d9e2f0" fo:keep-with-next="always"/>
   </style:style>
   <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.18cm" style:contextual-spacing="false" fo:padding-left="0.22cm" fo:padding-right="0cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="2.49pt solid #2563eb" fo:border-right="none" fo:border-top="none" fo:border-bottom="none" fo:keep-with-next="always"/>
-   <style:text-properties fo:color="#2563eb" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="11.5pt" fo:font-weight="bold"/>
+   <style:text-properties fo:color="#2563eb" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="11.5pt" officeooo:paragraph-rsid="0020041d"/>
   </style:style>
   <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.22cm" style:contextual-spacing="false" fo:line-height="125%"/>
+   <style:text-properties fo:color="#172033" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="10pt"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.18cm" style:contextual-spacing="false" fo:padding-left="0.22cm" fo:padding-right="0cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border-left="2.49pt solid #2563eb" fo:border-right="none" fo:border-top="none" fo:border-bottom="none" fo:keep-with-next="always"/>
+   <style:text-properties fo:color="#2563eb" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="11.5pt" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0.72cm" fo:margin-bottom="0.319cm" style:contextual-spacing="false" fo:padding-left="0.28cm" fo:padding-right="0cm" fo:padding-top="0cm" fo:padding-bottom="0.12cm" fo:border-left="4pt solid #06b6d4" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.99pt solid #d9e2f0" fo:keep-with-next="always"/>
    <style:text-properties fo:color="#0b1736" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="14pt" fo:font-weight="bold" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
   </style:style>
-  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:line-height="125%" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9pt" fo:font-weight="bold"/>
   </style:style>
-  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false"/>
    <style:text-properties fo:color="#1e293b" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="8.80000019073486pt" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="0000e7f1"/>
   </style:style>
-  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
    <style:text-properties fo:color="#1e293b" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="8.80000019073486pt" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="0000e7f1"/>
   </style:style>
-  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Standard">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#eff6ff" draw:opacity="100%"/>
    <style:paragraph-properties fo:margin-top="0.3cm" fo:margin-bottom="0.4cm" style:contextual-spacing="false" fo:background-color="#eff6ff" fo:padding="0.3cm" fo:border-left="3.49pt solid #2563eb" fo:border-right="none" fo:border-top="none" fo:border-bottom="none"/>
    <style:text-properties fo:color="#1e3a8a" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9.5pt"/>
   </style:style>
-  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0.55cm" fo:margin-top="0.03cm" fo:margin-bottom="0.101cm" style:contextual-spacing="false" fo:text-indent="-0.349cm" style:auto-text-indent="false"/>
    <style:text-properties fo:color="#172033" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9.80000019073486pt"/>
   </style:style>
-  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:rsid="00208d64" officeooo:paragraph-rsid="00208d64"/>
-  </style:style>
-  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9pt" fo:font-weight="bold"/>
-  </style:style>
   <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties fo:color="#1e293b" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="8.80000019073486pt" fo:font-weight="bold" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="0000e7f1"/>
+   <style:text-properties officeooo:rsid="00208d64" officeooo:paragraph-rsid="00208d64"/>
   </style:style>
   <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
-   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9pt" fo:font-weight="bold" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="0000e7f1"/>
+   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9pt" fo:font-weight="bold"/>
   </style:style>
   <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9pt" fo:font-weight="bold" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="0000e7f1"/>
+   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9pt" fo:font-weight="bold"/>
   </style:style>
   <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties fo:color="#1e293b" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="8.80000019073486pt" fo:font-weight="normal" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="0000e7f1" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#1e293b" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="8.80000019073486pt" fo:font-weight="bold" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="0000e7f1"/>
   </style:style>
   <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9pt" fo:font-weight="bold" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="0000e7f1"/>
+  </style:style>
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="9pt" fo:font-weight="bold" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="0000e7f1"/>
+  </style:style>
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:color="#1e293b" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="8.80000019073486pt" fo:font-weight="normal" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="0000e7f1" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties fo:color="#1e293b" loext:opacity="100%" style:font-name="Segoe UI1" fo:font-size="8.80000019073486pt" officeooo:rsid="0000e7f1" officeooo:paragraph-rsid="0000e7f1"/>
   </style:style>
-  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:line-height="125%"/>
    <style:text-properties fo:color="#ffffff" loext:opacity="100%" fo:font-size="9pt" fo:font-weight="bold" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:line-height="125%"/>
+   <style:text-properties fo:font-size="8.80000019073486pt" style:font-size-asian="8.80000019073486pt" style:font-size-complex="8.80000019073486pt"/>
+  </style:style>
+  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false"/>
+   <style:text-properties fo:color="#ffffff" loext:opacity="100%" fo:font-size="9pt" fo:font-weight="bold" style:font-size-asian="9pt" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false"/>
    <style:text-properties fo:font-size="8.80000019073486pt" style:font-size-asian="8.80000019073486pt" style:font-size-complex="8.80000019073486pt"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
@@ -657,9 +669,12 @@
    <style:text-properties officeooo:rsid="00208d64"/>
   </style:style>
   <style:style style:name="T9" style:family="text">
-   <style:text-properties fo:font-style="italic"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T10" style:family="text">
+   <style:text-properties fo:font-style="italic"/>
+  </style:style>
+  <style:style style:name="T11" style:family="text">
    <style:text-properties fo:font-style="italic" fo:font-weight="bold"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
@@ -700,10 +715,10 @@
        <text:p text:style-name="P1">{{centro}} {{curso_academico}}</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="HeaderTable.A1" office:value-type="string">
-       <text:p text:style-name="P2">{{curso}} {{ciclo_corto}}</text:p>
+       <text:p text:style-name="P2">Programación Didáctica</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="HeaderTable.A1" office:value-type="string">
-       <text:p text:style-name="P3">{{modulo_header}}</text:p>
+       <text:p text:style-name="P3">{{curso}} {{ciclo_corto}} {{modulo_header}}</text:p>
       </table:table-cell>
      </table:table-row>
     </table:table>
@@ -725,10 +740,11 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
    <table:table table:name="Tabla2" table:style-name="Tabla2">
-    <table:table-column table:style-name="Tabla2.A" table:number-columns-repeated="3"/>
+    <table:table-column table:style-name="Tabla2.A"/>
+    <table:table-column table:style-name="Tabla2.B"/>
     <table:table-row>
      <table:table-cell table:style-name="Tabla2.A1" office:value-type="string">
-      <text:p text:style-name="P4"><draw:frame draw:style-name="fr1" draw:name="logo1" text:anchor-type="as-char" svg:width="3.51cm" svg:height="1.873cm" draw:z-index="0"><draw:image draw:mime-type="image/png">
+      <text:p text:style-name="P4"><draw:frame draw:style-name="fr1" draw:name="logo1" text:anchor-type="as-char" svg:width="3.51cm" svg:height="1.873cm" draw:z-index="1"><draw:image draw:mime-type="image/png">
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAQ4AAACQCAYAAAD5qoUiAAAAAXNSR0IArs4c6QAAAARnQU1B
           AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAHM4SURBVHhe7f13eFRpeqCN3xUUqko5
           5wCSACGCEDmHpumGhoamI51mxuPp8YT1eO2d3bX92d619/r5s9fz2TPjnekEDDTddKLJ0GQQ
@@ -1283,7 +1299,7 @@
        </draw:frame></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla2.A1" office:value-type="string">
-      <text:p text:style-name="P4"><draw:frame draw:style-name="fr1" draw:name="logo2" text:anchor-type="as-char" svg:width="2.282cm" svg:height="1.774cm" draw:z-index="1"><draw:image draw:mime-type="image/png">
+      <text:p text:style-name="P5"><draw:frame draw:style-name="fr1" draw:name="logo2" text:anchor-type="as-char" svg:width="2.282cm" svg:height="1.774cm" draw:z-index="2"><draw:image draw:mime-type="image/png">
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAJ4AAAB7CAYAAACFDDlKAAAAAXNSR0IArs4c6QAAAARnQU1B
           AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAFYbSURBVHhe7b15kF3Hdd//6b7L2+bN
           PoMZLIPBvhEACRIkRXATTUryjzRl2VopS7YTxbbKkVNx2WUnVXHkqlRFkSNVquxUKo5+ieun
@@ -1699,8 +1715,14 @@
         </draw:image>
        </draw:frame></text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Tabla2.A1" office:value-type="string">
-      <text:p text:style-name="P4"><draw:frame draw:style-name="fr1" draw:name="logo3" text:anchor-type="as-char" svg:width="3.995cm" svg:height="1.716cm" draw:z-index="2"><draw:image draw:mime-type="image/png">
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="P6"/>
+   <table:table table:name="Tabla3" table:style-name="Tabla3">
+    <table:table-column table:style-name="Tabla3.A"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Tabla3.A1" office:value-type="string">
+      <text:p text:style-name="P7"><draw:frame draw:style-name="fr1" draw:name="logo3" text:anchor-type="as-char" svg:width="3.995cm" svg:height="1.716cm" draw:z-index="0"><draw:image draw:mime-type="image/png">
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAUQAAACLCAYAAAAZI+ATAAAAAXNSR0IArs4c6QAAAARnQU1B
           AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAC4QSURBVHhe7Z13eFRF98e/N9uyyaaR
           HkJIaEFKAAkgRXpTQaVEmgrSLSAqvCKICuqrP1ERFBALIrw2wIISRIogIiBFehcIkJAeQnrZ
@@ -1925,19 +1947,9 @@
          </office:binary-data>
         </draw:image>
        </draw:frame></text:p>
-     </table:table-cell>
-    </table:table-row>
-   </table:table>
-   <text:p text:style-name="P5"/>
-   <table:table table:name="Tabla3" table:style-name="Tabla3">
-    <table:table-column table:style-name="Tabla3.A"/>
-    <table:table-row>
-     <table:table-cell table:style-name="Tabla3.A1" office:value-type="string">
-      <text:p text:style-name="P6"/>
-      <text:p text:style-name="P6">PROGRAMACIÓN DIDÁCTICA</text:p>
-      <text:p text:style-name="P7"/>
-      <text:p text:style-name="P8">{{modulo}}</text:p>
-      <text:p text:style-name="P8"/>
+      <text:p text:style-name="P7">PROGRAMACIÓN DIDÁCTICA</text:p>
+      <text:p text:style-name="P8">{{ciclo_corto}}</text:p>
+      <text:p text:style-name="P9">{{nombre_modulo}}</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
@@ -1946,137 +1958,139 @@
     <table:table-column table:style-name="CoverMeta.A" table:number-columns-repeated="2"/>
     <table:table-row>
      <table:table-cell table:style-name="CoverMeta.A1" office:value-type="string">
-      <text:p text:style-name="P9">Módulo Profesional</text:p>
+      <text:p text:style-name="P10">Módulo Profesional</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="CoverMeta.B1" office:value-type="string">
-      <text:p text:style-name="P10">{{modulo}}</text:p>
+      <text:p text:style-name="P11">{{modulo}}</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="CoverMeta.A1" office:value-type="string">
-      <text:p text:style-name="P9">Ciclo Formativo</text:p>
+     <table:table-cell table:style-name="CoverMeta.A2" office:value-type="string">
+      <text:p text:style-name="P10">Ciclo Formativo</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="CoverMeta.B1" office:value-type="string">
-      <text:p text:style-name="P10">{{ciclo}}</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:table-cell table:style-name="CoverMeta.A1" office:value-type="string">
-      <text:p text:style-name="P9">Familia Profesional</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="CoverMeta.B1" office:value-type="string">
-      <text:p text:style-name="P10">{{familia}}</text:p>
+     <table:table-cell table:style-name="CoverMeta.B2" office:value-type="string">
+      <text:p text:style-name="P11">{{ciclo}}</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="CoverMeta.A1" office:value-type="string">
-      <text:p text:style-name="P11">Curso</text:p>
+     <table:table-cell table:style-name="CoverMeta.A2" office:value-type="string">
+      <text:p text:style-name="P10">Familia Profesional</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="CoverMeta.B1" office:value-type="string">
-      <text:p text:style-name="P10">{{curso}}</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:table-cell table:style-name="CoverMeta.A1" office:value-type="string">
-      <text:p text:style-name="P12">Duración y Créditos</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="CoverMeta.B1" office:value-type="string">
-      <text:p text:style-name="P10">{{horas}} horas ({{ects}} ECTS)</text:p>
+     <table:table-cell table:style-name="CoverMeta.B2" office:value-type="string">
+      <text:p text:style-name="P11">{{familia}}</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="CoverMeta.A1" office:value-type="string">
-      <text:p text:style-name="P9">Profesorado Responsable</text:p>
+     <table:table-cell table:style-name="CoverMeta.A2" office:value-type="string">
+      <text:p text:style-name="P12">Curso</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="CoverMeta.B1" office:value-type="string">
+     <table:table-cell table:style-name="CoverMeta.B2" office:value-type="string">
+      <text:p text:style-name="P11">{{curso}}</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="CoverMeta.A2" office:value-type="string">
+      <text:p text:style-name="P10">Duración y Créditos</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="CoverMeta.B2" office:value-type="string">
+      <text:p text:style-name="P11">{{horas}} horas ({{ects}} ECTS)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="CoverMeta.A2" office:value-type="string">
+      <text:p text:style-name="P10">Profesorado Responsable</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="CoverMeta.B2" office:value-type="string">
       <text:p text:style-name="P13">{{profesor}}</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="CoverMeta.A1" office:value-type="string">
-      <text:p text:style-name="P9">Centro Educativo</text:p>
+     <table:table-cell table:style-name="CoverMeta.A2" office:value-type="string">
+      <text:p text:style-name="P10">Centro Educativo</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="CoverMeta.B1" office:value-type="string">
-      <text:p text:style-name="P10">{{centro}}</text:p>
+     <table:table-cell table:style-name="CoverMeta.B2" office:value-type="string">
+      <text:p text:style-name="P11">{{centro}}</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
-     <table:table-cell table:style-name="CoverMeta.A1" office:value-type="string">
-      <text:p text:style-name="P9">Curso Académico</text:p>
+     <table:table-cell table:style-name="CoverMeta.A2" office:value-type="string">
+      <text:p text:style-name="P10">Curso Académico</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="CoverMeta.B1" office:value-type="string">
+     <table:table-cell table:style-name="CoverMeta.B2" office:value-type="string">
       <text:p text:style-name="P13">{{curso_academico}}</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="P14"><text:span text:style-name="T1">1. </text:span><text:span text:style-name="T2">M</text:span><text:span text:style-name="T1">arco normativo y contextualización del módulo</text:span></text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T3">1.</text:span><text:span text:style-name="T4">1</text:span><text:span text:style-name="T3">. </text:span><text:span text:style-name="T4">Marco normativo</text:span></text:p>
-   <text:p text:style-name="P16">La presente programación didáctica se fundamenta en la legislación educativa vigente:</text:p>
-   <text:p text:style-name="P16">1. <text:span text:style-name="T5">Ley Orgánica 3/2022, de 31 de marzo</text:span>, de ordenación e integración de la Formación Profesional.</text:p>
-   <text:p text:style-name="P16">2. <text:span text:style-name="T5">Real Decreto 659/2023, de 18 de julio</text:span>, por el que se desarrolla la ordenación del Sistema de Formación Profesional.</text:p>
-   <text:p text:style-name="P16">3. {{normativa_referencia}}, por el que se fijan las enseñanzas mínimas del título.</text:p>
-   <text:p text:style-name="P16">4. <text:span text:style-name="T5">Real Decreto 500/2024, de 21 de mayo</text:span>, que adecúa la distribución de créditos ECTS y las atribuciones docentes del profesorado.</text:p>
-   <text:p text:style-name="P16">5. Normativa curricular y de evaluación autonómica correspondiente al presente curso académico.</text:p>
-   <text:p text:style-name="P17">1.<text:span text:style-name="T6">2</text:span>. Contextualización</text:p>
-   <text:p text:style-name="P16">El módulo profesional {{modulo}} se imparte en el {{curso}} curso del ciclo formativo de {{nivel}}. El entorno sociolaboral y tecnológico demanda profesionales con sólida cualificación práctica, capacidad analítica y rigor en el desarrollo técnico.</text:p>
-   <text:p text:style-name="P16">{{contextualizacion_modulo}}</text:p>
-   <text:p text:style-name="P18">2. Relación entre los estándares de competencia y los módulos</text:p>
-   <text:p text:style-name="P16">El módulo profesional {{modulo}} capacita al alumnado para la adquisición de las cualificaciones y unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales (CNCP) asociadas al título.</text:p>
-   <text:p text:style-name="P17">2.1. Unidades de Competencia del Catálogo Nacional asociadas al módulo</text:p>
+   <text:p text:style-name="P14"/>
+   <text:p text:style-name="P15"/>
+   <text:p text:style-name="P16"><text:span text:style-name="T1">1. </text:span><text:span text:style-name="T2">M</text:span><text:span text:style-name="T1">arco normativo y contextualización del módulo</text:span></text:p>
+   <text:p text:style-name="P17"><text:span text:style-name="T3">1.</text:span><text:span text:style-name="T4">1</text:span><text:span text:style-name="T3">. </text:span><text:span text:style-name="T4">Marco normativo</text:span></text:p>
+   <text:p text:style-name="P18">La presente programación didáctica se fundamenta en la legislación educativa vigente:</text:p>
+   <text:p text:style-name="P18">1. <text:span text:style-name="T5">Ley Orgánica 3/2022, de 31 de marzo</text:span>, de ordenación e integración de la Formación Profesional.</text:p>
+   <text:p text:style-name="P18">2. <text:span text:style-name="T5">Real Decreto 659/2023, de 18 de julio</text:span>, por el que se desarrolla la ordenación del Sistema de Formación Profesional.</text:p>
+   <text:p text:style-name="P18">3. {{normativa_referencia}}, por el que se fijan las enseñanzas mínimas del título.</text:p>
+   <text:p text:style-name="P18">4. <text:span text:style-name="T5">Real Decreto 500/2024, de 21 de mayo</text:span>, que adecúa la distribución de créditos ECTS y las atribuciones docentes del profesorado.</text:p>
+   <text:p text:style-name="P18">5. Normativa curricular y de evaluación autonómica correspondiente al presente curso académico.</text:p>
+   <text:p text:style-name="P19">1.<text:span text:style-name="T6">2</text:span>. Contextualización</text:p>
+   <text:p text:style-name="P18">El módulo profesional {{modulo}} se imparte en el {{curso}} curso del ciclo formativo de {{nivel}}. El entorno sociolaboral y tecnológico demanda profesionales con sólida cualificación práctica, capacidad analítica y rigor en el desarrollo técnico.</text:p>
+   <text:p text:style-name="P18">{{contextualizacion_modulo}}</text:p>
+   <text:p text:style-name="P20">2. Relación entre los estándares de competencia y los módulos</text:p>
+   <text:p text:style-name="P18">El módulo profesional {{modulo}} capacita al alumnado para la adquisición de las cualificaciones y unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales (CNCP) asociadas al título.</text:p>
+   <text:p text:style-name="P19">2.1. Unidades de Competencia del Catálogo Nacional asociadas al módulo</text:p>
    <table:table table:name="Table_36848684" table:style-name="Table_5f_36848684">
     <table:table-column table:style-name="Table_5f_36848684.A"/>
     <table:table-column table:style-name="Table_5f_36848684.B"/>
     <table:table-header-rows>
      <table:table-row>
       <table:table-cell table:style-name="Table_5f_36848684.A1" office:value-type="string">
-       <text:p text:style-name="P19">Unidad de Competencia</text:p>
+       <text:p text:style-name="P21">Unidad de Competencia</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table_5f_36848684.A1" office:value-type="string">
-       <text:p text:style-name="P19">Cualificación Profesional de Referencia</text:p>
+       <text:p text:style-name="P21">Cualificación Profesional de Referencia</text:p>
       </table:table-cell>
      </table:table-row>
     </table:table-header-rows>
     <table:table-row>
      <table:table-cell table:style-name="Table_5f_36848684.A2" office:value-type="string">
-      <text:p text:style-name="P20">{{uc}}</text:p>
+      <text:p text:style-name="P22">{{uc}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table_5f_36848684.A2" office:value-type="string">
-      <text:p text:style-name="P21">{{ifc}}</text:p>
+      <text:p text:style-name="P23">{{ifc}}</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="P22"><text:span text:style-name="T3">Acreditación Oficial de Competencias Profesionales:</text:span> <text:span text:style-name="T6">{{acreditacion}}</text:span></text:p>
-   <text:p text:style-name="P18"><text:soft-page-break/>3. Contribución de los RA a las competencias generales</text:p>
-   <text:p text:style-name="P16">Los Resultados de Aprendizaje del módulo profesional <text:span text:style-name="T7">{{modulo}}</text:span> contribuyen de forma directa a la adquisición de las competencias generales del título:</text:p>
-   <text:p text:style-name="P17">3.1. Competencias profesionales, personales y sociales del título desarrolladas</text:p>
-   <text:p text:style-name="P23"><text:span text:style-name="T7">{{letra_competencia}}</text:span><text:span text:style-name="T3">)</text:span> <text:span text:style-name="T6">{{descripción_competencia}}</text:span></text:p>
-   <text:p text:style-name="P23"/>
-   <text:p text:style-name="P17">3.2. <text:span text:style-name="T6">C</text:span>ontribución <text:span text:style-name="T6">de los</text:span> <text:span text:style-name="T6">RA a las </text:span>Competencias <text:span text:style-name="T6">Generales</text:span></text:p>
-   <text:p text:style-name="P24">La siguiente tabla vincula los Resultados de aprendizaje del módulo con las Competencias generales del ciclo a las cuales contribuyen.</text:p>
+   <text:p text:style-name="P24"><text:span text:style-name="T3">Acreditación Oficial de Competencias Profesionales:</text:span> <text:span text:style-name="T6">{{acreditacion}}</text:span></text:p>
+   <text:p text:style-name="P20"><text:soft-page-break/>3. Contribución de los RA a las competencias generales</text:p>
+   <text:p text:style-name="P18">Los Resultados de Aprendizaje del módulo profesional <text:span text:style-name="T7">{{modulo}}</text:span> contribuyen de forma directa a la adquisición de las competencias generales del título:</text:p>
+   <text:p text:style-name="P19">3.1. Competencias profesionales, personales y sociales del título desarrolladas</text:p>
+   <text:p text:style-name="P25"><text:span text:style-name="T7">{{letra_competencia}}</text:span><text:span text:style-name="T3">)</text:span> <text:span text:style-name="T6">{{descripción_competencia}}</text:span></text:p>
+   <text:p text:style-name="P25"/>
+   <text:p text:style-name="P19">3.2. <text:span text:style-name="T6">C</text:span>ontribución <text:span text:style-name="T6">de los</text:span> <text:span text:style-name="T6">RA a las </text:span>Competencias <text:span text:style-name="T6">Generales</text:span></text:p>
+   <text:p text:style-name="P26">La siguiente tabla vincula los Resultados de aprendizaje del módulo con las Competencias generales del ciclo a las cuales contribuyen.</text:p>
    <table:table table:name="Table_49111049" table:style-name="Table_5f_49111049">
     <table:table-column table:style-name="Table_5f_49111049.A"/>
     <table:table-column table:style-name="Table_5f_49111049.B"/>
     <table:table-header-rows>
      <table:table-row>
       <table:table-cell table:style-name="Table_5f_49111049.A1" office:value-type="string">
-       <text:p text:style-name="P19">Resultado de Aprendizaje</text:p>
+       <text:p text:style-name="P27">Resultado de Aprendizaje</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table_5f_49111049.A1" office:value-type="string">
-       <text:p text:style-name="P25">Competencias <text:span text:style-name="T8">v</text:span>inculadas</text:p>
+       <text:p text:style-name="P28">Competencias <text:span text:style-name="T8">v</text:span>inculadas</text:p>
       </table:table-cell>
      </table:table-row>
     </table:table-header-rows>
     <table:table-row>
      <table:table-cell table:style-name="Table_5f_49111049.A2" office:value-type="string">
-      <text:p text:style-name="P20">{{ra}}</text:p>
+      <text:p text:style-name="P22">{{ra}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table_5f_49111049.A2" office:value-type="string">
-      <text:p text:style-name="P26">{{competencias}}</text:p>
+      <text:p text:style-name="P29">{{competencias}}</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="P16">Asimismo, fomenta las competencias transversales esenciales en el mercado actual: trabajo colaborativo en repositorios compartidos, iniciativa personal en la resolución de incidencias, autoaprendizaje continuo y adaptación proactiva ante la constante evolución tecnológica.</text:p>
-   <text:p text:style-name="P18">4. Esquema general y secuenciación de las unidades de programación</text:p>
+   <text:p text:style-name="P18">Asimismo, fomenta las competencias transversales esenciales en el mercado actual: trabajo colaborativo en repositorios compartidos, iniciativa personal en la resolución de incidencias, autoaprendizaje continuo y adaptación proactiva ante la constante evolución tecnológica.</text:p>
+   <text:p text:style-name="P20">4. Esquema general y secuenciación de las unidades de programación</text:p>
    <table:table table:name="Tabla1" table:style-name="Tabla1">
     <table:table-column table:style-name="Tabla1.A"/>
     <table:table-column table:style-name="Tabla1.B"/>
@@ -2087,115 +2101,115 @@
     <table:table-header-rows>
      <table:table-row>
       <table:table-cell table:style-name="Tabla1.A1" office:value-type="string">
-       <text:p text:style-name="P27">Unidad de programación</text:p>
+       <text:p text:style-name="P30">Unidad de programación</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Tabla1.A1" office:value-type="string">
-       <text:p text:style-name="P27">RAs</text:p>
+       <text:p text:style-name="P30">RAs</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Tabla1.A1" office:value-type="string">
-       <text:p text:style-name="P27">Duración</text:p>
+       <text:p text:style-name="P30">Duración</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Tabla1.D1" office:value-type="string">
-       <text:p text:style-name="P27">Trimestre</text:p>
+       <text:p text:style-name="P30">Trimestre</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Tabla1.A1" office:value-type="string">
-       <text:p text:style-name="P28">Inicio</text:p>
+       <text:p text:style-name="P31">Inicio</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Tabla1.D1" office:value-type="string">
-       <text:p text:style-name="P28">Fin</text:p>
+       <text:p text:style-name="P31">Fin</text:p>
       </table:table-cell>
      </table:table-row>
     </table:table-header-rows>
     <table:table-row>
      <table:table-cell table:style-name="Tabla1.A2" office:value-type="string">
-      <text:p text:style-name="P20">{{UP}}</text:p>
+      <text:p text:style-name="P22">{{UP}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla1.A2" office:value-type="string">
-      <text:p text:style-name="P20">{{ras}}</text:p>
+      <text:p text:style-name="P22">{{ras}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla1.A2" office:value-type="string">
-      <text:p text:style-name="P20">{{duracion}}</text:p>
+      <text:p text:style-name="P22">{{duracion}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla1.D2" office:value-type="string">
-      <text:p text:style-name="P20">{{trimestre}}</text:p>
+      <text:p text:style-name="P22">{{trimestre}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla1.A2" office:value-type="string">
-      <text:p text:style-name="P29">{{inicio}}</text:p>
+      <text:p text:style-name="P32">{{inicio}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla1.D2" office:value-type="string">
-      <text:p text:style-name="P30">{{fin}}</text:p>
+      <text:p text:style-name="P33">{{fin}}</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="P18">5. Metodología del proceso de enseñanza-aprendizaje</text:p>
-   <text:p text:style-name="P16">El modelo pedagógico adoptado se fundamenta en el <text:span text:style-name="T3">enfoque por competencias</text:span> y las <text:span text:style-name="T3">metodologías activas de aprendizaje</text:span>, orientadas a replicar dinámicas reales de la industria tecnológica:</text:p>
-   <text:p text:style-name="P16">1. Aprendizaje Basado en Proyectos (ABP): El alumnado desarrollará soluciones técnicas, supuestos y proyectos aplicados completos a partir de especificaciones de requisitos funcionales y no funcionales, integrando conocimientos de forma iterativa e incremental.</text:p>
-   <text:p text:style-name="P16">2. <text:span text:style-name="T3">Metodologías Ágiles (Scrum / Kanban):</text:span> Trabajo organizado en <text:span text:style-name="T9">sprints</text:span> quincenales, reuniones de seguimiento, definición de <text:span text:style-name="T9">backlog</text:span> y entregables incrementales.</text:p>
-   <text:p text:style-name="P16"><text:soft-page-break/>3. <text:span text:style-name="T3">Resolución Guiada de Retos y Trabajo Colaborativo:</text:span> Prácticas individuales y por parejas (<text:span text:style-name="T9">pair work</text:span>) que fomentan la revisión cruzada de soluciones y potencian las habilidades comunicativas y de trabajo en equipo.</text:p>
-   <text:p text:style-name="P16">4. <text:span text:style-name="T3">Control de Calidad y Pruebas Continuas:</text:span> Sensibilización temprana sobre la importancia de la calidad técnica, pruebas y verificación de especificaciones.</text:p>
-   <text:p text:style-name="P16">5. <text:span text:style-name="T3">Clase Invertida (</text:span><text:span text:style-name="T10">Flipped Classroom</text:span><text:span text:style-name="T3">):</text:span> Consulta autónoma de documentación técnica oficial, especificaciones y videotutoriales de forma previa a las sesiones de aula, reservando el tiempo lectivo para la resolución de dudas complejas y la práctica intensiva en el laboratorio.</text:p>
-   <text:p text:style-name="P17">5.1. Orientaciones Metodológicas Específicas del Módulo</text:p>
-   <text:p text:style-name="P16">{{metodologia_especifica}}</text:p>
-   <text:p text:style-name="P18">6. Recursos</text:p>
-   <text:p text:style-name="P16">Para el óptimo desarrollo de las actividades formativas se emplearán los siguientes recursos:</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Plataforma Virtual de Aprendizaje (LMS):</text:span> Moodle / Classroom del centro educativo para la entrega de tareas, repositorio de apuntes, foros de debate y seguimiento tutorial.</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Plataformas de Control de Versiones y Repositorios:</text:span> Repositorios institucionales y servidores locales para la gestión de proyectos, control de versiones colaborativo y trazabilidad del trabajo del alumnado.</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Documentación Técnica Oficial:</text:span> Guías de referencia, especificaciones oficiales y manuales actualizados.</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Material Audiovisual e Interactivo:</text:span> Guías paso a paso, hojas de referencia rápida (<text:span text:style-name="T9">cheat sheets</text:span>) y laboratorios prácticos.</text:p>
-   <text:p text:style-name="P17">6.1. Recursos Específicos del Módulo</text:p>
+   <text:p text:style-name="P20">5. Metodología del proceso de enseñanza-aprendizaje</text:p>
+   <text:p text:style-name="P18">El modelo pedagógico adoptado se fundamenta en el <text:span text:style-name="T3">enfoque por competencias</text:span> y las <text:span text:style-name="T3">metodologías activas de aprendizaje</text:span>, orientadas a replicar dinámicas reales de la industria tecnológica:</text:p>
+   <text:p text:style-name="P18">1. <text:span text:style-name="T9">Aprendizaje Basado en Proyectos (ABP):</text:span> El alumnado desarrollará soluciones técnicas, supuestos y proyectos aplicados completos a partir de especificaciones de requisitos funcionales y no funcionales, integrando conocimientos de forma iterativa e incremental.</text:p>
+   <text:p text:style-name="P18">2. <text:span text:style-name="T3">Metodologías Ágiles (Scrum / Kanban):</text:span> Trabajo organizado en <text:span text:style-name="T10">sprints</text:span> quincenales, reuniones de seguimiento, definición de <text:span text:style-name="T10">backlog</text:span> y entregables incrementales.</text:p>
+   <text:p text:style-name="P18"><text:soft-page-break/>3. <text:span text:style-name="T3">Resolución Guiada de Retos y Trabajo Colaborativo:</text:span> Prácticas individuales y por parejas (<text:span text:style-name="T10">pair work</text:span>) que fomentan la revisión cruzada de soluciones y potencian las habilidades comunicativas y de trabajo en equipo.</text:p>
+   <text:p text:style-name="P18">4. <text:span text:style-name="T3">Control de Calidad y Pruebas Continuas:</text:span> Sensibilización temprana sobre la importancia de la calidad técnica, pruebas y verificación de especificaciones.</text:p>
+   <text:p text:style-name="P18">5. <text:span text:style-name="T3">Clase Invertida (</text:span><text:span text:style-name="T11">Flipped Classroom</text:span><text:span text:style-name="T3">):</text:span> Consulta autónoma de documentación técnica oficial, especificaciones y videotutoriales de forma previa a las sesiones de aula, reservando el tiempo lectivo para la resolución de dudas complejas y la práctica intensiva en el laboratorio.</text:p>
+   <text:p text:style-name="P19">5.1. Orientaciones Metodológicas Específicas del Módulo</text:p>
+   <text:p text:style-name="P18">{{metodologia_especifica}}</text:p>
+   <text:p text:style-name="P20">6. Recursos</text:p>
+   <text:p text:style-name="P18">Para el óptimo desarrollo de las actividades formativas se emplearán los siguientes recursos:</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Plataforma Virtual de Aprendizaje (LMS):</text:span> Moodle / Classroom del centro educativo para la entrega de tareas, repositorio de apuntes, foros de debate y seguimiento tutorial.</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Plataformas de Control de Versiones y Repositorios:</text:span> Repositorios institucionales y servidores locales para la gestión de proyectos, control de versiones colaborativo y trazabilidad del trabajo del alumnado.</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Documentación Técnica Oficial:</text:span> Guías de referencia, especificaciones oficiales y manuales actualizados.</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Material Audiovisual e Interactivo:</text:span> Guías paso a paso, hojas de referencia rápida (<text:span text:style-name="T10">cheat sheets</text:span>) y laboratorios prácticos.</text:p>
+   <text:p text:style-name="P19">6.1. Recursos Específicos del Módulo</text:p>
    <text:p text:style-name="Standard">{{recursos_especificos}}</text:p>
-   <text:p text:style-name="P18">7. Uso de espacios y equipamientos</text:p>
-   <text:p text:style-name="P17">7.1. Espacios Formativos</text:p>
-   <text:p text:style-name="P23">• Aula - Taller de {{familia}}: Espacio dotado de climatización, aislamiento acústico adecuado, mobiliario ergonómico regulable y cableado de red estructurado con alta disponibilidad.</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Conectividad:</text:span> Conexión a Internet de banda ancha simétrica mediante fibra óptica corporativa, con segmentación VLAN para aislar entornos de pruebas de red y servidores.</text:p>
-   <text:p text:style-name="P17"><text:soft-page-break/>7.2. Equipamiento Hardware y Software</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Puestos de trabajo del alumnado:</text:span> Equipos con arquitectura x86_64, microprocesadores multinúcleo, mínimo 16 GB de memoria RAM y unidades de almacenamiento rápido SSD NVMe para soportar entornos de virtualización, contenedores y compilaciones ágiles.</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Puesto del profesorado:</text:span> Equipo informático maestro conectado a panel interactivo / proyector de alta definición y sistema de audio.</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Infraestructura de red y servidores:</text:span> Servidor local para almacenamiento compartido de imágenes ISO, repositorios espejo y soporte a virtualización de servidores.</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Software y licencias:</text:span> Sistemas operativos basados en software libre y herramientas profesionales amparadas por licencias educativas o de código abierto.</text:p>
-   <text:p text:style-name="P17">7.3. Instalaciones Específicas del Módulo</text:p>
-   <text:p text:style-name="P16">{{espacios_especificos}}</text:p>
-   <text:p text:style-name="P18">8. Medidas de atención a la diversidad</text:p>
-   <text:p text:style-name="P16">El diseño de la acción formativa sigue los principios del <text:span text:style-name="T3">Diseño Universal para el Aprendizaje (DUA)</text:span>, facilitando que todo el alumnado tenga igualdad de oportunidades para progresar:</text:p>
-   <text:p text:style-name="P16">1. <text:span text:style-name="T3">Múltiples formas de representación:</text:span> Los conceptos se presentan mediante explicaciones magistrales dialogadas, diagramas visuales (UML, flujogramas), código fuente de ejemplo comentado y demostraciones prácticas guiadas.</text:p>
-   <text:p text:style-name="P16">2. <text:span text:style-name="T3">Múltiples formas de acción y expresión:</text:span> El alumnado puede evidenciar la consecución de los aprendizajes a través de diferentes canales: desarrollo de código funcional, redacción de memorias técnicas, presentaciones orales de proyectos o resolución de retos interactivos.</text:p>
-   <text:p text:style-name="P16">3. <text:span text:style-name="T3">Múltiples formas de implicación:</text:span> Planteamiento de retos de dificultad escalonada que permiten ritmos de aprendizaje diferenciados, incluyendo actividades de refuerzo y profundización.</text:p>
-   <text:p text:style-name="P16">4. <text:span text:style-name="T3">Adaptaciones no significativas:</text:span> Ajustes metodológicos en tiempos de entrega, adaptación de enunciados y flexibilización de pruebas para estudiantes con necesidades específicas de apoyo educativo (NEAE), en coordinación con el Departamento de Orientación del centro.</text:p>
-   <text:p text:style-name="P18">9. Evaluación del aprendizaje</text:p>
+   <text:p text:style-name="P20">7. Uso de espacios y equipamientos</text:p>
+   <text:p text:style-name="P19">7.1. Espacios Formativos</text:p>
+   <text:p text:style-name="P25">• Aula - Taller de {{familia}}: Espacio dotado de climatización, aislamiento acústico adecuado, mobiliario ergonómico regulable y cableado de red estructurado con alta disponibilidad.</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Conectividad:</text:span> Conexión a Internet de banda ancha simétrica mediante fibra óptica corporativa, con segmentación VLAN para aislar entornos de pruebas de red y servidores.</text:p>
+   <text:p text:style-name="P19"><text:soft-page-break/>7.2. Equipamiento Hardware y Software</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Puestos de trabajo del alumnado:</text:span> Equipos con arquitectura x86_64, microprocesadores multinúcleo, mínimo 16 GB de memoria RAM y unidades de almacenamiento rápido SSD NVMe para soportar entornos de virtualización, contenedores y compilaciones ágiles.</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Puesto del profesorado:</text:span> Equipo informático maestro conectado a panel interactivo / proyector de alta definición y sistema de audio.</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Infraestructura de red y servidores:</text:span> Servidor local para almacenamiento compartido de imágenes ISO, repositorios espejo y soporte a virtualización de servidores.</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Software y licencias:</text:span> Sistemas operativos basados en software libre y herramientas profesionales amparadas por licencias educativas o de código abierto.</text:p>
+   <text:p text:style-name="P19">7.3. Instalaciones Específicas del Módulo</text:p>
+   <text:p text:style-name="P18">{{espacios_especificos}}</text:p>
+   <text:p text:style-name="P20">8. Medidas de atención a la diversidad</text:p>
+   <text:p text:style-name="P18">El diseño de la acción formativa sigue los principios del <text:span text:style-name="T3">Diseño Universal para el Aprendizaje (DUA)</text:span>, facilitando que todo el alumnado tenga igualdad de oportunidades para progresar:</text:p>
+   <text:p text:style-name="P18">1. <text:span text:style-name="T3">Múltiples formas de representación:</text:span> Los conceptos se presentan mediante explicaciones magistrales dialogadas, diagramas visuales (UML, flujogramas), código fuente de ejemplo comentado y demostraciones prácticas guiadas.</text:p>
+   <text:p text:style-name="P18">2. <text:span text:style-name="T3">Múltiples formas de acción y expresión:</text:span> El alumnado puede evidenciar la consecución de los aprendizajes a través de diferentes canales: desarrollo de código funcional, redacción de memorias técnicas, presentaciones orales de proyectos o resolución de retos interactivos.</text:p>
+   <text:p text:style-name="P18">3. <text:span text:style-name="T3">Múltiples formas de implicación:</text:span> Planteamiento de retos de dificultad escalonada que permiten ritmos de aprendizaje diferenciados, incluyendo actividades de refuerzo y profundización.</text:p>
+   <text:p text:style-name="P18">4. <text:span text:style-name="T3">Adaptaciones no significativas:</text:span> Ajustes metodológicos en tiempos de entrega, adaptación de enunciados y flexibilización de pruebas para estudiantes con necesidades específicas de apoyo educativo (NEAE), en coordinación con el Departamento de Orientación del centro.</text:p>
+   <text:p text:style-name="P20">9. Evaluación del aprendizaje</text:p>
    <text:p text:style-name="Standard">La evaluación del aprendizaje en el presente módulo profesional tiene carácter continuo, formativo, integrador y diferenciado según los diversos Resultados de Aprendizaje (RA) establecidos en la normativa curricular. Se evalúa el grado de adquisición de las competencias profesionales, personales y sociales mediante criterios de evaluación (CE) objetivos, observables y medibles, aplicando los principios del Diseño <text:soft-page-break/>Universal para el Aprendizaje (DUA).</text:p>
-   <text:p text:style-name="P17">9.1. Ponderación de los Resultados de Aprendizaje en la Calificación Final</text:p>
+   <text:p text:style-name="P19">9.1. Ponderación de los Resultados de Aprendizaje en la Calificación Final</text:p>
    <text:p text:style-name="Standard">Cada Resultado de Aprendizaje tiene asignada una ponderación porcentual sobre la calificación global del módulo, en función de su complejidad técnica, carga horaria y relevancia en el perfil profesional del título. La superación del módulo requiere alcanzar una calificación mínima de 5,0 puntos sobre 10 en la media ponderada global, habiendo superado los criterios mínimos establecidos en cada RA:</text:p>
    <table:table table:name="Tabla_Evaluacion_RA" table:style-name="Tabla_5f_Evaluacion_5f_RA">
     <table:table-column table:style-name="Tabla_5f_Evaluacion_5f_RA.A"/>
     <table:table-column table:style-name="Tabla_5f_Evaluacion_5f_RA.B"/>
     <table:table-row>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_RA.A1" office:value-type="string">
-      <text:p text:style-name="P31">Resultado de Aprendizaje</text:p>
+      <text:p text:style-name="P34">Resultado de Aprendizaje</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_RA.A1" office:value-type="string">
-      <text:p text:style-name="P31">Ponderación <text:span text:style-name="T8">sobre el módulo </text:span>(%)</text:p>
+      <text:p text:style-name="P34">Ponderación <text:span text:style-name="T8">sobre el módulo </text:span>(%)</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_RA.A2" office:value-type="string">
-      <text:p text:style-name="P32">{{ra}}</text:p>
+      <text:p text:style-name="P35">{{ra}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_RA.A2" office:value-type="string">
-      <text:p text:style-name="P32">{{ra_peso}}</text:p>
+      <text:p text:style-name="P35">{{ra_peso}}</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_RA.A3" office:value-type="string">
-      <text:p text:style-name="P32">Calificación Global del Módulo Profesional</text:p>
+      <text:p text:style-name="P35">Calificación Global del Módulo Profesional</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_RA.A3" office:value-type="string">
-      <text:p text:style-name="P32">100.0%</text:p>
+      <text:p text:style-name="P35">100.0%</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="P17">9.2. Expresión Matemática de la Calificación del Módulo</text:p>
+   <text:p text:style-name="P19">9.2. Expresión Matemática de la Calificación del Módulo</text:p>
    <text:p text:style-name="Standard">{{formula_evaluacion}}</text:p>
-   <text:p text:style-name="P17">9.3. Instrumentos de Evaluación y Criterios de Calificación por RA</text:p>
+   <text:p text:style-name="P19">9.3. Instrumentos de Evaluación y Criterios de Calificación por RA</text:p>
    <text:p text:style-name="Standard">La evaluación de cada Resultado de Aprendizaje se realiza mediante una combinación diversificada de instrumentos, asegurando la coherencia entre los contenidos conceptuales, procedimentales y actitudinales. A continuación se detalla la contribución porcentual de cada instrumento dentro del propio RA y su impacto efectivo en la calificación final del módulo:</text:p>
    <table:table table:name="Tabla_Evaluacion_Instrumentos" table:style-name="Tabla_5f_Evaluacion_5f_Instrumentos">
     <table:table-column table:style-name="Tabla_5f_Evaluacion_5f_Instrumentos.A"/>
@@ -2205,64 +2219,64 @@
     <table:table-column table:style-name="Tabla_5f_Evaluacion_5f_Instrumentos.E"/>
     <table:table-row>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_Instrumentos.A1" office:value-type="string">
-      <text:p text:style-name="P31">RA</text:p>
+      <text:p text:style-name="P36">RA</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_Instrumentos.A1" office:value-type="string">
-      <text:p text:style-name="P31">Instrumento de Evaluación</text:p>
+      <text:p text:style-name="P36">Instrumento de Evaluación</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_Instrumentos.A1" office:value-type="string">
-      <text:p text:style-name="P31">Peso en RA (%)</text:p>
+      <text:p text:style-name="P36">Peso en RA (%)</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_Instrumentos.A1" office:value-type="string">
-      <text:p text:style-name="P31">Contribución Final (%)</text:p>
+      <text:p text:style-name="P36">Contribución Final (%)</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_Instrumentos.A1" office:value-type="string">
-      <text:p text:style-name="P31">Criterios de Evaluación</text:p>
+      <text:p text:style-name="P36">Criterios de Evaluación</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_Instrumentos.A2" office:value-type="string">
-      <text:p text:style-name="P32">{{inst_ra}}</text:p>
+      <text:p text:style-name="P37">{{inst_ra}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_Instrumentos.A2" office:value-type="string">
-      <text:p text:style-name="P32">{{inst_nombre}}</text:p>
+      <text:p text:style-name="P37">{{inst_nombre}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_Instrumentos.A2" office:value-type="string">
-      <text:p text:style-name="P32">{{inst_peso_ra}}</text:p>
+      <text:p text:style-name="P37">{{inst_peso_ra}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_Instrumentos.A2" office:value-type="string">
-      <text:p text:style-name="P32">{{inst_contribucion}}</text:p>
+      <text:p text:style-name="P37">{{inst_contribucion}}</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla_5f_Evaluacion_5f_Instrumentos.A2" office:value-type="string">
-      <text:p text:style-name="P32">{{inst_ces}}</text:p>
+      <text:p text:style-name="P37">{{inst_ces}}</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="P17">9.4. Procedimientos de Recuperación y Evaluación Extraordinaria</text:p>
+   <text:p text:style-name="P19">9.4. Procedimientos de Recuperación y Evaluación Extraordinaria</text:p>
    <text:p text:style-name="Standard">• Recuperación Continua e Integrada: Tras la finalización de cada bloque de unidades o trimestre, el alumnado que no haya superado determinados Resultados de Aprendizaje dispondrá de actividades de recuperación personalizadas, que podrán incluir la subsanación guiada de prácticas, nuevos supuestos de desarrollo o pruebas de consolidación técnica.</text:p>
-   <text:p text:style-name="Standard"><text:soft-page-break/>• Convocatoria Extraordinaria: Para el alumnado con calificación final insuficiente en convocatoria ordinaria, se diseñará un plan individualizado de trabajo estival y una prueba teórico-práctica global referida exclusivamente a los Resultados de Aprendizaje no superados durante el curso ordinario.</text:p>
-   <text:p text:style-name="P18">10. Actividades complementarias y extraescolares</text:p>
-   <text:p text:style-name="P16">Se prevé la realización de actividades complementarias para conectar la formación académica con la realidad empresarial del sector de {{familia}}:</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Visitas a empresas y centros tecnológicos:</text:span> Encuentros con equipos de desarrollo de empresas del entorno tecnológico local y regional.</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Conferencias y </text:span><text:span text:style-name="T10">Tech Talks</text:span><text:span text:style-name="T3">:</text:span> Charlas impartidas por profesionales en activo sobre ciberseguridad en el desarrollo, metodologías ágiles en entornos reales y tendencias emergentes.</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Participación en Hackathons y Jornadas de FP:</text:span> Impulso a la participación del alumnado en concursos de desarrollo, ferias de innovación y eventos de software libre (<text:span text:style-name="T9">Install Parties</text:span>, jornadas de código abierto).</text:p>
-   <text:p text:style-name="P18">11. Criterios y procedimientos para la evaluación del desarrollo de la programación y de la práctica docente, así como los criterios de calificación</text:p>
-   <text:p text:style-name="P16">La evaluación de la propia programación y de la práctica docente constituye un mecanismo imprescindible para la garantía de la calidad educativa:</text:p>
-   <text:p text:style-name="P17">11.1. Indicadores de Logro</text:p>
-   <text:p text:style-name="P23">• Porcentaje de alumnado que promociona y supera el módulo en convocatoria ordinaria.</text:p>
-   <text:p text:style-name="P23">• Grado de cumplimiento de la temporalización y secuenciación planificada.</text:p>
-   <text:p text:style-name="P23">• Adecuación de los recursos didácticos y de los instrumentos de evaluación al perfil del grupo.</text:p>
-   <text:p text:style-name="P23">• Valoración media del alumnado obtenida a través de cuestionarios anónimos de satisfacción docente al cierre de cada trimestre.</text:p>
-   <text:p text:style-name="P17">11.2. Procedimientos de Revisión</text:p>
-   <text:p text:style-name="P23">• Análisis trimestral de los resultados académicos en el marco de las reuniones de departamento.</text:p>
-   <text:p text:style-name="P23">• Propuesta de medidas correctoras y reajustes metodológicos inmediatos ante desviaciones detectadas.</text:p>
-   <text:p text:style-name="P23">• Elaboración de la memoria final de curso con propuestas de mejora contrastadas para su incorporación en la programación del curso siguiente.</text:p>
-   <text:p text:style-name="P18"><text:soft-page-break/>12. Cualquier otro apartado considerado relevante por el equipo educativo en el PCCF - PCCE</text:p>
-   <text:p text:style-name="P16">En concordancia con el Proyecto Curricular de Centro (PCCF / PCCE) y el Proyecto Educativo de Centro (PEC), el módulo incorpora las siguientes líneas transversales:</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Sostenibilidad digital y computación verde (</text:span><text:span text:style-name="T10">Green Computing</text:span><text:span text:style-name="T3">):</text:span> Concienciación sobre el consumo energético de servidores, optimización algorítmica y buenas prácticas de eficiencia computacional.</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Protección de Datos y Ciberseguridad desde el Diseño (</text:span><text:span text:style-name="T10">Privacy &amp; Security by Design</text:span><text:span text:style-name="T3">):</text:span> Cumplimiento estricto del RGPD y de la normativa de propiedad intelectual en todas las prácticas de software.</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Competencia Lingüística en Inglés Técnico:</text:span> Familiarización con la terminología técnica anglosajona, lectura habitual de documentación oficial en inglés y redacción de identificadores y comentarios de código en inglés estándar.</text:p>
-   <text:p text:style-name="P23">• <text:span text:style-name="T3">Fomento de la igualdad y erradicación de la brecha de género en las vocaciones STEM.</text:span></text:p>
+   <text:p text:style-name="Standard">• Convocatoria Extraordinaria: Para el alumnado con calificación final insuficiente en convocatoria ordinaria, se diseñará un plan individualizado de trabajo estival y una prueba teórico-práctica global referida exclusivamente a los Resultados de Aprendizaje no superados durante el curso ordinario.</text:p>
+   <text:p text:style-name="P20"><text:soft-page-break/>10. Actividades complementarias y extraescolares</text:p>
+   <text:p text:style-name="P18">Se prevé la realización de actividades complementarias para conectar la formación académica con la realidad empresarial del sector de {{familia}}:</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Visitas a empresas y centros tecnológicos:</text:span> Encuentros con equipos de desarrollo de empresas del entorno tecnológico local y regional.</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Conferencias y </text:span><text:span text:style-name="T11">Tech Talks</text:span><text:span text:style-name="T3">:</text:span> Charlas impartidas por profesionales en activo sobre ciberseguridad en el desarrollo, metodologías ágiles en entornos reales y tendencias emergentes.</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Participación en Hackathons y Jornadas de FP:</text:span> Impulso a la participación del alumnado en concursos de desarrollo, ferias de innovación y eventos de software libre (<text:span text:style-name="T10">Install Parties</text:span>, jornadas de código abierto).</text:p>
+   <text:p text:style-name="P20">11. Criterios y procedimientos para la evaluación del desarrollo de la programación y de la práctica docente, así como los criterios de calificación</text:p>
+   <text:p text:style-name="P18">La evaluación de la propia programación y de la práctica docente constituye un mecanismo imprescindible para la garantía de la calidad educativa:</text:p>
+   <text:p text:style-name="P19">11.1. Indicadores de Logro</text:p>
+   <text:p text:style-name="P25">• Porcentaje de alumnado que promociona y supera el módulo en convocatoria ordinaria.</text:p>
+   <text:p text:style-name="P25">• Grado de cumplimiento de la temporalización y secuenciación planificada.</text:p>
+   <text:p text:style-name="P25">• Adecuación de los recursos didácticos y de los instrumentos de evaluación al perfil del grupo.</text:p>
+   <text:p text:style-name="P25">• Valoración media del alumnado obtenida a través de cuestionarios anónimos de satisfacción docente al cierre de cada trimestre.</text:p>
+   <text:p text:style-name="P19">11.2. Procedimientos de Revisión</text:p>
+   <text:p text:style-name="P25">• Análisis trimestral de los resultados académicos en el marco de las reuniones de departamento.</text:p>
+   <text:p text:style-name="P25">• Propuesta de medidas correctoras y reajustes metodológicos inmediatos ante desviaciones detectadas.</text:p>
+   <text:p text:style-name="P25">• Elaboración de la memoria final de curso con propuestas de mejora contrastadas para su incorporación en la programación del curso siguiente.</text:p>
+   <text:p text:style-name="P20">12. Cualquier otro apartado considerado relevante por el equipo educativo en el PCCF - PCCE</text:p>
+   <text:p text:style-name="P18">En concordancia con el Proyecto Curricular de Centro (PCCF / PCCE) y el Proyecto Educativo de Centro (PEC), <text:soft-page-break/>el módulo incorpora las siguientes líneas transversales:</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Sostenibilidad digital y computación verde (</text:span><text:span text:style-name="T11">Green Computing</text:span><text:span text:style-name="T3">):</text:span> Concienciación sobre el consumo energético de servidores, optimización algorítmica y buenas prácticas de eficiencia computacional.</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Protección de Datos y Ciberseguridad desde el Diseño (</text:span><text:span text:style-name="T11">Privacy &amp; Security by Design</text:span><text:span text:style-name="T3">):</text:span> Cumplimiento estricto del RGPD y de la normativa de propiedad intelectual en todas las prácticas de software.</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Competencia Lingüística en Inglés Técnico:</text:span> Familiarización con la terminología técnica anglosajona, lectura habitual de documentación oficial en inglés y redacción de identificadores y comentarios de código en inglés estándar.</text:p>
+   <text:p text:style-name="P25">• <text:span text:style-name="T3">Fomento de la igualdad y erradicación de la brecha de género en las vocaciones STEM.</text:span></text:p>
   </office:text>
  </office:body>
 </office:document>

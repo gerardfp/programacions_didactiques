@@ -3,31 +3,28 @@
 """
 generador_pd.py
 ===============
-Sistema universal y sistemático de generación de Programaciones Didácticas oficiales
-para Formación Profesional (SMX, DAM, DAW y nuevos ciclos BOE) basado en plantilla nativa
-OpenDocument (plantilla.fodt).
+Sistema unificado, modular y sistemático de generación de Programaciones Didácticas
+para Formación Profesional basado en plantilla nativa OpenDocument (plantilla.fodt).
 
-Características principales:
-1. Plantilla ODF nativa (plantilla.fodt): Editable y personalizable directamente en LibreOffice Writer
-   (estilos, logos, paleta de colores, tipografías, encabezados).
-2. Motor de plantillas XML (FodtTemplateEngine): Rellena automáticamente los placeholders y clona las filas
-   de las tablas predefinidas (UCs, competencias vinculadas, secuenciación de unidades, ponderación de RAs e instrumentos).
-   Si algún dato opcional no existe (ej. fechas de inicio/fin), deja la celda en blanco sin alterar la tabla.
-3. Tablas de evaluación especializadas:
-   - Tabla 9.1: Ponderación de cada Resultado de Aprendizaje en el módulo (%) en 2 columnas limpias.
-   - Tabla 9.2: Instrumentos de evaluación por RA, su peso interno y su contribución efectiva a la nota final.
-4. Exportación exclusiva en formato oficial OpenDocument comprimido (.odt).
-5. Descubrimiento automático de currículos XML oficiales del BOE y fallback pedagógico sistemático.
+Contiene 3 funciones / subsistemas utilizables de forma totalmente individual:
+1. PARTE 1: Parseo de XML del BOE y validación estructural del currículo JSON.
+2. PARTE 2: Generación del andamiaje pedagógico oficial por ciclo (pedagogia_<ciclo>.json).
+3. PARTE 3: Generación y maquetación de Programaciones Didácticas oficiales en formato .odt.
+
+Política de guardado seguro:
+Ningún archivo JSON existente es jamás borrado ni sobrescrito. Si el archivo base ya existe,
+la nueva versión generada se guarda con una marca de tiempo (_YYYYMMDD_HHMMSS.json).
 """
 
 import os
 import sys
 import re
-import json
 import glob
 import copy
+import json
 import zipfile
 import argparse
+import datetime
 import unicodedata
 import xml.etree.ElementTree as ET
 from typing import Dict, Any, List, Optional, Tuple
@@ -47,234 +44,503 @@ def slugify(text: str) -> str:
     return text[:40]
 
 
+def safe_save_json(filepath: str, data: Any, indent: int = 2) -> str:
+    """
+    Guarda los datos en 'filepath' en formato JSON con codificación UTF-8.
+    POLÍTICA DE GUARDADO:
+    Si 'filepath' ya existe, no se sobrescribe ni se borra: la NUEVA versión
+    se guarda con una marca de tiempo (_YYYYMMDD_HHMMSS).
+    Retorna la ruta donde se ha guardado el archivo.
+    """
+    target_path = filepath
+    if os.path.exists(filepath):
+        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        base, ext = os.path.splitext(filepath)
+        target_path = f"{base}_{timestamp}{ext}"
+        counter = 1
+        while os.path.exists(target_path):
+            target_path = f"{base}_{timestamp}_{counter}{ext}"
+            counter += 1
+        print(f"[*] El archivo base '{filepath}' ya existe. Nueva versión guardada como: '{target_path}'")
+    else:
+        print(f"[*] Guardando archivo nuevo: '{target_path}'")
+
+    os.makedirs(os.path.dirname(os.path.abspath(target_path)), exist_ok=True)
+    with open(target_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=indent)
+    print(f"[OK] Archivo guardado correctamente en: '{target_path}'")
+    return target_path
+
+
 # ==============================================================================
-# PARSER DE CURRÍCULOS BOE XML
+# CONFIGURACIÓN Y VALORES POR DEFECTO DEL SISTEMA
 # ==============================================================================
 
-class BoeCurriculumXmlParser:
+DEFAULT_CONFIG: Dict[str, Any] = {
+    "metadata": {
+        "centro": "IES Benigasló",
+        "profesor": "Profesorado del Departamento de Informática",
+        "curso_academico": "2026 / 2027",
+        "familia_profesional": "Informática y Comunicaciones",
+        "nivel": "Grado Superior",
+        "curso_orientativo": "1º",
+        "creditos_ects": 8,
+        "normativa_referencia": "Normativa de referencia oficial del título",
+        "output_dir": "programaciones",
+        "template_path": "plantilla.fodt",
+    },
+    "acreditacion": {
+        "sin_uc_text": "Módulo profesional de carácter complementario / transversal; no acredita directamente Unidades de Competencia del Catálogo Nacional (CNCP).",
+        "sin_uc_label": "Sin acreditación directa de Unidades de Competencia",
+        "sin_ifc_label": "Módulo formativo transversal / complementario",
+        "cualif_default": "Cualificación de referencia del Catálogo Nacional",
+    },
+    "pedagogia": {
+        "empty_units": [
+            {
+                "codigo": "UD 1",
+                "nombre": "Fundamentos y principios teóricos",
+                "ras": [1],
+                "horas_ratio": 0.5,
+                "trimestre": "1er Trimestre",
+                "inicio": "",
+                "fin": ""
+            },
+            {
+                "codigo": "UD 2",
+                "nombre": "Aplicaciones avanzadas y proyectos",
+                "ras": [1],
+                "horas_ratio": 0.5,
+                "trimestre": "2º Trimestre",
+                "inicio": "",
+                "fin": ""
+            }
+        ],
+        "evaluacion": {
+            "instrumentos_fallback": [
+                {"nombre": "Prueba de evaluación práctica / proyecto", "peso_ra": 60.0},
+                {"nombre": "Prueba de evaluación teórico-conceptual", "peso_ra": 40.0}
+            ],
+            "instrumento_unico_nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+            "formula_prefix": "Módulo =",
+        },
+        "metodologia_template": (
+            "El módulo de {mod_name} se desarrolla combinando sesiones de exposición inductiva con "
+            "trabajo práctico intensivo en el laboratorio informático. Se prioriza el Aprendizaje Basado en Proyectos (ABP), "
+            "la resolución sistemática de problemas reales y el aprendizaje cooperativo, integrando buenas prácticas profesionales."
+        ),
+        "contextualizacion_template": (
+            "La formación del módulo profesional de {mod_name} capacita al alumnado para desempeñar con "
+            "solvencia las funciones técnicas, organizativas y operativas asociadas al perfil laboral del título, "
+            "garantizando la calidad, seguridad y cumplimiento de los estándares del sector profesional."
+        ),
+        "competencia_desc_default": "Descripción de la competencia en el currículo oficial",
+        "recursos_software": [
+            "Plataforma de aprendizaje",
+            "Herramientas de gestión"
+        ],
+        "recursos_hardware": [
+            "Computadora con acceso a internet"
+        ],
+        "recursos_especificos_fallback": [
+            "• Software técnico: Plataforma de aprendizaje y herramientas de gestión.",
+            "• Hardware e instrumental: Computadora con acceso a internet."
+        ],
+        "espacios": "Aula polivalente"
+    }
+}
+
+
+# ==============================================================================
+# GESTIÓN DE SIGLAS Y NOMENCLATURA ESTÁNDAR
+# ==============================================================================
+
+def get_module_initials(
+    mod_data: Optional[Dict[str, Any]] = None,
+    mod_code: str = "",
+    mod_name: str = ""
+) -> str:
     """
-    Parsea decretos de currículo en formato XML oficial del BOE.
-    Extrae sistemáticamente competencias, cualificaciones, UCs y módulos profesionales.
+    Obtiene las siglas oficiales del módulo directamente de los datos del currículo (campo 'siglas' o 'iniciales').
+    Si no están definidas en el currículo JSON, genera dinámicamente siglas algorítmicas basadas en el nombre.
+    """
+    if mod_data:
+        siglas = mod_data.get("siglas") or mod_data.get("iniciales")
+        if siglas:
+            return str(siglas).strip().upper()
+        if not mod_code:
+            mod_code = str(mod_data.get("codigo", ""))
+        if not mod_name:
+            mod_name = str(mod_data.get("nombre", ""))
+
+    words = re.findall(r'[a-zA-Z0-9áéíóúÁÉÍÓÚñÑüÜ]+', mod_name)
+    stopwords = {'de', 'del', 'en', 'la', 'el', 'los', 'las', 'a', 'para', 'por', 'sobre', 'con', 'y', 'o'}
+    sig_words = [w for w in words if w.lower() not in stopwords]
+    
+    if len(sig_words) == 1 and len(sig_words[0]) > 4:
+        return sig_words[0][:4].upper()
+        
+    initials = []
+    for w in sig_words:
+        c = unicodedata.normalize('NFD', w[0])[0].upper()
+        initials.append(c)
+    return "".join(initials) if initials else "MOD"
+
+
+def get_pd_filename(
+    ciclo: str,
+    curso: str,
+    mod_code: str,
+    mod_name: str,
+    mod_data: Optional[Dict[str, Any]] = None,
+    curso_academico: Optional[str] = None
+) -> str:
+    """
+    Genera el nombre estándar de archivo:
+    PD_{curso_escolar}_{ciclo}{curso}_{codigo}_{iniciales}.odt
+    Ejemplo: PD_26-27_DAM2_0489_PMYDM.odt
+    """
+    if curso_academico is None:
+        curso_academico = DEFAULT_CONFIG["metadata"]["curso_academico"]
+
+    # 1. Curso escolar: "2026 / 2027" -> "26-27"
+    years = re.findall(r'\b\d{2,4}\b', curso_academico)
+    if len(years) >= 2:
+        y1 = years[0][-2:]
+        y2 = years[1][-2:]
+        curso_esc = f"{y1}-{y2}"
+    else:
+        curso_esc = "26-27"
+
+    # 2. Ciclo y curso: DAM + 2 -> DAM2
+    c_digits = re.findall(r'\d', str(curso))
+    c_num = c_digits[0] if c_digits else "1"
+    ciclo_curso = f"{ciclo.upper()}{c_num}"
+
+    # 3. Código numérico de 4 dígitos
+    code_str = str(mod_code).zfill(4)
+
+    # 4. Siglas del módulo (leídas directamente de mod_data o calculadas si no existen)
+    initials = get_module_initials(mod_data=mod_data, mod_code=code_str, mod_name=mod_name)
+
+    return f"PD_{curso_esc}_{ciclo_curso}_{code_str}_{initials}.odt"
+
+
+# ==============================================================================
+# PARTE 1: PARSER Y VALIDADOR DE CURRÍCULOS BOE XML
+# ==============================================================================
+
+# ==============================================================================
+# SUBSISTEMAS DE SANITIZACIÓN Y GENERACIÓN DE DATOS GENÉRICOS
+# ==============================================================================
+
+class CurriculumSanitizer:
+    """
+    Inspecciona y subsana automáticamente currículos JSON o datos extraídos del BOE.
+    Cuando detecta datos ausentes o incompletos, advierte al usuario con mensajes [AVISO]
+    y genera datos genéricos consistentes para garantizar la ejecución ininterrumpida.
     """
     @classmethod
-    def parse_file(cls, xml_path: str) -> Dict[str, Any]:
+    def sanitize_and_repair(cls, data: Dict[str, Any], source_desc: str = "Currículo") -> Dict[str, Any]:
+        if not isinstance(data, dict):
+            print(f"[AVISO] [{source_desc}] La estructura debe ser un objeto JSON (dict). Se reinicializa a estructura base.")
+            data = {}
+
+        meta_def = DEFAULT_CONFIG["metadata"]
+
+        # 1. Ciclo
+        if not data.get("ciclo") or not isinstance(data["ciclo"], str) or not data["ciclo"].strip():
+            inferred = "FP"
+            m = re.search(r'curriculum_([a-zA-Z0-9]+)', source_desc, re.I)
+            if m:
+                inferred = m.group(1).upper()
+            data["ciclo"] = inferred
+            print(f"[AVISO] [{source_desc}] Falta el campo 'ciclo'. Se ha asignado '{inferred}'.")
+        else:
+            data["ciclo"] = data["ciclo"].strip().upper()
+
+        c_code = data["ciclo"]
+
+        # 2. Título
+        if not data.get("titulo") or not isinstance(data["titulo"], str) or not data["titulo"].strip():
+            gen_titulo = f"Ciclo Formativo de Formación Profesional en {c_code}"
+            data["titulo"] = gen_titulo
+            print(f"[AVISO] [{source_desc}] Falta el título oficial ('titulo'). Se ha generado título genérico: '{gen_titulo}'.")
+
+        # 3. Familia profesional
+        if not data.get("familia_profesional") or not isinstance(data["familia_profesional"], str) or not data["familia_profesional"].strip():
+            data["familia_profesional"] = meta_def["familia_profesional"]
+            print(f"[AVISO] [{source_desc}] Falta 'familia_profesional'. Se ha asignado por defecto: '{meta_def['familia_profesional']}'.")
+
+        # 4. Nivel
+        if not data.get("nivel") or not isinstance(data["nivel"], str) or not data["nivel"].strip():
+            data["nivel"] = meta_def["nivel"]
+
+        # 5. Normativa de referencia
+        if not data.get("normativa_referencia") or not isinstance(data["normativa_referencia"], str) or not data["normativa_referencia"].strip():
+            data["normativa_referencia"] = meta_def["normativa_referencia"]
+            print(f"[AVISO] [{source_desc}] Falta 'normativa_referencia'. Se ha asignado normativa genérica: '{meta_def['normativa_referencia']}'.")
+
+        # 6. Competencias profesionales, personales y sociales
+        comps = data.get("competencias_profesionales_personales_sociales")
+        if not isinstance(comps, dict) or len(comps) == 0:
+            data["competencias_profesionales_personales_sociales"] = {
+                "a": f"Planificar, desarrollar y mantener los sistemas y procesos asociados al perfil profesional de {c_code}.",
+                "b": "Aplicar las normas de seguridad, calidad y optimización en las actividades profesionales.",
+                "c": "Trabajar en equipo y adaptarse a la evolución de las herramientas tecnológicas y normativas del sector."
+            }
+            print(f"[AVISO] [{source_desc}] No se encontraron competencias profesionales, personales y sociales. Se han generado competencias genéricas.")
+
+        # 7. Módulos
+        mods = data.get("modulos")
+        if not isinstance(mods, list):
+            data["modulos"] = []
+            print(f"[AVISO] [{source_desc}] No se encontró la lista 'modulos'. Se inicializa como lista vacía.")
+        else:
+            for idx, mod in enumerate(data["modulos"]):
+                cls.sanitize_module(mod, source_desc=f"{source_desc} -> Módulo #{idx+1}", c_code=c_code)
+
+        return data
+
+    @classmethod
+    def sanitize_module(cls, mod: Dict[str, Any], source_desc: str = "", c_code: str = "") -> Dict[str, Any]:
+        if not isinstance(mod, dict):
+            return mod
+
+        meta_def = DEFAULT_CONFIG["metadata"]
+
+        # Código
+        raw_code = str(mod.get("codigo", "")).strip()
+        code_digits = "".join(c for c in raw_code if c.isdigit())
+        if len(code_digits) in (3, 4):
+            mod["codigo"] = code_digits.zfill(4)
+        elif code_digits:
+            mod["codigo"] = code_digits[:4].zfill(4)
+        else:
+            mod["codigo"] = "0000"
+            print(f"[AVISO] [{source_desc}] Módulo sin código numérico oficial. Se asigna código provisional '0000'.")
+
+        code = mod["codigo"]
+
+        # Nombre
+        if not mod.get("nombre") or not isinstance(mod["nombre"], str) or not mod["nombre"].strip():
+            mod["nombre"] = f"Módulo Profesional {code}"
+            print(f"[AVISO] [{source_desc} ({code})] Falta el nombre del módulo. Se asigna '{mod['nombre']}'.")
+
+        nombre = mod["nombre"]
+
+        # Siglas
+        if not mod.get("siglas") or not isinstance(mod["siglas"], str) or not mod["siglas"].strip():
+            gen_siglas = get_module_initials(mod_name=nombre, mod_code=code)
+            mod["siglas"] = gen_siglas
+            print(f"[AVISO] [{source_desc} ({code})] Faltan las 'siglas'. Se han calculado siglas genéricas: '{gen_siglas}'.")
+
+        # Curso orientativo
+        if not mod.get("curso_orientativo") or not isinstance(mod["curso_orientativo"], str) or not mod["curso_orientativo"].strip():
+            mod["curso_orientativo"] = meta_def["curso_orientativo"]
+            print(f"[AVISO] [{source_desc} ({code})] Falta 'curso_orientativo'. Se asigna por defecto '{meta_def['curso_orientativo']}'.")
+
+        # Horas
+        try:
+            mod["horas"] = int(mod.get("horas", 0))
+        except (ValueError, TypeError):
+            mod["horas"] = 0
+        if mod["horas"] <= 0:
+            ects = mod.get("creditos_ects", meta_def["creditos_ects"])
+            try:
+                mod["horas"] = int(ects) * 25
+            except (ValueError, TypeError):
+                mod["horas"] = 160
+            print(f"[AVISO] [{source_desc} ({code})] Faltan las 'horas' lectivas. Se han asignado {mod['horas']} horas por defecto.")
+
+        # Créditos ECTS
+        try:
+            mod["creditos_ects"] = int(mod.get("creditos_ects", 0))
+        except (ValueError, TypeError):
+            mod["creditos_ects"] = 0
+        if mod["creditos_ects"] <= 0:
+            mod["creditos_ects"] = max(1, round(mod["horas"] / 25))
+            print(f"[AVISO] [{source_desc} ({code})] Faltan 'creditos_ects'. Se han asignado {mod['creditos_ects']} ECTS por defecto.")
+
+        # Resultados de Aprendizaje
+        ras = mod.get("resultados_aprendizaje")
+        if not isinstance(ras, list) or len(ras) == 0:
+            mod["resultados_aprendizaje"] = [
+                {
+                    "numero": 1,
+                    "descripcion": f"Desarrolla las competencias y destrezas básicas asociadas al módulo de {nombre}.",
+                    "criterios_evaluacion": [
+                        {"letra": "a", "descripcion": "Se han identificado los conceptos clave y fundamentos técnicos del módulo."},
+                        {"letra": "b", "descripcion": "Se han ejecutado las tareas prácticas y aplicado las buenas prácticas establecidas."}
+                    ]
+                }
+            ]
+            print(f"[AVISO] [{source_desc} ({code})] No tiene 'resultados_aprendizaje' definidos. Se ha generado 1 Resultado de Aprendizaje genérico con sus Criterios de Evaluación.")
+        else:
+            for r_idx, ra in enumerate(ras, start=1):
+                if not isinstance(ra, dict):
+                    continue
+                if "numero" not in ra or not isinstance(ra["numero"], (int, float)):
+                    ra["numero"] = r_idx
+                if not ra.get("descripcion") or not str(ra["descripcion"]).strip():
+                    ra["descripcion"] = f"Aplica los fundamentos y procedimientos prácticos del RA {ra['numero']} de {nombre}."
+                    print(f"[AVISO] [{source_desc} ({code}) -> RA #{ra['numero']}] Falta descripción del RA. Se genera descripción genérica.")
+                ces = ra.get("criterios_evaluacion")
+                if not isinstance(ces, list) or len(ces) == 0:
+                    ra["criterios_evaluacion"] = [
+                        {"letra": "a", "descripcion": f"Se han comprendido y aplicado los conceptos esenciales del RA {ra['numero']}."},
+                        {"letra": "b", "descripcion": "Se han resuelto los supuestos prácticos con rigor técnico y metodológico."}
+                    ]
+                    print(f"[AVISO] [{source_desc} ({code}) -> RA #{ra['numero']}] Faltan criterios de evaluación. Se han generado criterios genéricos (a y b).")
+
+        return mod
+
+
+class PedagogicalSanitizer:
+    """
+    Inspecciona y subsana la estructura pedagógica de un módulo.
+    Advierte si faltan campos y sintetiza datos genéricos coherentes (unidades,
+    ponderaciones proporcionales 100%, instrumentos prácticos/teóricos, metodología y recursos).
+    """
+    @classmethod
+    def sanitize_and_repair(
+        cls,
+        mod_code: str,
+        ped_data: Optional[Dict[str, Any]],
+        mod_data: Dict[str, Any],
+        ciclo: str = ""
+    ) -> Dict[str, Any]:
+        mod_name = mod_data.get("nombre", f"Módulo {mod_code}")
+        ras = mod_data.get("resultados_aprendizaje", [])
+
+        if ped_data is None or not isinstance(ped_data, dict):
+            print(f"[AVISO] [Módulo {mod_code}] No existen datos pedagógicos específicos en los archivos JSON. Se genera andamiaje pedagógico genérico completo.")
+            return PedagogicalScaffoldGenerator.generate_module_scaffold(mod_data, ciclo_code=ciclo)
+
+        ped_defaults = DEFAULT_CONFIG["pedagogia"]
+
+        # 1. Ponderaciones de RAs
+        ra_ponderaciones = ped_data.get("ra_ponderaciones")
+        if not isinstance(ra_ponderaciones, dict) or len(ra_ponderaciones) == 0:
+            print(f"[AVISO] [Módulo {mod_code}] Faltan 'ra_ponderaciones'. Se calculan ponderaciones proporcionales equitativas (suman 100%).")
+            ped_data["ra_ponderaciones"] = cls._generate_proportional_weights(ras)
+        else:
+            for r_idx, ra in enumerate(ras, start=1):
+                r_num = str(ra.get("numero", r_idx))
+                if r_num not in ped_data["ra_ponderaciones"]:
+                    print(f"[AVISO] [Módulo {mod_code}] Falta ponderación para RA #{r_num}. Se recalcula ponderación equitativa.")
+                    ped_data["ra_ponderaciones"] = cls._generate_proportional_weights(ras)
+                    break
+
+        # 2. Unidades de programación
+        unidades = ped_data.get("unidades")
+        if not isinstance(unidades, list) or len(unidades) == 0:
+            print(f"[AVISO] [Módulo {mod_code}] Faltan 'unidades' didácticas. Se generan unidades genéricas basadas en los RAs.")
+            scaffold = PedagogicalScaffoldGenerator.generate_module_scaffold(mod_data, ciclo_code=ciclo)
+            ped_data["unidades"] = scaffold["unidades"]
+
+        # 3. Fórmula de evaluación
+        if not ped_data.get("formula_evaluacion") or not str(ped_data["formula_evaluacion"]).strip():
+            terms = [f"{float(w)/100:.2f} · RA_{r}" for r, w in ped_data["ra_ponderaciones"].items()]
+            ped_data["formula_evaluacion"] = f"Módulo = {' + '.join(terms)}"
+            print(f"[AVISO] [Módulo {mod_code}] Falta 'formula_evaluacion'. Se ha generado automáticamente a partir de las ponderaciones.")
+
+        # 4. Instrumentos de evaluación
+        instrumentos = ped_data.get("instrumentos")
+        if not isinstance(instrumentos, dict) or len(instrumentos) == 0:
+            ped_data["instrumentos"] = {}
+            for r_key in ped_data["ra_ponderaciones"].keys():
+                ped_data["instrumentos"][r_key] = [
+                    {"nombre": "Prueba de evaluación práctica / proyecto", "peso_ra": 60.0},
+                    {"nombre": "Prueba de evaluación teórico-conceptual", "peso_ra": 40.0}
+                ]
+            print(f"[AVISO] [Módulo {mod_code}] Faltan 'instrumentos' de evaluación. Se asignan instrumentos genéricos (60% práctica / 40% teoría).")
+        else:
+            for r_key in ped_data["ra_ponderaciones"].keys():
+                if r_key not in ped_data["instrumentos"] or not ped_data["instrumentos"][r_key]:
+                    ped_data["instrumentos"][r_key] = [
+                        {"nombre": "Prueba de evaluación práctica / proyecto", "peso_ra": 60.0},
+                        {"nombre": "Prueba de evaluación teórico-conceptual", "peso_ra": 40.0}
+                    ]
+                    print(f"[AVISO] [Módulo {mod_code}] Faltan instrumentos de evaluación para RA #{r_key}. Se asignan instrumentos estándar.")
+
+        # 5. Metodología
+        if not ped_data.get("metodologia") or not str(ped_data["metodologia"]).strip():
+            ped_data["metodologia"] = ped_defaults["metodologia_template"].format(mod_name=mod_name)
+            print(f"[AVISO] [Módulo {mod_code}] Falta 'metodologia'. Se asigna metodología activa estándar.")
+
+        # 6. Recursos software
+        sw = ped_data.get("recursos_software")
+        if not isinstance(sw, list) or len(sw) == 0:
+            ped_data["recursos_software"] = list(ped_defaults["recursos_software"])
+            print(f"[AVISO] [Módulo {mod_code}] Faltan 'recursos_software'. Se asignan recursos software genéricos.")
+
+        # 7. Recursos hardware
+        hw = ped_data.get("recursos_hardware")
+        if not isinstance(hw, list) or len(hw) == 0:
+            ped_data["recursos_hardware"] = list(ped_defaults["recursos_hardware"])
+            print(f"[AVISO] [Módulo {mod_code}] Faltan 'recursos_hardware'. Se asignan recursos hardware genéricos.")
+
+        # 8. Espacios
+        esp = ped_data.get("espacios")
+        if not esp or not str(esp).strip():
+            ped_data["espacios"] = ped_defaults["espacios"]
+            print(f"[AVISO] [Módulo {mod_code}] Faltan 'espacios'. Se asigna '{ped_defaults['espacios']}' por defecto.")
+
+        return ped_data
+
+    @staticmethod
+    def _generate_proportional_weights(ras: list) -> Dict[str, float]:
+        num_ras = len(ras)
+        if num_ras == 0:
+            return {"1": 100.0}
+        base_w = round(100.0 / num_ras, 1)
+        res = {}
+        curr_sum = 0.0
+        for idx, ra in enumerate(ras, start=1):
+            r_num = str(ra.get("numero", idx))
+            if idx == num_ras:
+                w = round(100.0 - curr_sum, 1)
+            else:
+                w = base_w
+                curr_sum += w
+            res[r_num] = w
+        return res
+
+
+class BoeCurriculumParser:
+    """
+    Parsea decretos oficiales en XML del BOE y construye la estructura oficial
+    de currículo formativo con competencias, módulos, siglas, RAs y CEs.
+    """
+    @classmethod
+    def parse_xml_file(cls, xml_path: str, forced_ciclo: Optional[str] = None) -> Dict[str, Any]:
+        if not os.path.exists(xml_path):
+            raise FileNotFoundError(f"Archivo XML no encontrado: '{xml_path}'")
+
         tree = ET.parse(xml_path)
         root = tree.getroot()
-        
+
         texto_elem = root.find('.//texto')
         if texto_elem is None:
             texto_elem = root
-            
+
         p_texts = []
         for p in texto_elem.iter('p'):
             t = "".join(p.itertext()).strip()
             if t:
                 p_texts.append(t)
-                
-        full_text = "\n".join(p_texts)
+
         titulo_decreto = ""
-        for p in p_texts[:10]:
+        for p in p_texts[:12]:
             if "Real Decreto" in p or "Orden" in p:
                 titulo_decreto = p
                 break
         if not titulo_decreto:
-            titulo_decreto = os.path.basename(xml_path)
-            
-        if "1691/2007" in full_text or "Sistemas Microinformáticos" in full_text:
-            return cls._parse_smx(root, p_texts, titulo_decreto)
-        elif "453/2010" in full_text or "Desarrollo de Aplicaciones Multiplataforma" in full_text:
-            return cls._parse_dam_daw(root, p_texts, titulo_decreto)
-        else:
-            return cls._parse_generic(root, p_texts, titulo_decreto, xml_path)
+            titulo_decreto = f"Decreto oficial ({os.path.basename(xml_path)})"
 
-    @classmethod
-    def _parse_smx(cls, root, p_texts: list, titulo_decreto: str) -> dict:
-        competencias = {}
-        for p in p_texts:
-            m = re.match(r'^([a-v])\)\s+(.+)', p)
-            if m:
-                letra = m.group(1)
-                desc = m.group(2).strip()
-                if letra not in competencias:
-                    competencias[letra] = desc
-                    
-        cualificaciones = [
-            {
-                "codigo": "IFC078_2",
-                "denominacion": "Sistemas microinformáticos",
-                "unidades_competencia": ["UC0219_2", "UC0220_2", "UC0221_2", "UC0222_2"]
-            },
-            {
-                "codigo": "IFC298_2",
-                "denominacion": "Montaje y reparación de sistemas microinformáticos",
-                "unidades_competencia": ["UC0953_2", "UC0219_2", "UC0954_2"]
-            },
-            {
-                "codigo": "IFC299_2",
-                "denominacion": "Operación de redes departamentales",
-                "unidades_competencia": ["UC0220_2", "UC0955_2", "UC0956_2"]
-            },
-            {
-                "codigo": "IFC300_2",
-                "denominacion": "Operación de sistemas informáticos",
-                "unidades_competencia": ["UC0219_2", "UC0957_2", "UC0958_2", "UC0959_2"]
-            }
-        ]
-        
-        all_ucs = {
-            "UC0219_2": "Instalar y configurar el software base en sistemas microinformáticos.",
-            "UC0220_2": "Instalar, configurar y verificar los elementos de la red local según procedimientos establecidos.",
-            "UC0221_2": "Instalar, configurar y mantener paquetes informáticos de propósito general y aplicaciones específicas.",
-            "UC0222_2": "Facilitar al usuario la utilización de paquetes informáticos de propósito general y aplicaciones específicas.",
-            "UC0953_2": "Montar equipos microinformáticos.",
-            "UC0954_2": "Reparar y ampliar equipamiento microinformático.",
-            "UC0955_2": "Monitorizar los procesos de comunicaciones de la red local.",
-            "UC0956_2": "Realizar los procesos de conexión entre redes privadas y redes públicas.",
-            "UC0957_2": "Mantenimiento del subsistema físico en sistemas informáticos.",
-            "UC0958_2": "Mantenimiento del subsistema lógico en sistemas informáticos.",
-            "UC0959_2": "Mantenimiento de la seguridad en sistemas informáticos."
-        }
-        
-        acreditaciones = {
-            "0221": ["UC0953_2", "UC0954_2"],
-            "0222": ["UC0958_2"],
-            "0223": ["UC0221_2", "UC0222_2"],
-            "0224": ["UC0219_2", "UC0957_2"],
-            "0225": ["UC0955_2"],
-            "0226": ["UC0959_2"],
-            "0227": ["UC0956_2"]
-        }
-        
-        anexo1_idx = 0
-        for idx, p in enumerate(p_texts):
-            if p.strip().upper() == 'ANEXO I':
-                anexo1_idx = idx
-                break
-                
-        mod_starts = []
-        for idx in range(anexo1_idx, len(p_texts)):
-            p = p_texts[idx]
-            if 'Módulo Profesional:' in p or 'Modulo Profesional:' in p:
-                mod_starts.append(idx)
-        mod_starts.append(len(p_texts))
-        
-        modules = []
-        for i in range(len(mod_starts)-1):
-            s_idx = mod_starts[i]
-            e_idx = mod_starts[i+1]
-            m_lines = p_texts[s_idx:e_idx]
-            
-            header_line = m_lines[0]
-            m_name = re.sub(r'^M[oó]dulo\s+Profesional:\s*', '', header_line, flags=re.IGNORECASE).strip()
-            
-            m_code = ""
-            for l in m_lines[:5]:
-                code_m = re.search(r'C[oó]digo:\s*(\d{4})', l)
-                if code_m:
-                    m_code = code_m.group(1)
-                    break
-                    
-            ras = []
-            in_ras = False
-            current_ra = None
-            orientaciones = []
-            in_orientaciones = False
-            
-            for l in m_lines:
-                if 'Resultados de aprendizaje y criterios de evaluación' in l:
-                    in_ras = True
-                    continue
-                if 'Orientaciones pedagógicas' in l:
-                    in_ras = False
-                    in_orientaciones = True
-                    continue
-                if in_orientaciones:
-                    orientaciones.append(l)
-                    continue
-                if in_ras:
-                    ra_m = re.match(r'^(\d+)\.\s*(.+)', l)
-                    if ra_m and not l.startswith('Criterios'):
-                        if current_ra:
-                            ras.append(current_ra)
-                        current_ra = {
-                            "numero": int(ra_m.group(1)),
-                            "descripcion": ra_m.group(2).strip(),
-                            "criterios_evaluacion": []
-                        }
-                        continue
-                    if current_ra:
-                        ces_matches = re.findall(r'([a-zñ])\)\s*([^a-zñ\)]+)', l)
-                        for letter, ce_desc in ces_matches:
-                            current_ra["criterios_evaluacion"].append({
-                                "letra": letter,
-                                "descripcion": ce_desc.strip()
-                            })
-            if current_ra:
-                ras.append(current_ra)
-                
-            orientaciones_text = "\n\n".join([o.strip() for o in orientaciones if o.strip()])
-            
-            mod_comps = []
-            comp_matches = re.findall(r'competencia[s]?\s+([a-zñ](?:\s*,\s*[a-zñ])*(?:\s*y\s*[a-zñ])?)', orientaciones_text, re.IGNORECASE)
-            for cm in comp_matches:
-                found_letters = re.findall(r'([a-zñ])', cm)
-                for fl in found_letters:
-                    if fl in competencias and fl not in mod_comps:
-                        mod_comps.append(fl)
-            if not mod_comps:
-                mod_comps = list(competencias.keys())[:3]
-                
-            mod_ucs = acreditaciones.get(m_code, [])
-            curso = "1º" if m_code in ["0221", "0222", "0223", "0225", "0229"] else "2º"
-            hours_map = {
-                "0221": 220, "0222": 130, "0223": 230, "0224": 140, "0225": 225,
-                "0226": 105, "0227": 140, "0228": 125, "0229": 90, "0230": 65, "0231": 380
-            }
-            mod_hours = hours_map.get(m_code, 100)
-            ects = round(mod_hours / 25)
-            
-            if m_code == "0231" and len(ras) > 10:
-                ras = ras[:5]
-                
-            modules.append({
-                "codigo": m_code,
-                "nombre": m_name,
-                "curso_orientativo": curso,
-                "horas": mod_hours,
-                "creditos_ects": ects,
-                "unidades_competencia": mod_ucs,
-                "competencias_titulo": sorted(mod_comps),
-                "orientaciones_pedagogicas": orientaciones_text,
-                "resultados_aprendizaje": ras
-            })
-            
-        return {
-            "ciclo": "SMX",
-            "codigo_ciclo": "IFC201",
-            "titulo": "Técnico en Sistemas Microinformáticos y Redes",
-            "familia_profesional": "Informática y Comunicaciones",
-            "nivel": "Grado Medio",
-            "normativa_referencia": "Real Decreto 1691/2007, de 14 de diciembre",
-            "competencias_profesionales_personales_sociales": competencias,
-            "cualificaciones_profesionales": cualificaciones,
-            "unidades_competencia": all_ucs,
-            "correspondencia_unidades_competencia": acreditaciones,
-            "modulos": modules
-        }
+        cycle_key = forced_ciclo.strip().upper() if forced_ciclo else os.path.splitext(os.path.basename(xml_path))[0].upper()
 
-    @classmethod
-    def _parse_dam_daw(cls, root, p_texts: list, titulo_decreto: str) -> dict:
-        result = {}
-        for c in ["DAM", "DAW"]:
-            j_path = f"curriculum_{c.lower()}.json"
-            if os.path.exists(j_path):
-                with open(j_path, "r", encoding="utf-8") as f:
-                    result[c] = json.load(f)
-        return result
-
-    @classmethod
-    def _parse_generic(cls, root, p_texts: list, titulo_decreto: str, xml_path: str) -> dict:
-        cycle_key = os.path.splitext(os.path.basename(xml_path))[0].upper()
         competencias = {}
         for p in p_texts:
             m = re.match(r'^([a-zñ])\)\s+(.+)', p)
@@ -283,29 +549,29 @@ class BoeCurriculumXmlParser:
                 desc = m.group(2).strip()
                 if letra not in competencias:
                     competencias[letra] = desc
-                    
+
         anexo1_idx = 0
         for idx, p in enumerate(p_texts):
             if 'ANEXO I' in p.strip().upper():
                 anexo1_idx = idx
                 break
-                
+
         mod_starts = []
         for idx in range(anexo1_idx, len(p_texts)):
             p = p_texts[idx]
             if 'Módulo Profesional:' in p or 'Modulo Profesional:' in p:
                 mod_starts.append(idx)
         mod_starts.append(len(p_texts))
-        
+
         modules = []
-        for i in range(len(mod_starts)-1):
+        for i in range(len(mod_starts) - 1):
             s_idx = mod_starts[i]
-            e_idx = mod_starts[i+1]
+            e_idx = mod_starts[i + 1]
             m_lines = p_texts[s_idx:e_idx]
-            
+
             header_line = m_lines[0]
             m_name = re.sub(r'^M[oó]dulo\s+Profesional:\s*', '', header_line, flags=re.IGNORECASE).strip()
-            
+
             m_code = ""
             for l in m_lines[:5]:
                 code_m = re.search(r'C[oó]digo:\s*(\d{3,4})', l)
@@ -314,13 +580,13 @@ class BoeCurriculumXmlParser:
                     break
             if not m_code:
                 m_code = str(i + 1).zfill(4)
-                    
+
             ras = []
             in_ras = False
             current_ra = None
             orientaciones = []
             in_orientaciones = False
-            
+
             for l in m_lines:
                 if 'Resultados de aprendizaje y criterios de evaluación' in l or 'Resultados de aprendizaje' in l:
                     in_ras = True
@@ -352,16 +618,17 @@ class BoeCurriculumXmlParser:
                             })
             if current_ra:
                 ras.append(current_ra)
-                
+
             orientaciones_text = "\n\n".join([o.strip() for o in orientaciones if o.strip()])
             mod_comps = list(competencias.keys())[:3]
             curso = "1º" if (i % 2 == 0) else "2º"
             mod_hours = 160
             ects = round(mod_hours / 25)
-            
+
             modules.append({
                 "codigo": m_code,
                 "nombre": m_name,
+                "siglas": get_module_initials(mod_name=m_name),
                 "curso_orientativo": curso,
                 "horas": mod_hours,
                 "creditos_ects": ects,
@@ -371,12 +638,13 @@ class BoeCurriculumXmlParser:
                 "resultados_aprendizaje": ras
             })
 
+        meta_def = DEFAULT_CONFIG["metadata"]
         return {
             "ciclo": cycle_key,
-            "codigo_ciclo": f"GEN_{cycle_key}",
-            "titulo": f"Ciclo Formativo {cycle_key}",
-            "familia_profesional": "Formación Profesional",
-            "nivel": "Grado Superior",
+            "codigo_ciclo": f"IFC_{cycle_key}",
+            "titulo": f"Ciclo Formativo en {cycle_key}",
+            "familia_profesional": meta_def["familia_profesional"],
+            "nivel": meta_def["nivel"],
             "normativa_referencia": titulo_decreto,
             "competencias_profesionales_personales_sociales": competencias,
             "cualificaciones_profesionales": [],
@@ -386,15 +654,228 @@ class BoeCurriculumXmlParser:
         }
 
 
+def run_parse_curriculum(xml_path: str, ciclo: Optional[str] = None, output_path: Optional[str] = None) -> str:
+    """Función ejecutable para la Parte 1: Parsear XML y generar JSON con sanitización y guardado seguro."""
+    print(f"[*] Parseando archivo BOE XML: {xml_path}")
+    curriculum_data = BoeCurriculumParser.parse_xml_file(xml_path, forced_ciclo=ciclo)
+    
+    print("[*] Comprobando y subsanando posibles datos ausentes...")
+    curriculum_data = CurriculumSanitizer.sanitize_and_repair(curriculum_data, source_desc=os.path.basename(xml_path))
+
+    c_code = curriculum_data.get("ciclo", "CICLO").lower()
+    target_output = output_path if output_path else f"curriculum_{c_code}.json"
+    saved = safe_save_json(target_output, curriculum_data)
+    print(f"[OK] Currículo generado exitosamente en: '{saved}'")
+    return saved
+
+
 # ==============================================================================
-# REPOSITORIO DE CURRÍCULOS
+# PARTE 2: GENERADOR DE ANDAMIAJE PEDAGÓGICO POR CICLO
+# ==============================================================================
+
+class PedagogicalScaffoldGenerator:
+    """
+    Genera el andamiaje pedagógico genérico para todos los módulos de un ciclo formativo
+    a partir de la información curricular oficial.
+    """
+    GENERIC_SOFTWARE = [
+        "Plataforma de aprendizaje",
+        "Herramientas de gestión"
+    ]
+
+    GENERIC_HARDWARE = [
+        "Computadora con acceso a internet"
+    ]
+
+    GENERIC_ESPACIO = "Aula polivalente"
+
+    @classmethod
+    def generate_for_cycle(cls, curriculum_data: Dict[str, Any]) -> Dict[str, Any]:
+        ciclo_code = curriculum_data.get("ciclo", "").upper()
+        curriculum_data = CurriculumSanitizer.sanitize_and_repair(curriculum_data, source_desc=f"Ciclo {ciclo_code}")
+        modules = curriculum_data.get("modulos", [])
+        pedagogia_dict = {}
+
+        for mod in modules:
+            mod_code = str(mod.get("codigo", "")).zfill(4)
+            mod_ped = cls.generate_module_scaffold(mod, ciclo_code)
+            pedagogia_dict[mod_code] = mod_ped
+
+        # Incluir módulo genérico del ciclo para resolución en cascada
+        generic_mod_scaffold = {
+            "nombre": f"Módulo Formativo Genérico ({ciclo_code})",
+            "unidades": [
+                {
+                    "codigo": "UP 1",
+                    "nombre": f"Unidad de Programación 1: Fundamentos y competencias clave de {ciclo_code}",
+                    "ras": [1],
+                    "horas": 160,
+                    "trimestre": "1er Trimestre",
+                    "inicio": "",
+                    "fin": ""
+                }
+            ],
+            "ra_ponderaciones": {"1": 100.0},
+            "formula_evaluacion": "Módulo = 1.00 · RA_1",
+            "instrumentos": {
+                "1": [
+                    {"nombre": "Prueba de evaluación práctica / proyecto", "peso_ra": 60.0},
+                    {"nombre": "Prueba de evaluación teórico-conceptual", "peso_ra": 40.0}
+                ]
+            },
+            "metodologia": (
+                f"El módulo profesional se desarrolla mediante metodologías activas orientadas al perfil de {ciclo_code}, "
+                f"priorizando supuestos prácticos, resolución colaborativa de problemas y rigor profesional."
+            ),
+            "recursos_software": list(cls.GENERIC_SOFTWARE),
+            "recursos_hardware": list(cls.GENERIC_HARDWARE),
+            "espacios": cls.GENERIC_ESPACIO
+        }
+        pedagogia_dict["generico"] = generic_mod_scaffold
+
+        return pedagogia_dict
+
+    @classmethod
+    def generate_module_scaffold(cls, mod_data: Dict[str, Any], ciclo_code: str = "") -> Dict[str, Any]:
+        mod_name = mod_data.get("nombre", "")
+        ras = mod_data.get("resultados_aprendizaje", [])
+        num_ras = len(ras)
+        total_hours = int(mod_data.get("horas") or (mod_data.get("creditos_ects", 8) * 25))
+
+        # 1. Ponderaciones proporcionales de RAs sumando exactamente 100.0%
+        ra_ponderaciones = {}
+        if num_ras > 0:
+            base_w = round(100.0 / num_ras, 1)
+            current_sum = 0.0
+            for idx, ra in enumerate(ras, start=1):
+                r_num = ra.get("numero", idx)
+                if idx == num_ras:
+                    w = round(100.0 - current_sum, 1)
+                else:
+                    w = base_w
+                    current_sum += w
+                ra_ponderaciones[str(r_num)] = w
+        else:
+            ra_ponderaciones["1"] = 100.0
+
+        # 2. Unidades de Programación (1 UP por cada RA)
+        unidades = []
+        if num_ras == 0:
+            unidades = [
+                {
+                    "codigo": "UP 1",
+                    "nombre": f"Unidad de Programación 1: Fundamentos y desarrollo de {mod_name}",
+                    "ras": [1],
+                    "horas": total_hours,
+                    "trimestre": "1er Trimestre",
+                    "inicio": "",
+                    "fin": ""
+                }
+            ]
+        else:
+            hours_per_ra = max(10, total_hours // num_ras)
+            for idx, ra in enumerate(ras, start=1):
+                r_num = ra.get("numero", idx)
+                r_desc = ra.get("descripcion", "").strip()
+                short_desc = r_desc[:50].rstrip(",.:; ") + "..." if len(r_desc) > 50 else r_desc
+
+                if idx <= max(1, (num_ras + 2) // 3):
+                    trim = "1er Trimestre"
+                elif idx <= max(2, (2 * num_ras + 1) // 3):
+                    trim = "2º Trimestre"
+                else:
+                    trim = "3er Trimestre"
+
+                u_hours = hours_per_ra if idx < num_ras else (total_hours - hours_per_ra * (num_ras - 1))
+
+                unidades.append({
+                    "codigo": f"UP {idx}",
+                    "nombre": f"Unidad de Programación {idx}: {short_desc}",
+                    "ras": [r_num],
+                    "horas": u_hours,
+                    "trimestre": trim,
+                    "inicio": "",
+                    "fin": ""
+                })
+
+        # 3. Dos instrumentos de evaluación genéricos por cada RA (60% práctico / 40% teórico)
+        instrumentos = {}
+        for r_str in ra_ponderaciones.keys():
+            instrumentos[r_str] = [
+                {
+                    "nombre": "Prueba de evaluación práctica / proyecto",
+                    "peso_ra": 60.0
+                },
+                {
+                    "nombre": "Prueba de evaluación teórico-conceptual",
+                    "peso_ra": 40.0
+                }
+            ]
+
+        # 4. Fórmula LaTeX de evaluación
+        formula_terms = [f"{w/100:.2f} · RA_{r}" for r, w in ra_ponderaciones.items()]
+        formula = f"Módulo = {' + '.join(formula_terms)}"
+
+        # 5. Metodología pedagógica base
+        metodologia = (
+            f"El módulo profesional de {mod_name} se desarrolla mediante metodologías activas centradas en "
+            f"el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el "
+            f"Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y "
+            f"el rigor metodológico profesional."
+        )
+
+        return {
+            "nombre": mod_name,
+            "unidades": unidades,
+            "ra_ponderaciones": ra_ponderaciones,
+            "formula_evaluacion": formula,
+            "instrumentos": instrumentos,
+            "metodologia": metodologia,
+            "recursos_software": list(cls.GENERIC_SOFTWARE),
+            "recursos_hardware": list(cls.GENERIC_HARDWARE),
+            "espacios": cls.GENERIC_ESPACIO
+        }
+
+
+def run_generate_cycle_pedagogy(curriculum_path: str, output_path: Optional[str] = None) -> str:
+    """Función ejecutable para generar el archivo pedagogia_<ciclo>.json para un currículo dado."""
+    if not os.path.exists(curriculum_path):
+        raise FileNotFoundError(f"Currículo no encontrado: '{curriculum_path}'")
+
+    with open(curriculum_path, "r", encoding="utf-8") as f:
+        curr_data = json.load(f)
+
+    curr_data = CurriculumSanitizer.sanitize_and_repair(curr_data, source_desc=os.path.basename(curriculum_path))
+    c_code = curr_data.get("ciclo", "FP").strip().upper()
+    ped_data = PedagogicalScaffoldGenerator.generate_for_cycle(curr_data)
+
+    target_file = output_path if output_path else f"pedagogia_{c_code.lower()}.json"
+    saved_path = safe_save_json(target_file, ped_data)
+    return saved_path
+
+
+def run_generate_all_pedagogy(base_dir: str = ".") -> List[str]:
+    """Función ejecutable para generar la pedagogía de todos los currículos disponibles."""
+    curr_files = glob.glob(os.path.join(base_dir, "curriculum_*.json"))
+    base_currs = [f for f in curr_files if not re.search(r'_\d{8}_\d{6}', f)]
+    print(f"[*] Generando JSON pedagógico para {len(base_currs)} ciclos disponibles...")
+    generated = []
+    for c_file in sorted(base_currs):
+        saved = run_generate_cycle_pedagogy(c_file)
+        generated.append(saved)
+        print(f"    - {c_file} -> {saved}")
+    print(f"[OK] Generación completada con éxito. Total: {len(generated)} archivos.")
+    return generated
+
+
+# ==============================================================================
+# PARTE 3: GENERADOR DE PROGRAMACIONES DIDÁCTICAS ODT
 # ==============================================================================
 
 class CurriculumRepository:
     """
     Descubre y gestiona los currículos de todos los ciclos formativos.
-    Busca tanto archivos JSON directos (curriculum_*.json) como XMLs oficiales del BOE
-    en curriculums_originals/.
+    Carga la versión más reciente disponible (base o con timestamp) para cada ciclo.
     """
     def __init__(self, base_dir: str = "."):
         self.base_dir = base_dir
@@ -402,35 +883,40 @@ class CurriculumRepository:
         self._load()
 
     def _load(self):
-        # 1. Cargar todos los curriculum_*.json existentes en el directorio
+        cycle_files: Dict[str, List[str]] = {}
         json_pattern = os.path.join(self.base_dir, "curriculum_*.json")
         for j_file in glob.glob(json_pattern):
-            try:
-                m = re.search(r'curriculum_([a-zA-Z0-9_]+)\.json', os.path.basename(j_file), re.IGNORECASE)
-                default_code = m.group(1).upper() if m else ""
-                with open(j_file, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    ciclo_code = data.get("ciclo", default_code).upper()
-                    if ciclo_code:
-                        data["ciclo"] = ciclo_code
-                        self.curriculums[ciclo_code] = data
-            except Exception as e:
-                print(f"[WARN] No se pudo cargar {j_file}: {e}", file=sys.stderr)
+            m = re.search(r'curriculum_([a-zA-Z0-9]+)(?:_\d{8}_\d{6})?\.json', os.path.basename(j_file), re.IGNORECASE)
+            if m:
+                c_code = m.group(1).upper()
+                cycle_files.setdefault(c_code, []).append(j_file)
 
-        # 2. Descubrir XMLs en curriculums_originals/
+        for c_code, file_list in cycle_files.items():
+            file_list.sort(key=lambda p: os.path.getmtime(p), reverse=True)
+            chosen_file = file_list[0]
+            try:
+                with open(chosen_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    data = CurriculumSanitizer.sanitize_and_repair(data, source_desc=os.path.basename(chosen_file))
+                    ciclo_id = data.get("ciclo", c_code).upper()
+                    data["ciclo"] = ciclo_id
+                    self.curriculums[ciclo_id] = data
+            except Exception as e:
+                print(f"[WARN] No se pudo cargar {chosen_file}: {e}", file=sys.stderr)
+
+        # Descubrir XMLs en curriculums_originals/ si no tienen JSON previo
         xml_dir = os.path.join(self.base_dir, "curriculums_originals")
         if os.path.exists(xml_dir):
             for x_file in glob.glob(os.path.join(xml_dir, "*.xml")):
                 base_name = os.path.splitext(os.path.basename(x_file))[0].upper()
                 if base_name not in self.curriculums and base_name != "DAM_DAW":
                     try:
-                        parsed = BoeCurriculumXmlParser.parse_file(x_file)
+                        parsed = BoeCurriculumParser.parse_xml_file(x_file)
                         if isinstance(parsed, dict) and "ciclo" in parsed:
                             c_code = parsed["ciclo"].upper()
                             self.curriculums[c_code] = parsed
                             out_j = os.path.join(self.base_dir, f"curriculum_{c_code.lower()}.json")
-                            with open(out_j, "w", encoding="utf-8") as f:
-                                json.dump(parsed, f, ensure_ascii=False, indent=2)
+                            safe_save_json(out_j, parsed)
                     except Exception as e:
                         print(f"[WARN] Error parseando XML {x_file}: {e}", file=sys.stderr)
 
@@ -463,149 +949,256 @@ class CurriculumRepository:
         return None
 
 
-# ==============================================================================
-# PROVEEDOR DE DATOS PEDAGÓGICOS (JSON + FALLBACK AUTOMÁTICO)
-# ==============================================================================
-
 class PedagogicalDataProvider:
     """
     Suministra la información pedagógica de cada módulo (unidades didácticas,
     ponderaciones de RAs, fórmulas de evaluación, instrumentos, metodología y recursos).
-    Si un módulo está en pedagogia_modulos.json, extrae sus datos precisos.
-    Si es un módulo nuevo o sin definir, genera sistemáticamente una estructura coherente y completa.
+    
+    RESOLUCIÓN EN CASCADA (estricta según especificación):
+    1. Archivo específico de ciclo y módulo: pedagogia_{ciclo}_{modulo}[_timestamp].json
+       (se usa la versión más reciente en caso de existir versiones con timestamp).
+    2. Archivo específico de ciclo: pedagogia_{ciclo}[_timestamp].json
+       - Si contiene el módulo específico, se usa ese.
+       - Si no, y contiene una entrada 'generico', se usa el módulo genérico del ciclo.
+    3. Archivo global de pedagogía: pedagogia[_timestamp].json
+       - Si contiene el módulo específico o una entrada 'generico', se usa esa.
+       (También se consulta como fallback intermedio el archivo 'pedagogia_modulos.json' si existe).
+    4. Si al ejecutarse el programa para generar programaciones no se encuentra NINGÚN
+       fichero de pedagogía en el sistema:
+       - Se genera automáticamente el archivo global 'pedagogia.json' con un módulo genérico.
+       - Se informa al usuario de dicha creación.
+       - Se utiliza dicho módulo genérico adaptado a las horas y RAs del módulo en curso.
     """
-    def __init__(self, filepath: str = "pedagogia_modulos.json"):
-        self.data: Dict[str, Any] = {}
-        if os.path.exists(filepath):
-            try:
-                with open(filepath, "r", encoding="utf-8") as f:
-                    self.data = json.load(f)
-            except Exception as e:
-                print(f"[WARN] No se pudo leer {filepath}: {e}", file=sys.stderr)
+    def __init__(self, base_dir: str = "."):
+        self.base_dir = base_dir
+        self._ensure_pedagogy_exists()
 
-    def get_pedagogical_data(self, mod_code: str, mod_data: Dict[str, Any]) -> Dict[str, Any]:
+    @staticmethod
+    def _extract_timestamp(filepath: str) -> str:
+        """Extrae la marca temporal _YYYYMMDD_HHMMSS si existe en el nombre de archivo."""
+        m = re.search(r'_(\d{8}_\d{6})', os.path.basename(filepath))
+        return m.group(1) if m else ""
+
+    def _ensure_pedagogy_exists(self):
+        """
+        Regla 4: Si al ejecutarse el programa no se encuentra ningún fichero de pedagogía
+        (ningún pedagogia*.json), genera 'pedagogia.json' con un módulo genérico.
+        """
+        pattern = os.path.join(self.base_dir, "pedagogia*.json")
+        existing = glob.glob(pattern)
+        if not existing:
+            print("[AVISO] No se encontró ningún archivo de pedagogía en el sistema.")
+            print("[AVISO] Generando archivo de pedagogía global genérico: 'pedagogia.json'...")
+            default_global = {
+                "generico": {
+                    "nombre": "Módulo Formativo Genérico",
+                    "unidades": [
+                        {
+                            "codigo": "UP 1",
+                            "nombre": "Unidad de Programación 1: Fundamentos y competencias clave",
+                            "ras": [1],
+                            "horas": 160,
+                            "trimestre": "1er Trimestre",
+                            "inicio": "",
+                            "fin": ""
+                        }
+                    ],
+                    "ra_ponderaciones": {
+                        "1": 100.0
+                    },
+                    "formula_evaluacion": "Módulo = 1.00 · RA_1",
+                    "instrumentos": {
+                        "1": [
+                            {
+                                "nombre": "Prueba de evaluación práctica / proyecto",
+                                "peso_ra": 60.0
+                            },
+                            {
+                                "nombre": "Prueba de evaluación teórico-conceptual",
+                                "peso_ra": 40.0
+                            }
+                        ]
+                    },
+                    "metodologia": (
+                        "El módulo profesional se desarrolla mediante metodologías activas centradas en el alumnado, "
+                        "combinando sesiones teóricas inductivas con supuestos prácticos aplicados en el aula/laboratorio. "
+                        "Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución de problemas y el trabajo colaborativo."
+                    ),
+                    "recursos_software": list(DEFAULT_CONFIG["pedagogia"]["recursos_software"]),
+                    "recursos_hardware": list(DEFAULT_CONFIG["pedagogia"]["recursos_hardware"]),
+                    "espacios": DEFAULT_CONFIG["pedagogia"]["espacios"]
+                }
+            }
+            safe_save_json(os.path.join(self.base_dir, "pedagogia.json"), default_global)
+            print("[OK] Creado archivo 'pedagogia.json' con módulo genérico para uso del sistema.")
+
+    def get_pedagogical_data(
+        self,
+        mod_code: str,
+        mod_data: Dict[str, Any],
+        ciclo: str = ""
+    ) -> Dict[str, Any]:
         clean_code = str(mod_code).strip().zfill(4)
-        if clean_code in self.data:
-            return copy.deepcopy(self.data[clean_code])
-            
-        return self._generate_fallback(clean_code, mod_data)
+        c_upper = ciclo.strip().upper()
+        c_lower = ciclo.strip().lower()
 
-    def _generate_fallback(self, code: str, mod_data: Dict[str, Any]) -> Dict[str, Any]:
-        ras = mod_data.get("resultados_aprendizaje", [])
-        num_ras = len(ras)
-        total_hours = mod_data.get("horas") or (mod_data.get("creditos_ects", 8) * 25)
-        
-        # 1. Unidades didácticas vinculadas a RAs
-        unidades = []
-        if num_ras == 0:
-            unidades = [
-                {"codigo": "UD 1", "nombre": "Fundamentos y principios teóricos", "ras": [1], "horas": total_hours // 2, "trimestre": "1er Trimestre", "inicio": "", "fin": ""},
-                {"codigo": "UD 2", "nombre": "Aplicaciones avanzadas y proyectos", "ras": [1], "horas": total_hours - (total_hours // 2), "trimestre": "2º Trimestre", "inicio": "", "fin": ""}
-            ]
-        else:
-            hours_per_ra = max(10, total_hours // num_ras)
-            for idx, ra in enumerate(ras, start=1):
-                r_num = ra.get("numero", idx)
-                desc = ra.get("descripcion", "")
-                short_title = desc[:55].rstrip(",.:; ") + "..." if len(desc) > 55 else desc
-                
-                if idx <= max(1, (num_ras + 2) // 3):
-                    trim = "1er Trimestre"
-                elif idx <= max(2, (2 * num_ras + 1) // 3):
-                    trim = "2º Trimestre"
-                else:
-                    trim = "3er Trimestre"
-                    
-                u_hours = hours_per_ra if idx < num_ras else (total_hours - hours_per_ra * (num_ras - 1))
-                unidades.append({
-                    "codigo": f"UD {idx}",
-                    "nombre": f"{short_title}",
-                    "ras": [r_num],
-                    "horas": u_hours,
-                    "trimestre": trim,
-                    "inicio": "",
-                    "fin": ""
-                })
-                
-        # 2. Ponderaciones balanceadas que suman exactamente 100.0%
-        ra_ponderaciones = {}
-        if num_ras > 0:
-            base_w = round(100.0 / num_ras, 1)
-            cur_sum = 0.0
-            for idx, ra in enumerate(ras, start=1):
-                r_num = ra.get("numero", idx)
-                if idx == num_ras:
-                    w = round(100.0 - cur_sum, 1)
-                else:
-                    w = base_w
-                    cur_sum += w
-                ra_ponderaciones[str(r_num)] = w
-        else:
-            ra_ponderaciones["1"] = 100.0
-            
-        # 3. Fórmula LaTeX
-        formula_terms = [f"{w/100:.2f} · RA_{r}" for r, w in ra_ponderaciones.items()]
-        formula = f"Módulo = {' + '.join(formula_terms)}"
-        
-        # 4. Instrumentos de evaluación balanceados (60% práctica / 40% teórica)
-        instrumentos = {}
-        for r_str in ra_ponderaciones.keys():
-            instrumentos[r_str] = [
-                {"nombre": "Prácticas de laboratorio y supuestos técnicos aplicados", "peso_ra": 60.0},
-                {"nombre": "Pruebas objetivas y supuestos teórico-prácticos", "peso_ra": 40.0}
-            ]
-            
-        mod_name = mod_data.get("nombre", "")
-        metodologia = (
-            f"El módulo de {mod_name} se desarrolla combinando sesiones de exposición inductiva con "
-            f"trabajo práctico intensivo en el laboratorio informático. Se prioriza el Aprendizaje Basado en Proyectos (ABP), "
-            f"la resolución sistemática de problemas reales y el aprendizaje cooperativo, integrando buenas prácticas profesionales."
-        )
-        
-        recursos_sw = [
-            "Sistemas operativos GNU/Linux y Microsoft Windows",
-            "Entornos de desarrollo integrados (IDE) y utilidades de configuración",
-            "Plataforma de virtualización (VirtualBox, VMware, Docker)",
-            "Herramientas ofimáticas y plataformas de gestión del aprendizaje (Moodle)"
-        ]
-        
-        recursos_hw = [
-            "Ordenadores de desarrollo en red con conexión a Internet de banda ancha",
-            "Dispositivos de almacenamiento externo y sistemas de copia de seguridad",
-            "Proyector interactivo y puesto informático para el docente"
-        ]
-        
-        espacios = (
-            "Aula polivalente y aula de informática equipada con ordenadores conectados en red local y "
-            "acceso directo a Internet, con configuración técnica adecuada a los requerimientos del módulo."
-        )
-        
-        return {
-            "unidades": unidades,
-            "ra_ponderaciones": ra_ponderaciones,
-            "formula_evaluacion": formula,
-            "instrumentos": instrumentos,
-            "metodologia": metodologia,
-            "recursos_software": recursos_sw,
-            "recursos_hardware": recursos_hw,
-            "espacios": espacios
-        }
+        raw_ped_data = None
+        source_desc = ""
 
+        # Identificadores posibles para el módulo en nombres de archivo
+        mod_identifiers = [clean_code]
+        alt_num = clean_code.lstrip('0')
+        if alt_num and alt_num != clean_code:
+            mod_identifiers.append(alt_num)
+        siglas = str(mod_data.get("siglas", "")).strip().lower()
+        if siglas:
+            mod_identifiers.append(siglas)
 
-# ==============================================================================
-# MOTOR DE PLANTILLAS ODF NATIVO (plantilla.fodt -> .fodt y .odt)
-# ==============================================================================
+        # ----------------------------------------------------------------------
+        # NIVEL 1: Archivo específico de ciclo y módulo:
+        # pedagogia_{ciclo}_{modulo}[_timestamp].json
+        # ----------------------------------------------------------------------
+        level1_candidates = []
+        for mid in mod_identifiers:
+            pattern = f"pedagogia_{c_lower}_{mid}*.json"
+            for fpath in glob.glob(os.path.join(self.base_dir, pattern)):
+                fname = os.path.basename(fpath)
+                if re.match(rf'^pedagogia_{re.escape(c_lower)}_{re.escape(mid)}(?:_\d{{8}}_\d{{6}})?\.json$'.replace('{{8}}', '{8}').replace('{{6}}', '{6}'), fname, re.IGNORECASE):
+                    level1_candidates.append(fpath)
+
+        if level1_candidates:
+            level1_candidates.sort(key=lambda p: (self._extract_timestamp(p), os.path.getmtime(p)), reverse=True)
+            chosen_file = level1_candidates[0]
+            try:
+                with open(chosen_file, "r", encoding="utf-8") as f:
+                    file_dict = json.load(f)
+                if isinstance(file_dict, dict):
+                    if clean_code in file_dict:
+                        raw_ped_data = copy.deepcopy(file_dict[clean_code])
+                        source_desc = f"Nivel 1: Archivo '{os.path.basename(chosen_file)}' (clave {clean_code})"
+                    elif "generico" in file_dict or "genérico" in file_dict:
+                        raw_ped_data = copy.deepcopy(file_dict.get("generico") or file_dict.get("genérico"))
+                        source_desc = f"Nivel 1: Archivo '{os.path.basename(chosen_file)}' (módulo genérico)"
+                    else:
+                        raw_ped_data = copy.deepcopy(file_dict)
+                        source_desc = f"Nivel 1: Archivo '{os.path.basename(chosen_file)}'"
+            except Exception as e:
+                print(f"[AVISO] Error al leer '{chosen_file}': {e}", file=sys.stderr)
+
+        # ----------------------------------------------------------------------
+        # NIVEL 2: Archivo específico de ciclo:
+        # pedagogia_{ciclo}[_timestamp].json
+        # ----------------------------------------------------------------------
+        if raw_ped_data is None and c_lower:
+            pattern = f"pedagogia_{c_lower}*.json"
+            level2_candidates = []
+            for fpath in glob.glob(os.path.join(self.base_dir, pattern)):
+                fname = os.path.basename(fpath)
+                if re.match(rf'^pedagogia_{re.escape(c_lower)}(?:_\d{{8}}_\d{{6}})?\.json$'.replace('{{8}}', '{8}').replace('{{6}}', '{6}'), fname, re.IGNORECASE):
+                    level2_candidates.append(fpath)
+
+            if level2_candidates:
+                level2_candidates.sort(key=lambda p: (self._extract_timestamp(p), os.path.getmtime(p)), reverse=True)
+                chosen_file = level2_candidates[0]
+                try:
+                    with open(chosen_file, "r", encoding="utf-8") as f:
+                        file_dict = json.load(f)
+                    if isinstance(file_dict, dict):
+                        # 2a. Buscar módulo específico dentro del ciclo
+                        if clean_code in file_dict:
+                            raw_ped_data = copy.deepcopy(file_dict[clean_code])
+                            source_desc = f"Nivel 2: Módulo {clean_code} en '{os.path.basename(chosen_file)}'"
+                        elif alt_num and alt_num in file_dict:
+                            raw_ped_data = copy.deepcopy(file_dict[alt_num])
+                            source_desc = f"Nivel 2: Módulo {alt_num} en '{os.path.basename(chosen_file)}'"
+                        # 2b. Buscar módulo genérico dentro del ciclo
+                        elif "generico" in file_dict or "genérico" in file_dict:
+                            raw_ped_data = copy.deepcopy(file_dict.get("generico") or file_dict.get("genérico"))
+                            source_desc = f"Nivel 2: Módulo genérico de ciclo en '{os.path.basename(chosen_file)}'"
+                        elif "default" in file_dict:
+                            raw_ped_data = copy.deepcopy(file_dict["default"])
+                            source_desc = f"Nivel 2: Módulo default de ciclo en '{os.path.basename(chosen_file)}'"
+                except Exception as e:
+                    print(f"[AVISO] Error al leer '{chosen_file}': {e}", file=sys.stderr)
+
+        # ----------------------------------------------------------------------
+        # NIVEL 3: Archivo global:
+        # pedagogia[_timestamp].json
+        # ----------------------------------------------------------------------
+        if raw_ped_data is None:
+            level3_candidates = []
+            for fpath in glob.glob(os.path.join(self.base_dir, "pedagogia*.json")):
+                fname = os.path.basename(fpath)
+                if re.match(r'^pedagogia(?:_\d{8}_\d{6})?\.json$', fname, re.IGNORECASE):
+                    level3_candidates.append(fpath)
+
+            if level3_candidates:
+                level3_candidates.sort(key=lambda p: (self._extract_timestamp(p), os.path.getmtime(p)), reverse=True)
+                chosen_file = level3_candidates[0]
+                try:
+                    with open(chosen_file, "r", encoding="utf-8") as f:
+                        file_dict = json.load(f)
+                    if isinstance(file_dict, dict):
+                        if clean_code in file_dict:
+                            raw_ped_data = copy.deepcopy(file_dict[clean_code])
+                            source_desc = f"Nivel 3: Módulo {clean_code} en global '{os.path.basename(chosen_file)}'"
+                        elif "generico" in file_dict or "genérico" in file_dict:
+                            raw_ped_data = copy.deepcopy(file_dict.get("generico") or file_dict.get("genérico"))
+                            source_desc = f"Nivel 3: Módulo genérico en global '{os.path.basename(chosen_file)}'"
+                        elif "default" in file_dict:
+                            raw_ped_data = copy.deepcopy(file_dict["default"])
+                            source_desc = f"Nivel 3: Módulo default en global '{os.path.basename(chosen_file)}'"
+                        elif "unidades" in file_dict or "ra_ponderaciones" in file_dict:
+                            raw_ped_data = copy.deepcopy(file_dict)
+                            source_desc = f"Nivel 3: Archivo global '{os.path.basename(chosen_file)}'"
+                except Exception as e:
+                    print(f"[AVISO] Error al leer '{chosen_file}': {e}", file=sys.stderr)
+
+        # Fallback de conveniencia: pedagogia_modulos.json si sigue existiendo
+        if raw_ped_data is None:
+            legacy_path = os.path.join(self.base_dir, "pedagogia_modulos.json")
+            if os.path.exists(legacy_path):
+                try:
+                    with open(legacy_path, "r", encoding="utf-8") as f:
+                        file_dict = json.load(f)
+                    if isinstance(file_dict, dict) and clean_code in file_dict:
+                        raw_ped_data = copy.deepcopy(file_dict[clean_code])
+                        source_desc = f"Legacy: 'pedagogia_modulos.json' ({clean_code})"
+                except Exception:
+                    pass
+
+        # Si tras la cascada no se encontró nada, se sintetiza andamiaje genérico dinámico
+        if raw_ped_data is None:
+            source_desc = "Andamiaje sintetizado dinámicamente"
+
+        # Pasar por PedagogicalSanitizer para asegurar integridad y coherencia con mod_data
+        sanitized = PedagogicalSanitizer.sanitize_and_repair(clean_code, raw_ped_data, mod_data, ciclo=c_upper)
+        return sanitized
+
 
 class FodtTemplateEngine:
     """
     Carga la plantilla oficial en formato Flat XML ODF (plantilla.fodt),
+    normaliza automáticamente etiquetas fragmentadas por LibreOffice Writer,
     clona dinámicamente las filas de las tablas predefinidas rellenando los datos curriculares/pedagógicos
-    (dejando en blanco las celdas sin datos) y exporta los archivos .fodt y .odt.
+    y exporta el archivo OpenDocument final (.odt).
     """
     def __init__(self, template_path: str = "plantilla.fodt"):
         self.template_path = template_path
         if not os.path.exists(template_path):
             raise FileNotFoundError(f"Plantilla no encontrada: '{template_path}'")
+
+    @staticmethod
+    def _normalize_xml_placeholders(xml_str: str) -> str:
+        """
+        Limpia etiquetas XML internas generadas por LibreOffice Writer dentro de los placeholders.
+        Por ejemplo: '{{<text:span text:style-name="T1">nombre_</text:span>modulo}}' -> '{{nombre_modulo}}'
+        """
+        return re.sub(
+            r'\{\{([^{}]+)\}\}',
+            lambda m: '{{' + re.sub(r'<[^>]+>', '', m.group(1)).strip() + '}}',
+            xml_str
+        )
 
     def render_and_save(
         self,
@@ -616,8 +1209,10 @@ class FodtTemplateEngine:
         context_meta: Optional[Dict[str, Any]] = None
     ):
         context_meta = context_meta or {}
+        meta_defaults = DEFAULT_CONFIG["metadata"]
+        acred_defaults = DEFAULT_CONFIG["acreditacion"]
+        ped_defaults = DEFAULT_CONFIG["pedagogia"]
 
-        # Mapeo de namespaces ODF
         ns_map = {
             'office': 'urn:oasis:names:tc:opendocument:xmlns:office:1.0',
             'style': 'urn:oasis:names:tc:opendocument:xmlns:style:1.0',
@@ -633,22 +1228,25 @@ class FodtTemplateEngine:
         for prefix, uri in ns_map.items():
             ET.register_namespace(prefix, uri)
 
-        tree = ET.parse(self.template_path)
-        root = tree.getroot()
+        with open(self.template_path, "r", encoding="utf-8") as f:
+            raw_template = f.read()
+
+        normalized_template = self._normalize_xml_placeholders(raw_template)
+        root = ET.fromstring(normalized_template)
         body = root.find('.//office:body/office:text', ns_map)
 
         mod_code = str(mod_data.get("codigo", "")).zfill(4)
         mod_name = str(mod_data.get("nombre", ""))
         ciclo_code = context_meta.get("ciclo", cycle_data.get("ciclo", "")).upper()
         ciclo_title = cycle_data.get("titulo", f"Ciclo Formativo {ciclo_code}")
-        familia = cycle_data.get("familia_profesional", "Informática y Comunicaciones")
-        curso = str(mod_data.get("curso_orientativo", "1º"))
-        ects = str(mod_data.get("creditos_ects", 8))
-        profesor = context_meta.get("profesor", "Profesorado del Departamento de Informática")
-        centro = context_meta.get("centro", "IES Benigasló")
-        curso_acad = context_meta.get("curso_academico", "2026 / 2027")
-        normativa = cycle_data.get("normativa_referencia", "Normativa de referencia oficial del título")
-        nivel = cycle_data.get("nivel", "Grado Superior")
+        familia = cycle_data.get("familia_profesional", meta_defaults["familia_profesional"])
+        curso = str(mod_data.get("curso_orientativo", meta_defaults["curso_orientativo"]))
+        ects = str(mod_data.get("creditos_ects", meta_defaults["creditos_ects"]))
+        profesor = context_meta.get("profesor", meta_defaults["profesor"])
+        centro = context_meta.get("centro", meta_defaults["centro"])
+        curso_acad = context_meta.get("curso_academico", meta_defaults["curso_academico"])
+        normativa = cycle_data.get("normativa_referencia", meta_defaults["normativa_referencia"])
+        nivel = cycle_data.get("nivel", meta_defaults["nivel"])
         codigo_ciclo = str(cycle_data.get("codigo_ciclo", "")).strip()
         horas = str(mod_data.get("horas", "")).strip()
 
@@ -661,7 +1259,6 @@ class FodtTemplateEngine:
         all_comps = cycle_data.get("competencias_profesionales_personales_sociales", {})
         mod_comps = mod_data.get("competencias_titulo", [])
 
-        # Texto de acreditación oficial
         if mod_ucs:
             acred_list = []
             for uc in mod_ucs:
@@ -669,7 +1266,7 @@ class FodtTemplateEngine:
                 acred_list.append(f"{uc} ({desc})" if desc else uc)
             acreditacion_text = "; ".join(acred_list) + "."
         else:
-            acreditacion_text = "Módulo profesional de carácter complementario / transversal; no acredita directamente Unidades de Competencia del Catálogo Nacional (CNCP)."
+            acreditacion_text = acred_defaults["sin_uc_text"]
 
         # --- 1. CLONAR FILAS DE TABLA 3: UNIDADES DE COMPETENCIA (Table_36848684) ---
         t_ucs = self._find_table(body, 'Table_36848684', ns_map)
@@ -682,7 +1279,7 @@ class FodtTemplateEngine:
                     for uc in mod_ucs:
                         uc_desc = all_ucs.get(uc, "")
                         cualifs = [f"{c.get('codigo')}: {c.get('denominacion')}" for c in cualif_list if uc in c.get('unidades_competencia', [])]
-                        cualif_str = " / ".join(cualifs) if cualifs else "Cualificación de referencia del Catálogo Nacional"
+                        cualif_str = " / ".join(cualifs) if cualifs else acred_defaults["cualif_default"]
                         new_r = copy.deepcopy(tmpl_row)
                         self._replace_in_element(new_r, {
                             "{{uc}}": f"{uc}: {uc_desc}" if uc_desc else uc,
@@ -692,8 +1289,8 @@ class FodtTemplateEngine:
                 else:
                     new_r = copy.deepcopy(tmpl_row)
                     self._replace_in_element(new_r, {
-                        "{{uc}}": "Sin acreditación directa de Unidades de Competencia",
-                        "{{ifc}}": "Módulo formativo transversal / complementario"
+                        "{{uc}}": acred_defaults["sin_uc_label"],
+                        "{{ifc}}": acred_defaults["sin_ifc_label"]
                     })
                     t_ucs.append(new_r)
 
@@ -710,7 +1307,7 @@ class FodtTemplateEngine:
             insert_idx = idx_p
             comps_to_show = mod_comps if mod_comps else list(all_comps.keys())[:3]
             for letra in comps_to_show:
-                desc = all_comps.get(letra, "Descripción de la competencia en el currículo oficial")
+                desc = all_comps.get(letra, ped_defaults["competencia_desc_default"])
                 new_p = copy.deepcopy(p_comp_tmpl)
                 new_p.text = f"{letra}) {desc}"
                 for sub in list(new_p): new_p.remove(sub)
@@ -820,7 +1417,7 @@ class FodtTemplateEngine:
                         new_r = copy.deepcopy(tmpl_row)
                         self._replace_in_element(new_r, {
                             "{{inst_ra}}": f"RA{r_num}",
-                            "{{inst_nombre}}": "Pruebas teórico-prácticas y proyectos de laboratorio",
+                            "{{inst_nombre}}": ped_defaults["evaluacion"]["instrumento_unico_nombre"],
                             "{{inst_peso_ra}}": "100.0%",
                             "{{inst_contribucion}}": f"{ra_w:.2f}%",
                             "{{inst_ces}}": ces_str
@@ -848,6 +1445,31 @@ class FodtTemplateEngine:
                 break
 
         if p_context_tmpl is not None:
+            raw_body_style = p_context_tmpl.attrib.get('{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name', 'Standard')
+
+            def is_safe_text_style(s_name: str) -> bool:
+                if not s_name:
+                    return False
+                for s_elem in root.findall('.//style:style', ns_map):
+                    if s_elem.attrib.get('{urn:oasis:names:tc:opendocument:xmlns:style:1.0}name') == s_name:
+                        pp = s_elem.find('.//style:paragraph-properties', ns_map)
+                        if pp is not None and pp.attrib.get('{urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0}break-before') == 'page':
+                            return False
+                return True
+
+            body_style = raw_body_style if is_safe_text_style(raw_body_style) else 'Standard'
+
+            bullet_style = None
+            for p in body.findall('.//text:p', ns_map):
+                t_check = "".join(p.itertext()).strip()
+                if t_check.startswith(('•', '−', '-')) and p != p_context_tmpl:
+                    cand = p.attrib.get('{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name')
+                    if cand and is_safe_text_style(cand):
+                        bullet_style = cand
+                        break
+            if not bullet_style:
+                bullet_style = body_style
+
             parent = body
             idx_p = list(parent).index(p_context_tmpl)
             parent.remove(p_context_tmpl)
@@ -857,13 +1479,13 @@ class FodtTemplateEngine:
                 raw_paras = [p.strip() for p in orientaciones.split("\n") if p.strip()]
             else:
                 raw_paras = [
-                    f"La formación del módulo profesional de {mod_name} capacita al alumnado para desempeñar con "
-                    f"solvencia las funciones técnicas, organizativas y operativas asociadas al perfil laboral del título, "
-                    f"garantizando la calidad, seguridad y cumplimiento de los estándares del sector profesional."
+                    ped_defaults["contextualizacion_template"].format(mod_name=mod_name)
                 ]
 
             for raw_para in raw_paras:
                 clean_p = raw_para.strip()
+                if not clean_p:
+                    continue
                 is_bullet = False
                 if clean_p.startswith(("−", "-", "•", "*", "–", "·")):
                     is_bullet = True
@@ -873,19 +1495,51 @@ class FodtTemplateEngine:
 
                 new_p = ET.Element('{urn:oasis:names:tc:opendocument:xmlns:text:1.0}p')
                 if is_bullet:
-                    new_p.attrib['{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name'] = 'P20'
+                    if bullet_style:
+                        new_p.attrib['{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name'] = bullet_style
                     new_p.text = f"• {clean_p}"
                 else:
-                    new_p.attrib['{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name'] = 'P14'
+                    if body_style:
+                        new_p.attrib['{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name'] = body_style
                     new_p.text = clean_p
 
                 parent.insert(insert_idx, new_p)
                 insert_idx += 1
 
-        # --- 8. REEMPLAZO GLOBAL DE PLACEHOLDERS EN TODO EL DOCUMENTO ---
-        sw_list = [f"• Software técnico: {sw}" for sw in ped_info.get("recursos_software", [])]
-        hw_list = [f"• Hardware e instrumental: {hw}" for hw in ped_info.get("recursos_hardware", [])]
-        recursos_text = "\n".join(sw_list + hw_list)
+        # --- 8. EXPANDIR PÁRRAFOS DE RECURSOS ESPECÍFICOS (6.1) CON VIÑETAS INDIVIDUALES ---
+        p_rec_tmpl = None
+        for p in body.findall('.//text:p', ns_map):
+            if "{{recursos_especificos}}" in "".join(p.itertext()):
+                p_rec_tmpl = p
+                break
+
+        if p_rec_tmpl is not None:
+            parent = body
+            idx_p = list(parent).index(p_rec_tmpl)
+            parent.remove(p_rec_tmpl)
+            insert_idx = idx_p
+
+            sw_list = ped_info.get("recursos_software", [])
+            hw_list = ped_info.get("recursos_hardware", [])
+
+            rec_items = []
+            for sw in sw_list:
+                rec_items.append(f"• Software técnico: {sw}")
+            for hw in hw_list:
+                rec_items.append(f"• Hardware e instrumental: {hw}")
+
+            if not rec_items:
+                rec_items = list(ped_defaults["recursos_especificos_fallback"])
+
+            for item in rec_items:
+                new_p = ET.Element('{urn:oasis:names:tc:opendocument:xmlns:text:1.0}p')
+                if bullet_style:
+                    new_p.attrib['{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name'] = bullet_style
+                new_p.text = item
+                parent.insert(insert_idx, new_p)
+                insert_idx += 1
+
+        # --- 9. REEMPLAZO GLOBAL DE PLACEHOLDERS EN TODO EL DOCUMENTO ---
         
         if f"({ciclo_code})" in ciclo_title:
             ciclo_full_title = ciclo_title
@@ -894,10 +1548,17 @@ class FodtTemplateEngine:
         if codigo_ciclo and codigo_ciclo not in ciclo_full_title:
             ciclo_full_title += f" (Código: {codigo_ciclo})"
 
+        siglas = get_module_initials(mod_data=mod_data, mod_code=mod_code, mod_name=mod_name)
+
         global_vars = {
             "{{modulo}}": f"{mod_code} - {mod_name}",
             "{{codigo_modulo}}": mod_code,
+            "{{modulo_codigo}}": mod_code,
             "{{nombre_modulo}}": mod_name,
+            "{{modulo_nombre}}": mod_name,
+            "{{siglas}}": siglas,
+            "{{siglas_modulo}}": siglas,
+            "{{modulo_siglas}}": siglas,
             "{{modulo_header}}": f"{mod_code} - {mod_name[:26]}",
             "{{ciclo}}": ciclo_full_title,
             "{{ciclo_corto}}": ciclo_code,
@@ -914,14 +1575,13 @@ class FodtTemplateEngine:
             "{{contextualizacion_modulo}}": "",
             "{{acreditacion}}": acreditacion_text,
             "{{metodologia_especifica}}": ped_info.get("metodologia", ""),
-            "{{recursos_especificos}}": recursos_text,
+            "{{recursos_especificos}}": "",
             "{{espacios_especificos}}": ped_info.get("espacios", ""),
             "{{formula_evaluacion}}": ped_info.get("formula_evaluacion", "")
         }
 
         self._replace_in_element(root, global_vars)
 
-        # Empaquetar exclusivamente archivo .odt
         os.makedirs(os.path.dirname(os.path.abspath(output_odt_path)), exist_ok=True)
         self._package_fodt_to_odt(root, output_odt_path, ns_map)
 
@@ -984,103 +1644,6 @@ class FodtTemplateEngine:
             z.writestr('styles.xml', styles_xml, compress_type=zipfile.ZIP_DEFLATED)
 
 
-# ==============================================================================
-# NOMENCLATURA ESTÁNDAR Y GENERADOR DE SIGLAS DE MÓDULOS
-# ==============================================================================
-
-KNOWN_MODULE_INITIALS = {
-    # DAM
-    "0483": "SI",       # Sistemas informáticos
-    "0484": "BD",       # Bases de datos
-    "0485": "PROG",     # Programación
-    "0373": "LMSGI",    # Lenguajes de marcas y sistemas de gestión de información
-    "0487": "ED",       # Entornos de desarrollo
-    "0486": "AD",       # Acceso a datos
-    "0488": "DI",       # Desarrollo de interfaces
-    "0489": "PMYDM",    # Programación multimedia y dispositivos móviles
-    "0490": "PSP",      # Programación de servicios y procesos
-    "0491": "SGE",      # Sistemas de gestión empresarial
-    "0492": "PROY",     # Proyecto DAM
-
-    # DAW
-    "0612": "DWEC",     # Desarrollo web en entorno cliente
-    "0613": "DWES",     # Desarrollo web en entorno servidor
-    "0614": "DAW",      # Despliegue de aplicaciones web
-    "0615": "DIW",      # Diseño de interfaces web
-    "0616": "PROY",     # Proyecto DAW
-
-    # SMX
-    "0221": "MME",      # Montaje y mantenimiento de equipos
-    "0222": "SOM",      # Sistemas operativos monopuesto
-    "0223": "AO",       # Aplicaciones ofimáticas
-    "0224": "SOR",      # Sistemas operativos en red
-    "0225": "RL",       # Redes locales
-    "0226": "SI",       # Seguridad informática
-    "0227": "SER",      # Servicios en red
-    "0228": "AW",       # Aplicaciones web
-    "0229": "FOL",      # Formación y orientación laboral
-    "0230": "EIE",      # Empresa e iniciativa emprendedora
-    "0231": "FCT",      # Formación en centros de trabajo
-}
-
-def get_module_initials(mod_code: str, mod_name: str) -> str:
-    clean_code = str(mod_code).zfill(4)
-    if clean_code in KNOWN_MODULE_INITIALS:
-        return KNOWN_MODULE_INITIALS[clean_code]
-        
-    words = re.findall(r'[a-zA-Z0-9áéíóúÁÉÍÓÚñÑüÜ]+', mod_name)
-    stopwords = {'de', 'del', 'en', 'la', 'el', 'los', 'las', 'a', 'para', 'por', 'sobre', 'con'}
-    sig_words = [w for w in words if w.lower() not in stopwords]
-    
-    if len(sig_words) == 1 and len(sig_words[0]) > 4:
-        return sig_words[0][:4].upper()
-        
-    initials = []
-    for w in sig_words:
-        c = unicodedata.normalize('NFD', w[0])[0].upper()
-        initials.append(c)
-    return "".join(initials) if initials else "MOD"
-
-
-def get_pd_filename(
-    ciclo: str,
-    curso: str,
-    mod_code: str,
-    mod_name: str,
-    curso_academico: str = "2026 / 2027"
-) -> str:
-    """
-    Genera el nombre estándar de archivo:
-    PD_{curso_escolar}_{ciclo}{curso}_{codigo}_{iniciales}.odt
-    Ejemplo: PD_26-27_DAM2_0489_PMYDM.odt
-    """
-    # 1. Curso escolar: "2026 / 2027" -> "26-27"
-    years = re.findall(r'\b\d{2,4}\b', curso_academico)
-    if len(years) >= 2:
-        y1 = years[0][-2:]
-        y2 = years[1][-2:]
-        curso_esc = f"{y1}-{y2}"
-    else:
-        curso_esc = "26-27"
-
-    # 2. Ciclo y curso: DAM + 2 -> DAM2
-    c_digits = re.findall(r'\d', str(curso))
-    c_num = c_digits[0] if c_digits else "1"
-    ciclo_curso = f"{ciclo.upper()}{c_num}"
-
-    # 3. Código numérico de 4 dígitos
-    code_str = str(mod_code).zfill(4)
-
-    # 4. Iniciales del módulo
-    initials = get_module_initials(code_str, mod_name)
-
-    return f"PD_{curso_esc}_{ciclo_curso}_{code_str}_{initials}.odt"
-
-
-# ==============================================================================
-# ORQUESTADOR SISTEMÁTICO DE GENERACIÓN
-# ==============================================================================
-
 class SystematicProgramacionGenerator:
     """
     Genera sistemáticamente las programaciones didácticas a partir de plantilla.fodt
@@ -1089,15 +1652,17 @@ class SystematicProgramacionGenerator:
     def __init__(self, base_dir: str = ".", template_path: Optional[str] = None):
         self.base_dir = base_dir
         self.repo = CurriculumRepository(base_dir)
-        self.ped_provider = PedagogicalDataProvider(os.path.join(base_dir, "pedagogia_modulos.json"))
-        tmpl = template_path if template_path else os.path.join(base_dir, "plantilla.fodt")
+        self.ped_provider = PedagogicalDataProvider(base_dir)
+        tmpl = template_path if template_path else os.path.join(base_dir, DEFAULT_CONFIG["metadata"]["template_path"])
         self.engine = FodtTemplateEngine(tmpl)
 
     def generate_all(
         self,
-        output_dir: str = "programaciones",
-        curso_academico: str = "2026 / 2027"
+        output_dir: Optional[str] = None,
+        curso_academico: Optional[str] = None
     ) -> List[Tuple[str, str, str]]:
+        output_dir = output_dir or DEFAULT_CONFIG["metadata"]["output_dir"]
+        curso_academico = curso_academico or DEFAULT_CONFIG["metadata"]["curso_academico"]
         generated = []
         for ciclo_code in self.repo.get_all_cycles().keys():
             res = self.generate_cycle(ciclo_code, output_dir=output_dir, curso_academico=curso_academico)
@@ -1107,9 +1672,11 @@ class SystematicProgramacionGenerator:
     def generate_cycle(
         self,
         ciclo_code: str,
-        output_dir: str = "programaciones",
-        curso_academico: str = "2026 / 2027"
+        output_dir: Optional[str] = None,
+        curso_academico: Optional[str] = None
     ) -> List[Tuple[str, str, str]]:
+        output_dir = output_dir or DEFAULT_CONFIG["metadata"]["output_dir"]
+        curso_academico = curso_academico or DEFAULT_CONFIG["metadata"]["curso_academico"]
         generated = []
         cycle_data = self.repo.get_cycle_data(ciclo_code)
         if not cycle_data:
@@ -1122,21 +1689,23 @@ class SystematicProgramacionGenerator:
         for mod in cycle_data.get("modulos", []):
             mod_code = str(mod.get("codigo", "")).zfill(4)
             mod_name = mod.get("nombre", "")
-            mod_curso = mod.get("curso_orientativo", "1º")
+            mod_curso = mod.get("curso_orientativo", DEFAULT_CONFIG["metadata"]["curso_orientativo"])
 
             filename = get_pd_filename(
                 ciclo=ciclo_code,
                 curso=mod_curso,
                 mod_code=mod_code,
                 mod_name=mod_name,
+                mod_data=mod,
                 curso_academico=curso_academico
             )
             odt_path = os.path.join(c_dir, filename)
 
-            ped_info = self.ped_provider.get_pedagogical_data(mod_code, mod)
+            ped_info = self.ped_provider.get_pedagogical_data(mod_code, mod, ciclo=ciclo_code)
             context_meta = {
                 "ciclo": ciclo_code.upper(),
-                "profesor": "Profesorado del Departamento de Informática",
+                "profesor": DEFAULT_CONFIG["metadata"]["profesor"],
+                "centro": DEFAULT_CONFIG["metadata"]["centro"],
                 "curso_academico": curso_academico
             }
 
@@ -1150,8 +1719,9 @@ class SystematicProgramacionGenerator:
         identifier: str,
         ciclo: Optional[str] = None,
         output_filepath: Optional[str] = None,
-        curso_academico: str = "2026 / 2027"
+        curso_academico: Optional[str] = None
     ) -> str:
+        curso_academico = curso_academico or DEFAULT_CONFIG["metadata"]["curso_academico"]
         result = self.repo.get_module(ciclo, identifier)
         if not result:
             raise ValueError(f"No se encontró el módulo '{identifier}' en el repositorio de currículos.")
@@ -1159,27 +1729,29 @@ class SystematicProgramacionGenerator:
         c_code = cycle_data.get("ciclo", "FP").upper()
         mod_code = str(mod_data.get("codigo", "")).zfill(4)
         mod_name = mod_data.get("nombre", "")
-        mod_curso = mod_data.get("curso_orientativo", "1º")
+        mod_curso = mod_data.get("curso_orientativo", DEFAULT_CONFIG["metadata"]["curso_orientativo"])
 
         if output_filepath:
             base_name, ext = os.path.splitext(output_filepath)
             odt_path = f"{base_name}.odt" if ext.lower() != ".odt" else output_filepath
         else:
-            c_dir = os.path.join("programaciones", c_code)
+            c_dir = os.path.join(DEFAULT_CONFIG["metadata"]["output_dir"], c_code)
             os.makedirs(c_dir, exist_ok=True)
             filename = get_pd_filename(
                 ciclo=c_code,
                 curso=mod_curso,
                 mod_code=mod_code,
                 mod_name=mod_name,
+                mod_data=mod_data,
                 curso_academico=curso_academico
             )
             odt_path = os.path.join(c_dir, filename)
 
-        ped_info = self.ped_provider.get_pedagogical_data(mod_code, mod_data)
+        ped_info = self.ped_provider.get_pedagogical_data(mod_code, mod_data, ciclo=c_code)
         context_meta = {
             "ciclo": c_code,
-            "profesor": "Profesorado del Departamento de Informática",
+            "profesor": DEFAULT_CONFIG["metadata"]["profesor"],
+            "centro": DEFAULT_CONFIG["metadata"]["centro"],
             "curso_academico": curso_academico
         }
 
@@ -1188,54 +1760,97 @@ class SystematicProgramacionGenerator:
 
 
 # ==============================================================================
-# PUNTO DE ENTRADA CLI
+# PUNTO DE ENTRADA CLI INTEGRADO (3 FUNCIONALIDADES EN 1 SCRIPT)
 # ==============================================================================
 
 def main():
+    default_meta = DEFAULT_CONFIG["metadata"]
+
     parser = argparse.ArgumentParser(
-        description="Generador sistemático de Programaciones Didácticas FP en formato nativo ODT (.odt)."
+        description="Sistema integral de Programaciones Didácticas FP (Parseo XML + Pedagogía JSON + Generación ODT)."
     )
+
+    # GRUPO 1: Parseo y validación de currículos XML (Parte 1)
+    parser.add_argument(
+        "--parse-xml",
+        type=str,
+        default=None,
+        help="[Parte 1] Parsea un archivo oficial XML del BOE y genera curriculum_<ciclo>.json."
+    )
+
+    # GRUPO 2: Generación de andamiaje pedagógico (Parte 2)
+    parser.add_argument(
+        "--generar-pedagogia",
+        action="store_true",
+        help="[Parte 2] Genera el andamiaje pedagógico JSON para el ciclo especificado (--ciclo) o todos (--all)."
+    )
+
+    # GRUPO 3: Generación de programaciones didácticas ODT (Parte 3)
     parser.add_argument(
         "--all",
         action="store_true",
-        help="Generar sistemáticamente todos los módulos de todos los ciclos formativos disponibles."
+        help="[Parte 3 / Parte 2] Aplica la acción a TODOS los ciclos disponibles."
     )
     parser.add_argument(
         "--ciclo",
         type=str,
-        help="Generar todos los módulos del ciclo formativo especificado (ej. SMX, DAM, DAW)."
+        default=None,
+        help="Código del ciclo formativo (ej. DAM, DAW, SMX, ASIR)."
     )
     parser.add_argument(
         "--modulo",
         type=str,
-        help="Generar un módulo específico por código numérico o nombre (ej. 0221, 0489)."
+        default=None,
+        help="[Parte 3] Genera un módulo específico por código numérico o nombre (ej. 0221, 0489)."
     )
     parser.add_argument(
         "--output", "-o",
         type=str,
         default=None,
-        help="Ruta de archivo .odt de salida personalizada (aplicable junto con --modulo)."
+        help="Ruta de archivo de salida personalizada (.odt o .json según la acción)."
     )
     parser.add_argument(
         "--output-dir",
         type=str,
-        default="programaciones",
-        help="Directorio raíz de salida (por defecto: 'programaciones')."
+        default=default_meta["output_dir"],
+        help=f"Directorio raíz de salida para documentos .odt (por defecto: '{default_meta['output_dir']}')."
     )
     parser.add_argument(
         "--curso-academico", "--curso-escolar",
         type=str,
-        default="2026 / 2027",
-        help="Curso escolar / académico de las programaciones (por defecto: '2026 / 2027')."
+        default=default_meta["curso_academico"],
+        help=f"Curso escolar / académico de las programaciones (por defecto: '{default_meta['curso_academico']}')."
     )
     parser.add_argument(
         "--plantilla", "--template",
         type=str,
         default=None,
-        help="Ruta a la plantilla ODF (.fodt) base a utilizar (por defecto: 'plantilla.fodt')."
+        help=f"Ruta a la plantilla ODF (.fodt) base a utilizar (por defecto: '{default_meta['template_path']}')."
     )
 
     args = parser.parse_args()
+
+
+    # --- ACCIÓN 2: PARSEAR XML DEL BOE ---
+    if args.parse_xml:
+        run_parse_curriculum(args.parse_xml, ciclo=args.ciclo, output_path=args.output)
+        return
+
+    # --- ACCIÓN 3: GENERAR ANDAMIAJE PEDAGÓGICO JSON ---
+    if args.generar_pedagogia:
+        if args.all:
+            run_generate_all_pedagogy(".")
+            return
+        elif args.ciclo:
+            c_code = args.ciclo.strip().lower()
+            curr_path = f"curriculum_{c_code}.json"
+            run_generate_cycle_pedagogy(curr_path, output_path=args.output)
+            return
+        else:
+            print("[ERROR] Debe especificar --ciclo <CODIGO> o --all junto con --generar-pedagogia.", file=sys.stderr)
+            sys.exit(1)
+
+    # --- ACCIÓN 4: GENERAR PROGRAMACIONES DIDÁCTICAS ODT ---
     systematic_gen = SystematicProgramacionGenerator(".", template_path=args.plantilla)
 
     if args.all:
