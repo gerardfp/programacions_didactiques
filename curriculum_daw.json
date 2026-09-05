@@ -1,0 +1,3418 @@
+{
+  "titulo": "Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW)",
+  "familia_profesional": "Informática y Comunicaciones",
+  "normativa_referencia": "Real Decreto 686/2010, de 20 de mayo (actualizado por Real Decreto 405/2023)",
+  "archivo_fuente": "curriculum_daw",
+  "total_modulos": 9,
+  "total_resultados_aprendizaje": 64,
+  "total_criterios_evaluacion": 516,
+  "modulos": [
+    {
+      "codigo": "0483",
+      "nombre": "Sistemas informáticos",
+      "creditos_ects": 10,
+      "curso_orientativo": "1º",
+      "total_resultados_aprendizaje": 7,
+      "total_criterios_evaluacion": 55,
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "codigo": "RA1",
+          "descripcion": "Evalúa sistemas informáticos, identificando sus componentes y características.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han reconocido los componentes físicos de un sistema informático y sus mecanismos de interconexión."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han clasificado los tipos de memorias, señalando sus características e identifcando sus prestaciones y la función que desarrollan en el conjunto del sistema."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se ha verificado el proceso de puesta en marcha de un equipo."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se han clasificado, instalado y configurado diferentes tipos de dispositivos periféricos."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "Se han identificado los tipos de redes y sistemas de comunicación."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "Se han identificado los componentes de una red informática."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA1.g",
+              "descripcion": "Se han interpretado mapas físicos y lógicos de una red informática."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA1.h",
+              "descripcion": "Se han reconocido las normas de seguridad y prevención de riesgos laborales en el uso de los sistemas informáticos."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "codigo": "RA2",
+          "descripcion": "Instala sistemas operativos planificando el proceso e interpretando documentación técnica.",
+          "total_criterios": 9,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han identificado los elementos funcionales de un sistema informático."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han analizado las características, funciones y arquitectura de un sistema operativo."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se han comparado sistemas operativos en base a sus requisitos, características, campos de aplicación y licencias de uso."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se ha planificado el proceso de la instalación de sistemas operativos."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se han instalado y actualizado sistemas operativos libres y propietarios."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA2.f",
+              "descripcion": "Se han aplicado técnicas de actualización y recuperación del sistema."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA2.g",
+              "descripcion": "Se han utilizado tecnologías de virtualización para instalar y probar sistemas operativos."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA2.h",
+              "descripcion": "Se han instalado, desinstalado y actualizado aplicaciones."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA2.i",
+              "descripcion": "Se han documentado los procesos realizados."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "codigo": "RA3",
+          "descripcion": "Gestiona la información del sistema identificando las estructuras de almacenamiento y aplicando medidas para asegurar la integridad de los datos.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han comparado sistemas de archivos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se ha identificado la estructura y función de los directorios del sistema"
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "operativo."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "Se han utilizado herramientas en entorno gráfico y comandos para localizar información en el sistema de archivos."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "Se han creado diferentes tipos de particiones y unidades lógicas."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA3.f",
+              "descripcion": "Se han realizado y restaurado copias de seguridad."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA3.g",
+              "descripcion": "Se han planificado y automatizado tareas."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA3.h",
+              "descripcion": "Se han instalado y evaluado utilidades relacionadas con la gestión de información."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "codigo": "RA4",
+          "descripcion": "Gestiona sistemas operativos utilizando comandos y herramientas gráficas y evaluando las necesidades del sistema.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han configurado cuentas de usuario locales y grupos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se ha asegurado el acceso al sistema mediante el uso de directivas de cuenta y directivas de contraseñas."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se han identificado, arrancado y detenido servicios y procesos."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se ha protegido el acceso a la información mediante el uso de permisos locales y listas de control de acceso."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA4.e",
+              "descripcion": "Se han utilizado comandos para realizar las tareas básicas de configuración y administración del sistema."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA4.f",
+              "descripcion": "Se ha monitorizado el sistema."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA4.g",
+              "descripcion": "Se han instalado y evaluado utilidades para el mantenimiento y optimización del sistema."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA4.h",
+              "descripcion": "Se han evaluado las necesidades del sistema informático en relación con el desarrollo de aplicaciones."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "codigo": "RA5",
+          "descripcion": "Interconecta sistemas en red configurando dispositivos y protocolos.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se ha configurado el protocolo TCP/IP."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han configurado redes de área local cableadas."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "Se han configurado redes de área local inalámbricas."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "Se han utilizado dispositivos de interconexión de redes."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": "Se ha configurado el acceso a redes de área extensa."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA5.f",
+              "descripcion": "Se han gestionado puertos de comunicaciones."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA5.g",
+              "descripcion": "Se ha verificado el funcionamiento de la red mediante el uso de comandos y herramientas básicas."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA5.h",
+              "descripcion": "Se han aplicado protocolos seguros de comunicaciones."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "codigo": "RA6",
+          "descripcion": "Opera sistemas en red gestionando sus recursos e identificando las restricciones de seguridad existentes.",
+          "total_criterios": 7,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se ha configurado el acceso a recursos locales y recursos de red."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se han identificado y configurado los derechos de usuario y directivas de seguridad."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA6.c",
+              "descripcion": "Se han explotado servidores de ficheros, servidores de impresión y servidores de aplicaciones."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA6.d",
+              "descripcion": "Se ha accedido a los servidores utilizando técnicas de conexión remota."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA6.e",
+              "descripcion": "Se ha evaluado la necesidad de proteger los recursos y el sistema."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA6.f",
+              "descripcion": "Se han instalado y evaluado utilidades de seguridad básica."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA6.g",
+              "descripcion": "Se han configurado y explotado dominios."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "codigo": "RA7",
+          "descripcion": "Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general.",
+          "total_criterios": 7,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "Se ha clasificado software en función de su licencia y propósito."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "Se han analizado las necesidades específicas de software asociadas al uso de sistemas informáticos en diferentes entornos productivos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA7.c",
+              "descripcion": "Se han realizado tareas de documentación mediante el uso de herramientas ofimáticas y de trabajo colaborativo."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA7.d",
+              "descripcion": "Se han utilizado sistemas de correo y mensajería electrónica."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA7.e",
+              "descripcion": "Se han utilizado los servicios de transferencia de ficheros."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA7.f",
+              "descripcion": "Se han utilizado métodos de búsqueda de documentación técnica mediante el uso de servicios de Internet."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA7.g",
+              "descripcion": "Se han utilizado herramientas de propósito general. Duración: 100 horas."
+            }
+          ]
+        }
+      ],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "q",
+        "r",
+        "s",
+        "t",
+        "x"
+      ],
+      "unidades_competencia": [
+        "UC0223_3"
+      ],
+      "horas": 100,
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de explotación de sistemas informáticos.\n\nLa función de explotación de sistemas informáticos incluye aspectos como:\n\n− La instalación, configuración básica y explotación de sistemas operativos.\n\n− La gestión de la información del sistema.\n\n− La configuración básica y gestión de redes de área local.\n\n− La instalación, mantenimiento y explotación de aplicaciones a partir de documentación técnica.\n\nLas actividades profesionales asociadas a esta función se aplican en la explotación de sistemas informáticos en relación al desarrollo de aplicaciones.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales a), b), t), u), v), w) y x) del ciclo formativo y las competencias profesionales, personales y sociales a), b), l), t), u), v), w), x) e y) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo están relacionadas con:\n\n− La identificación del hardware.\n\n− El análisis de los cambios y novedades que se producen en los sistemas informáticos: hardware, sistemas operativos, redes y aplicaciones.\n\n− La utilización de tecnologías de virtualización para simular sistemas.\n\n− La correcta interpretación de documentación técnica.\n\n− La instalación y actualización de sistemas operativos.\n\n− La gestión de la información del sistema mediante comandos y herramientas gráficas.\n\n− La gestión de redes locales.\n\n− La instalación y configuración de aplicaciones.\n\n− La verificación de la seguridad de acceso al sistema.\n\n− La elaboración de documentación técnica."
+    },
+    {
+      "codigo": "0484",
+      "nombre": "Bases de datos",
+      "creditos_ects": 12,
+      "curso_orientativo": "1º",
+      "total_resultados_aprendizaje": 7,
+      "total_criterios_evaluacion": 57,
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "codigo": "RA1",
+          "descripcion": "Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de los sistemas gestores.",
+          "total_criterios": 10,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han analizado los sistemas lógicos de almacenamiento y sus características."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han identificado los distintos tipos de bases de datos según el modelo de datos utilizado."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se han identificado los distintos tipos de bases de datos en función de la ubicación de la información."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se ha evaluado la utilidad de un sistema gestor de bases de datos."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "Se ha reconocido la función de cada uno de los elementos de un sistema gestor de bases de datos."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "Se han clasificado los sistemas gestores de bases de datos."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA1.g",
+              "descripcion": "Se ha reconocido la utilidad de las bases de datos distribuidas."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA1.h",
+              "descripcion": "Se han analizado las políticas de fragmentación de la información."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA1.i",
+              "descripcion": "Se ha identificado la legislación vigente sobre protección de datos."
+            },
+            {
+              "letra": "j",
+              "codigo": "RA1.j",
+              "descripcion": "Se han reconocido los conceptos de Big Data y de la inteligencia de negocios."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "codigo": "RA2",
+          "descripcion": "Crea bases de datos definiendo su estructura y las características de sus elementos según el modelo relacional.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se ha analizado el formato de almacenamiento de la información."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han creado las tablas y las relaciones entre ellas."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se han seleccionado los tipos de datos adecuados."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se han definido los campos clave en las tablas."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se han implantado las restricciones reflejadas en el diseño lógico."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA2.f",
+              "descripcion": "Se han creado vistas."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA2.g",
+              "descripcion": "Se han creado los usuarios y se les han asignado privilegios."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA2.h",
+              "descripcion": "Se han utilizado asistentes, herramientas gráficas y los lenguajes de definición y control de datos."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "codigo": "RA3",
+          "descripcion": "Consulta la información almacenada en una base de datos empleando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han identificado las herramientas y sentencias para realizar consultas."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han realizado consultas simples sobre una tabla."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "Se han realizado consultas sobre el contenido de varias tablas mediante composiciones internas."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "Se han realizado consultas sobre el contenido de varias tablas mediante composiciones externas."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "Se han realizado consultas resumen."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA3.f",
+              "descripcion": "Se han realizado consultas con subconsultas."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA3.g",
+              "descripcion": "Se han realizado consultas que implican múltiples selecciones."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA3.h",
+              "descripcion": "Se han aplicado criterios de optimización de consultas."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "codigo": "RA4",
+          "descripcion": "Modifica la información almacenada en la base de datos utilizando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han identificado las herramientas y sentencias para modificar el contenido de la base de datos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han insertado, borrado y actualizado datos en las tablas."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se ha incluido en una tabla la información resultante de la ejecución de una consulta."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se han diseñado guiones de sentencias para llevar a cabo tareas complejas."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA4.e",
+              "descripcion": "Se ha reconocido el funcionamiento de las transacciones."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA4.f",
+              "descripcion": "Se han anulado parcial o totalmente los cambios producidos por una transacción."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA4.g",
+              "descripcion": "Se han identificado los efectos de las distintas políticas de bloqueo de registros."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA4.h",
+              "descripcion": "Se han adoptado medidas para mantener la integridad y consistencia de la información."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "codigo": "RA5",
+          "descripcion": "Desarrolla procedimientos almacenados evaluando y utilizando las sentencias del lenguaje incorporado en el sistema gestor de bases de datos.",
+          "total_criterios": 10,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se han identificado las diversas formas de automatizar tareas."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han reconocido los métodos de ejecución de guiones."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "Se han identificado las herramientas disponibles para editar guiones."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "Se han definido y utilizado guiones para automatizar tareas."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": "Se ha hecho uso de las funciones proporcionadas por el sistema gestor."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA5.f",
+              "descripcion": "Se han definido procedimientos y funciones de usuario."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA5.g",
+              "descripcion": "Se han utilizado estructuras de control de flujo."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA5.h",
+              "descripcion": "Se han definido eventos y disparadores."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA5.i",
+              "descripcion": "Se han utilizado cursores."
+            },
+            {
+              "letra": "j",
+              "codigo": "RA5.j",
+              "descripcion": "Se han utilizado excepciones."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "codigo": "RA6",
+          "descripcion": "Diseña modelos relacionales normalizados interpretando diagramas entidad/relación.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se han utilizado herramientas gráficas para representar el diseño lógico."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se han identificado las tablas del diseño lógico."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA6.c",
+              "descripcion": "Se han identificado los campos que forman parte de las tablas del diseño lógico."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA6.d",
+              "descripcion": "Se han analizado las relaciones entre las tablas del diseño lógico."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA6.e",
+              "descripcion": "Se han identificado los campos clave."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA6.f",
+              "descripcion": "Se han aplicado reglas de integridad."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA6.g",
+              "descripcion": "Se han aplicado reglas de normalización."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA6.h",
+              "descripcion": "Se han analizado y documentado las restricciones que no pueden plasmarse en el diseño lógico."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "codigo": "RA7",
+          "descripcion": "Gestiona la información almacenada en bases de datos no relacionales, evaluando y utilizando las posibilidades que proporciona el sistema gestor.",
+          "total_criterios": 5,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "Se han caracterizado las bases de datos no relacionales."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "Se han evaluado los principales tipos de bases de datos no relacionales."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA7.c",
+              "descripcion": "Se han identificado los elementos utilizados en estas bases de datos."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA7.d",
+              "descripcion": "Se han identificado distintas formas de gestión de la información según el tipo de base de datos no relacionales."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA7.e",
+              "descripcion": "Se han utilizado las herramientas del sistema gestor para la gestión de la información almacenada. Duración: 105 horas."
+            }
+          ]
+        }
+      ],
+      "competencias_titulo": [
+        "b",
+        "c",
+        "d",
+        "e",
+        "p",
+        "q"
+      ],
+      "unidades_competencia": [
+        "UC0226_3"
+      ],
+      "horas": 105,
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de programación de bases de datos.\n\nLa función de programación de bases de datos incluye aspectos como:\n\n− La planificación y realización del diseño lógico y físico de una base de datos.\n\n− La normalización de esquemas.\n\n− La inserción y manipulación de datos.\n\n− La planificación y realización de consultas.\n\n− La programación de procedimientos almacenados.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\n− La gestión de la información almacenada en bases de datos.\n\n− El desarrollo de aplicaciones que acceden a bases de datos.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales c), e), f), p) y t) del ciclo formativo y las competencias b), c), e), p) y t) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n− La interpretación de diseños lógicos de bases de datos.\n\n− La realización del diseño físico de una base de datos a partir de un diseño lógico.\n\n− La implementación y normalización de bases de datos.\n\n− La realización de operaciones de consulta y modificación sobre los datos almacenados.\n\n− La programación de procedimientos almacenados.\n\n− La utilización de bases de datos no relacionales."
+    },
+    {
+      "codigo": "0485",
+      "nombre": "Programación",
+      "creditos_ects": 14,
+      "curso_orientativo": "1º",
+      "total_resultados_aprendizaje": 9,
+      "total_criterios_evaluacion": 79,
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "codigo": "RA1",
+          "descripcion": "Reconoce la estructura de un programa informático, identificando y relacionando los elementos propios del lenguaje de programación utilizado.",
+          "total_criterios": 9,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han identificado los bloques que componen la estructura de un programa informático."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han creado proyectos de desarrollo de aplicaciones."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se han utilizado entornos integrados de desarrollo."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se han identificado los distintos tipos de variables y la utilidad específica de cada uno."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "Se ha modificado el código de un programa para crear y utilizar variables."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "Se han creado y utilizado constantes y literales."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA1.g",
+              "descripcion": "Se han clasificado, reconocido y utilizado en expresiones los operadores del lenguaje."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA1.h",
+              "descripcion": "Se ha comprobado el funcionamiento de las conversiones de tipo explícitas e implícitas."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA1.i",
+              "descripcion": "Se han introducido comentarios en el código."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "codigo": "RA2",
+          "descripcion": "Escribe y prueba programas sencillos, reconociendo y aplicando los fundamentos de la programación orientada a objetos.",
+          "total_criterios": 9,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han identificado los fundamentos de la programación orientada a objetos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han escrito programas simples."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se han instanciado objetos a partir de clases predefinidas."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se han utilizado métodos y propiedades de los objetos."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se han escrito llamadas a métodos estáticos."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA2.f",
+              "descripcion": "Se han utilizado parámetros en la llamada a métodos."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA2.g",
+              "descripcion": "Se han incorporado y utilizado librerías de objetos."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA2.h",
+              "descripcion": "Se han utilizado constructores."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA2.i",
+              "descripcion": "Se ha utilizado el entorno integrado de desarrollo en la creación y compilación de programas simples."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "codigo": "RA3",
+          "descripcion": "Escribe y depura código, analizando y utilizando las estructuras de control del lenguaje.",
+          "total_criterios": 9,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se ha escrito y probado código que haga uso de estructuras de selección."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han utilizado estructuras de repetición."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "Se han reconocido las posibilidades de las sentencias de salto."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "Se ha escrito código utilizando control de excepciones."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "Se han creado programas ejecutables utilizando diferentes estructuras de control."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA3.f",
+              "descripcion": "Se han probado y depurado los programas."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA3.g",
+              "descripcion": "Se ha comentado y documentado el código."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA3.h",
+              "descripcion": "Se han creado excepciones."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA3.i",
+              "descripcion": "Se han utilizado aserciones para la detección y corrección de errores durante la fase de desarrollo."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "codigo": "RA4",
+          "descripcion": "Desarrolla programas organizados en clases analizando y aplicando los principios de la programación orientada a objetos.",
+          "total_criterios": 9,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se ha reconocido la sintaxis, estructura y componentes típicos de una clase."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han definido clases."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se han definido propiedades y métodos."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se han creado constructores."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA4.e",
+              "descripcion": "Se han desarrollado programas que instancien y utilicen objetos de las clases creadas anteriormente."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA4.f",
+              "descripcion": "Se han utilizado mecanismos para controlar la visibilidad de las clases y de sus miembros."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA4.g",
+              "descripcion": "Se han definido y utilizado clases heredadas."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA4.h",
+              "descripcion": "Se han creado y utilizado métodos estáticos."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA4.i",
+              "descripcion": "Se han creado y utilizado conjuntos y librerías de clases."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "codigo": "RA5",
+          "descripcion": "Realiza operaciones de entrada y salida de información, utilizando procedimientos específicos del lenguaje y librerías de clases.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se ha utilizado la consola para realizar operaciones de entrada y salida de información."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han aplicado formatos en la visualización de la información."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "Se han reconocido las posibilidades de entrada / salida del lenguaje y las librerías asociadas."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "Se han utilizado ficheros para almacenar y recuperar información."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": "Se han creado programas que utilicen diversos métodos de acceso al contenido de los ficheros."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA5.f",
+              "descripcion": "Se han utilizado las herramientas del entorno de desarrollo para crear interfaces gráficos de usuario simples."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA5.g",
+              "descripcion": "Se han programado controladores de eventos."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA5.h",
+              "descripcion": "Se han escrito programas que utilicen interfaces gráficos para la entrada y salida de información."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "codigo": "RA6",
+          "descripcion": "Escribe programas que manipulen información seleccionando y utilizando tipos avanzados de datos.",
+          "total_criterios": 10,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se han escrito programas que utilicen matrices (arrays)."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se han reconocido las librerías de clases relacionadas con tipos de datos avanzados."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA6.c",
+              "descripcion": "Se han utilizado listas para almacenar y procesar información."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA6.d",
+              "descripcion": "Se han utilizado iteradores para recorrer los elementos de las listas."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA6.e",
+              "descripcion": "Se han reconocido las características y ventajas de cada una de las colecciones de datos disponibles."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA6.f",
+              "descripcion": "Se han creado clases y métodos genéricos."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA6.g",
+              "descripcion": "Se han utilizado expresiones regulares en la búsqueda de patrones en cadenas de texto."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA6.h",
+              "descripcion": "Se han identificado las clases relacionadas con el tratamiento de documentos escritos en diferentes lenguajes de intercambio de datos."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA6.i",
+              "descripcion": "Se han realizado programas que realicen manipulaciones sobre documentos escritos en diferentes lenguajes de intercambio de datos."
+            },
+            {
+              "letra": "j",
+              "codigo": "RA6.j",
+              "descripcion": "Se han utilizado operaciones agregadas para el manejo de información almacenada en colecciones."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "codigo": "RA7",
+          "descripcion": "Desarrolla programas aplicando características avanzadas de los lenguajes orientados a objetos y del entorno de programación.",
+          "total_criterios": 10,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "Se han identificado los conceptos de herencia, superclase y subclase."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "Se han utilizado modificadores para bloquear y forzar la herencia de clases y métodos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA7.c",
+              "descripcion": "Se ha reconocido la incidencia de los constructores en la herencia."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA7.d",
+              "descripcion": "Se han creado clases heredadas que sobrescriben la implementación de métodos de la superclase."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA7.e",
+              "descripcion": "Se han diseñado y aplicado jerarquías de clases."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA7.f",
+              "descripcion": "Se han probado y depurado las jerarquías de clases."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA7.g",
+              "descripcion": "Se han realizado programas que implementen y utilicen jerarquías de clases."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA7.h",
+              "descripcion": "Se ha comentado y documentado el código."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA7.i",
+              "descripcion": "Se han identificado y evaluado los escenarios de uso de interfaces."
+            },
+            {
+              "letra": "j",
+              "codigo": "RA7.j",
+              "descripcion": "Se han identificado y evaluado los escenarios de utilización de la herencia y la composición."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "codigo": "RA8",
+          "descripcion": "Utiliza bases de datos orientadas a objetos, analizando sus características y aplicando técnicas para mantener la persistencia de la información.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA8.a",
+              "descripcion": "Se han identificado las características de las bases de datos orientadas a objetos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA8.b",
+              "descripcion": "Se ha analizado su aplicación en el desarrollo de aplicaciones mediante lenguajes orientados a objetos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA8.c",
+              "descripcion": "Se han instalado sistemas gestores de bases de datos orientados a objetos."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA8.d",
+              "descripcion": "Se han clasificado y analizado los distintos métodos soportados por los sistemas gestores para la gestión de la información almacenada."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA8.e",
+              "descripcion": "Se han creado bases de datos y las estructuras necesarias para el almacenamiento de objetos."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA8.f",
+              "descripcion": "Se han programado aplicaciones que almacenen objetos en las bases de datos creadas."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA8.g",
+              "descripcion": "Se han realizado programas para recuperar, actualizar y eliminar objetos de las bases de datos."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA8.h",
+              "descripcion": "Se han realizado programas para almacenar y gestionar tipos de datos estructurados, compuestos y relacionados."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "codigo": "RA9",
+          "descripcion": "Gestiona información almacenada en bases de datos manteniendo la integridad y consistencia de los datos.",
+          "total_criterios": 7,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA9.a",
+              "descripcion": "Se han identificado las características y métodos de acceso a sistemas gestores de bases de datos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA9.b",
+              "descripcion": "Se han programado conexiones con bases de datos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA9.c",
+              "descripcion": "Se ha escrito código para almacenar información en bases de datos."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA9.d",
+              "descripcion": "Se han creado programas para recuperar y mostrar información almacenada en bases de datos."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA9.e",
+              "descripcion": "Se han efectuado borrados y modificaciones sobre la información almacenada."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA9.f",
+              "descripcion": "Se han creado aplicaciones que muestren la información almacenada en bases de datos."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA9.g",
+              "descripcion": "Se han creado aplicaciones para gestionar la información presente en bases de datos. Duración: 135 horas."
+            }
+          ]
+        }
+      ],
+      "competencias_titulo": [
+        "a",
+        "d",
+        "e",
+        "f",
+        "m",
+        "n",
+        "p",
+        "q"
+      ],
+      "unidades_competencia": [
+        "UC0226_3"
+      ],
+      "horas": 135,
+      "orientaciones_pedagogicas": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de programación de aplicaciones de propósito general en lenguajes orientados a objetos.\n\nLa función de programación de aplicaciones de propósito general en lenguajes orientados a objetos incluye aspectos como:\n\n– El desarrollo de programas organizados en clases aplicando los principios de la programación orientada a objetos.\n\n– La utilización de interfaces para la interacción de la aplicación con el usuario.\n\n– La identificación, análisis e integración de librerías para incorporar funcionalidades específicas a los programas desarrollados.\n\n– El almacenamiento y recuperación de información en sistemas gestores de bases de datos.\n\nLas actividades profesionales asociadas a esta función se aplican en el desarrollo y la adaptación de programas informáticos de propósito general en lenguajes orientados a objetos.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales e), j), q) y w) del ciclo formativo y las competencias e), j), t) y w) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n– La interpretación y aplicación de los principios de la programación orientada a objetos.\n\n– La evaluación, selección y utilización de herramientas y lenguajes de programación orientados a objetos.\n\n– La utilización de las características específicas de lenguajes y entornos de programación en el desarrollo de aplicaciones informáticas.\n\n– La identificación de las funcionalidades aportadas por los sistemas gestores de bases de datos y su incorporación a las aplicaciones desarrolladas.\n\n– La prueba, depuración y documentación de las aplicaciones desarrolladas."
+    },
+    {
+      "codigo": "0373",
+      "nombre": "Lenguajes de marcas y sistemas de gestión de información",
+      "creditos_ects": 7,
+      "curso_orientativo": "1º",
+      "total_resultados_aprendizaje": 7,
+      "total_criterios_evaluacion": 57,
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "codigo": "RA1",
+          "descripcion": "Reconoce las características de lenguajes de marcas analizando e interpretando fragmentos de código.",
+          "total_criterios": 9,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han identificado las características generales de los lenguajes de marcas."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han reconocido las ventajas que proporcionan en el tratamiento de la información."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se han clasificado los lenguajes de marcas e identificado los más relevantes."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se han diferenciado sus ámbitos de aplicación."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "Se han reconocido la necesidad y los ámbitos específicos de aplicación de un lenguaje de marcas de propósito general."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "Se han analizado las características propias de diferentes lenguajes de marcas."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA1.g",
+              "descripcion": "Se han identificado la estructura de un documento y sus reglas sintácticas."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA1.h",
+              "descripcion": "Se han contrastado la necesidad de crear documentos bien formados y la influencia en su procesamiento."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA1.i",
+              "descripcion": "Se han identificado las ventajas que aportan los espacios de nombres."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "codigo": "RA2",
+          "descripcion": "Utiliza lenguajes de marcas para la transmisión y presentación de información a través de la web analizando la estructura de los documentos e identificando sus elementos.",
+          "total_criterios": 10,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han identificado y clasificado los lenguajes de marcas relacionados con la web y sus diferentes versiones y estándares."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se ha analizado la estructura de un documento HTML e identificado las secciones que lo componen."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se han reconocido la funcionalidad de las principales etiquetas y los atributos del lenguaje HTML."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se han establecido las semejanzas y diferencias entre las diferentes versiones de HTML."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se han utilizado herramientas en la creación de documentos web."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA2.f",
+              "descripcion": "Se han identificado las ventajas que aporta la utilización de hojas de estilo."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA2.g",
+              "descripcion": "Se han aplicado hojas de estilo."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA2.h",
+              "descripcion": "Se han validado documentos HTML y CSS."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA2.i",
+              "descripcion": "Se han identificado las tecnologías en que se basa la sindicación de contenidos."
+            },
+            {
+              "letra": "j",
+              "codigo": "RA2.j",
+              "descripcion": "Se han reconocido los ámbitos de aplicación de la sindicación de contenidos."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "codigo": "RA3",
+          "descripcion": "Accede y manipula documentos web utilizando lenguajes de script de cliente.",
+          "total_criterios": 6,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han identificado y clasificado los lenguajes de script de cliente relacionados con la web y sus diferentes versiones y estándares."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se ha identificado la sintaxis básica de los lenguajes de script de cliente."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "Se han utilizado métodos para la selección y acceso de los diferentes elementos de un documento web."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "Se han creado y modificado elementos de documentos web."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "Se han eliminado elementos de documentos web."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA3.f",
+              "descripcion": "Se han realizado modificaciones sobre los estilos de un documento web."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "codigo": "RA4",
+          "descripcion": "Establece mecanismos de validación de documentos para el intercambio de información utilizando métodos para definir su sintaxis y estructura.",
+          "total_criterios": 7,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se ha establecido la necesidad de describir la información transmitida en los documentos y sus reglas."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han identificado las tecnologías relacionadas con la definición de documentos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se ha analizado la estructura y sintaxis específica utilizada en la descripción."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se han creado descripciones de documentos."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA4.e",
+              "descripcion": "Se han utilizado descripciones en la elaboración y validación de documentos."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA4.f",
+              "descripcion": "Se han asociado las descripciones con los documentos."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA4.g",
+              "descripcion": "Se han utilizado herramientas específicas."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "codigo": "RA5",
+          "descripcion": "Realiza conversiones sobre documentos para el intercambio de información utilizando técnicas, lenguajes y herramientas de procesamiento.",
+          "total_criterios": 7,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se ha identificado la necesidad de la conversión de documentos para el intercambio de la información."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han establecido ámbitos de aplicación."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "Se han analizado las tecnologías implicadas y su modo de funcionamiento."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "Se ha descrito la sintaxis específica utilizada en la conversión y adaptación de documentos para el intercambio de información."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": "Se han creado especificaciones de conversión."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA5.f",
+              "descripcion": "Se han identificado y caracterizado herramientas específicas relacionadas con la conversión de documentos para el intercambio de información."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA5.g",
+              "descripcion": "Se han realizado conversiones sobre documentos para el intercambio de información."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "codigo": "RA6",
+          "descripcion": "Gestiona la información en formatos de intercambio de datos analizando y utilizando tecnologías de almacenamiento y lenguajes de consulta.",
+          "total_criterios": 9,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se han identificado los principales métodos de almacenamiento de la información utilizados en documentos de intercambio de datos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se han identificado las ventajas e inconvenientes de almacenar información en formatos de intercambio de datos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA6.c",
+              "descripcion": "Se han establecido tecnologías eficientes de almacenamiento de información en función de sus características."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA6.d",
+              "descripcion": "Se han identificado lenguajes y herramientas para el tratamiento y almacenamiento de información y su inclusión en documentos de intercambio de datos."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA6.e",
+              "descripcion": "Se han utilizado lenguajes de consulta y manipulación en documentos de intercambio de datos."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA6.f",
+              "descripcion": "Se han utilizado sistemas gestores de bases de datos relacionales en el almacenamiento de información en formatos de intercambio de datos."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA6.g",
+              "descripcion": "Se han utilizado técnicas específicas para crear documentos de intercambio de datos a partir de información almacenada en bases de datos relacionales."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA6.h",
+              "descripcion": "Se han identificado las características de los sistemas."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA6.i",
+              "descripcion": "Se han utilizado herramientas para gestionar la información almacenada en bases de datos nativas."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "codigo": "RA7",
+          "descripcion": "Opera sistemas empresariales de gestión de información realizando tareas de importación, integración, aseguramiento y extracción de la información.",
+          "total_criterios": 9,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "Se han identificado los principales sistemas de gestión empresarial."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "Se han reconocido las ventajas de los sistemas de gestión de información empresariales."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA7.c",
+              "descripcion": "Se han evaluado las características de las principales aplicaciones de gestión empresarial."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA7.d",
+              "descripcion": "Se han instalado aplicaciones de gestión de la información empresarial."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA7.e",
+              "descripcion": "Se han configurado y administrado las aplicaciones."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA7.f",
+              "descripcion": "Se han establecido y verificado mecanismos de acceso seguro a la información."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA7.g",
+              "descripcion": "Se han generado informes."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA7.h",
+              "descripcion": "Se han realizado procedimientos de extracción de información para su tratamiento e incorporación a diversos sistemas."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA7.i",
+              "descripcion": "Se han elaborado documentos relativos a la explotación de la aplicación. Duración: 70 horas."
+            }
+          ]
+        }
+      ],
+      "competencias_titulo": [
+        "e",
+        "f",
+        "g",
+        "h",
+        "n",
+        "p"
+      ],
+      "unidades_competencia": [
+        "UC0491_3"
+      ],
+      "horas": 70,
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de gestión y explotación de sistemas de información.\n\nLa gestión y explotación de sistemas de información incluye aspectos como:\n\n− La utilización de lenguajes de marcado en el tratamiento y transmisión de la información.\n\n− La caracterización de la información transmitida y almacenada.\n\n− La adaptación de la información a las tecnologías utilizadas en su presentación, transmisión y almacenamiento.\n\n− El almacenamiento y recuperación de la información.\n\n− La implantación y adaptación de sistemas de gestión empresarial.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\n− El almacenamiento y transmisión de la información.\n\n− La utilización de tecnologías web para la publicación y difusión de información.\n\n− La explotación de sistemas empresariales de gestión de información.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales h), o), p), t) y w) del ciclo formativo y las competencias profesionales, personales y sociales h), o), p), t) y w) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n− La caracterización y transmisión de la información utilizando lenguajes de marcado.\n\n− La publicación y difusión de información en la web.\n\n− La utilización de técnicas de transformación y adaptación de la información.\n\n− El almacenamiento de la información.\n\n− La gestión de información en sistemas específicos orientados a entornos empresariales."
+    },
+    {
+      "codigo": "0487",
+      "nombre": "Entornos de desarrollo",
+      "creditos_ects": 6,
+      "curso_orientativo": "1º",
+      "total_resultados_aprendizaje": 6,
+      "total_criterios_evaluacion": 47,
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "codigo": "RA1",
+          "descripcion": "Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento.",
+          "total_criterios": 7,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se ha reconocido la relación de los programas con los componentes del sistema informático: memoria, procesador, periféricos, entre otros."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han identificado las fases de desarrollo de una aplicación informática."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se han diferenciado los conceptos de código fuente, objeto y ejecutable."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se han reconocido las características de la generación de código intermedio para su ejecución en máquinas virtuales."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "Se han clasificado los lenguajes de programación, identificando sus características."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "Se ha evaluado la funcionalidad ofrecida por las herramientas utilizadas en el desarrollo de software."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA1.g",
+              "descripcion": "Se han identificado las características y escenarios de uso de las metodologías ágiles de desarrollo de software."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "codigo": "RA2",
+          "descripcion": "Evalúa entornos integrados de desarrollo analizando sus características para editar código fuente y generar ejecutables.",
+          "total_criterios": 7,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han instalado entornos de desarrollo, propietarios y libres."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han añadido y eliminado módulos en el entorno de desarrollo."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se ha personalizado y automatizado el entorno de desarrollo."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se ha configurado el sistema de actualización del entorno de desarrollo."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se han generado ejecutables a partir de código fuente de diferentes lenguajes en un mismo entorno de desarrollo."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA2.f",
+              "descripcion": "Se han generado ejecutables a partir de un mismo código fuente con varios entornos de desarrollo."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA2.g",
+              "descripcion": "Se han identificado las características comunes y específicas de diversos entornos de desarrollo."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "codigo": "RA3",
+          "descripcion": "Verifica el funcionamiento de programas diseñando y realizando pruebas.",
+          "total_criterios": 10,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han identificado los diferentes tipos de pruebas."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han definido casos de prueba."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "Se han identificado las herramientas de depuración y prueba de aplicaciones"
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "ofrecidas por el entorno de desarrollo."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "Se han utilizado herramientas de depuración para definir puntos de ruptura y seguimiento."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA3.f",
+              "descripcion": "Se han utilizado las herramientas de depuración para examinar y modificar el comportamiento de un programa en tiempo de ejecución."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA3.g",
+              "descripcion": "Se han efectuado pruebas unitarias de clases y funciones."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA3.h",
+              "descripcion": "Se han implementado pruebas automáticas."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA3.i",
+              "descripcion": "Se han documentado las incidencias detectadas."
+            },
+            {
+              "letra": "j",
+              "codigo": "RA3.j",
+              "descripcion": "Se han utilizado dobles de prueba para aislar los componentes durante las pruebas."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "codigo": "RA4",
+          "descripcion": "Optimiza código empleando las herramientas disponibles en el entorno de desarrollo.",
+          "total_criterios": 9,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han identificado los patrones de refactorización más usuales."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han elaborado las pruebas asociadas a la refactorización."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se ha revisado el código fuente usando un analizador de código."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se han identificado las posibilidades de configuración de un analizador de código."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA4.e",
+              "descripcion": "Se han aplicado patrones de refactorización con las herramientas que proporciona el entorno de desarrollo."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA4.f",
+              "descripcion": "Se ha realizado el control de versiones integrado en el entorno de desarrollo."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA4.g",
+              "descripcion": "Se han utilizado herramientas del entorno de desarrollo para documentar las clases."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA4.h",
+              "descripcion": "Se han utilizado repositorios remotos para el desarrollo de código colaborativo."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA4.i",
+              "descripcion": "Se han utilizado herramientas para la integración continua del código."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "codigo": "RA5",
+          "descripcion": "Genera diagramas de clases valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas.",
+          "total_criterios": 6,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se han identificado los conceptos básicos de la programación orientada a objetos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han utilizado herramientas para la elaboración de diagramas de clases."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "Se ha interpretado el significado de diagramas de clases."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "Se han trazado diagramas de clases a partir de las especificaciones de las mismas."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": "Se ha generado código a partir de un diagrama de clases."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA5.f",
+              "descripcion": "Se ha generado un diagrama de clases mediante ingeniería inversa."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "codigo": "RA6",
+          "descripcion": "Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se han identificado los distintos tipos de diagramas de comportamiento."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se ha reconocido el significado de los diagramas de casos de uso."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA6.c",
+              "descripcion": "Se han interpretado diagramas de interacción."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA6.d",
+              "descripcion": "Se han elaborado diagramas de interacción sencillos."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA6.e",
+              "descripcion": "Se ha interpretado el significado de diagramas de actividades."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA6.f",
+              "descripcion": "Se han elaborado diagramas de actividades sencillos."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA6.g",
+              "descripcion": "Se han interpretado diagramas de estados."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA6.h",
+              "descripcion": "Se han planteado diagramas de estados sencillos. Duración: 50 horas."
+            }
+          ]
+        }
+      ],
+      "competencias_titulo": [
+        "d",
+        "f",
+        "m",
+        "n",
+        "p",
+        "q",
+        "r"
+      ],
+      "unidades_competencia": [
+        "UC0491_3",
+        "UC0492_3"
+      ],
+      "horas": 50,
+      "orientaciones_pedagogicas": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de desarrollador de aplicaciones.\n\nLa función de desarrollador de aplicaciones incluye aspectos como:\n\n− La utilización de las herramientas software disponibles.\n\n− La elaboración de documentación interna y técnica de la aplicación.\n\n− El diseño, la elaboración y ejecución de pruebas.\n\n− La optimización de código.\n\nLas actividades profesionales asociadas a esta función se aplican en el desarrollo de aplicaciones.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales d), e), h), i), j), ñ) y o) del ciclo formativo y las competencias profesionales, personales y sociales d), f), h), i) y j), m) y n) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo están relacionados con:\n\n− La interpretación de documentación técnica.\n\n− La instalación, configuración y personalización de diversos entornos de desarrollo.\n\n− La utilización de distintos entornos de desarrollo para la edición y prueba de aplicaciones.\n\n− La utilización de herramientas de depuración, optimización y documentación de aplicaciones.\n\n− La generación de diagramas técnicos.\n\n− La elaboración de documentación interna de la aplicación.\n\n− La utilización de sistemas de control de versiones."
+    },
+    {
+      "codigo": "0612",
+      "nombre": "Desarrollo web en entorno cliente",
+      "creditos_ects": 9,
+      "curso_orientativo": "2º",
+      "total_resultados_aprendizaje": 7,
+      "total_criterios_evaluacion": 58,
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "codigo": "RA1",
+          "descripcion": "Selecciona las arquitecturas y tecnologías de programación sobre clientes web, identificando y analizando las capacidades y características de cada una.",
+          "total_criterios": 6,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han caracterizado y diferenciado los modelos de ejecución de código en el servidor y en el cliente web."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han identificado las capacidades y mecanismos de ejecución de código de los navegadores web."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se han identificado y caracterizado los principales lenguajes relacionados con la programación de clientes web."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se han reconocido las particularidades de la programación de guiones y sus ventajas y desventajas sobre la programación tradicional."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "Se han verificado los mecanismos de integración de los lenguajes de marcas con los lenguajes de programación de clientes web."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "Se han reconocido y evaluado las herramientas de programación y prueba sobre clientes web."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "codigo": "RA2",
+          "descripcion": "Escribe sentencias simples, aplicando la sintaxis del lenguaje y verificando su ejecución sobre navegadores web.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se ha seleccionado un lenguaje de programación de clientes web en función de sus posibilidades."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han utilizado los distintos tipos de variables y operadores disponibles en el lenguaje."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se han identificado los ámbitos de utilización de las variables."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se han reconocido y comprobado las peculiaridades del lenguaje respecto a las conversiones entre distintos tipos de datos."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se han utilizado mecanismos de decisión en la creación de bloques de sentencias."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA2.f",
+              "descripcion": "Se han utilizado bucles y se ha verificado su funcionamiento."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA2.g",
+              "descripcion": "Se han añadido comentarios al código."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA2.h",
+              "descripcion": "Se han utilizado herramientas y entornos para facilitar la programación, prueba y documentación del código."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "codigo": "RA3",
+          "descripcion": "Escribe código, identificando y aplicando las funcionalidades aportadas por los objetos predefinidos del lenguaje.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han identificado los objetos predefinidos del lenguaje."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han analizado los objetos referentes a las ventanas del navegador y los documentos web que contienen."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "Se han escrito sentencias que utilicen los objetos predefinidos del lenguaje para cambiar el aspecto del navegador y el documento que contiene."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "Se han generado textos y etiquetas como resultado de la ejecución de código en el navegador."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "Se han escrito sentencias que utilicen los objetos predefinidos del lenguaje para interactuar con el usuario."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA3.f",
+              "descripcion": "Se han utilizado las características propias del lenguaje en documentos compuestos por varias ventanas."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA3.g",
+              "descripcion": "Se han utilizado mecanismos del navegador web para almacenar información y recuperar su contenido."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA3.h",
+              "descripcion": "Se ha depurado y documentado el código."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "codigo": "RA4",
+          "descripcion": "Programa código para clientes web analizando y utilizando estructuras definidas por el usuario.",
+          "total_criterios": 11,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han clasificado y utilizado las funciones predefinidas del lenguaje."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han creado y utilizado funciones definidas por el usuario."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se han reconocido las características del lenguaje relativas a la creación y uso de matrices (arrays)."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se han creado y utilizado matrices (arrays)."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA4.e",
+              "descripcion": "Se han utilizado operaciones agregadas para el manejo de información almacenada en colecciones."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA4.f",
+              "descripcion": "Se han reconocido las características de orientación a objetos del lenguaje."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA4.g",
+              "descripcion": "Se ha creado código para definir la estructura de objetos."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA4.h",
+              "descripcion": "Se han creado métodos y propiedades."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA4.i",
+              "descripcion": "Se ha creado código que haga uso de objetos definidos por el usuario."
+            },
+            {
+              "letra": "j",
+              "codigo": "RA4.j",
+              "descripcion": "Se han utilizado patrones de diseño de software."
+            },
+            {
+              "letra": "k",
+              "codigo": "RA4.k",
+              "descripcion": "Se ha depurado y documentado el código."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "codigo": "RA5",
+          "descripcion": "Desarrolla aplicaciones web interactivas integrando mecanismos de manejo de eventos.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se han reconocido las posibilidades del lenguaje de marcas relativas a la captura de los eventos producidos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han identificado las características del lenguaje de programación relativas a la gestión de los eventos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "Se han diferenciado los tipos de eventos que se pueden manejar."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "Se ha creado un código que capture y utilice eventos."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": "Se han reconocido las capacidades del lenguaje relativas a la gestión de formularios web."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA5.f",
+              "descripcion": "Se han validado formularios web utilizando eventos."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA5.g",
+              "descripcion": "Se han utilizado expresiones regulares para facilitar los procedimientos de validación."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA5.h",
+              "descripcion": "Se ha probado y documentado el código."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "codigo": "RA6",
+          "descripcion": "Desarrolla aplicaciones web analizando y aplicando las características del modelo de objetos del documento.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se ha reconocido el modelo de objetos del documento de una página web."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se han identificado los objetos del modelo, sus propiedades y métodos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA6.c",
+              "descripcion": "Se ha creado y verificado un código que acceda a la estructura del documento."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA6.d",
+              "descripcion": "Se han creado nuevos elementos de la estructura y modificado elementos ya existentes."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA6.e",
+              "descripcion": "Se han asociado acciones a los eventos del modelo."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA6.f",
+              "descripcion": "Se han identificado las diferencias que presenta el modelo en diferentes navegadores."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA6.g",
+              "descripcion": "Se han programado aplicaciones web de forma que funcionen en navegadores con diferentes implementaciones del modelo."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA6.h",
+              "descripcion": "Se han independizado las tres capas de implementación (contenido, aspecto y comportamiento), en aplicaciones web."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "codigo": "RA7",
+          "descripcion": "Desarrolla aplicaciones web dinámicas, reconociendo y aplicando mecanismos de comunicación asíncrona entre cliente y servidor.",
+          "total_criterios": 9,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "Se han evaluado las ventajas e inconvenientes de utilizar mecanismos de comunicación asíncrona entre cliente y servidor web."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "Se han analizado los mecanismos disponibles para el establecimiento de la comunicación asíncrona."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA7.c",
+              "descripcion": "Se han utilizado los objetos relacionados."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA7.d",
+              "descripcion": "Se han identificado sus propiedades y sus métodos."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA7.e",
+              "descripcion": "Se ha utilizado comunicación asíncrona en la actualización dinámica del documento web."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA7.f",
+              "descripcion": "Se han utilizado distintos formatos en el envío y recepción de información."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA7.g",
+              "descripcion": "Se han programado aplicaciones web asíncronas de forma que funcionen en diferentes navegadores."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA7.h",
+              "descripcion": "Se han clasificado, analizado y utilizado librerías y frameworks que faciliten la incorporación de las tecnologías de actualización dinámica a la programación de páginas web."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA7.i",
+              "descripcion": "Se han creado y probado y documentado aplicaciones web que utilicen estas librerías y frameworks. Duración: 80 horas."
+            }
+          ]
+        }
+      ],
+      "competencias_titulo": [
+        "a",
+        "g",
+        "h",
+        "i",
+        "k",
+        "n",
+        "p",
+        "q",
+        "r"
+      ],
+      "unidades_competencia": [
+        "UC0491_3"
+      ],
+      "horas": 80,
+      "orientaciones_pedagogicas": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de desarrollo de aplicaciones destinadas a su ejecución por navegadores en entornos web.\n\nLa función de desarrollo de aplicaciones para navegadores web incluye aspectos como:\n\n− La integración de lenguajes de programación y lenguajes de marcas.\n\n− La incorporación de funcionalidades en documentos web.\n\n− La utilización de características y objetos propios del lenguaje y de los entornos de programación y ejecución.\n\n− La utilización de mecanismos para la gestión de eventos y la interacción con el usuario.\n\n− La incorporación de librerías y frameworks para la actualización dinámica del contenido y de la estructura del documento web.\n\n− El desarrollo de aplicaciones web dinámicas que apliquen mecanismos de comunicación asíncrona entre cliente y servidor.\n\nLas actividades profesionales asociadas a esta función se aplican en el desarrollo y la adaptación de funcionalidades y aplicaciones para clientes web.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales f), g), i), q) y r) del ciclo formativo y las competencias profesionales, personales y sociales e), k), m), n), p) y r) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n− El análisis, diferenciación y clasificación de las características y funcionalidades incorporadas en los navegadores más difundidos.\n\n− La utilización de las características específicas de lenguajes y entornos de programación en el desarrollo de aplicaciones para clientes web.\n\n− El análisis y la utilización de funcionalidades aportadas por librerías y frameworks web en entornos cliente.\n\n− La incorporación de mecanismos de actualización dinámica en aplicaciones Web.\n\n− El desarrollo de aplicaciones web dinámicas que apliquen mecanismos de comunicación asíncrona entre cliente y servidor.\n\n− La prueba y documentación en los desarrollos obtenidos."
+    },
+    {
+      "codigo": "0613",
+      "nombre": "Desarrollo web en entorno servidor",
+      "creditos_ects": 12,
+      "curso_orientativo": "2º",
+      "total_resultados_aprendizaje": 9,
+      "total_criterios_evaluacion": 66,
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "codigo": "RA1",
+          "descripcion": "Selecciona las arquitecturas y tecnologías de programación web en entorno servidor, analizando sus capacidades y características propias.",
+          "total_criterios": 7,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han caracterizado y diferenciado los modelos de ejecución de código en el servidor y en el cliente web."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han reconocido las ventajas que proporciona la generación dinámica de páginas."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se han identificado los mecanismos de ejecución de código en los servidores web."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se han reconocido las funcionalidades que aportan los servidores de aplicaciones y su integración con los servidores web."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "Se han identificado y caracterizado los principales lenguajes y tecnologías relacionados con la programación web en entorno servidor."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "Se han verificado los mecanismos de integración de los lenguajes de marcas con los lenguajes de programación en entorno servidor."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA1.g",
+              "descripcion": "Se han reconocido y evaluado las herramientas y frameworks de programación en entorno servidor."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "codigo": "RA2",
+          "descripcion": "Escribe sentencias ejecutables por un servidor web reconociendo y aplicando procedimientos de integración del código en lenguajes de marcas.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han reconocido los mecanismos de generación de páginas web a partir de lenguajes de marcas con código embebido."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han identificado las principales tecnologías asociadas."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se han utilizado etiquetas para la inclusión de código en el lenguaje de marcas."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se ha reconocido la sintaxis del lenguaje de programación que se ha de utilizar."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se han escrito sentencias simples y se han comprobado sus efectos en el documento resultante."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA2.f",
+              "descripcion": "Se han utilizado directivas para modificar el comportamiento predeterminado."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA2.g",
+              "descripcion": "Se han utilizado los distintos tipos de variables y operadores disponibles en el lenguaje."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA2.h",
+              "descripcion": "Se han identificado los ámbitos de utilización de las variables."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "codigo": "RA3",
+          "descripcion": "Escribe bloques de sentencias embebidos en lenguajes de marcas, seleccionando y utilizando las estructuras de programación.",
+          "total_criterios": 7,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han utilizado mecanismos de decisión en la creación de bloques de sentencias."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han utilizado bucles y se ha verificado su funcionamiento."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "Se han utilizado matrices (arrays) para almacenar y recuperar conjuntos de datos."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "Se han creado y utilizado funciones."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "Se han utilizado formularios web para interactuar con el usuario del navegador web."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA3.f",
+              "descripcion": "Se han empleado métodos para recuperar la información introducida en el formulario."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA3.g",
+              "descripcion": "Se han añadido comentarios al código."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "codigo": "RA4",
+          "descripcion": "Desarrolla aplicaciones web embebidas en lenguajes de marcas analizando e incorporando funcionalidades según especificaciones.",
+          "total_criterios": 6,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han identificado los mecanismos disponibles para el mantenimiento de la información que concierne a un cliente web concreto y se han señalado sus ventajas."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han utilizado mecanismos para mantener el estado de las aplicaciones web."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se han utilizado mecanismos para almacenar información en el cliente web y para recuperar su contenido."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se han identificado y caracterizado los mecanismos disponibles para la autentificación de usuarios."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA4.e",
+              "descripcion": "Se han escrito aplicaciones que integren mecanismos de autentificación de usuarios."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA4.f",
+              "descripcion": "Se han utilizado herramientas y entornos para facilitar la programación, prueba y depuración del código."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "codigo": "RA5",
+          "descripcion": "Desarrolla aplicaciones web identificando y aplicando mecanismos para separar el código de presentación de la lógica de negocio.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se han identificado las ventajas de separar la lógica de negocio de los aspectos de presentación de la aplicación."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han analizado y utilizado mecanismos y frameworks que permiten realizar esta separación y sus características principales."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "Se han utilizado objetos y controles en el servidor para generar el aspecto visual de la aplicación web en el cliente."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "Se han utilizado formularios generados de forma dinámica para responder a los eventos de la aplicación web."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": "Se han identificado y aplicado los parámetros relativos a la configuración de la aplicación web."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA5.f",
+              "descripcion": "Se han escrito aplicaciones web con mantenimiento de estado y separación de la lógica de negocio."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA5.g",
+              "descripcion": "Se han aplicado los principios y patrones de diseño de la programación orientada a objetos."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA5.h",
+              "descripcion": "Se ha probado y documentado el código."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "codigo": "RA6",
+          "descripcion": "Desarrolla aplicaciones web de acceso a almacenes de datos, aplicando medidas para mantener la seguridad y la integridad de la información.",
+          "total_criterios": 7,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se han analizado las tecnologías que permiten el acceso mediante programación a la información disponible en almacenes de datos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se han creado aplicaciones que establezcan conexiones con bases de datos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA6.c",
+              "descripcion": "Se ha recuperado información almacenada en bases de datos."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA6.d",
+              "descripcion": "Se ha publicado en aplicaciones web la información recuperada."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA6.e",
+              "descripcion": "Se han utilizado conjuntos de datos para almacenar la información."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA6.f",
+              "descripcion": "Se han creado aplicaciones web que permitan la actualización y la eliminación de información disponible en una base de datos."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA6.g",
+              "descripcion": "Se han probado y documentado las aplicaciones web."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "codigo": "RA7",
+          "descripcion": "Desarrolla servicios web reutilizables y accesibles mediante protocolos web, verificando su funcionamiento.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "Se han reconocido las características propias y el ámbito de aplicación de los servicios web."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "Se han reconocido las ventajas de utilizar servicios web para proporcionar acceso a funcionalidades incorporadas a la lógica de negocio de una aplicación."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA7.c",
+              "descripcion": "Se han identificado las tecnologías y los protocolos implicados en el consumo de servicios web."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA7.d",
+              "descripcion": "Se han utilizado los estándares y arquitecturas más difundidos e implicados en el desarrollo de servicios web."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA7.e",
+              "descripcion": "Se ha programado un servicio web."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA7.f",
+              "descripcion": "Se ha verificado el funcionamiento del servicio web."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA7.g",
+              "descripcion": "Se ha consumido el servicio web."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA7.h",
+              "descripcion": "Se ha documentado un servicio web."
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "codigo": "RA8",
+          "descripcion": "Genera páginas web dinámicas analizando y utilizando tecnologías y frameworks del servidor web que añadan código al lenguaje de marcas.",
+          "total_criterios": 7,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA8.a",
+              "descripcion": "Se han identificado las diferencias entre la ejecución de código en el servidor y en el cliente web."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA8.b",
+              "descripcion": "Se han reconocido las ventajas de unir ambas tecnologías en el proceso de desarrollo de programas."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA8.c",
+              "descripcion": "Se han identificado las tecnologías y frameworks relacionadas con la generación por parte del servidor de páginas web con guiones embebidos."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA8.d",
+              "descripcion": "Se han utilizado estas tecnologías y frameworks para generar páginas web que incluyan interacción con el usuario."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA8.e",
+              "descripcion": "Se han utilizado estas tecnologías y frameworks, para generar páginas web que incluyan verificación de formularios."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA8.f",
+              "descripcion": "Se han utilizado estas tecnologías y frameworks para generar páginas web que incluyan modificación dinámica de su contenido y su estructura."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA8.g",
+              "descripcion": "Se han aplicado estas tecnologías y frameworks en la programación de aplicaciones web."
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "codigo": "RA9",
+          "descripcion": "Desarrolla aplicaciones web híbridas seleccionando y utilizando tecnologías, frameworks servidor y repositorios heterogéneos de información.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA9.a",
+              "descripcion": "Se han reconocido las ventajas que proporciona la reutilización de código y el aprovechamiento de información ya existente."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA9.b",
+              "descripcion": "Se han identificado tecnologías y frameworks aplicables en la creación de aplicaciones web híbridas."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA9.c",
+              "descripcion": "Se ha creado una aplicación web que recupere y procese repositorios de información ya existentes."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA9.d",
+              "descripcion": "Se han creado repositorios específicos a partir de información existente en almacenes de información."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA9.e",
+              "descripcion": "Se han utilizado librerías de código y frameworks para incorporar funcionalidades específicas a una aplicación web."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA9.f",
+              "descripcion": "Se han programado servicios y aplicaciones web utilizando como base información y código generados por terceros."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA9.g",
+              "descripcion": "Se han analizado y utilizado librerías de código relacionadas con Big Data e inteligencia de negocios, para incorporar análisis e inteligencia de datos proveniente de repositorios."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA9.h",
+              "descripcion": "Se han probado, depurado y documentado las aplicaciones generadas. Duración: 100 horas."
+            }
+          ]
+        }
+      ],
+      "competencias_titulo": [
+        "c",
+        "d",
+        "e",
+        "f",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "ñ",
+        "q"
+      ],
+      "unidades_competencia": [
+        "UC0492_3"
+      ],
+      "horas": 100,
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de desarrollo de aplicaciones y servicios destinados a su ejecución por servidores en entornos web.\n\nLa función de desarrollo de aplicaciones para servidores web incluye aspectos como:\n\n− La creación de aplicaciones de servidor que generan interfaces web como resultado de su ejecución.\n\n− La programación de métodos para almacenar, recuperar y gestionar mediante documentos web información disponible en almacenes de datos.\n\n− La generación, prueba y documentación de servicios web reutilizables y accesibles mediante protocolos web.\n\n− El desarrollo de aplicaciones basadas en información y funcionalidades distribuidas.\n\nLas actividades profesionales asociadas a esta función se aplican en el desarrollo y la adaptación de servicios y aplicaciones para servidores de aplicaciones y servidores web.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales c), d), f), g), h), l), m), n), ñ), q), s) y t) del ciclo formativo y las competencias profesionales, personales y sociales c), d), f), g), h), j), k), l), m), n), ñ), y q) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n− El análisis de los métodos de generación dinámica de documentos web.\n\n− La integración del lenguaje de marcas con el código ejecutable en el servidor web.\n\n− El análisis, diferenciación y clasificación de las características y funcionalidades incorporadas en los entornos y lenguajes de programación de los servidores web más difundidos.\n\n− La utilización de características y funcionalidades específicas de los lenguajes de programación seleccionados.\n\n− La modificación del código existente, así como el análisis de datos, en soluciones web heterogéneas para su adaptación a entornos específicos.\n\n− El análisis y la utilización de funcionalidades aportadas por frameworks de programación web en entorno servidor.\n\n− La utilización de frameworks para incorporar interactividad a los documentos web generados de forma dinámica."
+    },
+    {
+      "codigo": "0614",
+      "nombre": "Despliegue de aplicaciones web",
+      "creditos_ects": 5,
+      "curso_orientativo": "2º",
+      "total_resultados_aprendizaje": 6,
+      "total_criterios_evaluacion": 52,
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "codigo": "RA1",
+          "descripcion": "Implanta arquitecturas web analizando y aplicando criterios de funcionalidad.",
+          "total_criterios": 9,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han analizado aspectos generales de arquitecturas web, sus características, ventajas e inconvenientes."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han descrito los fundamentos y protocolos en los que se basa el funcionamiento de un servidor web."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se ha realizado la instalación y configuración básica de servidores web."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se ha realizado la instalación y configuración básica de servidores de aplicaciones."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "Se ha realizado la instalación y configuración básica de tecnologías de virtualización de servidores en la nube y en contenedores."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "Se han realizado pruebas de funcionamiento de los servidores web y de aplicaciones. y de tecnologías de virtualización en la nube y en contenedores."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA1.g",
+              "descripcion": "Se ha analizado la estructura y recursos que componen una aplicación web."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA1.h",
+              "descripcion": "Se han descrito los requerimientos del proceso de implantación de una aplicación web."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA1.i",
+              "descripcion": "Se han documentado los procesos de instalación y configuración realizados sobre los servidores web, de aplicaciones. y sobre tecnologías de virtualización en la nube y en contenedores."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "codigo": "RA2",
+          "descripcion": "Implanta aplicaciones web en servidores web, evaluando y aplicando criterios de configuración para su funcionamiento seguro.",
+          "total_criterios": 10,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han reconocido los parámetros de administración más importantes del servidor web."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se ha ampliado la funcionalidad del servidor mediante la activación y configuración de módulos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se han creado y configurado sitios virtuales."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se han configurado los mecanismos de autenticación y control de acceso del servidor."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se han obtenido e instalado certificados digitales."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA2.f",
+              "descripcion": "Se han establecido mecanismos para asegurar las comunicaciones entre el cliente y el servidor."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA2.g",
+              "descripcion": "Se ha elaborado documentación relativa a la configuración, administración segura y recomendaciones de uso del servidor."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA2.h",
+              "descripcion": "Se han realizado los ajustes necesarios para la implantación de aplicaciones en el servidor web."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA2.i",
+              "descripcion": "Se han utilizado tecnologías de virtualización en el despliegue de servidores web en la nube y en contenedores."
+            },
+            {
+              "letra": "j",
+              "codigo": "RA2.j",
+              "descripcion": "Se han instalado, configurado y utilizado conjuntos de herramientas de gestión de logs, permitiendo su monitorización, consolidación y análisis en tiempo real."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "codigo": "RA3",
+          "descripcion": "Implanta aplicaciones web en servidores de aplicaciones, evaluando y aplicando criterios de configuración para su funcionamiento seguro.",
+          "total_criterios": 9,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han descrito los componentes y el funcionamiento de los servicios proporcionados por el servidor de aplicaciones."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han identificado los principales archivos de configuración y de bibliotecas compartidas."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "Se ha configurado el servidor de aplicaciones para cooperar con el servidor web."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "Se han configurado y activado los mecanismos de seguridad del servidor de aplicaciones."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "Se han configurado y utilizado los componentes web del servidor de aplicaciones."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA3.f",
+              "descripcion": "Se han realizado los ajustes necesarios para el despliegue de aplicaciones sobre el servidor."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA3.g",
+              "descripcion": "Se han realizado pruebas de funcionamiento y rendimiento de la aplicación web desplegada."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA3.h",
+              "descripcion": "Se ha elaborado documentación relativa a la administración y recomendaciones de uso del servidor de aplicaciones."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA3.i",
+              "descripcion": "Se han utilizado tecnologías de virtualización en el despliegue de servidores de aplicaciones en la nube y en contenedores."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "codigo": "RA4",
+          "descripcion": "Administra servidores de transferencia de archivos, evaluando y aplicando criterios de configuración que garanticen la disponibilidad del servicio.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han instalado y configurado servidores de transferencia de archivos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han creado usuarios y grupos para el acceso remoto al servidor."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se ha comprobado el acceso al servidor, tanto en modo activo como en modo pasivo."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se han realizado pruebas con clientes en línea de comandos y clientes en modo gráfico."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA4.e",
+              "descripcion": "Se ha utilizado el protocolo seguro de transferencia de archivos."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA4.f",
+              "descripcion": "Se han configurado y utilizado servicios de transferencia de archivos integrados en servidores web."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA4.g",
+              "descripcion": "Se ha elaborado documentación relativa a la configuración y administración del servicio de transferencia de archivos."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA4.h",
+              "descripcion": "Se han utilizado tecnologías de virtualización en el despliegue de servidores de transferencia de archivos en la nube y en contenedores."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "codigo": "RA5",
+          "descripcion": "Verifica la ejecución de aplicaciones web comprobando los parámetros de configuración de servicios de red.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se ha descrito la estructura, nomenclatura y funcionalidad de los sistemas de nombres jerárquicos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han identificado las necesidades de configuración del servidor de nombres en función de los requerimientos de ejecución de las aplicaciones web desplegadas."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "Se han identificado la función, elementos y estructuras lógicas del servicio de directorio."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "Se ha analizado la configuración y personalización del servicio de directorio."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": "Se ha analizado la capacidad del servicio de directorio como mecanismo de autenticación centralizada de los usuarios en una red."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA5.f",
+              "descripcion": "Se han especificado los parámetros de configuración en el servicio de directorios adecuados para el proceso de validación de usuarios de la aplicación web."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA5.g",
+              "descripcion": "Se ha elaborado documentación relativa a las adaptaciones realizadas en los servicios de red."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA5.h",
+              "descripcion": "Se han utilizado tecnologías de virtualización en el despliegue de servidores de directorios en la nube y en contenedores."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "codigo": "RA6",
+          "descripcion": "Elabora la documentación de la aplicación web evaluando y seleccionando herramientas de generación de documentación, control de versiones y de integración continua.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se han identificado diferentes herramientas de generación de documentación."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se han documentado los componentes software utilizando los generadores específicos de las plataformas."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA6.c",
+              "descripcion": "Se han utilizado diferentes formatos para la documentación."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA6.d",
+              "descripcion": "Se han utilizado herramientas colaborativas para la elaboración y mantenimiento de la documentación."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA6.e",
+              "descripcion": "Se ha instalado, configurado y utilizado un sistema de control de versiones."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA6.f",
+              "descripcion": "Se ha garantizado la accesibilidad y seguridad de la información y código almacenada por el sistema de control de versiones."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA6.g",
+              "descripcion": "Se ha documentado la instalación, configuración y uso del sistema de control de versiones utilizado."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA6.h",
+              "descripcion": "Se han utilizado herramientas para la integración continua del código. Duración: 50 horas."
+            }
+          ]
+        }
+      ],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "c",
+        "j",
+        "n",
+        "ñ",
+        "q",
+        "t"
+      ],
+      "unidades_competencia": [
+        "UC0493_3"
+      ],
+      "horas": 50,
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de despliegue de aplicaciones web en un servidor.\n\nEl despliegue de aplicaciones web incluye aspectos como:\n\n− Los procesos de implantación de aplicaciones web en servidores desplegados mediante el uso de tecnologías de virtualización en la nube y en contenedores.\n\n− La identificación de los parámetros de configuración de los servicios de red implicados en el despliegue seguro de aplicaciones web.\n\n− Los procesos de instalación, configuración y uso de herramientas de control de versiones. y de integración continua.\n\n− La elaboración de documentación relativa a la aplicación web utilizando herramientas de generación de documentación.\n\n− La evaluación de los recursos y requerimientos técnicos necesarios para la implantación de la aplicación web.\n\n− La utilización de conjuntos de herramientas de gestión de logs para la ayuda a la toma de decisiones: Big Data.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\n− El despliegue, mantenimiento y actualización de aplicaciones web sobre servidores.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales c), d), o), p) y r) del ciclo formativo, y las competencias profesionales, personales y sociales a), b), c), j), n), ñ) y q) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n− La instalación y configuración básica de servidores web y de aplicaciones.\n\n− La instalación y configuración básica de tecnologías de virtualización de servidores en la nube y en contenedores.\n\n− La implantación de aplicaciones web sobre servidores desplegados mediante el uso de tecnologías de virtualización en la nube y en contenedores.\n\n− La instalación y configuración de servicios de red implicados en el proceso de implantación.\n\n− La instalación, configuración y uso de sistemas de control de versiones. y de integración continua.\n\n− La utilización de sistemas operativos libres y propietarios.\n\n− La instalación y configuración de conjuntos de herramientas de gestión de logs, para su recogida, transformación, búsqueda, análisis y visualización en tiempo real."
+    },
+    {
+      "codigo": "0615",
+      "nombre": "Diseño de interfaces web",
+      "creditos_ects": 9,
+      "curso_orientativo": "2º",
+      "total_resultados_aprendizaje": 6,
+      "total_criterios_evaluacion": 45,
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "codigo": "RA1",
+          "descripcion": "Planifica la creación de una interfaz web valorando y aplicando especificaciones de diseño.",
+          "total_criterios": 6,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se ha reconocido la importancia de la comunicación visual y sus principios básicos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han analizado y seleccionado los colores y tipografías adecuados para su visualización en pantalla."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se han analizado alternativas para la presentación de la información en documentos web."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se ha valorado la importancia de definir y aplicar la guía de estilo en el desarrollo de una aplicación web."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "Se han utilizado y valorado distintas tecnologías para el diseño de documentos web."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "Se han creado y utilizado plantillas de diseño."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "codigo": "RA2",
+          "descripcion": "Crea interfaces web homogéneos definiendo y aplicando estilos.",
+          "total_criterios": 10,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han reconocido las posibilidades de modificar las etiquetas HTML."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han definido estilos de forma directa."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se han definido y asociado estilos globales en hojas externas."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se han definido hojas de estilos alternativas."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se han redefinido estilos."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA2.f",
+              "descripcion": "Se han identificado las distintas propiedades de cada elemento."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA2.g",
+              "descripcion": "Se han creado clases de estilos."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA2.h",
+              "descripcion": "Se han utilizado herramientas de validación de hojas de estilos."
+            },
+            {
+              "letra": "i",
+              "codigo": "RA2.i",
+              "descripcion": "Se han analizado y utilizado tecnologías y frameworks para la creación de interfaces web con un diseño responsive."
+            },
+            {
+              "letra": "j",
+              "codigo": "RA2.j",
+              "descripcion": "Se han analizado y utilizado preprocesadores de estilos para traducir estilos comunes a un código estándar y reconocible por los navegadores."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "codigo": "RA3",
+          "descripcion": "Prepara archivos multimedia para la web, analizando sus características y manejando herramientas específicas.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han reconocido las implicaciones de las licencias y los derechos de autor en el uso de material multimedia."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han identificado los formatos de imagen, audio y vídeo a utilizar."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "Se han analizado las herramientas disponibles para generar contenido multimedia."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "Se han empleado herramientas para el tratamiento digital de la imagen."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "Se han utilizado herramientas para manipular audio y vídeo."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA3.f",
+              "descripcion": "Se han realizado animaciones a partir de imágenes fijas."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA3.g",
+              "descripcion": "Se han importado y exportado imágenes, audio y vídeo en diversos formatos según su finalidad."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA3.h",
+              "descripcion": "Se ha aplicado la guía de estilo."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "codigo": "RA4",
+          "descripcion": "Integra contenido multimedia en documentos web valorando su aportación y seleccionando adecuadamente los elementos interactivos.",
+          "total_criterios": 7,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han reconocido y analizado las tecnologías relacionadas con la inclusión de contenido multimedia e interactivo."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han identificado las necesidades específicas de configuración de los navegadores web para soportar contenido multimedia e interactivo."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se han utilizado herramientas gráficas para el desarrollo de contenido multimedia interactivo."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se ha analizado el código generado por las herramientas de desarrollo de contenido interactivo."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA4.e",
+              "descripcion": "Se han agregado elementos multimedia a documentos web."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA4.f",
+              "descripcion": "Se ha añadido interactividad a elementos de un documento web."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA4.g",
+              "descripcion": "Se ha verificado el funcionamiento de los elementos multimedia e interactivos en distintos navegadores y dispositivos."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "codigo": "RA5",
+          "descripcion": "Desarrolla interfaces web accesibles, analizando las pautas establecidas y aplicando técnicas de verificación.",
+          "total_criterios": 8,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se ha reconocido la necesidad de diseñar webs accesibles."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se ha analizado la accesibilidad de diferentes documentos web."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "Se han analizado los principios y pautas de accesibilidad al contenido, así como los niveles de conformidad."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "Se han analizado los posibles errores según los puntos de verificación de prioridad."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": "Se ha alcanzado el nivel de conformidad deseado."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA5.f",
+              "descripcion": "Se han verificado los niveles alcanzados mediante el uso de test externos."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA5.g",
+              "descripcion": "Se ha verificado la visualización del interfaz con diferentes navegadores y tecnologías."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA5.h",
+              "descripcion": "Se han analizado y utilizado herramientas y estrategias que mejoren la visibilidad y la accesibilidad de los sitios y páginas web en los resultados de los buscadores."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "codigo": "RA6",
+          "descripcion": "Desarrolla interfaces web amigables analizando y aplicando las pautas de usabilidad establecidas.",
+          "total_criterios": 6,
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se ha analizado la usabilidad de diferentes documentos web."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se ha valorado la importancia del uso de estándares en la creación de documentos web."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA6.c",
+              "descripcion": "Se ha modificado el interfaz web para adecuarlo al objetivo que persigue y a los usuarios a los que va dirigido."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA6.d",
+              "descripcion": "Se ha verificado la facilidad de navegación de un documento web mediante distintos periféricos."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA6.e",
+              "descripcion": "Se han analizado diferentes técnicas para verificar la usabilidad de un documento web."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA6.f",
+              "descripcion": "Se ha verificado la usabilidad de la interfaz web creado en diferentes navegadores y tecnologías. Duración: 80 horas. Contenidos. Planificación de interfaces gráficas: − Elementos del diseño: percepción visual. − Color, tipografía, iconos. − Interacción persona-ordenador. − Interpretación de guías de estilo. Elementos. − Generación de documentos y sitios web. − Componentes de una interfaz web. − Tecnologías para el diseño de documentos web. − Mapa de navegación. Prototipos. − Maquetación web. Elementos de ordenación. − Plantilla de diseño. Uso de estilos: − Estilos en línea basados en etiquetas y en clases. − Crear y vincular hojas de estilo. − Crear y vincular hojas de estilo en cascada externa. − Herramientas y test de verificación. − Tecnologías y frameworks. − Preprocesadores de estilos. Variables, mixins y funciones. Implantación de contenido multimedia: − Tipos de Imágenes en la web. − Derechos de la propiedad intelectual. Licencias. Ley de la propiedad intelectual. Derechos de autor. − Imágenes. Software para crear y procesar imágenes. Formatos. Conversiones (exportar e importar). − Optimización de imágenes para la web. − Audio: formatos. Conversiones de formatos (exportar e importar). − Vídeo: codificación de vídeo, conversiones de formatos (exportar e importar). − Animaciones. − Integración de audio y vídeo en una animación. Integración de contenido interactivo: − Elementos interactivos. − Comportamientos interactivos. Comportamiento de los elementos. − Ejecución de secuencias de comandos. − Verificación del funcionamiento en distintos navegadores y dispositivos. Diseño de webs accesibles: − El Consorcio World Wide Web (W3C). − Principios y Pautas de Accesibilidad al Contenido en la Web (WCAG). − Criterios de conformidad. Niveles de conformidad. − Técnicas para satisfacer los requisitos definidos en las WCAG. − Prioridades. Puntos de verificación. − Métodos para realizar revisiones preliminares y evaluaciones de adecuación o conformidad de documentos web. − Herramientas de análisis de accesibilidad web. − Chequeo de la accesibilidad web desde diferentes navegadores y dispositivos. − Posicionamiento en buscadores. Mejora de la visibilidad de un sitio web en diferentes buscadores. Implementación de la usabilidad en la web. Diseño amigable: − Análisis de la usabilidad. Técnicas. − Identificación del objetivo de la web. − Tipos de usuario. − Barreras identificadas por los usuarios. − Información fácilmente accesible. − Velocidad de conexión. − Importancia del uso de estándares externos. − Navegación fácilmente recordada frente a navegación redescubierta. − Facilidad de navegación en la web. − Verificación de la usabilidad en diferentes navegadores y tecnologías. − Herramientas y test de verificación."
+            }
+          ]
+        }
+      ],
+      "competencias_titulo": [
+        "g",
+        "h",
+        "i",
+        "m",
+        "n",
+        "u",
+        "q"
+      ],
+      "unidades_competencia": [
+        "UC0491_3"
+      ],
+      "horas": 80,
+      "orientaciones_pedagogicas": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de desarrollo de aplicaciones destinadas a su ejecución por navegadores en entornos web.\n\nLa función de desarrollo de aplicaciones para navegadores web incluye aspectos como:\n\n− La planificación de la interfaz web de acuerdo con especificaciones de diseño.\n\n− La creación y mantenimiento de los elementos de la interfaz.\n\n− La aplicación de las guías de estilo, así como la utilización de tecnologías y frameworks relacionados.\n\n− El cumplimiento de los criterios de accesibilidad y usabilidad en el desarrollo de aplicaciones web.\n\n− La optimización de la visibilidad y accesibilidad de la web en los resultados de los principales buscadores.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\n− El desarrollo de aplicaciones web.\n\n− La adaptación e integración de contenidos multimedia en aplicaciones web.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales i), j) k), q), x) e y) del ciclo formativo y las competencias profesionales, personales y sociales e), g), h), i), m), n), y u) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n− El análisis de la interfaz de diferentes sitios web.\n\n− La identificación de los elementos de la interfaz.\n\n− La utilización de estilos. y de tecnologías y frameworks relacionados.\n\n− La creación y manipulación de contenido multimedia.\n\n− La integración de contenido multimedia e interactivo en documentos web.\n\n− La evaluación de la accesibilidad y usabilidad de la web.\n\n− La mejora de la visibilidad y accesibilidad de la web en los resultados de los diferentes buscadores.\n\n− La integración de la interfaz en la aplicación web.\n\n− La verificación del funcionamiento de la web en distintos navegadores y dispositivos.»"
+    }
+  ],
+  "competencias_profesionales_personales_sociales": {
+    "a": "Configurar y explotar sistemas informáticos, adaptando la configuración lógica del sistema según las necesidades de uso y los criterios establecidos.",
+    "b": "Aplicar técnicas y procedimientos relacionados con la seguridad en sistemas, servicios y aplicaciones, cumpliendo el plan de seguridad.",
+    "c": "Gestionar servidores de aplicaciones adaptando su configuración en cada caso para permitir el despliegue de aplicaciones web.",
+    "d": "Gestionar bases de datos, interpretando su diseño lógico y verificando integridad, consistencia, seguridad y accesibilidad de los datos.",
+    "e": "Desarrollar aplicaciones web con acceso a bases de datos utilizando lenguajes, objetos de acceso y herramientas de mapeo adecuados a las especificaciones.",
+    "f": "Integrar contenidos en la lógica de una aplicación web, desarrollando componentes de acceso a datos adecuados a las especificaciones.",
+    "g": "Desarrollar interfaces en aplicaciones web de acuerdo con un manual de estilo, utilizando lenguajes de marcas y estándares web.",
+    "h": "Desarrollar componentes multimedia para su integración en aplicaciones web, empleando herramientas específicas y siguiendo las especificaciones establecidas.",
+    "i": "Integrar componentes multimedia en el interface de una aplicación web, realizando el análisis de interactividad, accesibilidad y usabilidad de la aplicación.",
+    "j": "Desarrollar e integrar componentes software en el entorno del servidor web, empleando herramientas y lenguajes específicos, para cumplir las especificaciones de la aplicación.",
+    "k": "Desarrollar servicios para integrar sus funciones en otras aplicaciones web, asegurando su funcionalidad.",
+    "l": "Integrar servicios y contenidos distribuidos en aplicaciones web, asegurando su funcionalidad.",
+    "m": "Completar planes de pruebas verificando el funcionamiento de los componentes software desarrollados, según las especificaciones.",
+    "n": "Elaborar y mantener la documentación de los procesos de desarrollo, utilizando herramientas de generación de documentación y control de versiones.",
+    "ñ": "Desplegar y distribuir aplicaciones web en distintos ámbitos de implantación, verificando su comportamiento y realizando modificaciones.",
+    "o": "Gestionar y/o realizar el mantenimiento de los recursos de su área en función de las cargas de trabajo y el plan de mantenimiento.",
+    "p": "Adaptarse a las nuevas situaciones laborales, manteniendo actualizados los conocimientos científicos, técnicos y tecnológicos relativos a su entorno profesional.",
+    "q": "Resolver situaciones, problemas o contingencias con iniciativa y autonomía en el ámbito de su competencia, con creatividad, innovación y espíritu de mejora.",
+    "r": "Organizar y coordinar equipos de trabajo, supervisando el desarrollo del mismo con responsabilidad y asumiendo el liderazgo.",
+    "s": "Comunicarse con sus iguales, superiores, clientes y personas bajo su responsabilidad utilizando vías eficaces de comunicación.",
+    "t": "Generar entornos seguros en el desarrollo de su trabajo y el de su equipo, aplicando los procedimientos de prevención de riesgos laborales y ambientales.",
+    "u": "Supervisar y aplicar procedimientos de gestión de calidad, de accesibilidad universal y de diseño para todos en las actividades profesionales.",
+    "v": "Realizar la gestión básica para la creación y funcionamiento de una pequeña empresa y tener iniciativa en su actividad profesional.",
+    "x": "Ejercer sus derechos y cumplir con las obligaciones derivadas de su actividad profesional, de acuerdo con la legislación vigente."
+  },
+  "unidades_competencia": {
+    "UC0223_3": "Configurar y explotar sistemas informáticos.",
+    "UC0226_3": "Programar bases de datos relacionales.",
+    "UC0491_3": "Desarrollar elementos software en el entorno cliente.",
+    "UC0492_3": "Desarrollar elementos software en el entorno servidor.",
+    "UC0493_3": "Implementar, verificar y documentar aplicaciones web en entornos internet, intranet y extranet."
+  },
+  "cualificaciones_profesionales": [
+    {
+      "codigo": "IFC154_3",
+      "denominacion": "Desarrollo de aplicaciones con tecnologías Web",
+      "nivel": 3,
+      "completa": true,
+      "normativa": "Real Decreto 1087/2005",
+      "unidades_competencia": [
+        "UC0491_3",
+        "UC0492_3",
+        "UC0493_3"
+      ]
+    },
+    {
+      "codigo": "IFC155_3",
+      "denominacion": "Programación en lenguajes estructurados de aplicaciones de gestión",
+      "nivel": 3,
+      "completa": false,
+      "normativa": "Real Decreto 1087/2005",
+      "unidades_competencia": [
+        "UC0223_3",
+        "UC0226_3"
+      ]
+    },
+    {
+      "codigo": "IFC080_3",
+      "denominacion": "Programación con lenguajes orientados a objetos y bases de datos relacionales",
+      "nivel": 3,
+      "completa": false,
+      "normativa": "Real Decreto 295/2004",
+      "unidades_competencia": [
+        "UC0223_3",
+        "UC0226_3"
+      ]
+    }
+  ],
+  "correspondencia_unidades_competencia": {
+    "0483": [
+      "UC0223_3"
+    ],
+    "0484": [
+      "UC0226_3"
+    ],
+    "0612": [
+      "UC0491_3"
+    ],
+    "0613": [
+      "UC0492_3"
+    ],
+    "0614": [
+      "UC0493_3"
+    ],
+    "0615": [
+      "UC0491_3"
+    ]
+  },
+  "ciclo": "DAW",
+  "codigo_ciclo": "IFC303",
+  "nivel": "Grado Superior"
+}

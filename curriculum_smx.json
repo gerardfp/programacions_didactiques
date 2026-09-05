@@ -1,0 +1,2879 @@
+{
+  "ciclo": "SMX",
+  "codigo_ciclo": "IFC201",
+  "titulo": "Técnico en Sistemas Microinformáticos y Redes",
+  "familia_profesional": "Informática y Comunicaciones",
+  "nivel": "Grado Medio",
+  "normativa_referencia": "Real Decreto 1691/2007, de 14 de diciembre",
+  "competencias_profesionales_personales_sociales": {
+    "a": "Determinar la logística asociada a las operaciones de instalación, configuración y mantenimiento de sistemas microinformáticos, interpretando la documentación técnica asociada y organizando los recursos necesarios.",
+    "b": "Montar y configurar ordenadores y periféricos, asegurando su funcionamiento en condiciones de calidad y seguridad.",
+    "c": "Instalar y configurar software básico y de aplicación, asegurando su funcionamiento en condiciones de calidad y seguridad.",
+    "d": "Replantear el cableado y la electrónica de redes locales en pequeños entornos y su conexión con redes de área extensa canalizando a un nivel superior los supuestos que así lo requieran.",
+    "e": "Instalar y configurar redes locales cableadas, inalámbricas o mixtas y su conexión a redes públicas, asegurando su funcionamiento en condiciones de calidad y seguridad.",
+    "f": "Instalar, configurar y mantener servicios multiusuario, aplicaciones y dispositivos compartidos en un entorno de red local, atendiendo a las necesidades y requerimientos especificados.",
+    "g": "Realizar las pruebas funcionales en sistemas microinformáticos y redes locales, localizando y diagnosticando disfunciones, para comprobar y ajustar su funcionamiento.",
+    "h": "Mantener sistemas microinformáticos y redes locales, sustituyendo, actualizando y ajustando sus componentes, para asegurar el rendimiento del sistema en condiciones de calidad y seguridad.",
+    "i": "Ejecutar procedimientos establecidos de recuperación de datos y aplicaciones ante fallos y pérdidas de datos en el sistema, para garantizar la integridad y disponibilidad de la información.",
+    "j": "Elaborar documentación técnica y administrativa del sistema, cumpliendo las normas y reglamentación del sector, para su mantenimiento y la asistencia al cliente.",
+    "k": "Elaborar presupuestos de sistemas a medida cumpliendo los requerimientos del cliente.",
+    "l": "Asesorar y asistir al cliente, canalizando a un nivel superior los supuestos que lo requieran, para encontrar soluciones adecuadas a las necesidades de éste.",
+    "m": "Organizar y desarrollar el trabajo asignado manteniendo unas relaciones profesionales adecuadas en el entorno de trabajo.",
+    "n": "Mantener un espíritu constante de innovación y actualización en el ámbito del sector informático.",
+    "ñ": "Utilizar los medios de consulta disponibles, seleccionando el más adecuado en cada caso, para resolver en tiempo razonable supuestos no conocidos y dudas profesionales.",
+    "o": "Aplicar los protocolos y normas de seguridad, calidad y respeto al medio ambiente en las intervenciones realizadas.",
+    "p": "Cumplir con los objetivos de la producción, colaborando con el equipo de trabajo y actuando conforme a los principios de responsabilidad y tolerancia.",
+    "q": "Adaptarse a diferentes puestos de trabajo y nuevas situaciones laborales originados por cambios tecnológicos y organizativos en los procesos productivos.",
+    "r": "Resolver problemas y tomar decisiones individuales siguiendo las normas y procedimientos establecidos definidos dentro del ámbito de su competencia.",
+    "s": "Ejercer sus derechos y cumplir con las obligaciones derivadas de las relaciones laborales, de acuerdo con lo establecido en la legislación vigente.",
+    "t": "Gestionar su carrera profesional, analizando las oportunidades de empleo, autoempleo y aprendizaje.",
+    "u": "Crear y gestionar una pequeña empresa, realizando un estudio de viabilidad de productos, planificación de la producción y comercialización.",
+    "v": "Participar de forma activa en la vida económica, social y cultural, con una actitud crítica y responsable."
+  },
+  "cualificaciones_profesionales": [
+    {
+      "codigo": "IFC078_2",
+      "denominacion": "Sistemas microinformáticos",
+      "unidades_competencia": [
+        "UC0219_2",
+        "UC0220_2",
+        "UC0221_2",
+        "UC0222_2"
+      ]
+    },
+    {
+      "codigo": "IFC298_2",
+      "denominacion": "Montaje y reparación de sistemas microinformáticos",
+      "unidades_competencia": [
+        "UC0953_2",
+        "UC0219_2",
+        "UC0954_2"
+      ]
+    },
+    {
+      "codigo": "IFC299_2",
+      "denominacion": "Operación de redes departamentales",
+      "unidades_competencia": [
+        "UC0220_2",
+        "UC0955_2",
+        "UC0956_2"
+      ]
+    },
+    {
+      "codigo": "IFC300_2",
+      "denominacion": "Operación de sistemas informáticos",
+      "unidades_competencia": [
+        "UC0219_2",
+        "UC0957_2",
+        "UC0958_2",
+        "UC0959_2"
+      ]
+    }
+  ],
+  "unidades_competencia": {
+    "UC0219_2": "Instalar y configurar el software base en sistemas microinformáticos.",
+    "UC0220_2": "Instalar, configurar y verificar los elementos de la red local según procedimientos establecidos.",
+    "UC0221_2": "Instalar, configurar y mantener paquetes informáticos de propósito general y aplicaciones específicas.",
+    "UC0222_2": "Facilitar al usuario la utilización de paquetes informáticos de propósito general y aplicaciones específicas.",
+    "UC0953_2": "Montar equipos microinformáticos.",
+    "UC0954_2": "Reparar y ampliar equipamiento microinformático.",
+    "UC0955_2": "Monitorizar los procesos de comunicaciones de la red local.",
+    "UC0956_2": "Realizar los procesos de conexión entre redes privadas y redes públicas.",
+    "UC0957_2": "Mantenimiento del subsistema físico en sistemas informáticos.",
+    "UC0958_2": "Mantenimiento del subsistema lógico en sistemas informáticos.",
+    "UC0959_2": "Mantenimiento de la seguridad en sistemas informáticos."
+  },
+  "correspondencia_unidades_competencia": {
+    "0221": [
+      "UC0953_2",
+      "UC0954_2"
+    ],
+    "0222": [
+      "UC0958_2"
+    ],
+    "0223": [
+      "UC0221_2",
+      "UC0222_2"
+    ],
+    "0224": [
+      "UC0219_2",
+      "UC0957_2"
+    ],
+    "0225": [
+      "UC0955_2"
+    ],
+    "0226": [
+      "UC0959_2"
+    ],
+    "0227": [
+      "UC0956_2"
+    ]
+  },
+  "modulos": [
+    {
+      "codigo": "0221",
+      "nombre": "Montaje y mantenimiento de equipos",
+      "curso_orientativo": "1º",
+      "horas": 220,
+      "creditos_ects": 9,
+      "unidades_competencia": [
+        "UC0953_2",
+        "UC0954_2"
+      ],
+      "competencias_titulo": [
+        "a"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de montar y mantener equipos microinformáticos y periféricos comunes y adquirir una visión global y actualizada del mercado.\n\nEl montaje, revisión y mantenimiento de equipos microinformáticos y periféricos incluye aspectos como:\n\nLa manipulación de todos los elementos que forman el componente físico de los equipos microinformáticos.\n\nEl montaje/desmontaje de los componentes de un equipo microinformático.\n\nEl chequeo y monitorización de equipos.\n\nEl diagnóstico y resolución de averías.\n\nLa ampliación y/o sustitución de componentes en equipos.\n\nLa puesta en marcha y mantenimiento de periféricos.\n\nLa constante adaptación a los cambios e innovaciones en este ámbito.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\nMontaje y ensamblado de equipos.\n\nMantenimiento de equipos.\n\nPuesta en marcha y mantenimiento de periféricos.\n\nComercialización y atención al cliente de equipos informáticos y periféricos.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales a), b),  c), g), h), i), j), k) y l) del ciclo formativo, y las competencias a), b), g), h), i), j), k) y l) del título.\n\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nLa identificación de los elementos que forman el componente físico de los equipos informáticos.\n\nEl montaje/desmontaje de equipos microinformáticos.\n\nEl chequeo de los equipos montados.\n\nEl diagnóstico de equipos con problemas o averiados.\n\nEl montaje/desmontaje de componentes mecánicos en periféricos comunes.\n\nLa medida de magnitudes eléctricas.\n\nLa elaboración y/o interpretación de inventarios, presupuestos, partes de montaje y reparación.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Selecciona los componentes de integración de un equipo microinformático estándar, describiendo sus funciones y comparando prestaciones de distintos fabricantes.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            },
+            {
+              "letra": "j",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Ensambla un equipo microinformático, interpretando planos e instrucciones del fabricante aplicando técnicas de montaje.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Mide parámetros eléctricos, identificando el tipo de señal y relacionándola con sus unidades características.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Mantiene equipos informáticos interpretando las recomendaciones de los fabricantes y relacionando las disfunciones con sus causas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "n",
+              "descripcion": "."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "descripcion": "Instala software en un equipo informático utilizando una imagen almacenada en un soporte de memoria y justificando el procedimiento a seguir.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "descripcion": "Reconoce nuevas tendencias en el ensamblaje de equipos microinformáticos describiendo sus ventajas y adaptándolas a las características de uso de los equipos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "descripcion": "Mantiene periféricos, interpretando las recomendaciones de los fabricantes de equipos y relacionando disfunciones con sus causas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "descripcion": "Cumple las normas de prevención de riesgos laborales y de protección ambiental, identificando los riesgos asociados, las medidas y equipos para prevenirlos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": ""
+            },
+            {
+              "letra": "s",
+              "descripcion": ""
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0222",
+      "nombre": "Sistemas operativos monopuesto",
+      "curso_orientativo": "1º",
+      "horas": 130,
+      "creditos_ects": 5,
+      "unidades_competencia": [
+        "UC0958_2"
+      ],
+      "competencias_titulo": [
+        "a"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación y explotación de sistemas operativos monopuesto.\n\nLa definición de estas funciones incluye aspectos como:\n\nLa instalación y actualización de sistemas operativos para su utilización en sistemas microinformáticos.\n\nLa utilización de las funcionalidades del sistema microinformático mediante las herramientas del sistema operativo.\n\nEl control y seguimiento de la actividad y rendimiento del sistema operativo.\n\nLa determinación y utilización de los recursos compartidos del sistema operativo.\n\nLa gestión de los usuarios y grupos del sistema, así como sus perfiles y permisos.\n\nLa utilización de mecanismos de virtualización para la realización de pruebas.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\nLa instalación y actualización de sistemas operativos en equipos independientes.\n\nLa utilización avanzada del sistema operativo.\n\nLa asistencia al usuario final sobre el uso del sistema operativo.\n\nLa formación del módulo contribuye a alcanzar los  objetivos generales a), c), g), h), i), j), k), l) y m) del ciclo formativo, y las competencias a), c), g), h), k), l), m),  n), ñ) y r) del título.\n\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nLa evolución de  los cambios y novedades que se producen en el mercado sobre los sistemas operativos.\n\nLa instalación y actualización de sistemas operativos monopuesto.\n\nLa elaboración de documentos (manuales, informes, partes de incidencia, entre otros).\n\nLa asistencia y resolución de problemas en la instalación de sistemas operativos.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Reconoce las características de los sistemas de archivo, describiendo sus tipos y aplicaciones.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Instala sistemas operativos, relacionando sus características con el hardware del equipo y el software de aplicación.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            },
+            {
+              "letra": "j",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Realiza tareas básicas de configuración de sistemas operativos, interpretando requerimientos y describiendo los procedimientos seguidos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Realiza operaciones básicas de administración de sistemas operativos, interpretando requerimientos y optimizando el sistema para su uso.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "descripcion": "Crea máquinas virtuales identificando su campo de aplicación e instalando software específico.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0223",
+      "nombre": "Aplicaciones ofimáticas",
+      "curso_orientativo": "1º",
+      "horas": 230,
+      "creditos_ects": 9,
+      "unidades_competencia": [
+        "UC0221_2",
+        "UC0222_2"
+      ],
+      "competencias_titulo": [
+        "a"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación y explotación de aplicaciones informáticas.\n\nLa instalación y explotación de aplicaciones incluye aspectos como:\n\nLa búsqueda de software de aplicación adecuado al entorno de explotación.\n\nLa instalación y configuración de aplicaciones ofimáticas.\n\nLa elaboración de documentos y plantillas.\n\nLa resolución de problemas en la explotación de las aplicaciones.\n\nLa asistencia al usuario.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\nLa instalación, configuración y mantenimiento de aplicaciones informáticas.\n\nLa asistencia en el uso de aplicaciones informáticas.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales a), c), g), h), i), k), l), m), n) y o) del ciclo formativo y las competencias a), c), f), g), h), j), k), l), m), n), ñ), p) y r) del título.\n\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nEl análisis de los cambios y novedades que se producen en el mercado de aplicaciones informáticas.\n\nLa instalación y actualización de aplicaciones.\n\nLa elaboración de documentos (manuales, informes, partes de incidencia, entre otros).\n\nLa asistencia y resolución de problemas en la explotación de aplicaciones.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Instala y actualiza aplicaciones ofimáticas, interpretando especificaciones y describiendo los pasos a seguir en el proceso.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Elabora documentos y plantillas, describiendo y aplicando las opciones avanzadas de procesadores de textos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Elabora documentos y plantillas de cálculo, describiendo y aplicando opciones avanzadas de hojas de cálculo.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Elabora documentos con bases de datos ofimáticas describiendo y aplicando operaciones de manipulación de datos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "descripcion": "Manipula imágenes digitales analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "descripcion": "Manipula secuencias de vídeo analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "descripcion": "Elabora presentaciones multimedia describiendo y aplicando normas básicas de composición y diseño.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "descripcion": "Realiza operaciones de gestión del correo y la agenda electrónica, relacionando necesidades de uso con su configuración.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 9,
+          "descripcion": "Aplica técnicas de soporte en el uso de aplicaciones, identificando y resolviendo incidencias.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": ""
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            },
+            {
+              "letra": "s",
+              "descripcion": ". D"
+            },
+            {
+              "letra": "s",
+              "descripcion": ". L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0224",
+      "nombre": "Sistemas operativos en red",
+      "curso_orientativo": "2º",
+      "horas": 140,
+      "creditos_ects": 6,
+      "unidades_competencia": [
+        "UC0219_2",
+        "UC0957_2"
+      ],
+      "competencias_titulo": [
+        "a"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar las funciones de instalación y mantenimiento de sistemas operativos en red.\n\nLa definición de estas funciones incluye aspectos como:\n\nLos procesos de instalación y actualización de sistemas operativos en red para su utilización en sistemas microinformáticos.\n\nLa utilización de las funcionalidades del sistema microinformático mediante las herramientas del sistema operativo en red.\n\nEl control y seguimiento de la actividad y rendimiento del sistema operativo en red.\n\nLa gestión de los recursos compartidos del sistema operativo en redes homogéneas y heterogéneas.\n\nLa gestión de usuarios y grupos, así como sus perfiles y permisos.\n\nLa utilización de mecanismos de virtualización para la realización de pruebas.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\nLa instalación de sistemas operativos.\n\nLa gestión de sistemas en red.\n\nLa monitorización de sistemas operativos.\n\nLa formación del módulo contribuye a alcanzar los  objetivos generales  a), c), d),  f), g), h), i), j), k),  l), m) y ñ)  del ciclo formativo, y las competencias   a), c), e), f), h), l), m), n), ñ), p), q) y r) del título.\n\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nLa instalación y actualización de sistemas operativos en red.\n\nLa gestión de usuarios y grupos.\n\nLa gestión de dominios.\n\nLa gestión de los recursos compartidos en redes homogéneas.\n\nLa monitorización y uso del sistema operativo en red.\n\nLa integración de sistemas operativos en redes heterogéneas.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Instala sistemas operativos en red describiendo sus características e interpretando la documentación técnica.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Gestiona usuarios y grupos de sistemas operativos en red, interpretando especificaciones y aplicando herramientas del sistema.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Realiza tareas de gestión sobre dominios identificando necesidades y aplicando herramientas de administración de dominios.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Gestiona los recursos compartidos del sistema, interpretando especificaciones y determinando niveles de seguridad.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "descripcion": "Realiza tareas de monitorización y uso del sistema operativo en red, describiendo las herramientas utilizadas e identificando las principales incidencias.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "descripcion": "Realiza tareas de integración de sistemas operativos libres y propietarios, describiendo las ventajas de compartir recursos e instalando software específico.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0225",
+      "nombre": "Redes locales",
+      "curso_orientativo": "1º",
+      "horas": 225,
+      "creditos_ects": 9,
+      "unidades_competencia": [
+        "UC0955_2"
+      ],
+      "competencias_titulo": [
+        "c"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación  y mantenimiento de  redes locales en pequeños entornos.\n\nLa definición de estas funciones incluye aspectos como:\n\nEl montaje de las canalizaciones y el tendido de líneas para redes locales cableadas.\n\nEl montaje de los elementos de la red local.\n\nLa integración de los elementos de la red.\n\nLa monitorización de la red local.\n\nLa resolución de incidencias físicas y lógicas de la red local.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\nEl montaje de redes locales cableadas, inalámbricas y mixtas.\n\nEl mantenimiento de la red local.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales a), b), d), e), f), g), h), i), j), k), y l) y m) del ciclo formativo, y las competencias c), e), f), g), h), j), y l), del título.\n\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nLa identificación de los elementos de la red local.\n\nLa interpretación de la documentación técnica de los elementos de la red local.\n\nEl montaje de las canalizaciones y el tendido del cableado.\n\nLa instalación y configuración de los elementos de la red.\n\nLa elaboración e interpretación de la documentación técnica sobre la distribución de la red local.\n\nLa resolución de problemas surgidos en la explotación de la red local.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Reconoce la estructura de redes locales cableadas analizando las características de entornos de aplicación y describiendo la funcionalidad de sus componentes.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Despliega el cableado de una red local interpretando especificaciones y aplicando técnicas de montaje.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            },
+            {
+              "letra": "j",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Interconecta equipos en redes locales cableadas describiendo estándares de cableado y aplicando técnicas de montaje de conectores.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "a",
+              "descripcion": ""
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Instala equipos en red, describiendo sus prestaciones y aplicando técnicas de montaje.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            },
+            {
+              "letra": "j",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "descripcion": "Mantiene una red local interpretando recomendaciones de los fabricantes de hardware o software y estableciendo la relación entre disfunciones y sus causas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "o",
+              "descripcion": "."
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "descripcion": "Cumple las normas de prevención de riesgos laborales y de protección ambiental, identificando los riesgos asociados, las medidas y equipos para prevenirlos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": ""
+            },
+            {
+              "letra": "s",
+              "descripcion": ""
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0226",
+      "nombre": "Seguridad informática",
+      "curso_orientativo": "2º",
+      "horas": 105,
+      "creditos_ects": 4,
+      "unidades_competencia": [
+        "UC0959_2"
+      ],
+      "competencias_titulo": [
+        "a"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de implantación de medidas de seguridad en sistemas informáticos.\n\nLa definición de esta función incluye aspectos como:\n\nLa instalación de equipos y servidores en entornos seguros.\n\nLa incorporación de procedimientos de seguridad en el tratamiento de la información.\n\nLa actualización de los sistemas operativos y el software de aplicación instalado.\n\nLa protección frente a software malicioso.\n\nLa aplicación de la legislación y normativa sobre seguridad y protección de la información.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\nLa instalación de equipamiento informático.\n\nEl tratamiento, transmisión y almacenamiento de la información.\n\nEl mantenimiento de los sistemas informáticos.\n\nLa formación del módulo contribuye a alcanzar los  objetivos generales a), c), d), e), g), k) y l) del ciclo formativo, y las competencias a), c), i), j), l), n), o), p) y t) del título.\n\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nLa protección de equipos y redes informáticas.\n\nLa protección de la información transmitida y almacenada.\n\nLa legislación y normativa vigente en materia de seguridad.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Aplica medidas de seguridad pasiva en sistemas informáticos describiendo características de entornos y relacionándolas con sus necesidades.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Gestiona dispositivos de almacenamiento describiendo los procedimientos efectuados y aplicando técnicas para asegurar la integridad de la información.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            },
+            {
+              "letra": "j",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Aplica mecanismos de seguridad activa describiendo sus características y relacionándolas con las necesidades de uso del sistema informático.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Asegura la privacidad de la información transmitida en redes informáticas describiendo vulnerabilidades e instalando software especifico.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "descripcion": "Reconoce la legislación y normativa sobre seguridad y protección de datos analizando las repercusiones de su incumplimiento.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0227",
+      "nombre": "Servicios en red",
+      "curso_orientativo": "2º",
+      "horas": 140,
+      "creditos_ects": 6,
+      "unidades_competencia": [
+        "UC0956_2"
+      ],
+      "competencias_titulo": [
+        "a"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación y mantenimiento de servicios en redes informáticas cableadas e inalámbricas.\n\nLa definición de estas funciones  incluye aspectos como:\n\nLa identificación de las principales aplicaciones usadas en redes informáticas para ejecutar servicios de red.\n\nLa definición de los aspectos técnicos de los servicios de red más extendidos.\n\nLa selección de un servicio de red y de una aplicación específica sobre la base de sus características.\n\nLa instalación y configuración de servicios en redes locales y públicas.\n\nLa configuración de puntos de acceso inalámbricos estableciendo la seguridad de las comunicaciones.\n\nLa puesta en marcha de mecanismos de conexión a redes públicas.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\nLa implantación y mantenimiento de servicios de red.\n\nEl despliegue de redes inalámbricas.\n\nLa conexión de redes locales con redes públicas.\n\nLa formación del módulo contribuye a alcanzar los  objetivos generales d), f), h), i), k), l) y m) del ciclo formativo y las competencias a), d), e), f), g), j), m), ñ) y r) del título.\n\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nLa configuración automática de los parámetros de red.\n\nLa implantación de servicios de resolución de nombres.\n\nLa implantación de servicios de transferencia de ficheros.\n\nLa implantación de servicios de correo electrónico.\n\nLa implantación de servicios web.\n\nLa implantación de servicios de acceso remoto.\n\nEl despliegue de redes inalámbricas.\n\nLa conexión de redes locales a redes públicas.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Instala servicios de configuración dinámica, describiendo sus características y aplicaciones.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Instala servicios de resolución de nombres, describiendo sus características y aplicaciones.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Instala servicios de transferencia de ficheros, describiendo sus características y aplicaciones.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Gestiona servidores de correo electrónico identificando requerimientos de utilización y aplicando criterios de configuración.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "descripcion": "Gestiona servidores web identificando requerimientos de utilización y aplicando criterios de configuración.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "descripcion": "Gestiona métodos de acceso remoto describiendo sus características e instalando los servicios correspondientes.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "descripcion": "Despliega redes inalámbricas seguras justificando la configuración elegida y describiendo los procedimientos de implantación.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 8,
+          "descripcion": "Establece el acceso desde redes locales a redes públicas identificando posibles escenarios y aplicando software específico.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            },
+            {
+              "letra": "j",
+              "descripcion": "S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0228",
+      "nombre": "Aplicaciones web",
+      "curso_orientativo": "2º",
+      "horas": 125,
+      "creditos_ects": 5,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "a"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación, configuración y utilización de aplicaciones web.\n\nLa definición de estas funciones incluye aspectos como:\n\nLa identificación de las principales aplicaciones web.\n\nLa instalación de las aplicaciones.\n\nEl mantenimiento de usuarios.\n\nLa asignación de permisos.\n\nLa utilización de las aplicaciones instaladas.\n\nLas actividades profesionales asociadas a estas funciones se aplican en:\n\nLa instalación, configuración y mantenimiento de aplicaciones informáticas.\n\nLa asistencia en el uso de aplicaciones informáticas.\n\nLa formación del módulo contribuye a alcanzar los  objetivos generales a), c), i), k), l) y m) del ciclo formativo, y las competencias a), c), f), i), j), m), n), ñ), q) y r) del título.\n\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nInstalación de aplicaciones web.\n\nConfiguración de aplicaciones web.\n\nExplotación de aplicaciones web.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Instala gestores de contenidos, identificando sus aplicaciones y configurándolos según requerimientos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            },
+            {
+              "letra": "j",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Instala sistemas de gestión de aprendizaje a distancia, describiendo la estructura del sitio y la jerarquía de directorios generada.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Instala servicios de gestión de archivos web, identificando sus aplicaciones y verificando su integridad.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Instala aplicaciones de ofimática web, describiendo sus características y entornos de uso.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "descripcion": "Instala aplicaciones web de escritorio, describiendo sus características y entornos de uso. Criterios de evaluación:",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0229",
+      "nombre": "Formación y orientación laboral",
+      "curso_orientativo": "1º",
+      "horas": 90,
+      "creditos_ects": 4,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "q"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para que el alumno pueda insertarse laboralmente y desarrollar su carrera profesional en el sector de los sistemas microinformáticos y redes.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales n), o) y q) del ciclo formativo y las competencias  q), s) y v) del título.\n\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nEl manejo de las fuentes de información sobre el sistema educativo y laboral, en especial en lo referente al sector informático.\n\nLa realización de pruebas de orientación y dinámicas sobre la propia personalidad y el desarrollo de las habilidades sociales.\n\nLa  preparación y realización de currículos (CVs) y entrevistas de trabajo.\n\nLa identificación de la normativa laboral que afecta a los trabajadores del sector, manejo de los contratos más comúnmente utilizados, lectura comprensiva de los convenios colectivos de aplicación.\n\nLa cumplimentación de recibos de salario de diferentes características y otros documentos relacionados.\n\nEl análisis de la Ley de Prevención de Riesgos Laborales que le permita la evaluación de los riesgos derivados de las actividades desarrolladas en el sector productivo, y colaborar en la definición de un plan de prevención para la empresa, así como las medidas necesarias que deban adoptarse para su implementación.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 2,
+          "descripcion": "Aplica las estrategias del trabajo en equipo, valorando su eficacia y eficiencia para la consecución de los objetivos de la organización.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Ejerce los derechos y cumple las obligaciones que se derivan de las relaciones laborales, reconociéndolas en los diferentes contratos de trabajo.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            },
+            {
+              "letra": "j",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Determina la acción protectora del sistema de la Seguridad Social ante las distintas contingencias cubiertas, identificando las distintas clases de prestaciones. Criterios de evaluación:",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "descripcion": "Evalúa los riesgos derivados de su actividad, analizando las condiciones de trabajo y los factores de riesgo presentes en su entorno laboral.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "descripcion": "Participa en la elaboración de un plan de prevención de riesgos en una pequeña empresa, identificando las responsabilidades de todos los agentes implicados.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "descripcion": "Aplica las medidas de prevención y protección, analizando las situaciones de riesgo en el entorno laboral del técnico de sistemas microinformáticos y redes locales.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0230",
+      "nombre": "Empresa e Iniciativa Emprendedora",
+      "curso_orientativo": "2º",
+      "horas": 65,
+      "creditos_ects": 3,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "c"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desarrollar la propia iniciativa en el ámbito empresarial, tanto hacia el autoempleo como hacia la asunción de responsabilidades y funciones en el empleo por cuenta ajena.\n\nLa formación del módulo permite alcanzar los objetivos generales p) y q) del ciclo formativo, y las competencias q), u) y v) del título.\n\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nManejo de las fuentes de información sobre el sector de la informática, incluyendo el análisis de los procesos de innovación sectorial en marcha.\n\nLa realización de casos y dinámicas de grupo que permitan comprender y valorar las actitudes de los emprendedores y ajustar la necesidad de los mismos al sector industrial relacionado con los procesos de sistemas microinformáticos y redes.\n\nLa utilización de programas de gestión administrativa para «pymes» del sector.\n\nLa realización de un proyecto de plan de empresa relacionada con la actividad de sistemas microinformáticos y redes y que incluya todas las facetas de puesta en marcha de un negocio: viabilidad, organización de la producción y los recursos humanos, acción comercial, control administrativo y financiero, así como justificación de su responsabilidad social.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Reconoce las capacidades asociadas a la iniciativa emprendedora, analizando los requerimientos derivados de los puestos de trabajo y de las actividades empresariales.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Define la oportunidad de creación de una pequeña empresa, valorando el impacto sobre el entorno de actuación e incorporando valores éticos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Realiza las actividades para la constitución y puesta en marcha de una empresa, seleccionando la forma jurídica e identificando las obligaciones legales asociadas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Realiza actividades de gestión administrativa y financiera básica de una «pyme», identificando las principales obligaciones contables y fiscales y cumplimentando la documentación.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": ""
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0231",
+      "nombre": "Formación en Centros de Trabajo",
+      "curso_orientativo": "2º",
+      "horas": 380,
+      "creditos_ects": 15,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "c"
+      ],
+      "orientaciones_pedagogicas": "",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Identifica la estructura y organización de la empresa relacionándola con la producción y comercialización de los productos y servicios que ofrecen.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Aplica hábitos éticos y laborales, desarrollando su actividad profesional de acuerdo a las características del puesto de trabajo y procedimientos establecidos en la empresa.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "s",
+              "descripcion": ""
+            },
+            {
+              "letra": "s",
+              "descripcion": ". L"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            },
+            {
+              "letra": "h",
+              "descripcion": "S"
+            },
+            {
+              "letra": "i",
+              "descripcion": "S"
+            },
+            {
+              "letra": "j",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Monta equipos informáticos, siguiendo los procesos del sistema de calidad establecidos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Participa en el diagnóstico y reparación de averías aplicando técnicas de mantenimiento correctivo.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            },
+            {
+              "letra": "g",
+              "descripcion": "S"
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "descripcion": "Instala sistemas operativos y aplicaciones respetando el plan de trabajo y las necesidades del cliente.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "descripcion": "S"
+            },
+            {
+              "letra": "c",
+              "descripcion": "S"
+            },
+            {
+              "letra": "d",
+              "descripcion": "S"
+            },
+            {
+              "letra": "e",
+              "descripcion": "S"
+            },
+            {
+              "letra": "f",
+              "descripcion": "S"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
