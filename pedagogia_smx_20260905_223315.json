@@ -1,0 +1,3263 @@
+{
+  "0221": {
+    "unidades_programacion": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 01: Representació de la informació i arquitectura de computadors",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 02: Funcionament general del computador i components bàsics",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 03: La placa base, el microprocessador i sistemes de refrigeració",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Novembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 04: La memòria interna (RAM, ROM, memòria cau)",
+        "horas": 15,
+        "trimestre": "1r Trimestre",
+        "inicio": "Desembre",
+        "fin": "Desembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 05: Targetes d'expansió i adaptadors",
+        "horas": 15,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Gener",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 6",
+        "nombre": "UT 06: Electricitat en l'ordinador i fonts d'alimentació",
+        "horas": 15,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 7",
+        "nombre": "UT 07: Sistemes d'emmagatzematge massiu (HDD, SSD, NVMe, òptics)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Febrer",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UT 8",
+        "nombre": "UT 08: Muntatge i acoblament complet d'equips microinformàtics",
+        "horas": 27,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          2,
+          3
+        ]
+      },
+      {
+        "codigo": "UT 9",
+        "nombre": "UT 09: Perifèrics bàsics, avançats i connexions",
+        "horas": 24,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UT 10",
+        "nombre": "UT 10: Opcions d'arrancada, BIOS/UEFI i clonació d'imatges",
+        "horas": 24,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Maig",
+        "ras": [
+          5,
+          6
+        ]
+      },
+      {
+        "codigo": "UT 11",
+        "nombre": "UT 11: Reparació, manteniment preventiu i diagnòstic d'avaries",
+        "horas": 24,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Juny",
+        "ras": [
+          7,
+          8
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 35.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 5.0
+      },
+      {
+        "codigo": "RA8",
+        "peso": 5.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens i proves objectives de coneixements tècnics",
+        "porcentaje": 50,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Realització d'exercicis pràctics i tallers de muntatge al laboratori",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Assistència, actitud, comportament i compliment de normes de seguretat",
+        "porcentaje": 10,
+        "requisito": "Avaluació contínua positiva"
+      }
+    ],
+    "metodologia": "Metodologia eminentment pràctica de taller. Treball per parelles o grups reduïts en taules de muntatge amb protecció antiestàtica, manipulació real de components físics de maquinari, diagnòstic de fallades i clonació de sistemes.",
+    "recursos": {
+      "software": [
+        "Utilitats de diagnòstic de maquinari (HWiNFO, MemTest86, CrystalDiskInfo)",
+        "Software de creació i clonació d'imatges (Clonezilla, Rescuezilla)",
+        "Sistemes operatius per a instal·lacions de prova (Windows 10/11, Ubuntu Desktop)"
+      ],
+      "hardware": [
+        "Bancs de treball i tallers amb estoretes i polseres antiestàtiques",
+        "Caixes d'eines de precisió, tornavisos imantats, testers de fonts d'alimentació",
+        "Equips microinformàtics complets desmuntats per a pràctiques d'alumnat",
+        "Components de recanvi: plaques base, memòries RAM, targetes gràfiques, discos durs"
+      ]
+    },
+    "espacios": "Taller de muntatge i manteniment d'equips microinformàtics",
+    "unidades": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 01: Representació de la informació i arquitectura de computadors",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 02: Funcionament general del computador i components bàsics",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 03: La placa base, el microprocessador i sistemes de refrigeració",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Novembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 04: La memòria interna (RAM, ROM, memòria cau)",
+        "horas": 15,
+        "trimestre": "1r Trimestre",
+        "inicio": "Desembre",
+        "fin": "Desembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 05: Targetes d'expansió i adaptadors",
+        "horas": 15,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Gener",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 6",
+        "nombre": "UT 06: Electricitat en l'ordinador i fonts d'alimentació",
+        "horas": 15,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 7",
+        "nombre": "UT 07: Sistemes d'emmagatzematge massiu (HDD, SSD, NVMe, òptics)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Febrer",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UT 8",
+        "nombre": "UT 08: Muntatge i acoblament complet d'equips microinformàtics",
+        "horas": 27,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          2,
+          3
+        ]
+      },
+      {
+        "codigo": "UT 9",
+        "nombre": "UT 09: Perifèrics bàsics, avançats i connexions",
+        "horas": 24,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UT 10",
+        "nombre": "UT 10: Opcions d'arrancada, BIOS/UEFI i clonació d'imatges",
+        "horas": 24,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Maig",
+        "ras": [
+          5,
+          6
+        ]
+      },
+      {
+        "codigo": "UT 11",
+        "nombre": "UT 11: Reparació, manteniment preventiu i diagnòstic d'avaries",
+        "horas": 24,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Juny",
+        "ras": [
+          7,
+          8
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 35.0,
+      "2": 15.0,
+      "3": 10.0,
+      "4": 10.0,
+      "5": 10.0,
+      "6": 10.0,
+      "7": 5.0,
+      "8": 5.0
+    },
+    "formula_evaluacion": "Módulo = 0.35 · RA_1 + 0.15 · RA_2 + 0.10 · RA_3 + 0.10 · RA_4 + 0.10 · RA_5 + 0.10 · RA_6 + 0.05 · RA_7 + 0.05 · RA_8",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exàmens i proves objectives de coneixements tècnics",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realització d'exercicis pràctics i tallers de muntatge al laboratori",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Assistència, actitud, comportament i compliment de normes de seguretat",
+          "peso_ra": 10.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exàmens i proves objectives de coneixements tècnics",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realització d'exercicis pràctics i tallers de muntatge al laboratori",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Assistència, actitud, comportament i compliment de normes de seguretat",
+          "peso_ra": 10.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exàmens i proves objectives de coneixements tècnics",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realització d'exercicis pràctics i tallers de muntatge al laboratori",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Assistència, actitud, comportament i compliment de normes de seguretat",
+          "peso_ra": 10.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exàmens i proves objectives de coneixements tècnics",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realització d'exercicis pràctics i tallers de muntatge al laboratori",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Assistència, actitud, comportament i compliment de normes de seguretat",
+          "peso_ra": 10.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exàmens i proves objectives de coneixements tècnics",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realització d'exercicis pràctics i tallers de muntatge al laboratori",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Assistència, actitud, comportament i compliment de normes de seguretat",
+          "peso_ra": 10.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exàmens i proves objectives de coneixements tècnics",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realització d'exercicis pràctics i tallers de muntatge al laboratori",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Assistència, actitud, comportament i compliment de normes de seguretat",
+          "peso_ra": 10.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Exàmens i proves objectives de coneixements tècnics",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realització d'exercicis pràctics i tallers de muntatge al laboratori",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Assistència, actitud, comportament i compliment de normes de seguretat",
+          "peso_ra": 10.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Exàmens i proves objectives de coneixements tècnics",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realització d'exercicis pràctics i tallers de muntatge al laboratori",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Assistència, actitud, comportament i compliment de normes de seguretat",
+          "peso_ra": 10.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Utilitats de diagnòstic de maquinari (HWiNFO, MemTest86, CrystalDiskInfo)",
+      "Software de creació i clonació d'imatges (Clonezilla, Rescuezilla)",
+      "Sistemes operatius per a instal·lacions de prova (Windows 10/11, Ubuntu Desktop)"
+    ],
+    "recursos_hardware": [
+      "Bancs de treball i tallers amb estoretes i polseres antiestàtiques",
+      "Caixes d'eines de precisió, tornavisos imantats, testers de fonts d'alimentació",
+      "Equips microinformàtics complets desmuntats per a pràctiques d'alumnat",
+      "Components de recanvi: plaques base, memòries RAM, targetes gràfiques, discos durs"
+    ]
+  },
+  "0222": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Introducció als sistemes operatius i màquines virtuals",
+        "horas": 30,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Instal·lació de sistemes operatius propietaris (Windows) i lliures (Linux)",
+        "horas": 35,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Gestió d'usuaris, grups, seguretat i permisos d'accés",
+        "horas": 35,
+        "trimestre": "2n Trimestre",
+        "inicio": "Desembre",
+        "fin": "Gener",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Gestió del sistema de fitxers, particions i emmagatzematge",
+        "horas": 30,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Monitorització, rendiment, actualitzacions i còpies de seguretat",
+        "horas": 30,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctics sobre sistemes operatius",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques guiades i instal·lacions en màquines virtuals",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Pràctica contínua en màquines virtuals. Instal·lació pas a pas de distribucions Linux i Windows, administració tant per interfície gràfica com per intèrpret de comandes (CLI / Bash / PowerShell), configuració de polítiques de seguretat i resolució d'incidències reals.",
+    "recursos": {
+      "software": [
+        "VirtualBox, VMware Workstation Player",
+        "Microsoft Windows 10/11 Pro",
+        "Distribucions Linux (Ubuntu Desktop, Debian, Fedora)",
+        "Eines de particionat (GParted) i recuperació"
+      ],
+      "hardware": [
+        "Ordinadors personals a l'aula amb virtualització assistida per maquinari (VT-x / AMD-V)"
+      ]
+    },
+    "espacios": "Aula d'informàtica",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Introducció als sistemes operatius i màquines virtuals",
+        "horas": 30,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Instal·lació de sistemes operatius propietaris (Windows) i lliures (Linux)",
+        "horas": 35,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Gestió d'usuaris, grups, seguretat i permisos d'accés",
+        "horas": 35,
+        "trimestre": "2n Trimestre",
+        "inicio": "Desembre",
+        "fin": "Gener",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Gestió del sistema de fitxers, particions i emmagatzematge",
+        "horas": 30,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Monitorització, rendiment, actualitzacions i còpies de seguretat",
+        "horas": 30,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre sistemes operatius",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques guiades i instal·lacions en màquines virtuals",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre sistemes operatius",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques guiades i instal·lacions en màquines virtuals",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre sistemes operatius",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques guiades i instal·lacions en màquines virtuals",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre sistemes operatius",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques guiades i instal·lacions en màquines virtuals",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre sistemes operatius",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques guiades i instal·lacions en màquines virtuals",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "VirtualBox, VMware Workstation Player",
+      "Microsoft Windows 10/11 Pro",
+      "Distribucions Linux (Ubuntu Desktop, Debian, Fedora)",
+      "Eines de particionat (GParted) i recuperació"
+    ],
+    "recursos_hardware": [
+      "Ordinadors personals a l'aula amb virtualització assistida per maquinari (VT-x / AMD-V)"
+    ]
+  },
+  "0223": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Introducció a la suite ofimàtica i mecanografia informatitzada",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Processadors de textos bàsics i avançats (Plantilles, estils, combinació)",
+        "horas": 45,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Desembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Fulls de càlcul (Fórmules, funcions, gràfics i taules dinàmiques)",
+        "horas": 50,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Bases de dades relacionals ofimàtiques (Taules, formularis, consultes, informes)",
+        "horas": 40,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Presentacions gràfiques eficaces i multimèdia",
+        "horas": 25,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Gestió de correu electrònic, agenda i treball col·laboratiu en el núvol",
+        "horas": 24,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Maig",
+        "ras": [
+          6,
+          7
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD 7: Captura i edició bàsica d'imatge i vídeo per a documents",
+        "horas": 20,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Juny",
+        "ras": [
+          8,
+          9
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 5.0
+      },
+      {
+        "codigo": "RA8",
+        "peso": 5.0
+      },
+      {
+        "codigo": "RA9",
+        "peso": 5.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens pràctics d'ofimàtica",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Activitats i treballs d'elaboració de documents a l'aula",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprenentatge guiat mitjançant casos pràctics del món empresarial. Creació de documents administratius, gestió financera bàsica amb fulls de càlcul i automatització de tasques d'oficina.",
+    "recursos": {
+      "software": [
+        "LibreOffice / Apache OpenOffice",
+        "Microsoft Office 365 / Google Workspace",
+        "GIMP i Inkscape",
+        "Plataforma Aules"
+      ],
+      "hardware": [
+        "Ordinadors d'aula amb teclat ergonòmic i pantalla adequada"
+      ]
+    },
+    "espacios": "Aula d'informàtica",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Introducció a la suite ofimàtica i mecanografia informatitzada",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Processadors de textos bàsics i avançats (Plantilles, estils, combinació)",
+        "horas": 45,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Desembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Fulls de càlcul (Fórmules, funcions, gràfics i taules dinàmiques)",
+        "horas": 50,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Bases de dades relacionals ofimàtiques (Taules, formularis, consultes, informes)",
+        "horas": 40,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Presentacions gràfiques eficaces i multimèdia",
+        "horas": 25,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Gestió de correu electrònic, agenda i treball col·laboratiu en el núvol",
+        "horas": 24,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Maig",
+        "ras": [
+          6,
+          7
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD 7: Captura i edició bàsica d'imatge i vídeo per a documents",
+        "horas": 20,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Juny",
+        "ras": [
+          8,
+          9
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 10.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 15.0,
+      "5": 10.0,
+      "6": 10.0,
+      "7": 5.0,
+      "8": 5.0,
+      "9": 5.0
+    },
+    "formula_evaluacion": "Módulo = 0.10 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.15 · RA_4 + 0.10 · RA_5 + 0.10 · RA_6 + 0.05 · RA_7 + 0.05 · RA_8 + 0.05 · RA_9",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exàmens pràctics d'ofimàtica",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Activitats i treballs d'elaboració de documents a l'aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exàmens pràctics d'ofimàtica",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Activitats i treballs d'elaboració de documents a l'aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exàmens pràctics d'ofimàtica",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Activitats i treballs d'elaboració de documents a l'aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exàmens pràctics d'ofimàtica",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Activitats i treballs d'elaboració de documents a l'aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exàmens pràctics d'ofimàtica",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Activitats i treballs d'elaboració de documents a l'aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exàmens pràctics d'ofimàtica",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Activitats i treballs d'elaboració de documents a l'aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Exàmens pràctics d'ofimàtica",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Activitats i treballs d'elaboració de documents a l'aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Exàmens pràctics d'ofimàtica",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Activitats i treballs d'elaboració de documents a l'aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "9": [
+        {
+          "nombre": "Exàmens pràctics d'ofimàtica",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Activitats i treballs d'elaboració de documents a l'aula",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "LibreOffice / Apache OpenOffice",
+      "Microsoft Office 365 / Google Workspace",
+      "GIMP i Inkscape",
+      "Plataforma Aules"
+    ],
+    "recursos_hardware": [
+      "Ordinadors d'aula amb teclat ergonòmic i pantalla adequada"
+    ]
+  },
+  "0224": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Introducció als sistemes operatius en xarxa i planificació del servei",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Instal·lació i configuració de servidors (Windows Server i Linux Server)",
+        "horas": 25,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Administració de dominis i serveis de directori (Active Directory / LDAP)",
+        "horas": 30,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Gestió d'usuaris, grups i polítiques de grup (GPO)",
+        "horas": 25,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Serveis de xarxa bàsics associats al sistema en xarxa (DHCP / DNS integrats)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Monitorització, rendiment, còpies de seguretat i integració de sistemes heterogenis",
+        "horas": 20,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctics sobre configuració de servidors",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques d'administració de dominis i serveis de xarxa",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Simulació d'infraestructures empresarials reals mitjançant xarxes virtuals internes. Desplegament d'un domini corporatiu complet amb controladors de domini principals i secundaris, integració de clients Windows i Linux en el mateix domini i aplicació de directrius de seguretat.",
+    "recursos": {
+      "software": [
+        "Windows Server 2022 / 2025 Evaluation",
+        "Ubuntu Server / Debian GNU/Linux",
+        "VirtualBox / VMware amb adaptadors de xarxa en mode 'Xarxa interna'",
+        "Samba per a integració de xarxes heterogènies"
+      ],
+      "hardware": [
+        "Ordinadors amb prou memòria RAM per a executar alhora un servidor i dos clients virtuals"
+      ]
+    },
+    "espacios": "Aula d'informàtica",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Introducció als sistemes operatius en xarxa i planificació del servei",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Instal·lació i configuració de servidors (Windows Server i Linux Server)",
+        "horas": 25,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Administració de dominis i serveis de directori (Active Directory / LDAP)",
+        "horas": 30,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Gestió d'usuaris, grups i polítiques de grup (GPO)",
+        "horas": 25,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Serveis de xarxa bàsics associats al sistema en xarxa (DHCP / DNS integrats)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Monitorització, rendiment, còpies de seguretat i integració de sistemes heterogenis",
+        "horas": 20,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 15.0,
+      "2": 20.0,
+      "3": 25.0,
+      "4": 15.0,
+      "5": 15.0,
+      "6": 10.0
+    },
+    "formula_evaluacion": "Módulo = 0.15 · RA_1 + 0.20 · RA_2 + 0.25 · RA_3 + 0.15 · RA_4 + 0.15 · RA_5 + 0.10 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de servidors",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'administració de dominis i serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de servidors",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'administració de dominis i serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de servidors",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'administració de dominis i serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de servidors",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'administració de dominis i serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de servidors",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'administració de dominis i serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de servidors",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'administració de dominis i serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Windows Server 2022 / 2025 Evaluation",
+      "Ubuntu Server / Debian GNU/Linux",
+      "VirtualBox / VMware amb adaptadors de xarxa en mode 'Xarxa interna'",
+      "Samba per a integració de xarxes heterogènies"
+    ],
+    "recursos_hardware": [
+      "Ordinadors amb prou memòria RAM per a executar alhora un servidor i dos clients virtuals"
+    ]
+  },
+  "0225": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Introducció a les xarxes de dades, models OSI i TCP/IP",
+        "horas": 25,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Mitjans de transmissió, cablejat estructurat i creació de cables de xarxa",
+        "horas": 30,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Dispositius d'interconnexió i configuració d'equips de commutació (Switches)",
+        "horas": 30,
+        "trimestre": "2n Trimestre",
+        "inicio": "Desembre",
+        "fin": "Gener",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Adreçament IPv4 i IPv6, subxarxes i configuració d'encaminadors (Routers)",
+        "horas": 30,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Xarxes sense fils (WLAN), estàndards 802.11 i seguretat Wi-Fi",
+        "horas": 25,
+        "trimestre": "2n Trimestre",
+        "inicio": "Març",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Manteniment, verificació i resolució d'incidències en xarxes locals",
+        "horas": 20,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctics sobre disseny i configuració de xarxes",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques de cablejat, crimpat i configuració d'equips reals o simulats",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Combinació de taller manual i simulació avançada de xarxes. Crimpat real de connectors RJ-45 i certificació de cables amb provadors de xarxa, complementat amb el disseny i configuració de topologies complexes a través de Cisco Packet Tracer.",
+    "recursos": {
+      "software": [
+        "Cisco Packet Tracer",
+        "Wireshark per a captura de paquets",
+        "Utilitats de diagnòstic de xarxa (ping, traceroute, nmap)"
+      ],
+      "hardware": [
+        "Eines de crimpar RJ-45, pelacables, cables UTP Cat 6, provadors de cables de xarxa",
+        "Racks de laboratori amb commutadors gestionables i punts d'accés Wi-Fi"
+      ]
+    },
+    "espacios": "Taller de xarxes i sistemes",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Introducció a les xarxes de dades, models OSI i TCP/IP",
+        "horas": 25,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Mitjans de transmissió, cablejat estructurat i creació de cables de xarxa",
+        "horas": 30,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Dispositius d'interconnexió i configuració d'equips de commutació (Switches)",
+        "horas": 30,
+        "trimestre": "2n Trimestre",
+        "inicio": "Desembre",
+        "fin": "Gener",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Adreçament IPv4 i IPv6, subxarxes i configuració d'encaminadors (Routers)",
+        "horas": 30,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Xarxes sense fils (WLAN), estàndards 802.11 i seguretat Wi-Fi",
+        "horas": 25,
+        "trimestre": "2n Trimestre",
+        "inicio": "Març",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Manteniment, verificació i resolució d'incidències en xarxes locals",
+        "horas": 20,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 15.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 15.0,
+      "6": 10.0
+    },
+    "formula_evaluacion": "Módulo = 0.15 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.15 · RA_5 + 0.10 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre disseny i configuració de xarxes",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques de cablejat, crimpat i configuració d'equips reals o simulats",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre disseny i configuració de xarxes",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques de cablejat, crimpat i configuració d'equips reals o simulats",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre disseny i configuració de xarxes",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques de cablejat, crimpat i configuració d'equips reals o simulats",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre disseny i configuració de xarxes",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques de cablejat, crimpat i configuració d'equips reals o simulats",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre disseny i configuració de xarxes",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques de cablejat, crimpat i configuració d'equips reals o simulats",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre disseny i configuració de xarxes",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques de cablejat, crimpat i configuració d'equips reals o simulats",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Cisco Packet Tracer",
+      "Wireshark per a captura de paquets",
+      "Utilitats de diagnòstic de xarxa (ping, traceroute, nmap)"
+    ],
+    "recursos_hardware": [
+      "Eines de crimpar RJ-45, pelacables, cables UTP Cat 6, provadors de cables de xarxa",
+      "Racks de laboratori amb commutadors gestionables i punts d'accés Wi-Fi"
+    ]
+  },
+  "0226": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Principis de la seguretat informàtica, seguretat física i ambiental",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Seguretat lògica, autenticació i control d'accés",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Anàlisi de programari maliciós, amenaces i mecanismes de defensa activa",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Polítiques de còpies de seguretat, plans de recuperació i continuïtat",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Compliment normatiu, protecció de dades personals (RGPD) i gestió de residus",
+        "horas": 20,
+        "trimestre": "3r Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòrics i proves pràctiques de laboratori de seguretat",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques d'anàlisi de vulnerabilitats, antivirus i còpies de seguretat",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Enfocament preventiu i proactiu. Anàlisi d'amenaces típiques en entorns corporatius, configuració de sistemes de còpies de seguretat automatitzades i aplicació de la legislació vigent.",
+    "recursos": {
+      "software": [
+        "Solucions antivirus i antimalware (Microsoft Defender, eines lliures)",
+        "Software de còpies de seguretat (Cobian Backup, rsync)",
+        "Eines d'auditoria de seguretat i xifratge (VeraCrypt)"
+      ],
+      "hardware": [
+        "Ordinadors personals i mitjans d'emmagatzematge extern per a proves de rescat"
+      ]
+    },
+    "espacios": "Aula d'informàtica",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Principis de la seguretat informàtica, seguretat física i ambiental",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Seguretat lògica, autenticació i control d'accés",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Anàlisi de programari maliciós, amenaces i mecanismes de defensa activa",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Polítiques de còpies de seguretat, plans de recuperació i continuïtat",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Compliment normatiu, protecció de dades personals (RGPD) i gestió de residus",
+        "horas": 20,
+        "trimestre": "3r Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exàmens teòrics i proves pràctiques de laboratori de seguretat",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'anàlisi de vulnerabilitats, antivirus i còpies de seguretat",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exàmens teòrics i proves pràctiques de laboratori de seguretat",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'anàlisi de vulnerabilitats, antivirus i còpies de seguretat",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exàmens teòrics i proves pràctiques de laboratori de seguretat",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'anàlisi de vulnerabilitats, antivirus i còpies de seguretat",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exàmens teòrics i proves pràctiques de laboratori de seguretat",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'anàlisi de vulnerabilitats, antivirus i còpies de seguretat",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exàmens teòrics i proves pràctiques de laboratori de seguretat",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'anàlisi de vulnerabilitats, antivirus i còpies de seguretat",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Solucions antivirus i antimalware (Microsoft Defender, eines lliures)",
+      "Software de còpies de seguretat (Cobian Backup, rsync)",
+      "Eines d'auditoria de seguretat i xifratge (VeraCrypt)"
+    ],
+    "recursos_hardware": [
+      "Ordinadors personals i mitjans d'emmagatzematge extern per a proves de rescat"
+    ]
+  },
+  "0227": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Serveis de configuració dinàmica d'adreces (DHCP)",
+        "horas": 18,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Serveis de resolució de noms (DNS)",
+        "horas": 22,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Serveis de transferència de fitxers (FTP, SFTP)",
+        "horas": 15,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Serveis web (Servidors HTTP i HTTPS)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Gener",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Serveis de correu electrònic (SMTP, IMAP, POP3)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Febrer",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Accés remot i terminal de xarxa (SSH, RDP, VNC)",
+        "horas": 15,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD 7: Servidors intermediaris (Proxy) i tallafocs perimetrals",
+        "horas": 15,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          7
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "UD 8: Serveis de veu sobre IP (VoIP) i multimèdia en xarxa",
+        "horas": 15,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Maig",
+        "ras": [
+          8
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA8",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctics sobre configuració de serveis",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques d'instal·lació i verificació de serveis de xarxa",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Pràctica directa en entorns Linux i Windows. Configuració de servidors reals de xarxa, comprovació de la interacció client-servidor i anàlisi del trànsit de xarxa amb Wireshark.",
+    "recursos": {
+      "software": [
+        "Linux Server (BIND9, isc-dhcp-server, Apache2, Postfix, Dovecot, OpenSSH, Squid)",
+        "Windows Server (Rols de DHCP, DNS, IIS)",
+        "Clients de prova i Wireshark"
+      ],
+      "hardware": [
+        "Ordinadors d'aula amb xarxes aïllades per a evitar interferències amb la xarxa del centre"
+      ]
+    },
+    "espacios": "Aula d'informàtica",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Serveis de configuració dinàmica d'adreces (DHCP)",
+        "horas": 18,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Serveis de resolució de noms (DNS)",
+        "horas": 22,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Serveis de transferència de fitxers (FTP, SFTP)",
+        "horas": 15,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Serveis web (Servidors HTTP i HTTPS)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Gener",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Serveis de correu electrònic (SMTP, IMAP, POP3)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Febrer",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Accés remot i terminal de xarxa (SSH, RDP, VNC)",
+        "horas": 15,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD 7: Servidors intermediaris (Proxy) i tallafocs perimetrals",
+        "horas": 15,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          7
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "UD 8: Serveis de veu sobre IP (VoIP) i multimèdia en xarxa",
+        "horas": 15,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Maig",
+        "ras": [
+          8
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 15.0,
+      "2": 15.0,
+      "3": 10.0,
+      "4": 15.0,
+      "5": 15.0,
+      "6": 10.0,
+      "7": 10.0,
+      "8": 10.0
+    },
+    "formula_evaluacion": "Módulo = 0.15 · RA_1 + 0.15 · RA_2 + 0.10 · RA_3 + 0.15 · RA_4 + 0.15 · RA_5 + 0.10 · RA_6 + 0.10 · RA_7 + 0.10 · RA_8",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de serveis",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'instal·lació i verificació de serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de serveis",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'instal·lació i verificació de serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de serveis",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'instal·lació i verificació de serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de serveis",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'instal·lació i verificació de serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de serveis",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'instal·lació i verificació de serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de serveis",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'instal·lació i verificació de serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de serveis",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'instal·lació i verificació de serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre configuració de serveis",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'instal·lació i verificació de serveis de xarxa",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Linux Server (BIND9, isc-dhcp-server, Apache2, Postfix, Dovecot, OpenSSH, Squid)",
+      "Windows Server (Rols de DHCP, DNS, IIS)",
+      "Clients de prova i Wireshark"
+    ],
+    "recursos_hardware": [
+      "Ordinadors d'aula amb xarxes aïllades per a evitar interferències amb la xarxa del centre"
+    ]
+  },
+  "0228": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "Unitat 1: Internet, característiques i evolució",
+        "horas": 12,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "Unitat 2: Elaboració de pàgines web amb llenguatges de marques (HTML i CSS)",
+        "horas": 30,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "Unitat 3: Sistemes gestors de continguts (CMS - WordPress, DocuWiki)",
+        "horas": 12,
+        "trimestre": "1r Trimestre",
+        "inicio": "Desembre",
+        "fin": "Desembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "Unitat 4: Sistemes de gestió d'aprenentatge a distància (Moodle)",
+        "horas": 12,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Gener",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "Unitat 5: Serveis de gestió d'arxius web i núvol (Nextcloud)",
+        "horas": 6,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Febrer",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "Unitat 6: Instal·lació d'aplicacions d'ofimàtica web col·laborativa",
+        "horas": 6,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "Unitat 7: Instal·lació d'aplicacions web d'escriptori i portals",
+        "horas": 4,
+        "trimestre": "2n Trimestre",
+        "inicio": "Març",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "Unitat 8: Fonaments de Javascript i dinamisme web",
+        "horas": 6,
+        "trimestre": "2n Trimestre",
+        "inicio": "Març",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctics sobre plataformes web",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques d'instal·lació i configuració d'aplicacions web",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprenentatge pràctic mitjançant el desplegament real de plataformes web de gestió de continguts (WordPress), aprenentatge (Moodle) i sincronització de fitxers en servidors locals LAMP/WAMP.",
+    "recursos": {
+      "software": [
+        "Pila XAMPP / LAMP (Apache, MariaDB, PHP)",
+        "WordPress, Moodle, Nextcloud, DokuWiki",
+        "Visual Studio Code"
+      ],
+      "hardware": [
+        "Ordinadors d'aula connectats a Internet"
+      ]
+    },
+    "espacios": "Aula d'informàtica",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "Unitat 1: Internet, característiques i evolució",
+        "horas": 12,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "Unitat 2: Elaboració de pàgines web amb llenguatges de marques (HTML i CSS)",
+        "horas": 30,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "Unitat 3: Sistemes gestors de continguts (CMS - WordPress, DocuWiki)",
+        "horas": 12,
+        "trimestre": "1r Trimestre",
+        "inicio": "Desembre",
+        "fin": "Desembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "Unitat 4: Sistemes de gestió d'aprenentatge a distància (Moodle)",
+        "horas": 12,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Gener",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "Unitat 5: Serveis de gestió d'arxius web i núvol (Nextcloud)",
+        "horas": 6,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Febrer",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "Unitat 6: Instal·lació d'aplicacions d'ofimàtica web col·laborativa",
+        "horas": 6,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "Unitat 7: Instal·lació d'aplicacions web d'escriptori i portals",
+        "horas": 4,
+        "trimestre": "2n Trimestre",
+        "inicio": "Març",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "Unitat 8: Fonaments de Javascript i dinamisme web",
+        "horas": 6,
+        "trimestre": "2n Trimestre",
+        "inicio": "Març",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre plataformes web",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'instal·lació i configuració d'aplicacions web",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre plataformes web",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'instal·lació i configuració d'aplicacions web",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre plataformes web",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'instal·lació i configuració d'aplicacions web",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre plataformes web",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'instal·lació i configuració d'aplicacions web",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exàmens teòric-pràctics sobre plataformes web",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Pràctiques d'instal·lació i configuració d'aplicacions web",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Pila XAMPP / LAMP (Apache, MariaDB, PHP)",
+      "WordPress, Moodle, Nextcloud, DokuWiki",
+      "Visual Studio Code"
+    ],
+    "recursos_hardware": [
+      "Ordinadors d'aula connectats a Internet"
+    ]
+  },
+  "0229": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: El dret del treball i el contracte laboral",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Condicions laborals, jornada, salari i Seguretat Social",
+        "horas": 25,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Desembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Prevenció de riscos laborals i gestió de la salut a l'empresa",
+        "horas": 25,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4,
+          5
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Primers auxilis en l'entorn laboral",
+        "horas": 10,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Equips de treball, resolució de conflictes i orientació laboral",
+        "horas": 16,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          7
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 15.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Proves objectives d'avaluació de coneixements jurídics i laborals",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Supòsits pràctics de càlcul de nòmines, contractes i plans de prevenció",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Metodologia activa i resolució de casos pràctics reals de nòmines, interpretació de convenis i simulació de situacions de riscos laborals i primers auxilis.",
+    "recursos": {
+      "software": [
+        "Navegadors web per a consulta de legislació laboral i convenis col·lectius",
+        "Suites ofimàtiques i plataforma Aules"
+      ],
+      "hardware": [
+        "Equips informàtics d'aula i canó projector"
+      ]
+    },
+    "espacios": "Aula polivalent",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: El dret del treball i el contracte laboral",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Condicions laborals, jornada, salari i Seguretat Social",
+        "horas": 25,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Desembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Prevenció de riscos laborals i gestió de la salut a l'empresa",
+        "horas": 25,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4,
+          5
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Primers auxilis en l'entorn laboral",
+        "horas": 10,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Equips de treball, resolució de conflictes i orientació laboral",
+        "horas": 16,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          7
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 15.0,
+      "6": 10.0,
+      "7": 15.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.15 · RA_5 + 0.10 · RA_6 + 0.15 · RA_7",
+    "instrumentos": {
+      "2": [
+        {
+          "nombre": "Proves objectives d'avaluació de coneixements jurídics i laborals",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Supòsits pràctics de càlcul de nòmines, contractes i plans de prevenció",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Proves objectives d'avaluació de coneixements jurídics i laborals",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Supòsits pràctics de càlcul de nòmines, contractes i plans de prevenció",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Proves objectives d'avaluació de coneixements jurídics i laborals",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Supòsits pràctics de càlcul de nòmines, contractes i plans de prevenció",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Proves objectives d'avaluació de coneixements jurídics i laborals",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Supòsits pràctics de càlcul de nòmines, contractes i plans de prevenció",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Proves objectives d'avaluació de coneixements jurídics i laborals",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Supòsits pràctics de càlcul de nòmines, contractes i plans de prevenció",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Proves objectives d'avaluació de coneixements jurídics i laborals",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Supòsits pràctics de càlcul de nòmines, contractes i plans de prevenció",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Navegadors web per a consulta de legislació laboral i convenis col·lectius",
+      "Suites ofimàtiques i plataforma Aules"
+    ],
+    "recursos_hardware": [
+      "Equips informàtics d'aula i canó projector"
+    ]
+  },
+  "0230": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: La iniciativa emprenedora i la generació de la idea de negoci",
+        "horas": 16,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: El pla d'empresa i l'estudi de mercat del sector informàtic",
+        "horas": 16,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Formes jurídiques de l'empresa i tràmits legals de constitució",
+        "horas": 16,
+        "trimestre": "2n Trimestre",
+        "inicio": "Desembre",
+        "fin": "Gener",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Gestió financera, comptable i fiscal de la petita empresa",
+        "horas": 16,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          4
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 25.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Presentació i defensa del projecte de pla d'empresa",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Treballs pràctics d'anàlisi de mercat i tràmits legals",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprenentatge basat en projectes. Desenvolupament en equip d'un pla d'empresa real orientat al sector de les tecnologies de la informació i comunicació.",
+    "recursos": {
+      "software": [
+        "Fulls de càlcul per a plans financers",
+        "Plataforma Aules i eines de presentació digital"
+      ],
+      "hardware": [
+        "Equips d'aula connectats a Internet"
+      ]
+    },
+    "espacios": "Aula polivalent",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: La iniciativa emprenedora i la generació de la idea de negoci",
+        "horas": 16,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: El pla d'empresa i l'estudi de mercat del sector informàtic",
+        "horas": 16,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Formes jurídiques de l'empresa i tràmits legals de constitució",
+        "horas": 16,
+        "trimestre": "2n Trimestre",
+        "inicio": "Desembre",
+        "fin": "Gener",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Gestió financera, comptable i fiscal de la petita empresa",
+        "horas": 16,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          4
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 25.0,
+      "2": 25.0,
+      "3": 25.0,
+      "4": 25.0
+    },
+    "formula_evaluacion": "Módulo = 0.25 · RA_1 + 0.25 · RA_2 + 0.25 · RA_3 + 0.25 · RA_4",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Presentació i defensa del projecte de pla d'empresa",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Treballs pràctics d'anàlisi de mercat i tràmits legals",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Presentació i defensa del projecte de pla d'empresa",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Treballs pràctics d'anàlisi de mercat i tràmits legals",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Presentació i defensa del projecte de pla d'empresa",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Treballs pràctics d'anàlisi de mercat i tràmits legals",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Presentació i defensa del projecte de pla d'empresa",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Treballs pràctics d'anàlisi de mercat i tràmits legals",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Fulls de càlcul per a plans financers",
+      "Plataforma Aules i eines de presentació digital"
+    ],
+    "recursos_hardware": [
+      "Equips d'aula connectats a Internet"
+    ]
+  },
+  "0231": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Integració i adaptació a l'organització i cultura de l'empresa",
+        "horas": 80,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Muntatge, instal·lació i posada en marxa d'equips en entorn de producció",
+        "horas": 80,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Administració de sistemes operatius i serveis de xarxa en l'empresa",
+        "horas": 80,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Maig",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Manteniment preventiu, resolució d'avaries i atenció a usuaris",
+        "horas": 80,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Juny",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Compliment de protocols de seguretat, qualitat i gestió ambiental",
+        "horas": 80,
+        "trimestre": "3r Trimestre",
+        "inicio": "Juny",
+        "fin": "Juny",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Informe valoratiu del tutor de l'empresa col·laboradora",
+        "porcentaje": 70,
+        "requisito": "Qualificació d'APTE"
+      },
+      {
+        "nombre": "Memòria de pràctiques i quadern de seguiment de l'alumnat",
+        "porcentaje": 30,
+        "requisito": "Qualificació d'APTE"
+      }
+    ],
+    "metodologia": "Formació en l'entorn de treball real a les instal·lacions de les empreses del sector col·laboradores, amb seguiment periòdic pel tutor docent del centre educatiu.",
+    "recursos": {
+      "software": [
+        "Eines informàtiques del centre de treball de l'empresa"
+      ],
+      "hardware": [
+        "Equips i xarxes del lloc de treball a l'empresa"
+      ]
+    },
+    "espacios": "Instal·lacions de les empreses col·laboradores",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Integració i adaptació a l'organització i cultura de l'empresa",
+        "horas": 80,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Muntatge, instal·lació i posada en marxa d'equips en entorn de producció",
+        "horas": 80,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Administració de sistemes operatius i serveis de xarxa en l'empresa",
+        "horas": 80,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Maig",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Manteniment preventiu, resolució d'avaries i atenció a usuaris",
+        "horas": 80,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Juny",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Compliment de protocols de seguretat, qualitat i gestió ambiental",
+        "horas": 80,
+        "trimestre": "3r Trimestre",
+        "inicio": "Juny",
+        "fin": "Juny",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Informe valoratiu del tutor de l'empresa col·laboradora",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Memòria de pràctiques i quadern de seguiment de l'alumnat",
+          "peso_ra": 30.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Informe valoratiu del tutor de l'empresa col·laboradora",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Memòria de pràctiques i quadern de seguiment de l'alumnat",
+          "peso_ra": 30.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Informe valoratiu del tutor de l'empresa col·laboradora",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Memòria de pràctiques i quadern de seguiment de l'alumnat",
+          "peso_ra": 30.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Informe valoratiu del tutor de l'empresa col·laboradora",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Memòria de pràctiques i quadern de seguiment de l'alumnat",
+          "peso_ra": 30.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Informe valoratiu del tutor de l'empresa col·laboradora",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Memòria de pràctiques i quadern de seguiment de l'alumnat",
+          "peso_ra": 30.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Eines informàtiques del centre de treball de l'empresa"
+    ],
+    "recursos_hardware": [
+      "Equips i xarxes del lloc de treball a l'empresa"
+    ]
+  },
+  "modulo_generico": {
+    "unidades_programacion": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y conceptos esenciales",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrollo práctico y aplicación técnica",
+        "horas": 40,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Integración de sistemas y proyecto aplicativo",
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "Marzo",
+        "fin": "Mayo",
+        "ras": [
+          3
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 30.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 40.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 30.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+        "porcentaje": 60,
+        "requisito": "Nota mínima de 5 sobre 10"
+      },
+      {
+        "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+        "porcentaje": 40,
+        "requisito": "Nota mínima de 5 sobre 10"
+      }
+    ],
+    "metodologia": "Metodología activa y orientada a la práctica (aprender haciendo / learning by doing), con resolución de supuestos reales, trabajo colaborativo y aprendizaje basado en proyectos. Se combina la exposición conceptual docente con actividades guiadas e individuales en aula-taller.",
+    "recursos": {
+      "software": [
+        "Sistemas operativos libres y propietarios (Linux/Windows)",
+        "Entornos integrados de desarrollo y suites de software del sector",
+        "Plataforma educativa Aules de la Generalitat Valenciana",
+        "Herramientas de control de versiones y gestión de proyectos"
+      ],
+      "hardware": [
+        "Equipos informáticos para el alumnado conectados a red local e Internet",
+        "Pizarra digital interactiva y cañón proyector en aula polivalente",
+        "Dispositivos periféricos e instrumental de laboratorio técnico"
+      ]
+    },
+    "espacios": "Aula de informática polivalente con conectividad cableada de alta velocidad, Taller de sistemas y mantenimiento de equipos",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y conceptos esenciales",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrollo práctico y aplicación técnica",
+        "horas": 40,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Integración de sistemas y proyecto aplicativo",
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "Marzo",
+        "fin": "Mayo",
+        "ras": [
+          3
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 30.0,
+      "2": 40.0,
+      "3": 30.0
+    },
+    "formula_evaluacion": "Módulo = 0.30 · RA_1 + 0.40 · RA_2 + 0.30 · RA_3",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Sistemas operativos libres y propietarios (Linux/Windows)",
+      "Entornos integrados de desarrollo y suites de software del sector",
+      "Plataforma educativa Aules de la Generalitat Valenciana",
+      "Herramientas de control de versiones y gestión de proyectos"
+    ],
+    "recursos_hardware": [
+      "Equipos informáticos para el alumnado conectados a red local e Internet",
+      "Pizarra digital interactiva y cañón proyector en aula polivalente",
+      "Dispositivos periféricos e instrumental de laboratorio técnico"
+    ]
+  }
+}

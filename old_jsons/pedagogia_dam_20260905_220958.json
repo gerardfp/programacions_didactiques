@@ -1,0 +1,1488 @@
+{
+  "0483": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Fonaments dels sistemes informàtics i màquines virtuals",
+        "horas": 28,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Sistemes operatius. Introducció",
+        "horas": 26,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Sistemes operatius. Gestió d'arxius i emmagatzemament",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Sistemes operatius. Gestió d'usuaris i processos",
+        "horas": 26,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Sistemes informàtics en xarxa. Configuració i explotació",
+        "horas": 26,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Gestió de recursos en xarxa d'un sistema informàtic",
+        "horas": 20,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD7: Aplicacions informàtiques",
+        "horas": 20,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Juny",
+        "ras": [
+          7
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctic / Projectes",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques / Treballs / Casos pràctics",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Metodologia dinàmica, oberta i flexible basada en la combinació d'exposicions conceptuals amb pràctiques intensives en laboratori informàtic. Ús de màquines virtuals (VirtualBox) per a la instal·lació i configuració de sistemes operatius lliures i propietaris, resolució de suposats d'administració i configuració de xarxa amb comandes i interfícies gràfiques.",
+    "recursos": {
+      "software": [
+        "VirtualBox / VMware per a virtualització de sistemes",
+        "Sistemes operatius: GNU/Linux (Ubuntu/Debian) i Microsoft Windows 10/11",
+        "Eines de monitorització de sistemes i anàlisi de xarxa (Wireshark, comandes de sistema)",
+        "Plataforma educativa Aules de la Generalitat Valenciana"
+      ],
+      "hardware": [
+        "Ordinador individual amb suport de virtualització activada a la BIOS",
+        "Accés a xarxa local del centre i connexió a Internet",
+        "Projector interactiu i pissarra digital"
+      ]
+    },
+    "espacios": [
+      "Aula d'informàtica polivalent amb cablejat estructurat i accés a Internet"
+    ]
+  },
+  "0484": {
+    "unidades_programacion": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 1: Introducció a les bases de dades",
+        "horas": 15,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 2: Disseny conceptual de bases de dades (Model E/R)",
+        "horas": 22,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 3: Disseny lògic de bases de dades i Normalització",
+        "horas": 25,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 4: Llenguatge de Definició de Dades (DDL)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Gener",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 5: Llenguatge de Control de Dades (DCL) i Seguretat",
+        "horas": 15,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Febrer",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 6",
+        "nombre": "UT 6: Llenguatge de Manipulació de Dades en SQL (DML)",
+        "horas": 25,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UT 7",
+        "nombre": "UT 7: Llenguatge de Consulta de Dades en SQL (DQL)",
+        "horas": 30,
+        "trimestre": "2n Trimestre",
+        "inicio": "Març",
+        "fin": "Abril",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UT 8",
+        "nombre": "UT 8: Introducció al SQL procedimental (PL/SQL)",
+        "horas": 15,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UT 9",
+        "nombre": "UT 9: Programació avançada: cursors, triggers i procediments",
+        "horas": 15,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Maig",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UT 10",
+        "nombre": "UT 10: Bases de dades no relacionals (NoSQL) i noves tendències",
+        "horas": 10,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Juny",
+        "ras": [
+          7
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 8.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 12.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctic / Projectes",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques / Treballs / Casos pràctics",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprenentatge guiat i basat en projectes de bases de dades reals. Disseny conceptual mitjançant diagrames E/R, transformació a model relacional normalitzat i implementació pràctica amb sistemes gestors de bases de dades (MySQL/MariaDB, PostgreSQL). Exercicis pràctics de consultes complexes, procediments emmagatzemats i introducció a MongoDB.",
+    "recursos": {
+      "software": [
+        "SGBD: MySQL Server / MariaDB, PostgreSQL",
+        "Clients de gestió: DBeaver, MySQL Workbench, pgAdmin",
+        "MongoDB i MongoDB Compass per a NoSQL",
+        "Eines de modelatge conceptual (Draw.io, Dia)"
+      ],
+      "hardware": [
+        "Ordinadors de treball d'aula amb connexió a xarxa",
+        "Servidor de bases de dades per a pràctiques d'aula",
+        "Canó de projecció"
+      ]
+    },
+    "espacios": [
+      "Aula d'informàtica"
+    ]
+  },
+  "0485": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Introducció a la Programació. Java i estructures de control",
+        "horas": 32,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Mètodes, paràmetres i modularitat",
+        "horas": 24,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2,
+          3
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Programació orientada a objectes (Classes, atributs i mètodes)",
+        "horas": 24,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Estructures de dades (Arrays unidimensionals i multidimensionals)",
+        "horas": 24,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Gener",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Gestió d'Excepcions i control d'errors",
+        "horas": 24,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Col·leccions i estructures dinàmiques de dades (List, Set, Map)",
+        "horas": 16,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Febrer",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD 7: Herència i polimorfisme bàsic",
+        "horas": 16,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "UD 8: Classes abstractes i interfícies en profunditat",
+        "horas": 16,
+        "trimestre": "3r Trimestre",
+        "inicio": "Març",
+        "fin": "Abril",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 9",
+        "nombre": "UD 9: Gestió de fitxers i fluxos de dades (Text, Binaris, Serialització)",
+        "horas": 16,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 10",
+        "nombre": "UD 10: Programació gràfica d'interfícies d'usuari (Swing / JavaFX)",
+        "horas": 16,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Maig",
+        "ras": [
+          8
+        ]
+      },
+      {
+        "codigo": "UD 11",
+        "nombre": "UD 11: Connexió amb bases de dades relacionals (JDBC)",
+        "horas": 16,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Maig",
+        "ras": [
+          7
+        ]
+      },
+      {
+        "codigo": "UD 12",
+        "nombre": "UD 12: Projecte integrador final aplicat i bones pràctiques",
+        "horas": 32,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Juny",
+        "ras": [
+          9
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 11.12
+      },
+      {
+        "codigo": "RA2",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA3",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA4",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA5",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA6",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA7",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA8",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA9",
+        "peso": 11.11
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens de cada avaluació per a cada RA",
+        "porcentaje": 80,
+        "requisito": ">= 5 en cadascun dels RA"
+      },
+      {
+        "nombre": "Exercicis i treballs obligatoris a l'aula i GitHub",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "La metodologia serà dinàmica, oberta i flexible. Exposició de conceptes teòrics amb materials complementaris, ús intensiu d'IntelliJ IDEA com a entorn professional de desenvolupament, exercicis lliurats a través d'Aules i GitHub Classroom, pràctiques individuals i en equip amb atenció individualitzada i comentari d'errors habituals.",
+    "recursos": {
+      "software": [
+        "Java Development Kit (JDK 17/21)",
+        "IntelliJ IDEA Community / Ultimate",
+        "Git i GitHub Classroom",
+        "MySQL / SQLite per a pràctiques JDBC",
+        "Plataforma Aules"
+      ],
+      "hardware": [
+        "Ordinadors personals a l'aula amb memòria RAM suficient per a IDEs moderns",
+        "Connexió d'alta velocitat a Internet i xarxa local",
+        "Projector d'aula"
+      ]
+    },
+    "espacios": [
+      "Aula d'informàtica polivalent"
+    ]
+  },
+  "0373": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Reconeixement de les característiques de llenguatges de marques i XML",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Utilització de llenguatges de marques en entorns web (HTML5 i CSS3)",
+        "horas": 28,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Validació i manipulació de documents XML mitjançant DTD i XML Schema",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Definició i transformació d'estructures XML amb XPath i XSLT",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Emmagatzematge i consulta d'informació XML mitjançant XQuery i bases de dades natives",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Sistemes de gestió d'informació empresarial i sindicació de continguts (RSS/Atom)",
+        "horas": 20,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          6,
+          7
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctic / Projectes",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques / Treballs / Casos pràctics",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Pràctica contínua en disseny de documents estructurats, fulls d'estil i transformacions. Aplicació pràctica d'estàndards web W3C, codificació amb editors avançats i validació de dades.",
+    "recursos": {
+      "software": [
+        "Visual Studio Code amb extensions per a XML, HTML, CSS i XPath",
+        "Navegadors web actualitzats (Firefox, Chrome)",
+        "Processadors XSLT i emmagatzematge eXist-db / BaseX",
+        "Plataforma Aules"
+      ],
+      "hardware": [
+        "Ordinadors per a l'alumnat amb accés a la xarxa",
+        "Projector multimèdia"
+      ]
+    },
+    "espacios": [
+      "Aula d'informàtica"
+    ]
+  },
+  "0487": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Desenvolupament de programari i cicle de vida",
+        "horas": 16,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Entorns integrats de desenvolupament (IDE) i configuració",
+        "horas": 16,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Verificació i proves de programes (JUnit, proves unitàries i cobertura)",
+        "horas": 18,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Optimització, refactorització i documentació del codi font",
+        "horas": 16,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Diagrames de classes i modelatge UML estructural",
+        "horas": 18,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Diagrames de comportament UML (Casos d'ús, seqüència i activitat)",
+        "horas": 12,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 18.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 17.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 18.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 12.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctic / Projectes",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques / Treballs / Casos pràctics",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Desenvolupament orientat a l'enginyeria de programari moderna. Ús d'IDEs, aplicació de patrons de refactorització, automatització de proves amb JUnit, anàlisi de cobertura de codi i disseny d'arquitectura de software mitjançant UML.",
+    "recursos": {
+      "software": [
+        "Eclipse IDE, IntelliJ IDEA, Visual Studio Code",
+        "Frameworks de proves: JUnit 5, Mockito",
+        "Eines UML: StarUML, Visual Paradigm, PlantUML",
+        "Sistemes de control de versions Git i GitHub"
+      ],
+      "hardware": [
+        "Ordinadors individuals amb maquinari capacitat per a IDEs i entorns de proves",
+        "Projector interactiu"
+      ]
+    },
+    "espacios": [
+      "Aula d'informàtica"
+    ]
+  },
+  "0486": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Maneig de fitxers i fluxos de dades en Java",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Maneig de connectors de bases de dades relacionals (JDBC i DAO)",
+        "horas": 24,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Eines de mapatge objecte-relacional (ORM - Hibernate / JPA)",
+        "horas": 26,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Desenvolupament de components d'accés a dades orientats a objectes",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Bases de dades orientades a objectes i XML natives",
+        "horas": 15,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Bases de dades no relacionals (NoSQL - MongoDB, Redis) i Big Data",
+        "horas": 15,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 15.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctic / Projectes",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques / Treballs / Casos pràctics",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprenentatge actiu amb implementació de projectes de persistència de dades professionals. Transició des de l'accés directe amb JDBC fins a l'ús de patrons de disseny arquitectònic (DAO, DTO) i frameworks de mapatge ORM (Hibernate, JPA) i magatzems NoSQL.",
+    "recursos": {
+      "software": [
+        "IntelliJ IDEA / Eclipse IDE",
+        "Hibernate ORM, Spring Data JPA",
+        "PostgreSQL / MySQL, MongoDB",
+        "Git i GitHub"
+      ],
+      "hardware": [
+        "Equips d'aula d'informàtica amb capacitat per a servidors de bases de dades locals"
+      ]
+    },
+    "espacios": [
+      "Aula d'informàtica"
+    ]
+  },
+  "0488": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Confecció d'interfícies d'usuari (Components visuals i contenidors)",
+        "horas": 15,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Generació d'interfícies visuals mitjançant eines específiques",
+        "horas": 25,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Creació de components visuals reutilitzables",
+        "horas": 25,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Disseny d'interfícies d'usuari i experiència d'usuari (UI/UX)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Confecció d'informes de gestió i exportació de dades (JasperReports)",
+        "horas": 15,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Febrer",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Documentació d'aplicacions i creació de tutorials",
+        "horas": 10,
+        "trimestre": "2n Trimestre",
+        "inicio": "Març",
+        "fin": "Març",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD 7: Distribució i empaquetament d'aplicacions (Instal·ladors)",
+        "horas": 12,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          7
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "UD 8: Proves d'interfície d'usuari i avaluació de la usabilitat i accessibilitat",
+        "horas": 18,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Juny",
+        "ras": [
+          8
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 5.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 5.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 5.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA8",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctic / Projectes",
+        "porcentaje": 70,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques / Treballs / Casos pràctics",
+        "porcentaje": 30,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Desenvolupament pràctic d'interfícies d'escriptori i multiplataforma. Disseny basat en components, generació d'informes professionals amb Jaspersoft Studio i preparació de paquets d'instal·lació.",
+    "recursos": {
+      "software": [
+        "JavaFX, Scene Builder, Swing, Qt / C# / Python GUI",
+        "Jaspersoft Studio per a generació d'informes",
+        "Eines de creació d'instal·ladors (Inno Setup, jpackage)",
+        "Figma per a prototipatge de pantalles"
+      ],
+      "hardware": [
+        "Ordinadors d'aula amb dos monitors o pantalla panoràmica",
+        "Connexió a Internet"
+      ]
+    },
+    "espacios": [
+      "Aula d'informàtica"
+    ]
+  },
+  "0489": {
+    "unidades_programacion": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 1: Anàlisi de tecnologies per a aplicacions en dispositius mòbils",
+        "horas": 5,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Setembre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 2: Programació d'aplicacions per a dispositius mòbils (Android)",
+        "horas": 40,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Desembre",
+        "ras": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 3: Utilització de llibreries multimèdia integrades",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Gener",
+        "ras": [
+          1,
+          3
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 4: Anàlisi de motors de jocs",
+        "horas": 5,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Febrer",
+        "ras": [
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 5: Desenvolupament de jocs 2D i 3D senzills amb motor",
+        "horas": 30,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          1,
+          4,
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctic / Projectes d'aplicacions",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques / Tasques de codificació i exercicis",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprenentatge actiu basat en projectes d'aplicacions per a mòbils i videojocs. Creació de projectes complets des de la configuració de l'entorn de treball fins a la compilació i depuració en dispositius reals i emuladors.",
+    "recursos": {
+      "software": [
+        "Android Studio, Kotlin / Java SDK",
+        "Emuladors de dispositius mòbils oficials",
+        "Motors de jocs: Unity / Godot Engine",
+        "Visual Studio Code, Git i GitHub"
+      ],
+      "hardware": [
+        "Ordinadors d'aula amb almenys 16 GB de RAM i acceleració per maquinari",
+        "Dispositius mòbils de prova (smartphones / tauletes)"
+      ]
+    },
+    "espacios": [
+      "Aula d'informàtica"
+    ]
+  },
+  "0490": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Programació multiprocés (Gestió de processos i comunicació interprocessos)",
+        "horas": 15,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Programació multifil (Fils d'execució, sincronització i bloqueigs)",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Programació de comunicacions en xarxa (Sockets TCP/UDP)",
+        "horas": 15,
+        "trimestre": "2n Trimestre",
+        "inicio": "Desembre",
+        "fin": "Gener",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Generació de serveis en xarxa (HTTP, FTP, protocols d'aplicació)",
+        "horas": 10,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Utilització de tècniques de programació segura i criptografia",
+        "horas": 10,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctic / Projectes",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques / Treballs / Casos pràctics",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Enfocament eminentment pràctic sobre sistemes concurrents i distribuïts. Resolució de problemes clàssics de concurrència (filòsofs, productor-consumidor), disseny de servidors multiconnexió mitjançant sockets i aplicació pràctica d'algorismes de xifratge simètric, asimètric i signatures digitals.",
+    "recursos": {
+      "software": [
+        "Java Development Kit (JDK), IntelliJ IDEA, Eclipse",
+        "Eines d'anàlisi de xarxa i sockets (Wireshark, Telnet/Netcat)",
+        "Llibreries de criptografia de Java (JCE)",
+        "Plataforma Aules"
+      ],
+      "hardware": [
+        "Ordinadors d'aula connectats en xarxa local per a proves d'arquitectura client/servidor"
+      ]
+    },
+    "espacios": [
+      "Aula d'informàtica"
+    ]
+  },
+  "0491": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Sistemes ERP-CRM-BI (Fonaments i anàlisi de mercat)",
+        "horas": 15,
+        "trimestre": "1r Trimestre",
+        "inicio": "Setembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Instal·lació i configuració d'un sistema ERP",
+        "horas": 4,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Octubre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Implantació d'un ERP a l'empresa",
+        "horas": 15,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Entorn de desenvolupament i mòdul Odoo",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Desenvolupament de mòduls: Model i Vista",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Gener",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Desenvolupament de mòduls: Controlador, Herència i Web Controllers",
+        "horas": 30,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD 7: Desenvolupament de components avançats i integració",
+        "horas": 29,
+        "trimestre": "2n Trimestre",
+        "inicio": "Març",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctic / Projectes",
+        "porcentaje": 70,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques / Treballs / Casos pràctics",
+        "porcentaje": 30,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprenentatge aplicat sobre una plataforma ERP líder de codi obert (Odoo). Desplegament en entorn local i Docker, configuració de mòduls estàndard i desenvolupament de nous mòduls amb Python i XML seguint el patró MVC.",
+    "recursos": {
+      "software": [
+        "Odoo Community Edition (Docker / entorn natiu)",
+        "Python 3, PostgreSQL, pgAdmin",
+        "Visual Studio Code / PyCharm",
+        "Git i GitHub"
+      ],
+      "hardware": [
+        "Ordinadors d'aula amb almenys 8 GB de RAM",
+        "Connexió a la xarxa per al desplegament de serveis client-servidor"
+      ]
+    },
+    "espacios": [
+      "Aula d'informàtica"
+    ]
+  },
+  "modulo_generico": {
+    "unidades_programacion": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y conceptos esenciales",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrollo práctico y aplicación técnica",
+        "horas": 40,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Integración de sistemas y proyecto aplicativo",
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "Marzo",
+        "fin": "Mayo",
+        "ras": [
+          3
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 30.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 40.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 30.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+        "porcentaje": 80,
+        "requisito": "Nota mínima de 5 sobre 10"
+      },
+      {
+        "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+        "porcentaje": 20,
+        "requisito": "Nota mínima de 5 sobre 10"
+      }
+    ],
+    "metodologia": "Metodología activa y orientada a la práctica (aprender haciendo / learning by doing), con resolución de supuestos reales, trabajo colaborativo y aprendizaje basado en proyectos. Se combina la exposición conceptual docente con actividades guiadas e individuales en aula-taller.",
+    "recursos": {
+      "software": [
+        "Sistemas operativos libres y propietarios (Linux/Windows)",
+        "Entornos integrados de desarrollo y suites de software del sector",
+        "Plataforma educativa Aules de la Generalitat Valenciana",
+        "Herramientas de control de versiones y gestión de proyectos"
+      ],
+      "hardware": [
+        "Equipos informáticos para el alumnado conectados a red local e Internet",
+        "Pizarra digital interactiva y cañón proyector en aula polivalente",
+        "Dispositivos periféricos e instrumental de laboratorio técnico"
+      ]
+    },
+    "espacios": [
+      "Aula de informática polivalente con conectividad cableada de alta velocidad",
+      "Taller de sistemas y mantenimiento de equipos"
+    ]
+  }
+}

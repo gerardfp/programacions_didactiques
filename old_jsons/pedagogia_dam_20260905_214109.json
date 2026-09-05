@@ -1,0 +1,1713 @@
+{
+  "0483": {
+    "nombre": "Sistemas informáticos",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Evalúa sistemas informáticos, identificando sus co...",
+        "ras": [
+          1
+        ],
+        "horas": 14,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Instala sistemas operativos planificando el proces...",
+        "ras": [
+          2
+        ],
+        "horas": 14,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Gestiona la información del sistema identificando...",
+        "ras": [
+          3
+        ],
+        "horas": 14,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Gestiona sistemas operativos utilizando comandos y...",
+        "ras": [
+          4
+        ],
+        "horas": 14,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Interconecta sistemas en red configurando disposit...",
+        "ras": [
+          5
+        ],
+        "horas": 14,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Opera sistemas en red gestionando sus recursos e i...",
+        "ras": [
+          6
+        ],
+        "horas": 14,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 7",
+        "nombre": "Unidad de Programación 7: Elabora documentación valorando y utilizando aplic...",
+        "ras": [
+          7
+        ],
+        "horas": 16,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 14.3,
+      "2": 14.3,
+      "3": 14.3,
+      "4": 14.3,
+      "5": 14.3,
+      "6": 14.3,
+      "7": 14.2
+    },
+    "formula_evaluacion": "Módulo = 0.14 · RA_1 + 0.14 · RA_2 + 0.14 · RA_3 + 0.14 · RA_4 + 0.14 · RA_5 + 0.14 · RA_6 + 0.14 · RA_7",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "b) Activitats i estratègies d’ensenyança i aprenentatge.\n\n•Al començament del mòdul, es farà una petita introducció del mòdul, explicant quins són els objectius terminals principals que es busca aconseguir amb el seu estudi.\n\n•Al començament del mòdul es recomanarà la compra del llibre “Sistemas informáticos” de l’editorial síntesis (adjunta enllaç https://www.sintesis.com/libro/sistemas-informaticos-actualizado-2024), que s’utilitzarà com a ferramenta didàctica al llarg del curs.",
+    "recursos_software": [
+      "MOODLE",
+      "Ubuntu",
+      "virtualbox",
+      "Oracle",
+      "LibreOffice",
+      "Linux",
+      "Moodle"
+    ],
+    "recursos_hardware": [
+      "Servidors",
+      "Commutadors",
+      "encaminadors",
+      "servidors",
+      "servidor",
+      "connexió a Internet",
+      "dispositius mòbils"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "0484": {
+    "nombre": "Bases de datos",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Reconoce los elementos de las bases de datos anali...",
+        "ras": [
+          1
+        ],
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Crea bases de datos definiendo su estructura y las...",
+        "ras": [
+          2
+        ],
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Consulta la información almacenada en una base de...",
+        "ras": [
+          3
+        ],
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Modifica la información almacenada en la base de d...",
+        "ras": [
+          4
+        ],
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Desarrolla procedimientos almacenados evaluando y...",
+        "ras": [
+          5
+        ],
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Diseña modelos relacionales normalizados interpret...",
+        "ras": [
+          6
+        ],
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 7",
+        "nombre": "Unidad de Programación 7: Gestiona la información almacenada en bases de dat...",
+        "ras": [
+          7
+        ],
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 14.3,
+      "2": 14.3,
+      "3": 14.3,
+      "4": 14.3,
+      "5": 14.3,
+      "6": 14.3,
+      "7": 14.2
+    },
+    "formula_evaluacion": "Módulo = 0.14 · RA_1 + 0.14 · RA_2 + 0.14 · RA_3 + 0.14 · RA_4 + 0.14 · RA_5 + 0.14 · RA_6 + 0.14 · RA_7",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "- Inicialment es seguirà una estratègia interrogativa / consultiva, amb caràcter general un qüestionari senzill (escrit/oral), que permeta detectar els coneixements previs, així com si mantenen algun error conceptual dels alumnes.\n\n- Posteriorment per part de professor es realitzaran exposicions precises promovent l'aprenentatge significatiu, donant la mínima càrrega teoria necessària per abordar els coneixements de cada unitat. Utilitzarà exemples pràctics guiats, on un determinat problema s'explica pas a pas com s'ha de resoldre.\n\n- D'aquesta manera passarem a activitats de descobriment dirigit, on es plantejaran problemes de dificultat progressiva sobre els coneixements tractats, que permeten extreure conclusions.",
+    "recursos_software": [
+      "PostgreSQL",
+      "mongodb",
+      "postgresql",
+      "Docker"
+    ],
+    "recursos_hardware": [
+      "dispositius mòbils",
+      "Servidor",
+      "servidor"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "0485": {
+    "nombre": "Programación",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Reconoce la estructura de un programa informático...",
+        "ras": [
+          1
+        ],
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Escribe y prueba programas sencillos, reconociendo...",
+        "ras": [
+          2
+        ],
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Escribe y depura código, analizando y utilizando l...",
+        "ras": [
+          3
+        ],
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Desarrolla programas organizados en clases analiza...",
+        "ras": [
+          4
+        ],
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Realiza operaciones de entrada y salida de informa...",
+        "ras": [
+          5
+        ],
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Escribe programas que manipulen información selecc...",
+        "ras": [
+          6
+        ],
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 7",
+        "nombre": "Unidad de Programación 7: Desarrolla programas aplicando características ava...",
+        "ras": [
+          7
+        ],
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 8",
+        "nombre": "Unidad de Programación 8: Utiliza bases de datos orientadas a objetos, anali...",
+        "ras": [
+          8
+        ],
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 9",
+        "nombre": "Unidad de Programación 9: Gestiona información almacenada en bases de datos...",
+        "ras": [
+          9
+        ],
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 11.1,
+      "2": 11.1,
+      "3": 11.1,
+      "4": 11.1,
+      "5": 11.1,
+      "6": 11.1,
+      "7": 11.1,
+      "8": 11.1,
+      "9": 11.2
+    },
+    "formula_evaluacion": "Módulo = 0.11 · RA_1 + 0.11 · RA_2 + 0.11 · RA_3 + 0.11 · RA_4 + 0.11 · RA_5 + 0.11 · RA_6 + 0.11 · RA_7 + 0.11 · RA_8 + 0.11 · RA_9",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "9": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Programación se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "VS Code",
+      "PostgreSQL",
+      "Node.js",
+      "Git",
+      "React",
+      "MongoDB",
+      "JavaScript",
+      "Moodle",
+      "GitHub",
+      "Vue"
+    ],
+    "recursos_hardware": [
+      "Servidor",
+      "servidor"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "0373": {
+    "nombre": "Lenguajes de marcas y sistemas de gestión de información",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Reconoce las características de lenguajes de marca...",
+        "ras": [
+          1
+        ],
+        "horas": 10,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Utiliza lenguajes de marcas para la transmisión y...",
+        "ras": [
+          2
+        ],
+        "horas": 10,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Accede y manipula documentos web utilizando lengua...",
+        "ras": [
+          3
+        ],
+        "horas": 10,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Establece mecanismos de validación de documentos p...",
+        "ras": [
+          4
+        ],
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Realiza conversiones sobre documentos para el inte...",
+        "ras": [
+          5
+        ],
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Gestiona la información en formatos de intercambio...",
+        "ras": [
+          6
+        ],
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 7",
+        "nombre": "Unidad de Programación 7: Opera sistemas empresariales de gestión de informa...",
+        "ras": [
+          7
+        ],
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 14.3,
+      "2": 14.3,
+      "3": 14.3,
+      "4": 14.3,
+      "5": 14.3,
+      "6": 14.3,
+      "7": 14.2
+    },
+    "formula_evaluacion": "Módulo = 0.14 · RA_1 + 0.14 · RA_2 + 0.14 · RA_3 + 0.14 · RA_4 + 0.14 · RA_5 + 0.14 · RA_6 + 0.14 · RA_7",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Lenguajes de marcas y sistemas de gestión de información se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0487": {
+    "nombre": "Entornos de desarrollo",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Reconoce los elementos y herramientas que intervie...",
+        "ras": [
+          1
+        ],
+        "horas": 8,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Evalúa entornos integrados de desarrollo analizand...",
+        "ras": [
+          2
+        ],
+        "horas": 8,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Verifica el funcionamiento de programas diseñando...",
+        "ras": [
+          3
+        ],
+        "horas": 8,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Optimiza código empleando las herramientas disponi...",
+        "ras": [
+          4
+        ],
+        "horas": 8,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Genera diagramas de clases valorando su importanci...",
+        "ras": [
+          5
+        ],
+        "horas": 8,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Genera diagramas de comportamiento valorando su im...",
+        "ras": [
+          6
+        ],
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 16.7,
+      "2": 16.7,
+      "3": 16.7,
+      "4": 16.7,
+      "5": 16.7,
+      "6": 16.5
+    },
+    "formula_evaluacion": "Módulo = 0.17 · RA_1 + 0.17 · RA_2 + 0.17 · RA_3 + 0.17 · RA_4 + 0.17 · RA_5 + 0.17 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "Classes. Atributs, mètodes i visibilitat.\n\nRelacions. Herència, composició, agregació.\n\nEstandardització amb un llenguatge de modelatge: UML (llenguatge unificat de modelatge) o altres.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "0486": {
+    "nombre": "Acceso a datos",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Desarrolla aplicaciones que gestionan información...",
+        "ras": [
+          1
+        ],
+        "horas": 13,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrolla aplicaciones que gestionan información...",
+        "ras": [
+          2
+        ],
+        "horas": 13,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Gestiona la persistencia de los datos identificand...",
+        "ras": [
+          3
+        ],
+        "horas": 13,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Desarrolla aplicaciones que gestionan la informaci...",
+        "ras": [
+          4
+        ],
+        "horas": 13,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Desarrolla aplicaciones que gestionan la informaci...",
+        "ras": [
+          5
+        ],
+        "horas": 13,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Programa componentes de acceso a datos identifican...",
+        "ras": [
+          6
+        ],
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 16.7,
+      "2": 16.7,
+      "3": 16.7,
+      "4": 16.7,
+      "5": 16.7,
+      "6": 16.5
+    },
+    "formula_evaluacion": "Módulo = 0.17 · RA_1 + 0.17 · RA_2 + 0.17 · RA_3 + 0.17 · RA_4 + 0.17 · RA_5 + 0.17 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Acceso a datos se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0488": {
+    "nombre": "Desarrollo de interfaces",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Genera interfaces gráficos de usuario mediante edi...",
+        "ras": [
+          1
+        ],
+        "horas": 10,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Genera interfaces naturales de usuario utilizando...",
+        "ras": [
+          2
+        ],
+        "horas": 10,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Crea componentes visuales valorando y empleando he...",
+        "ras": [
+          3
+        ],
+        "horas": 10,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Diseña interfaces gráficas identificando y aplican...",
+        "ras": [
+          4
+        ],
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Crea informes evaluando y utilizando herramientas...",
+        "ras": [
+          5
+        ],
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Documenta aplicaciones seleccionando y utilizando...",
+        "ras": [
+          6
+        ],
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 7",
+        "nombre": "Unidad de Programación 7: Prepara aplicaciones para su distribución evaluand...",
+        "ras": [
+          7
+        ],
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 8",
+        "nombre": "Unidad de Programación 8: Evalúa el funcionamiento de aplicaciones diseñando...",
+        "ras": [
+          8
+        ],
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 12.5,
+      "2": 12.5,
+      "3": 12.5,
+      "4": 12.5,
+      "5": 12.5,
+      "6": 12.5,
+      "7": 12.5,
+      "8": 12.5
+    },
+    "formula_evaluacion": "Módulo = 0.12 · RA_1 + 0.12 · RA_2 + 0.12 · RA_3 + 0.12 · RA_4 + 0.12 · RA_5 + 0.12 · RA_6 + 0.12 · RA_7 + 0.12 · RA_8",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "Les mesures preventives per la detecció de necessitats atenent els diferents ritmes d'aprenentatge seran:",
+    "recursos_software": [
+      "Visual Studio Code"
+    ],
+    "recursos_hardware": [
+      "servidor",
+      "connexió a Internet"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "0489": {
+    "nombre": "Programación multimedia y dispositivos móviles",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Aplica tecnologías de desarrollo para dispositivos...",
+        "ras": [
+          1
+        ],
+        "horas": 11,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrolla aplicaciones para dispositivos móviles...",
+        "ras": [
+          2
+        ],
+        "horas": 11,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Desarrolla programas que integran contenidos multi...",
+        "ras": [
+          3
+        ],
+        "horas": 11,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Selecciona y prueba motores de juegos analizando l...",
+        "ras": [
+          4
+        ],
+        "horas": 11,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Desarrolla juegos 2D y 3D sencillos utilizando mot...",
+        "ras": [
+          5
+        ],
+        "horas": 11,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Programación multimedia y dispositivos móviles se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "VS Code",
+      "PostgreSQL",
+      "Node.js",
+      "Git",
+      "React",
+      "MongoDB",
+      "JavaScript",
+      "Moodle",
+      "GitHub",
+      "Vue"
+    ],
+    "recursos_hardware": [
+      "Servidor",
+      "servidor"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "0490": {
+    "nombre": "Programación de servicios y procesos",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Desarrolla aplicaciones compuestas por varios proc...",
+        "ras": [
+          1
+        ],
+        "horas": 8,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrolla aplicaciones compuestas por varios hilo...",
+        "ras": [
+          2
+        ],
+        "horas": 8,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Programa mecanismos de comunicación en red emplean...",
+        "ras": [
+          3
+        ],
+        "horas": 8,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Desarrolla aplicaciones que ofrecen servicios en r...",
+        "ras": [
+          4
+        ],
+        "horas": 8,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Protege las aplicaciones y los datos definiendo y...",
+        "ras": [
+          5
+        ],
+        "horas": 8,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Programación de servicios y procesos se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "VS Code",
+      "PostgreSQL",
+      "Node.js",
+      "Git",
+      "React",
+      "MongoDB",
+      "JavaScript",
+      "Moodle",
+      "GitHub",
+      "Vue"
+    ],
+    "recursos_hardware": [
+      "Servidor",
+      "servidor"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "0491": {
+    "nombre": "Sistemas de gestión empresarial",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Identifica sistemas de planificación de recursos e...",
+        "ras": [
+          1
+        ],
+        "horas": 11,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Implanta sistemas ERP-CRM interpretando la documen...",
+        "ras": [
+          2
+        ],
+        "horas": 11,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Realiza operaciones de gestión, consulta y análisi...",
+        "ras": [
+          3
+        ],
+        "horas": 11,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Adapta sistemas ERP-CRM identificando los requerim...",
+        "ras": [
+          4
+        ],
+        "horas": 11,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Desarrolla componentes para un sistema ERP-CRM ana...",
+        "ras": [
+          5
+        ],
+        "horas": 11,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "b) Activitats i estratègies d’ensenyança i aprenentatge.\n\nEste document té com a finalitat el desenrotllament de la programació didàctica per al mòdul de «Sistemes de Gestió Empresarial» en el cicle formatiu de grau superior de Desenvolupament de Aplicacions Multiplataforma, tenint en compte les següents normatives:\n\nLlei orgànica 5/2002, de les Qualificacions i de la Formació Professional.",
+    "recursos_software": [
+      "MOODLE",
+      "Ubuntu",
+      "Docker",
+      "Linux",
+      "Pycharm",
+      "Moodle",
+      "Visual Studio Code"
+    ],
+    "recursos_hardware": [
+      "dispositius mòbils",
+      "servidors",
+      "servidor",
+      "connexió a Internet"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "generico": {
+    "nombre": "Módulo Formativo Genérico (DAM)",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y competencias clave de DAM",
+        "ras": [
+          1
+        ],
+        "horas": 160,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 100.0
+    },
+    "formula_evaluacion": "Módulo = 1.00 · RA_1",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional se desarrolla mediante metodologías activas orientadas al perfil de DAM, priorizando supuestos prácticos, resolución colaborativa de problemas y rigor profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  }
+}

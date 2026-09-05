@@ -1,0 +1,1388 @@
+{
+  "5071": {
+    "unidades_programacion": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 1: Introducció a la Intel·ligència Artificial i paradigmes",
+        "horas": 3,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 2: Conceptes previs i representació del coneixement",
+        "horas": 9,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 3: Algoritmes de cerca informada i no informada",
+        "horas": 12,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 4: Cerca local i satisfacció de restriccions (CSP)",
+        "horas": 12,
+        "trimestre": "1r Trimestre",
+        "inicio": "Desembre",
+        "fin": "Desembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 5: Teoria de jocs i cerca adversarial (Minimax, poda alfa-beta)",
+        "horas": 6,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Gener",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 6",
+        "nombre": "UT 6: Sistemes basats en regles i motors d'inferència",
+        "horas": 9,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UT 7",
+        "nombre": "UT 7: Processament del llenguatge natural (PLN / NLP)",
+        "horas": 12,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UT 8",
+        "nombre": "UT 8: Visió per computador (Computer Vision)",
+        "horas": 12,
+        "trimestre": "2n Trimestre",
+        "inicio": "Març",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UT 9",
+        "nombre": "UT 9: Robòtica intel·ligent i sistemes autònoms",
+        "horas": 9,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 15.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Proves objectives individuals i projectes d'aplicació d'IA",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques d'implementació i exercicis aplicats",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Enfocament metodològic basat en l'aprenentatge actiu i aplicat. Estudi dels models formals d'intel·ligència artificial i desenvolupament de casos d'ús utilitzant llibreries especialitzades de visió artificial (OpenCV) i processament de llenguatge natural (NLTK, spaCy, HuggingFace).",
+    "recursos": {
+      "software": [
+        "Python 3, Jupyter Notebooks, Google Colab",
+        "Llibreries: OpenCV, NLTK, spaCy, scikit-learn",
+        "Frameworks d'IA: PyTorch / TensorFlow"
+      ],
+      "hardware": [
+        "Ordinadors amb GPU dedicada per a processament d'imatges i models d'IA",
+        "Càmeres web i dispositius d'adquisició per a visió per computador"
+      ]
+    },
+    "espacios": "Aula d'informàtica avançada",
+    "unidades": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 1: Introducció a la Intel·ligència Artificial i paradigmes",
+        "horas": 3,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 2: Conceptes previs i representació del coneixement",
+        "horas": 9,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 3: Algoritmes de cerca informada i no informada",
+        "horas": 12,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Novembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 4: Cerca local i satisfacció de restriccions (CSP)",
+        "horas": 12,
+        "trimestre": "1r Trimestre",
+        "inicio": "Desembre",
+        "fin": "Desembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 5: Teoria de jocs i cerca adversarial (Minimax, poda alfa-beta)",
+        "horas": 6,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Gener",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 6",
+        "nombre": "UT 6: Sistemes basats en regles i motors d'inferència",
+        "horas": 9,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UT 7",
+        "nombre": "UT 7: Processament del llenguatge natural (PLN / NLP)",
+        "horas": 12,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Febrer",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UT 8",
+        "nombre": "UT 8: Visió per computador (Computer Vision)",
+        "horas": 12,
+        "trimestre": "2n Trimestre",
+        "inicio": "Març",
+        "fin": "Març",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UT 9",
+        "nombre": "UT 9: Robòtica intel·ligent i sistemes autònoms",
+        "horas": 9,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 15.0,
+      "2": 20.0,
+      "3": 15.0,
+      "4": 15.0,
+      "5": 20.0,
+      "6": 15.0
+    },
+    "formula_evaluacion": "Módulo = 0.15 · RA_1 + 0.20 · RA_2 + 0.15 · RA_3 + 0.15 · RA_4 + 0.20 · RA_5 + 0.15 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Proves objectives individuals i projectes d'aplicació d'IA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques d'implementació i exercicis aplicats",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Proves objectives individuals i projectes d'aplicació d'IA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques d'implementació i exercicis aplicats",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Proves objectives individuals i projectes d'aplicació d'IA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques d'implementació i exercicis aplicats",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Proves objectives individuals i projectes d'aplicació d'IA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques d'implementació i exercicis aplicats",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Proves objectives individuals i projectes d'aplicació d'IA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques d'implementació i exercicis aplicats",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Proves objectives individuals i projectes d'aplicació d'IA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques d'implementació i exercicis aplicats",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Python 3, Jupyter Notebooks, Google Colab",
+      "Llibreries: OpenCV, NLTK, spaCy, scikit-learn",
+      "Frameworks d'IA: PyTorch / TensorFlow"
+    ],
+    "recursos_hardware": [
+      "Ordinadors amb GPU dedicada per a processament d'imatges i models d'IA",
+      "Càmeres web i dispositius d'adquisició per a visió per computador"
+    ]
+  },
+  "5072": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Fonaments d'aprenentatge automàtic i preparació del conjunt de dades",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Algoritmes d'aprenentatge supervisat (Classificació i regressió)",
+        "horas": 25,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Algoritmes d'aprenentatge no supervisat (Clustering i reducció de dimensionalitat)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Xarxes neuronals artificials i Deep Learning",
+        "horas": 25,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Avaluació, mètriques i optimització d'hiperparàmetres",
+        "horas": 10,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Desplegament de models d'aprenentatge en entorns de producció (MLOps)",
+        "horas": 10,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Maig",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Proves objectives i projectes de construcció de models de Machine Learning",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques de laboratori, neteja de dades i anàlisi exploratòria",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Resolució de problemes reals basats en dades. Neteja, preprocessament, enginyeria de característiques i entrenament de models supervisats i no supervisats amb validació creuada i mètriques rigoroses.",
+    "recursos": {
+      "software": [
+        "Python, NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib",
+        "PyTorch / TensorFlow / Keras",
+        "MLflow / FastAPI per a MLOps"
+      ],
+      "hardware": [
+        "Equips d'alt rendiment amb acceleració de càlcul GPU"
+      ]
+    },
+    "espacios": "Aula d'informàtica",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Fonaments d'aprenentatge automàtic i preparació del conjunt de dades",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Algoritmes d'aprenentatge supervisat (Classificació i regressió)",
+        "horas": 25,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Algoritmes d'aprenentatge no supervisat (Clustering i reducció de dimensionalitat)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Xarxes neuronals artificials i Deep Learning",
+        "horas": 25,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Avaluació, mètriques i optimització d'hiperparàmetres",
+        "horas": 10,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD 6: Desplegament de models d'aprenentatge en entorns de producció (MLOps)",
+        "horas": 10,
+        "trimestre": "3r Trimestre",
+        "inicio": "Maig",
+        "fin": "Maig",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 15.0,
+      "2": 25.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 10.0,
+      "6": 10.0
+    },
+    "formula_evaluacion": "Módulo = 0.15 · RA_1 + 0.25 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.10 · RA_5 + 0.10 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Proves objectives i projectes de construcció de models de Machine Learning",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques de laboratori, neteja de dades i anàlisi exploratòria",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Proves objectives i projectes de construcció de models de Machine Learning",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques de laboratori, neteja de dades i anàlisi exploratòria",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Proves objectives i projectes de construcció de models de Machine Learning",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques de laboratori, neteja de dades i anàlisi exploratòria",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Proves objectives i projectes de construcció de models de Machine Learning",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques de laboratori, neteja de dades i anàlisi exploratòria",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Proves objectives i projectes de construcció de models de Machine Learning",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques de laboratori, neteja de dades i anàlisi exploratòria",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Proves objectives i projectes de construcció de models de Machine Learning",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques de laboratori, neteja de dades i anàlisi exploratòria",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Python, NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib",
+      "PyTorch / TensorFlow / Keras",
+      "MLflow / FastAPI per a MLOps"
+    ],
+    "recursos_hardware": [
+      "Equips d'alt rendiment amb acceleració de càlcul GPU"
+    ]
+  },
+  "5073": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Caracterització de llenguatges de programació per a IA (Python, entorns i llibreries)",
+        "horas": 25,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Plataformes i eines de modelatge d'Intel·ligència Artificial (Cloud, Azure ML, TensorFlow)",
+        "horas": 30,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Gener",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Avaluació de la convergència tecnològica (Cloud, IoT, Blockchain i IA)",
+        "horas": 25,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Avaluació de models d'automatització industrial i de negoci",
+        "horas": 30,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Abril",
+        "ras": [
+          4
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 25.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exàmens teòric-pràctic / Projectes d'aplicació d'IA",
+        "porcentaje": 70,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques / Treballs / Casos pràctics",
+        "porcentaje": 30,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Programació aplicada mitjançant llenguatges específics d'Intel·ligència Artificial. Implementació de solucions d'IA connectades a serveis cloud, desenvolupament d'agents i sistemes d'automatització.",
+    "recursos": {
+      "software": [
+        "Python 3, Jupyter Notebooks, Visual Studio Code",
+        "Serveis d'IA al núvol (Azure AI, AWS, Google Cloud AI)",
+        "Knime, SPSS Modeler, TensorFlow"
+      ],
+      "hardware": [
+        "Ordinadors individuals connectats a Internet"
+      ]
+    },
+    "espacios": "Aula d'informàtica",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Caracterització de llenguatges de programació per a IA (Python, entorns i llibreries)",
+        "horas": 25,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Plataformes i eines de modelatge d'Intel·ligència Artificial (Cloud, Azure ML, TensorFlow)",
+        "horas": 30,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Gener",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Avaluació de la convergència tecnològica (Cloud, IoT, Blockchain i IA)",
+        "horas": 25,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Avaluació de models d'automatització industrial i de negoci",
+        "horas": 30,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Abril",
+        "ras": [
+          4
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 25.0,
+      "2": 25.0,
+      "3": 25.0,
+      "4": 25.0
+    },
+    "formula_evaluacion": "Módulo = 0.25 · RA_1 + 0.25 · RA_2 + 0.25 · RA_3 + 0.25 · RA_4",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exàmens teòric-pràctic / Projectes d'aplicació d'IA",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Pràctiques / Treballs / Casos pràctics",
+          "peso_ra": 30.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exàmens teòric-pràctic / Projectes d'aplicació d'IA",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Pràctiques / Treballs / Casos pràctics",
+          "peso_ra": 30.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exàmens teòric-pràctic / Projectes d'aplicació d'IA",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Pràctiques / Treballs / Casos pràctics",
+          "peso_ra": 30.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exàmens teòric-pràctic / Projectes d'aplicació d'IA",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Pràctiques / Treballs / Casos pràctics",
+          "peso_ra": 30.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Python 3, Jupyter Notebooks, Visual Studio Code",
+      "Serveis d'IA al núvol (Azure AI, AWS, Google Cloud AI)",
+      "Knime, SPSS Modeler, TensorFlow"
+    ],
+    "recursos_hardware": [
+      "Ordinadors individuals connectats a Internet"
+    ]
+  },
+  "5074": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Ecosistema Big Data i arquitectures d'emmagatzematge massiu",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Gestió de bases de dades NoSQL i distribucions massives (Cassandra, MongoDB)",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Gener",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Computació distribuïda amb Hadoop HDFS i Apache Spark",
+        "horas": 25,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Març",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Seguretat, governança i gestió del cicle de vida de les dades",
+        "horas": 15,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          4
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 25.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Proves teòric-pràctiques de gestió de clústers i arquitectures Big Data",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Pràctiques d'administració de bases de dades distribuïdes i magatzems",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Desplegament i administració d'arquitectures de dades massives mitjançant contenidors Docker. Configuració de clústers distribuïts d'emmagatzematge i processament batch i streaming.",
+    "recursos": {
+      "software": [
+        "Docker, Apache Hadoop, Apache Spark, HDFS",
+        "Bases de dades NoSQL: Apache Cassandra, MongoDB, Redis",
+        "Eines de monitorització i gestió de clústers"
+      ],
+      "hardware": [
+        "Ordinadors amb prou recursos de RAM i disc per a simular clústers distribuïts"
+      ]
+    },
+    "espacios": "Aula d'informàtica",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Ecosistema Big Data i arquitectures d'emmagatzematge massiu",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Gestió de bases de dades NoSQL i distribucions massives (Cassandra, MongoDB)",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Gener",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Computació distribuïda amb Hadoop HDFS i Apache Spark",
+        "horas": 25,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Març",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Seguretat, governança i gestió del cicle de vida de les dades",
+        "horas": 15,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          4
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 25.0,
+      "2": 25.0,
+      "3": 25.0,
+      "4": 25.0
+    },
+    "formula_evaluacion": "Módulo = 0.25 · RA_1 + 0.25 · RA_2 + 0.25 · RA_3 + 0.25 · RA_4",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Proves teòric-pràctiques de gestió de clústers i arquitectures Big Data",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques d'administració de bases de dades distribuïdes i magatzems",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Proves teòric-pràctiques de gestió de clústers i arquitectures Big Data",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques d'administració de bases de dades distribuïdes i magatzems",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Proves teòric-pràctiques de gestió de clústers i arquitectures Big Data",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques d'administració de bases de dades distribuïdes i magatzems",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Proves teòric-pràctiques de gestió de clústers i arquitectures Big Data",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques d'administració de bases de dades distribuïdes i magatzems",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Docker, Apache Hadoop, Apache Spark, HDFS",
+      "Bases de dades NoSQL: Apache Cassandra, MongoDB, Redis",
+      "Eines de monitorització i gestió de clústers"
+    ],
+    "recursos_hardware": [
+      "Ordinadors amb prou recursos de RAM i disc per a simular clústers distribuïts"
+    ]
+  },
+  "5075": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Fonaments del Big Data i Business Intelligence",
+        "horas": 40,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Arquitectura cloud i emmagatzematge de dades massives",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Arquitectura distribuïda per a l'anàlisi de dades",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Processament de dades distribuït (Batch i Streaming)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Monitorització, optimització i solució de problemes en canonades de dades",
+        "horas": 20,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          4,
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Projecte o prova objectiva relativa a la unitat didàctica (I1)",
+        "porcentaje": 80,
+        "requisito": ">= 4 sobre 10 mínim compensable, >= 5 final"
+      },
+      {
+        "nombre": "Pràctiques de laboratori i anàlisi de dades amb rúbrica (I2)",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Enfocament aplicat centrat en el cicle complet de les dades massives (adquisició, ingesta, processament i visualització). Desenvolupament de quadres de comandament de Business Intelligence (Power BI, Superset) i pipelines analítics amb PySpark.",
+    "recursos": {
+      "software": [
+        "PySpark, Apache Kafka, Apache Airflow",
+        "Eines de Business Intelligence: Microsoft Power BI Desktop, Apache Superset",
+        "Plataformes cloud (AWS / GCP / Azure)",
+        "Docker i Docker Compose"
+      ],
+      "hardware": [
+        "Equips d'aula d'alt rendiment amb accés a la xarxa"
+      ]
+    },
+    "espacios": "Aula d'informàtica",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD 1: Fonaments del Big Data i Business Intelligence",
+        "horas": 40,
+        "trimestre": "1r Trimestre",
+        "inicio": "Octubre",
+        "fin": "Novembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD 2: Arquitectura cloud i emmagatzematge de dades massives",
+        "horas": 20,
+        "trimestre": "1r Trimestre",
+        "inicio": "Novembre",
+        "fin": "Desembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD 3: Arquitectura distribuïda per a l'anàlisi de dades",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Gener",
+        "fin": "Febrer",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD 4: Processament de dades distribuït (Batch i Streaming)",
+        "horas": 20,
+        "trimestre": "2n Trimestre",
+        "inicio": "Febrer",
+        "fin": "Març",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD 5: Monitorització, optimització i solució de problemes en canonades de dades",
+        "horas": 20,
+        "trimestre": "3r Trimestre",
+        "inicio": "Abril",
+        "fin": "Maig",
+        "ras": [
+          4,
+          5
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Projecte o prova objectiva relativa a la unitat didàctica (I1)",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques de laboratori i anàlisi de dades amb rúbrica (I2)",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Projecte o prova objectiva relativa a la unitat didàctica (I1)",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques de laboratori i anàlisi de dades amb rúbrica (I2)",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Projecte o prova objectiva relativa a la unitat didàctica (I1)",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques de laboratori i anàlisi de dades amb rúbrica (I2)",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Projecte o prova objectiva relativa a la unitat didàctica (I1)",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques de laboratori i anàlisi de dades amb rúbrica (I2)",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Projecte o prova objectiva relativa a la unitat didàctica (I1)",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Pràctiques de laboratori i anàlisi de dades amb rúbrica (I2)",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "PySpark, Apache Kafka, Apache Airflow",
+      "Eines de Business Intelligence: Microsoft Power BI Desktop, Apache Superset",
+      "Plataformes cloud (AWS / GCP / Azure)",
+      "Docker i Docker Compose"
+    ],
+    "recursos_hardware": [
+      "Equips d'aula d'alt rendiment amb accés a la xarxa"
+    ]
+  },
+  "modulo_generico": {
+    "unidades_programacion": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y conceptos esenciales",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrollo práctico y aplicación técnica",
+        "horas": 40,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Integración de sistemas y proyecto aplicativo",
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "Marzo",
+        "fin": "Mayo",
+        "ras": [
+          3
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 30.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 40.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 30.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+        "porcentaje": 80,
+        "requisito": "Nota mínima de 5 sobre 10"
+      },
+      {
+        "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+        "porcentaje": 20,
+        "requisito": "Nota mínima de 5 sobre 10"
+      }
+    ],
+    "metodologia": "Metodología activa y orientada a la práctica (aprender haciendo / learning by doing), con resolución de supuestos reales, trabajo colaborativo y aprendizaje basado en proyectos. Se combina la exposición conceptual docente con actividades guiadas e individuales en aula-taller.",
+    "recursos": {
+      "software": [
+        "Sistemas operativos libres y propietarios (Linux/Windows)",
+        "Entornos integrados de desarrollo y suites de software del sector",
+        "Plataforma educativa Aules de la Generalitat Valenciana",
+        "Herramientas de control de versiones y gestión de proyectos"
+      ],
+      "hardware": [
+        "Equipos informáticos para el alumnado conectados a red local e Internet",
+        "Pizarra digital interactiva y cañón proyector en aula polivalente",
+        "Dispositivos periféricos e instrumental de laboratorio técnico"
+      ]
+    },
+    "espacios": "Aula de informática polivalente con conectividad cableada de alta velocidad, Taller de sistemas y mantenimiento de equipos",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y conceptos esenciales",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrollo práctico y aplicación técnica",
+        "horas": 40,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Integración de sistemas y proyecto aplicativo",
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "Marzo",
+        "fin": "Mayo",
+        "ras": [
+          3
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 30.0,
+      "2": 40.0,
+      "3": 30.0
+    },
+    "formula_evaluacion": "Módulo = 0.30 · RA_1 + 0.40 · RA_2 + 0.30 · RA_3",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Sistemas operativos libres y propietarios (Linux/Windows)",
+      "Entornos integrados de desarrollo y suites de software del sector",
+      "Plataforma educativa Aules de la Generalitat Valenciana",
+      "Herramientas de control de versiones y gestión de proyectos"
+    ],
+    "recursos_hardware": [
+      "Equipos informáticos para el alumnado conectados a red local e Internet",
+      "Pizarra digital interactiva y cañón proyector en aula polivalente",
+      "Dispositivos periféricos e instrumental de laboratorio técnico"
+    ]
+  }
+}

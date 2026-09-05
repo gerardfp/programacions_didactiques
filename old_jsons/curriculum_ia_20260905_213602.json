@@ -1,0 +1,970 @@
+{
+  "ciclo": "IA",
+  "codigo_ciclo": "IFC_IA",
+  "titulo": "Curso de Especialización en Inteligencia Artificial y Big Data",
+  "familia_profesional": "Informática y Comunicaciones",
+  "nivel": "Curso de Especialización",
+  "normativa_referencia": "Real Decreto 279/2021, de 20 de abril, por el que se establece el Curso de especialización en Inteligencia Artificial y Big Data y se fijan los aspectos básicos del currículo.",
+  "competencias_profesionales_personales_sociales": {
+    "a": "Aplicar sistemas de Inteligencia Artificial para identificar nuevas formas de interacción en los negocios que mejoren la productividad.",
+    "b": "Desarrollar e implementar sistemas de Inteligencia Artificial que faciliten la toma de decisiones ágiles dentro de un negocio gestionando y explotando datos masivos.",
+    "c": "Gestionar la transformación digital necesaria en las organizaciones para la consecución de la eficiencia empresarial mediante el tratamiento de datos.",
+    "d": "Aplicar Inteligencia Artificial en funcionalidades, procesos y sistemas de decisión empresariales.",
+    "e": "Gestionar los distintos tipos de Inteligencia Artificial para la consecución de transformación y cambio en las empresas.",
+    "f": "Administrar el desarrollo de procesos automatizados que permitan la mejora de la productividad de las empresas.",
+    "g": "Optimizar el desarrollo de procesos autónomos empleando herramientas de Inteligencia Artificial.",
+    "h": "Integrar sistemas de explotación de grandes volúmenes de datos aplicando soluciones de Big Data.",
+    "i": "Implantar las funcionalidades, procesos y sistemas de decisiones empresariales aplicando técnicas de Big Data en ellos.",
+    "j": "Ejecutar el sistema de explotación de datos según las necesidades de uso y las condiciones de seguridad establecidas asegurando el cumplimiento de los principios legales y éticos.",
+    "k": "Configurar las herramientas que se usan para construir soluciones Big Data y de Inteligencia Artificial.",
+    "l": "Gestionar de manera eficiente los datos, la información y su representación para transformarlos en conocimiento.",
+    "m": "Cumplir la legislación vigente que regula la normativa de los medios de comunicación audiovisual y de la accesibilidad universal.",
+    "n": "Adaptarse a las nuevas situaciones laborales, manteniendo actualizados los conocimientos científicos, técnicos y tecnológicos relativos a su entorno profesional, gestionando su formación y los recursos existentes en el aprendizaje a lo largo de la vida y utilizando las tecnologías de la información y la comunicación.",
+    "ñ": "Resolver situaciones, problemas o contingencias con iniciativa y autonomía en el ámbito de su competencia, con creatividad, innovación y espíritu de mejora en el trabajo personal y en el de los miembros del equipo.",
+    "o": "Organizar y coordinar equipos de trabajo con responsabilidad, supervisando el desarrollo del mismo, manteniendo relaciones fluidas y asumiendo el liderazgo, así como aportando soluciones a los conflictos grupales que se presenten.",
+    "p": "Comunicarse con sus iguales, superiores, clientela y personas bajo su responsabilidad, utilizando vías eficaces de comunicación, transmitiendo la información o conocimientos adecuados y respetando la autonomía y competencia de las personas que intervienen en el ámbito de su trabajo.",
+    "q": "Generar entornos seguros en el desarrollo de su trabajo y el de su equipo, supervisando y aplicando los procedimientos de prevención de riesgos laborales y ambientales, de acuerdo con lo establecido por la normativa y los objetivos de la empresa.",
+    "r": "Supervisar y aplicar procedimientos de gestión de calidad, de accesibilidad universal y de «diseño para todas las personas», en las actividades profesionales incluidas en los procesos de producción o prestación de servicios.",
+    "s": "Ejercer sus derechos y cumplir con las obligaciones derivadas de su actividad profesional, de acuerdo con lo establecido en la legislación vigente, participando activamente en la vida económica, social y cultural."
+  },
+  "cualificaciones_profesionales": [],
+  "unidades_competencia": {},
+  "correspondencia_unidades_competencia": {},
+  "modulos": [
+    {
+      "codigo": "5071",
+      "nombre": "Modelos de Inteligencia Artificial",
+      "siglas": "MIA",
+      "curso_orientativo": "1º",
+      "horas": 40,
+      "creditos_ects": 4,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "c"
+      ],
+      "orientaciones_pedagogicas": "Esté módulo profesional contiene la información necesaria para desempeñar las funciones de analizar y relacionar la mejora de la eficiencia operativa de las organizaciones y empresas con tecnologías de Inteligencia artificial que se pueden implementar aplicando principios legales y éticos.\n\nLas funciones antes citadas incluyen como:\n\n– Caracterizar sistemas de Inteligencia artificial.\n\n– Relacionar mejoras en la eficiencia operativa de una empresa con la implantación de sistemas inteligentes.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales a), b), c), d), e), j), k), m), n), ñ), o) y p) así como las competencias profesionales y sociales a), b), c), d), e), j), k), m), n), ñ), o), p), q), r) y s) del curso de especialización.\n\nLas líneas de actuación en el proceso de enseñanza aprendizaje que permiten alcanzar los objetivos del módulo están relacionadas con:\n\n– La identificación de características de los sistemas de Inteligencia artificial.\n\n– La aplicación de esos sistemas de inteligencia artificial en las organizaciones y empresas para la mejora de la eficiencia operativa.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Caracteriza sistemas de Inteligencia Artificial relacionándolos con la mejora de la eficiencia operativa de las organizaciones y empresas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han identificado los principios fundamentales de los sistemas inteligentes."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se ha recopilado información sobre campos donde se aplica Inteligencia Artificial."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se han identificado las técnicas básicas a utilizar en el entorno de la IA."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se han identificado nuevas formas de interacciones en los negocios que mejore la eficiencia operativa."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Utiliza modelos de sistemas de Inteligencia Artificial implementando sistemas de resolución de problemas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han determinado los requisitos básicos a implementar en un sistema de resolución de problemas."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han clasificado modelos de Inteligencia Artificial."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se han caracterizado los modelos de automatización de tareas."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se han caracterizado los modelos de razonamiento impreciso."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se han caracterizado los modelos de sistemas basados en reglas."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA2.f",
+              "descripcion": "Se ha valorado la adecuación de los modelos a la implementación del sistema de resolución de problemas."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Relaciona el procesamiento de lenguaje natural con sus aplicaciones determinando su potencial e identificando sus limitaciones.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se ha caracterizado el procesamiento de lenguaje natural."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se ha justificado el papel del lingüista en un proyecto de inteligencia artificial."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "Se ha determinado el potencial de las técnicas existentes de procesamiento de lenguaje, así como sus limitaciones."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "Se ha considerado en qué casos es factible aplicar estas técnicas en la resolución de un problema."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "Se ha evaluado el trabajo cooperativo entre lingüistas e informáticos en el campo del procesamiento del lenguaje natural."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA3.f",
+              "descripcion": "Se ha descrito la formación teórica que precisa el investigador en procesamiento del lenguaje natural."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA3.g",
+              "descripcion": "Se ha elaborado un sistema de procesamiento de lenguaje orientado a una tarea específica."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Analiza sistemas robotizados, evaluando opciones de diseño e implementación.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han recopilado los problemas del modelado y control cinemático en robots manipuladores."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han buscado soluciones a los problemas de los robots."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se han valorado las características diferenciadoras de las técnicas de programación de robots y de sistemas robotizados."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se han evaluado diferentes opciones en el diseño e implementación de sistemas robotizados."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "descripcion": "Aplica sistemas expertos evaluando la influencia de los controladores inteligentes en el comportamiento del sistema.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se ha descrito la dinámica y las estructuras elementales de los sistemas expertos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han determinado las destrezas necesarias para representar y simular comportamientos básicos de sistemas de muy diversos ámbitos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "Se ha razonado cómo influye la variación de las características de los sistemas en su dinámica de actuación."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "Se han desarrollado estrategias de control definiendo los objetivos y las especificaciones de la respuesta del sistema."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": "Se han relacionado los controladores inteligentes con el comportamiento del sistema."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "descripcion": "Aplica principios legales y éticos al desarrollo de la Inteligencia Artificial integrándolos como parte del proceso.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se han argumentado los posibles riesgos legales y éticos de la aplicación de Inteligencia Artificial."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se ha reconocido la necesidad de respetar la privacidad de los datos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA6.c",
+              "descripcion": "Se ha decidido el cumplimiento estricto de la legalidad en su aplicación."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA6.d",
+              "descripcion": "Se ha integrado como parte del proceso la protección frente a previsibles errores y ataques (security by design)."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA6.e",
+              "descripcion": "Se ha comprobado que se cumplen todas las normas legales y éticas en todas las áreas de la Inteligencia Artificial (privacy by design)."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA6.f",
+              "descripcion": "Se han identificado y corregido los posibles sesgos de género en el desarrollo y aplicaciones de Inteligencia Artificial y Big Data."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "5072",
+      "nombre": "Sistemas de Aprendizaje Automático",
+      "siglas": "SAA",
+      "curso_orientativo": "1º",
+      "horas": 50,
+      "creditos_ects": 5,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "c"
+      ],
+      "orientaciones_pedagogicas": "Esté módulo profesional contiene la información necesaria para desempeñar las funciones de analizar y relacionar las técnicas de aprendizaje automático con la predicción de comportamientos futuros que permitan a las organizaciones y empresas la eficiencia operativa.\n\nLas funciones antes citadas incluyen como:\n\n– Caracterizar sistemas de Aprendizaje automático.\n\n– Hacer predicción de comportamientos futuros utilizando modelos de aprendizaje automático.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales a), b), c), d), e), f), g), j), k), m), n), ñ), o) y p) así como las competencias profesionales y sociales a), c), d), e), f), g), j), k), m), n), ñ), o), p), q), r) y s) del curso de especialización.\n\nLas líneas de actuación en el proceso de enseñanza aprendizaje que permiten alcanzar los objetivos del módulo están relacionadas con:\n\n– La caracterización de sistemas de aprendizaje automático.\n\n-– La aplicación de esos sistemas de aprendizaje automático en tomas de decisiones en las organizaciones y empresas.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Caracteriza la Inteligencia Artificial fuerte y débil determinando usos y posibilidades.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han determinado las especificidades de Inteligencia Artificial fuerte y débil."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han establecido las barreras entre la Inteligencia Artificial y el aprendizaje automático (Machine Learning)."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se han diferenciado ámbitos de aplicación de la Inteligencia Artificial fuerte y débil."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se han identificado los problemas a los que puede hacer frente la Inteligencia Artificial débil."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "Se han identificado los problemas a los que puede hacer frente la Inteligencia Artificial fuerte."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "Se han reconocido las ventajas que proporciona cada tipo en la resolución de los problemas."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Determina técnicas y herramientas de sistemas de aprendizaje automático (Machine Learning), testeando su aplicabilidad para la resolución de problemas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han identificado los principios de sistemas de aprendizaje automático."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han determinado tipos y usos de sistemas de aprendizaje automático."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se han determinado técnicas y herramientas de sistemas de aprendizaje automático."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se han encontrado diferencias entre los tipos de sistemas de aprendizaje automático."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se han asociado técnicas y herramientas a cada tipo de sistemas de aprendizaje automático."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Aplica algoritmos de aprendizaje supervisado, optimizando el resultado del modelo y minimizando los riesgos asociados.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han proporcionado los datos etiquetados al modelo."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han seleccionado los datos de entrada, ya sean para la fase de entrenamiento, fase de validación o fase de testeo de datos entre otras."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "Se han utilizado los datos en la fase de entrenamiento para la construcción del modelo aplicando características relevantes obtenidas."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "Se ha evaluado el modelo con los datos obtenidos en la fase de validación."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "Se han ajustado los datos de aprendizaje supervisado en la fase de ajuste para mejorar el rendimiento de las diferentes características o parámetros."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA3.f",
+              "descripcion": "Se ha implementado el modelo para realizar predicciones sobre nuevos datos."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA3.g",
+              "descripcion": "Se han detectado y minimizado los riesgos asociados al modelo."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA3.h",
+              "descripcion": "Se ha optimizado el modelo de aprendizaje supervisado validando datos de prueba."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Aplica técnicas de aprendizaje no supervisado relacionándolas con los tipos de problemas que tratan de resolver.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han caracterizado los tipos de problemas que el aprendizaje no supervisado trata de resolver."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han caracterizado las técnicas de aprendizaje no supervisado utilizadas para la resolución de dichos tipos de problemas."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se han aplicado algoritmos utilizados en el aprendizaje no supervisado."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se ha optimizado el modelo de aprendizaje no supervisado validando datos de prueba."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "descripcion": "Aplica modelos computacionales de redes neuronales comparándolos con otros métodos de inteligencia artificial.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se han evaluado los modelos neuronales para elegir el más adecuado para cada clase de problema."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han aplicado técnicas de aprendizaje profundo (deep learning) para entrenar redes de neuronas."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "Se han comparado las redes de neuronas artificiales con otros métodos de inteligencia artificial."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "Se ha reconocido una red de neuronas entrenada a partir de un conjunto de datos."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "descripcion": "Valora la calidad de los resultados obtenidos en la práctica con sistemas de aprendizaje automático integrando principios fundamentales de la computación.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se ha valorado la conveniencia de los algoritmos propuestos para dar solución a los problemas planteados."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se ha evaluado la aplicación práctica de los principios y técnicas básicas de los sistemas inteligentes."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA6.c",
+              "descripcion": "Se han integrado los principios fundamentales de la computación en la práctica para seleccionar, valorar y crear nuevos desarrollos tecnológicos."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA6.d",
+              "descripcion": "Se han desarrollado sistemas y aplicaciones informáticas que utilizan técnicas de los sistemas inteligentes."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA6.e",
+              "descripcion": "Se han desarrollado técnicas de aprendizaje computacional dedicadas a la extracción automática de información a partir de grandes volúmenes de datos."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA6.g",
+              "descripcion": ":"
+            },
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": ". E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "5073",
+      "nombre": "Programación de Inteligencia Artificial",
+      "siglas": "PIA",
+      "curso_orientativo": "1º",
+      "horas": 110,
+      "creditos_ects": 12,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "c"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la información necesaria para desempeñar las funciones de desarrollar aplicaciones de Inteligencia Artificial utilizando lenguajes de programación y entornos de modelado.\n\nLas funciones antes citadas incluyen como:\n\n– Programar Inteligencia Artificial utilizando lenguajes de programación con características que los hacen adecuados para el desarrollo de este tipo de aplicaciones.\n\n– Crear aplicaciones que integren algún algoritmo de Inteligencia Artificial.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales a), b), c), d), e), j), k), m), n), ñ), o) y p) así como las competencias profesionales y sociales a), b), c), d), e), j), k), m), n), ñ), o), p), q), r) y s) del curso de especialización.\n\nLas líneas de actuación en el proceso de enseñanza aprendizaje que permiten alcanzar los objetivos del módulo están relacionadas con:\n\n– La creación de programas con lenguajes de programación con características para programar Inteligencia artificial.\n\n– El desarrollo de aplicaciones mediante entornos de modelado de Inteligencia artificial.\n\n– Unificar procesos, servicios, herramientas, métodos y servicios para mejorar la productividad.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Caracteriza lenguajes de programación valorando su idoneidad en el desarrollo de Inteligencia Artificial.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se ha identificado la estructura de un programa informático."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han valorado características en los lenguajes de programación adecuadas al tipo de aplicaciones a implementar."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se ha determinado el lenguaje de programación más apropiado para el desarrollo de la aplicación."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se han valorado características de los lenguajes de programación para el desarrollo de Inteligencia Artificial."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "Se ha determinado el lenguaje de programación más apropiado para el desarrollo de la aplicación de Inteligencia Artificial."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "Se han caracterizado lenguajes de marcado destacando la información que contienen sus etiquetas."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Desarrolla aplicaciones de Inteligencia artificial utilizando entornos de modelado.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han evaluado plataformas de Inteligencia Artificial."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han caracterizado entornos de modelo de aplicaciones de Inteligencia Artificial."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se ha definido el modelo que se quiere implementar según el problema planteado."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se ha implementado la aplicación de Inteligencia Artificial."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se han evaluado los resultados obtenidos."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Evalúa las mejoras en los negocios integrando convergencia tecnológica.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han identificado las ventajas que ofrece unificar procesos, servicios, herramientas, métodos y sectores."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han identificado sistemas que facilitan la conexión tecnológica."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "Se han evaluado las características de dichos sistemas."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "Se ha evaluado como la convergencia tecnológica aporta seguridad en los negocios."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "Se ha evaluado la mejora en la capacidad de toma de decisiones estratégicas en un negocio conectado."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Evalúa modelos de automatización industrial y de negocio relacionándolos con los resultados esperados por las empresas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han identificado las nuevas estrategias corporativas y modelos de negocio en las empresas."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se ha definido la relación entre empresas y clientes y su efecto en la forma en que las empresas organizan y gestionan sus activos y recursos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se han evaluado modelos de automatización para los nuevos requerimientos industriales y de negocio."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se ha evaluado la conveniencia de cada modelo para conseguir los resultados esperados por las empresas."
+            },
+            {
+              "letra": "s",
+              "codigo": "RA4.s",
+              "descripcion": "."
+            },
+            {
+              "letra": "w",
+              "codigo": "RA4.w",
+              "descripcion": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "5074",
+      "nombre": "Sistemas de Big Data",
+      "siglas": "SBD",
+      "curso_orientativo": "1º",
+      "horas": 55,
+      "creditos_ects": 6,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "c"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar las funciones de integrar, procesar y analizar la información de grandes volúmenes de datos, aplicando herramientas y técnicas de Big Data para su visualización, valoración y presentación de resultados en la toma de decisiones de las empresas y organizaciones.\n\nLas funciones antes citadas incluyen aspectos como:\n\n– Determinar equipos y herramientas necesarios de los sistemas Big Data.\n\n– Determinar procesos y procedimientos para aplicar técnicas adecuadas Big Data.\n\n– Aplicar técnicas Big Data para integrar, procesar y analizar la información.\n\n– Configurar cuadros de mando en diferentes entornos computacionales.\n\n– Gestionar y almacenar grandes volúmenes de datos para facilitar la búsqueda de respuesta.\n\n– Visualizar datos para distintos escenarios.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales b), c), h), i), j), k), l), m), n), ñ), o) y p), así como las competencias profesionales, personales y sociales b), c), h), i), j), k), l), m), n), ñ), o), p), q), r) y s) del curso de especialización.\n\nLas líneas de actuación en el proceso de enseñanza aprendizaje que permiten alcanzar los objetivos generales del módulo están relacionadas con:\n\n– La identificación de herramientas y equipos, el conocimiento de sus especificaciones técnicas y la determinación y seguimiento de los procesos de sistemas Big Data.\n\n– La aplicación de técnicas de análisis de datos según problema planteado.\n\n– La configuración de cuadros de mando en entorno computacionales.\n\n– La evaluación y análisis del funcionamiento de los sistemas Big Data.\n\n– La visualización, representación e interpretación de resultados para obtener decisiones de negocio.\n\n– La aplicación de planes de mantenimiento de sistemas de Big Data, teniendo en cuenta la normativa vigente de control de calidad y de seguridad informática y protección de datos.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Aplica técnicas de análisis de datos que integran, procesan y analizan la información, adaptando e implementando sistemas que las utilicen.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han identificado conceptos básicos de matemática discreta, lógica algorítmica y complejidad computacional, y su aplicación para el tratamiento automático de la información por medio de sistemas computacionales."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se ha extraído de forma automática información y conocimiento a partir de grandes volúmenes de datos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se han combinado diferentes fuentes y tipos de datos."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se ha construido un conjunto de datos complejos y se han relacionado entre sí."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "Se han establecido objetivos y prioridades, secuenciación y organización del tiempo de realización."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "Se han seleccionado e integrado sistemas de información que satisfacen las necesidades del problema."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA1.g",
+              "descripcion": "Se han determinado criterios de coste y calidad necesarios para la eficacia y eficiencia de la implementación de un sistema Big Data."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Configura cuadros de mando en diferentes entornos computacionales usando técnicas de análisis de datos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han clasificado diferentes librerías e implementaciones de las técnicas de representación de la información."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se ha cruzado información sobre el objetivo a conseguir y la naturaleza de los datos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se ha realizado un cuadro de mandos utilizando técnicas sencillas."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se han utilizado técnicas predictivas complejas para anticiparse a lo que ocurra."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se ha evaluado el impacto del análisis de datos en la consecución de los objetivos propuestos."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Gestiona y almacena datos facilitando la búsqueda de respuestas en grandes conjuntos de datos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han extraído y almacenado datos de diversas fuentes, para ser tratados en distintos escenarios."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se ha fijado el objetivo de extraer valor de los datos para lo que es necesario contar con tecnologías eficientes."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "Se ha comprobado que la revolución digital exige poder almacenar y procesar ingentes cantidades de datos de distinto tipo y descubrir su valor."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "Se han desarrollado sistemas de gestión, almacenamiento y procesamiento de grandes volúmenes de datos de manera eficiente y segura, teniendo en cuenta la normativa existente."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "Se han utilizado habilidades científicas en entornos de trabajo multidisciplinares."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Aplica herramientas para la visualización de datos utilizadas en las soluciones Big Data facilitando las tareas de análisis y presentación de resultados.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han examinado distintos escenarios y tipologías de datos no estructurados."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se ha implantado la aplicación de la BI (Business Intelligence) para la extracción de valor."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se ha reconocido la importancia de almacenar grandes volúmenes de datos de forma distribuida y redundante en un clúster de máquinas."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se han determinado las diferencias en el entorno de aplicaciones relacionadas que facilitan el procesamiento de datos de manera rápida, eficiente y eficaz."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA4.e",
+              "descripcion": "Se ha comprobado la manera de programar y procesar automáticamente la estructura de datos."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA4.f",
+              "descripcion": "Se han valorado las diferentes formas de visualizar los datos que nos interese representar gráficamente, facilitando así las tareas de análisis y presentación de resultados."
+            },
+            {
+              "letra": "s",
+              "codigo": "RA4.s",
+              "descripcion": ""
+            },
+            {
+              "letra": "g",
+              "codigo": "RA4.g",
+              "descripcion": ","
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "5075",
+      "nombre": "Big Data aplicado",
+      "siglas": "BDA",
+      "curso_orientativo": "1º",
+      "horas": 75,
+      "creditos_ects": 8,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "c"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar las funciones de aplicar soluciones de Big Data, gestionar y monitorizar el almacenamiento de datos e información para tomar decisiones en los negocios.\n\nLas funciones antes citadas incluyen aspectos como:\n\n– Conocer distintos modelos de negocios de las empresas u organizaciones.\n\n– Gestionar, seleccionar y transformar la información y datos de los distintos negocios.\n\n– Implantar modelos adecuados de minería de datos.\n\n– Desarrollar e implementar soluciones a problemas propuestos.\n\n– Validar los modelos para la toma de decisiones de negocio.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales b), c), h), i), j), k), l), m), n), ñ), o) y p), así como las competencias profesionales, personales y sociales b), c), h), i), j), k), l), m), n), ñ), o), p), q), r) y s) del curso de especialización.\n\nLas líneas de actuación en el proceso de enseñanza aprendizaje que permiten alcanzar los objetivos generales del módulo están relacionadas con:\n\n– La gestión de soluciones a problemas con sistemas Big Data.\n\n– La gestión de sistemas de almacenamiento del ecosistema Big Data.\n\n– La generación de mecanismos de integración de datos, controlando y comprobando el mantenimiento de los sistemas.\n\n– La monitorización de un sistema que asegure la fiabilidad y estabilidad de los servicios Big Data programados.\n\n– La validación de técnicas Big Data para transformar la información obtenida en decisiones acertadas de negocios BI.\n\nANEXO II\n\nEspacios y equipamientos mínimos\n\nEspacios\n\nEspacio formativo\n\nSuperficie m²\n\n30 alumnos\n\n20 alumnos\n\nAula técnica\n\n60\n\n40\n\nEquipamientos mínimos\n\nEspacio formativo\n\nEquipamiento\n\nAula técnica\n\nSistemas de proyección\n\nMedios audiovisuales.\n\nProgramas informáticos específicos del curso de especialización.\n\nOrdenadores en red y con acceso a internet.\n\nSistemas de reprografía.\n\nSoftware de desarrollo y entorno Big Data.\n\nSoftware de gestión de datos y BI.\n\nSoftware de desarrollo y configuración de proyectos basados en Java y entornos Cloud Computing.\n\nAcceso a plataformas (open sources) de redes neuronales.\n\nLicencias de estudiantes.\n\nANEXO III A)\n\nEspecialidades del profesorado con atribución docente en los módulos profesionales del curso de especialización en Inteligencia Artificial y Big Data\n\nMódulo profesional\n\nEspecialidad del profesorado\n\nCuerpo\n\n5071. Modelos de Inteligencia Artificial.\n\n• Informática.\n\n• Sistemas Electrotécnicos y Automáticos.\n\n• Sistemas Electrónicos.\n\n• Catedráticos de Enseñanza Secundaria.\n\n• Profesores de Enseñanza Secundaria.\n\n• Profesor Especialista.\n\n5072. Sistemas de aprendizaje automático.\n\n• Informática.\n\n• Sistemas Electrónicos.\n\n• Sistemas Electrotécnicos y Automáticos.\n\n• Catedráticos de Enseñanza Secundaria.\n\n• Profesores de Enseñanza Secundaria.\n\n• Profesor Especialista.\n\n5073. Programación de inteligencia Artificial.\n\n• Informática.\n\n• Sistemas Electrónicos.\n\n• Sistemas Electrotécnicos y Automáticos.\n\n• Catedráticos de Enseñanza Secundaria.\n\n• Profesores de Enseñanza Secundaria.\n\n• Profesor Especialista.\n\n5074. Sistemas de Big Data.\n\n• Equipos Electrónicos\n\n• Instalaciones Electrotécnicas.\n\n• Sistemas y Aplicaciones Informáticas.\n\n• Profesores Técnicos de Formación Profesional.\n\n• Profesor Especialista.\n\n5075. Big Data aplicado.\n\n• Equipos Electrónicos.\n\n• Instalaciones Electrotécnicas.\n\n• Sistemas y Aplicaciones Informáticas.\n\n• Profesores Técnicos de Formación Profesional.\n\n• Profesor Especialista.\n\nANEXO III B)\n\nTitulaciones habilitantes a efectos de docencia\n\nCuerpo\n\nEspecialidad del profesorado\n\nTitulaciones\n\n• Catedráticos de Enseñanza Secundaria.\n\n• Profesores de Enseñanza Secundaria.\n\n• Informática.\n\n• Diplomado en Estadística.\n\n• Ingeniero Técnico en Informática de Gestión.\n\n• Ingeniero Técnico en Informática de Sistemas.\n\n• Ingeniero Técnico de Telecomunicación, especialidad en Telemática.\n\n• Sistemas Electrónicos.\n\n• Sistemas Electrotécnicos y Automáticos.\n\n• Diplomado en Radioelectrónica Naval.\n\n• Ingeniero Técnico Aeronáutico, especialidad en Aeronavegación.\n\n• Ingeniero Técnico en Informática de Sistemas.\n\n• Ingeniero Técnico Industrial, especialidad en Electricidad, especialidad en Electrónica Industrial.\n\n• Ingeniero Técnico de Telecomunicación, en todas sus especialidades.\n\nANEXO III C)\n\nTitulaciones requeridas para impartir los módulos profesionales que conforman el curso de especialización para los centros de titularidad privada, de otras administraciones distintas a la educativa y orientaciones para la administración educativa\n\nMódulos Profesionales\n\nTitulaciones\n\n5071. Modelos de Inteligencia Artificial.\n\n5072. Sistemas de aprendizaje automático.\n\n5073. Programación de inteligencia Artificial.\n\n• Doctor Licenciado, Ingeniero, Arquitecto o el título de Grado correspondiente u otros títulos equivalentes a efectos de docencia.\n\n5074. Sistemas de Big Data.\n\n5075. Big Data aplicado.\n\n• Doctor Licenciado, Ingeniero, Arquitecto o el título de Grado correspondiente u otros títulos equivalentes a efectos de docencia.\n\n• Diplomado Universitario, Arquitecto Técnico o Ingeniero Técnico u otros títulos equivalentes a efectos de docencia.\n\nANEXO III D)\n\nTitulaciones habilitantes a efectos de docencia para impartir módulos profesionales que conforman el curso de especialización para los centros de titularidad privada, de otras administraciones distintas a la educativa y orientaciones para la administración educativa\n\nMódulos profesionales\n\nTitulaciones\n\n5071. Modelos de Inteligencia Artificial.\n\n5072. Sistemas de aprendizaje automático.\n\n5073. Programación de Inteligencia Artificial.\n\n• Diplomado en Estadística.\n\n• Diplomado en Radioelectrónica Naval.\n\n• Ingeniero Técnico Aeronáutico, especialidad en Aeronavegación.\n\n• Ingeniero Técnico en Informática de Gestión.\n\n• Ingeniero Técnico en Informática de Sistemas.\n\n• Ingeniero Técnico Industrial, especialidad en Electricidad, especialidad en Electrónica Industrial.\n\n• Ingeniero Técnico de Telecomunicación, en todas sus especialidades.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Gestiona soluciones a problemas propuestos, utilizando sistemas de almacenamiento y herramientas asociadas al centro de datos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se ha caracterizado el proceso de diseño y construcción de soluciones en sistemas de almacenamiento de datos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han determinado los procedimientos y mecanismos para la ingestión de datos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "Se ha determinado el formato de datos adecuado para el almacenamiento."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "Se han procesado los datos almacenados,"
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "Se han presentado los resultados y las soluciones al cliente final en una forma fácil de interpretar."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "descripcion": "Gestiona sistemas de almacenamiento y el amplio ecosistema alrededor de ellos facilitando el procesamiento de grandes cantidades de datos sin fallos y de forma rápida.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se ha determinado la importancia de los sistemas de almacenamiento para depositar y procesar grandes cantidades de cualquier tipo de datos rápidamente."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se ha comprobado el poder de procesamiento de su modelo de computación distribuida."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se ha probado la tolerancia a fallos de los sistemas."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "Se ha determinado que se pueden almacenar tantos datos como se desee y decidir cómo utilizarlos más tarde."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "Se ha visualizado que el sistema puede crecer fácilmente añadiendo módulos."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "descripcion": "Genera mecanismos de integridad de los datos, comprobando su mantenimiento en los sistemas de ficheros distribuidos y valorando la sobrecarga que conlleva en el tratamiento de los datos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se ha valorado la importancia de la calidad de los datos en los sistemas de ficheros distribuidos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se ha valorado que a mayor volumen de tratamiento de datos corresponde un mayor peligro relacionado con la integridad de los datos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "Se ha reconocido que los sistemas de ficheros distribuidos implementan una suma de verificación para la comprobación de los contenidos de los archivos."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "Se ha reconocido el papel del servidor en los procesos previos a la suma de verificación."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "descripcion": "Realiza el seguimiento de la monitorización de un sistema, asegurando la fiabilidad y estabilidad de los servicios que se proveen.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han aplicado herramientas de monitorización eficiente de los recursos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han recogido métricas, procesamiento y visualización de los datos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "Se han generado alertas para detectar un riesgo o mal funcionamiento."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "Se ha comprobado que las herramientas usadas ofrecen un rendimiento elevado con rapidez."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA4.e",
+              "descripcion": "Se ha comprobado la fiabilidad de los datos según respuestas."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA4.f",
+              "descripcion": "Se ha analizado la estabilidad de servicios."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "descripcion": "Valida las técnicas de Big Data para transformar una gran cantidad de datos en información significativa, facilitando la toma de decisiones de negocios.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se han seleccionado gran cantidad de datos estructurados y no estructurados para reforzar la función de BI."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se ha realizado la limpieza y transformación de datos en base a los objetivos predeterminados."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "Se ha comprobado que el Big Data multiplica la relevancia y la utilidad del BI para el negocio."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "Se han conjugado dentro de un modelo de empresa datos de clientes, financieros de ventas, de productos, de marketing, de redes sociales, de la competencia, entre otros, para extraer un análisis valioso y efectivo para el negocio."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": "Se ha evaluado e interpretado la información extraída de los datos y su influencia en el triunfo de diferentes negocios."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA5.f",
+              "descripcion": "Se ha simulado la implantación de un modelo de Inteligencia de negocios BI."
+            },
+            {
+              "letra": "s",
+              "codigo": "RA5.s",
+              "descripcion": "."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

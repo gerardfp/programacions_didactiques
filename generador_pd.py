@@ -22,12 +22,18 @@ import re
 import glob
 import copy
 import json
+import shutil
 import zipfile
 import argparse
 import datetime
 import unicodedata
 import xml.etree.ElementTree as ET
 from typing import Dict, Any, List, Optional, Tuple
+
+try:
+    from pypdf import PdfReader
+except ImportError:
+    PdfReader = None
 
 # Configurar stdout/stderr en UTF-8 seguro para Windows
 if hasattr(sys.stdout, 'reconfigure'):
@@ -51,6 +57,13 @@ def safe_save_json(filepath: str, data: Any, indent: int = 2) -> str:
     Si 'filepath' ya existe, no se sobrescribe ni se borra: la NUEVA versión
     se guarda con una marca de tiempo (_YYYYMMDD_HHMMSS).
     Retorna la ruta donde se ha guardado el archivo.
+    Guarda los datos en formato JSON con codificación UTF-8 sin sobrescribir versiones previas.
+    POLÍTICA DE VERSIONADO Y ARCHIVADO:
+    1. La NUEVA versión siempre se guarda con marca de tiempo (_YYYYMMDD_HHMMSS) en el directorio de destino.
+    2. Las versiones anteriores del mismo tipo/familia de archivo existentes en dicho directorio
+       se trasladan a la subcarpeta 'old_jsons/'.
+    3. En el directorio raíz solo queda la versión más reciente.
+    Retorna la ruta donde se ha guardado el nuevo archivo.
     """
     target_path = filepath
     if os.path.exists(filepath):
@@ -64,11 +77,59 @@ def safe_save_json(filepath: str, data: Any, indent: int = 2) -> str:
         print(f"[*] El archivo base '{filepath}' ya existe. Nueva versión guardada como: '{target_path}'")
     else:
         print(f"[*] Guardando archivo nuevo: '{target_path}'")
+    dir_path = os.path.dirname(filepath) or "."
+    filename = os.path.basename(filepath)
+    stem, ext = os.path.splitext(filename)
+    if not ext:
+        ext = ".json"
 
+    # Extraer el prefijo base de la familia (quitando timestamp previo si existiera)
+    match = re.match(r"^(.*?)(?:_\d{8}_\d{6}(?:_\d+)?)?$", stem)
+    base_prefix = match.group(1) if match else stem
+
+    # Generar el nombre de la nueva versión con marca de tiempo
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    new_filename = f"{base_prefix}_{timestamp}{ext}"
+    target_path = os.path.join(dir_path, new_filename)
+    counter = 1
+    while os.path.exists(target_path):
+        new_filename = f"{base_prefix}_{timestamp}_{counter}{ext}"
+        target_path = os.path.join(dir_path, new_filename)
+        counter += 1
+
+    # Preparar la carpeta de archivado 'old_jsons'
+    old_dir = os.path.join(dir_path, "old_jsons")
+    os.makedirs(old_dir, exist_ok=True)
+
+    # Identificar y mover las versiones anteriores de esta misma familia en dir_path
+    family_pattern = rf"^{re.escape(base_prefix)}(?:_\d{{8}}_\d{{6}}(?:_\d+)?)?{re.escape(ext)}$"
+    for item in os.listdir(dir_path):
+        item_path = os.path.join(dir_path, item)
+        if not os.path.isfile(item_path):
+            continue
+        if os.path.abspath(item_path) == os.path.abspath(target_path):
+            continue
+        if re.match(family_pattern, item, re.IGNORECASE):
+            dest_name = item
+            dest_path = os.path.join(old_dir, dest_name)
+            if os.path.exists(dest_path):
+                d_stem, d_ext = os.path.splitext(dest_name)
+                c = 1
+                while os.path.exists(os.path.join(old_dir, f"{d_stem}_{c}{d_ext}")):
+                    c += 1
+                dest_path = os.path.join(old_dir, f"{d_stem}_{c}{d_ext}")
+            try:
+                shutil.move(item_path, dest_path)
+                print(f"[*] Versión anterior '{item}' archivada en 'old_jsons/{os.path.basename(dest_path)}'")
+            except Exception as e:
+                print(f"[WARN] No se pudo archivar '{item}' en 'old_jsons/': {e}", file=sys.stderr)
+
+    # Guardar la nueva versión en la raíz
     os.makedirs(os.path.dirname(os.path.abspath(target_path)), exist_ok=True)
     with open(target_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=indent)
     print(f"[OK] Archivo guardado correctamente en: '{target_path}'")
+    print(f"[OK] Nueva versión guardada en: '{target_path}'")
     return target_path
 
 
@@ -419,6 +480,32 @@ class PedagogicalSanitizer:
 
         ped_defaults = DEFAULT_CONFIG["pedagogia"]
 
+        # 0. Normalización de alias y estructuras anidadas
+        if "unidades" not in ped_data and "unidades_programacion" in ped_data:
+            ped_data["unidades"] = ped_data["unidades_programacion"]
+
+        if "ra_ponderaciones" not in ped_data and "ponderaciones_ra" in ped_data:
+            praw = ped_data["ponderaciones_ra"]
+            if isinstance(praw, list):
+                dict_w = {}
+                for item in praw:
+                    c = str(item.get("codigo") or item.get("ra") or "")
+                    m_num = re.search(r'\d+', c)
+                    k = m_num.group(0) if m_num else str(len(dict_w) + 1)
+                    dict_w[k] = float(item.get("peso", 0.0))
+                ped_data["ra_ponderaciones"] = dict_w
+            elif isinstance(praw, dict):
+                ped_data["ra_ponderaciones"] = {str(k): float(v) for k, v in praw.items()}
+
+        if "recursos" in ped_data and isinstance(ped_data["recursos"], dict):
+            if "recursos_software" not in ped_data and "software" in ped_data["recursos"]:
+                ped_data["recursos_software"] = ped_data["recursos"]["software"]
+            if "recursos_hardware" not in ped_data and "hardware" in ped_data["recursos"]:
+                ped_data["recursos_hardware"] = ped_data["recursos"]["hardware"]
+
+        if "espacios" in ped_data and isinstance(ped_data["espacios"], list):
+            ped_data["espacios"] = ", ".join(ped_data["espacios"])
+
         # 1. Ponderaciones de RAs
         ra_ponderaciones = ped_data.get("ra_ponderaciones")
         if not isinstance(ra_ponderaciones, dict) or len(ra_ponderaciones) == 0:
@@ -447,7 +534,18 @@ class PedagogicalSanitizer:
 
         # 4. Instrumentos de evaluación
         instrumentos = ped_data.get("instrumentos")
-        if not isinstance(instrumentos, dict) or len(instrumentos) == 0:
+        inst_eval_list = ped_data.get("instrumentos_evaluacion")
+        if (not isinstance(instrumentos, dict) or len(instrumentos) == 0) and isinstance(inst_eval_list, list) and len(inst_eval_list) > 0:
+            ped_data["instrumentos"] = {}
+            for r_key in ped_data["ra_ponderaciones"].keys():
+                ped_data["instrumentos"][r_key] = [
+                    {
+                        "nombre": item.get("nombre", "Instrumento de evaluación"),
+                        "peso_ra": float(item.get("porcentaje", item.get("peso", 50.0)))
+                    }
+                    for item in inst_eval_list
+                ]
+        elif not isinstance(instrumentos, dict) or len(instrumentos) == 0:
             ped_data["instrumentos"] = {}
             for r_key in ped_data["ra_ponderaciones"].keys():
                 ped_data["instrumentos"][r_key] = [
@@ -483,7 +581,9 @@ class PedagogicalSanitizer:
 
         # 8. Espacios
         esp = ped_data.get("espacios")
-        if not esp or not str(esp).strip():
+        if isinstance(esp, list):
+            ped_data["espacios"] = ", ".join(esp)
+        elif not esp or not str(esp).strip():
             ped_data["espacios"] = ped_defaults["espacios"]
             print(f"[AVISO] [Módulo {mod_code}] Faltan 'espacios'. Se asigna '{ped_defaults['espacios']}' por defecto.")
 
@@ -521,7 +621,18 @@ class BoeCurriculumParser:
         tree = ET.parse(xml_path)
         root = tree.getroot()
 
-        texto_elem = root.find('.//texto')
+        # Extraer título oficial de metadatos o texto
+        titulo_decreto = root.findtext('.//metadatos/titulo')
+        if titulo_decreto:
+            titulo_decreto = titulo_decreto.strip()
+
+        # Buscar el elemento de texto con contenido
+        texto_elem = root.find('./texto')
+        if texto_elem is None or len(list(texto_elem.iter('p'))) == 0:
+            for cand in root.findall('.//texto'):
+                if len(list(cand.iter('p'))) > 0:
+                    texto_elem = cand
+                    break
         if texto_elem is None:
             texto_elem = root
 
@@ -531,37 +642,74 @@ class BoeCurriculumParser:
             if t:
                 p_texts.append(t)
 
-        titulo_decreto = ""
-        for p in p_texts[:12]:
-            if "Real Decreto" in p or "Orden" in p:
-                titulo_decreto = p
-                break
+        if not titulo_decreto:
+            for p in p_texts[:15]:
+                if "Real Decreto" in p or "Orden" in p:
+                    titulo_decreto = p
+                    break
         if not titulo_decreto:
             titulo_decreto = f"Decreto oficial ({os.path.basename(xml_path)})"
 
-        cycle_key = forced_ciclo.strip().upper() if forced_ciclo else os.path.splitext(os.path.basename(xml_path))[0].upper()
+        file_base = os.path.splitext(os.path.basename(xml_path))[0].upper()
+        if forced_ciclo:
+            cycle_key = forced_ciclo.strip().upper()
+        elif "IABD" in file_base or "IA" in file_base:
+            cycle_key = "IA"
+        else:
+            cycle_key = file_base
 
+        is_ce = "ESPECIALIZACI" in titulo_decreto.upper() or cycle_key in ["IA", "IABD", "CEIABD"]
+        nivel = "Curso de Especialización" if is_ce else DEFAULT_CONFIG["metadata"]["nivel"]
+        if is_ce and "Inteligencia Artificial" in titulo_decreto:
+            titulo_ciclo = "Curso de Especialización en Inteligencia Artificial y Big Data"
+        else:
+            titulo_ciclo = f"Ciclo Formativo en {cycle_key}"
+
+        # Extraer competencias profesionales, personales y sociales
         competencias = {}
+        in_comp = False
         for p in p_texts:
-            m = re.match(r'^([a-zñ])\)\s+(.+)', p)
-            if m:
-                letra = m.group(1)
-                desc = m.group(2).strip()
-                if letra not in competencias:
-                    competencias[letra] = desc
+            if not competencias and (
+                re.search(r'^Art[ií]culo\s+\d+[\.\s]+Competencias\s+profesionales', p.strip(), re.I) or
+                re.search(r'^Competencias\s+profesionales,\s*personales\s+y\s+sociales', p.strip(), re.I)
+            ):
+                in_comp = True
+                continue
+            if in_comp:
+                if re.search(r'^Art[ií]culo\s+\d+\b', p.strip(), re.I) or re.search(r'^Cap[ií]tulo\b', p.strip(), re.I) or re.match(r'^ANEXO\b', p.strip(), re.I):
+                    in_comp = False
+                    continue
+                m = re.match(r'^([a-zñáéíóú])\)\s*(.+)', p, re.IGNORECASE)
+                if m:
+                    competencias[m.group(1).lower()] = m.group(2).strip()
 
+        # Fallback para estructuras donde no hay delimitador estricto
+        if not competencias:
+            for p in p_texts:
+                m = re.match(r'^([a-zñ])\)\s+(.+)', p)
+                if m:
+                    letra = m.group(1).lower()
+                    if letra not in competencias and len(m.group(2).strip()) > 10:
+                        competencias[letra] = m.group(2).strip()
+
+        # Delimitar Anexo I (módulos) y Anexo II
         anexo1_idx = 0
         for idx, p in enumerate(p_texts):
-            if 'ANEXO I' in p.strip().upper():
+            if re.match(r'^ANEXO\s+I\b', p.strip(), re.I):
                 anexo1_idx = idx
                 break
 
+        anexo2_idx = len(p_texts)
+        for idx in range(anexo1_idx + 1, len(p_texts)):
+            if re.match(r'^ANEXO\s+II\b', p.strip(), re.I):
+                anexo2_idx = idx
+                break
+
         mod_starts = []
-        for idx in range(anexo1_idx, len(p_texts)):
-            p = p_texts[idx]
-            if 'Módulo Profesional:' in p or 'Modulo Profesional:' in p:
+        for idx in range(anexo1_idx, anexo2_idx):
+            if re.search(r'^M[oó]dulo\s+profesional\s*:', p_texts[idx], re.I):
                 mod_starts.append(idx)
-        mod_starts.append(len(p_texts))
+        mod_starts.append(anexo2_idx)
 
         modules = []
         for i in range(len(mod_starts) - 1):
@@ -570,14 +718,29 @@ class BoeCurriculumParser:
             m_lines = p_texts[s_idx:e_idx]
 
             header_line = m_lines[0]
-            m_name = re.sub(r'^M[oó]dulo\s+Profesional:\s*', '', header_line, flags=re.IGNORECASE).strip()
+            m_name = re.sub(r'^M[oó]dulo\s+profesional\s*:\s*', '', header_line, flags=re.IGNORECASE).rstrip('.').strip()
 
             m_code = ""
-            for l in m_lines[:5]:
-                code_m = re.search(r'C[oó]digo:\s*(\d{3,4})', l)
+            ects = 0
+            mod_hours = 0
+            for l in m_lines[:8]:
+                code_m = re.search(r'C[oó]digo:\s*(\d{3,4})', l, re.I)
                 if code_m:
                     m_code = code_m.group(1).zfill(4)
+                ects_m = re.search(r'cr[eé]ditos\s+ECTS:\s*(\d+)', l, re.I)
+                if ects_m:
+                    ects = int(ects_m.group(1))
+
+            for l in m_lines:
+                h_m = re.search(r'Duraci[oó]n:\s*(\d+)\s*horas', l, re.I)
+                if h_m:
+                    mod_hours = int(h_m.group(1))
                     break
+
+            if not mod_hours:
+                mod_hours = (ects * 25) if ects > 0 else 160
+            if not ects and mod_hours:
+                ects = max(1, round(mod_hours / 25))
             if not m_code:
                 m_code = str(i + 1).zfill(4)
 
@@ -588,19 +751,22 @@ class BoeCurriculumParser:
             in_orientaciones = False
 
             for l in m_lines:
-                if 'Resultados de aprendizaje y criterios de evaluación' in l or 'Resultados de aprendizaje' in l:
+                if re.search(r'Resultados\s+de\s+aprendizaje\s+y\s+criterios\s+de\s+evaluaci[oó]n', l, re.I) or re.search(r'^Resultados\s+de\s+aprendizaje\b', l, re.I):
                     in_ras = True
                     continue
-                if 'Orientaciones pedagógicas' in l:
+                if re.search(r'Orientaciones\s+pedag[oó]gicas', l, re.I):
                     in_ras = False
                     in_orientaciones = True
                     continue
                 if in_orientaciones:
-                    orientaciones.append(l)
+                    if re.search(r'Duraci[oó]n:\s*\d+\s*horas', l, re.I):
+                        in_orientaciones = False
+                    else:
+                        orientaciones.append(l)
                     continue
                 if in_ras:
                     ra_m = re.match(r'^(\d+)\.\s*(.+)', l)
-                    if ra_m and not l.startswith('Criterios'):
+                    if ra_m and not re.match(r'^Criterios\s+de\s+evaluaci[oó]n', l, re.I):
                         if current_ra:
                             ras.append(current_ra)
                         current_ra = {
@@ -610,20 +776,32 @@ class BoeCurriculumParser:
                         }
                         continue
                     if current_ra:
-                        ces_matches = re.findall(r'([a-zñ])\)\s*([^a-zñ\)]+)', l)
-                        for letter, ce_desc in ces_matches:
+                        ce_m = re.match(r'^([a-zñáéíóú])\)\s*(.+)', l, re.I)
+                        if ce_m:
+                            letter = ce_m.group(1).lower()
+                            ra_num = current_ra["numero"]
                             current_ra["criterios_evaluacion"].append({
                                 "letra": letter,
-                                "descripcion": ce_desc.strip()
+                                "codigo": f"RA{ra_num}.{letter}",
+                                "descripcion": ce_m.group(2).strip()
                             })
+                        else:
+                            # Intento de extracción múltiple si vienen agrupados
+                            ces_matches = re.findall(r'([a-zñ])\)\s*([^a-zñ\)]+)', l)
+                            for letter, ce_desc in ces_matches:
+                                ra_num = current_ra["numero"]
+                                current_ra["criterios_evaluacion"].append({
+                                    "letra": letter.lower(),
+                                    "codigo": f"RA{ra_num}.{letter.lower()}",
+                                    "descripcion": ce_desc.strip()
+                                })
+
             if current_ra:
                 ras.append(current_ra)
 
             orientaciones_text = "\n\n".join([o.strip() for o in orientaciones if o.strip()])
             mod_comps = list(competencias.keys())[:3]
-            curso = "1º" if (i % 2 == 0) else "2º"
-            mod_hours = 160
-            ects = round(mod_hours / 25)
+            curso = "1º" if (is_ce or i % 2 == 0) else "2º"
 
             modules.append({
                 "codigo": m_code,
@@ -642,9 +820,9 @@ class BoeCurriculumParser:
         return {
             "ciclo": cycle_key,
             "codigo_ciclo": f"IFC_{cycle_key}",
-            "titulo": f"Ciclo Formativo en {cycle_key}",
+            "titulo": titulo_ciclo,
             "familia_profesional": meta_def["familia_profesional"],
-            "nivel": meta_def["nivel"],
+            "nivel": nivel,
             "normativa_referencia": titulo_decreto,
             "competencias_profesionales_personales_sociales": competencias,
             "cualificaciones_profesionales": [],
@@ -773,11 +951,10 @@ class PedagogicalScaffoldGenerator:
                 }
             ]
         else:
-            hours_per_ra = max(10, total_hours // num_ras)
+            hours_per_ra = max(1, total_hours // num_ras)
             for idx, ra in enumerate(ras, start=1):
                 r_num = ra.get("numero", idx)
-                r_desc = ra.get("descripcion", "").strip()
-                short_desc = r_desc[:50].rstrip(",.:; ") + "..." if len(r_desc) > 50 else r_desc
+                r_desc = ra.get("descripcion", "").strip().rstrip(",.:; ")
 
                 if idx <= max(1, (num_ras + 2) // 3):
                     trim = "1er Trimestre"
@@ -786,11 +963,11 @@ class PedagogicalScaffoldGenerator:
                 else:
                     trim = "3er Trimestre"
 
-                u_hours = hours_per_ra if idx < num_ras else (total_hours - hours_per_ra * (num_ras - 1))
+                u_hours = hours_per_ra if idx < num_ras else max(1, (total_hours - hours_per_ra * (num_ras - 1)))
 
                 unidades.append({
                     "codigo": f"UP {idx}",
-                    "nombre": f"Unidad de Programación {idx}: {short_desc}",
+                    "nombre": f"Unidad de Programación {idx}: {r_desc}",
                     "ras": [r_num],
                     "horas": u_hours,
                     "trimestre": trim,
@@ -859,8 +1036,32 @@ def run_generate_all_pedagogy(base_dir: str = ".") -> List[str]:
     curr_files = glob.glob(os.path.join(base_dir, "curriculum_*.json"))
     base_currs = [f for f in curr_files if not re.search(r'_\d{8}_\d{6}', f)]
     print(f"[*] Generando JSON pedagógico para {len(base_currs)} ciclos disponibles...")
+    cycle_files: Dict[str, List[str]] = {}
+    json_pattern = os.path.join(base_dir, "curriculum_*.json")
+    for j_file in glob.glob(json_pattern):
+        m = re.search(r'curriculum_([a-zA-Z0-9]+)(?:_\d{8}_\d{6}(?:_\d+)?)?\.json', os.path.basename(j_file), re.IGNORECASE)
+        if m:
+            c_code = m.group(1).upper()
+            cycle_files.setdefault(c_code, []).append(j_file)
+
+    # Check old_jsons as fallback if any cycle is missing
+    old_json_pattern = os.path.join(base_dir, "old_jsons", "curriculum_*.json")
+    for j_file in glob.glob(old_json_pattern):
+        m = re.search(r'curriculum_([a-zA-Z0-9]+)(?:_\d{8}_\d{6}(?:_\d+)?)?\.json', os.path.basename(j_file), re.IGNORECASE)
+        if m:
+            c_code = m.group(1).upper()
+            if c_code not in cycle_files:
+                cycle_files.setdefault(c_code, []).append(j_file)
+
+    latest_currs = []
+    for c_code, flist in sorted(cycle_files.items()):
+        flist.sort(key=lambda p: (PedagogicalDataProvider._extract_timestamp(p), os.path.getmtime(p)), reverse=True)
+        latest_currs.append(flist[0])
+
+    print(f"[*] Generando JSON pedagógico para {len(latest_currs)} ciclos disponibles...")
     generated = []
     for c_file in sorted(base_currs):
+    for c_file in latest_currs:
         saved = run_generate_cycle_pedagogy(c_file)
         generated.append(saved)
         print(f"    - {c_file} -> {saved}")
@@ -887,12 +1088,23 @@ class CurriculumRepository:
         json_pattern = os.path.join(self.base_dir, "curriculum_*.json")
         for j_file in glob.glob(json_pattern):
             m = re.search(r'curriculum_([a-zA-Z0-9]+)(?:_\d{8}_\d{6})?\.json', os.path.basename(j_file), re.IGNORECASE)
+            m = re.search(r'curriculum_([a-zA-Z0-9]+)(?:_\d{8}_\d{6}(?:_\d+)?)?\.json', os.path.basename(j_file), re.IGNORECASE)
             if m:
                 c_code = m.group(1).upper()
                 cycle_files.setdefault(c_code, []).append(j_file)
 
+        # Fallback a old_jsons si algún ciclo no está en la raíz
+        old_json_pattern = os.path.join(self.base_dir, "old_jsons", "curriculum_*.json")
+        for j_file in glob.glob(old_json_pattern):
+            m = re.search(r'curriculum_([a-zA-Z0-9]+)(?:_\d{8}_\d{6}(?:_\d+)?)?\.json', os.path.basename(j_file), re.IGNORECASE)
+            if m:
+                c_code = m.group(1).upper()
+                if c_code not in cycle_files:
+                    cycle_files.setdefault(c_code, []).append(j_file)
+
         for c_code, file_list in cycle_files.items():
             file_list.sort(key=lambda p: os.path.getmtime(p), reverse=True)
+            file_list.sort(key=lambda p: (PedagogicalDataProvider._extract_timestamp(p), os.path.getmtime(p)), reverse=True)
             chosen_file = file_list[0]
             try:
                 with open(chosen_file, "r", encoding="utf-8") as f:
@@ -909,7 +1121,8 @@ class CurriculumRepository:
         if os.path.exists(xml_dir):
             for x_file in glob.glob(os.path.join(xml_dir, "*.xml")):
                 base_name = os.path.splitext(os.path.basename(x_file))[0].upper()
-                if base_name not in self.curriculums and base_name != "DAM_DAW":
+                mapped_name = "IA" if "IABD" in base_name else base_name
+                if mapped_name not in self.curriculums and base_name not in self.curriculums and base_name != "DAM_DAW":
                     try:
                         parsed = BoeCurriculumParser.parse_xml_file(x_file)
                         if isinstance(parsed, dict) and "ciclo" in parsed:
@@ -987,6 +1200,9 @@ class PedagogicalDataProvider:
         pattern = os.path.join(self.base_dir, "pedagogia*.json")
         existing = glob.glob(pattern)
         if not existing:
+            old_pattern = os.path.join(self.base_dir, "old_jsons", "pedagogia*.json")
+            if glob.glob(old_pattern):
+                return
             print("[AVISO] No se encontró ningún archivo de pedagogía en el sistema.")
             print("[AVISO] Generando archivo de pedagogía global genérico: 'pedagogia.json'...")
             default_global = {
@@ -1065,6 +1281,17 @@ class PedagogicalDataProvider:
                 fname = os.path.basename(fpath)
                 if re.match(rf'^pedagogia_{re.escape(c_lower)}_{re.escape(mid)}(?:_\d{{8}}_\d{{6}})?\.json$'.replace('{{8}}', '{8}').replace('{{6}}', '{6}'), fname, re.IGNORECASE):
                     level1_candidates.append(fpath)
+            for search_dir in [self.base_dir, os.path.join(self.base_dir, "old_jsons")]:
+                if not os.path.exists(search_dir):
+                    continue
+                for fpath in glob.glob(os.path.join(search_dir, pattern)):
+                    fname = os.path.basename(fpath)
+                    if re.match(rf'^pedagogia_{re.escape(c_lower)}_{re.escape(mid)}(?:_\d{{8}}_\d{{6}}(?:_\d+)?)?\.json$', fname, re.IGNORECASE):
+                        level1_candidates.append(fpath)
+                if level1_candidates:
+                    break
+            if level1_candidates:
+                break
 
         if level1_candidates:
             level1_candidates.sort(key=lambda p: (self._extract_timestamp(p), os.path.getmtime(p)), reverse=True)
@@ -1096,6 +1323,15 @@ class PedagogicalDataProvider:
                 fname = os.path.basename(fpath)
                 if re.match(rf'^pedagogia_{re.escape(c_lower)}(?:_\d{{8}}_\d{{6}})?\.json$'.replace('{{8}}', '{8}').replace('{{6}}', '{6}'), fname, re.IGNORECASE):
                     level2_candidates.append(fpath)
+            for search_dir in [self.base_dir, os.path.join(self.base_dir, "old_jsons")]:
+                if not os.path.exists(search_dir):
+                    continue
+                for fpath in glob.glob(os.path.join(search_dir, pattern)):
+                    fname = os.path.basename(fpath)
+                    if re.match(rf'^pedagogia_{re.escape(c_lower)}(?:_\d{{8}}_\d{{6}}(?:_\d+)?)?\.json$', fname, re.IGNORECASE):
+                        level2_candidates.append(fpath)
+                if level2_candidates:
+                    break
 
             if level2_candidates:
                 level2_candidates.sort(key=lambda p: (self._extract_timestamp(p), os.path.getmtime(p)), reverse=True)
@@ -1131,6 +1367,15 @@ class PedagogicalDataProvider:
                 fname = os.path.basename(fpath)
                 if re.match(r'^pedagogia(?:_\d{8}_\d{6})?\.json$', fname, re.IGNORECASE):
                     level3_candidates.append(fpath)
+            for search_dir in [self.base_dir, os.path.join(self.base_dir, "old_jsons")]:
+                if not os.path.exists(search_dir):
+                    continue
+                for fpath in glob.glob(os.path.join(search_dir, "pedagogia*.json")):
+                    fname = os.path.basename(fpath)
+                    if re.match(r'^pedagogia(?:_\d{8}_\d{6}(?:_\d+)?)?\.json$', fname, re.IGNORECASE):
+                        level3_candidates.append(fpath)
+                if level3_candidates:
+                    break
 
             if level3_candidates:
                 level3_candidates.sort(key=lambda p: (self._extract_timestamp(p), os.path.getmtime(p)), reverse=True)
@@ -1576,7 +1821,7 @@ class FodtTemplateEngine:
             "{{acreditacion}}": acreditacion_text,
             "{{metodologia_especifica}}": ped_info.get("metodologia", ""),
             "{{recursos_especificos}}": "",
-            "{{espacios_especificos}}": ped_info.get("espacios", ""),
+            "{{espacios_especificos}}": ", ".join(ped_info["espacios"]) if isinstance(ped_info.get("espacios"), list) else str(ped_info.get("espacios", "")),
             "{{formula_evaluacion}}": ped_info.get("formula_evaluacion", "")
         }
 
@@ -1831,12 +2076,12 @@ def main():
     args = parser.parse_args()
 
 
-    # --- ACCIÓN 2: PARSEAR XML DEL BOE ---
+    # --- ACCIÓN 1: PARSEAR XML DEL BOE ---
     if args.parse_xml:
         run_parse_curriculum(args.parse_xml, ciclo=args.ciclo, output_path=args.output)
         return
 
-    # --- ACCIÓN 3: GENERAR ANDAMIAJE PEDAGÓGICO JSON ---
+    # --- ACCIÓN 2: GENERAR ANDAMIAJE PEDAGÓGICO JSON ---
     if args.generar_pedagogia:
         if args.all:
             run_generate_all_pedagogy(".")
@@ -1850,7 +2095,7 @@ def main():
             print("[ERROR] Debe especificar --ciclo <CODIGO> o --all junto con --generar-pedagogia.", file=sys.stderr)
             sys.exit(1)
 
-    # --- ACCIÓN 4: GENERAR PROGRAMACIONES DIDÁCTICAS ODT ---
+    # --- ACCIÓN 3: GENERAR PROGRAMACIONES DIDÁCTICAS ODT ---
     systematic_gen = SystematicProgramacionGenerator(".", template_path=args.plantilla)
 
     if args.all:

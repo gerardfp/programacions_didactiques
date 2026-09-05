@@ -1,0 +1,1799 @@
+{
+  "0221": {
+    "nombre": "Montaje y mantenimiento de equipos",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "1r(75 hores)",
+        "ras": [
+          1
+        ],
+        "horas": 55,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "2n(77hores)",
+        "ras": [
+          2
+        ],
+        "horas": 55,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "3r(72hores)",
+        "ras": [
+          3
+        ],
+        "horas": 55,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 12.5,
+      "2": 12.5,
+      "3": 12.5,
+      "4": 12.5,
+      "5": 12.5,
+      "6": 12.5,
+      "7": 12.5,
+      "8": 12.5
+    },
+    "formula_evaluacion": "Módulo = 0.12 · RA_1 + 0.12 · RA_2 + 0.12 · RA_3 + 0.12 · RA_4 + 0.12 · RA_5 + 0.12 · RA_6 + 0.12 · RA_7 + 0.12 · RA_8",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "b) Activitats i estratègies d’ensenyança i aprenentatge. PAGEREF _Toc212372405 \\h 15\n\nEste document té com a finalitat el desenrotllament de la programació didàctica per al mòdul de «Muntatge i Manteniment d’Equips » en el cicle formatiu de grau mitjà de Sistemes Microinformàtics i Xarxes, tenint en compte les següents normatives:\n\nLlei Orgànica 2/2006, de 3 de maig, d'Educació Llei Orgànica (LOE) que es refereix a la Formació Professional Específica.",
+    "recursos_software": [
+      "Moodle"
+    ],
+    "recursos_hardware": [
+      "PC",
+      "ordinador personal",
+      "connexió a Internet",
+      "servidor"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "0222": {
+    "nombre": "Sistemas operativos monopuesto",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "RA1 - UNITAT 1. Introducció  als sistemes informàtics",
+        "ras": [
+          1
+        ],
+        "horas": 13,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "RA1 - UNITAT 2. Sistemas operatius. Elements, estructura i funcions generals.",
+        "ras": [
+          2
+        ],
+        "horas": 13,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "RA5 - UNITAT 3. Instal·lació i configuració de màquines virtuals.",
+        "ras": [
+          3
+        ],
+        "horas": 13,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "RA3 - UNITAT 4.Gestió dels recursos del sistema operatiu.",
+        "ras": [
+          4
+        ],
+        "horas": 13,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "RA3 - UNITAT 5. Sistemes d’arxius.",
+        "ras": [
+          5
+        ],
+        "horas": 13,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "RA2 - UNITAT 6. Instal·lació de sistemes operatius lliures i propietaris.",
+        "ras": [
+          5
+        ],
+        "horas": 13,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "RA3 - UNITAT 7. Tasques bàsiques en sistemes operatius lliures i propietaris.",
+        "ras": [
+          5
+        ],
+        "horas": 13,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "RA3 - UNITAT 8. Línia d'ordres en sistemes operatius lliures.",
+        "ras": [
+          5
+        ],
+        "horas": 13,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 9",
+        "nombre": "RA4 - UNITAT 9. Administració de sistemes operatius lliures i propietaris.",
+        "ras": [
+          5
+        ],
+        "horas": 13,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "b) Activitats i estratègies d’ensenyança i aprenentatge.22\n\n•Al començament del mòdul, es farà una petita introducció del mòdul, explicant quins són els objectius terminals principals que es busca aconseguir amb el seu estudi.\n\n•Al començament de cada unitat formativa, es farà també una petita introducció per intentar motivar els/les alumnes.",
+    "recursos_software": [
+      "Moodle",
+      "Linux",
+      "MOODLE",
+      "LibreOffice",
+      "VirtualBox"
+    ],
+    "recursos_hardware": [
+      "connexió a Internet",
+      "connexió a internet",
+      "servidors",
+      "servidor"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "0223": {
+    "nombre": "Aplicaciones ofimáticas",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "RA 1",
+        "ras": [
+          1
+        ],
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "RA 2",
+        "ras": [
+          2
+        ],
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "RA 3",
+        "ras": [
+          3
+        ],
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "RA 4",
+        "ras": [
+          4
+        ],
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "RA 5",
+        "ras": [
+          5
+        ],
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "RA 6",
+        "ras": [
+          6
+        ],
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "RA 7",
+        "ras": [
+          7
+        ],
+        "horas": 25,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "RA 8",
+        "ras": [
+          8
+        ],
+        "horas": 25,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 9",
+        "nombre": "RA 9",
+        "ras": [
+          9
+        ],
+        "horas": 25,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 11.1,
+      "2": 11.1,
+      "3": 11.1,
+      "4": 11.1,
+      "5": 11.1,
+      "6": 11.1,
+      "7": 11.1,
+      "8": 11.1,
+      "9": 11.2
+    },
+    "formula_evaluacion": "Módulo = 0.11 · RA_1 + 0.11 · RA_2 + 0.11 · RA_3 + 0.11 · RA_4 + 0.11 · RA_5 + 0.11 · RA_6 + 0.11 · RA_7 + 0.11 · RA_8 + 0.11 · RA_9",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "9": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "b) Activitats i estratègies d’ensenyança i aprenentatge.\n\nEste document té com a finalitat el desenrotllament de la programació didàctica per al mòdul de «Aplicacions Ofimàtiques» en el cicle formatiu de grau mitjà de Sistemes Microinformàtics i Xarxes, tenint en compte les següents normatives:\n\n•Llei Orgànica 2/2006, de 3 de maig, d'Educació Llei Orgànica (LOE) que es refereix a la Formació Professional Específica.",
+    "recursos_software": [
+      "Office 365",
+      "MOODLE"
+    ],
+    "recursos_hardware": [
+      "connexió a Internet",
+      "dispositius mòbils",
+      "servidor"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "0224": {
+    "nombre": "Sistemas operativos en red",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "RA1 - UNITAT 1. Introducció  als sistemes informàtics",
+        "ras": [
+          1
+        ],
+        "horas": 14,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "RA1 - UNITAT 2. Sistemas operatius. Elements, estructura i funcions generals.",
+        "ras": [
+          2
+        ],
+        "horas": 14,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "RA5 - UNITAT 3. Instal·lació i configuració de màquines virtuals.",
+        "ras": [
+          3
+        ],
+        "horas": 14,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "RA3 - UNITAT 4.Gestió dels recursos del sistema operatiu.",
+        "ras": [
+          4
+        ],
+        "horas": 14,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "RA3 - UNITAT 5. Sistemes d’arxius.",
+        "ras": [
+          5
+        ],
+        "horas": 14,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "RA2 - UNITAT 6. Instal·lació de sistemes operatius lliures i propietaris.",
+        "ras": [
+          6
+        ],
+        "horas": 14,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "RA3 - UNITAT 7. Tasques bàsiques en sistemes operatius lliures i propietaris.",
+        "ras": [
+          6
+        ],
+        "horas": 14,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "RA3 - UNITAT 8. Línia d'ordres en sistemes operatius lliures.",
+        "ras": [
+          6
+        ],
+        "horas": 14,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 9",
+        "nombre": "RA4 - UNITAT 9. Administració de sistemes operatius lliures i propietaris.",
+        "ras": [
+          6
+        ],
+        "horas": 14,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 16.7,
+      "2": 16.7,
+      "3": 16.7,
+      "4": 16.7,
+      "5": 16.7,
+      "6": 16.5
+    },
+    "formula_evaluacion": "Módulo = 0.17 · RA_1 + 0.17 · RA_2 + 0.17 · RA_3 + 0.17 · RA_4 + 0.17 · RA_5 + 0.17 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "b) Activitats i estratègies d’ensenyança i aprenentatge.22\n\n•Al començament del mòdul, es farà una petita introducció del mòdul, explicant quins són els objectius terminals principals que es busca aconseguir amb el seu estudi.\n\n•Al començament de cada unitat formativa, es farà també una petita introducció per intentar motivar els/les alumnes.",
+    "recursos_software": [
+      "Moodle",
+      "Linux",
+      "Ubuntu",
+      "MOODLE",
+      "LibreOffice",
+      "Windows Server",
+      "VirtualBox"
+    ],
+    "recursos_hardware": [
+      "connexió a Internet",
+      "connexió a internet",
+      "servidors",
+      "servidor"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "0225": {
+    "nombre": "Redes locales",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "Prevenció de Riscos Laborals i Medi Ambient",
+        "ras": [
+          1
+        ],
+        "horas": 28,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "Introducció a les xarxes locals",
+        "ras": [
+          2
+        ],
+        "horas": 28,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "Disseny i planificació d'una xarxa local",
+        "ras": [
+          3
+        ],
+        "horas": 28,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "Configuració bàsica d'una xarxa local",
+        "ras": [
+          4
+        ],
+        "horas": 28,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "Muntatge de xarxes locals cablejades",
+        "ras": [
+          5
+        ],
+        "horas": 28,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "Instal·lació de xarxes sense fils",
+        "ras": [
+          6
+        ],
+        "horas": 28,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "Manteniment de xarxes locals",
+        "ras": [
+          6
+        ],
+        "horas": 28,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 16.7,
+      "2": 16.7,
+      "3": 16.7,
+      "4": 16.7,
+      "5": 16.7,
+      "6": 16.5
+    },
+    "formula_evaluacion": "Módulo = 0.17 · RA_1 + 0.17 · RA_2 + 0.17 · RA_3 + 0.17 · RA_4 + 0.17 · RA_5 + 0.17 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "En relació amb la resta de mòduls professionals.\n\nAquesta programació didàctica ha de ser coherent amb les de la resta de mòduls professionals del cicle formatiu, per a assegurar la formació integral de l'alumnat. Aquest procés de coordinació es realitzarà a través de les reunions d'equip docent i de departament didàctic, sent el Projecte Curricular del Cicle Formatiu el document que arreplega els eixos principals d'actuació.\n\nEn este sentit, el present mòdul professional té una relació directa amb els mòduls professionals 0222 Sistemes operatius monolloc, 0224 Sistemes operatius en xarxa, 0226 Seguretat informàtica i 0227 Servicis de xarxa.",
+    "recursos_software": [
+      "Packet tracer",
+      "Oracle",
+      "Office 365",
+      "Wireshark",
+      "Packet Tracer",
+      "packet tracer",
+      "VirtualBox"
+    ],
+    "recursos_hardware": [
+      "switches",
+      "Switches",
+      "Servidor",
+      "encaminadors",
+      "Pcs",
+      "commutadors",
+      "servidor"
+    ],
+    "espacios": "Laboratori d'informàtica"
+  },
+  "0226": {
+    "nombre": "Seguridad informática",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Aplica medidas de seguridad pasiva en sistemas inf...",
+        "ras": [
+          1
+        ],
+        "horas": 21,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Gestiona dispositivos de almacenamiento describien...",
+        "ras": [
+          2
+        ],
+        "horas": 21,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Aplica mecanismos de seguridad activa describiendo...",
+        "ras": [
+          3
+        ],
+        "horas": 21,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Asegura la privacidad de la información transmitid...",
+        "ras": [
+          4
+        ],
+        "horas": 21,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Reconoce la legislación y normativa sobre segurida...",
+        "ras": [
+          5
+        ],
+        "horas": 21,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Seguridad informática se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0227": {
+    "nombre": "Servicios en red",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "1r(117 hores)",
+        "ras": [
+          1
+        ],
+        "horas": 46,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "2n(116 hores)",
+        "ras": [
+          2
+        ],
+        "horas": 46,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 12.5,
+      "2": 12.5,
+      "3": 12.5,
+      "4": 12.5,
+      "5": 12.5,
+      "6": 12.5,
+      "7": 12.5,
+      "8": 12.5
+    },
+    "formula_evaluacion": "Módulo = 0.12 · RA_1 + 0.12 · RA_2 + 0.12 · RA_3 + 0.12 · RA_4 + 0.12 · RA_5 + 0.12 · RA_6 + 0.12 · RA_7 + 0.12 · RA_8",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "b) Activitats i estratègies d’ensenyança i aprenentatge.\n\nEste document té com a finalitat el desenrotllament de la programació didàctica per al mòdul de «Servicis en xarxa» en el cicle formatiu de grau mitjà de Sistemes Microinformàtics i Xarxes, tenint en compte les següents normatives:\n\nLlei Orgànica 2/2006, de 3 de maig, d'Educació Llei Orgànica (LOE) que es refereix a la Formació Professional Específica.",
+    "recursos_software": [
+      "apache",
+      "Apache",
+      "Linux",
+      "Ubuntu",
+      "ubuntu",
+      "linux"
+    ],
+    "recursos_hardware": [
+      "servidors",
+      "connexió a Internet",
+      "Servidors",
+      "encaminador",
+      "Encaminadors",
+      "servidor"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "0228": {
+    "nombre": "Aplicaciones web",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "Temporalització",
+        "ras": [
+          1
+        ],
+        "horas": 11,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "10 sessions",
+        "ras": [
+          2
+        ],
+        "horas": 11,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "Conceptes",
+        "ras": [
+          3
+        ],
+        "horas": 11,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "La web i les seues aplicacions Conceptes bàsics d'Internet Fonaments de la web i evolució de la webServeis Web. Funcionament bàsic d'un servei web Disseny, edició i gestió de blocs. Conceptes de Webs 2.0",
+        "ras": [
+          4
+        ],
+        "horas": 11,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "Procediments",
+        "ras": [
+          5
+        ],
+        "horas": 11,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "Cerques en Internet Creació de blocs",
+        "ras": [
+          5
+        ],
+        "horas": 11,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "Actituds",
+        "ras": [
+          5
+        ],
+        "horas": 11,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "Valorar la importància que té Internet en l'actualitat Valorar els avantatges i inconvenients de les xarxes socials, blocs i webs 2.0.",
+        "ras": [
+          5
+        ],
+        "horas": 11,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 9",
+        "nombre": "Objectius mínims",
+        "ras": [
+          5
+        ],
+        "horas": 11,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 10",
+        "nombre": "Definir els conceptes bàsics relacionats amb la xarxa de xarxes. Definir el funcionament d'un servidor web i un servei web Edició i gestió de blocs",
+        "ras": [
+          5
+        ],
+        "horas": 11,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UD 11",
+        "nombre": "Criteris d’avaluació",
+        "ras": [
+          5
+        ],
+        "horas": 11,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "Utilitzar les etiquetes amb els seus atributs seguint la sintaxi correcta definida per l’estàndard.\n\nIdentificar i usar els atributs propis de cada etiqueta.\n\nUtilitzar adequadament els enllaços relatius i absoluts als documents o objectes del lloc web.",
+    "recursos_software": [
+      "javascript",
+      "JAVASCRIPT",
+      "Javascript",
+      "Linux"
+    ],
+    "recursos_hardware": [
+      "servidor"
+    ],
+    "espacios": "Aula d'informàtica"
+  },
+  "0229": {
+    "nombre": "Formación y orientación laboral",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Aplica las estrategias del trabajo en equipo, valo...",
+        "ras": [
+          2
+        ],
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Ejerce los derechos y cumple las obligaciones que...",
+        "ras": [
+          3
+        ],
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Determina la acción protectora del sistema de la S...",
+        "ras": [
+          4
+        ],
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Evalúa los riesgos derivados de su actividad, anal...",
+        "ras": [
+          5
+        ],
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Participa en la elaboración de un plan de prevenci...",
+        "ras": [
+          6
+        ],
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Aplica las medidas de prevención y protección, ana...",
+        "ras": [
+          7
+        ],
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "2": 16.7,
+      "3": 16.7,
+      "4": 16.7,
+      "5": 16.7,
+      "6": 16.7,
+      "7": 16.5
+    },
+    "formula_evaluacion": "Módulo = 0.17 · RA_2 + 0.17 · RA_3 + 0.17 · RA_4 + 0.17 · RA_5 + 0.17 · RA_6 + 0.17 · RA_7",
+    "instrumentos": {
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Formación y orientación laboral se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0230": {
+    "nombre": "Empresa e Iniciativa Emprendedora",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Reconoce las capacidades asociadas a la iniciativa...",
+        "ras": [
+          1
+        ],
+        "horas": 16,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Define la oportunidad de creación de una pequeña e...",
+        "ras": [
+          2
+        ],
+        "horas": 16,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Realiza las actividades para la constitución y pue...",
+        "ras": [
+          3
+        ],
+        "horas": 16,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Realiza actividades de gestión administrativa y fi...",
+        "ras": [
+          4
+        ],
+        "horas": 17,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 25.0,
+      "2": 25.0,
+      "3": 25.0,
+      "4": 25.0
+    },
+    "formula_evaluacion": "Módulo = 0.25 · RA_1 + 0.25 · RA_2 + 0.25 · RA_3 + 0.25 · RA_4",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Empresa e Iniciativa Emprendedora se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "0231": {
+    "nombre": "Formación en Centros de Trabajo",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Identifica la estructura y organización de la empr...",
+        "ras": [
+          1
+        ],
+        "horas": 76,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Aplica hábitos éticos y laborales, desarrollando s...",
+        "ras": [
+          2
+        ],
+        "horas": 76,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Monta equipos informáticos, siguiendo los procesos...",
+        "ras": [
+          3
+        ],
+        "horas": 76,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Participa en el diagnóstico y reparación de avería...",
+        "ras": [
+          4
+        ],
+        "horas": 76,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Instala sistemas operativos y aplicaciones respeta...",
+        "ras": [
+          5
+        ],
+        "horas": 76,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Formación en Centros de Trabajo se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "generico": {
+    "nombre": "Módulo Formativo Genérico (SMX)",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y competencias clave de SMX",
+        "ras": [
+          1
+        ],
+        "horas": 160,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 100.0
+    },
+    "formula_evaluacion": "Módulo = 1.00 · RA_1",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional se desarrolla mediante metodologías activas orientadas al perfil de SMX, priorizando supuestos prácticos, resolución colaborativa de problemas y rigor profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  }
+}

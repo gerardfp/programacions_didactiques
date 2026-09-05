@@ -66,9 +66,10 @@ python generador_pd.py --modulo 0489
 | `--parse-xml` | `ARCHIVO.xml` | Parsea un archivo oficial XML del BOE y genera `curriculum_<ciclo>.json` |
 | **[Función 2: Pedagogía]** | | |
 | `--generar-pedagogia` | Ninguno | Genera el andamiaje pedagógico JSON para el ciclo (`--ciclo`) o todos (`--all`) |
+| `--extraer-pedagogia` | `[CARPETA]` | Extrae datos pedagógicos reales desde los documentos del centro (DOCX/PDF) en `CURS 26_27` |
 | **[Función 3: Generación ODT]** | | |
 | `--all` | Ninguno | Aplica la acción a todos los ciclos disponibles (generar ODTs o pedagogía) |
-| `--ciclo` | `CODIGO` | Filtra por ciclo formativo (ej. `DAM`, `DAW`, `SMX`, `ASIR`) |
+| `--ciclo` | `CODIGO` | Filtra por ciclo formativo (ej. `DAM`, `DAW`, `SMX`, `IA`, `ASIR`) |
 | `--modulo` | `CODIGO` | Genera solo el módulo indicado (por código o nombre) |
 | `--curso-escolar` | `"AÑO / AÑO"` | Curso escolar reflejado en portadas y encabezados (por defecto: `"2026 / 2027"`) |
 | `--plantilla` | `RUTA.fodt` | Ruta a una plantilla ODF base alternativa (por defecto: `plantilla.fodt`) |

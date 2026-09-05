@@ -1,0 +1,703 @@
+{
+  "5071": {
+    "nombre": "Modelos de Inteligencia Artificial",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Caracteriza sistemas de Inteligencia Artificial re...",
+        "ras": [
+          1
+        ],
+        "horas": 10,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Utiliza modelos de sistemas de Inteligencia Artifi...",
+        "ras": [
+          2
+        ],
+        "horas": 10,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Relaciona el procesamiento de lenguaje natural con...",
+        "ras": [
+          3
+        ],
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Analiza sistemas robotizados, evaluando opciones d...",
+        "ras": [
+          4
+        ],
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Aplica sistemas expertos evaluando la influencia d...",
+        "ras": [
+          5
+        ],
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Aplica principios legales y éticos al desarrollo d...",
+        "ras": [
+          6
+        ],
+        "horas": -10,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 16.7,
+      "2": 16.7,
+      "3": 16.7,
+      "4": 16.7,
+      "5": 16.7,
+      "6": 16.5
+    },
+    "formula_evaluacion": "Módulo = 0.17 · RA_1 + 0.17 · RA_2 + 0.17 · RA_3 + 0.17 · RA_4 + 0.17 · RA_5 + 0.17 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Modelos de Inteligencia Artificial se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "5072": {
+    "nombre": "Sistemas de Aprendizaje Automático",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Caracteriza la Inteligencia Artificial fuerte y dé...",
+        "ras": [
+          1
+        ],
+        "horas": 10,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Determina técnicas y herramientas de sistemas de a...",
+        "ras": [
+          2
+        ],
+        "horas": 10,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Aplica algoritmos de aprendizaje supervisado, opti...",
+        "ras": [
+          3
+        ],
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Aplica técnicas de aprendizaje no supervisado rela...",
+        "ras": [
+          4
+        ],
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 5",
+        "nombre": "Unidad de Programación 5: Aplica modelos computacionales de redes neuronales...",
+        "ras": [
+          5
+        ],
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 6",
+        "nombre": "Unidad de Programación 6: Valora la calidad de los resultados obtenidos en l...",
+        "ras": [
+          6
+        ],
+        "horas": 0,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 16.7,
+      "2": 16.7,
+      "3": 16.7,
+      "4": 16.7,
+      "5": 16.7,
+      "6": 16.5
+    },
+    "formula_evaluacion": "Módulo = 0.17 · RA_1 + 0.17 · RA_2 + 0.17 · RA_3 + 0.17 · RA_4 + 0.17 · RA_5 + 0.17 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Sistemas de Aprendizaje Automático se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "5073": {
+    "nombre": "Programación de Inteligencia Artificial",
+    "unidades": [
+      {
+        "codigo": "UT 1",
+        "nombre": "Lenguajes de programación y herramientas para Inteligencia Artificial",
+        "ras": [
+          1
+        ],
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "Manipulación, preparación y enriquecimiento de conjuntos de datos masivos",
+        "ras": [
+          2
+        ],
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "Modelado, entrenamiento y optimización de redes neuronales profundas",
+        "ras": [
+          3
+        ],
+        "horas": 35,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "Integración y despliegue de modelos inteligentes en entornos de producción",
+        "ras": [
+          4
+        ],
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 25.0,
+      "2": 25.0,
+      "3": 25.0,
+      "4": 25.0
+    },
+    "formula_evaluacion": "Módulo = 0.25 · RA_1 + 0.25 · RA_2 + 0.25 · RA_3 + 0.25 · RA_4",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 30.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 30.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 30.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 30.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Programación de Inteligencia Artificial se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Pandas",
+      "Keras",
+      "Python 3.x",
+      "Scikit-learn",
+      "NumPy",
+      "PyCharm",
+      "JupyterLab",
+      "TensorFlow",
+      "PyTorch"
+    ],
+    "recursos_hardware": [
+      "Servidores de cómputo para entrenamiento intensivo",
+      "Estaciones de trabajo con aceleración GPU (NVIDIA CUDA)"
+    ],
+    "espacios": "Laboratorio de Inteligencia Artificial"
+  },
+  "5074": {
+    "nombre": "Sistemas de Big Data",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Aplica técnicas de análisis de datos que integran...",
+        "ras": [
+          1
+        ],
+        "horas": 13,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Configura cuadros de mando en diferentes entornos...",
+        "ras": [
+          2
+        ],
+        "horas": 13,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Gestiona y almacena datos facilitando la búsqueda...",
+        "ras": [
+          3
+        ],
+        "horas": 13,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UP 4",
+        "nombre": "Unidad de Programación 4: Aplica herramientas para la visualización de datos...",
+        "ras": [
+          4
+        ],
+        "horas": 16,
+        "trimestre": "3er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 25.0,
+      "2": 25.0,
+      "3": 25.0,
+      "4": 25.0
+    },
+    "formula_evaluacion": "Módulo = 0.25 · RA_1 + 0.25 · RA_2 + 0.25 · RA_3 + 0.25 · RA_4",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Sistemas de Big Data se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  },
+  "5075": {
+    "nombre": "Big Data aplicado",
+    "unidades": [
+      {
+        "codigo": "UT 1",
+        "nombre": "Sistemas de almacenamiento distribuido y centros de datos Big Data",
+        "ras": [
+          1
+        ],
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "Herramientas avanzadas de ingesta y flujo continuo de datos masivos",
+        "ras": [
+          2
+        ],
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "Procesamiento analítico distribuido en tiempo real y batch",
+        "ras": [
+          3
+        ],
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "Métricas de negocio, KPIs y Business Intelligence avanzado",
+        "ras": [
+          4
+        ],
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "Visualización interactiva de datos y cuadros de mando ejecutivos",
+        "ras": [
+          5
+        ],
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas de evaluación teórico-prácticas y proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas, actividades de laboratorio y supuestos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional de Big Data aplicado se desarrolla mediante metodologías activas centradas en el alumnado, combinando sesiones teóricas inductivas con prácticas aplicadas. Se fomenta el Aprendizaje Basado en Proyectos (ABP), la resolución colaborativa de problemas técnicos y el rigor metodológico profesional.",
+    "recursos_software": [
+      "Apache Spark",
+      "Python",
+      "MongoDB",
+      "Elasticsearch",
+      "Power BI",
+      "Apache Kafka",
+      "Apache Hadoop",
+      "Tableau"
+    ],
+    "recursos_hardware": [
+      "Clúster de servidores de almacenamiento distribuido",
+      "Puestos de trabajo conectados a infraestructura cloud"
+    ],
+    "espacios": "Laboratorio de Big Data"
+  },
+  "generico": {
+    "nombre": "Módulo Formativo Genérico (IA)",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y competencias clave de IA",
+        "ras": [
+          1
+        ],
+        "horas": 160,
+        "trimestre": "1er Trimestre",
+        "inicio": "",
+        "fin": ""
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 100.0
+    },
+    "formula_evaluacion": "Módulo = 1.00 · RA_1",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Prueba de evaluación práctica / proyecto",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prueba de evaluación teórico-conceptual",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "metodologia": "El módulo profesional se desarrolla mediante metodologías activas orientadas al perfil de IA, priorizando supuestos prácticos, resolución colaborativa de problemas y rigor profesional.",
+    "recursos_software": [
+      "Plataforma de aprendizaje",
+      "Herramientas de gestión"
+    ],
+    "recursos_hardware": [
+      "Computadora con acceso a internet"
+    ],
+    "espacios": "Aula polivalente"
+  }
+}
