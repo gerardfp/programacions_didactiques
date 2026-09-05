@@ -1086,11 +1086,12 @@ class SystematicProgramacionGenerator:
     Genera sistemáticamente las programaciones didácticas a partir de plantilla.fodt
     para todos los módulos de todos los ciclos formativos.
     """
-    def __init__(self, base_dir: str = "."):
+    def __init__(self, base_dir: str = ".", template_path: Optional[str] = None):
         self.base_dir = base_dir
         self.repo = CurriculumRepository(base_dir)
         self.ped_provider = PedagogicalDataProvider(os.path.join(base_dir, "pedagogia_modulos.json"))
-        self.engine = FodtTemplateEngine(os.path.join(base_dir, "plantilla.fodt"))
+        tmpl = template_path if template_path else os.path.join(base_dir, "plantilla.fodt")
+        self.engine = FodtTemplateEngine(tmpl)
 
     def generate_all(
         self,
@@ -1227,9 +1228,15 @@ def main():
         default="2026 / 2027",
         help="Curso escolar / académico de las programaciones (por defecto: '2026 / 2027')."
     )
+    parser.add_argument(
+        "--plantilla", "--template",
+        type=str,
+        default=None,
+        help="Ruta a la plantilla ODF (.fodt) base a utilizar (por defecto: 'plantilla.fodt')."
+    )
 
     args = parser.parse_args()
-    systematic_gen = SystematicProgramacionGenerator(".")
+    systematic_gen = SystematicProgramacionGenerator(".", template_path=args.plantilla)
 
     if args.all:
         print("[*] Iniciando generación sistemática en formato ODT para TODOS los ciclos...")
