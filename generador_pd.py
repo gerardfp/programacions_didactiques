@@ -1060,7 +1060,6 @@ def run_generate_all_pedagogy(base_dir: str = ".") -> List[str]:
 
     print(f"[*] Generando JSON pedagógico para {len(latest_currs)} ciclos disponibles...")
     generated = []
-    for c_file in sorted(base_currs):
     for c_file in latest_currs:
         saved = run_generate_cycle_pedagogy(c_file)
         generated.append(saved)
