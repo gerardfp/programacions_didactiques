@@ -11,3 +11,159 @@
 - Actividades complementarias y extraescolares.
 - Criterios y procedimientos para la evaluación del desarrollo de la programación y de la práctica docente, así como los criterios de calificación.
 - Cualquier otro apartado considerado relevante por el equipo educativo en el PCCF - PCCE.
+
+GUIA (Extreta de la GUIA PCCF)
+3.1. Estructura de la programació didàctica
+3.1.1. Dades identificatives i contextualització
+Per a començar qualsevol programació, és convenient una introducció breu que ens 
+servisca per a contextualitzar l’acció educativa. Això es pot extraure del PCCF i, segons 
+el format emprat per al desenrotllament de la programació, no serà necessari replicar-lo, ja que es pot consultar en el PCCF. La identificació contindrà:
+- Dades identificatives:
+• Centre 
+• Família professional
+• Cicle formatiu de grau bàsic / grau mitjà / grau superior al qual correspon el mòdul
+• Identificació del mòdul (denominació i codi)
+• Docent(s) responsable(s) 
+- Normativa de referència.
+- Propostes de millora del curs anterior incloses en la memòria de fi de curs.
+
+3.1.2. Relació entre les unitats de competència i mòduls del cicle formatiu
+És necessari connectar la nostra formació amb el Catàleg nacional de qualificacions 
+professionals (Catàleg nacional d’estàndards de competències professionals). Esta 
+relació adquirix molta importància en un sistema únic de Formació Professional per a 
+poder oferir itineraris formatius personalitzats.
+Com ja sabem, el nou model de Formació Professional establix cinc graus progressius 
+per a l’oferta (A, B, C, D i E). El model potencia la concepció modular per a potenciar la 
+flexibilitat en els entorns productius, i assegura vies d’aprenentatge i actualització al 
+llarg de la vida de les persones. Per este motiu, és important conéixer el vincle entre el 
+nostre mòdul i els certificats i les acreditacions possibles associats. 
+Ex.: apartat 1 de l’annex II
+
+3.1.3. Contribució dels RA a les competències professionals 
+Tenint sempre en compte, com a referent màxim, la globalitat de les competències 
+associades a l’oferta formativa, hem de programar de manera competencial, partint dels 
+RA com a referents. D’esta manera els continguts funcionaran com a mitjà per a 
+aconseguir-ho i els criteris d’avaluació (CE) com a manera de comprovar el nivell de 
+competència aconseguit. En la programació del mòdul no es creen nous RA ni CE, ni 
+s’elimina cap dels existents. 
+Per a desenrotllar este apartat, serà necessari consultar la normativa l’RD del títol 
+corresponent i el desenrotllament curricular autonòmic constituït per l’orde de 
+currículum del cicle formatiu. A més d’esta normativa, caldrà tindre en compte el que 
+establix el PCCF.
+Cada mòdul contribuïx a assolir determinades competències professionals, esta relació 
+la tenim arreplegada i estudiada en el PCCF, amb el referent per a esta relació de la 
+nostra contextualització, una anàlisi interna i externa.
+Ex.: apartat 2 de l’annex I
+Partint de la relació anterior, el següent pas serà analitzar la contribució dels RA del 
+mòdul a les competències professionals associades. Esta manera de relacionar la 
+importància dels RA per al conjunt del mòdul haurà de tindre reflex en la pràctica docent 
+i avaluativa.
+Serà molt important que els RA reben l’atenció necessària segons la seua importància 
+en el conjunt del mòdul i del cicle. Igualment important serà actuar d’acord amb el PCCF 
+definint quins dels RA seran clau per a la superació del mòdul i quins no. Això pot decidir-se analitzant el llindar d’acompliment competent i utilitzant com a referents últims per 
+a l’avaluació les competències professionals.
+Ex.: apartat 2 de l’annex II
+
+3.1.4. Esquema general i seqüenciació de les UP
+En el context de la programació didàctica, les unitats de programació es conceben com 
+a ferramentes de planificació, encara que en el desenrotllament en l’aula es traduïxen 
+en la implementació de situacions d’aprenentatge significatives. Aspectes com la seua 
+finalitat competencial, el context de treball, la seqüenciació, les metodologies a utilitzar, 
+la seua planificació i avaluació són qüestions que el professorat haurà de decidir.
+Dividir el treball educatiu en unitats més xicotetes és una manera de garantir un 
+aprenentatge estructurat. Això permet organitzar les activitats de manera progressiva 
+afavorint que l’alumnat assimile els coneixements de manera gradual i coherent. A més, 
+ens permet planificar amb més precisió i ajustar el treball als diferents ritmes 
+d’aprenentatge facilitant el procés d’avaluació.
+Tant si programem de manera modular o intermodular, és el moment d’organitzar el 
+desenrotllament de la programació en unitats de programació que es desplegaran al 
+llarg del curs tenint en compte el caràcter dual de la formació.
+Ex.: apartat 3 de l’annex II
+Partint de la relació treballada en l’apartat 2 de l’annex I i de les relacions treballades a 
+la manera de l’apartat 2 de l’annex II, el pas següent és distribuir els continguts bàsics 
+(anomenats així en el currículum) al llarg del curs per avaluacions. No obstant això, hem 
+de fer una interpretació més competencial d’este apartat. Per això, esta distribució 
+temporal ha d’atendre els continguts efectius que mobilitzen els RA i els CE del 
+currículum del mòdul. És a dir, els RA i els CE són l’eix fonamental d’eixa distribució, i 
+els continguts són el suport. 
+Els continguts sí que són elements susceptibles de modificar-se, ampliar-se o fins i tot 
+obviar-se sempre que estes decisions estiguen justificades, atenent les demandes 
+actuals del perfil professional. Per a facilitar esta organització, hi ha disponible una 
+plantilla orientativa per a unitats de programació en els annexos d’esta guia.
+
+3.1.5. Metodologia 
+En seleccionar la metodologia per a cada unitat de programació, és molt important 
+tindre en compte el marc pedagògic establit en el PCCF. Cada experiència 
+d’aprenentatge es dissenyarà atenent les necessitats pedagògiques específiques de 
+cada context, aplicant de manera flexible les diverses metodologies aprovades en el 
+PCCF.
+Com ja s’ha comentat anteriorment, les metodologies consensuades en el PCCF seran 
+prescriptives a l’hora de planificar la programació. També és necessari fer èmfasi en la 
+necessitat d’impulsar el treball a través de metodologies actives en les aules, i per això 
+recomanem que la base del procés d’ensenyança-aprenentatge es realitze mitjançant 
+propostes de reptes, projectes, aprenentatge a través del servici, etc.
+
+3.1.6. Recursos
+L’apartat de recursos didàctics fa referència als elements, les ferramentes o els 
+materials que els docents utilitzen per a facilitar el procés formatiu.
+Els tipus de recursos didàctics han de ser variats i poden classificar-se segons el format, 
+la funció o el context en què s’utilitzen. Alguns dels tipus més comuns de recursos 
+didàctics són:
+• Recursos materials: són els elements físics que s’utilitzen en l’aula i que 
+permeten aprenentatges significatius, adaptats a les característiques del grup, 
+seleccionats segons els nivells de l’alumnat, el tipus de tasques que es 
+realitzaran, etc.
+• Recursos tecnològics: inclouen ferramentes digitals i dispositius que faciliten 
+l’aprenentatge mitjançant l’ús de la tecnologia.
+• Recursos organitzatius: tenint en compte la necessitat d’aplicar metodologies 
+actives en les aules, és important pensar en agrupacions flexibles, codocència o 
+qualsevol altra ferramenta que facilite el procés d’ensenyança-aprenentatge en 
+esta línia. Se seguiran les instruccions d’inici de curs per a este punt.
+
+3.1.7. Planificació de l’ús d’espais i equipaments
+Haurem de planificar l’ús dels espais i els equipaments tenint en compte el que estipula 
+el punt 2.3.13 del PCCF. És important que els equips educatius en conjunt faciliten el 
+treball intermodular mitjançant l’organització d’espais flexibles i dinàmics. Òbviament, 
+subjecta a les possibilitats del centre.
+
+3.1.8. Les mesures d’atenció a la diversitat i inclusió
+D’acord amb el PCCF, en les programacions didàctiques s’han de concretar mesures 
+específiques segons l’alumnat concret que s’atendrà a l’aula. És necessari recordar els 
+principis de normalització, inclusió i accessibilitat com a orientacions específiques per 
+a Formació Professional en l’atenció a la diversitat (RD 659/2023, article 15). 
+També recordem la necessitat de realitzar les adaptacions necessàries per a la creació 
+de condicions facilitadores de l’adquisició dels aprenentatges per a l’alumnat amb 
+necessitats de suport educatiu. Per això en les programacions es farà referència a la 
+concreció de les adaptacions organitzatives, curriculars i metodològiques estipulades 
+per l’equip educatiu en el PCCF.
+
+3.1.9. Avaluació de l’aprenentatge
+Fent referència a l’avaluació, la programació del mòdul concretarà els aspectes 
+curriculars mínims que es consideren bàsics per a superar el mòdul corresponent, 
+segons el que arreplegue el reial decret que regula cada títol i l’orde corresponent al seu 
+currículum. Així doncs, els referents últims per a l’avaluació seran les competències 
+associades a l’oferta formativa.
+Serà imprescindible avaluar tots els RA, encara que no indispensable superar-los tots 
+per a obtindre una qualificació positiva en el mòdul, sinó els considerats mínims 
+específics i la relació dels quals haurà d’aparéixer explicitada en la programació 
+didàctica corresponent a cada mòdul.
+En qualsevol cas, la programació didàctica haurà d’especificar:
+a. Els procediments i els instruments d’avaluació de l’aprenentatge de l’alumnat: és
+necessari concretar quins seran els instruments i les evidències que utilitzarem per 
+a avaluar el procés d’aprenentatge, tenint en compte que tot criteri necessita 
+almenys una activitat d’avaluació, però una mateixa activitat pot servir per a valorar 
+diferents criteris.
+b. Els criteris de qualificació que s’hagen d’aplicar: en la programació didàctica de 
+cada mòdul han de definir-se els criteris de qualificació globals del mòdul, 
+ponderant els RA i per a l’avaluació de cada RA s’han de ponderar els CE associats. 
+Este apartat es desenrotlla més àmpliament en el punt 4.
+
+3.1.10. Les activitats complementàries i extraescolars que es pretenguen realitzar
+Considerant els criteris relatius a la programació de les activitats complementàries i 
+extraescolars arreplegar en el PCCF, s’han d’especificar les activitats amb la indicació 
+els objectius de cada una respecte dels RA dels diferents mòduls del cicle formatiu.
+
+3.1.11. Procediments per a l’avaluació de la programació i la pràctica docent
+En este apartat es concretarà la manera com el docent o docents responsables de la 
+programació avaluaran tant la seua pròpia actuació com la programació realitzada. Això 
+sempre dins del marc acordat en el punt 2.3.1.14 del PCCF.

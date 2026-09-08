@@ -1,3 +1,161 @@
-smx: red
-daw: blue
-iabd: purple
+Sí. Yo lo plantearía como un **sistema visual común para todo el Departamento de Informática**, pero con una identidad cromática propia para cada ciclo. La clave sería que las cuatro paletas tengan **la misma estructura** —color principal, secundario, acento, fondos y textos— para que todas las programaciones parezcan parte de una misma colección.
+
+## 🎨 Propuesta: identidad cromática de Informática
+
+| Ciclo             | Identidad                    | Color principal | Acento          |
+| ----------------- | ---------------------------- | --------------- | --------------- |
+| **SMR**           | 🟦 Infraestructura / redes   | Azul eléctrico  | Cian            |
+| **DAM**           | 🟢 Desarrollo / software     | Azul profundo   | Verde esmeralda |
+| **DAW**           | 🟣 Web / creatividad digital | Índigo          | Violeta         |
+| **IA y Big Data** | 🟠 Datos / inteligencia      | Azul petróleo   | Ámbar           |
+
+---
+
+# 🟦 1. SMR — Sistemas Microinformáticos y Redes
+
+**Concepto:** hardware, redes, sistemas, infraestructura.
+
+Una combinación tecnológica pero bastante institucional.
+
+```text
+PRINCIPAL       #1557B0   Azul infraestructura
+SECUNDARIO      #0EA5C7   Cian
+ACENTO          #38BDF8   Azul cielo
+OSCURO          #102A43   Azul noche
+FONDO           #F4F8FC   Gris azulado muy claro
+LÍNEAS          #C9D8E8
+TEXTO           #172B4D
+```
+
+**Sensación:** 🖧 fiable · técnico · conectado · profesional
+
+Para portadas usaría el **#1557B0** como color dominante y pequeños detalles en cian.
+
+---
+
+# 🟢 2. DAM — Desarrollo de Aplicaciones Multiplataforma
+
+Aquí mantendría el azul institucional como base, pero introduciría **verde esmeralda** para darle identidad propia.
+
+```text
+PRINCIPAL       #123B6D   Azul profundo
+SECUNDARIO      #0F9D83   Verde esmeralda
+ACENTO          #34C6A5   Turquesa
+OSCURO          #102A43   Azul noche
+FONDO           #F5FAF9   Verde casi blanco
+LÍNEAS          #C8E4DD
+TEXTO           #172B4D
+```
+
+**Sensación:** `</>` software · innovación · desarrollo · multiplataforma
+
+De hecho, **esta sería mi elección para la portada que acabamos de diseñar para 0373**.
+
+El verde no debería dominar: simplemente aparecer en números, líneas, pequeños iconos y detalles.
+
+---
+
+# 🟣 3. DAW — Desarrollo de Aplicaciones Web
+
+Aquí podemos permitirnos algo un poco más creativo. **Índigo + violeta** diferencia claramente DAW de DAM sin romper la estética profesional.
+
+```text
+PRINCIPAL       #303F9F   Índigo
+SECUNDARIO      #6C4BC1   Violeta
+ACENTO          #8B7BE8   Lavanda
+OSCURO          #20254A   Índigo oscuro
+FONDO           #F7F7FC   Blanco lavanda
+LÍNEAS          #D9D9EE
+TEXTO           #242943
+```
+
+**Sensación:** 🌐 web · diseño · creatividad · UX · interfaces
+
+Aquí los elementos gráficos podrían utilizar **líneas violetas muy finas**, en lugar de grandes manchas de color.
+
+---
+
+# 🟠 4. IA y Big Data
+
+Para IA/Big Data buscaría algo más **premium y tecnológico**. Azul petróleo + ámbar funciona muy bien y además evita caer en el típico azul de informática.
+
+```text
+PRINCIPAL       #123F4A   Azul petróleo
+SECUNDARIO      #0E7490   Teal
+ACENTO          #F0A83A   Ámbar
+OSCURO          #102A32   Carbón azulado
+FONDO           #F5F9FA   Gris frío
+LÍNEAS          #C9DDE1
+TEXTO           #172B34
+```
+
+**Sensación:** 🧠 inteligencia · datos · análisis · futuro
+
+El **ámbar** lo utilizaría con mucha moderación: números de módulo, pequeños puntos, iconos destacados, etc.
+
+---
+
+# 🔥 Lo interesante: que las cuatro parezcan de la misma colección
+
+Yo establecería estas reglas para todas:
+
+### 1. El 70 % debe ser blanco
+
+Nada de portadas completamente coloreadas.
+
+**Blanco + tipografía oscura + color de ciclo.**
+
+Esto les dará ese aspecto elegante que buscabas.
+
+### 2. Un solo color protagonista
+
+No utilizaría los 6 colores de cada paleta indiscriminadamente.
+
+Por ejemplo, DAM:
+
+**Azul oscuro → texto y estructura**
+
+**Verde → identidad**
+
+**Turquesa → pequeños acentos**
+
+---
+
+### 3. Los iconos siempre en el color secundario
+
+Por ejemplo DAM:
+
+> ◯ icono → verde esmeralda
+> título → azul profundo
+> datos → azul oscuro
+> líneas → verde muy pálido
+
+Esto queda mucho más sofisticado que poner cada icono de un color diferente.
+
+---
+
+### 4. El color debe identificar el ciclo incluso sin leerlo
+
+**SMR** → 🔵 **AZUL / CIAN**
+**DAM** → 🟢 **VERDE / AZUL**
+**DAW** → 🟣 **ÍNDIGO / VIOLETA**
+**IA + Big Data** → 🟠 **PETRÓLEO / ÁMBAR**
+
+Y mantendría **el azul marino institucional y el blanco como elementos comunes** en las cuatro.
+
+---
+
+## ⭐ Mi selección definitiva
+
+Si tuviera que convertir esto en una **identidad visual real del Departamento de Informática del IES Benigasló**, escogería:
+
+|           | Color principal | Acento   | HEX principal |
+| --------- | --------------- | -------- | ------------- |
+| **SMR**   | 🔵 Azul         | Cian     | `#1557B0`     |
+| **DAM**   | 🟢 Esmeralda    | Turquesa | `#0F9D83`     |
+| **DAW**   | 🟣 Índigo       | Violeta  | `#6C4BC1`     |
+| **IA/BD** | 🟠 Ámbar        | Teal     | `#F0A83A`     |
+
+Con esto podrías hacer que **todas las programaciones, situaciones de aprendizaje, presentaciones, documentos, rúbricas, portadas y materiales del departamento** compartan una misma identidad.
+
+Y hay una posibilidad todavía mejor: crear un **sistema de diseño completo** con estas cuatro paletas (colores, tipografías, tamaños, iconos Tabler/Phosphor, cabeceras, portadas A4, tablas, cajas de información y páginas interiores), de forma que cambiar de SMR a DAM sea simplemente cambiar **3–4 variables CSS**.

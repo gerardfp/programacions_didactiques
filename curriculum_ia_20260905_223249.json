@@ -1,5 +1,5 @@
 {
-  "ciclo": "IA",
+  "ciclo": "IABD",
   "codigo_ciclo": "IFC_IA",
   "titulo": "Curso de Especialización en Inteligencia Artificial y Big Data",
   "familia_profesional": "Informática y Comunicaciones",
@@ -70,7 +70,16 @@
               "codigo": "RA1.d",
               "descripcion": "Se han identificado nuevas formas de interacciones en los negocios que mejore la eficiencia operativa."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Caracterización de sistemas de Inteligencia Artificial",
+            "items": [
+              "Fundamentos de los sistemas inteligentes.",
+              "Campos de aplicaciones.",
+              "Técnicas de la Inteligencia Artificial.",
+              "Nuevas formas de interacción."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -106,7 +115,17 @@
               "codigo": "RA2.f",
               "descripcion": "Se ha valorado la adecuación de los modelos a la implementación del sistema de resolución de problemas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Utilización de modelos de Inteligencia Artificial",
+            "items": [
+              "Requisitos básicos de un sistema de resolución de problemas.",
+              "Modelos de sistemas de Inteligencia Artificial:",
+              "Automatización de tareas.",
+              "Sistemas de razonamiento impreciso.",
+              "Sistemas basados en reglas."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -147,7 +166,14 @@
               "codigo": "RA3.g",
               "descripcion": "Se ha elaborado un sistema de procesamiento de lenguaje orientado a una tarea específica."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Procesamiento del Lenguaje Natural",
+            "items": [
+              "Procesamiento del lenguaje natural: Potencial y limitaciones.",
+              "Aplicaciones del procesamiento del lenguaje natural."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -173,7 +199,16 @@
               "codigo": "RA4.d",
               "descripcion": "Se han evaluado diferentes opciones en el diseño e implementación de sistemas robotizados."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Análisis de sistemas robotizados",
+            "items": [
+              "Métodos y aplicaciones de la robótica.",
+              "Modelado y control de robots.",
+              "Programación de robots y aplicaciones.",
+              "Sistemas robotizados. Diseño e implementación."
+            ]
+          }
         },
         {
           "numero": 5,
@@ -204,7 +239,18 @@
               "codigo": "RA5.e",
               "descripcion": "Se han relacionado los controladores inteligentes con el comportamiento del sistema."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Sistemas Expertos",
+            "items": [
+              "Dinámica de los sistemas expertos.",
+              "Estructuras elementales de los sistemas expertos.",
+              "Representar y simular comportamientos básicos.",
+              "Estrategias de control de un sistema experto.",
+              "Aplicaciones de sistemas expertos.",
+              "Tendencias en sistemas expertos."
+            ]
+          }
         },
         {
           "numero": 6,
@@ -240,6 +286,86 @@
               "codigo": "RA6.f",
               "descripcion": "Se han identificado y corregido los posibles sesgos de género en el desarrollo y aplicaciones de Inteligencia Artificial y Big Data."
             }
+          ],
+          "contenidos": {
+            "titulo": "Aplicación de principios legales y éticos de la Inteligencia Artificial",
+            "items": [
+              "Deontología profesional en Inteligencia Artificial.",
+              "Privacidad de datos.",
+              "Protección frente a errores.",
+              "Principios éticos.",
+              "Sesgos de género en el desarrollo y aplicaciones de Inteligencia Artificial y Big Data."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Caracterización de sistemas de Inteligencia Artificial",
+          "items": [
+            "Fundamentos de los sistemas inteligentes.",
+            "Campos de aplicaciones.",
+            "Técnicas de la Inteligencia Artificial.",
+            "Nuevas formas de interacción."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Utilización de modelos de Inteligencia Artificial",
+          "items": [
+            "Requisitos básicos de un sistema de resolución de problemas.",
+            "Modelos de sistemas de Inteligencia Artificial:",
+            "Automatización de tareas.",
+            "Sistemas de razonamiento impreciso.",
+            "Sistemas basados en reglas."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Procesamiento del Lenguaje Natural",
+          "items": [
+            "Procesamiento del lenguaje natural: Potencial y limitaciones.",
+            "Aplicaciones del procesamiento del lenguaje natural."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Análisis de sistemas robotizados",
+          "items": [
+            "Métodos y aplicaciones de la robótica.",
+            "Modelado y control de robots.",
+            "Programación de robots y aplicaciones.",
+            "Sistemas robotizados. Diseño e implementación."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Sistemas Expertos",
+          "items": [
+            "Dinámica de los sistemas expertos.",
+            "Estructuras elementales de los sistemas expertos.",
+            "Representar y simular comportamientos básicos.",
+            "Estrategias de control de un sistema experto.",
+            "Aplicaciones de sistemas expertos.",
+            "Tendencias en sistemas expertos."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Aplicación de principios legales y éticos de la Inteligencia Artificial",
+          "items": [
+            "Deontología profesional en Inteligencia Artificial.",
+            "Privacidad de datos.",
+            "Protección frente a errores.",
+            "Principios éticos.",
+            "Sesgos de género en el desarrollo y aplicaciones de Inteligencia Artificial y Big Data."
           ]
         }
       ]
@@ -293,7 +419,20 @@
               "codigo": "RA1.f",
               "descripcion": "Se han reconocido las ventajas que proporciona cada tipo en la resolución de los problemas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Caracterización de la Inteligencia Artificial fuerte y débil",
+            "items": [
+              "Inteligencia Artificial Débil:",
+              "Características y aplicaciones.",
+              "Ventajas e inconvenientes.",
+              "Usos y posibilidades.",
+              "Inteligencia Artificial Fuerte:",
+              "Características y aplicaciones.",
+              "Ventajas e inconvenientes.",
+              "Usos y posibilidades."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -324,7 +463,25 @@
               "codigo": "RA2.e",
               "descripcion": "Se han asociado técnicas y herramientas a cada tipo de sistemas de aprendizaje automático."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Determinación de sistemas de aprendizaje automático (Machine Learning)",
+            "items": [
+              "Clasificación de sistemas de aprendizaje automático. Supervisado y no supervisado.",
+              "Principales técnicas para desarrollar aprendizaje automático: Redes neuronales, Aprendizaje inductivo, Razonamiento basado en casos, entre otros.",
+              "Algoritmos o modelos aplicados al aprendizaje automático:",
+              "Algoritmos de clasificación.",
+              "Algoritmos de detección de anomalías.",
+              "Algoritmos de regresión.",
+              "Algoritmos de clustering.",
+              "Algoritmos de refuerzo del aprendizaje.",
+              "Árboles y reglas de decisión.",
+              "Otros algoritmos relacionados con el aprendizaje automático.",
+              "Procedimientos del Machine Learning: Datos, identifica patrones y toma decisiones.",
+              "Herramientas de. Aprendizaje automático.",
+              "Aplicaciones del Machine Learning."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -370,7 +527,25 @@
               "codigo": "RA3.h",
               "descripcion": "Se ha optimizado el modelo de aprendizaje supervisado validando datos de prueba."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Algoritmos aplicados al aprendizaje supervisado y optimización del modelo",
+            "items": [
+              "Determinación de elementos y herramientas de aprendizaje supervisado.",
+              "Datos etiquetados.",
+              "Variables de entrada (input data). Etiquetas de salida.",
+              "Plataformas de aprendizaje automático supervisado.",
+              "Fases del aprendizaje automático:",
+              "Selección del algoritmo de aprendizaje supervisado.",
+              "Selección de datos.",
+              "Construcción del modelo.",
+              "Validación del modelo.",
+              "Ajuste de características o parámetros.",
+              "Implementación del modelo propuesto.",
+              "Verificación del modelo de prueba.",
+              "Optimización del modelo."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -396,7 +571,17 @@
               "codigo": "RA4.d",
               "descripcion": "Se ha optimizado el modelo de aprendizaje no supervisado validando datos de prueba."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Aplicación de técnicas de aprendizaje no supervisado",
+            "items": [
+              "Técnicas de aprendizaje no supervisado.",
+              "Algoritmos de aprendizaje no supervisado. Agrupación de cluster, Reducción de dimensión, entre otros.",
+              "Determinación de elementos y herramientas de Aprendizaje no supervisado.",
+              "Plataformas de aprendizaje automático no supervisado.",
+              "Fases del aprendizaje automático no supervisado."
+            ]
+          }
         },
         {
           "numero": 5,
@@ -422,7 +607,15 @@
               "codigo": "RA5.d",
               "descripcion": "Se ha reconocido una red de neuronas entrenada a partir de un conjunto de datos."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Aplicación de modelos computacionales de redes neuronales y comparación con otros modelos",
+            "items": [
+              "Aprendizaje automático frente a aprendizaje profundo.",
+              "Cómo aprende una red neuronal.",
+              "Modelos de redes neuronales artificiales: Redes neuronales convolucionales (CNN)."
+            ]
+          }
         },
         {
           "numero": 6,
@@ -463,6 +656,105 @@
               "codigo": "RA6.a",
               "descripcion": ". E"
             }
+          ],
+          "contenidos": {
+            "titulo": "Valoración de la calidad de los resultados obtenidos en la práctica con sistemas de aprendizaje automático",
+            "items": [
+              "Capacidad de generalización.",
+              "Test.",
+              "Validación.",
+              "Matriz de confusión."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Caracterización de la Inteligencia Artificial fuerte y débil",
+          "items": [
+            "Inteligencia Artificial Débil:",
+            "Características y aplicaciones.",
+            "Ventajas e inconvenientes.",
+            "Usos y posibilidades.",
+            "Inteligencia Artificial Fuerte:",
+            "Características y aplicaciones.",
+            "Ventajas e inconvenientes.",
+            "Usos y posibilidades."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Determinación de sistemas de aprendizaje automático (Machine Learning)",
+          "items": [
+            "Clasificación de sistemas de aprendizaje automático. Supervisado y no supervisado.",
+            "Principales técnicas para desarrollar aprendizaje automático: Redes neuronales, Aprendizaje inductivo, Razonamiento basado en casos, entre otros.",
+            "Algoritmos o modelos aplicados al aprendizaje automático:",
+            "Algoritmos de clasificación.",
+            "Algoritmos de detección de anomalías.",
+            "Algoritmos de regresión.",
+            "Algoritmos de clustering.",
+            "Algoritmos de refuerzo del aprendizaje.",
+            "Árboles y reglas de decisión.",
+            "Otros algoritmos relacionados con el aprendizaje automático.",
+            "Procedimientos del Machine Learning: Datos, identifica patrones y toma decisiones.",
+            "Herramientas de. Aprendizaje automático.",
+            "Aplicaciones del Machine Learning."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Algoritmos aplicados al aprendizaje supervisado y optimización del modelo",
+          "items": [
+            "Determinación de elementos y herramientas de aprendizaje supervisado.",
+            "Datos etiquetados.",
+            "Variables de entrada (input data). Etiquetas de salida.",
+            "Plataformas de aprendizaje automático supervisado.",
+            "Fases del aprendizaje automático:",
+            "Selección del algoritmo de aprendizaje supervisado.",
+            "Selección de datos.",
+            "Construcción del modelo.",
+            "Validación del modelo.",
+            "Ajuste de características o parámetros.",
+            "Implementación del modelo propuesto.",
+            "Verificación del modelo de prueba.",
+            "Optimización del modelo."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Aplicación de técnicas de aprendizaje no supervisado",
+          "items": [
+            "Técnicas de aprendizaje no supervisado.",
+            "Algoritmos de aprendizaje no supervisado. Agrupación de cluster, Reducción de dimensión, entre otros.",
+            "Determinación de elementos y herramientas de Aprendizaje no supervisado.",
+            "Plataformas de aprendizaje automático no supervisado.",
+            "Fases del aprendizaje automático no supervisado."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Aplicación de modelos computacionales de redes neuronales y comparación con otros modelos",
+          "items": [
+            "Aprendizaje automático frente a aprendizaje profundo.",
+            "Cómo aprende una red neuronal.",
+            "Modelos de redes neuronales artificiales: Redes neuronales convolucionales (CNN)."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Valoración de la calidad de los resultados obtenidos en la práctica con sistemas de aprendizaje automático",
+          "items": [
+            "Capacidad de generalización.",
+            "Test.",
+            "Validación.",
+            "Matriz de confusión."
           ]
         }
       ]
@@ -516,7 +808,16 @@
               "codigo": "RA1.f",
               "descripcion": "Se han caracterizado lenguajes de marcado destacando la información que contienen sus etiquetas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Caracterización de lenguajes de programación",
+            "items": [
+              "Programa informático. Etapas. Lenguajes de programación.",
+              "Principales características en un lenguaje de programación para IA. Bibliotecas. Rendimiento en ejecución. Herramientas. Soporte.",
+              "Principales Lenguajes de programación para Inteligencia Artificial: Python, R, Java, Javascript, NodeJS, JSON, entre otros.",
+              "Lenguajes de marcado. Información de sus etiquetas."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -547,7 +848,17 @@
               "codigo": "RA2.e",
               "descripcion": "Se han evaluado los resultados obtenidos."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Desarrollo de aplicaciones de IA",
+            "items": [
+              "Plataformas de IA: Librerías. Servicios. Ejemplos (Azzure, AWS. Amazon Alexa, Bixby, Microsoft Cortana, IBM Watson, Google Assistant, entre otras)",
+              "Entornos de modelado de IA:",
+              "Herramientas de modelado. Librerías, algoritmos y modelos predefinidos, recolección de datos, manipulación de datos, Evaluación de resultados. Ejemplos (Azure machine learning studio, SPSS modeler de IBM, Knime, entre otros).",
+              "Modelado de redes neuronales. Módulos predefinidos. Ejemplos (TensorFlow).",
+              "Herramientas de generación de código para crear software con comportamiento inteligente."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -578,7 +889,19 @@
               "codigo": "RA3.e",
               "descripcion": "Se ha evaluado la mejora en la capacidad de toma de decisiones estratégicas en un negocio conectado."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Evaluación de la Convergencia tecnológica",
+            "items": [
+              "Conexión entre tecnologías: Voz, datos, sonido, imágenes.",
+              "Ventajas de la convergencia tecnológica.",
+              "Sistemas de convergencia electrónica: Blockchain, IoT, Cloud, entre otros.",
+              "Características de Blockchain.",
+              "Características de IoT.",
+              "Características de Cloud.",
+              "Seguridad en la convergencia tecnológica."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -614,6 +937,65 @@
               "codigo": "RA4.w",
               "descripcion": "."
             }
+          ],
+          "contenidos": {
+            "titulo": "Evaluación de modelos de automatización industrial y de negocio",
+            "items": [
+              "Estrategias corporativas. Tendencias.",
+              "Modelos de negocio. Tendencias.",
+              "Gestión de activos y recursos. Tendencias.",
+              "Modelos de automatización. Tendencias."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Caracterización de lenguajes de programación",
+          "items": [
+            "Programa informático. Etapas. Lenguajes de programación.",
+            "Principales características en un lenguaje de programación para IA. Bibliotecas. Rendimiento en ejecución. Herramientas. Soporte.",
+            "Principales Lenguajes de programación para Inteligencia Artificial: Python, R, Java, Javascript, NodeJS, JSON, entre otros.",
+            "Lenguajes de marcado. Información de sus etiquetas."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Desarrollo de aplicaciones de IA",
+          "items": [
+            "Plataformas de IA: Librerías. Servicios. Ejemplos (Azzure, AWS. Amazon Alexa, Bixby, Microsoft Cortana, IBM Watson, Google Assistant, entre otras)",
+            "Entornos de modelado de IA:",
+            "Herramientas de modelado. Librerías, algoritmos y modelos predefinidos, recolección de datos, manipulación de datos, Evaluación de resultados. Ejemplos (Azure machine learning studio, SPSS modeler de IBM, Knime, entre otros).",
+            "Modelado de redes neuronales. Módulos predefinidos. Ejemplos (TensorFlow).",
+            "Herramientas de generación de código para crear software con comportamiento inteligente."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Evaluación de la Convergencia tecnológica",
+          "items": [
+            "Conexión entre tecnologías: Voz, datos, sonido, imágenes.",
+            "Ventajas de la convergencia tecnológica.",
+            "Sistemas de convergencia electrónica: Blockchain, IoT, Cloud, entre otros.",
+            "Características de Blockchain.",
+            "Características de IoT.",
+            "Características de Cloud.",
+            "Seguridad en la convergencia tecnológica."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Evaluación de modelos de automatización industrial y de negocio",
+          "items": [
+            "Estrategias corporativas. Tendencias.",
+            "Modelos de negocio. Tendencias.",
+            "Gestión de activos y recursos. Tendencias.",
+            "Modelos de automatización. Tendencias."
           ]
         }
       ]
@@ -672,7 +1054,17 @@
               "codigo": "RA1.g",
               "descripcion": "Se han determinado criterios de coste y calidad necesarios para la eficacia y eficiencia de la implementación de un sistema Big Data."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Aplicación de técnicas de integración, procesamiento y análisis de información",
+            "items": [
+              "Conceptos básicos de matemática discreta, lógica algorítmica y complejidad computacional para análisis de datos.",
+              "Técnicas y procesos de extracción de la información de los datos.",
+              "Modelado, razonamiento, resolución de problemas.",
+              "Análisis en tiempo real.",
+              "Costes y calidad asociados al proceso de análisis de la información."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -703,7 +1095,17 @@
               "codigo": "RA2.e",
               "descripcion": "Se ha evaluado el impacto del análisis de datos en la consecución de los objetivos propuestos."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Configuración de cuadros de mando en entornos computacionales",
+            "items": [
+              "Técnicas de representación de información. Librerías e implementaciones. Estructuración de datos. Objetivos a cumplir.",
+              "Cuadro de mando: Fundamentos.",
+              "Métricas.",
+              "Principales métodos y algoritmos en la minería de datos. Modelos SEMMA Sample, Explore, Modify, Model, Assess) y CRISP-DM (Cross- Industry Standard Process for Data Mining), entre otros.",
+              "Fases de los modelos. Valoración. Interpretación. Despliegue."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -734,7 +1136,16 @@
               "codigo": "RA3.e",
               "descripcion": "Se han utilizado habilidades científicas en entornos de trabajo multidisciplinares."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Gestión y almacenamiento de datos. Búsqueda de respuestas en grandes conjuntos de datos",
+            "items": [
+              "Sistemas de gestión Almacenamiento.",
+              "Importación: Flume, Sqoop.",
+              "Integración de datos.",
+              "Programación: R y Python."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -780,6 +1191,65 @@
               "codigo": "RA4.g",
               "descripcion": ","
             }
+          ],
+          "contenidos": {
+            "titulo": "Aplicación de herramientas para la visualización de datos",
+            "items": [
+              "Datos no estructurados: Fuentes, tipología.",
+              "Inteligencia artificial en el análisis de datos.",
+              "Cluster de máquinas: Información distribuida y redundante.",
+              "Herramientas de visualización de datos: QlikView, QlikSense, Tableau, Power BI, Domo, Pentaho, MicroStrategy, Business Objects, RJMetrics, Klipfolio, entre otras.",
+              "Tendencias de visualización de datos."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Aplicación de técnicas de integración, procesamiento y análisis de información",
+          "items": [
+            "Conceptos básicos de matemática discreta, lógica algorítmica y complejidad computacional para análisis de datos.",
+            "Técnicas y procesos de extracción de la información de los datos.",
+            "Modelado, razonamiento, resolución de problemas.",
+            "Análisis en tiempo real.",
+            "Costes y calidad asociados al proceso de análisis de la información."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Configuración de cuadros de mando en entornos computacionales",
+          "items": [
+            "Técnicas de representación de información. Librerías e implementaciones. Estructuración de datos. Objetivos a cumplir.",
+            "Cuadro de mando: Fundamentos.",
+            "Métricas.",
+            "Principales métodos y algoritmos en la minería de datos. Modelos SEMMA Sample, Explore, Modify, Model, Assess) y CRISP-DM (Cross- Industry Standard Process for Data Mining), entre otros.",
+            "Fases de los modelos. Valoración. Interpretación. Despliegue."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Gestión y almacenamiento de datos. Búsqueda de respuestas en grandes conjuntos de datos",
+          "items": [
+            "Sistemas de gestión Almacenamiento.",
+            "Importación: Flume, Sqoop.",
+            "Integración de datos.",
+            "Programación: R y Python."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Aplicación de herramientas para la visualización de datos",
+          "items": [
+            "Datos no estructurados: Fuentes, tipología.",
+            "Inteligencia artificial en el análisis de datos.",
+            "Cluster de máquinas: Información distribuida y redundante.",
+            "Herramientas de visualización de datos: QlikView, QlikSense, Tableau, Power BI, Domo, Pentaho, MicroStrategy, Business Objects, RJMetrics, Klipfolio, entre otras.",
+            "Tendencias de visualización de datos."
           ]
         }
       ]
@@ -828,7 +1298,16 @@
               "codigo": "RA1.e",
               "descripcion": "Se han presentado los resultados y las soluciones al cliente final en una forma fácil de interpretar."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Gestión de soluciones con sistemas de almacenamiento y herramientas del centro de datos para la resolución de problemas",
+            "items": [
+              "Almacenamiento de datos masivo.",
+              "Procesamiento de datos.",
+              "Analítica de Big Data en los ecosistemas de almacenamiento.",
+              "Big Data y Cloud."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -859,7 +1338,21 @@
               "codigo": "RA2.e",
               "descripcion": "Se ha visualizado que el sistema puede crecer fácilmente añadiendo módulos."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Gestión de sistemas de almacenamiento y ecosistemas Big Data",
+            "items": [
+              "Computación distribuida. Computación paralela,",
+              "Sistemas de almacenamiento distribuidos. Tolerancia a fallos.",
+              "Herramientas:",
+              "Map Reduce.",
+              "Pig, Hive, Flume.",
+              "Sqoop, Oozie.",
+              "Automatización de Jobs.",
+              "Consultas Pig y Hive.",
+              "Otras herramientas."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -885,7 +1378,15 @@
               "codigo": "RA3.d",
               "descripcion": "Se ha reconocido el papel del servidor en los procesos previos a la suma de verificación."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Generación de mecanismos de Integridad de los datos. Comprobación de mantenimiento de sistemas de ficheros",
+            "items": [
+              "Calidad de los datos.",
+              "Comprobación de la integridad de datos de los sistemas de ficheros distribuidos. Sumas de verificación.",
+              "Movimiento de datos entre clusters. Actualización y migración. Metadatos."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -921,7 +1422,15 @@
               "codigo": "RA4.f",
               "descripcion": "Se ha analizado la estabilidad de servicios."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Monitorización, optimización y solución de problemas",
+            "items": [
+              "Herramientas de monitorización: Interfaz web del Jobtracker y Namenode, entre otras.",
+              "Análisis de los históricos.",
+              "Monitorización del clúster: Ganglia, entre otros."
+            ]
+          }
         },
         {
           "numero": 5,
@@ -962,6 +1471,77 @@
               "codigo": "RA5.s",
               "descripcion": "."
             }
+          ],
+          "contenidos": {
+            "titulo": "Validación de técnicas Big Data en la toma de decisiones en Inteligencia de negocios BI",
+            "items": [
+              "Modelos de Inteligencia de negocios.",
+              "Proceso del modelo KDD (Knowledge Discovery in Databases).",
+              "Etapas: Selección, limpieza, transformación de datos, minería de datos, interpretación y evaluación de datos.",
+              "Implantación de modelos de inteligencia de negocios BI.",
+              "Técnicas de validación de modelos BI."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Gestión de soluciones con sistemas de almacenamiento y herramientas del centro de datos para la resolución de problemas",
+          "items": [
+            "Almacenamiento de datos masivo.",
+            "Procesamiento de datos.",
+            "Analítica de Big Data en los ecosistemas de almacenamiento.",
+            "Big Data y Cloud."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Gestión de sistemas de almacenamiento y ecosistemas Big Data",
+          "items": [
+            "Computación distribuida. Computación paralela,",
+            "Sistemas de almacenamiento distribuidos. Tolerancia a fallos.",
+            "Herramientas:",
+            "Map Reduce.",
+            "Pig, Hive, Flume.",
+            "Sqoop, Oozie.",
+            "Automatización de Jobs.",
+            "Consultas Pig y Hive.",
+            "Otras herramientas."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Generación de mecanismos de Integridad de los datos. Comprobación de mantenimiento de sistemas de ficheros",
+          "items": [
+            "Calidad de los datos.",
+            "Comprobación de la integridad de datos de los sistemas de ficheros distribuidos. Sumas de verificación.",
+            "Movimiento de datos entre clusters. Actualización y migración. Metadatos."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Monitorización, optimización y solución de problemas",
+          "items": [
+            "Herramientas de monitorización: Interfaz web del Jobtracker y Namenode, entre otras.",
+            "Análisis de los históricos.",
+            "Monitorización del clúster: Ganglia, entre otros."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Validación de técnicas Big Data en la toma de decisiones en Inteligencia de negocios BI",
+          "items": [
+            "Modelos de Inteligencia de negocios.",
+            "Proceso del modelo KDD (Knowledge Discovery in Databases).",
+            "Etapas: Selección, limpieza, transformación de datos, minería de datos, interpretación y evaluación de datos.",
+            "Implantación de modelos de inteligencia de negocios BI.",
+            "Técnicas de validación de modelos BI."
           ]
         }
       ]

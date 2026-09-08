@@ -1,5 +1,5 @@
 {
-  "titulo": "Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW)",
+  "titulo": "Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web",
   "familia_profesional": "Informática y Comunicaciones",
   "normativa_referencia": "Real Decreto 686/2010, de 20 de mayo (actualizado por Real Decreto 405/2023)",
   "archivo_fuente": "curriculum_daw",
@@ -61,7 +61,22 @@
               "codigo": "RA1.h",
               "descripcion": "Se han reconocido las normas de seguridad y prevención de riesgos laborales en el uso de los sistemas informáticos."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Explotación de sistemas microinformáticos",
+            "items": [
+              "Placas base. Formatos.",
+              "Estructura y componentes: procesador (Set de Instrucciones, Registros, Contador, Unidad Aritmético-Lógica, Interrupciones); memoria interna, tipos y características (RAM, xPROM y otras); interfaces de entrada/salida; discos Periféricos. Adaptadores para la conexión de dispositivos. Componentes de un sistema informático.",
+              "Periféricos. Adaptadores para la conexión de dispositivos.",
+              "Normas de seguridad y prevención de riesgos laborales.",
+              "Características de las redes. Ventajas e inconvenientes.",
+              "Tipos de redes.",
+              "Componentes de una red informática.",
+              "Topologías de red.",
+              "Tipos de cableado. Conectores.",
+              "Mapa físico y lógico de una red local."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -114,7 +129,25 @@
               "codigo": "RA2.i",
               "descripcion": "Se han documentado los procesos realizados."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Instalación de sistemas operativos",
+            "items": [
+              "Evolución histórica y clasificación.",
+              "Funciones de un sistema operativo.",
+              "Tipos de sistemas operativos.",
+              "Tipos de aplicaciones.",
+              "Licencias y tipos de licencias.",
+              "Procedimiento de instalación.",
+              "Gestores de arranque. Configuración y reparación.",
+              "Tecnologías de virtualización. Tipos.",
+              "Consideraciones previas a la instalación de sistemas operativos libres y propietarios.",
+              "Instalación de sistemas operativos libres y propietarios. Requisitos, versiones y licencias.",
+              "Instalación/desinstalación de aplicaciones. Requisitos, versiones y licencias.",
+              "Actualización y recuperación de sistemas operativos y aplicaciones.",
+              "Documentación de la instalación y de las incidencias detectadas."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -162,7 +195,19 @@
               "codigo": "RA3.h",
               "descripcion": "Se han instalado y evaluado utilidades relacionadas con la gestión de información."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Gestión de la información",
+            "items": [
+              "Gestión de sistemas de archivos mediante comandos y entornos gráficos.",
+              "Estructura de directorios de sistemas operativos libres y propietarios.",
+              "Búsqueda de información del sistema mediante comandos y herramientas gráficas.",
+              "Identificación del software instalado mediante comandos y herramientas gráficas.",
+              "Realización y restauración de copias de seguridad.",
+              "Herramientas de administración de discos. Particiones y volúmenes. Desfragmentación y chequeo. Cifrado.",
+              "Tareas automáticas. Planificación."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -210,7 +255,19 @@
               "codigo": "RA4.h",
               "descripcion": "Se han evaluado las necesidades del sistema informático en relación con el desarrollo de aplicaciones."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Configuración de sistemas operativos",
+            "items": [
+              "Configuración de usuarios y grupos.",
+              "Seguridad de cuentas de usuario.",
+              "Seguridad de contraseñas.",
+              "Acceso a recursos. Permisos locales. Listas de control de acceso.",
+              "Servicios y procesos.",
+              "Comandos de sistemas operativos libres y propietarios.",
+              "Herramientas de monitorización del sistema. Registros y logs."
+            ]
+          }
         },
         {
           "numero": 5,
@@ -258,7 +315,25 @@
               "codigo": "RA5.h",
               "descripcion": "Se han aplicado protocolos seguros de comunicaciones."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Conexión de sistemas en red",
+            "items": [
+              "Configuración del protocolo TCP/IP en un cliente de red. Direcciones IP. Máscaras de subred. Puertas de enlace. Servidores de nombres de dominio. IPv4. IPv6. Configuración estática. Configuración dinámica automática.",
+              "Ficheros de configuración de red.",
+              "Gestión de puertos.",
+              "Resolución de problemas de conectividad en sistemas operativos en red. Herramientas de diagnóstico.",
+              "Herramientas gráficas y comandos utilizados en sistemas operativos libres y propietarios.",
+              "Monitorización de redes.",
+              "Protocolos TCP/IP.",
+              "Configuración de los adaptadores de red en sistemas operativos libres y propietarios.",
+              "Interconexión de redes: adaptadores de red y dispositivos de interconexión. Enrutamiento.",
+              "Redes cableadas. Tipos y características. Adaptadores de red. Conmutadores, enrutadores, entre otros. Seguridad.",
+              "Redes inalámbricas. Tipos y características. Adaptadores. Dispositivos de interconexión. Seguridad.",
+              "Seguridad de comunicaciones.",
+              "Tecnologías de acceso a redes de área extensa."
+            ]
+          }
         },
         {
           "numero": 6,
@@ -301,7 +376,21 @@
               "codigo": "RA6.g",
               "descripcion": "Se han configurado y explotado dominios."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Gestión de recursos en una red",
+            "items": [
+              "Permisos y derechos. Permisos de red. Permisos locales. Herencia. Listas de control de acceso.",
+              "Configuración de recursos compartidos. Permisos de acceso y directivas de seguridad.",
+              "Requisitos de seguridad del sistema y de los datos.",
+              "Servidores de ficheros.",
+              "Servidores de impresión.",
+              "Servidores de aplicaciones.",
+              "Técnicas de conexión remota.",
+              "Cortafuegos.",
+              "Implantación y explotación de dominios."
+            ]
+          }
         },
         {
           "numero": 7,
@@ -344,7 +433,15 @@
               "codigo": "RA7.g",
               "descripcion": "Se han utilizado herramientas de propósito general. Duración: 100 horas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Explotación de aplicaciones informáticas de propósito general",
+            "items": [
+              "Software: tipos, requisitos, licencias.",
+              "Herramientas ofimáticas y de trabajo colaborativo.",
+              "Utilidades de propósito general: antimalware, correo, transferencia de ficheros, recuperación de datos, mantenimiento del sistema, entre otros."
+            ]
+          }
         }
       ],
       "competencias_titulo": [
@@ -361,7 +458,120 @@
       ],
       "horas": 100,
       "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de explotación de sistemas informáticos.\n\nLa función de explotación de sistemas informáticos incluye aspectos como:\n\n− La instalación, configuración básica y explotación de sistemas operativos.\n\n− La gestión de la información del sistema.\n\n− La configuración básica y gestión de redes de área local.\n\n− La instalación, mantenimiento y explotación de aplicaciones a partir de documentación técnica.\n\nLas actividades profesionales asociadas a esta función se aplican en la explotación de sistemas informáticos en relación al desarrollo de aplicaciones.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales a), b), t), u), v), w) y x) del ciclo formativo y las competencias profesionales, personales y sociales a), b), l), t), u), v), w), x) e y) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo están relacionadas con:\n\n− La identificación del hardware.\n\n− El análisis de los cambios y novedades que se producen en los sistemas informáticos: hardware, sistemas operativos, redes y aplicaciones.\n\n− La utilización de tecnologías de virtualización para simular sistemas.\n\n− La correcta interpretación de documentación técnica.\n\n− La instalación y actualización de sistemas operativos.\n\n− La gestión de la información del sistema mediante comandos y herramientas gráficas.\n\n− La gestión de redes locales.\n\n− La instalación y configuración de aplicaciones.\n\n− La verificación de la seguridad de acceso al sistema.\n\n− La elaboración de documentación técnica.",
-      "siglas": "SI"
+      "siglas": "SI",
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Explotación de sistemas microinformáticos",
+          "items": [
+            "Placas base. Formatos.",
+            "Estructura y componentes: procesador (Set de Instrucciones, Registros, Contador, Unidad Aritmético-Lógica, Interrupciones); memoria interna, tipos y características (RAM, xPROM y otras); interfaces de entrada/salida; discos Periféricos. Adaptadores para la conexión de dispositivos. Componentes de un sistema informático.",
+            "Periféricos. Adaptadores para la conexión de dispositivos.",
+            "Normas de seguridad y prevención de riesgos laborales.",
+            "Características de las redes. Ventajas e inconvenientes.",
+            "Tipos de redes.",
+            "Componentes de una red informática.",
+            "Topologías de red.",
+            "Tipos de cableado. Conectores.",
+            "Mapa físico y lógico de una red local."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Instalación de sistemas operativos",
+          "items": [
+            "Evolución histórica y clasificación.",
+            "Funciones de un sistema operativo.",
+            "Tipos de sistemas operativos.",
+            "Tipos de aplicaciones.",
+            "Licencias y tipos de licencias.",
+            "Procedimiento de instalación.",
+            "Gestores de arranque. Configuración y reparación.",
+            "Tecnologías de virtualización. Tipos.",
+            "Consideraciones previas a la instalación de sistemas operativos libres y propietarios.",
+            "Instalación de sistemas operativos libres y propietarios. Requisitos, versiones y licencias.",
+            "Instalación/desinstalación de aplicaciones. Requisitos, versiones y licencias.",
+            "Actualización y recuperación de sistemas operativos y aplicaciones.",
+            "Documentación de la instalación y de las incidencias detectadas."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Gestión de la información",
+          "items": [
+            "Gestión de sistemas de archivos mediante comandos y entornos gráficos.",
+            "Estructura de directorios de sistemas operativos libres y propietarios.",
+            "Búsqueda de información del sistema mediante comandos y herramientas gráficas.",
+            "Identificación del software instalado mediante comandos y herramientas gráficas.",
+            "Realización y restauración de copias de seguridad.",
+            "Herramientas de administración de discos. Particiones y volúmenes. Desfragmentación y chequeo. Cifrado.",
+            "Tareas automáticas. Planificación."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Configuración de sistemas operativos",
+          "items": [
+            "Configuración de usuarios y grupos.",
+            "Seguridad de cuentas de usuario.",
+            "Seguridad de contraseñas.",
+            "Acceso a recursos. Permisos locales. Listas de control de acceso.",
+            "Servicios y procesos.",
+            "Comandos de sistemas operativos libres y propietarios.",
+            "Herramientas de monitorización del sistema. Registros y logs."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Conexión de sistemas en red",
+          "items": [
+            "Configuración del protocolo TCP/IP en un cliente de red. Direcciones IP. Máscaras de subred. Puertas de enlace. Servidores de nombres de dominio. IPv4. IPv6. Configuración estática. Configuración dinámica automática.",
+            "Ficheros de configuración de red.",
+            "Gestión de puertos.",
+            "Resolución de problemas de conectividad en sistemas operativos en red. Herramientas de diagnóstico.",
+            "Herramientas gráficas y comandos utilizados en sistemas operativos libres y propietarios.",
+            "Monitorización de redes.",
+            "Protocolos TCP/IP.",
+            "Configuración de los adaptadores de red en sistemas operativos libres y propietarios.",
+            "Interconexión de redes: adaptadores de red y dispositivos de interconexión. Enrutamiento.",
+            "Redes cableadas. Tipos y características. Adaptadores de red. Conmutadores, enrutadores, entre otros. Seguridad.",
+            "Redes inalámbricas. Tipos y características. Adaptadores. Dispositivos de interconexión. Seguridad.",
+            "Seguridad de comunicaciones.",
+            "Tecnologías de acceso a redes de área extensa."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Gestión de recursos en una red",
+          "items": [
+            "Permisos y derechos. Permisos de red. Permisos locales. Herencia. Listas de control de acceso.",
+            "Configuración de recursos compartidos. Permisos de acceso y directivas de seguridad.",
+            "Requisitos de seguridad del sistema y de los datos.",
+            "Servidores de ficheros.",
+            "Servidores de impresión.",
+            "Servidores de aplicaciones.",
+            "Técnicas de conexión remota.",
+            "Cortafuegos.",
+            "Implantación y explotación de dominios."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Explotación de aplicaciones informáticas de propósito general",
+          "items": [
+            "Software: tipos, requisitos, licencias.",
+            "Herramientas ofimáticas y de trabajo colaborativo.",
+            "Utilidades de propósito general: antimalware, correo, transferencia de ficheros, recuperación de datos, mantenimiento del sistema, entre otros."
+          ]
+        }
+      ]
     },
     {
       "codigo": "0484",
@@ -427,7 +637,18 @@
               "codigo": "RA1.j",
               "descripcion": "Se han reconocido los conceptos de Big Data y de la inteligencia de negocios."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Almacenamiento de la información",
+            "items": [
+              "Ficheros (planos, indexados, acceso directo, entre otros).",
+              "Bases de datos. Conceptos, usos y tipos según el modelo de datos, la ubicación de la información.",
+              "Sistemas gestores de base de datos: Funciones, componentes y tipos.",
+              "Bases de datos centralizadas y bases de datos distribuidas. Técnicas de fragmentación.",
+              "Legislación sobre protección de datos.",
+              "Big Data: introducción, análisis de datos, inteligencia de negocios."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -475,7 +696,24 @@
               "codigo": "RA2.h",
               "descripcion": "Se han utilizado asistentes, herramientas gráficas y los lenguajes de definición y control de datos."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Bases de datos relacionales",
+            "items": [
+              "Modelo de datos.",
+              "Terminología del modelo relacional.",
+              "Tipos de datos.",
+              "Claves primarias.",
+              "Restricciones de validación.",
+              "Índices. Características.",
+              "El valor NULL.",
+              "Claves ajenas.",
+              "Vistas.",
+              "Usuarios. Privilegios.",
+              "Lenguaje de descripción de datos (DDL).",
+              "Lenguaje de control de datos (DCL)."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -523,7 +761,21 @@
               "codigo": "RA3.h",
               "descripcion": "Se han aplicado criterios de optimización de consultas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Realización de consultas",
+            "items": [
+              "Proyección, selección y ordenación de registros.",
+              "Operadores. Operadores de comparación. Operadores lógicos.",
+              "Consultas de resumen.",
+              "Agrupamiento de registros.",
+              "Composiciones internas.",
+              "Composiciones externas.",
+              "Subconsultas.",
+              "Combinación de múltiples selecciones.",
+              "Optimización de consultas."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -571,7 +823,17 @@
               "codigo": "RA4.h",
               "descripcion": "Se han adoptado medidas para mantener la integridad y consistencia de la información."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Tratamiento de datos",
+            "items": [
+              "Inserción, borrado y modificación de registros.",
+              "Integridad referencial.",
+              "Subconsultas y composiciones en órdenes de edición.",
+              "Transacciones.",
+              "Políticas de bloqueo. Concurrencia."
+            ]
+          }
         },
         {
           "numero": 5,
@@ -629,7 +891,20 @@
               "codigo": "RA5.j",
               "descripcion": "Se han utilizado excepciones."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Programación de bases de datos",
+            "items": [
+              "Introducción. Lenguaje de programación.",
+              "Variables del sistema y variables de usuario.",
+              "Funciones.",
+              "Estructuras de control de flujo.",
+              "Procedimientos almacenados. Funciones de usuario.",
+              "Eventos y disparadores.",
+              "Excepciones.",
+              "Cursores."
+            ]
+          }
         },
         {
           "numero": 6,
@@ -677,7 +952,17 @@
               "codigo": "RA6.h",
               "descripcion": "Se han analizado y documentado las restricciones que no pueden plasmarse en el diseño lógico."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Interpretación de Diagramas Entidad/Relación",
+            "items": [
+              "El modelo E/R. Entidades y relaciones. Cardinalidades. Debilidad.",
+              "El modelo E/R ampliado. Generalización y especialización. Agregación.",
+              "Paso del diagrama E/R al modelo relacional.",
+              "Restricciones semánticas del modelo relacional.",
+              "Normalización de modelos relacionales."
+            ]
+          }
         },
         {
           "numero": 7,
@@ -710,7 +995,17 @@
               "codigo": "RA7.e",
               "descripcion": "Se han utilizado las herramientas del sistema gestor para la gestión de la información almacenada. Duración: 105 horas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Uso de bases de datos no relacionales",
+            "items": [
+              "Características de las bases de datos no relacionales.",
+              "Tipos de bases de datos no relacionales.",
+              "Elementos de las bases de datos no relacionales.",
+              "Sistemas gestores de bases de datos no relacionales.",
+              "Herramientas de los sistemas gestores de bases de datos no relacionales para la gestión de la información almacenada."
+            ]
+          }
         }
       ],
       "competencias_titulo": [
@@ -726,7 +1021,108 @@
       ],
       "horas": 105,
       "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de programación de bases de datos.\n\nLa función de programación de bases de datos incluye aspectos como:\n\n− La planificación y realización del diseño lógico y físico de una base de datos.\n\n− La normalización de esquemas.\n\n− La inserción y manipulación de datos.\n\n− La planificación y realización de consultas.\n\n− La programación de procedimientos almacenados.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\n− La gestión de la información almacenada en bases de datos.\n\n− El desarrollo de aplicaciones que acceden a bases de datos.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales c), e), f), p) y t) del ciclo formativo y las competencias b), c), e), p) y t) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n− La interpretación de diseños lógicos de bases de datos.\n\n− La realización del diseño físico de una base de datos a partir de un diseño lógico.\n\n− La implementación y normalización de bases de datos.\n\n− La realización de operaciones de consulta y modificación sobre los datos almacenados.\n\n− La programación de procedimientos almacenados.\n\n− La utilización de bases de datos no relacionales.",
-      "siglas": "BD"
+      "siglas": "BD",
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Almacenamiento de la información",
+          "items": [
+            "Ficheros (planos, indexados, acceso directo, entre otros).",
+            "Bases de datos. Conceptos, usos y tipos según el modelo de datos, la ubicación de la información.",
+            "Sistemas gestores de base de datos: Funciones, componentes y tipos.",
+            "Bases de datos centralizadas y bases de datos distribuidas. Técnicas de fragmentación.",
+            "Legislación sobre protección de datos.",
+            "Big Data: introducción, análisis de datos, inteligencia de negocios."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Bases de datos relacionales",
+          "items": [
+            "Modelo de datos.",
+            "Terminología del modelo relacional.",
+            "Tipos de datos.",
+            "Claves primarias.",
+            "Restricciones de validación.",
+            "Índices. Características.",
+            "El valor NULL.",
+            "Claves ajenas.",
+            "Vistas.",
+            "Usuarios. Privilegios.",
+            "Lenguaje de descripción de datos (DDL).",
+            "Lenguaje de control de datos (DCL)."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Realización de consultas",
+          "items": [
+            "Proyección, selección y ordenación de registros.",
+            "Operadores. Operadores de comparación. Operadores lógicos.",
+            "Consultas de resumen.",
+            "Agrupamiento de registros.",
+            "Composiciones internas.",
+            "Composiciones externas.",
+            "Subconsultas.",
+            "Combinación de múltiples selecciones.",
+            "Optimización de consultas."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Tratamiento de datos",
+          "items": [
+            "Inserción, borrado y modificación de registros.",
+            "Integridad referencial.",
+            "Subconsultas y composiciones en órdenes de edición.",
+            "Transacciones.",
+            "Políticas de bloqueo. Concurrencia."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Programación de bases de datos",
+          "items": [
+            "Introducción. Lenguaje de programación.",
+            "Variables del sistema y variables de usuario.",
+            "Funciones.",
+            "Estructuras de control de flujo.",
+            "Procedimientos almacenados. Funciones de usuario.",
+            "Eventos y disparadores.",
+            "Excepciones.",
+            "Cursores."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Interpretación de Diagramas Entidad/Relación",
+          "items": [
+            "El modelo E/R. Entidades y relaciones. Cardinalidades. Debilidad.",
+            "El modelo E/R ampliado. Generalización y especialización. Agregación.",
+            "Paso del diagrama E/R al modelo relacional.",
+            "Restricciones semánticas del modelo relacional.",
+            "Normalización de modelos relacionales."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Uso de bases de datos no relacionales",
+          "items": [
+            "Características de las bases de datos no relacionales.",
+            "Tipos de bases de datos no relacionales.",
+            "Elementos de las bases de datos no relacionales.",
+            "Sistemas gestores de bases de datos no relacionales.",
+            "Herramientas de los sistemas gestores de bases de datos no relacionales para la gestión de la información almacenada."
+          ]
+        }
+      ]
     },
     {
       "codigo": "0485",
@@ -787,7 +1183,20 @@
               "codigo": "RA1.i",
               "descripcion": "Se han introducido comentarios en el código."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Identificación de los elementos de un programa informático",
+            "items": [
+              "Estructura y bloques fundamentales.",
+              "Variables.",
+              "Tipos de datos.",
+              "Literales.",
+              "Constantes.",
+              "Operadores y expresiones.",
+              "Conversiones de tipo.",
+              "Comentarios."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -840,7 +1249,19 @@
               "codigo": "RA2.i",
               "descripcion": "Se ha utilizado el entorno integrado de desarrollo en la creación y compilación de programas simples."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Utilización de objetos",
+            "items": [
+              "Características de los objetos.",
+              "Instanciación de objetos.",
+              "Utilización de métodos. Parámetros.",
+              "Utilización de propiedades.",
+              "Utilización de métodos estáticos.",
+              "Constructores.",
+              "Destrucción de objetos y liberación de memoria."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -893,7 +1314,18 @@
               "codigo": "RA3.i",
               "descripcion": "Se han utilizado aserciones para la detección y corrección de errores durante la fase de desarrollo."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Uso de estructuras de control",
+            "items": [
+              "Estructuras de selección.",
+              "Estructuras de repetición.",
+              "Estructuras de salto.",
+              "Control de excepciones.",
+              "Aserciones.",
+              "Prueba, depuración y documentación de la aplicación."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -946,7 +1378,19 @@
               "codigo": "RA4.i",
               "descripcion": "Se han creado y utilizado conjuntos y librerías de clases."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Desarrollo de clases",
+            "items": [
+              "Concepto de clase.",
+              "Estructura y miembros de una clase. Visibilidad.",
+              "Creación de propiedades.",
+              "Creación de métodos.",
+              "Creación de constructores.",
+              "Utilización de clases y objetos.",
+              "Utilización de clases heredadas."
+            ]
+          }
         },
         {
           "numero": 5,
@@ -994,7 +1438,21 @@
               "codigo": "RA5.h",
               "descripcion": "Se han escrito programas que utilicen interfaces gráficos para la entrada y salida de información."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Lectura y escritura de información",
+            "items": [
+              "Flujos. Tipos: bytes y caracteres. Clases relacionadas.",
+              "Ficheros de datos. Registros.",
+              "Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros.",
+              "Utilización de los sistemas de ficheros.",
+              "Creación y eliminación de ficheros y directorios.",
+              "Entrada desde teclado. Salida a pantalla. Formatos de visualización.",
+              "Interfaces gráficas.",
+              "Concepto de evento.",
+              "Creación de controladores de eventos."
+            ]
+          }
         },
         {
           "numero": 6,
@@ -1052,7 +1510,19 @@
               "codigo": "RA6.j",
               "descripcion": "Se han utilizado operaciones agregadas para el manejo de información almacenada en colecciones."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Aplicación de las estructuras de almacenamiento",
+            "items": [
+              "Estructuras estáticas y dinámicas.",
+              "Creación de matrices (arrays).",
+              "Matrices (arrays) multidimensionales.",
+              "Genericidad.",
+              "Cadenas de caracteres. Expresiones regulares.",
+              "Colecciones: Listas, Conjuntos y Diccionarios.",
+              "Operaciones agregadas: filtrado, reducción y recolección."
+            ]
+          }
         },
         {
           "numero": 7,
@@ -1110,7 +1580,19 @@
               "codigo": "RA7.j",
               "descripcion": "Se han identificado y evaluado los escenarios de utilización de la herencia y la composición."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Utilización avanzada de clases",
+            "items": [
+              "Composición de clases.",
+              "Herencia y polimorfismo.",
+              "Jerarquía de clases: Superclases y subclases.",
+              "Clases y métodos abstractos y finales.",
+              "Interfaces.",
+              "Sobreescritura de métodos.",
+              "Constructores y herencia."
+            ]
+          }
         },
         {
           "numero": 8,
@@ -1158,7 +1640,21 @@
               "codigo": "RA8.h",
               "descripcion": "Se han realizado programas para almacenar y gestionar tipos de datos estructurados, compuestos y relacionados."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Mantenimiento de la persistencia de los objetos",
+            "items": [
+              "Bases de datos orientadas a objetos.",
+              "Características de las bases de datos orientadas a objetos.",
+              "Instalación del gestor de bases de datos.",
+              "Creación de bases de datos.",
+              "Mecanismos de consulta.",
+              "El lenguaje de consultas: sintaxis, expresiones, operadores.",
+              "Recuperación, modificación y borrado de información.",
+              "Tipos de datos objeto; atributos y métodos.",
+              "Tipos de datos colección."
+            ]
+          }
         },
         {
           "numero": 9,
@@ -1201,7 +1697,15 @@
               "codigo": "RA9.g",
               "descripcion": "Se han creado aplicaciones para gestionar la información presente en bases de datos. Duración: 135 horas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Gestión de bases de datos",
+            "items": [
+              "Acceso a bases de datos. Estándares. Características.",
+              "Establecimiento de conexiones.",
+              "Almacenamiento, recuperación, actualización y eliminación de información en bases de datos."
+            ]
+          }
         }
       ],
       "competencias_titulo": [
@@ -1219,7 +1723,135 @@
       ],
       "horas": 135,
       "orientaciones_pedagogicas": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de programación de aplicaciones de propósito general en lenguajes orientados a objetos.\n\nLa función de programación de aplicaciones de propósito general en lenguajes orientados a objetos incluye aspectos como:\n\n– El desarrollo de programas organizados en clases aplicando los principios de la programación orientada a objetos.\n\n– La utilización de interfaces para la interacción de la aplicación con el usuario.\n\n– La identificación, análisis e integración de librerías para incorporar funcionalidades específicas a los programas desarrollados.\n\n– El almacenamiento y recuperación de información en sistemas gestores de bases de datos.\n\nLas actividades profesionales asociadas a esta función se aplican en el desarrollo y la adaptación de programas informáticos de propósito general en lenguajes orientados a objetos.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales e), j), q) y w) del ciclo formativo y las competencias e), j), t) y w) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n– La interpretación y aplicación de los principios de la programación orientada a objetos.\n\n– La evaluación, selección y utilización de herramientas y lenguajes de programación orientados a objetos.\n\n– La utilización de las características específicas de lenguajes y entornos de programación en el desarrollo de aplicaciones informáticas.\n\n– La identificación de las funcionalidades aportadas por los sistemas gestores de bases de datos y su incorporación a las aplicaciones desarrolladas.\n\n– La prueba, depuración y documentación de las aplicaciones desarrolladas.",
-      "siglas": "PROG"
+      "siglas": "PROG",
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Identificación de los elementos de un programa informático",
+          "items": [
+            "Estructura y bloques fundamentales.",
+            "Variables.",
+            "Tipos de datos.",
+            "Literales.",
+            "Constantes.",
+            "Operadores y expresiones.",
+            "Conversiones de tipo.",
+            "Comentarios."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Utilización de objetos",
+          "items": [
+            "Características de los objetos.",
+            "Instanciación de objetos.",
+            "Utilización de métodos. Parámetros.",
+            "Utilización de propiedades.",
+            "Utilización de métodos estáticos.",
+            "Constructores.",
+            "Destrucción de objetos y liberación de memoria."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Uso de estructuras de control",
+          "items": [
+            "Estructuras de selección.",
+            "Estructuras de repetición.",
+            "Estructuras de salto.",
+            "Control de excepciones.",
+            "Aserciones.",
+            "Prueba, depuración y documentación de la aplicación."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Desarrollo de clases",
+          "items": [
+            "Concepto de clase.",
+            "Estructura y miembros de una clase. Visibilidad.",
+            "Creación de propiedades.",
+            "Creación de métodos.",
+            "Creación de constructores.",
+            "Utilización de clases y objetos.",
+            "Utilización de clases heredadas."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Lectura y escritura de información",
+          "items": [
+            "Flujos. Tipos: bytes y caracteres. Clases relacionadas.",
+            "Ficheros de datos. Registros.",
+            "Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros.",
+            "Utilización de los sistemas de ficheros.",
+            "Creación y eliminación de ficheros y directorios.",
+            "Entrada desde teclado. Salida a pantalla. Formatos de visualización.",
+            "Interfaces gráficas.",
+            "Concepto de evento.",
+            "Creación de controladores de eventos."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Aplicación de las estructuras de almacenamiento",
+          "items": [
+            "Estructuras estáticas y dinámicas.",
+            "Creación de matrices (arrays).",
+            "Matrices (arrays) multidimensionales.",
+            "Genericidad.",
+            "Cadenas de caracteres. Expresiones regulares.",
+            "Colecciones: Listas, Conjuntos y Diccionarios.",
+            "Operaciones agregadas: filtrado, reducción y recolección."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Utilización avanzada de clases",
+          "items": [
+            "Composición de clases.",
+            "Herencia y polimorfismo.",
+            "Jerarquía de clases: Superclases y subclases.",
+            "Clases y métodos abstractos y finales.",
+            "Interfaces.",
+            "Sobreescritura de métodos.",
+            "Constructores y herencia."
+          ]
+        },
+        {
+          "ra": 8,
+          "codigo_ra": "RA8",
+          "titulo": "Mantenimiento de la persistencia de los objetos",
+          "items": [
+            "Bases de datos orientadas a objetos.",
+            "Características de las bases de datos orientadas a objetos.",
+            "Instalación del gestor de bases de datos.",
+            "Creación de bases de datos.",
+            "Mecanismos de consulta.",
+            "El lenguaje de consultas: sintaxis, expresiones, operadores.",
+            "Recuperación, modificación y borrado de información.",
+            "Tipos de datos objeto; atributos y métodos.",
+            "Tipos de datos colección."
+          ]
+        },
+        {
+          "ra": 9,
+          "codigo_ra": "RA9",
+          "titulo": "Gestión de bases de datos",
+          "items": [
+            "Acceso a bases de datos. Estándares. Características.",
+            "Establecimiento de conexiones.",
+            "Almacenamiento, recuperación, actualización y eliminación de información en bases de datos."
+          ]
+        }
+      ]
     },
     {
       "codigo": "0373",
@@ -1280,7 +1912,18 @@
               "codigo": "RA1.i",
               "descripcion": "Se han identificado las ventajas que aportan los espacios de nombres."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Reconocimiento de las características de lenguajes de marcas",
+            "items": [
+              "Clasificación.",
+              "Características y ámbitos de aplicación.",
+              "Estructura y sintaxis.",
+              "Herramientas de edición.",
+              "Elaboración de documentos bien formados.",
+              "Utilización de espacios de nombres."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -1338,7 +1981,19 @@
               "codigo": "RA2.j",
               "descripcion": "Se han reconocido los ámbitos de aplicación de la sindicación de contenidos."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Utilización de lenguajes de marcas en entornos web",
+            "items": [
+              "Estándares web. Versiones. Clasificación.",
+              "Estructura de un documento HTML.",
+              "Identificación de etiquetas y atributos de HTML.",
+              "Herramientas de diseño web.",
+              "Hojas de estilo (CSS).",
+              "Validación de documentos HTML y CSS.",
+              "Lenguajes de marcas para la sindicación de contenidos."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -1376,7 +2031,17 @@
               "codigo": "RA3.f",
               "descripcion": "Se han realizado modificaciones sobre los estilos de un documento web."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Manipulación de documentos web",
+            "items": [
+              "Lenguajes de script de cliente. Características y sintaxis básica. Estándares.",
+              "Selección y acceso a elementos.",
+              "Creación y modificación de elementos.",
+              "Eliminación de elementos.",
+              "Manipulación de estilos."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -1419,7 +2084,16 @@
               "codigo": "RA4.g",
               "descripcion": "Se han utilizado herramientas específicas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Definición de esquemas y vocabularios en lenguajes de marcas",
+            "items": [
+              "Tecnologías para la definición de documentos. Estructura y sintaxis.",
+              "Creación de descripciones de documentos.",
+              "Asociación de descripciones con documentos. Validación.",
+              "Herramientas de creación y validación."
+            ]
+          }
         },
         {
           "numero": 5,
@@ -1462,7 +2136,16 @@
               "codigo": "RA5.g",
               "descripcion": "Se han realizado conversiones sobre documentos para el intercambio de información."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Conversión y adaptación de documentos para el intercambio de información",
+            "items": [
+              "Tecnologías de transformación de documentos. Estándares. Ámbitos de aplicación.",
+              "Descripción de la estructura y de la sintaxis.",
+              "Creación y utilización de plantillas. Herramientas y depuración.",
+              "Conversión entre diferentes formatos de documentos."
+            ]
+          }
         },
         {
           "numero": 6,
@@ -1515,7 +2198,18 @@
               "codigo": "RA6.i",
               "descripcion": "Se han utilizado herramientas para gestionar la información almacenada en bases de datos nativas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Almacenamiento de información",
+            "items": [
+              "Sistemas de almacenamiento de información. Características. Tecnologías.",
+              "Lenguajes de consulta y manipulación en documentos.",
+              "Consulta y manipulación de información.",
+              "Importación y exportación de bases de datos relacionales en diferentes formatos.",
+              "Herramientas de tratamiento y almacenamiento de información en sistemas nativos.",
+              "Almacenamiento y manipulación de información en sistemas nativos."
+            ]
+          }
         },
         {
           "numero": 7,
@@ -1568,7 +2262,20 @@
               "codigo": "RA7.i",
               "descripcion": "Se han elaborado documentos relativos a la explotación de la aplicación. Duración: 70 horas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Sistemas de gestión empresarial",
+            "items": [
+              "Aplicaciones de gestión empresarial. Tipos. Características.",
+              "Instalación.",
+              "Administración y configuración.",
+              "Integración de módulos.",
+              "Mecanismos de acceso seguro a la información. Roles y privilegios.",
+              "Elaboración de informes.",
+              "Exportación de información.",
+              "Elaboración de documentación."
+            ]
+          }
         }
       ],
       "competencias_titulo": [
@@ -1584,7 +2291,98 @@
       ],
       "horas": 70,
       "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de gestión y explotación de sistemas de información.\n\nLa gestión y explotación de sistemas de información incluye aspectos como:\n\n− La utilización de lenguajes de marcado en el tratamiento y transmisión de la información.\n\n− La caracterización de la información transmitida y almacenada.\n\n− La adaptación de la información a las tecnologías utilizadas en su presentación, transmisión y almacenamiento.\n\n− El almacenamiento y recuperación de la información.\n\n− La implantación y adaptación de sistemas de gestión empresarial.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\n− El almacenamiento y transmisión de la información.\n\n− La utilización de tecnologías web para la publicación y difusión de información.\n\n− La explotación de sistemas empresariales de gestión de información.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales h), o), p), t) y w) del ciclo formativo y las competencias profesionales, personales y sociales h), o), p), t) y w) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n− La caracterización y transmisión de la información utilizando lenguajes de marcado.\n\n− La publicación y difusión de información en la web.\n\n− La utilización de técnicas de transformación y adaptación de la información.\n\n− El almacenamiento de la información.\n\n− La gestión de información en sistemas específicos orientados a entornos empresariales.",
-      "siglas": "LMSGI"
+      "siglas": "LMSGI",
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Reconocimiento de las características de lenguajes de marcas",
+          "items": [
+            "Clasificación.",
+            "Características y ámbitos de aplicación.",
+            "Estructura y sintaxis.",
+            "Herramientas de edición.",
+            "Elaboración de documentos bien formados.",
+            "Utilización de espacios de nombres."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Utilización de lenguajes de marcas en entornos web",
+          "items": [
+            "Estándares web. Versiones. Clasificación.",
+            "Estructura de un documento HTML.",
+            "Identificación de etiquetas y atributos de HTML.",
+            "Herramientas de diseño web.",
+            "Hojas de estilo (CSS).",
+            "Validación de documentos HTML y CSS.",
+            "Lenguajes de marcas para la sindicación de contenidos."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Manipulación de documentos web",
+          "items": [
+            "Lenguajes de script de cliente. Características y sintaxis básica. Estándares.",
+            "Selección y acceso a elementos.",
+            "Creación y modificación de elementos.",
+            "Eliminación de elementos.",
+            "Manipulación de estilos."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Definición de esquemas y vocabularios en lenguajes de marcas",
+          "items": [
+            "Tecnologías para la definición de documentos. Estructura y sintaxis.",
+            "Creación de descripciones de documentos.",
+            "Asociación de descripciones con documentos. Validación.",
+            "Herramientas de creación y validación."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Conversión y adaptación de documentos para el intercambio de información",
+          "items": [
+            "Tecnologías de transformación de documentos. Estándares. Ámbitos de aplicación.",
+            "Descripción de la estructura y de la sintaxis.",
+            "Creación y utilización de plantillas. Herramientas y depuración.",
+            "Conversión entre diferentes formatos de documentos."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Almacenamiento de información",
+          "items": [
+            "Sistemas de almacenamiento de información. Características. Tecnologías.",
+            "Lenguajes de consulta y manipulación en documentos.",
+            "Consulta y manipulación de información.",
+            "Importación y exportación de bases de datos relacionales en diferentes formatos.",
+            "Herramientas de tratamiento y almacenamiento de información en sistemas nativos.",
+            "Almacenamiento y manipulación de información en sistemas nativos."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Sistemas de gestión empresarial",
+          "items": [
+            "Aplicaciones de gestión empresarial. Tipos. Características.",
+            "Instalación.",
+            "Administración y configuración.",
+            "Integración de módulos.",
+            "Mecanismos de acceso seguro a la información. Roles y privilegios.",
+            "Elaboración de informes.",
+            "Exportación de información.",
+            "Elaboración de documentación."
+          ]
+        }
+      ]
     },
     {
       "codigo": "0487",
@@ -1635,7 +2433,19 @@
               "codigo": "RA1.g",
               "descripcion": "Se han identificado las características y escenarios de uso de las metodologías ágiles de desarrollo de software."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Desarrollo de software",
+            "items": [
+              "Concepto de programa informático.",
+              "Código fuente, código objeto y código ejecutable; tecnologías de virtualización.",
+              "Tipos de lenguajes de programación. Paradigmas.",
+              "Características de los lenguajes más difundidos.",
+              "Fases del desarrollo de una aplicación: análisis, diseño, codificación, pruebas, documentación, explotación y mantenimiento, entre otras.",
+              "Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas.",
+              "Metodologías ágiles. Técnicas. Características."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -1678,7 +2488,19 @@
               "codigo": "RA2.g",
               "descripcion": "Se han identificado las características comunes y específicas de diversos entornos de desarrollo."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Instalación y uso de entornos de desarrollo",
+            "items": [
+              "Funciones de un entorno de desarrollo.",
+              "Instalación de un entorno de desarrollo.",
+              "Uso básico de un entorno de desarrollo.",
+              "Personalización del entorno de desarrollo: temas, estilos de codificación, módulos y extensiones, entre otros.",
+              "Edición de programas.",
+              "Generación de ejecutables en distintos entornos.",
+              "Herramientas y automatización."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -1736,7 +2558,19 @@
               "codigo": "RA3.j",
               "descripcion": "Se han utilizado dobles de prueba para aislar los componentes durante las pruebas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Diseño y realización de pruebas",
+            "items": [
+              "Planificación de Pruebas.",
+              "Tipos de pruebas: Funcionales, estructurales, regresión, entre otras.",
+              "Procedimientos y casos de prueba.",
+              "Pruebas de Código: Cubrimiento, valores límite, clases de equivalencia, entre otras.",
+              "Pruebas unitarias; herramientas de automatización.",
+              "Documentación de las incidencias.",
+              "Dobles de prueba. Tipos. Características."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -1789,7 +2623,18 @@
               "codigo": "RA4.i",
               "descripcion": "Se han utilizado herramientas para la integración continua del código."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Optimización y documentación",
+            "items": [
+              "Refactorización. Concepto. Limitaciones. Patrones de refactorización más usuales. Refactorización y pruebas. Herramientas de ayuda a la refactorización.",
+              "Analizadores de código.",
+              "Control de versiones. Estructura de las herramientas de control de versiones. Repositorio. Herramientas de control de versiones. Uso integrado en el entorno de desarrollo.",
+              "Repositorios remotos.",
+              "Documentación. Uso de comentarios. Alternativas.",
+              "Integración continua. Herramientas."
+            ]
+          }
         },
         {
           "numero": 5,
@@ -1827,7 +2672,18 @@
               "codigo": "RA5.f",
               "descripcion": "Se ha generado un diagrama de clases mediante ingeniería inversa."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Elaboración de diagramas de clases",
+            "items": [
+              "Clases. Atributos, métodos y visibilidad.",
+              "Objetos. Instanciación.",
+              "Relaciones. Asociación, navegabilidad y multiplicidad. Herencia, composición, agregación. Realización y dependencia.",
+              "Notación de los diagramas de clases.",
+              "Herramientas.",
+              "Generación automática de código. Ingeniería inversa."
+            ]
+          }
         },
         {
           "numero": 6,
@@ -1875,7 +2731,17 @@
               "codigo": "RA6.h",
               "descripcion": "Se han planteado diagramas de estados sencillos. Duración: 50 horas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Elaboración de diagramas de comportamiento",
+            "items": [
+              "Tipos. Campo de aplicación.",
+              "Diagrama de casos de uso. Actores, escenario, relación de comunicación.",
+              "Diagrama de secuencia. Línea de vida de un objeto, activación, envío de mensajes.",
+              "Diagrama de comunicación. Objetos, mensajes.",
+              "Diagrama de actividad. Diagrama de estados."
+            ]
+          }
         }
       ],
       "competencias_titulo": [
@@ -1893,7 +2759,89 @@
       ],
       "horas": 50,
       "orientaciones_pedagogicas": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de desarrollador de aplicaciones.\n\nLa función de desarrollador de aplicaciones incluye aspectos como:\n\n− La utilización de las herramientas software disponibles.\n\n− La elaboración de documentación interna y técnica de la aplicación.\n\n− El diseño, la elaboración y ejecución de pruebas.\n\n− La optimización de código.\n\nLas actividades profesionales asociadas a esta función se aplican en el desarrollo de aplicaciones.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales d), e), h), i), j), ñ) y o) del ciclo formativo y las competencias profesionales, personales y sociales d), f), h), i) y j), m) y n) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo están relacionados con:\n\n− La interpretación de documentación técnica.\n\n− La instalación, configuración y personalización de diversos entornos de desarrollo.\n\n− La utilización de distintos entornos de desarrollo para la edición y prueba de aplicaciones.\n\n− La utilización de herramientas de depuración, optimización y documentación de aplicaciones.\n\n− La generación de diagramas técnicos.\n\n− La elaboración de documentación interna de la aplicación.\n\n− La utilización de sistemas de control de versiones.",
-      "siglas": "ED"
+      "siglas": "ED",
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Desarrollo de software",
+          "items": [
+            "Concepto de programa informático.",
+            "Código fuente, código objeto y código ejecutable; tecnologías de virtualización.",
+            "Tipos de lenguajes de programación. Paradigmas.",
+            "Características de los lenguajes más difundidos.",
+            "Fases del desarrollo de una aplicación: análisis, diseño, codificación, pruebas, documentación, explotación y mantenimiento, entre otras.",
+            "Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas.",
+            "Metodologías ágiles. Técnicas. Características."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Instalación y uso de entornos de desarrollo",
+          "items": [
+            "Funciones de un entorno de desarrollo.",
+            "Instalación de un entorno de desarrollo.",
+            "Uso básico de un entorno de desarrollo.",
+            "Personalización del entorno de desarrollo: temas, estilos de codificación, módulos y extensiones, entre otros.",
+            "Edición de programas.",
+            "Generación de ejecutables en distintos entornos.",
+            "Herramientas y automatización."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Diseño y realización de pruebas",
+          "items": [
+            "Planificación de Pruebas.",
+            "Tipos de pruebas: Funcionales, estructurales, regresión, entre otras.",
+            "Procedimientos y casos de prueba.",
+            "Pruebas de Código: Cubrimiento, valores límite, clases de equivalencia, entre otras.",
+            "Pruebas unitarias; herramientas de automatización.",
+            "Documentación de las incidencias.",
+            "Dobles de prueba. Tipos. Características."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Optimización y documentación",
+          "items": [
+            "Refactorización. Concepto. Limitaciones. Patrones de refactorización más usuales. Refactorización y pruebas. Herramientas de ayuda a la refactorización.",
+            "Analizadores de código.",
+            "Control de versiones. Estructura de las herramientas de control de versiones. Repositorio. Herramientas de control de versiones. Uso integrado en el entorno de desarrollo.",
+            "Repositorios remotos.",
+            "Documentación. Uso de comentarios. Alternativas.",
+            "Integración continua. Herramientas."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Elaboración de diagramas de clases",
+          "items": [
+            "Clases. Atributos, métodos y visibilidad.",
+            "Objetos. Instanciación.",
+            "Relaciones. Asociación, navegabilidad y multiplicidad. Herencia, composición, agregación. Realización y dependencia.",
+            "Notación de los diagramas de clases.",
+            "Herramientas.",
+            "Generación automática de código. Ingeniería inversa."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Elaboración de diagramas de comportamiento",
+          "items": [
+            "Tipos. Campo de aplicación.",
+            "Diagrama de casos de uso. Actores, escenario, relación de comunicación.",
+            "Diagrama de secuencia. Línea de vida de un objeto, activación, envío de mensajes.",
+            "Diagrama de comunicación. Objetos, mensajes.",
+            "Diagrama de actividad. Diagrama de estados."
+          ]
+        }
+      ]
     },
     {
       "codigo": "0612",
@@ -1939,7 +2887,18 @@
               "codigo": "RA1.f",
               "descripcion": "Se han reconocido y evaluado las herramientas de programación y prueba sobre clientes web."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Selección de arquitecturas y tecnologías de programación",
+            "items": [
+              "Mecanismos de ejecución de código en un navegador web.",
+              "Capacidades y limitaciones de ejecución.",
+              "Lenguajes de programación en entorno cliente.",
+              "Tecnologías y lenguajes asociados.",
+              "Integración del código con las etiquetas HTML.",
+              "Herramientas de programación y prueba sobre clientes web. Librerías y frameworks."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -1987,7 +2946,21 @@
               "codigo": "RA2.h",
               "descripcion": "Se han utilizado herramientas y entornos para facilitar la programación, prueba y documentación del código."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Manejo de la sintaxis del lenguaje",
+            "items": [
+              "Variables.",
+              "Tipos de datos. Conversiones.",
+              "Asignaciones.",
+              "Operadores.",
+              "Comentarios al código.",
+              "Sentencias.",
+              "Decisiones.",
+              "Bucles.",
+              "Prueba y documentación del código."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -2035,7 +3008,20 @@
               "codigo": "RA3.h",
               "descripcion": "Se ha depurado y documentado el código."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Utilización de los objetos predefinidos del lenguaje",
+            "items": [
+              "Utilización de objetos. Objetos nativos del lenguaje.",
+              "Interacción con el navegador. Objetos predefinidos asociados.",
+              "Generación de texto y elementos HTML desde código.",
+              "Gestión de la apariencia de la ventana.",
+              "Creación de nuevas ventanas. Comunicación entre ventanas.",
+              "Interacción con el usuario.",
+              "Mecanismos del navegador para el almacenamiento y recuperación de información.",
+              "Depuración y documentación del código."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -2098,7 +3084,20 @@
               "codigo": "RA4.k",
               "descripcion": "Se ha depurado y documentado el código."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Programación con colecciones, funciones y objetos definidos por el usuario",
+            "items": [
+              "Funciones predefinidas del lenguaje.",
+              "Llamadas a funciones. Definición de funciones.",
+              "Matrices (arrays).",
+              "Operaciones agregadas: filtrado, reducción y recolección.",
+              "Creación de objetos.",
+              "Definición de métodos y propiedades.",
+              "Patrones de diseño.",
+              "Depuración y documentación del código."
+            ]
+          }
         },
         {
           "numero": 5,
@@ -2146,7 +3145,19 @@
               "codigo": "RA5.h",
               "descripcion": "Se ha probado y documentado el código."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Interacción con el usuario",
+            "items": [
+              "eventos y formularios:",
+              "Gestión de eventos. Tipos.",
+              "Utilización de formularios desde código.",
+              "Modificación de apariencia y comportamiento.",
+              "Validación y envío.",
+              "Expresiones regulares.",
+              "Prueba y documentación del código."
+            ]
+          }
         },
         {
           "numero": 6,
@@ -2194,7 +3205,18 @@
               "codigo": "RA6.h",
               "descripcion": "Se han independizado las tres capas de implementación (contenido, aspecto y comportamiento), en aplicaciones web."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Utilización del modelo de objetos del documento (DOM)",
+            "items": [
+              "El modelo de objetos del documento (DOM).",
+              "Objetos del modelo. Propiedades y métodos.",
+              "Acceso al documento desde código.",
+              "Programación de eventos.",
+              "Diferencias en las implementaciones del modelo.",
+              "Independencia de las capas de implementación de aplicaciones web."
+            ]
+          }
         },
         {
           "numero": 7,
@@ -2247,7 +3269,18 @@
               "codigo": "RA7.i",
               "descripcion": "Se han creado y probado y documentado aplicaciones web que utilicen estas librerías y frameworks. Duración: 80 horas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Utilización de mecanismos de comunicación asíncrona",
+            "items": [
+              "Mecanismos de comunicación asíncrona.",
+              "Modificación dinámica del documento utilizando comunicación asíncrona.",
+              "Formatos para el envío y recepción de información.",
+              "Librerías y frameworks de actualización dinámica.",
+              "Integración en diferentes navegadores.",
+              "Prueba y documentación del código."
+            ]
+          }
         }
       ],
       "competencias_titulo": [
@@ -2266,7 +3299,108 @@
       ],
       "horas": 80,
       "orientaciones_pedagogicas": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de desarrollo de aplicaciones destinadas a su ejecución por navegadores en entornos web.\n\nLa función de desarrollo de aplicaciones para navegadores web incluye aspectos como:\n\n− La integración de lenguajes de programación y lenguajes de marcas.\n\n− La incorporación de funcionalidades en documentos web.\n\n− La utilización de características y objetos propios del lenguaje y de los entornos de programación y ejecución.\n\n− La utilización de mecanismos para la gestión de eventos y la interacción con el usuario.\n\n− La incorporación de librerías y frameworks para la actualización dinámica del contenido y de la estructura del documento web.\n\n− El desarrollo de aplicaciones web dinámicas que apliquen mecanismos de comunicación asíncrona entre cliente y servidor.\n\nLas actividades profesionales asociadas a esta función se aplican en el desarrollo y la adaptación de funcionalidades y aplicaciones para clientes web.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales f), g), i), q) y r) del ciclo formativo y las competencias profesionales, personales y sociales e), k), m), n), p) y r) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n− El análisis, diferenciación y clasificación de las características y funcionalidades incorporadas en los navegadores más difundidos.\n\n− La utilización de las características específicas de lenguajes y entornos de programación en el desarrollo de aplicaciones para clientes web.\n\n− El análisis y la utilización de funcionalidades aportadas por librerías y frameworks web en entornos cliente.\n\n− La incorporación de mecanismos de actualización dinámica en aplicaciones Web.\n\n− El desarrollo de aplicaciones web dinámicas que apliquen mecanismos de comunicación asíncrona entre cliente y servidor.\n\n− La prueba y documentación en los desarrollos obtenidos.",
-      "siglas": "DWEC"
+      "siglas": "DWEC",
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Selección de arquitecturas y tecnologías de programación",
+          "items": [
+            "Mecanismos de ejecución de código en un navegador web.",
+            "Capacidades y limitaciones de ejecución.",
+            "Lenguajes de programación en entorno cliente.",
+            "Tecnologías y lenguajes asociados.",
+            "Integración del código con las etiquetas HTML.",
+            "Herramientas de programación y prueba sobre clientes web. Librerías y frameworks."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Manejo de la sintaxis del lenguaje",
+          "items": [
+            "Variables.",
+            "Tipos de datos. Conversiones.",
+            "Asignaciones.",
+            "Operadores.",
+            "Comentarios al código.",
+            "Sentencias.",
+            "Decisiones.",
+            "Bucles.",
+            "Prueba y documentación del código."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Utilización de los objetos predefinidos del lenguaje",
+          "items": [
+            "Utilización de objetos. Objetos nativos del lenguaje.",
+            "Interacción con el navegador. Objetos predefinidos asociados.",
+            "Generación de texto y elementos HTML desde código.",
+            "Gestión de la apariencia de la ventana.",
+            "Creación de nuevas ventanas. Comunicación entre ventanas.",
+            "Interacción con el usuario.",
+            "Mecanismos del navegador para el almacenamiento y recuperación de información.",
+            "Depuración y documentación del código."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Programación con colecciones, funciones y objetos definidos por el usuario",
+          "items": [
+            "Funciones predefinidas del lenguaje.",
+            "Llamadas a funciones. Definición de funciones.",
+            "Matrices (arrays).",
+            "Operaciones agregadas: filtrado, reducción y recolección.",
+            "Creación de objetos.",
+            "Definición de métodos y propiedades.",
+            "Patrones de diseño.",
+            "Depuración y documentación del código."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Interacción con el usuario",
+          "items": [
+            "eventos y formularios:",
+            "Gestión de eventos. Tipos.",
+            "Utilización de formularios desde código.",
+            "Modificación de apariencia y comportamiento.",
+            "Validación y envío.",
+            "Expresiones regulares.",
+            "Prueba y documentación del código."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Utilización del modelo de objetos del documento (DOM)",
+          "items": [
+            "El modelo de objetos del documento (DOM).",
+            "Objetos del modelo. Propiedades y métodos.",
+            "Acceso al documento desde código.",
+            "Programación de eventos.",
+            "Diferencias en las implementaciones del modelo.",
+            "Independencia de las capas de implementación de aplicaciones web."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Utilización de mecanismos de comunicación asíncrona",
+          "items": [
+            "Mecanismos de comunicación asíncrona.",
+            "Modificación dinámica del documento utilizando comunicación asíncrona.",
+            "Formatos para el envío y recepción de información.",
+            "Librerías y frameworks de actualización dinámica.",
+            "Integración en diferentes navegadores.",
+            "Prueba y documentación del código."
+          ]
+        }
+      ]
     },
     {
       "codigo": "0613",
@@ -2317,7 +3451,18 @@
               "codigo": "RA1.g",
               "descripcion": "Se han reconocido y evaluado las herramientas y frameworks de programación en entorno servidor."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Selección de arquitecturas y herramientas de programación",
+            "items": [
+              "Modelos de ejecución de código en entornos cliente/servidor.",
+              "Generación dinámica de páginas web.",
+              "Lenguajes de programación y tecnologías asociadas en entorno servidor.",
+              "Integración con los lenguajes de marcas.",
+              "Integración con los servidores web.",
+              "Herramientas y frameworks de programación. en entorno servidor."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -2365,7 +3510,17 @@
               "codigo": "RA2.h",
               "descripcion": "Se han identificado los ámbitos de utilización de las variables."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Inserción de código en páginas web",
+            "items": [
+              "Tecnologías asociadas.",
+              "Obtención del lenguaje de marcas para mostrar en el cliente.",
+              "Etiquetas para inserción de código.",
+              "Tipos de datos. Conversiones entre tipos de datos.",
+              "Variables. Operadores. Ámbitos de utilización."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -2408,7 +3563,20 @@
               "codigo": "RA3.g",
               "descripcion": "Se han añadido comentarios al código."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Programación basada en lenguajes de marcas con código embebido",
+            "items": [
+              "Tomas de decisión.",
+              "Bucles.",
+              "Matrices (arrays).",
+              "Tipos de datos compuestos.",
+              "Funciones.",
+              "Recuperación y utilización de información proveniente del cliente web.",
+              "Procesamiento de la información introducida en un formulario.",
+              "Comentarios."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -2446,7 +3614,17 @@
               "codigo": "RA4.f",
               "descripcion": "Se han utilizado herramientas y entornos para facilitar la programación, prueba y depuración del código."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Desarrollo de aplicaciones web utilizando código embebido",
+            "items": [
+              "Mantenimiento del estado.",
+              "Almacenamiento y recuperación de información en el cliente web.",
+              "Seguridad: usuarios, perfiles, roles.",
+              "Autentificación de usuarios.",
+              "Pruebas y depuración."
+            ]
+          }
         },
         {
           "numero": 5,
@@ -2494,7 +3672,17 @@
               "codigo": "RA5.h",
               "descripcion": "Se ha probado y documentado el código."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Generación dinámica de páginas web",
+            "items": [
+              "Mecanismos de separación de la lógica de negocio. Frameworks web servidor.",
+              "Controles de servidor.",
+              "Mecanismos de generación dinámica de la interface web.",
+              "Programación orientada a objetos. Patrones de diseño.",
+              "Prueba y documentación del código."
+            ]
+          }
         },
         {
           "numero": 6,
@@ -2537,7 +3725,18 @@
               "codigo": "RA6.g",
               "descripcion": "Se han probado y documentado las aplicaciones web."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Utilización de técnicas de acceso a datos",
+            "items": [
+              "Establecimiento de conexiones.",
+              "Recuperación y edición de información.",
+              "Utilización de conjuntos de resultados.",
+              "Actualización y eliminación de información proveniente de una base de datos.",
+              "Utilización de otros orígenes de datos.",
+              "Prueba y documentación."
+            ]
+          }
         },
         {
           "numero": 7,
@@ -2585,7 +3784,18 @@
               "codigo": "RA7.h",
               "descripcion": "Se ha documentado un servicio web."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Programación de servicios web",
+            "items": [
+              "Tecnologías y protocolos implicados.",
+              "Estándares y arquitecturas actuales. Formatos de intercambio de datos.",
+              "Generación de un servicio web.",
+              "Interface de un servicio web.",
+              "Consumo de un servicio web. Herramientas de prueba.",
+              "Frameworks de documentación."
+            ]
+          }
         },
         {
           "numero": 8,
@@ -2628,7 +3838,16 @@
               "codigo": "RA8.g",
               "descripcion": "Se han aplicado estas tecnologías y frameworks en la programación de aplicaciones web."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Generación dinámica de páginas web interactivas",
+            "items": [
+              "Tecnologías y frameworks.",
+              "Generación dinámica de páginas interactivas.",
+              "Obtención remota de información.",
+              "Modificación de la estructura y contenido de la página web."
+            ]
+          }
         },
         {
           "numero": 9,
@@ -2676,7 +3895,18 @@
               "codigo": "RA9.h",
               "descripcion": "Se han probado, depurado y documentado las aplicaciones generadas. Duración: 100 horas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Desarrollo de aplicaciones web híbridas",
+            "items": [
+              "Tecnologías y frameworks.",
+              "Reutilización de código e información.",
+              "Utilización de información proveniente de repositorios.",
+              "Incorporación de funcionalidades específicas.",
+              "Utilización de librerías de código relacionadas con Big Data e inteligencia de negocios. Extracción, proceso y análisis de datos provenientes de repositorios.",
+              "Prueba, depuración y documentación."
+            ]
+          }
         }
       ],
       "competencias_titulo": [
@@ -2697,7 +3927,123 @@
       ],
       "horas": 100,
       "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de desarrollo de aplicaciones y servicios destinados a su ejecución por servidores en entornos web.\n\nLa función de desarrollo de aplicaciones para servidores web incluye aspectos como:\n\n− La creación de aplicaciones de servidor que generan interfaces web como resultado de su ejecución.\n\n− La programación de métodos para almacenar, recuperar y gestionar mediante documentos web información disponible en almacenes de datos.\n\n− La generación, prueba y documentación de servicios web reutilizables y accesibles mediante protocolos web.\n\n− El desarrollo de aplicaciones basadas en información y funcionalidades distribuidas.\n\nLas actividades profesionales asociadas a esta función se aplican en el desarrollo y la adaptación de servicios y aplicaciones para servidores de aplicaciones y servidores web.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales c), d), f), g), h), l), m), n), ñ), q), s) y t) del ciclo formativo y las competencias profesionales, personales y sociales c), d), f), g), h), j), k), l), m), n), ñ), y q) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n− El análisis de los métodos de generación dinámica de documentos web.\n\n− La integración del lenguaje de marcas con el código ejecutable en el servidor web.\n\n− El análisis, diferenciación y clasificación de las características y funcionalidades incorporadas en los entornos y lenguajes de programación de los servidores web más difundidos.\n\n− La utilización de características y funcionalidades específicas de los lenguajes de programación seleccionados.\n\n− La modificación del código existente, así como el análisis de datos, en soluciones web heterogéneas para su adaptación a entornos específicos.\n\n− El análisis y la utilización de funcionalidades aportadas por frameworks de programación web en entorno servidor.\n\n− La utilización de frameworks para incorporar interactividad a los documentos web generados de forma dinámica.",
-      "siglas": "DWES"
+      "siglas": "DWES",
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Selección de arquitecturas y herramientas de programación",
+          "items": [
+            "Modelos de ejecución de código en entornos cliente/servidor.",
+            "Generación dinámica de páginas web.",
+            "Lenguajes de programación y tecnologías asociadas en entorno servidor.",
+            "Integración con los lenguajes de marcas.",
+            "Integración con los servidores web.",
+            "Herramientas y frameworks de programación. en entorno servidor."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Inserción de código en páginas web",
+          "items": [
+            "Tecnologías asociadas.",
+            "Obtención del lenguaje de marcas para mostrar en el cliente.",
+            "Etiquetas para inserción de código.",
+            "Tipos de datos. Conversiones entre tipos de datos.",
+            "Variables. Operadores. Ámbitos de utilización."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Programación basada en lenguajes de marcas con código embebido",
+          "items": [
+            "Tomas de decisión.",
+            "Bucles.",
+            "Matrices (arrays).",
+            "Tipos de datos compuestos.",
+            "Funciones.",
+            "Recuperación y utilización de información proveniente del cliente web.",
+            "Procesamiento de la información introducida en un formulario.",
+            "Comentarios."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Desarrollo de aplicaciones web utilizando código embebido",
+          "items": [
+            "Mantenimiento del estado.",
+            "Almacenamiento y recuperación de información en el cliente web.",
+            "Seguridad: usuarios, perfiles, roles.",
+            "Autentificación de usuarios.",
+            "Pruebas y depuración."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Generación dinámica de páginas web",
+          "items": [
+            "Mecanismos de separación de la lógica de negocio. Frameworks web servidor.",
+            "Controles de servidor.",
+            "Mecanismos de generación dinámica de la interface web.",
+            "Programación orientada a objetos. Patrones de diseño.",
+            "Prueba y documentación del código."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Utilización de técnicas de acceso a datos",
+          "items": [
+            "Establecimiento de conexiones.",
+            "Recuperación y edición de información.",
+            "Utilización de conjuntos de resultados.",
+            "Actualización y eliminación de información proveniente de una base de datos.",
+            "Utilización de otros orígenes de datos.",
+            "Prueba y documentación."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Programación de servicios web",
+          "items": [
+            "Tecnologías y protocolos implicados.",
+            "Estándares y arquitecturas actuales. Formatos de intercambio de datos.",
+            "Generación de un servicio web.",
+            "Interface de un servicio web.",
+            "Consumo de un servicio web. Herramientas de prueba.",
+            "Frameworks de documentación."
+          ]
+        },
+        {
+          "ra": 8,
+          "codigo_ra": "RA8",
+          "titulo": "Generación dinámica de páginas web interactivas",
+          "items": [
+            "Tecnologías y frameworks.",
+            "Generación dinámica de páginas interactivas.",
+            "Obtención remota de información.",
+            "Modificación de la estructura y contenido de la página web."
+          ]
+        },
+        {
+          "ra": 9,
+          "codigo_ra": "RA9",
+          "titulo": "Desarrollo de aplicaciones web híbridas",
+          "items": [
+            "Tecnologías y frameworks.",
+            "Reutilización de código e información.",
+            "Utilización de información proveniente de repositorios.",
+            "Incorporación de funcionalidades específicas.",
+            "Utilización de librerías de código relacionadas con Big Data e inteligencia de negocios. Extracción, proceso y análisis de datos provenientes de repositorios.",
+            "Prueba, depuración y documentación."
+          ]
+        }
+      ]
     },
     {
       "codigo": "0614",
@@ -2758,7 +4104,17 @@
               "codigo": "RA1.i",
               "descripcion": "Se han documentado los procesos de instalación y configuración realizados sobre los servidores web, de aplicaciones. y sobre tecnologías de virtualización en la nube y en contenedores."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Implantación de arquitecturas web",
+            "items": [
+              "Arquitecturas web. Modelos.",
+              "Servidores web y de aplicaciones. Instalación y configuración básica.",
+              "Tecnologías de virtualización de servidores en la nube y en contenedores. Instalación y configuración básica.",
+              "Estructura y recursos que componen una aplicación web.",
+              "Documentación de los procesos realizados."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -2816,7 +4172,22 @@
               "codigo": "RA2.j",
               "descripcion": "Se han instalado, configurado y utilizado conjuntos de herramientas de gestión de logs, permitiendo su monitorización, consolidación y análisis en tiempo real."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Administración de servidores web",
+            "items": [
+              "Configuración avanzada del servidor web.",
+              "Módulos: instalación, configuración y uso.",
+              "Hosts virtuales. Creación, configuración y utilización.",
+              "Autenticación y control de acceso.",
+              "El protocolo HTTPS.",
+              "Certificados. Servidores de certificados.",
+              "Documentación.",
+              "Despliegue de aplicaciones sobre servidores web.",
+              "Despliegue de servidores web mediante tecnologías de virtualización en la nube y en contenedores.",
+              "Conjuntos de herramientas de gestión de logs. Instalación, configuración y utilización, para la ayuda a la toma de decisiones: Big Data."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -2869,7 +4240,21 @@
               "codigo": "RA3.i",
               "descripcion": "Se han utilizado tecnologías de virtualización en el despliegue de servidores de aplicaciones en la nube y en contenedores."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Administración de servidores de aplicaciones",
+            "items": [
+              "Arquitectura y configuración básica del servidor de aplicaciones.",
+              "Administrar aplicaciones web.",
+              "Autenticación de usuarios. Dominios de seguridad para la autenticación.",
+              "Administración de sesiones.",
+              "Configurar el servidor de aplicaciones para cooperar con servidores web.",
+              "Despliegue de aplicaciones en el servidor de aplicaciones.",
+              "Seguridad en el servidor de aplicaciones.",
+              "Documentación.",
+              "Despliegue de servidores de aplicaciones mediante tecnologías de virtualización en la nube y en contenedores."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -2917,7 +4302,20 @@
               "codigo": "RA4.h",
               "descripcion": "Se han utilizado tecnologías de virtualización en el despliegue de servidores de transferencia de archivos en la nube y en contenedores."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Instalación y administración de servidores de transferencia de archivos",
+            "items": [
+              "Configuración del servicio de transferencia de archivos. Permisos y cuotas.",
+              "Tipos de usuarios y accesos al servicio.",
+              "Modos de conexión del cliente.",
+              "Protocolo seguro de transferencia de archivos.",
+              "Utilización de comandos y de herramientas gráficas.",
+              "Utilización del servicio de transferencia de archivos en el proceso de despliegue de la aplicación web.",
+              "Documentación.",
+              "Despliegue de servidores de transferencia de archivos mediante tecnologías de virtualización en la nube y en contenedores."
+            ]
+          }
         },
         {
           "numero": 5,
@@ -2965,7 +4363,20 @@
               "codigo": "RA5.h",
               "descripcion": "Se han utilizado tecnologías de virtualización en el despliegue de servidores de directorios en la nube y en contenedores."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Servicios de red implicados en el despliegue de una aplicación web",
+            "items": [
+              "Resolutores de nombres. Proceso de resolución de un nombre de dominio.",
+              "Parámetros de configuración y registros del servidor de nombres afectados en el despliegue.",
+              "Servicio de directorios: características y funcionalidad.",
+              "Archivos básicos de configuración.",
+              "Autenticación de usuarios en el servicio de directorios.",
+              "Adaptación de la configuración del servidor de directorios para el despliegue de la aplicación.",
+              "Documentación.",
+              "Despliegue de servidores de directorios mediante tecnologías de virtualización en la nube y en contenedores."
+            ]
+          }
         },
         {
           "numero": 6,
@@ -3013,7 +4424,18 @@
               "codigo": "RA6.h",
               "descripcion": "Se han utilizado herramientas para la integración continua del código. Duración: 50 horas."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Documentación, sistemas de control de versiones y de integración continua",
+            "items": [
+              "Herramientas colaborativas para la generación de documentación. Instalación, configuración y USO.",
+              "Creación y utilización de plantillas.",
+              "Instalación, configuración y uso de sistemas de control de versiones.",
+              "Operaciones avanzadas.",
+              "Seguridad de los sistemas de control de versiones.",
+              "Instalación, configuración y uso de sistemas de integración continua del código. Monitorización continua de las métricas de calidad de la aplicación."
+            ]
+          }
         }
       ],
       "competencias_titulo": [
@@ -3031,7 +4453,97 @@
       ],
       "horas": 50,
       "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de despliegue de aplicaciones web en un servidor.\n\nEl despliegue de aplicaciones web incluye aspectos como:\n\n− Los procesos de implantación de aplicaciones web en servidores desplegados mediante el uso de tecnologías de virtualización en la nube y en contenedores.\n\n− La identificación de los parámetros de configuración de los servicios de red implicados en el despliegue seguro de aplicaciones web.\n\n− Los procesos de instalación, configuración y uso de herramientas de control de versiones. y de integración continua.\n\n− La elaboración de documentación relativa a la aplicación web utilizando herramientas de generación de documentación.\n\n− La evaluación de los recursos y requerimientos técnicos necesarios para la implantación de la aplicación web.\n\n− La utilización de conjuntos de herramientas de gestión de logs para la ayuda a la toma de decisiones: Big Data.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\n− El despliegue, mantenimiento y actualización de aplicaciones web sobre servidores.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales c), d), o), p) y r) del ciclo formativo, y las competencias profesionales, personales y sociales a), b), c), j), n), ñ) y q) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n− La instalación y configuración básica de servidores web y de aplicaciones.\n\n− La instalación y configuración básica de tecnologías de virtualización de servidores en la nube y en contenedores.\n\n− La implantación de aplicaciones web sobre servidores desplegados mediante el uso de tecnologías de virtualización en la nube y en contenedores.\n\n− La instalación y configuración de servicios de red implicados en el proceso de implantación.\n\n− La instalación, configuración y uso de sistemas de control de versiones. y de integración continua.\n\n− La utilización de sistemas operativos libres y propietarios.\n\n− La instalación y configuración de conjuntos de herramientas de gestión de logs, para su recogida, transformación, búsqueda, análisis y visualización en tiempo real.",
-      "siglas": "DAW"
+      "siglas": "DAW",
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Implantación de arquitecturas web",
+          "items": [
+            "Arquitecturas web. Modelos.",
+            "Servidores web y de aplicaciones. Instalación y configuración básica.",
+            "Tecnologías de virtualización de servidores en la nube y en contenedores. Instalación y configuración básica.",
+            "Estructura y recursos que componen una aplicación web.",
+            "Documentación de los procesos realizados."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Administración de servidores web",
+          "items": [
+            "Configuración avanzada del servidor web.",
+            "Módulos: instalación, configuración y uso.",
+            "Hosts virtuales. Creación, configuración y utilización.",
+            "Autenticación y control de acceso.",
+            "El protocolo HTTPS.",
+            "Certificados. Servidores de certificados.",
+            "Documentación.",
+            "Despliegue de aplicaciones sobre servidores web.",
+            "Despliegue de servidores web mediante tecnologías de virtualización en la nube y en contenedores.",
+            "Conjuntos de herramientas de gestión de logs. Instalación, configuración y utilización, para la ayuda a la toma de decisiones: Big Data."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Administración de servidores de aplicaciones",
+          "items": [
+            "Arquitectura y configuración básica del servidor de aplicaciones.",
+            "Administrar aplicaciones web.",
+            "Autenticación de usuarios. Dominios de seguridad para la autenticación.",
+            "Administración de sesiones.",
+            "Configurar el servidor de aplicaciones para cooperar con servidores web.",
+            "Despliegue de aplicaciones en el servidor de aplicaciones.",
+            "Seguridad en el servidor de aplicaciones.",
+            "Documentación.",
+            "Despliegue de servidores de aplicaciones mediante tecnologías de virtualización en la nube y en contenedores."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Instalación y administración de servidores de transferencia de archivos",
+          "items": [
+            "Configuración del servicio de transferencia de archivos. Permisos y cuotas.",
+            "Tipos de usuarios y accesos al servicio.",
+            "Modos de conexión del cliente.",
+            "Protocolo seguro de transferencia de archivos.",
+            "Utilización de comandos y de herramientas gráficas.",
+            "Utilización del servicio de transferencia de archivos en el proceso de despliegue de la aplicación web.",
+            "Documentación.",
+            "Despliegue de servidores de transferencia de archivos mediante tecnologías de virtualización en la nube y en contenedores."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Servicios de red implicados en el despliegue de una aplicación web",
+          "items": [
+            "Resolutores de nombres. Proceso de resolución de un nombre de dominio.",
+            "Parámetros de configuración y registros del servidor de nombres afectados en el despliegue.",
+            "Servicio de directorios: características y funcionalidad.",
+            "Archivos básicos de configuración.",
+            "Autenticación de usuarios en el servicio de directorios.",
+            "Adaptación de la configuración del servidor de directorios para el despliegue de la aplicación.",
+            "Documentación.",
+            "Despliegue de servidores de directorios mediante tecnologías de virtualización en la nube y en contenedores."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Documentación, sistemas de control de versiones y de integración continua",
+          "items": [
+            "Herramientas colaborativas para la generación de documentación. Instalación, configuración y USO.",
+            "Creación y utilización de plantillas.",
+            "Instalación, configuración y uso de sistemas de control de versiones.",
+            "Operaciones avanzadas.",
+            "Seguridad de los sistemas de control de versiones.",
+            "Instalación, configuración y uso de sistemas de integración continua del código. Monitorización continua de las métricas de calidad de la aplicación."
+          ]
+        }
+      ]
     },
     {
       "codigo": "0615",
@@ -3077,7 +4589,22 @@
               "codigo": "RA1.f",
               "descripcion": "Se han creado y utilizado plantillas de diseño."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Planificación de interfaces gráficas",
+            "items": [
+              "Elementos del diseño: percepción visual.",
+              "Color, tipografía, iconos.",
+              "Interacción persona-ordenador.",
+              "Interpretación de guías de estilo. Elementos.",
+              "Generación de documentos y sitios web.",
+              "Componentes de una interfaz web.",
+              "Tecnologías para el diseño de documentos web.",
+              "Mapa de navegación. Prototipos.",
+              "Maquetación web. Elementos de ordenación.",
+              "Plantilla de diseño."
+            ]
+          }
         },
         {
           "numero": 2,
@@ -3135,7 +4662,18 @@
               "codigo": "RA2.j",
               "descripcion": "Se han analizado y utilizado preprocesadores de estilos para traducir estilos comunes a un código estándar y reconocible por los navegadores."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Uso de estilos",
+            "items": [
+              "Estilos en línea basados en etiquetas y en clases.",
+              "Crear y vincular hojas de estilo.",
+              "Crear y vincular hojas de estilo en cascada externa.",
+              "Herramientas y test de verificación.",
+              "Tecnologías y frameworks.",
+              "Preprocesadores de estilos. Variables, mixins y funciones."
+            ]
+          }
         },
         {
           "numero": 3,
@@ -3183,7 +4721,20 @@
               "codigo": "RA3.h",
               "descripcion": "Se ha aplicado la guía de estilo."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Implantación de contenido multimedia",
+            "items": [
+              "Tipos de Imágenes en la web.",
+              "Derechos de la propiedad intelectual. Licencias. Ley de la propiedad intelectual. Derechos de autor.",
+              "Imágenes. Software para crear y procesar imágenes. Formatos. Conversiones (exportar e importar).",
+              "Optimización de imágenes para la web.",
+              "Audio: formatos. Conversiones de formatos (exportar e importar).",
+              "Vídeo: codificación de vídeo, conversiones de formatos (exportar e importar).",
+              "Animaciones.",
+              "Integración de audio y vídeo en una animación."
+            ]
+          }
         },
         {
           "numero": 4,
@@ -3226,7 +4777,16 @@
               "codigo": "RA4.g",
               "descripcion": "Se ha verificado el funcionamiento de los elementos multimedia e interactivos en distintos navegadores y dispositivos."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Integración de contenido interactivo",
+            "items": [
+              "Elementos interactivos.",
+              "Comportamientos interactivos. Comportamiento de los elementos.",
+              "Ejecución de secuencias de comandos.",
+              "Verificación del funcionamiento en distintos navegadores y dispositivos."
+            ]
+          }
         },
         {
           "numero": 5,
@@ -3274,7 +4834,21 @@
               "codigo": "RA5.h",
               "descripcion": "Se han analizado y utilizado herramientas y estrategias que mejoren la visibilidad y la accesibilidad de los sitios y páginas web en los resultados de los buscadores."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Diseño de webs accesibles",
+            "items": [
+              "El Consorcio World Wide Web (W3C).",
+              "Principios y Pautas de Accesibilidad al Contenido en la Web (WCAG).",
+              "Criterios de conformidad. Niveles de conformidad.",
+              "Técnicas para satisfacer los requisitos definidos en las WCAG.",
+              "Prioridades. Puntos de verificación.",
+              "Métodos para realizar revisiones preliminares y evaluaciones de adecuación o conformidad de documentos web.",
+              "Herramientas de análisis de accesibilidad web.",
+              "Chequeo de la accesibilidad web desde diferentes navegadores y dispositivos.",
+              "Posicionamiento en buscadores. Mejora de la visibilidad de un sitio web en diferentes buscadores."
+            ]
+          }
         },
         {
           "numero": 6,
@@ -3312,7 +4886,23 @@
               "codigo": "RA6.f",
               "descripcion": "Se ha verificado la usabilidad de la interfaz web creado en diferentes navegadores y tecnologías. Duración: 80 horas. Contenidos. Planificación de interfaces gráficas: − Elementos del diseño: percepción visual. − Color, tipografía, iconos. − Interacción persona-ordenador. − Interpretación de guías de estilo. Elementos. − Generación de documentos y sitios web. − Componentes de una interfaz web. − Tecnologías para el diseño de documentos web. − Mapa de navegación. Prototipos. − Maquetación web. Elementos de ordenación. − Plantilla de diseño. Uso de estilos: − Estilos en línea basados en etiquetas y en clases. − Crear y vincular hojas de estilo. − Crear y vincular hojas de estilo en cascada externa. − Herramientas y test de verificación. − Tecnologías y frameworks. − Preprocesadores de estilos. Variables, mixins y funciones. Implantación de contenido multimedia: − Tipos de Imágenes en la web. − Derechos de la propiedad intelectual. Licencias. Ley de la propiedad intelectual. Derechos de autor. − Imágenes. Software para crear y procesar imágenes. Formatos. Conversiones (exportar e importar). − Optimización de imágenes para la web. − Audio: formatos. Conversiones de formatos (exportar e importar). − Vídeo: codificación de vídeo, conversiones de formatos (exportar e importar). − Animaciones. − Integración de audio y vídeo en una animación. Integración de contenido interactivo: − Elementos interactivos. − Comportamientos interactivos. Comportamiento de los elementos. − Ejecución de secuencias de comandos. − Verificación del funcionamiento en distintos navegadores y dispositivos. Diseño de webs accesibles: − El Consorcio World Wide Web (W3C). − Principios y Pautas de Accesibilidad al Contenido en la Web (WCAG). − Criterios de conformidad. Niveles de conformidad. − Técnicas para satisfacer los requisitos definidos en las WCAG. − Prioridades. Puntos de verificación. − Métodos para realizar revisiones preliminares y evaluaciones de adecuación o conformidad de documentos web. − Herramientas de análisis de accesibilidad web. − Chequeo de la accesibilidad web desde diferentes navegadores y dispositivos. − Posicionamiento en buscadores. Mejora de la visibilidad de un sitio web en diferentes buscadores. Implementación de la usabilidad en la web. Diseño amigable: − Análisis de la usabilidad. Técnicas. − Identificación del objetivo de la web. − Tipos de usuario. − Barreras identificadas por los usuarios. − Información fácilmente accesible. − Velocidad de conexión. − Importancia del uso de estándares externos. − Navegación fácilmente recordada frente a navegación redescubierta. − Facilidad de navegación en la web. − Verificación de la usabilidad en diferentes navegadores y tecnologías. − Herramientas y test de verificación."
             }
-          ]
+          ],
+          "contenidos": {
+            "titulo": "Implementación de la usabilidad en la web. Diseño amigable",
+            "items": [
+              "Análisis de la usabilidad. Técnicas.",
+              "Identificación del objetivo de la web.",
+              "Tipos de usuario.",
+              "Barreras identificadas por los usuarios.",
+              "Información fácilmente accesible.",
+              "Velocidad de conexión.",
+              "Importancia del uso de estándares externos.",
+              "Navegación fácilmente recordada frente a navegación redescubierta.",
+              "Facilidad de navegación en la web.",
+              "Verificación de la usabilidad en diferentes navegadores y tecnologías.",
+              "Herramientas y test de verificación."
+            ]
+          }
         }
       ],
       "competencias_titulo": [
@@ -3329,7 +4919,99 @@
       ],
       "horas": 80,
       "orientaciones_pedagogicas": "Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de desarrollo de aplicaciones destinadas a su ejecución por navegadores en entornos web.\n\nLa función de desarrollo de aplicaciones para navegadores web incluye aspectos como:\n\n− La planificación de la interfaz web de acuerdo con especificaciones de diseño.\n\n− La creación y mantenimiento de los elementos de la interfaz.\n\n− La aplicación de las guías de estilo, así como la utilización de tecnologías y frameworks relacionados.\n\n− El cumplimiento de los criterios de accesibilidad y usabilidad en el desarrollo de aplicaciones web.\n\n− La optimización de la visibilidad y accesibilidad de la web en los resultados de los principales buscadores.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\n− El desarrollo de aplicaciones web.\n\n− La adaptación e integración de contenidos multimedia en aplicaciones web.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales i), j) k), q), x) e y) del ciclo formativo y las competencias profesionales, personales y sociales e), g), h), i), m), n), y u) del título.\n\nLas líneas de actuación en el proceso de enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\n− El análisis de la interfaz de diferentes sitios web.\n\n− La identificación de los elementos de la interfaz.\n\n− La utilización de estilos. y de tecnologías y frameworks relacionados.\n\n− La creación y manipulación de contenido multimedia.\n\n− La integración de contenido multimedia e interactivo en documentos web.\n\n− La evaluación de la accesibilidad y usabilidad de la web.\n\n− La mejora de la visibilidad y accesibilidad de la web en los resultados de los diferentes buscadores.\n\n− La integración de la interfaz en la aplicación web.\n\n− La verificación del funcionamiento de la web en distintos navegadores y dispositivos.»",
-      "siglas": "DIW"
+      "siglas": "DIW",
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Planificación de interfaces gráficas",
+          "items": [
+            "Elementos del diseño: percepción visual.",
+            "Color, tipografía, iconos.",
+            "Interacción persona-ordenador.",
+            "Interpretación de guías de estilo. Elementos.",
+            "Generación de documentos y sitios web.",
+            "Componentes de una interfaz web.",
+            "Tecnologías para el diseño de documentos web.",
+            "Mapa de navegación. Prototipos.",
+            "Maquetación web. Elementos de ordenación.",
+            "Plantilla de diseño."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Uso de estilos",
+          "items": [
+            "Estilos en línea basados en etiquetas y en clases.",
+            "Crear y vincular hojas de estilo.",
+            "Crear y vincular hojas de estilo en cascada externa.",
+            "Herramientas y test de verificación.",
+            "Tecnologías y frameworks.",
+            "Preprocesadores de estilos. Variables, mixins y funciones."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Implantación de contenido multimedia",
+          "items": [
+            "Tipos de Imágenes en la web.",
+            "Derechos de la propiedad intelectual. Licencias. Ley de la propiedad intelectual. Derechos de autor.",
+            "Imágenes. Software para crear y procesar imágenes. Formatos. Conversiones (exportar e importar).",
+            "Optimización de imágenes para la web.",
+            "Audio: formatos. Conversiones de formatos (exportar e importar).",
+            "Vídeo: codificación de vídeo, conversiones de formatos (exportar e importar).",
+            "Animaciones.",
+            "Integración de audio y vídeo en una animación."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Integración de contenido interactivo",
+          "items": [
+            "Elementos interactivos.",
+            "Comportamientos interactivos. Comportamiento de los elementos.",
+            "Ejecución de secuencias de comandos.",
+            "Verificación del funcionamiento en distintos navegadores y dispositivos."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Diseño de webs accesibles",
+          "items": [
+            "El Consorcio World Wide Web (W3C).",
+            "Principios y Pautas de Accesibilidad al Contenido en la Web (WCAG).",
+            "Criterios de conformidad. Niveles de conformidad.",
+            "Técnicas para satisfacer los requisitos definidos en las WCAG.",
+            "Prioridades. Puntos de verificación.",
+            "Métodos para realizar revisiones preliminares y evaluaciones de adecuación o conformidad de documentos web.",
+            "Herramientas de análisis de accesibilidad web.",
+            "Chequeo de la accesibilidad web desde diferentes navegadores y dispositivos.",
+            "Posicionamiento en buscadores. Mejora de la visibilidad de un sitio web en diferentes buscadores."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Implementación de la usabilidad en la web. Diseño amigable",
+          "items": [
+            "Análisis de la usabilidad. Técnicas.",
+            "Identificación del objetivo de la web.",
+            "Tipos de usuario.",
+            "Barreras identificadas por los usuarios.",
+            "Información fácilmente accesible.",
+            "Velocidad de conexión.",
+            "Importancia del uso de estándares externos.",
+            "Navegación fácilmente recordada frente a navegación redescubierta.",
+            "Facilidad de navegación en la web.",
+            "Verificación de la usabilidad en diferentes navegadores y tecnologías.",
+            "Herramientas y test de verificación."
+          ]
+        }
+      ]
     }
   ],
   "competencias_profesionales_personales_sociales": {

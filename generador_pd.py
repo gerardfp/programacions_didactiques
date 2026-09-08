@@ -749,13 +749,20 @@ class BoeCurriculumParser:
             current_ra = None
             orientaciones = []
             in_orientaciones = False
+            in_cb = False
+            cb_lines = []
 
             for l in m_lines:
                 if re.search(r'Resultados\s+de\s+aprendizaje\s+y\s+criterios\s+de\s+evaluaci[oó]n', l, re.I) or re.search(r'^Resultados\s+de\s+aprendizaje\b', l, re.I):
                     in_ras = True
                     continue
+                if re.search(r'^Contenidos(?:\s+b[aá]sicos)?\s*:?', l, re.I):
+                    in_ras = False
+                    in_cb = True
+                    continue
                 if re.search(r'Orientaciones\s+pedag[oó]gicas', l, re.I):
                     in_ras = False
+                    in_cb = False
                     in_orientaciones = True
                     continue
                 if in_orientaciones:
@@ -763,6 +770,9 @@ class BoeCurriculumParser:
                         in_orientaciones = False
                     else:
                         orientaciones.append(l)
+                    continue
+                if in_cb:
+                    cb_lines.append(l)
                     continue
                 if in_ras:
                     ra_m = re.match(r'^(\d+)\.\s*(.+)', l)
@@ -799,6 +809,64 @@ class BoeCurriculumParser:
             if current_ra:
                 ras.append(current_ra)
 
+            # Parsear bloques de contenidos básicos
+            cb_blocks = []
+            curr_block = None
+            for l in cb_lines:
+                clean_l = l.strip()
+                if not clean_l:
+                    continue
+                is_bullet = clean_l.startswith(('−', '-', '•', '*', '–', '·'))
+                title_split = re.match(r'^([A-ZÁÉÍÓÚ][^:\.]{3,70}):\s*(.*)', clean_l)
+                if not is_bullet and title_split:
+                    is_header = True
+                    header_title = title_split.group(1).strip()
+                    remainder = title_split.group(2).strip()
+                elif not is_bullet and (clean_l.endswith(':') or (len(clean_l) < 70 and not clean_l.endswith('.'))):
+                    is_header = True
+                    header_title = clean_l.rstrip(':').strip()
+                    remainder = ""
+                else:
+                    is_header = False
+                    header_title = ""
+                    remainder = clean_l
+
+                if is_header:
+                    if curr_block:
+                        cb_blocks.append(curr_block)
+                    curr_block = {"titulo": header_title, "items": []}
+                    if remainder:
+                        clean_rem = remainder.lstrip('−-•*–· ').strip()
+                        if clean_rem:
+                            curr_block["items"].append(clean_rem)
+                else:
+                    if curr_block is None:
+                        curr_block = {"titulo": "General", "items": []}
+                    item_text = clean_l.lstrip('−-•*–· ').strip()
+                    if item_text:
+                        curr_block["items"].append(item_text)
+            if curr_block:
+                cb_blocks.append(curr_block)
+
+            contenidos_list = []
+            for idx, ra in enumerate(ras, start=1):
+                r_num = ra.get("numero", idx)
+                r_desc = ra.get("descripcion", "")
+                if idx - 1 < len(cb_blocks):
+                    b = cb_blocks[idx - 1]
+                    b_title = b["titulo"]
+                    b_items = b["items"]
+                else:
+                    b_title = f"Contenidos del RA{r_num}"
+                    b_items = [f"Contenidos y procedimientos aplicados a: {r_desc}"]
+                contenidos_list.append({
+                    "ra": r_num,
+                    "codigo_ra": f"RA{r_num}",
+                    "titulo": b_title,
+                    "items": b_items
+                })
+                ra["contenidos"] = {"titulo": b_title, "items": b_items}
+
             orientaciones_text = "\n\n".join([o.strip() for o in orientaciones if o.strip()])
             mod_comps = list(competencias.keys())[:3]
             curso = "1º" if (is_ce or i % 2 == 0) else "2º"
@@ -814,6 +882,8 @@ class BoeCurriculumParser:
                 "competencias_titulo": sorted(mod_comps),
                 "orientaciones_pedagogicas": orientaciones_text,
                 "resultados_aprendizaje": ras
+                "resultados_aprendizaje": ras,
+                "contenidos": contenidos_list
             })
 
         meta_def = DEFAULT_CONFIG["metadata"]
@@ -1558,6 +1628,129 @@ class FodtTemplateEngine:
                 parent.insert(insert_idx, new_p)
                 insert_idx += 1
 
+        # --- 2b. EXPANDIR RESULTADOS DE APRENDIZAJE Y CRITERIOS DE EVALUACIÓN (2.3) ---
+        p_ra_ce_tmpl = None
+        for p in body.findall('.//text:p', ns_map):
+            if "{{ra_ce_list}}" in "".join(p.itertext()):
+                p_ra_ce_tmpl = p
+                break
+
+        if p_ra_ce_tmpl is not None:
+            parent = body
+            idx_p = list(parent).index(p_ra_ce_tmpl)
+            parent.remove(p_ra_ce_tmpl)
+            insert_idx = idx_p
+
+            for idx, ra in enumerate(ras, start=1):
+                r_num = ra.get("numero", idx)
+                r_desc = ra.get("descripcion", "").strip()
+
+                # Nivel 1: • RA1. Título oficial del RA1
+                p_ra = ET.Element('{urn:oasis:names:tc:opendocument:xmlns:text:1.0}p', {
+                    '{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name': 'P46'
+                })
+                p_ra.text = "• "
+                span_ra = ET.Element('{urn:oasis:names:tc:opendocument:xmlns:text:1.0}span', {
+                    '{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name': 'Strong_20_Emphasis'
+                })
+                span_ra.text = f"RA{r_num}. "
+                span_ra.tail = r_desc
+                p_ra.append(span_ra)
+                parent.insert(insert_idx, p_ra)
+                insert_idx += 1
+
+                # Nivel 2: • RA1.a. Criterio de evaluación...
+                ces = ra.get("criterios_evaluacion", [])
+                for ce in ces:
+                    ce_cod = ce.get("codigo", f"RA{r_num}.{ce.get('letra', '')}")
+                    ce_desc = ce.get("descripcion", "").strip()
+                    p_ce = ET.Element('{urn:oasis:names:tc:opendocument:xmlns:text:1.0}p', {
+                        '{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name': 'P_SubItem'
+                    })
+                    p_ce.text = "• "
+                    span_ce = ET.Element('{urn:oasis:names:tc:opendocument:xmlns:text:1.0}span', {
+                        '{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name': 'Strong_20_Emphasis'
+                    })
+                    span_ce.text = f"{ce_cod}. "
+                    span_ce.tail = ce_desc
+                    p_ce.append(span_ce)
+                    parent.insert(insert_idx, p_ce)
+                    insert_idx += 1
+
+        # --- 2c. EXPANDIR CONTENIDOS ASOCIADOS A LOS RAs (2.4) ---
+        p_cont_tmpl = None
+        for p in body.findall('.//text:p', ns_map):
+            if "{{ra_contenidos_list}}" in "".join(p.itertext()):
+                p_cont_tmpl = p
+                break
+
+        if p_cont_tmpl is not None:
+            parent = body
+            idx_p = list(parent).index(p_cont_tmpl)
+            parent.remove(p_cont_tmpl)
+            insert_idx = idx_p
+
+            contenidos_data = mod_data.get("contenidos", [])
+            c_counter = 1
+
+            for idx, ra in enumerate(ras, start=1):
+                r_num = ra.get("numero", idx)
+                r_desc = ra.get("descripcion", "").strip()
+
+                # Buscar bloque correspondiente
+                matched_block = None
+                if contenidos_data:
+                    for b in contenidos_data:
+                        if b.get("ra") == r_num or b.get("codigo_ra") == f"RA{r_num}":
+                            matched_block = b
+                            break
+                    if not matched_block and idx - 1 < len(contenidos_data):
+                        matched_block = contenidos_data[idx - 1]
+
+                if matched_block:
+                    b_title = matched_block.get("titulo", f"Contenidos del RA{r_num}").strip()
+                    items = matched_block.get("items", [])
+                else:
+                    ra_cont = ra.get("contenidos", {})
+                    b_title = ra_cont.get("titulo", r_desc).strip()
+                    items = ra_cont.get("items", [])
+
+                if not items:
+                    items = [f"Contenidos y procedimientos asociados a: {r_desc}"]
+
+                # Nivel 1: • RA1 — [título]
+                p_ra_c = ET.Element('{urn:oasis:names:tc:opendocument:xmlns:text:1.0}p', {
+                    '{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name': 'P46'
+                })
+                p_ra_c.text = "• "
+                span_ra_c = ET.Element('{urn:oasis:names:tc:opendocument:xmlns:text:1.0}span', {
+                    '{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name': 'Strong_20_Emphasis'
+                })
+                span_ra_c.text = f"RA{r_num} — "
+                span_ra_c.tail = b_title
+                p_ra_c.append(span_ra_c)
+                parent.insert(insert_idx, p_ra_c)
+                insert_idx += 1
+
+                # Nivel 2: • C1. ...
+                for item in items:
+                    clean_item = item.strip()
+                    if not clean_item:
+                        continue
+                    p_item = ET.Element('{urn:oasis:names:tc:opendocument:xmlns:text:1.0}p', {
+                        '{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name': 'P_SubItem'
+                    })
+                    p_item.text = "• "
+                    span_item = ET.Element('{urn:oasis:names:tc:opendocument:xmlns:text:1.0}span', {
+                        '{urn:oasis:names:tc:opendocument:xmlns:text:1.0}style-name': 'Strong_20_Emphasis'
+                    })
+                    span_item.text = f"C{c_counter}. "
+                    span_item.tail = clean_item
+                    p_item.append(span_item)
+                    parent.insert(insert_idx, p_item)
+                    insert_idx += 1
+                    c_counter += 1
+
         # --- 3. CLONAR FILAS DE TABLA 4: RAs Y COMPETENCIAS VINCULADAS (Table_49111049) ---
         t_ra_comp = self._find_table(body, 'Table_49111049', ns_map)
         if t_ra_comp is not None:
@@ -1583,34 +1776,123 @@ class FodtTemplateEngine:
                     })
                     t_ra_comp.append(new_r)
 
-        # --- 4. CLONAR FILAS DE TABLA 5: SECUENCIACIÓN DE UNIDADES (Tabla1) ---
+        # --- 4. CLONAR FILAS DE TABLA 5: SECUENCIACIÓN DE RAs / UNIDADES (Tabla1) ---
         t_units = self._find_table(body, 'Tabla1', ns_map)
         if t_units is not None:
             rows = t_units.findall('.//table:table-row', ns_map)
             if len(rows) > 1:
                 tmpl_row = rows[1]
                 t_units.remove(tmpl_row)
-                units_data = ped_info.get("unidades", [])
-                for u in units_data:
-                    u_code = u.get("codigo", "")
-                    u_name = u.get("nombre", "")
-                    u_title = f"{u_code}: {u_name}" if u_code else u_name
-                    u_ras = ", ".join([f"RA{r}" for r in u.get("ras", [])])
-                    u_hours = f"{u.get('horas', '')} h" if u.get('horas') else ""
-                    u_trim = str(u.get("trimestre", ""))
-                    u_ini = str(u.get("inicio", "")) if u.get("inicio") else ""
-                    u_fin = str(u.get("fin", "")) if u.get("fin") else ""
-                    
-                    new_r = copy.deepcopy(tmpl_row)
-                    self._replace_in_element(new_r, {
-                        "{{UP}}": u_title,
-                        "{{ras}}": u_ras,
-                        "{{duracion}}": u_hours,
-                        "{{trimestre}}": u_trim,
-                        "{{inicio}}": u_ini,
-                        "{{fin}}": u_fin
-                    })
-                    t_units.append(new_r)
+
+                tmpl_text = "".join(tmpl_row.itertext())
+                tmpl_xml = ET.tostring(tmpl_row, encoding='utf-8').decode('utf-8')
+                is_ra_sequencing = ('{{ra}}' in tmpl_text or '{{ra_num}}' in tmpl_text or '{{ra}}' in tmpl_xml) and '{{UP}}' not in tmpl_text
+
+                if is_ra_sequencing:
+                    total_mod_hours = int(mod_data.get("horas") or 0)
+                    if total_mod_hours == 0:
+                        total_mod_hours = int(mod_data.get("creditos_ects", 8) * 25)
+                    num_ras = len(ras)
+                    units_data = ped_info.get("unidades", [])
+                    ra_weights = ped_info.get("ra_ponderaciones", {})
+
+                    for idx, ra in enumerate(ras, start=1):
+                        r_num = ra.get("numero", idx)
+                        r_code = ra.get("codigo") or f"RA{r_num}"
+                        r_desc = ra.get("descripcion", "").strip()
+
+                        # Buscar unidades asociadas a este RA
+                        matching_units = []
+                        for u in units_data:
+                            u_ras = u.get("ras", [])
+                            if isinstance(u_ras, (int, str)):
+                                u_ras = [u_ras]
+                            if r_num in u_ras or str(r_num) in [str(x) for x in u_ras]:
+                                matching_units.append(u)
+
+                        if matching_units:
+                            ra_hours = 0.0
+                            trims = []
+                            inicios = []
+                            fines = []
+                            for u in matching_units:
+                                u_h = float(u.get("horas") or 0)
+                                u_ras_list = u.get("ras") or [r_num]
+                                n_shared = len(u_ras_list) if isinstance(u_ras_list, list) and len(u_ras_list) > 0 else 1
+                                ra_hours += u_h / n_shared
+
+                                t = str(u.get("trimestre", "")).strip()
+                                if t and t not in trims:
+                                    trims.append(t)
+                                ini = str(u.get("inicio", "")).strip()
+                                if ini and ini not in inicios:
+                                    inicios.append(ini)
+                                fn = str(u.get("fin", "")).strip()
+                                if fn and fn not in fines:
+                                    fines.append(fn)
+
+                            dur_str = f"{int(round(ra_hours))} h" if ra_hours > 0 else ""
+                            trim_str = " - ".join(trims) if trims else ""
+                            ini_str = inicios[0] if inicios else ""
+                            fin_str = fines[-1] if fines else ""
+                        else:
+                            # Fallback proporcional si no hay unidades específicas
+                            if str(r_num) in ra_weights:
+                                w = float(ra_weights[str(r_num)])
+                                ra_h = round(total_mod_hours * (w / 100.0))
+                            else:
+                                ra_h = round(total_mod_hours / max(1, num_ras))
+
+                            dur_str = f"{int(ra_h)} h" if ra_h > 0 else ""
+                            if idx <= max(1, (num_ras + 2) // 3):
+                                trim_str = "1er Trimestre"
+                                ini_str = "Septiembre"
+                                fin_str = "Diciembre"
+                            elif idx <= max(2, (2 * num_ras + 1) // 3):
+                                trim_str = "2º Trimestre"
+                                ini_str = "Enero"
+                                fin_str = "Marzo"
+                            else:
+                                trim_str = "3er Trimestre"
+                                ini_str = "Abril"
+                                fin_str = "Junio"
+
+                        new_r = copy.deepcopy(tmpl_row)
+                        ra_full_text = f"{r_code}: {r_desc}" if r_desc else r_code
+                        self._replace_in_element(new_r, {
+                            "{{ra}}": ra_full_text,
+                            "{{ra_completo}}": ra_full_text,
+                            "{{ra_num}}": r_code,
+                            "{{ra_codigo}}": r_code,
+                            "{{ra_descripcion}}": r_desc,
+                            "{{duracion}}": dur_str,
+                            "{{trimestre}}": trim_str,
+                            "{{inicio}}": ini_str,
+                            "{{fin}}": fin_str
+                        })
+                        t_units.append(new_r)
+                else:
+                    units_data = ped_info.get("unidades", [])
+                    for u in units_data:
+                        u_code = u.get("codigo", "")
+                        u_name = u.get("nombre", "")
+                        u_title = f"{u_code}: {u_name}" if u_code else u_name
+                        u_ras = ", ".join([f"RA{r}" for r in u.get("ras", [])])
+                        u_hours = f"{u.get('horas', '')} h" if u.get('horas') else ""
+                        u_trim = str(u.get("trimestre", ""))
+                        u_ini = str(u.get("inicio", "")) if u.get("inicio") else ""
+                        u_fin = str(u.get("fin", "")) if u.get("fin") else ""
+
+                        new_r = copy.deepcopy(tmpl_row)
+                        self._replace_in_element(new_r, {
+                            "{{UP}}": u_title,
+                            "{{ras}}": u_ras,
+                            "{{duracion}}": u_hours,
+                            "{{trimestre}}": u_trim,
+                            "{{inicio}}": u_ini,
+                            "{{fin}}": u_fin
+                        })
+                        t_units.append(new_r)
 
         # --- 5. CLONAR FILAS DE TABLA 6: PONDERACIÓN DE RAs (Tabla_Evaluacion_RA) ---
         t_eval_ra = self._find_table(body, 'Tabla_Evaluacion_RA', ns_map)
@@ -1661,6 +1943,10 @@ class FodtTemplateEngine:
                         new_r = copy.deepcopy(tmpl_row)
                         self._replace_in_element(new_r, {
                             "{{inst_ra}}": f"RA{r_num}",
+                            "{{cod_ra}}": f"RA{r_num}",
+                            "{{ra_num}}": f"RA{r_num}",
+                            "{{ra_codigo}}": f"RA{r_num}",
+                            "{{ra}}": f"RA{r_num}",
                             "{{inst_nombre}}": ped_defaults["evaluacion"]["instrumento_unico_nombre"],
                             "{{inst_peso_ra}}": "100.0%",
                             "{{inst_contribucion}}": f"{ra_w:.2f}%",
@@ -1674,6 +1960,10 @@ class FodtTemplateEngine:
                             new_r = copy.deepcopy(tmpl_row)
                             self._replace_in_element(new_r, {
                                 "{{inst_ra}}": f"RA{r_num}" if i_idx == 0 else "",
+                                "{{cod_ra}}": f"RA{r_num}" if i_idx == 0 else "",
+                                "{{ra_num}}": f"RA{r_num}" if i_idx == 0 else "",
+                                "{{ra_codigo}}": f"RA{r_num}" if i_idx == 0 else "",
+                                "{{ra}}": f"RA{r_num}" if i_idx == 0 else "",
                                 "{{inst_nombre}}": inst.get("nombre", ""),
                                 "{{inst_peso_ra}}": f"{inst_w:.1f}%",
                                 "{{inst_contribucion}}": f"{contrib:.2f}%",
@@ -1783,15 +2073,6 @@ class FodtTemplateEngine:
                 parent.insert(insert_idx, new_p)
                 insert_idx += 1
 
-        # --- 9. REEMPLAZO GLOBAL DE PLACEHOLDERS EN TODO EL DOCUMENTO ---
-        
-        if f"({ciclo_code})" in ciclo_title:
-            ciclo_full_title = ciclo_title
-        else:
-            ciclo_full_title = f"{ciclo_title} ({ciclo_code})"
-        if codigo_ciclo and codigo_ciclo not in ciclo_full_title:
-            ciclo_full_title += f" (Código: {codigo_ciclo})"
-
         siglas = get_module_initials(mod_data=mod_data, mod_code=mod_code, mod_name=mod_name)
 
         global_vars = {
@@ -1804,7 +2085,7 @@ class FodtTemplateEngine:
             "{{siglas_modulo}}": siglas,
             "{{modulo_siglas}}": siglas,
             "{{modulo_header}}": f"{mod_code} - {mod_name[:26]}",
-            "{{ciclo}}": ciclo_full_title,
+            "{{ciclo}}": ciclo_title,
             "{{ciclo_corto}}": ciclo_code,
             "{{codigo_ciclo}}": codigo_ciclo,
             "{{familia}}": familia,
@@ -1955,6 +2236,24 @@ class SystematicProgramacionGenerator:
 
             self.engine.render_and_save(odt_path, mod, cycle_data, ped_info, context_meta)
             generated.append((ciclo_code, mod_code, odt_path))
+
+            # Mantener sincronizadas las carpetas de alias (SMR/SMX e IA/IABD)
+            if ciclo_code.upper() == "SMX":
+                alt_dir = os.path.join(output_dir, "SMR")
+                os.makedirs(alt_dir, exist_ok=True)
+                shutil.copyfile(odt_path, os.path.join(alt_dir, filename.replace("SMX", "SMR")))
+            elif ciclo_code.upper() == "SMR":
+                alt_dir = os.path.join(output_dir, "SMX")
+                os.makedirs(alt_dir, exist_ok=True)
+                shutil.copyfile(odt_path, os.path.join(alt_dir, filename.replace("SMR", "SMX")))
+            elif ciclo_code.upper() == "IABD":
+                alt_dir = os.path.join(output_dir, "IA")
+                os.makedirs(alt_dir, exist_ok=True)
+                shutil.copyfile(odt_path, os.path.join(alt_dir, filename.replace("IABD", "IA")))
+            elif ciclo_code.upper() == "IA":
+                alt_dir = os.path.join(output_dir, "IABD")
+                os.makedirs(alt_dir, exist_ok=True)
+                shutil.copyfile(odt_path, os.path.join(alt_dir, filename.replace("IA", "IABD")))
 
         return generated
 
