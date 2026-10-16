@@ -1,0 +1,3263 @@
+{
+  "0221": {
+    "unidades_programacion": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 01: Representación de la información y arquitectura de computadores",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 02: Funcionamiento general del computador y componentes básicos",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 03: La placa base, el microprocesador y sistemas de refrigeración",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 04: La memoria interna (RAM, ROM, caché)",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Diciembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 05: Tarjetas de expansión y adaptadores",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 6",
+        "nombre": "UT 06: Electricidad en el ordenador y fuentes de alimentación",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 7",
+        "nombre": "UT 07: Sistemas de almacenamiento masivo (HDD, SSD, NVMe, ópticos)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UT 8",
+        "nombre": "UT 08: Montaje y acoplamiento completo de equipos microinformáticos",
+        "horas": 27,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          2,
+          3
+        ]
+      },
+      {
+        "codigo": "UT 9",
+        "nombre": "UT 09: Periféricos básicos, avanzados y conexiones",
+        "horas": 24,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UT 10",
+        "nombre": "UT 10: Opciones de arranque, BIOS/UEFI y clonación de imágenes",
+        "horas": 24,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          5,
+          6
+        ]
+      },
+      {
+        "codigo": "UT 11",
+        "nombre": "UT 11: Reparación, mantenimiento preventivo y diagnóstico de averías",
+        "horas": 24,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          7,
+          8
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 35.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 5.0
+      },
+      {
+        "codigo": "RA8",
+        "peso": 5.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes y pruebas objetivas de conocimientos técnicos",
+        "porcentaje": 50,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Realización de ejercicios prácticos y talleres de montaje en el laboratorio",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Asistencia, actitud, comportamiento y cumplimiento de normas de seguridad",
+        "porcentaje": 10,
+        "requisito": "Avaluació contínua positiva"
+      }
+    ],
+    "metodologia": "Metodología eminentemente práctica de taller. Trabajo por parejas o grupos reducidos en tablas de montaje con protección antiestática, manipulación real de componentes físicos de hardware, diagnóstico de fallos y clonación de sistemas.",
+    "recursos": {
+      "software": [
+        "Utilidades de diagnóstico de hardware (HWiNFO, MemTest86, CrystalDiskInfo)",
+        "Software de creación y clonación de imágenes (Clonezilla, Rescuezilla)",
+        "Sistemas operativos para instalaciones de prueba (Windows 10/11, Ubuntu Desktop)"
+      ],
+      "hardware": [
+        "Bancos de trabajo y talleres con estoretas y pulseras antiestáticas",
+        "Cajas de herramientas de precisión, tornillos imantados, testeros de fuentes de alimentación",
+        "Equipos microinformáticos completos desmontados para prácticas de alumnado",
+        "Componentes de repuesto: placas base, memorias RAM, tarjetas gráficas, discos duros"
+      ]
+    },
+    "espacios": "Taller de montaje y mantenimiento de equipos microinformáticos",
+    "unidades": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 01: Representación de la información y arquitectura de computadores",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 02: Funcionamiento general del computador y componentes básicos",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 03: La placa base, el microprocesador y sistemas de refrigeración",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 04: La memoria interna (RAM, ROM, caché)",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Diciembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 05: Tarjetas de expansión y adaptadores",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 6",
+        "nombre": "UT 06: Electricidad en el ordenador y fuentes de alimentación",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 7",
+        "nombre": "UT 07: Sistemas de almacenamiento masivo (HDD, SSD, NVMe, ópticos)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UT 8",
+        "nombre": "UT 08: Montaje y acoplamiento completo de equipos microinformáticos",
+        "horas": 27,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          2,
+          3
+        ]
+      },
+      {
+        "codigo": "UT 9",
+        "nombre": "UT 09: Periféricos básicos, avanzados y conexiones",
+        "horas": 24,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UT 10",
+        "nombre": "UT 10: Opciones de arranque, BIOS/UEFI y clonación de imágenes",
+        "horas": 24,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          5,
+          6
+        ]
+      },
+      {
+        "codigo": "UT 11",
+        "nombre": "UT 11: Reparación, mantenimiento preventivo y diagnóstico de averías",
+        "horas": 24,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          7,
+          8
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 35.0,
+      "2": 15.0,
+      "3": 10.0,
+      "4": 10.0,
+      "5": 10.0,
+      "6": 10.0,
+      "7": 5.0,
+      "8": 5.0
+    },
+    "formula_evaluacion": "Módulo = 0.35 · RA_1 + 0.15 · RA_2 + 0.10 · RA_3 + 0.10 · RA_4 + 0.10 · RA_5 + 0.10 · RA_6 + 0.05 · RA_7 + 0.05 · RA_8",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes y pruebas objetivas de conocimientos técnicos",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realización de ejercicios prácticos y talleres de montaje en el laboratorio",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Asistencia, actitud, comportamiento y cumplimiento de normas de seguridad",
+          "peso_ra": 10.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes y pruebas objetivas de conocimientos técnicos",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realización de ejercicios prácticos y talleres de montaje en el laboratorio",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Asistencia, actitud, comportamiento y cumplimiento de normas de seguridad",
+          "peso_ra": 10.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes y pruebas objetivas de conocimientos técnicos",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realización de ejercicios prácticos y talleres de montaje en el laboratorio",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Asistencia, actitud, comportamiento y cumplimiento de normas de seguridad",
+          "peso_ra": 10.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes y pruebas objetivas de conocimientos técnicos",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realización de ejercicios prácticos y talleres de montaje en el laboratorio",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Asistencia, actitud, comportamiento y cumplimiento de normas de seguridad",
+          "peso_ra": 10.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes y pruebas objetivas de conocimientos técnicos",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realización de ejercicios prácticos y talleres de montaje en el laboratorio",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Asistencia, actitud, comportamiento y cumplimiento de normas de seguridad",
+          "peso_ra": 10.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exámenes y pruebas objetivas de conocimientos técnicos",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realización de ejercicios prácticos y talleres de montaje en el laboratorio",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Asistencia, actitud, comportamiento y cumplimiento de normas de seguridad",
+          "peso_ra": 10.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Exámenes y pruebas objetivas de conocimientos técnicos",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realización de ejercicios prácticos y talleres de montaje en el laboratorio",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Asistencia, actitud, comportamiento y cumplimiento de normas de seguridad",
+          "peso_ra": 10.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Exámenes y pruebas objetivas de conocimientos técnicos",
+          "peso_ra": 50.0
+        },
+        {
+          "nombre": "Realización de ejercicios prácticos y talleres de montaje en el laboratorio",
+          "peso_ra": 40.0
+        },
+        {
+          "nombre": "Asistencia, actitud, comportamiento y cumplimiento de normas de seguridad",
+          "peso_ra": 10.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Utilidades de diagnóstico de hardware (HWiNFO, MemTest86, CrystalDiskInfo)",
+      "Software de creación y clonación de imágenes (Clonezilla, Rescuezilla)",
+      "Sistemas operativos para instalaciones de prueba (Windows 10/11, Ubuntu Desktop)"
+    ],
+    "recursos_hardware": [
+      "Bancos de trabajo y talleres con estoretas y pulseras antiestáticas",
+      "Cajas de herramientas de precisión, tornillos imantados, testeros de fuentes de alimentación",
+      "Equipos microinformáticos completos desmontados para prácticas de alumnado",
+      "Componentes de repuesto: placas base, memorias RAM, tarjetas gráficas, discos duros"
+    ]
+  },
+  "0222": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Introducción a los sistemas operativos y máquinas virtuales",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Instalación de sistemas operativos propietarios (Windows) y libres (Linux)",
+        "horas": 35,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Gestión de usuarios, grupos, seguridad y permisos de acceso",
+        "horas": 35,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Enero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Gestión del sistema de archivos, particiones y almacenamiento",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Monitorización, rendimiento, actualizaciones y copias de seguridad",
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos sobre sistemas operativos",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas guiadas e instalaciones en máquinas virtuales",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Práctica continua en máquinas virtuales. Instalación paso a paso de distribuciones Linux y Windows, administración tanto por interfaz gráfica como por intérprete de comandos (CLI / Bash / PowerShell), configuración de políticas de seguridad y resolución de incidencias reales.",
+    "recursos": {
+      "software": [
+        "VirtualBox, VMware Workstation Player",
+        "Microsoft Windows 10/11 Pro",
+        "Distribuciones Linux (Ubuntu Desktop, Debian, Fedora)",
+        "Herramientas de particionado (GParted) y recuperación"
+      ],
+      "hardware": [
+        "Ordenadores personales en el aula con virtualización asistida por hardware (VT-x / AMD-V)"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Introducción a los sistemas operativos y máquinas virtuales",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Instalación de sistemas operativos propietarios (Windows) y libres (Linux)",
+        "horas": 35,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Gestión de usuarios, grupos, seguridad y permisos de acceso",
+        "horas": 35,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Enero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Gestión del sistema de archivos, particiones y almacenamiento",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Monitorización, rendimiento, actualizaciones y copias de seguridad",
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre sistemas operativos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas guiadas e instalaciones en máquinas virtuales",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre sistemas operativos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas guiadas e instalaciones en máquinas virtuales",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre sistemas operativos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas guiadas e instalaciones en máquinas virtuales",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre sistemas operativos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas guiadas e instalaciones en máquinas virtuales",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre sistemas operativos",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas guiadas e instalaciones en máquinas virtuales",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "VirtualBox, VMware Workstation Player",
+      "Microsoft Windows 10/11 Pro",
+      "Distribuciones Linux (Ubuntu Desktop, Debian, Fedora)",
+      "Herramientas de particionado (GParted) y recuperación"
+    ],
+    "recursos_hardware": [
+      "Ordenadores personales en el aula con virtualización asistida por hardware (VT-x / AMD-V)"
+    ]
+  },
+  "0223": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Introducción a la suite ofimática y mecanografía informatizada",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Procesadores de textos básicos y avanzados (Plantillas, estilos, combinación)",
+        "horas": 45,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Diciembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Hojas de cálculo (Fórmulas, funciones, gráficos y tablas dinámicas)",
+        "horas": 50,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Bases de datos relacionales ofimáticas (Tablas, formularios, consultas, informes)",
+        "horas": 40,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Presentaciones gráficas eficaces y multimedia",
+        "horas": 25,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Gestión de correo electrónico, agenda y trabajo colaborativo en la nube",
+        "horas": 24,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          6,
+          7
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD7: Captura y edición básica de imagen y vídeo para documentos",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          8,
+          9
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 5.0
+      },
+      {
+        "codigo": "RA8",
+        "peso": 5.0
+      },
+      {
+        "codigo": "RA9",
+        "peso": 5.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes prácticos de ofimática",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Actividades y trabajos de elaboración de documentos en el aula",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprendizaje guiado mediante casos prácticos del mundo empresarial. Creación de documentos administrativos, gestión financiera básica con hojas de cálculo y automatización de tareas de oficina.",
+    "recursos": {
+      "software": [
+        "LibreOffice / Apache OpenOffice",
+        "Microsoft Office 365 / Google Workspace",
+        "GIMP e Inkscape",
+        "Plataforma Aules"
+      ],
+      "hardware": [
+        "Ordenadores de aula con teclado ergonómico y pantalla adecuada"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Introducción a la suite ofimática y mecanografía informatizada",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Procesadores de textos básicos y avanzados (Plantillas, estilos, combinación)",
+        "horas": 45,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Diciembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Hojas de cálculo (Fórmulas, funciones, gráficos y tablas dinámicas)",
+        "horas": 50,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Bases de datos relacionales ofimáticas (Tablas, formularios, consultas, informes)",
+        "horas": 40,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Presentaciones gráficas eficaces y multimedia",
+        "horas": 25,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Gestión de correo electrónico, agenda y trabajo colaborativo en la nube",
+        "horas": 24,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          6,
+          7
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD7: Captura y edición básica de imagen y vídeo para documentos",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          8,
+          9
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 10.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 15.0,
+      "5": 10.0,
+      "6": 10.0,
+      "7": 5.0,
+      "8": 5.0,
+      "9": 5.0
+    },
+    "formula_evaluacion": "Módulo = 0.10 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.15 · RA_4 + 0.10 · RA_5 + 0.10 · RA_6 + 0.05 · RA_7 + 0.05 · RA_8 + 0.05 · RA_9",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes prácticos de ofimática",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Actividades y trabajos de elaboración de documentos en el aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes prácticos de ofimática",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Actividades y trabajos de elaboración de documentos en el aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes prácticos de ofimática",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Actividades y trabajos de elaboración de documentos en el aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes prácticos de ofimática",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Actividades y trabajos de elaboración de documentos en el aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes prácticos de ofimática",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Actividades y trabajos de elaboración de documentos en el aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exámenes prácticos de ofimática",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Actividades y trabajos de elaboración de documentos en el aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Exámenes prácticos de ofimática",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Actividades y trabajos de elaboración de documentos en el aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Exámenes prácticos de ofimática",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Actividades y trabajos de elaboración de documentos en el aula",
+          "peso_ra": 40.0
+        }
+      ],
+      "9": [
+        {
+          "nombre": "Exámenes prácticos de ofimática",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Actividades y trabajos de elaboración de documentos en el aula",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "LibreOffice / Apache OpenOffice",
+      "Microsoft Office 365 / Google Workspace",
+      "GIMP e Inkscape",
+      "Plataforma Aules"
+    ],
+    "recursos_hardware": [
+      "Ordenadores de aula con teclado ergonómico y pantalla adecuada"
+    ]
+  },
+  "0224": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Introducción a los sistemas operativos en red y planificación del servicio",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Instalación y configuración de servidores (Windows Server y Linux Server)",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Administración de dominios y servicios de directorio (Active Directory / LDAP)",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Gestión de usuarios, grupos y políticas de grupo (GPO)",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Servicios de red básicos asociados al sistema en red (DHCP / DNS integrados)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Monitorización, rendimiento, copias de seguridad e integración de sistemas heterogéneos",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos sobre configuración de servidores",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas de administración de dominios y servicios de red",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Simulación de infraestructuras empresariales reales mediante redes virtuales internas. Despliegue de un dominio corporativo completo con controladores de dominio principales y secundarios, integración de clientes Windows y Linux en el mismo dominio y aplicación de directrices de seguridad.",
+    "recursos": {
+      "software": [
+        "Windows Server 2022/ 2025 Evaluation",
+        "Ubuntu Server / Debian GNU/Linux",
+        "VirtualBox / VMware con adaptadores de red en modo 'Red interna'",
+        "Samba para integración de redes heterogéneas"
+      ],
+      "hardware": [
+        "Ordenadores con suficiente memoria RAM para ejecutar a la vez un servidor y dos clientes virtuales"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Introducción a los sistemas operativos en red y planificación del servicio",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Instalación y configuración de servidores (Windows Server y Linux Server)",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Administración de dominios y servicios de directorio (Active Directory / LDAP)",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Gestión de usuarios, grupos y políticas de grupo (GPO)",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Servicios de red básicos asociados al sistema en red (DHCP / DNS integrados)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Monitorización, rendimiento, copias de seguridad e integración de sistemas heterogéneos",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 15.0,
+      "2": 20.0,
+      "3": 25.0,
+      "4": 15.0,
+      "5": 15.0,
+      "6": 10.0
+    },
+    "formula_evaluacion": "Módulo = 0.15 · RA_1 + 0.20 · RA_2 + 0.25 · RA_3 + 0.15 · RA_4 + 0.15 · RA_5 + 0.10 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servidores",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de administración de dominios y servicios de red",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servidores",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de administración de dominios y servicios de red",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servidores",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de administración de dominios y servicios de red",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servidores",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de administración de dominios y servicios de red",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servidores",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de administración de dominios y servicios de red",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servidores",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de administración de dominios y servicios de red",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Windows Server 2022/ 2025 Evaluation",
+      "Ubuntu Server / Debian GNU/Linux",
+      "VirtualBox / VMware con adaptadores de red en modo 'Red interna'",
+      "Samba para integración de redes heterogéneas"
+    ],
+    "recursos_hardware": [
+      "Ordenadores con suficiente memoria RAM para ejecutar a la vez un servidor y dos clientes virtuales"
+    ]
+  },
+  "0225": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Introducción a las redes de datos, modelos OSI y TCP/IP",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Medios de transmisión, cableado estructurado y creación de cables de red",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Dispositivos de interconexión y configuración de equipos de conmutación (Switches)",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Enero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Dirección IPv4 e IPv6, subreds y configuración de encaminadores (Routers)",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Redes inalámbricas (WLAN), estándares 802.11 y seguridad Wi-Fi",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Mantenimiento, verificación y resolución de incidencias en redes locales",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos sobre diseño y configuración de redes",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas de cableado, crimpado y configuración de equipos reales o simulados",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Combinación de taller manual y simulación avanzada de redes. Crimpado real de conectores RJ-45 y certificación de cables con probadores de red, complementado con el diseño y configuración de topologías complejas a través de Cisco Packet Tracer.",
+    "recursos": {
+      "software": [
+        "Cisco Packet Tracer",
+        "Wireshark para capturar paquetes",
+        "Utilidades de diagnóstico de red (ping, traceroute, nmap)"
+      ],
+      "hardware": [
+        "Herramientas de crimpar RJ-45, pelacables, cables UTP Cat 6, probadores de cables de red",
+        "Racks de laboratorio con conmutadores gestionables y puntos de acceso Wi-Fi"
+      ]
+    },
+    "espacios": "Taller de redes y sistemas",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Introducción a las redes de datos, modelos OSI y TCP/IP",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Medios de transmisión, cableado estructurado y creación de cables de red",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Dispositivos de interconexión y configuración de equipos de conmutación (Switches)",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Enero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Dirección IPv4 e IPv6, subreds y configuración de encaminadores (Routers)",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Redes inalámbricas (WLAN), estándares 802.11 y seguridad Wi-Fi",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Mantenimiento, verificación y resolución de incidencias en redes locales",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 15.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 15.0,
+      "6": 10.0
+    },
+    "formula_evaluacion": "Módulo = 0.15 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.15 · RA_5 + 0.10 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre diseño y configuración de redes",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de cableado, crimpado y configuración de equipos reales o simulados",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre diseño y configuración de redes",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de cableado, crimpado y configuración de equipos reales o simulados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre diseño y configuración de redes",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de cableado, crimpado y configuración de equipos reales o simulados",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre diseño y configuración de redes",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de cableado, crimpado y configuración de equipos reales o simulados",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre diseño y configuración de redes",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de cableado, crimpado y configuración de equipos reales o simulados",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre diseño y configuración de redes",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de cableado, crimpado y configuración de equipos reales o simulados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Cisco Packet Tracer",
+      "Wireshark para capturar paquetes",
+      "Utilidades de diagnóstico de red (ping, traceroute, nmap)"
+    ],
+    "recursos_hardware": [
+      "Herramientas de crimpar RJ-45, pelacables, cables UTP Cat 6, probadores de cables de red",
+      "Racks de laboratorio con conmutadores gestionables y puntos de acceso Wi-Fi"
+    ]
+  },
+  "0226": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Principios de la seguridad informática, seguridad física y ambiental",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Seguridad lógica, autenticación y control de acceso",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Análisis de software malicioso, amenazas y mecanismos de defensa activa",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Políticas de copias de seguridad, planes de recuperación y continuidad",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Cumplimiento normativo, protección de datos personales (RGPD) y gestión de residuos",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teóricos y pruebas prácticas de laboratorio de seguridad",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas de análisis de vulnerabilidades, antivirus y copias de seguridad",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Enfoque preventivo y proactivo. Análisis de amenazas típicas en entornos corporativos, configuración de sistemas de copias de seguridad automatizadas y aplicación de la legislación vigente.",
+    "recursos": {
+      "software": [
+        "Soluciones antivirus y antimalware (Microsoft Defender, herramientas libres)",
+        "Software de copias de seguridad (Cobian Backup, rsync)",
+        "Herramientas de auditoría de seguridad y cifrado (VeraCrypt)"
+      ],
+      "hardware": [
+        "Ordenadores personales y medios de almacenamiento externo para pruebas de rescate"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Principios de la seguridad informática, seguridad física y ambiental",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Seguridad lógica, autenticación y control de acceso",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Análisis de software malicioso, amenazas y mecanismos de defensa activa",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Políticas de copias de seguridad, planes de recuperación y continuidad",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Cumplimiento normativo, protección de datos personales (RGPD) y gestión de residuos",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teóricos y pruebas prácticas de laboratorio de seguridad",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de análisis de vulnerabilidades, antivirus y copias de seguridad",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teóricos y pruebas prácticas de laboratorio de seguridad",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de análisis de vulnerabilidades, antivirus y copias de seguridad",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teóricos y pruebas prácticas de laboratorio de seguridad",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de análisis de vulnerabilidades, antivirus y copias de seguridad",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teóricos y pruebas prácticas de laboratorio de seguridad",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de análisis de vulnerabilidades, antivirus y copias de seguridad",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teóricos y pruebas prácticas de laboratorio de seguridad",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de análisis de vulnerabilidades, antivirus y copias de seguridad",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Soluciones antivirus y antimalware (Microsoft Defender, herramientas libres)",
+      "Software de copias de seguridad (Cobian Backup, rsync)",
+      "Herramientas de auditoría de seguridad y cifrado (VeraCrypt)"
+    ],
+    "recursos_hardware": [
+      "Ordenadores personales y medios de almacenamiento externo para pruebas de rescate"
+    ]
+  },
+  "0227": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Servicios de configuración dinámica de direcciones (DHCP)",
+        "horas": 18,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Servicios de resolución de nombres (DNS)",
+        "horas": 22,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Servicios de transferencia de archivos (FTP, SFTP)",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Servicios web (Servidores HTTP y HTTPS)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Servicios de correo electrónico (SMTP, IMAP, POP3)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Acceso remoto y terminal de red (SSH, RDP, VNC)",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD7: Servidores intermediarios (Proxy) y cortafuegos perimetrales",
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          7
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "UD8: Servicios de voz sobre IP (VoIP) y multimedia en red",
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          8
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA8",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos sobre configuración de servicios",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas de instalación y verificación de servicios de red",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Práctica directa en entornos Linux y Windows. Configuración de servidores reales de red, comprobación de la interacción cliente-servidor y análisis del tráfico de red con Wireshark.",
+    "recursos": {
+      "software": [
+        "Linux Server (BIND9, isc-dhcp-server, Apache2, Postfix, Dovecot, OpenSSH, Squid)",
+        "Windows Server (Roles de DHCP, DNS, IIS)",
+        "Clientes de prueba y Wireshark"
+      ],
+      "hardware": [
+        "Ordenadores de aula con redes aisladas para evitar interferencias con la red del centro"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Servicios de configuración dinámica de direcciones (DHCP)",
+        "horas": 18,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Servicios de resolución de nombres (DNS)",
+        "horas": 22,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Servicios de transferencia de archivos (FTP, SFTP)",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Servicios web (Servidores HTTP y HTTPS)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Servicios de correo electrónico (SMTP, IMAP, POP3)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Acceso remoto y terminal de red (SSH, RDP, VNC)",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD7: Servidores intermediarios (Proxy) y cortafuegos perimetrales",
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          7
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "UD8: Servicios de voz sobre IP (VoIP) y multimedia en red",
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          8
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 15.0,
+      "2": 15.0,
+      "3": 10.0,
+      "4": 15.0,
+      "5": 15.0,
+      "6": 10.0,
+      "7": 10.0,
+      "8": 10.0
+    },
+    "formula_evaluacion": "Módulo = 0.15 · RA_1 + 0.15 · RA_2 + 0.10 · RA_3 + 0.15 · RA_4 + 0.15 · RA_5 + 0.10 · RA_6 + 0.10 · RA_7 + 0.10 · RA_8",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servicios",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de instalación y verificación de servicios de red",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servicios",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de instalación y verificación de servicios de red",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servicios",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de instalación y verificación de servicios de red",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servicios",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de instalación y verificación de servicios de red",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servicios",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de instalación y verificación de servicios de red",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servicios",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de instalación y verificación de servicios de red",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servicios",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de instalación y verificación de servicios de red",
+          "peso_ra": 40.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre configuración de servicios",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de instalación y verificación de servicios de red",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Linux Server (BIND9, isc-dhcp-server, Apache2, Postfix, Dovecot, OpenSSH, Squid)",
+      "Windows Server (Roles de DHCP, DNS, IIS)",
+      "Clientes de prueba y Wireshark"
+    ],
+    "recursos_hardware": [
+      "Ordenadores de aula con redes aisladas para evitar interferencias con la red del centro"
+    ]
+  },
+  "0228": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "Unidad 1: Internet, características y evolución",
+        "horas": 12,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "Unidad 2: Elaboración de páginas web con lenguajes de marcas (HTML y CSS)",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "Unidad 3: Sistemas gestores de contenidos (CMS - WordPress, DocuWiki)",
+        "horas": 12,
+        "trimestre": "1er Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Diciembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "Unidad 4: Sistemas de gestión de aprendizaje a distancia (Moodle)",
+        "horas": 12,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "Unidad 5: Servicios de gestión de archivos web y nube (Nextcloud)",
+        "horas": 6,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "Unidad 6: Instalación de aplicaciones de ofimática web colaborativa",
+        "horas": 6,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "Unidad 7: Instalación de aplicaciones web de escritorio y portales",
+        "horas": 4,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "Unidad 8: Fundamentos de Javascript y dinamismo web",
+        "horas": 6,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos sobre plataformas web",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas de instalación y configuración de aplicaciones web",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprendizaje práctico mediante el despliegue real de plataformas web de gestión de contenidos (WordPress), aprendizaje (Moodle) y sincronización de ficheros en servidores locales LAMP/WAMP.",
+    "recursos": {
+      "software": [
+        "Pila XAMPP / LAMP (Apache, MariaDB, PHP)",
+        "WordPress, Moodle, Nextcloud, DokuWiki",
+        "Visual Studio Code"
+      ],
+      "hardware": [
+        "Ordenadores de aula conectados a Internet"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "Unidad 1: Internet, características y evolución",
+        "horas": 12,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "Unidad 2: Elaboración de páginas web con lenguajes de marcas (HTML y CSS)",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "Unidad 3: Sistemas gestores de contenidos (CMS - WordPress, DocuWiki)",
+        "horas": 12,
+        "trimestre": "1er Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Diciembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "Unidad 4: Sistemas de gestión de aprendizaje a distancia (Moodle)",
+        "horas": 12,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "Unidad 5: Servicios de gestión de archivos web y nube (Nextcloud)",
+        "horas": 6,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "Unidad 6: Instalación de aplicaciones de ofimática web colaborativa",
+        "horas": 6,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "Unidad 7: Instalación de aplicaciones web de escritorio y portales",
+        "horas": 4,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "Unidad 8: Fundamentos de Javascript y dinamismo web",
+        "horas": 6,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre plataformas web",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de instalación y configuración de aplicaciones web",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre plataformas web",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de instalación y configuración de aplicaciones web",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre plataformas web",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de instalación y configuración de aplicaciones web",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre plataformas web",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de instalación y configuración de aplicaciones web",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos sobre plataformas web",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de instalación y configuración de aplicaciones web",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Pila XAMPP / LAMP (Apache, MariaDB, PHP)",
+      "WordPress, Moodle, Nextcloud, DokuWiki",
+      "Visual Studio Code"
+    ],
+    "recursos_hardware": [
+      "Ordenadores de aula conectados a Internet"
+    ]
+  },
+  "0229": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: El derecho del trabajo y el contrato laboral",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Condiciones laborales, jornada, salario y Seguridad Social",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Prevención de riesgos laborales y gestión de la salud en la empresa",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4,
+          5
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Primeros auxilios en el entorno laboral",
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Equipos de trabajo, resolución de conflictos y orientación laboral",
+        "horas": 16,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          7
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 15.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Pruebas objetivas de evaluación de conocimientos jurídicos y laborales",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Supuestos prácticos de cálculo de nóminas, contratos y planes de prevención",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Metodología activa y resolución de casos prácticos reales de nóminas, interpretación de convenios y simulación de situaciones de riesgos laborales y primeros auxilios.",
+    "recursos": {
+      "software": [
+        "Navegadores web para consulta de legislación laboral y convenios colectivos",
+        "Suites ofimàtiques i plataforma Aules"
+      ],
+      "hardware": [
+        "Equipos informáticos de aula y cañón proyector"
+      ]
+    },
+    "espacios": "Aula polivalente",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: El derecho del trabajo y el contrato laboral",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Condiciones laborales, jornada, salario y Seguridad Social",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Prevención de riesgos laborales y gestión de la salud en la empresa",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4,
+          5
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Primeros auxilios en el entorno laboral",
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Equipos de trabajo, resolución de conflictos y orientación laboral",
+        "horas": 16,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          7
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 15.0,
+      "6": 10.0,
+      "7": 15.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.15 · RA_5 + 0.10 · RA_6 + 0.15 · RA_7",
+    "instrumentos": {
+      "2": [
+        {
+          "nombre": "Pruebas objetivas de evaluación de conocimientos jurídicos y laborales",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Supuestos prácticos de cálculo de nóminas, contratos y planes de prevención",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas objetivas de evaluación de conocimientos jurídicos y laborales",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Supuestos prácticos de cálculo de nóminas, contratos y planes de prevención",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas objetivas de evaluación de conocimientos jurídicos y laborales",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Supuestos prácticos de cálculo de nóminas, contratos y planes de prevención",
+          "peso_ra": 40.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas objetivas de evaluación de conocimientos jurídicos y laborales",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Supuestos prácticos de cálculo de nóminas, contratos y planes de prevención",
+          "peso_ra": 40.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas objetivas de evaluación de conocimientos jurídicos y laborales",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Supuestos prácticos de cálculo de nóminas, contratos y planes de prevención",
+          "peso_ra": 40.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Pruebas objetivas de evaluación de conocimientos jurídicos y laborales",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Supuestos prácticos de cálculo de nóminas, contratos y planes de prevención",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Navegadores web para consulta de legislación laboral y convenios colectivos",
+      "Suites ofimàtiques i plataforma Aules"
+    ],
+    "recursos_hardware": [
+      "Equipos informáticos de aula y cañón proyector"
+    ]
+  },
+  "0230": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: La iniciativa emprendedora y la generación de la idea de negocio",
+        "horas": 16,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: El plan de empresa y el estudio de mercado del sector informático",
+        "horas": 16,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Formas jurídicas de la empresa y trámites legales de constitución",
+        "horas": 16,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Enero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Gestión financiera, contable y fiscal de la pequeña empresa",
+        "horas": 16,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 25.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Presentación y defensa del proyecto de plan de empresa",
+        "porcentaje": 60,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Trabajos prácticos de análisis de mercado y trámites legales",
+        "porcentaje": 40,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprendizaje basado en proyectos. Desarrollo en equipo de un plan de empresa real orientado al sector de las tecnologías de la información y comunicación.",
+    "recursos": {
+      "software": [
+        "Hojas de cálculo para planes financieros",
+        "Plataforma Aulas y herramientas de presentación digital"
+      ],
+      "hardware": [
+        "Equipos de aula conectados a Internet"
+      ]
+    },
+    "espacios": "Aula polivalente",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: La iniciativa emprendedora y la generación de la idea de negocio",
+        "horas": 16,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: El plan de empresa y el estudio de mercado del sector informático",
+        "horas": 16,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Formas jurídicas de la empresa y trámites legales de constitución",
+        "horas": 16,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Enero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Gestión financiera, contable y fiscal de la pequeña empresa",
+        "horas": 16,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 25.0,
+      "2": 25.0,
+      "3": 25.0,
+      "4": 25.0
+    },
+    "formula_evaluacion": "Módulo = 0.25 · RA_1 + 0.25 · RA_2 + 0.25 · RA_3 + 0.25 · RA_4",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Presentación y defensa del proyecto de plan de empresa",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Trabajos prácticos de análisis de mercado y trámites legales",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Presentación y defensa del proyecto de plan de empresa",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Trabajos prácticos de análisis de mercado y trámites legales",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Presentación y defensa del proyecto de plan de empresa",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Trabajos prácticos de análisis de mercado y trámites legales",
+          "peso_ra": 40.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Presentación y defensa del proyecto de plan de empresa",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Trabajos prácticos de análisis de mercado y trámites legales",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Hojas de cálculo para planes financieros",
+      "Plataforma Aulas y herramientas de presentación digital"
+    ],
+    "recursos_hardware": [
+      "Equipos de aula conectados a Internet"
+    ]
+  },
+  "0231": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Integración y adaptación a la organización y cultura de la empresa",
+        "horas": 80,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Montaje, instalación y puesta en marcha de equipos en entorno de producción",
+        "horas": 80,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Administración de sistemas operativos y servicios de red en la",
+        "horas": 80,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Mantenimiento preventivo, resolución de averías y atención a usuarios",
+        "horas": 80,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Cumplimiento de protocolos de seguridad, calidad y gestión ambiental",
+        "horas": 80,
+        "trimestre": "3er Trimestre",
+        "inicio": "Junio",
+        "fin": "Junio",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Informe valorativo del tutor de la empresa colaboradora",
+        "porcentaje": 70,
+        "requisito": "Qualificació d'APTE"
+      },
+      {
+        "nombre": "Memoria de prácticas y cuaderno de seguimiento del alumnado",
+        "porcentaje": 30,
+        "requisito": "Qualificació d'APTE"
+      }
+    ],
+    "metodologia": "Formación en el entorno de trabajo real en las instalaciones de las empresas del sector colaboradoras, con seguimiento periódico por el tutor docente del centro educativo.",
+    "recursos": {
+      "software": [
+        "Herramientas informáticas del centro de trabajo de la empresa"
+      ],
+      "hardware": [
+        "Equipos y redes del puesto de trabajo en la empresa"
+      ]
+    },
+    "espacios": "Instalaciones de las empresas colaboradoras",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Integración y adaptación a la organización y cultura de la empresa",
+        "horas": 80,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Montaje, instalación y puesta en marcha de equipos en entorno de producción",
+        "horas": 80,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Administración de sistemas operativos y servicios de red en la",
+        "horas": 80,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Mantenimiento preventivo, resolución de averías y atención a usuarios",
+        "horas": 80,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Cumplimiento de protocolos de seguridad, calidad y gestión ambiental",
+        "horas": 80,
+        "trimestre": "3er Trimestre",
+        "inicio": "Junio",
+        "fin": "Junio",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Informe valorativo del tutor de la empresa colaboradora",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Memoria de prácticas y cuaderno de seguimiento del alumnado",
+          "peso_ra": 30.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Informe valorativo del tutor de la empresa colaboradora",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Memoria de prácticas y cuaderno de seguimiento del alumnado",
+          "peso_ra": 30.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Informe valorativo del tutor de la empresa colaboradora",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Memoria de prácticas y cuaderno de seguimiento del alumnado",
+          "peso_ra": 30.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Informe valorativo del tutor de la empresa colaboradora",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Memoria de prácticas y cuaderno de seguimiento del alumnado",
+          "peso_ra": 30.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Informe valorativo del tutor de la empresa colaboradora",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Memoria de prácticas y cuaderno de seguimiento del alumnado",
+          "peso_ra": 30.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Herramientas informáticas del centro de trabajo de la empresa"
+    ],
+    "recursos_hardware": [
+      "Equipos y redes del puesto de trabajo en la empresa"
+    ]
+  },
+  "modulo_generico": {
+    "unidades_programacion": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y conceptos esenciales",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrollo práctico y aplicación técnica",
+        "horas": 40,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Integración de sistemas y proyecto aplicativo",
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "Marzo",
+        "fin": "Mayo",
+        "ras": [
+          3
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 30.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 40.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 30.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+        "porcentaje": 60,
+        "requisito": "Nota mínima de 5 sobre 10"
+      },
+      {
+        "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+        "porcentaje": 40,
+        "requisito": "Nota mínima de 5 sobre 10"
+      }
+    ],
+    "metodologia": "Metodología activa y orientada a la práctica (aprender haciendo / learning by doing), con resolución de supuestos reales, trabajo colaborativo y aprendizaje basado en proyectos. Se combina la exposición conceptual docente con actividades guiadas e individuales en aula-taller.",
+    "recursos": {
+      "software": [
+        "Sistemas operativos libres y propietarios (Linux/Windows)",
+        "Entornos integrados de desarrollo y suites de software del sector",
+        "Plataforma educativa Aules de la Generalitat Valenciana",
+        "Herramientas de control de versiones y gestión de proyectos"
+      ],
+      "hardware": [
+        "Equipos informáticos para el alumnado conectados a red local e Internet",
+        "Pizarra digital interactiva y cañón proyector en aula polivalente",
+        "Dispositivos periféricos e instrumental de laboratorio técnico"
+      ]
+    },
+    "espacios": "Aula de informática polivalente con conectividad cableada de alta velocidad, Taller de sistemas y mantenimiento de equipos",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y conceptos esenciales",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrollo práctico y aplicación técnica",
+        "horas": 40,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Integración de sistemas y proyecto aplicativo",
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "Marzo",
+        "fin": "Mayo",
+        "ras": [
+          3
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 30.0,
+      "2": 40.0,
+      "3": 30.0
+    },
+    "formula_evaluacion": "Módulo = 0.30 · RA_1 + 0.40 · RA_2 + 0.30 · RA_3",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 40.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 60.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 40.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Sistemas operativos libres y propietarios (Linux/Windows)",
+      "Entornos integrados de desarrollo y suites de software del sector",
+      "Plataforma educativa Aules de la Generalitat Valenciana",
+      "Herramientas de control de versiones y gestión de proyectos"
+    ],
+    "recursos_hardware": [
+      "Equipos informáticos para el alumnado conectados a red local e Internet",
+      "Pizarra digital interactiva y cañón proyector en aula polivalente",
+      "Dispositivos periféricos e instrumental de laboratorio técnico"
+    ]
+  }
+}

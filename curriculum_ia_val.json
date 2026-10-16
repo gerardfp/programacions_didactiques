@@ -1,0 +1,1551 @@
+{
+  "ciclo": "IABD",
+  "codigo_ciclo": "IFC_IA",
+  "titulo": "Curs d'Especialització en Intel·ligència Artificial i Big Data",
+  "familia_profesional": "Informàtica i Comunicacions",
+  "nivel": "Curso de Especialización",
+  "normativa_referencia": "Reial Decret 279/2021, de 20 d'abril, pel qual s'estableix el Curs d'especialització en Intel·ligència Artificial i Big Data i es fixen els aspectes bàsics del currículum.",
+  "competencias_profesionales_personales_sociales": {
+    "a": "Aplicar sistemes d'Intel·ligència Artificial per identificar noves formes d'interacció en els negocis que millorin la productivitat.",
+    "b": "Desenvolupar i implementar sistemes d'Intel·ligència Artificial que facilitin la presa de decisions àgils dins d'un negoci gestionant i explotant dades massives.",
+    "c": "Gestionar la transformació digital necessària en les organitzacions per a la consecució de l'eficiència empresarial mitjançant el tractament de dades.",
+    "d": "Aplicar Intel·ligència Artificial en funcionalitats, processos i sistemes de decisió empresarials.",
+    "e": "Gestionar els diferents tipus d'Intel·ligència Artificial per a la consecució de transformació i canvi en les empreses.",
+    "f": "Administrar el desenvolupament de processos automatitzats que permetin la millora de la productivitat de les empreses.",
+    "g": "Optimitzar el desenvolupament de processos autònoms emprant eines d'Intel·ligència Artificial.",
+    "h": "Integrar sistemes d'explotació de grans volums de dades aplicant solucions de Big Data.",
+    "i": "Implantar les funcionalitats, processos i sistemes de decisions empresarials aplicant tècniques de Big Data en ells.",
+    "j": "Executar el sistema d'explotació de dades segons les necessitats d'ús i les condicions de seguretat establertes assegurant el compliment dels principis legals i ètics.",
+    "k": "Configurar les eines que s'utilitzen per a construir solucions Big Data i d'Intel·ligència Artificial.",
+    "l": "Gestionar de manera eficient les dades, la informació i la seva representació per transformar-les en coneixement.",
+    "m": "Complir la legislació vigent que regula la normativa dels mitjans de comunicació audiovisual i de l'accessibilitat universal.",
+    "n": "Adaptar-se a les noves situacions laborals, mantenint actualitzats els coneixements científics, tècnics i tecnològics relatius al seu entorn professional, gestionant la seva formació i els recursos existents en l'aprenentatge al llarg de la vida i utilitzant les tecnologies de la informació i la comunicació.",
+    "ñ": "Resoldre situacions, problemes o contingències amb iniciativa i autonomia en l'àmbit de la seva competència, amb creativitat, innovació i esperit de millora en el treball personal i en el dels membres de l'equip.",
+    "o": "Organitzar i coordinar equips de treball amb responsabilitat, supervisant-ne el desenvolupament, mantenint relacions fluides i assumint el lideratge, així com aportant solucions als conflictes grupals que es presentin.",
+    "p": "Comunicar-se amb els seus iguals, superiors, clientela i persones sota la seva responsabilitat, utilitzant vies eficaces de comunicació, transmetent la informació o coneixements adequats i respectant l'autonomia i competència de les persones que intervenen en l'àmbit del seu treball.",
+    "q": "Generar entorns segurs en el desenvolupament del seu treball i el del seu equip, supervisant i aplicant els procediments de prevenció de riscos laborals i ambientals, d'acord amb el que estableix la normativa i els objectius de l'empresa.",
+    "r": "Supervisar i aplicar procediments de gestió de qualitat, d'accessibilitat universal i de «disseny per a totes les persones», en les activitats professionals incloses en els processos de producció o prestació de serveis.",
+    "s": "Exercir els seus drets i complir amb les obligacions derivades de la seva activitat professional, d'acord amb el que estableix la legislació vigent, participant activament en la vida econòmica, social i cultural."
+  },
+  "cualificaciones_profesionales": [],
+  "unidades_competencia": {},
+  "correspondencia_unidades_competencia": {},
+  "modulos": [
+    {
+      "codigo": "5071",
+      "nombre": "Models d'intel·ligència artificial",
+      "siglas": "MIA",
+      "curso_orientativo": "1r",
+      "horas": 40,
+      "creditos_ects": 4,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "c"
+      ],
+      "orientaciones_pedagogicas": "Estigui mòdul professional conté la informació necessària per a exercir les funcions d'analitzar i relacionar la millora de l'eficiència operativa de les organitzacions i empreses amb tecnologies d'Intel·ligència artificial que es poden implementar aplicant principis legals i ètics.\n\nLes funcions abans esmentades inclouen:\n\n– Caracteritzar sistemes d'Intel·ligència artificial.\n\n– Relacionar millores en l'eficiència operativa d'una empresa amb la implantació de sistemes intel·ligents.\n\nLa formació del mòdul contribueix a assolir els objectius generals a), b), c), d), e), j), k), m), n), ñ), o) i p) així com les competències professionals i socials a), b), c), d), e), j), k), m), n), ñ), o), p), q), r) i s) del curs d'especialització.\n\nLes línies d'actuació en el procés d'ensenyament aprenentatge que permeten assolir els objectius del mòdul estan relacionades amb:\n\n– La identificació de característiques dels sistemes d'Intel·ligència artificial.\n\n– L'aplicació d'aquests sistemes d'intel·ligència artificial en les organitzacions i empreses per a la millora de l'eficiència operativa.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Caracteritza sistemes d'Intel·ligència Artificial relacionant-los amb la millora de l'eficiència operativa de les organitzacions i empreses.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'han identificat els principis fonamentals dels sistemes intel·ligents."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'ha recopilat informació sobre camps on s'aplica Intel·ligència Artificial."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "S'han identificat les tècniques bàsiques a utilitzar en l'entorn de la IA."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "S'han identificat noves formes d'interaccions en els negocis que millori l'eficiència operativa."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Caracterització de sistemes d'Intel·ligència Artificial",
+            "items": [
+              "Fonaments dels sistemes intel·ligents.",
+              "Camps d'aplicacions.",
+              "Tècniques de la Intel·ligència Artificial.",
+              "Noves formes d'interacció."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Utilitza models de sistemes d'Intel·ligència Artificial implementant sistemes de resolució de problemes.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'han determinat els requisits bàsics a implementar en un sistema de resolució de problemes."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'han classificat models d'Intel·ligència Artificial."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "S'han caracteritzat els models d'automatització de tasques."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "S'han caracteritzat els models de raonament imprecís."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "S'han caracteritzat els models de sistemes basats en regles."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA2.f",
+              "descripcion": "S'ha valorat l'adequació dels models a la implementació del sistema de resolució de problemes."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Utilització de models d'Intel·ligència Artificial",
+            "items": [
+              "Requisits bàsics d'un sistema de resolució de problemes.",
+              "Models de sistemes d'Intel·ligència Artificial:",
+              "Automatització de tasques.",
+              "Sistemes de raonament imprecís.",
+              "Sistemes basats en regles."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Relaciona el processament de llenguatge natural amb les seves aplicacions determinant el seu potencial i identificant les seves limitacions.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'ha caracteritzat el processament de llenguatge natural."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'ha justificat el paper del lingüista en un projecte d'intel·ligència artificial."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "S'ha determinat el potencial de les tècniques existents de processament de llenguatge, així com les seves limitacions."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "S'ha considerat en quins casos és factible aplicar aquestes tècniques en la resolució d'un problema."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "S'ha avaluat el treball cooperatiu entre lingüistes i informàtics en el camp del processament del llenguatge natural."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA3.f",
+              "descripcion": "S'ha descrit la formació teòrica que precisa l'investigador en processament del llenguatge natural."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA3.g",
+              "descripcion": "S'ha elaborat un sistema de processament de llenguatge orientat a una tasca específica."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Processament del Llenguatge Natural",
+            "items": [
+              "Processament del llenguatge natural: Potencial i limitacions.",
+              "Aplicacions del processament del llenguatge natural."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Analitza sistemes robotitzats, avaluant opcions de disseny i implementació.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'han recopilat els problemes del modelatge i control cinemàtic en robots manipuladors."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'han buscat solucions als problemes dels robots."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "S'han valorat les característiques diferenciadores de les tècniques de programació de robots i de sistemes robotizados."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "S'han avaluat diferents opcions en el disseny i implementació de sistemes robotitzats."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Anàlisi de sistemes robotizados",
+            "items": [
+              "Mètodes i aplicacions de la robòtica.",
+              "Modelatge i control de robots.",
+              "Programació de robots i aplicacions.",
+              "Sistemes robotitzats. Disseny i implementació."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Aplica sistemes experts avaluant la influència dels controladors intel·ligents en el comportament del sistema.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "S'ha descrit la dinàmica i les estructures elementals dels sistemes experts."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "S'han determinat les destreses necessàries per a representar i simular comportaments bàsics de sistemes de molt diversos àmbits."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "S'ha raonat com influeix la variació de les característiques dels sistemes en la seva dinàmica d'actuació."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "S'han desenvolupat estratègies de control definint els objectius i les especificacions de la resposta del sistema."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": "S'han relacionat els controladors intel·ligents amb el comportament del sistema."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Sistemes Experts",
+            "items": [
+              "Dinàmica dels sistemes experts.",
+              "Estructures elementals dels sistemes experts.",
+              "Representar i simular comportaments bàsics.",
+              "Estratègies de control d'un sistema expert.",
+              "Aplicacions de sistemes experts.",
+              "Tendències en sistemes experts."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Aplica principis legals i ètics al desenvolupament de la Intel·ligència Artificial integrant-los com a part del procés.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "S'han argumentat els possibles riscos legals i ètics de l'aplicació d'Intel·ligència Artificial."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "S'ha reconegut la necessitat de respectar la privacitat de les dades."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA6.c",
+              "descripcion": "S'ha decidit el compliment estricte de la legalitat en la seva aplicació."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA6.d",
+              "descripcion": "S'ha integrat com a part del procés la protecció enfront de previsibles errors i atacs (security by design)."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA6.e",
+              "descripcion": "S'ha comprovat que es compleixen totes les normes legals i ètiques en totes les àrees de la Intel·ligència Artificial (privacy by design)."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA6.f",
+              "descripcion": "S'han identificat i corregit els possibles biaixos de gènere en el desenvolupament i aplicacions d'Intel·ligència Artificial i Big Data."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aplicació de principis legals i ètics de la Intel·ligència Artificial",
+            "items": [
+              "Deontologia professional en Intel·ligència Artificial.",
+              "Privacitat de dades.",
+              "Protecció enfront d'errors.",
+              "Principis ètics.",
+              "Biaixos de gènere en el desenvolupament i aplicacions d'Intel·ligència Artificial i Big Data."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Caracterització de sistemes d'Intel·ligència Artificial",
+          "items": [
+            "Fonaments dels sistemes intel·ligents.",
+            "Camps d'aplicacions.",
+            "Tècniques de la Intel·ligència Artificial.",
+            "Noves formes d'interacció."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Utilització de models d'Intel·ligència Artificial",
+          "items": [
+            "Requisits bàsics d'un sistema de resolució de problemes.",
+            "Models de sistemes d'Intel·ligència Artificial:",
+            "Automatització de tasques.",
+            "Sistemes de raonament imprecís.",
+            "Sistemes basats en regles."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Processament del Llenguatge Natural",
+          "items": [
+            "Processament del llenguatge natural: Potencial i limitacions.",
+            "Aplicacions del processament del llenguatge natural."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Anàlisi de sistemes robotizados",
+          "items": [
+            "Mètodes i aplicacions de la robòtica.",
+            "Modelatge i control de robots.",
+            "Programació de robots i aplicacions.",
+            "Sistemes robotitzats. Disseny i implementació."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Sistemes Experts",
+          "items": [
+            "Dinàmica dels sistemes experts.",
+            "Estructures elementals dels sistemes experts.",
+            "Representar i simular comportaments bàsics.",
+            "Estratègies de control d'un sistema expert.",
+            "Aplicacions de sistemes experts.",
+            "Tendències en sistemes experts."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Aplicació de principis legals i ètics de la Intel·ligència Artificial",
+          "items": [
+            "Deontologia professional en Intel·ligència Artificial.",
+            "Privacitat de dades.",
+            "Protecció enfront d'errors.",
+            "Principis ètics.",
+            "Biaixos de gènere en el desenvolupament i aplicacions d'Intel·ligència Artificial i Big Data."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "5072",
+      "nombre": "Sistemes d'aprenentatge automàtic",
+      "siglas": "SAA",
+      "curso_orientativo": "1r",
+      "horas": 50,
+      "creditos_ects": 5,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "c"
+      ],
+      "orientaciones_pedagogicas": "Estigui mòdul professional conté la informació necessària per a exercir les funcions d'analitzar i relacionar les tècniques d'aprenentatge automàtic amb la predicció de comportaments futurs que permetin a les organitzacions i empreses l'eficiència operativa.\n\nLes funcions abans esmentades inclouen:\n\n– Caracteritzar sistemes d'Aprenentatge automàtic.\n\n– Fer predicció de comportaments futurs utilitzant models d'aprenentatge automàtic.\n\nLa formació del mòdul contribueix a assolir els objectius generals a), b), c), d), e), f), g), j), k), m), n), ñ), o) i p) així com les competències professionals i socials a), c), d), e), f), g), j), k), m), n), ñ), o), p), q), r) i s) del curs d'especialització.\n\nLes línies d'actuació en el procés d'ensenyament aprenentatge que permeten assolir els objectius del mòdul estan relacionades amb:\n\n– La caracterització de sistemes d'aprenentatge automàtic.\n\n-– L'aplicació d'aquests sistemes d'aprenentatge automàtic en preses de decisions en les organitzacions i empreses.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Caracteritza la Intel·ligència Artificial forta i feble determinant usos i possibilitats.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'han determinat les especificitats d'Intel·ligència Artificial forta i feble."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'han establert les barreres entre la Intel·ligència Artificial i l'aprenentatge automàtic (Machine Learning)."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "S'han diferenciat àmbits d'aplicació de la Intel·ligència Artificial forta i feble."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "S'han identificat els problemes als quals pot fer front la Intel·ligència Artificial feble."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "S'han identificat els problemes als quals pot fer front la Intel·ligència Artificial forta."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "S'han reconegut els avantatges que proporciona cada tipus en la resolució dels problemes."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Caracterització de la Intel·ligència Artificial forta i feble",
+            "items": [
+              "Intel·ligència Artificial Dèbil:",
+              "Característiques i aplicacions.",
+              "Avantatges i inconvenients.",
+              "Usos i possibilitats.",
+              "Intel·ligència Artificial Fort:",
+              "Característiques i aplicacions.",
+              "Avantatges i inconvenients.",
+              "Usos i possibilitats."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Determina tècniques i eines de sistemes d'aprenentatge automàtic (Machine Learning), testejant la seva aplicabilitat per a la resolució de problemes.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'han identificat els principis de sistemes d'aprenentatge automàtic."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'han determinat tipus i usos de sistemes d'aprenentatge automàtic."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "S'han determinat tècniques i eines de sistemes d'aprenentatge automàtic."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "S'han trobat diferències entre els tipus de sistemes d'aprenentatge automàtic."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "S'han associat tècniques i eines a cada tipus de sistemes d'aprenentatge automàtic."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Determinació de sistemes d'aprenentatge automàtic (Machine Learning)",
+            "items": [
+              "Classificació de sistemes d'aprenentatge automàtic. Supervisat i no supervisat.",
+              "Principals tècniques per desenvolupar aprenentatge automàtic: Xarxes neuronals, Aprenentatge inductiu, Raonament basat en casos, entre d'altres.",
+              "Algorismes o models aplicats a l'aprenentatge automàtic:",
+              "Algorismes de classificació.",
+              "Algorismes de detecció d'anomalies.",
+              "Algorismes de regressió.",
+              "Algorismes de clustering.",
+              "Algorismes de reforç de l'aprenentatge.",
+              "Arbres i regles de decisió.",
+              "Altres algorismes relacionats amb l'aprenentatge automàtic.",
+              "Procediments del Machine Learning: Dades, identifica patrons i pren decisions.",
+              "Eines de. Aprenentatge automàtic.",
+              "Aplicacions del Machine Learning."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Aplica algorismes d'aprenentatge supervisat, optimitzant el resultat del model i minimitzant els riscos associats.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'han proporcionat les dades etiquetades al model."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'han seleccionat les dades d'entrada, ja siguin per a la fase d'entrenament, fase de validació o fase de testeig de dades entre altres."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "S'han utilitzat les dades en la fase d'entrenament per a la construcció del model aplicant característiques rellevants obtingudes."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "S'ha avaluat el model amb les dades obtingudes en la fase de validació."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "S'han ajustat les dades d'aprenentatge supervisat en la fase d'ajust per a millorar el rendiment de les diferents característiques o paràmetres."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA3.f",
+              "descripcion": "S'ha implementat el model per a realitzar prediccions sobre dades noves."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA3.g",
+              "descripcion": "S'han detectat i minimitzat els riscos associats al model."
+            },
+            {
+              "letra": "h",
+              "codigo": "RA3.h",
+              "descripcion": "S'ha optimitzat el model d'aprenentatge supervisat validant dades de prova."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Algorismes aplicats a l'aprenentatge supervisat i optimització del model",
+            "items": [
+              "Determinació d'elements i eines d'aprenentatge supervisat.",
+              "Dades etiquetades.",
+              "Variables d'entrada (input data). Etiquetes de sortida.",
+              "Plataformes d'aprenentatge automàtic supervisat.",
+              "Fases de l'aprenentatge automàtic:",
+              "Selecció de l'algorisme d'aprenentatge supervisat.",
+              "Selecció de dades.",
+              "Construcció del model.",
+              "Validació del model.",
+              "Ajust de característiques o paràmetres.",
+              "Implementació del model proposat.",
+              "Verificació del model de prova.",
+              "Optimització del model."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Aplica tècniques d'aprenentatge no supervisat relacionant-les amb els tipus de problemes que tracten de resoldre.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'han caracteritzat els tipus de problemes que l'aprenentatge no supervisat tracta de resoldre."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'han caracteritzat les tècniques d'aprenentatge no supervisat utilitzades per a la resolució d'aquests tipus de problemes."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "S'han aplicat algorismes utilitzats en l'aprenentatge no supervisat."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "S'ha optimitzat el model d'aprenentatge no supervisat validant dades de prova."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aplicació de tècniques d'aprenentatge no supervisat",
+            "items": [
+              "Tècniques d'aprenentatge no supervisat.",
+              "Algorismes d'aprenentatge no supervisat. Agrupació de clúster, Reducció de dimensió, entre d'altres.",
+              "Determinació d'elements i eines d'aprenentatge no supervisat.",
+              "Plataformes d'aprenentatge automàtic no supervisat.",
+              "Fases de l'aprenentatge automàtic no supervisat."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Aplica models computacionals de xarxes neuronals comparant-los amb altres mètodes d'intel·ligència artificial.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "S'han avaluat els models neuronals per a triar el més adequat per a cada classe de problema."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "S'han aplicat tècniques d'aprenentatge profund (deep learning) per a entrenar xarxes de neurones."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "S'han comparat les xarxes de neurones artificials amb altres mètodes d'intel·ligència artificial."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "S'ha reconegut una xarxa de neurones entrenada a partir d'un conjunt de dades."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aplicació de models computacionals de xarxes neuronals i comparació amb altres models",
+            "items": [
+              "Aprenentatge automàtic davant d'aprenentatge profund.",
+              "Com aprèn una xarxa neuronal.",
+              "Models de xarxes neuronals artificials: Xarxes neuronals convolucionals."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Valora la qualitat dels resultats obtinguts en la pràctica amb sistemes d'aprenentatge automàtic integrant principis fonamentals de la computació.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "S'ha valorat la conveniència dels algorismes proposats per a donar solució als problemes plantejats."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "S'ha avaluat l'aplicació pràctica dels principis i tècniques bàsiques dels sistemes intel·ligents."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA6.c",
+              "descripcion": "S'han integrat els principis fonamentals de la computació en la pràctica per a seleccionar, valorar i crear nous desenvolupaments tecnològics."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA6.d",
+              "descripcion": "S'han desenvolupat sistemes i aplicacions informàtiques que utilitzen tècniques dels sistemes intel·ligents."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA6.e",
+              "descripcion": "S'han desenvolupat tècniques d'aprenentatge computacional dedicades a l'extracció automàtica d'informació a partir de grans volums de dades."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA6.g",
+              "descripcion": ":"
+            },
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": ". E"
+            }
+          ],
+          "contenidos": {
+            "titulo": "Valoració de la qualitat dels resultats obtinguts en la pràctica amb sistemes d'aprenentatge automàtic",
+            "items": [
+              "Capacitat de generalització.",
+              "Test.",
+              "Validació.",
+              "Matriu de confusió."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Caracterització de la Intel·ligència Artificial forta i feble",
+          "items": [
+            "Intel·ligència Artificial Dèbil:",
+            "Característiques i aplicacions.",
+            "Avantatges i inconvenients.",
+            "Usos i possibilitats.",
+            "Intel·ligència Artificial Fort:",
+            "Característiques i aplicacions.",
+            "Avantatges i inconvenients.",
+            "Usos i possibilitats."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Determinació de sistemes d'aprenentatge automàtic (Machine Learning)",
+          "items": [
+            "Classificació de sistemes d'aprenentatge automàtic. Supervisat i no supervisat.",
+            "Principals tècniques per desenvolupar aprenentatge automàtic: Xarxes neuronals, Aprenentatge inductiu, Raonament basat en casos, entre d'altres.",
+            "Algorismes o models aplicats a l'aprenentatge automàtic:",
+            "Algorismes de classificació.",
+            "Algorismes de detecció d'anomalies.",
+            "Algorismes de regressió.",
+            "Algorismes de clustering.",
+            "Algorismes de reforç de l'aprenentatge.",
+            "Arbres i regles de decisió.",
+            "Altres algorismes relacionats amb l'aprenentatge automàtic.",
+            "Procediments del Machine Learning: Dades, identifica patrons i pren decisions.",
+            "Eines de. Aprenentatge automàtic.",
+            "Aplicacions del Machine Learning."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Algorismes aplicats a l'aprenentatge supervisat i optimització del model",
+          "items": [
+            "Determinació d'elements i eines d'aprenentatge supervisat.",
+            "Dades etiquetades.",
+            "Variables d'entrada (input data). Etiquetes de sortida.",
+            "Plataformes d'aprenentatge automàtic supervisat.",
+            "Fases de l'aprenentatge automàtic:",
+            "Selecció de l'algorisme d'aprenentatge supervisat.",
+            "Selecció de dades.",
+            "Construcció del model.",
+            "Validació del model.",
+            "Ajust de característiques o paràmetres.",
+            "Implementació del model proposat.",
+            "Verificació del model de prova.",
+            "Optimització del model."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Aplicació de tècniques d'aprenentatge no supervisat",
+          "items": [
+            "Tècniques d'aprenentatge no supervisat.",
+            "Algorismes d'aprenentatge no supervisat. Agrupació de clúster, Reducció de dimensió, entre d'altres.",
+            "Determinació d'elements i eines d'aprenentatge no supervisat.",
+            "Plataformes d'aprenentatge automàtic no supervisat.",
+            "Fases de l'aprenentatge automàtic no supervisat."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Aplicació de models computacionals de xarxes neuronals i comparació amb altres models",
+          "items": [
+            "Aprenentatge automàtic davant d'aprenentatge profund.",
+            "Com aprèn una xarxa neuronal.",
+            "Models de xarxes neuronals artificials: Xarxes neuronals convolucionals."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Valoració de la qualitat dels resultats obtinguts en la pràctica amb sistemes d'aprenentatge automàtic",
+          "items": [
+            "Capacitat de generalització.",
+            "Test.",
+            "Validació.",
+            "Matriu de confusió."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "5073",
+      "nombre": "Programació d'intel·ligència artificial",
+      "siglas": "PIA",
+      "curso_orientativo": "1r",
+      "horas": 110,
+      "creditos_ects": 12,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "c"
+      ],
+      "orientaciones_pedagogicas": "Aquest mòdul professional conté la informació necessària per exercir les funcions de desenvolupar aplicacions d'Intel·ligència Artificial utilitzant llenguatges de programació i entorns de modelatge.\n\nLes funcions abans esmentades inclouen:\n\n– Programar Intel·ligència Artificial utilitzant llenguatges de programació amb característiques que els fan adequats per al desenvolupament d'aquest tipus d'aplicacions.\n\n– Crear aplicacions que integrin algun algorisme d'Intel·ligència Artificial.\n\nLa formació del mòdul contribueix a assolir els objectius generals a), b), c), d), e), j), k), m), n), ñ), o) i p) així com les competències professionals i socials a), b), c), d), e), j), k), m), n), ñ), o), p), q), r) i s) del curs d'especialització.\n\nLes línies d'actuació en el procés d'ensenyament aprenentatge que permeten assolir els objectius del mòdul estan relacionades amb:\n\n– La creació de programes amb llenguatges de programació amb característiques per programar Intel·ligència artificial.\n\n– El desenvolupament d'aplicacions mitjançant entorns de modelatge d'Intel·ligència artificial.\n\n– Unificar processos, serveis, eines, mètodes i serveis per a millorar la productivitat.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Caracteritza llenguatges de programació valorant la seva idoneïtat en el desenvolupament d'Intel·ligència Artificial.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Cal identificar l'estructura d'un programa informàtic."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'han valorat característiques en els llenguatges de programació adequades al tipus d'aplicacions a implementar."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "S'ha determinat el llenguatge de programació més apropiat per al desenvolupament de l'aplicació."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "S'han valorat característiques dels llenguatges de programació per al desenvolupament d'Intel·ligència Artificial."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "S'ha determinat el llenguatge de programació més apropiat per al desenvolupament de l'aplicació d'Intel·ligència Artificial."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "S'han caracteritzat llenguatges de marcat destacant la informació que contenen les seves etiquetes."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Caracterització de llenguatges de programació",
+            "items": [
+              "Programa informàtic. Etapes. Llenguatges de programació.",
+              "Principals característiques en un llenguatge de programació per a IA. Biblioteques. Rendiment en execució. Eines. Suport.",
+              "Principals Llenguatges de programació per a Intel·ligència Artificial: Python, R, Java, Javascript, NodeJS, JSON, entre d'altres.",
+              "Llenguatges de marcatge. Informació de les seves etiquetes."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Desenvolupa aplicacions d'Intel·ligència artificial utilitzant entorns de modelatge.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'han avaluat plataformes d'Intel·ligència Artificial."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'han caracteritzat entorns de model d'aplicacions d'Intel·ligència Artificial."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "S'ha definit el model que es vol implementar segons el problema plantejat."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "S'ha implementat l'aplicació d'Intel·ligència Artificial."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "S'han avaluat els resultats obtinguts."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Desenvolupament d'aplicacions de l'IA",
+            "items": [
+              "Plataformes d'IA: Llibreries. Serveis. Exemples (Azzure, AWS. Amazon Alexa, Bixby, Microsoft Cortana, IBM Watson, Google Assistant, entre altres)",
+              "Entorns de modelatge de IA:",
+              "Eines de modelatge. Llibreries, algorismes i models predefinits, recol·lecció de dades, manipulació de dades, Avaluació de resultats. Exemples (Azure machine learning studio, SPSS modeler d'IBM, Knime, entre altres).",
+              "Modelat de xarxes neuronals. Mòduls predefinits. Exemples (TensorFlow).",
+              "Eines de generació de codi per a crear programari amb comportament intel·ligent."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Avalua les millores en els negocis integrant convergència tecnològica.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'han identificat els avantatges que ofereix unificar processos, serveis, eines, mètodes i sectors."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'han identificat sistemes que faciliten la connexió tecnològica."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "S'han avaluat les característiques d'aquests sistemes."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "S'ha avaluat com la convergència tecnològica aporta seguretat en els negocis."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "S'ha avaluat la millora en la capacitat de presa de decisions estratègiques en un negoci connectat."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Avaluació de la Convergència tecnològica",
+            "items": [
+              "Connexió entre tecnologies: Veu, dades, so, imatges.",
+              "Avantatges de la convergència tecnològica.",
+              "Sistemes de convergència electrònica: Blockchain, IoT, Cloud, entre altres.",
+              "Característiques de Blockchain.",
+              "Característiques d'IoT.",
+              "Característiques de Cloud.",
+              "Seguretat en la convergència tecnològica."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Avalua models d'automatització industrial i de negoci relacionant-los amb els resultats esperats per les empreses.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'han identificat les noves estratègies corporatives i models de negoci en les empreses."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'ha definit la relació entre empreses i clients i el seu efecte en la forma en què les empreses organitzen i gestionen els seus actius i recursos."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "S'han avaluat models d'automatització per als nous requeriments industrials i de negoci."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "S'ha avaluat la conveniència de cada model per a aconseguir els resultats esperats per les empreses."
+            },
+            {
+              "letra": "s",
+              "codigo": "RA4.s",
+              "descripcion": "."
+            },
+            {
+              "letra": "w",
+              "codigo": "RA4.w",
+              "descripcion": "."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Avaluació de models d'automatització industrial i de negoci",
+            "items": [
+              "Estratègies corporatives. Tendències.",
+              "Models de negoci. Tendències.",
+              "Gestió d'actius i recursos. Tendències.",
+              "Models d'automatització. Tendències."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Caracterització de llenguatges de programació",
+          "items": [
+            "Programa informàtic. Etapes. Llenguatges de programació.",
+            "Principals característiques en un llenguatge de programació per a IA. Biblioteques. Rendiment en execució. Eines. Suport.",
+            "Principals Llenguatges de programació per a Intel·ligència Artificial: Python, R, Java, Javascript, NodeJS, JSON, entre d'altres.",
+            "Llenguatges de marcatge. Informació de les seves etiquetes."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Desenvolupament d'aplicacions de l'IA",
+          "items": [
+            "Plataformes d'IA: Llibreries. Serveis. Exemples (Azzure, AWS. Amazon Alexa, Bixby, Microsoft Cortana, IBM Watson, Google Assistant, entre altres)",
+            "Entorns de modelatge de IA:",
+            "Eines de modelatge. Llibreries, algorismes i models predefinits, recol·lecció de dades, manipulació de dades, Avaluació de resultats. Exemples (Azure machine learning studio, SPSS modeler d'IBM, Knime, entre altres).",
+            "Modelat de xarxes neuronals. Mòduls predefinits. Exemples (TensorFlow).",
+            "Eines de generació de codi per a crear programari amb comportament intel·ligent."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Avaluació de la Convergència tecnològica",
+          "items": [
+            "Connexió entre tecnologies: Veu, dades, so, imatges.",
+            "Avantatges de la convergència tecnològica.",
+            "Sistemes de convergència electrònica: Blockchain, IoT, Cloud, entre altres.",
+            "Característiques de Blockchain.",
+            "Característiques d'IoT.",
+            "Característiques de Cloud.",
+            "Seguretat en la convergència tecnològica."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Avaluació de models d'automatització industrial i de negoci",
+          "items": [
+            "Estratègies corporatives. Tendències.",
+            "Models de negoci. Tendències.",
+            "Gestió d'actius i recursos. Tendències.",
+            "Models d'automatització. Tendències."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "5074",
+      "nombre": "Sistemes de big data",
+      "siglas": "SBD",
+      "curso_orientativo": "1r",
+      "horas": 55,
+      "creditos_ects": 6,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "c"
+      ],
+      "orientaciones_pedagogicas": "Aquest mòdul professional conté la formació necessària per exercir les funcions d'integrar, processar i analitzar la informació de grans volums de dades, aplicant eines i tècniques de Big Data per a la seva visualització, valoració i presentació de resultats en la presa de decisions de les empreses i organitzacions.\n\nLes funcions abans esmentades inclouen aspectes com:\n\n– Determinar equips i eines necessaris dels sistemes Big Data.\n\n– Determinar processos i procediments per aplicar tècniques adequades Big Data.\n\n– Aplicar tècniques Big Data per integrar, processar i analitzar la informació.\n\n- Configurar quadres de comandament en diferents entorns computacionals.\n\n– Gestionar i emmagatzemar grans volums de dades per a facilitar la cerca de resposta.\n\n– Visualitzar dades per a diferents escenaris.\n\nLa formació del mòdul contribueix a assolir els objectius generals b), c), h), i), j), k), l), m), n), ñ), o) i p), així com les competències professionals, personals i socials b), c), h), i), j), k), l), m), n), ñ), o), p), q), r) i s) del curs d'especialització.\n\nLes línies d'actuació en el procés d'ensenyament aprenentatge que permeten assolir els objectius generals del mòdul estan relacionades amb:\n\n– La identificació d'eines i equips, el coneixement de les seves especificacions tècniques i la determinació i seguiment dels processos de sistemes Big Data.\n\n– L'aplicació de tècniques d'anàlisi de dades segons problema plantejat.\n\n– La configuració de quadres de comandament en entorn computacionals.\n\n– L'avaluació i anàlisi del funcionament dels sistemes Big Data.\n\n– La visualització, representació i interpretació de resultats per obtenir decisions de negoci.\n\n– L'aplicació de plans de manteniment de sistemes de Big Data, tenint en compte la normativa vigent de control de qualitat i de seguretat informàtica i protecció de dades.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Aplica tècniques d'anàlisi de dades que integren, processen i analitzen la informació, adaptant i implementant sistemes que les utilitzin.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'han identificat conceptes bàsics de matemàtica discreta, lògica algorítmica i complexitat computacional, i la seva aplicació per al tractament automàtic de la informació per mitjà de sistemes computacionals."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'ha extret de manera automàtica informació i coneixement a partir de grans volums de dades."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "S'han combinat diferents fonts i tipus de dades."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "S'ha construït un conjunt de dades complexes i s'han relacionat entre si."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "S'han establert objectius i prioritats, seqüenciació i organització del temps de realització."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA1.f",
+              "descripcion": "S'han seleccionat i integrat sistemes d'informació que satisfan les necessitats del problema."
+            },
+            {
+              "letra": "g",
+              "codigo": "RA1.g",
+              "descripcion": "S'han determinat criteris de cost i qualitat necessaris per a l'eficàcia i eficiència de la implementació d'un sistema Big Data."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aplicació de tècniques d'integració, processament i anàlisi d'informació",
+            "items": [
+              "Conceptes bàsics de matemàtica discreta, lògica algorítmica i complexitat computacional per a anàlisi de dades.",
+              "Tècniques i processos d'extracció de la informació de les.",
+              "Modelat, raonament, resolució de problemes.",
+              "Anàlisi en temps real.",
+              "Costos i qualitat associats al procés d'anàlisi de la informació."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Configura quadres de comandament en diferents entorns computacionals usant tècniques d'anàlisi de dades.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'han classificat diferents llibreries i implementacions de les tècniques de representació de la informació."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'ha creuat informació sobre l'objectiu a aconseguir i la naturalesa de les dades."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "S'ha realitzat un quadre de comandaments utilitzant tècniques senzilles."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "S'han utilitzat tècniques predictives complexes per anticipar-se al que ocorri."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "S'ha avaluat l'impacte de l'anàlisi de dades en la consecució dels objectius proposats."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Configuració de quadres de comandament en entorns computacionals",
+            "items": [
+              "Tècniques de representació d'informació. Llibreries i implementacions. Estructuració de dades. Objectius a complir.",
+              "Quadre de comandament: fonaments.",
+              "Mètriques.",
+              "Principals mètodes i algoritmes en la mineria de dades. Models SEMMA Sample, Explore, Modify, Model, Assess) i CRISP-DM (Cross- Industry Standard Process for Data Mining), entre altres.",
+              "Fases dels models. Valoració. Interpretació. Desplegament."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Gestiona i emmagatzema dades facilitant la cerca de respostes en grans conjunts de dades.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'han extret i emmagatzemat dades de diverses fonts, per a ser tractats en diferents escenaris."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'ha fixat l'objectiu d'extreure valor de les dades per al que és necessari comptar amb tecnologies eficients."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "S'ha comprovat que la revolució digital exigeix poder emmagatzemar i processar ingents quantitats de dades de diferent tipus i descobrir el seu valor."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "S'han desenvolupat sistemes de gestió, emmagatzematge i processament de grans volums de dades de manera eficient i segura, tenint en compte la normativa existent."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA3.e",
+              "descripcion": "S'han utilitzat habilitats científiques en entorns de treball multidisciplinaris."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestió i emmagatzematge de dades. Cerca de respostes en grans conjunts de dades",
+            "items": [
+              "Sistemes de gestió Emmagatzematge.",
+              "Importació: Flume, Sqoop.",
+              "Integració de dades.",
+              "Programació: R i Python."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Aplica eines per a la visualització de dades utilitzades en les solucions Big Data facilitant les tasques d'anàlisi i presentació de resultats.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'han examinat diferents escenaris i tipologies de dades no estructurades."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'ha implantat l'aplicació de la BI (Business Intelligence) per a l'extracció de valor."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "S'ha reconegut la importància d'emmagatzemar grans volums de dades de manera distribuïda i redundant en un clúster de màquines."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "S'han determinat les diferències en l'entorn d'aplicacions relacionades que faciliten el processament de dades de manera ràpida, eficient i eficaç."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA4.e",
+              "descripcion": "S'ha comprovat la manera de programar i processar automàticament l'estructura de dades."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA4.f",
+              "descripcion": "S'han valorat les diferents formes de visualitzar les dades que ens interessi representar gràficament, facilitant així les tasques d'anàlisi i presentació de resultats."
+            },
+            {
+              "letra": "s",
+              "codigo": "RA4.s",
+              "descripcion": ""
+            },
+            {
+              "letra": "g",
+              "codigo": "RA4.g",
+              "descripcion": ","
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aplicació d'eines per a la visualització de dades",
+            "items": [
+              "Dades no estructurades: Fonts, tipologia.",
+              "Intel·ligència artificial en l'anàlisi de dades.",
+              "Clúster de màquines: Informació distribuïda i redundant.",
+              "Eines de visualització de dades: QlikView, QlikSense, Tableau, Power BI, Domo, Pentaho, MicroStrategy, Business Objects, RJMetrics, Klipfolio, entre altres.",
+              "Tendències de visualització de dades."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Aplicació de tècniques d'integració, processament i anàlisi d'informació",
+          "items": [
+            "Conceptes bàsics de matemàtica discreta, lògica algorítmica i complexitat computacional per a anàlisi de dades.",
+            "Tècniques i processos d'extracció de la informació de les.",
+            "Modelat, raonament, resolució de problemes.",
+            "Anàlisi en temps real.",
+            "Costos i qualitat associats al procés d'anàlisi de la informació."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Configuració de quadres de comandament en entorns computacionals",
+          "items": [
+            "Tècniques de representació d'informació. Llibreries i implementacions. Estructuració de dades. Objectius a complir.",
+            "Quadre de comandament: fonaments.",
+            "Mètriques.",
+            "Principals mètodes i algoritmes en la mineria de dades. Models SEMMA Sample, Explore, Modify, Model, Assess) i CRISP-DM (Cross- Industry Standard Process for Data Mining), entre altres.",
+            "Fases dels models. Valoració. Interpretació. Desplegament."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Gestió i emmagatzematge de dades. Cerca de respostes en grans conjunts de dades",
+          "items": [
+            "Sistemes de gestió Emmagatzematge.",
+            "Importació: Flume, Sqoop.",
+            "Integració de dades.",
+            "Programació: R i Python."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Aplicació d'eines per a la visualització de dades",
+          "items": [
+            "Dades no estructurades: Fonts, tipologia.",
+            "Intel·ligència artificial en l'anàlisi de dades.",
+            "Clúster de màquines: Informació distribuïda i redundant.",
+            "Eines de visualització de dades: QlikView, QlikSense, Tableau, Power BI, Domo, Pentaho, MicroStrategy, Business Objects, RJMetrics, Klipfolio, entre altres.",
+            "Tendències de visualització de dades."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "5075",
+      "nombre": "Big data aplicat",
+      "siglas": "BDA",
+      "curso_orientativo": "1r",
+      "horas": 75,
+      "creditos_ects": 8,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "a",
+        "b",
+        "c"
+      ],
+      "orientaciones_pedagogicas": "Aquest mòdul professional conté la formació necessària per a exercir les funcions d'aplicar solucions de Big Data, gestionar i monitorar l'emmagatzematge de dades i informació per a prendre decisions en els negocis.\n\nLes funcions abans esmentades inclouen aspectes com:\n\n– Conèixer diferents models de negocis de les empreses o organitzacions.\n\n– Gestionar, seleccionar i transformar la informació i dades dels diferents negocis.\n\n– Implantar models adequats de mineria de dades.\n\n– Desenvolupar i implementar solucions a problemes proposats.\n\n– Validar els models per a la presa de decisions de negoci.\n\nLa formació del mòdul contribueix a assolir els objectius generals b), c), h), i), j), k), l), m), n), ñ), o) i p), així com les competències professionals, personals i socials b), c), h), i), j), k), l), m), n), ñ), o), p), q), r) i s) del curs d'especialització.\n\nLes línies d'actuació en el procés d'ensenyament aprenentatge que permeten assolir els objectius generals del mòdul estan relacionades amb:\n\n– La gestió de solucions a problemes amb sistemes Big Data.\n\n– La gestió de sistemes d'emmagatzematge de l'ecosistema Big Data.\n\n– La generació de mecanismes d'integració de dades, controlant i comprovant el manteniment dels sistemes.\n\n– El monitoratge d'un sistema que asseguri la fiabilitat i estabilitat dels serveis Big Data programats.\n\n– La validació de tècniques Big Data per a transformar la informació obtinguda en decisions encertades de negocis BI.\n\nANNEX II\n\nEspais i equipaments mínims\n\nEspais\n\nEspai formatiu\n\nSuperfície m2\n\n30 alumnes\n\n20 alumnes\n\nAula tècnica\n\n60\n\n40\n\nEquipaments mínims\n\nEspai formatiu\n\nEquipament\n\nAula tècnica\n\nSistemes de projecció\n\nMitjans audiovisuals.\n\nProgrames informàtics específics del curs d'especialització.\n\nOrdinadors en xarxa i amb accés a internet.\n\nSistemes de reprografia.\n\nProgramari de desenvolupament i entorn Big Data.\n\nProgramari de gestió de dades i BI.\n\nProgramari de desenvolupament i configuració de projectes basats en Java i entorns Cloud Computing.\n\nAccés a plataformes (open sources) de xarxes neuronals.\n\nLlicències d'estudiants.\n\nANNEX III A)\n\nEspecialitats del professorat amb atribució docent en els mòduls professionals del curs d'especialització en Intel·ligència Artificial i Big Data\n\nMòdul professional\n\nEspecialitat del professorat\n\nCos\n\n5071. Models d'Intel·ligència Artificial.\n\n• Informàtica.\n\n• Sistemes Electrotècnics i Automàtics.\n\n• Sistemes Electrònics.\n\n• Catedràtics d'Ensenyament Secundari.\n\n• Professors d'Ensenyament Secundari.\n\n• Professor Especialista.\n\n5072. Sistemes d'aprenentatge automàtic.\n\n• Informàtica.\n\n• Sistemes Electrònics.\n\n• Sistemes Electrotècnics i Automàtics.\n\n• Catedràtics d'Ensenyament Secundari.\n\n• Professors d'Ensenyament Secundari.\n\n• Professor Especialista.\n\n5073. Programació d'intel·ligència Artificial.\n\n• Informàtica.\n\n• Sistemes Electrònics.\n\n• Sistemes Electrotècnics i Automàtics.\n\n• Catedràtics d'Ensenyament Secundari.\n\n• Professors d'Ensenyament Secundari.\n\n• Professor Especialista.\n\n5074. Sistemes de Big Data.\n\n• Equips Electrònics\n\n• Instal·lacions Electrotècniques.\n\n• Sistemes i Aplicacions Informàtiques.\n\n• Professors Tècnics de Formació Professional.\n\n• Professor Especialista.\n\n5075. Big Data aplicat.\n\n• Equips Electrònics.\n\n• Instal·lacions Electrotècniques.\n\n• Sistemes i Aplicacions Informàtiques.\n\n• Professors Tècnics de Formació Professional.\n\n• Professor Especialista.\n\nANNEX III B)\n\nTitulacions habilitants a efectes de docència\n\nCos\n\nEspecialitat del professorat\n\nTitulacions\n\n• Catedràtics d'Ensenyament Secundari.\n\n• Professors d'Ensenyament Secundari.\n\n• Informàtica.\n\n• Diplomat en Estadística.\n\n• Enginyer tècnic en informàtica de gestió.\n\n• Enginyer tècnic en informàtica de sistemes.\n\n• Enginyer Tècnic de Telecomunicació, especialitat en Telemàtica.\n\n• Sistemes Electrònics.\n\n• Sistemes Electrotècnics i Automàtics.\n\n• Diplomat en Radioelectrònica Naval.\n\n• Enginyer Tècnic Aeronàutic, especialitat en Aeronavegació.\n\n• Enginyer tècnic en informàtica de sistemes.\n\n• Enginyer Tècnic Industrial, especialitat en Electricitat, especialitat en Electrònica Industrial.\n\n• Enginyer Tècnic de Telecomunicació, en totes les seves especialitats.\n\nANNEX III C)\n\nTitulacions requerides per impartir els mòduls professionals que conformen el curs d'especialització per als centres de titularitat privada, d'altres administracions diferents a l'educatives i orientacions per a l'administració educativa\n\nMòduls professionals\n\nTitulacions\n\n5071. Models d'Intel·ligència Artificial.\n\n5072. Sistemes d'aprenentatge automàtic.\n\n5073. Programació d'intel·ligència Artificial.\n\n• Doctor Llicenciat, Enginyer, Arquitecte o el títol de Grau corresponent o altres títols equivalents a efectes de docència.\n\n5074. Sistemes de Big Data.\n\n5075. Big Data aplicat.\n\n• Doctor Llicenciat, Enginyer, Arquitecte o el títol de Grau corresponent o altres títols equivalents a efectes de docència.\n\n• Diplomat Universitari, Arquitecte Tècnic o Enginyer Tècnic o altres títols equivalents a efectes de docència.\n\nANNEX III D)\n\nTitulacions habilitants a efectes de docència per impartir mòduls professionals que conformen el curs d'especialització per als centres de titularitat privada, d'altres administracions diferents a l'educatives i orientacions per a l'administració educativa\n\nMòduls professionals\n\nTitulacions\n\n5071. Models d'Intel·ligència Artificial.\n\n5072. Sistemes d'aprenentatge automàtic.\n\n5073. Programació d'Intel·ligència Artificial.\n\n• Diplomat en Estadística.\n\n• Diplomat en Radioelectrònica Naval.\n\n• Enginyer Tècnic Aeronàutic, especialitat en Aeronavegació.\n\n• Enginyer tècnic en informàtica de gestió.\n\n• Enginyer tècnic en informàtica de sistemes.\n\n• Enginyer Tècnic Industrial, especialitat en Electricitat, especialitat en Electrònica Industrial.\n\n• Enginyer Tècnic de Telecomunicació, en totes les seves especialitats.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Gestiona solucions a problemes proposats, utilitzant sistemes d'emmagatzematge i eines associades al centre de dades.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'ha caracteritzat el procés de disseny i construcció de solucions en sistemes d'emmagatzematge de dades."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'han determinat els procediments i mecanismes per a la ingestió de dades."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA1.c",
+              "descripcion": "S'ha determinat el format de dades adequat per a l'emmagatzematge."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA1.d",
+              "descripcion": "S'han processat les dades emmagatzemades,"
+            },
+            {
+              "letra": "e",
+              "codigo": "RA1.e",
+              "descripcion": "S'han presentat els resultats i les solucions al client final en una forma fàcil d'interpretar."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestió de solucions amb sistemes d'emmagatzematge i eines del centre de dades per a la resolució de problemes",
+            "items": [
+              "Emmagatzematge de dades massiva.",
+              "Processament de dades.",
+              "Analítica de Big Data en els ecosistemes d'emmagatzematge.",
+              "Big Data i Cloud."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Gestiona sistemes d'emmagatzematge i l'ampli ecosistema al voltant d'ells facilitant el processament de grans quantitats de dades sense fallades i de manera ràpida.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'ha determinat la importància dels sistemes d'emmagatzematge per a dipositar i processar grans quantitats de qualsevol mena de dades ràpidament."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'ha comprovat el poder de processament del seu model de computació distribuïda."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "S'ha provat la tolerància a fallades dels sistemes."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA2.d",
+              "descripcion": "S'ha determinat que es poden emmagatzemar tantes dades com es desitgi i decidir com utilitzar-los més tard."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA2.e",
+              "descripcion": "S'ha visualitzat que el sistema pot créixer fàcilment afegint mòduls."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestió de sistemes d'emmagatzematge i ecosistemes Big Data",
+            "items": [
+              "Computació distribuïda. Computació paral·lela,",
+              "Sistemes d'emmagatzematge distribuïts. Tolerància a fallades.",
+              "Eines:",
+              "Map Reduce.",
+              "Pig, Hive, Flume.",
+              "Sqoop, Oozie.",
+              "Automatització de Jobs.",
+              "Consultes Pig i Hive.",
+              "Altres eines."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Genera mecanismes d'integritat de les dades, comprovant el seu manteniment en els sistemes de fitxers distribuïts i valorant la sobrecàrrega que comporta en el tractament de les dades.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'ha valorat la importància de la qualitat de les dades en els sistemes de fitxers distribuïts."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'ha valorat que a major volum de tractament de dades correspon un major perill relacionat amb la integritat de les dades."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA3.c",
+              "descripcion": "S'ha reconegut que els sistemes de fitxers distribuïts implementen una suma de verificació per a la comprovació dels continguts dels arxius."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA3.d",
+              "descripcion": "S'ha reconegut el paper del servidor en els processos previs a la suma de verificació."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Generació de mecanismes d'Integritat de les dades. Comprovació de manteniment de sistemes de fitxers",
+            "items": [
+              "Qualitat de les dades.",
+              "Comprovació de la integritat de dades dels sistemes de fitxers distribuïts. Sumes de verificació.",
+              "Moviment de dades entre clústers. Actualització i migració. Metadades."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Realitza el seguiment del monitoratge d'un sistema, assegurant la fiabilitat i estabilitat dels serveis que es proveeixen.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'han aplicat eines de monitoratge eficient dels recursos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'han recollit mètriques, processament i visualització de les dades."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA4.c",
+              "descripcion": "S'han generat alertes per a detectar un risc o mal funcionament."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA4.d",
+              "descripcion": "S'ha comprovat que les eines usades ofereixen un rendiment elevat amb rapidesa."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA4.e",
+              "descripcion": "S'ha comprovat la fiabilitat de les dades segons respostes."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA4.f",
+              "descripcion": "S'ha analitzat l'estabilitat de serveis."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Monitoratge, optimització i solució de problemes",
+            "items": [
+              "Eines de monitoratge: Interfície web del Jobtracker i Namenode, entre d'altres.",
+              "Anàlisi dels històrics.",
+              "Monitoratge del clúster: Ganglia, entre d'altres."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Valida les tècniques de Big Data per transformar una gran quantitat de dades en informació significativa, facilitant la presa de decisions de negocis.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "S'han seleccionat gran quantitat de dades estructurades i no estructurades per a reforçar la funció de BI."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "S'ha realitzat la neteja i transformació de dades sobre la base dels objectius predeterminats."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA5.c",
+              "descripcion": "S'ha comprovat que el Big Data multiplica la rellevància i la utilitat del BI per al negoci."
+            },
+            {
+              "letra": "d",
+              "codigo": "RA5.d",
+              "descripcion": "S'han conjugat dins d'un model d'empresa dades de clients, financers de vendes, de productes, de màrqueting, de xarxes socials, de la competència, entre altres, per a extreure una anàlisi valuosa i efectiva per al negoci."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": "S'ha avaluat i interpretat la informació extreta de les dades i la seva influència en el triomf de diferents negocis."
+            },
+            {
+              "letra": "f",
+              "codigo": "RA5.f",
+              "descripcion": "S'ha simulat la implantació d'un model d'Intel·ligència de negocis BI."
+            },
+            {
+              "letra": "s",
+              "codigo": "RA5.s",
+              "descripcion": "."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Validació de tècniques Big Data en la presa de decisions en Intel·ligència de negocis BI",
+            "items": [
+              "Models d'Intel·ligència de negocis.",
+              "Procés del model KDD (Knowledge Discovery in Databases).",
+              "Etapes: Selecció, neteja, transformació de dades, mineria de dades, interpretació i avaluació de dades.",
+              "Implantació de models d'intel·ligència de negocis BI.",
+              "Tècniques de validació de models BI."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Gestió de solucions amb sistemes d'emmagatzematge i eines del centre de dades per a la resolució de problemes",
+          "items": [
+            "Emmagatzematge de dades massiva.",
+            "Processament de dades.",
+            "Analítica de Big Data en els ecosistemes d'emmagatzematge.",
+            "Big Data i Cloud."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Gestió de sistemes d'emmagatzematge i ecosistemes Big Data",
+          "items": [
+            "Computació distribuïda. Computació paral·lela,",
+            "Sistemes d'emmagatzematge distribuïts. Tolerància a fallades.",
+            "Eines:",
+            "Map Reduce.",
+            "Pig, Hive, Flume.",
+            "Sqoop, Oozie.",
+            "Automatització de Jobs.",
+            "Consultes Pig i Hive.",
+            "Altres eines."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Generació de mecanismes d'Integritat de les dades. Comprovació de manteniment de sistemes de fitxers",
+          "items": [
+            "Qualitat de les dades.",
+            "Comprovació de la integritat de dades dels sistemes de fitxers distribuïts. Sumes de verificació.",
+            "Moviment de dades entre clústers. Actualització i migració. Metadades."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Monitoratge, optimització i solució de problemes",
+          "items": [
+            "Eines de monitoratge: Interfície web del Jobtracker i Namenode, entre d'altres.",
+            "Anàlisi dels històrics.",
+            "Monitoratge del clúster: Ganglia, entre d'altres."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Validació de tècniques Big Data en la presa de decisions en Intel·ligència de negocis BI",
+          "items": [
+            "Models d'Intel·ligència de negocis.",
+            "Procés del model KDD (Knowledge Discovery in Databases).",
+            "Etapes: Selecció, neteja, transformació de dades, mineria de dades, interpretació i avaluació de dades.",
+            "Implantació de models d'intel·ligència de negocis BI.",
+            "Tècniques de validació de models BI."
+          ]
+        }
+      ]
+    }
+  ],
+  "idioma": "VAL"
+}

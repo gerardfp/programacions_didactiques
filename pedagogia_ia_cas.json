@@ -1,0 +1,1388 @@
+{
+  "5071": {
+    "unidades_programacion": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 1: Introducción a la Inteligencia Artificial y paradigmas",
+        "horas": 3,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 2: Conceptos previos y representación del conocimiento",
+        "horas": 9,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 3: Algoritmos de búsqueda informada y no informada",
+        "horas": 12,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 4: Búsqueda local y satisfacción de restricciones (CSP)",
+        "horas": 12,
+        "trimestre": "1er Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Diciembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 5: Teoría de juegos y búsqueda adversarial (Minimax, poda alfa-beta)",
+        "horas": 6,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 6",
+        "nombre": "UT 6: Sistemas basados en reglas y motores de inferencia",
+        "horas": 9,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UT 7",
+        "nombre": "UT 7: Procesamiento del lenguaje natural (PLN / NLP)",
+        "horas": 12,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UT 8",
+        "nombre": "UT 8: Visión por computador (Computer Vision)",
+        "horas": 12,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UT 9",
+        "nombre": "UT 9: Robótica inteligente y sistemas autónomos",
+        "horas": 9,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 15.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Pruebas objetivas individuales y proyectos de aplicación de IA",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas de implementación y ejercicios aplicados",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Enfoque metodológico basado en el aprendizaje activo y aplicado. Estudio de los modelos formales de inteligencia artificial y desarrollo de casos de uso utilizando librerías especializadas de visión artificial (OpenCV) y procesamiento de lenguaje natural (NLTK, spaCy, HuggingFace).",
+    "recursos": {
+      "software": [
+        "Python 3, Jupyter Notebooks, Google Colab",
+        "Librerías: OpenCV, NLTK, spaCy, scikit-learn",
+        "Frameworks de IA: PyTorch / TensorFlow"
+      ],
+      "hardware": [
+        "Ordenadores con GPU dedicada para procesamiento de imágenes y modelos de IA",
+        "Cámaras web y dispositivos de adquisición para visión por computador"
+      ]
+    },
+    "espacios": "Aula de informática avanzada",
+    "unidades": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 1: Introducción a la Inteligencia Artificial y paradigmas",
+        "horas": 3,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 2: Conceptos previos y representación del conocimiento",
+        "horas": 9,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 3: Algoritmos de búsqueda informada y no informada",
+        "horas": 12,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 4: Búsqueda local y satisfacción de restricciones (CSP)",
+        "horas": 12,
+        "trimestre": "1er Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Diciembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 5: Teoría de juegos y búsqueda adversarial (Minimax, poda alfa-beta)",
+        "horas": 6,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 6",
+        "nombre": "UT 6: Sistemas basados en reglas y motores de inferencia",
+        "horas": 9,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UT 7",
+        "nombre": "UT 7: Procesamiento del lenguaje natural (PLN / NLP)",
+        "horas": 12,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UT 8",
+        "nombre": "UT 8: Visión por computador (Computer Vision)",
+        "horas": 12,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UT 9",
+        "nombre": "UT 9: Robótica inteligente y sistemas autónomos",
+        "horas": 9,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 15.0,
+      "2": 20.0,
+      "3": 15.0,
+      "4": 15.0,
+      "5": 20.0,
+      "6": 15.0
+    },
+    "formula_evaluacion": "Módulo = 0.15 · RA_1 + 0.20 · RA_2 + 0.15 · RA_3 + 0.15 · RA_4 + 0.20 · RA_5 + 0.15 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas objetivas individuales y proyectos de aplicación de IA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de implementación y ejercicios aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas objetivas individuales y proyectos de aplicación de IA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de implementación y ejercicios aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas objetivas individuales y proyectos de aplicación de IA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de implementación y ejercicios aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas objetivas individuales y proyectos de aplicación de IA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de implementación y ejercicios aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas objetivas individuales y proyectos de aplicación de IA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de implementación y ejercicios aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas objetivas individuales y proyectos de aplicación de IA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de implementación y ejercicios aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Python 3, Jupyter Notebooks, Google Colab",
+      "Librerías: OpenCV, NLTK, spaCy, scikit-learn",
+      "Frameworks de IA: PyTorch / TensorFlow"
+    ],
+    "recursos_hardware": [
+      "Ordenadores con GPU dedicada para procesamiento de imágenes y modelos de IA",
+      "Cámaras web y dispositivos de adquisición para visión por computador"
+    ]
+  },
+  "5072": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Fundamentos de aprendizaje automático y preparación del conjunto de datos",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Algoritmos de aprendizaje supervisado (Clasificación y regresión)",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Algoritmos de aprendizaje no supervisado (Clustering y reducción de dimensionalidad)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Redes neuronales artificiales y Deep Learning",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Evaluación, métricas y optimización de hiperparámetros",
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Despliegue de modelos de aprendizaje en entornos de producción (MLOps)",
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Pruebas objetivas y proyectos de construcción de modelos de Machine Learning",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas de laboratorio, limpieza de datos y análisis exploratorio",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Resolución de problemas reales basados en datos. Limpieza, preprocesamiento, ingeniería de características y entrenamiento de modelos supervisados y no supervisados con validación cruzada y métricas rigurosas.",
+    "recursos": {
+      "software": [
+        "Python, NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib",
+        "PyTorch / TensorFlow / Keras",
+        "MLflow / FastAPI para MLOps"
+      ],
+      "hardware": [
+        "Equipos de alto rendimiento con aceleración de cálculo GPU"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Fundamentos de aprendizaje automático y preparación del conjunto de datos",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Algoritmos de aprendizaje supervisado (Clasificación y regresión)",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Algoritmos de aprendizaje no supervisado (Clustering y reducción de dimensionalidad)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Redes neuronales artificiales y Deep Learning",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Evaluación, métricas y optimización de hiperparámetros",
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Despliegue de modelos de aprendizaje en entornos de producción (MLOps)",
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 15.0,
+      "2": 25.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 10.0,
+      "6": 10.0
+    },
+    "formula_evaluacion": "Módulo = 0.15 · RA_1 + 0.25 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.10 · RA_5 + 0.10 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas objetivas y proyectos de construcción de modelos de Machine Learning",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, limpieza de datos y análisis exploratorio",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas objetivas y proyectos de construcción de modelos de Machine Learning",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, limpieza de datos y análisis exploratorio",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas objetivas y proyectos de construcción de modelos de Machine Learning",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, limpieza de datos y análisis exploratorio",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas objetivas y proyectos de construcción de modelos de Machine Learning",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, limpieza de datos y análisis exploratorio",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Pruebas objetivas y proyectos de construcción de modelos de Machine Learning",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, limpieza de datos y análisis exploratorio",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Pruebas objetivas y proyectos de construcción de modelos de Machine Learning",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, limpieza de datos y análisis exploratorio",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Python, NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib",
+      "PyTorch / TensorFlow / Keras",
+      "MLflow / FastAPI para MLOps"
+    ],
+    "recursos_hardware": [
+      "Equipos de alto rendimiento con aceleración de cálculo GPU"
+    ]
+  },
+  "5073": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Caracterización de lenguajes de programación para IA (Python, entornos y librerías)",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Plataformas y herramientas de modelado de Inteligencia Artificial (Cloud, Azure ML, TensorFlow)",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Enero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Evaluación de la convergencia tecnológica (Cloud, IoT, Blockchain e IA)",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Evaluación de modelos de automatización industrial y de negocio",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Abril",
+        "ras": [
+          4
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 25.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos/ Proyectos de aplicación de IA",
+        "porcentaje": 70,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+        "porcentaje": 30,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Programación aplicada mediante lenguajes específicos de inteligencia artificial. Implementación de soluciones de IA conectadas a servicios cloud, desarrollo de agentes y sistemas de automatización.",
+    "recursos": {
+      "software": [
+        "Python 3, Jupyter Notebooks, Visual Studio Code",
+        "Servicios de IA en la nube (Azure AI, AWS, Google Cloud AI)",
+        "Knime, SPSS Modeler, TensorFlow"
+      ],
+      "hardware": [
+        "Ordenadores individuales conectados a Internet"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Caracterización de lenguajes de programación para IA (Python, entornos y librerías)",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Plataformas y herramientas de modelado de Inteligencia Artificial (Cloud, Azure ML, TensorFlow)",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Enero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Evaluación de la convergencia tecnológica (Cloud, IoT, Blockchain e IA)",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Evaluación de modelos de automatización industrial y de negocio",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Abril",
+        "ras": [
+          4
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 25.0,
+      "2": 25.0,
+      "3": 25.0,
+      "4": 25.0
+    },
+    "formula_evaluacion": "Módulo = 0.25 · RA_1 + 0.25 · RA_2 + 0.25 · RA_3 + 0.25 · RA_4",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos/ Proyectos de aplicación de IA",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos/ Proyectos de aplicación de IA",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos/ Proyectos de aplicación de IA",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos/ Proyectos de aplicación de IA",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Python 3, Jupyter Notebooks, Visual Studio Code",
+      "Servicios de IA en la nube (Azure AI, AWS, Google Cloud AI)",
+      "Knime, SPSS Modeler, TensorFlow"
+    ],
+    "recursos_hardware": [
+      "Ordenadores individuales conectados a Internet"
+    ]
+  },
+  "5074": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Ecosistema Big Data y arquitecturas de almacenamiento masivo",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Gestión de bases de datos NoSQL y distribuciones masivas (Cassandra, MongoDB)",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Enero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Computación distribuida con Hadoop HDFS y Apache Spark",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Marzo",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Seguridad, gobernanza y gestión del ciclo de vida de los datos",
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          4
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 25.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Pruebas teórico-prácticas de gestión de clusters y arquitecturas Big Data",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas de administración de bases de datos distribuidas y almacenes",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Despliegue y administración de arquitecturas de datos masivos mediante contenedores Docker. Configuración de clusters distribuidos de almacenamiento y procesamiento batch y streaming.",
+    "recursos": {
+      "software": [
+        "Docker, Apache Hadoop, Apache Spark, HDFS",
+        "Bases de datos NoSQL: Apache Cassandra, MongoDB, Redis",
+        "Herramientas de monitorización y gestión de clusters"
+      ],
+      "hardware": [
+        "Ordenadores con suficientes recursos de RAM y disco para simular clusters distribuidos"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Ecosistema Big Data y arquitecturas de almacenamiento masivo",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Gestión de bases de datos NoSQL y distribuciones masivas (Cassandra, MongoDB)",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Enero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Computación distribuida con Hadoop HDFS y Apache Spark",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Marzo",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Seguridad, gobernanza y gestión del ciclo de vida de los datos",
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          4
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 25.0,
+      "2": 25.0,
+      "3": 25.0,
+      "4": 25.0
+    },
+    "formula_evaluacion": "Módulo = 0.25 · RA_1 + 0.25 · RA_2 + 0.25 · RA_3 + 0.25 · RA_4",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Pruebas teórico-prácticas de gestión de clusters y arquitecturas Big Data",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de administración de bases de datos distribuidas y almacenes",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Pruebas teórico-prácticas de gestión de clusters y arquitecturas Big Data",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de administración de bases de datos distribuidas y almacenes",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Pruebas teórico-prácticas de gestión de clusters y arquitecturas Big Data",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de administración de bases de datos distribuidas y almacenes",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Pruebas teórico-prácticas de gestión de clusters y arquitecturas Big Data",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de administración de bases de datos distribuidas y almacenes",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Docker, Apache Hadoop, Apache Spark, HDFS",
+      "Bases de datos NoSQL: Apache Cassandra, MongoDB, Redis",
+      "Herramientas de monitorización y gestión de clusters"
+    ],
+    "recursos_hardware": [
+      "Ordenadores con suficientes recursos de RAM y disco para simular clusters distribuidos"
+    ]
+  },
+  "5075": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Fundamentos del Big Data y Business Intelligence",
+        "horas": 40,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Arquitectura cloud y almacenamiento de datos masivos",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Arquitectura distribuida para el análisis de datos",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Procesamiento de datos distribuido (Batch y Streaming)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Monitorización, optimización y solución de problemas en tuberías de datos",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          4,
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Proyecto o prueba objetiva relativa a la unidad didáctica (I1)",
+        "porcentaje": 80,
+        "requisito": ">= 4 sobre 10 mínim compensable, >= 5 final"
+      },
+      {
+        "nombre": "Prácticas de laboratorio y análisis de datos con rúbrica (I2)",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Enfoque aplicado centrado en el ciclo completo de los datos masivos (adquisición, ingesta, procesamiento y visualización). Desarrollo de cuadros de mando de Business Intelligence (Power BI, Superset) y pipelinas analíticos con PySpark.",
+    "recursos": {
+      "software": [
+        "PySpark, Apache Kafka, Apache Airflow",
+        "Herramientas de Business Intelligence: Microsoft Power BI Desktop, Apache Superset",
+        "Plataformas cloud (AWS / GCP / Azure)",
+        "Docker y Docker Compose"
+      ],
+      "hardware": [
+        "Equipos de aula de alto rendimiento con acceso a la red"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Fundamentos del Big Data y Business Intelligence",
+        "horas": 40,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Arquitectura cloud y almacenamiento de datos masivos",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Arquitectura distribuida para el análisis de datos",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Procesamiento de datos distribuido (Batch y Streaming)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Monitorización, optimización y solución de problemas en tuberías de datos",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          4,
+          5
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Proyecto o prueba objetiva relativa a la unidad didáctica (I1)",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio y análisis de datos con rúbrica (I2)",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Proyecto o prueba objetiva relativa a la unidad didáctica (I1)",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio y análisis de datos con rúbrica (I2)",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Proyecto o prueba objetiva relativa a la unidad didáctica (I1)",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio y análisis de datos con rúbrica (I2)",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Proyecto o prueba objetiva relativa a la unidad didáctica (I1)",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio y análisis de datos con rúbrica (I2)",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Proyecto o prueba objetiva relativa a la unidad didáctica (I1)",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio y análisis de datos con rúbrica (I2)",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "PySpark, Apache Kafka, Apache Airflow",
+      "Herramientas de Business Intelligence: Microsoft Power BI Desktop, Apache Superset",
+      "Plataformas cloud (AWS / GCP / Azure)",
+      "Docker y Docker Compose"
+    ],
+    "recursos_hardware": [
+      "Equipos de aula de alto rendimiento con acceso a la red"
+    ]
+  },
+  "modulo_generico": {
+    "unidades_programacion": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y conceptos esenciales",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrollo práctico y aplicación técnica",
+        "horas": 40,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Integración de sistemas y proyecto aplicativo",
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "Marzo",
+        "fin": "Mayo",
+        "ras": [
+          3
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 30.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 40.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 30.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+        "porcentaje": 80,
+        "requisito": "Nota mínima de 5 sobre 10"
+      },
+      {
+        "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+        "porcentaje": 20,
+        "requisito": "Nota mínima de 5 sobre 10"
+      }
+    ],
+    "metodologia": "Metodología activa y orientada a la práctica (aprender haciendo / learning by doing), con resolución de supuestos reales, trabajo colaborativo y aprendizaje basado en proyectos. Se combina la exposición conceptual docente con actividades guiadas e individuales en aula-taller.",
+    "recursos": {
+      "software": [
+        "Sistemas operativos libres y propietarios (Linux/Windows)",
+        "Entornos integrados de desarrollo y suites de software del sector",
+        "Plataforma educativa Aules de la Generalitat Valenciana",
+        "Herramientas de control de versiones y gestión de proyectos"
+      ],
+      "hardware": [
+        "Equipos informáticos para el alumnado conectados a red local e Internet",
+        "Pizarra digital interactiva y cañón proyector en aula polivalente",
+        "Dispositivos periféricos e instrumental de laboratorio técnico"
+      ]
+    },
+    "espacios": "Aula de informática polivalente con conectividad cableada de alta velocidad, Taller de sistemas y mantenimiento de equipos",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y conceptos esenciales",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrollo práctico y aplicación técnica",
+        "horas": 40,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Integración de sistemas y proyecto aplicativo",
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "Marzo",
+        "fin": "Mayo",
+        "ras": [
+          3
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 30.0,
+      "2": 40.0,
+      "3": 30.0
+    },
+    "formula_evaluacion": "Módulo = 0.30 · RA_1 + 0.40 · RA_2 + 0.30 · RA_3",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Sistemas operativos libres y propietarios (Linux/Windows)",
+      "Entornos integrados de desarrollo y suites de software del sector",
+      "Plataforma educativa Aules de la Generalitat Valenciana",
+      "Herramientas de control de versiones y gestión de proyectos"
+    ],
+    "recursos_hardware": [
+      "Equipos informáticos para el alumnado conectados a red local e Internet",
+      "Pizarra digital interactiva y cañón proyector en aula polivalente",
+      "Dispositivos periféricos e instrumental de laboratorio técnico"
+    ]
+  }
+}

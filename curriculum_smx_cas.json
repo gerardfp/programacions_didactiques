@@ -1,0 +1,3122 @@
+{
+  "ciclo": "SMX",
+  "codigo_ciclo": "IFC_SMX",
+  "titulo": "Ciclo Formativo de Grado Medio en Sistemas Microinformáticos y Redes",
+  "familia_profesional": "Informática y Comunicaciones",
+  "nivel": "Grado Superior",
+  "normativa_referencia": "Real Decreto 1691/2007, de 14 de diciembre, por el que se establece el título de Técnico en Sistemas Microinformáticos y Redes y se fijan sus enseñanzas mínimas.",
+  "competencias_profesionales_personales_sociales": {
+    "b": "Montar y configurar ordenadores y periféricos, asegurando su funcionamiento en condiciones de calidad y seguridad."
+  },
+  "cualificaciones_profesionales": [],
+  "unidades_competencia": {},
+  "correspondencia_unidades_competencia": {},
+  "modulos": [
+    {
+      "codigo": "0221",
+      "nombre": "Montaje y mantenimiento de equipos",
+      "siglas": "MME",
+      "curso_orientativo": "1º",
+      "horas": 130,
+      "creditos_ects": 5,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de montar y mantener equipos microinformáticos y periféricos comunes y adquirir una visión global y actualizada del mercado.\n\nEl montaje, revisión y mantenimiento de equipos microinformáticos y periféricos incluye aspectos como:\n\nLa manipulación de todos los elementos que forman el componente físico de los equipos microinformáticos.\n\nEl montaje/desmontaje de los componentes de un equipo microinformático.\nEl chequeo y monitorización de equipos.\nEl diagnóstico y resolución de averías.\nLa ampliación y/o sustitución de componentes en equipos.\nLa puesta en marcha y mantenimiento de periféricos.\nLa constante adaptación a los cambios e innovaciones en este ámbito.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\nMontaje y ensamblado de equipos.\n\nMantenimiento de equipos.\nPuesta en marcha y mantenimiento de periféricos.\nComercialización y atención al cliente de equipos informáticos y periféricos.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales a), b),  c), g), h), i), j), k) y l) del ciclo formativo, y las competencias a), b), g), h), i), j), k) y l) del título.\n\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nLa identificación de los elementos que forman el componente físico de los equipos informáticos.\n\nEl montaje/desmontaje de equipos microinformáticos.\nEl chequeo de los equipos montados.\nEl diagnóstico de equipos con problemas o averiados.\nEl montaje/desmontaje de componentes mecánicos en periféricos comunes.\nLa medida de magnitudes eléctricas.\nLa elaboración y/o interpretación de inventarios, presupuestos, partes de montaje y reparación.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Selecciona los componentes de integración de un equipo microinformático estándar, describiendo sus funciones y comparando prestaciones de distintos fabricantes.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han descrito los bloques que componen un equipo microinformático y sus funciones."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se ha reconocido la arquitectura de buses."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Selección de componentes de equipos microinformáticos estándar",
+            "items": [
+              "Identificación de los bloques funcionales de un sistema microinformático: Principales funciones de cada bloque."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Ensambla un equipo microinformático, interpretando planos e instrucciones del fabricante aplicando técnicas de montaje.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han seleccionado las herramientas y útiles necesarios para el ensamblado de equipos microinformáticos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se ha interpretado la documentación técnica de todos los componentes a ensamblar."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Tipos de memoria. Características y funciones de cada tipo. Software base y de aplicación. Funcionalidad de los componentes de las placas base",
+            "items": [
+              "Características de los microprocesadores.",
+              "Control de temperaturas en un sistema microinformático. Dispositivos integrados en placa. La memoria en una placa base. El programa de configuración de la placa base. Conectores E/S. Formatos de placa base."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Mide parámetros eléctricos, identificando el tipo de señal y relacionándola con sus unidades características.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se ha identificado el tipo de señal a medir con el aparato correspondiente."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se ha seleccionado la magnitud, el rango de medida y se ha conectado el aparato según la magnitud a medir."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Análisis del mercado de componentes de equipos microinformáticos",
+            "items": [
+              "El chasis.",
+              "La memoria RAM. Discos fijos y controladoras de disco. Soportes de memoria auxiliar y unidades de lectura/grabación. El adaptador gráfico y el monitor de un equipo microinformático. Conectividad LAN y WAN de un sistema microinformático. Componentes OEM y componentes «retail». Controladores de dispositivos."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Mantiene equipos informáticos interpretando las recomendaciones de los fabricantes y relacionando las disfunciones con sus causas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han reconocido las señales acústicas y/o visuales que  avisan de problemas en el hardware de un equipo."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han identificado y solventado las averías producidas por sobrecalentamiento del microprocesador."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Ensamblado de equipos microinformáticos",
+            "items": [
+              "Secuencia de montaje de un ordenador.",
+              "Herramientas y útiles. Precauciones y advertencias de seguridad. Ensamblado del procesador. Refrigerado del procesador. Fijación de los módulos de memoria RAM. Fijación y conexión de las unidades de disco Fijo. Fijación y conexión de las unidades de lectura/ grabación en soportes de memoria auxiliar. Fijación y conexión del resto de adaptadores y componentes. Utilidades de chequeo y diagnóstico."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Instala software en un equipo informático utilizando una imagen almacenada en un soporte de memoria y justificando el procedimiento a seguir.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se ha reconocido la diferencia entre una instalación estándar y una preinstalación de software."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han identificado y probado las distintas secuencias de arranque configurables en la placa base."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Medición de parámetros eléctricos",
+            "items": [
+              "Tipos de señales.",
+              "Valores tipo. Bloques de una fuente de alimentación. Sistemas de alimentación interrumpido."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Reconoce nuevas tendencias en el ensamblaje de equipos microinformáticos describiendo sus ventajas y adaptándolas a las  características de uso de los equipos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se han reconocido las nuevas posibilidades para dar forma al conjunto chasis-placa base."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se han descrito las prestaciones y características de algunas de las plataformas semiensambladas («barebones») más representativas del momento."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Mantenimiento de equipos microinformáticos",
+            "items": [
+              "Técnicas de mantenimiento preventivo.",
+              "Detección de averías en un equipo microinformático. Señales de aviso, luminosas y acústicas. Fallos comunes. Ampliaciones de hardware. Incompatibilidades."
+            ]
+          }
+        },
+        {
+          "numero": 7,
+          "descripcion": "Mantiene periféricos, interpretando las recomendaciones de los fabricantes de equipos y relacionando disfunciones con sus causas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "Se han identificado y solucionado problemas mecánicos en periféricos de impresión estándar."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "Se han sustituido consumibles en periféricos de impresión estándar."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instalación de Software",
+            "items": [
+              "Opciones de arranque de un equipo.",
+              "Utilidades para la creación de imágenes de partición/disco. Restauración de imágenes."
+            ]
+          }
+        },
+        {
+          "numero": 8,
+          "descripcion": "Cumple las normas de prevención de riesgos laborales y de protección ambiental, identificando los riesgos asociados, las medidas y equipos para prevenirlos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA8.a",
+              "descripcion": "Se han identificado los riesgos y el nivel de peligrosidad que suponen la manipulación de los materiales, herramientas, útiles, máquinas y medios de transporte."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA8.b",
+              "descripcion": "Se han operado las máquinas respetando las normas de seguridad."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aplicaciones de nuevas tendencias en equipos informáticos",
+            "items": [
+              "Empleo de barebones para el montaje de equipos.",
+              "Informática móvil."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Selección de componentes de equipos microinformáticos estándar",
+          "items": [
+            "Identificación de los bloques funcionales de un sistema microinformático: Principales funciones de cada bloque."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Tipos de memoria. Características y funciones de cada tipo. Software base y de aplicación. Funcionalidad de los componentes de las placas base",
+          "items": [
+            "Características de los microprocesadores.",
+            "Control de temperaturas en un sistema microinformático. Dispositivos integrados en placa. La memoria en una placa base. El programa de configuración de la placa base. Conectores E/S. Formatos de placa base."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Análisis del mercado de componentes de equipos microinformáticos",
+          "items": [
+            "El chasis.",
+            "La memoria RAM. Discos fijos y controladoras de disco. Soportes de memoria auxiliar y unidades de lectura/grabación. El adaptador gráfico y el monitor de un equipo microinformático. Conectividad LAN y WAN de un sistema microinformático. Componentes OEM y componentes «retail». Controladores de dispositivos."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Ensamblado de equipos microinformáticos",
+          "items": [
+            "Secuencia de montaje de un ordenador.",
+            "Herramientas y útiles. Precauciones y advertencias de seguridad. Ensamblado del procesador. Refrigerado del procesador. Fijación de los módulos de memoria RAM. Fijación y conexión de las unidades de disco Fijo. Fijación y conexión de las unidades de lectura/ grabación en soportes de memoria auxiliar. Fijación y conexión del resto de adaptadores y componentes. Utilidades de chequeo y diagnóstico."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Medición de parámetros eléctricos",
+          "items": [
+            "Tipos de señales.",
+            "Valores tipo. Bloques de una fuente de alimentación. Sistemas de alimentación interrumpido."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Mantenimiento de equipos microinformáticos",
+          "items": [
+            "Técnicas de mantenimiento preventivo.",
+            "Detección de averías en un equipo microinformático. Señales de aviso, luminosas y acústicas. Fallos comunes. Ampliaciones de hardware. Incompatibilidades."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Instalación de Software",
+          "items": [
+            "Opciones de arranque de un equipo.",
+            "Utilidades para la creación de imágenes de partición/disco. Restauración de imágenes."
+          ]
+        },
+        {
+          "ra": 8,
+          "codigo_ra": "RA8",
+          "titulo": "Aplicaciones de nuevas tendencias en equipos informáticos",
+          "items": [
+            "Empleo de barebones para el montaje de equipos.",
+            "Informática móvil."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0222",
+      "nombre": "Sistemas operativos monopuesto",
+      "siglas": "SOM",
+      "curso_orientativo": "2º",
+      "horas": 80,
+      "creditos_ects": 3,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación y explotación de sistemas operativos monopuesto.\n\nLa definición de estas funciones incluye aspectos como:\n\nLa instalación y actualización de sistemas operativos para su utilización en sistemas microinformáticos.\n\nLa utilización de las funcionalidades del sistema microinformático mediante las herramientas del sistema operativo.\nEl control y seguimiento de la actividad y rendimiento del sistema operativo.\nLa determinación y utilización de los recursos compartidos del sistema operativo.\nLa gestión de los usuarios y grupos del sistema, así como sus perfiles y permisos.\nLa utilización de mecanismos de virtualización para la realización de pruebas.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\nLa instalación y actualización de sistemas operativos en equipos independientes.\n\nLa utilización avanzada del sistema operativo.\nLa asistencia al usuario final sobre el uso del sistema operativo.\n\nLa formación del módulo contribuye a alcanzar los  objetivos generales a), c), g), h), i), j), k), l) y m) del ciclo formativo, y las competencias a), c), g), h), k), l), m),  n), ñ) y r) del título.\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nLa evolución de  los cambios y novedades que se producen en el mercado sobre los sistemas operativos.\n\nLa instalación y actualización de sistemas operativos monopuesto.\nLa elaboración de documentos (manuales, informes, partes de incidencia, entre otros).\nLa asistencia y resolución de problemas en la instalación de sistemas operativos.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Reconoce las características de los sistemas de archivo, describiendo sus tipos y aplicaciones.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han identificado y descrito los elementos funcionales de un sistema  informático."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se ha codificado y relacionado la información en los diferentes sistemas de representación."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Caracterización de sistemas operativos",
+            "items": [
+              "El sistema informático.",
+              "Software de base de un sistema informático. Concepto de sistema operativo. Elementos y estructura del Sistema Operativo. Funciones del sistema operativo. Recursos. Utilización del sistema operativo: modo orden, modo gráfico. Procesos del sistema operativo. Estados de los procesos. Prioridad. Sistemas operativos actuales."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Instala sistemas operativos, relacionando sus características con el hardware del equipo y el software de aplicación.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han analizando las  funciones del sistema operativo."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se ha descrito la arquitectura del sistema operativo."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Operación de sistemas de archivos",
+            "items": [
+              "Sistemas de archivos, archivo, directorio, atributos, permisos."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Realiza tareas básicas de configuración de sistemas operativos, interpretando requerimientos y describiendo los procedimientos seguidos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han diferenciado los interfaces de usuario según sus propiedades."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han aplicado preferencias en la configuración del entorno  personal."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Operación con archivos",
+            "items": [
+              "nombre y extensión, comodines, atributos, tipos. Operaciones más comunes. Operación con directorios: nombre, atributos, permisos. Operaciones más comunes. Selección de un sistema de archivos. Tipo de sistemas de archivos y sus características. Transacciones. Sistemas transaccionales."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Realiza operaciones básicas de administración de sistemas operativos, interpretando requerimientos y optimizando el sistema para su uso.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han configurado perfiles de usuario y grupo."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han utilizado herramientas gráficas para describir la organización de los archivos del sistema."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instalación de sistemas operativos libres y propietarios",
+            "items": []
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Crea máquinas virtuales identificando su campo de aplicación e instalando software específico.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se ha diferenciado entre máquina real y máquina virtual."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han establecido las ventajas e inconvenientes de la utilización de máquinas virtuales."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": ""
+            }
+          ],
+          "contenidos": {
+            "titulo": "Caracterización de sistemas operativos",
+            "items": [
+              "El sistema informático.",
+              "Software de base de un sistema informático. Sistema operativo. Elementos y estructura del Sistema Operativo. Funciones del sistema operativo. Recursos. Utilización del sistema operativo: modo orden, modo gráfico. Procesos del sistema operativo. Estados de los procesos. Sistemas operativos actuales. Requisitos técnicos del sistema operativo. Planificación de la instalación: particiones, sistema de archivos. Selección de aplicaciones básicas a instalar. Parámetros básicos de la instalación."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Caracterización de sistemas operativos",
+          "items": [
+            "El sistema informático.",
+            "Software de base de un sistema informático. Concepto de sistema operativo. Elementos y estructura del Sistema Operativo. Funciones del sistema operativo. Recursos. Utilización del sistema operativo: modo orden, modo gráfico. Procesos del sistema operativo. Estados de los procesos. Prioridad. Sistemas operativos actuales."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Operación de sistemas de archivos",
+          "items": [
+            "Sistemas de archivos, archivo, directorio, atributos, permisos."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Operación con archivos",
+          "items": [
+            "nombre y extensión, comodines, atributos, tipos. Operaciones más comunes. Operación con directorios: nombre, atributos, permisos. Operaciones más comunes. Selección de un sistema de archivos. Tipo de sistemas de archivos y sus características. Transacciones. Sistemas transaccionales."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Instalación de sistemas operativos libres y propietarios",
+          "items": []
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Caracterización de sistemas operativos",
+          "items": [
+            "El sistema informático.",
+            "Software de base de un sistema informático. Sistema operativo. Elementos y estructura del Sistema Operativo. Funciones del sistema operativo. Recursos. Utilización del sistema operativo: modo orden, modo gráfico. Procesos del sistema operativo. Estados de los procesos. Sistemas operativos actuales. Requisitos técnicos del sistema operativo. Planificación de la instalación: particiones, sistema de archivos. Selección de aplicaciones básicas a instalar. Parámetros básicos de la instalación."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0223",
+      "nombre": "Aplicaciones ofimáticas",
+      "siglas": "AO",
+      "curso_orientativo": "1º",
+      "horas": 135,
+      "creditos_ects": 5,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación y explotación de aplicaciones informáticas.\n\nLa instalación y explotación de aplicaciones incluye aspectos como:\n\nLa búsqueda de software de aplicación adecuado al entorno de explotación.\n\nLa instalación y configuración de aplicaciones ofimáticas.\nLa elaboración de documentos y plantillas.\nLa resolución de problemas en la explotación de las aplicaciones.\nLa asistencia al usuario.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\nLa instalación, configuración y mantenimiento de aplicaciones informáticas.\n\nLa asistencia en el uso de aplicaciones informáticas.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales a), c), g), h), i), k), l), m), n) y o) del ciclo formativo y las competencias a), c), f), g), h), j), k), l), m), n), ñ), p) y r) del título.\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\nEl análisis de los cambios y novedades que se producen en el mercado de aplicaciones informáticas.\n\nLa instalación y actualización de aplicaciones.\nLa elaboración de documentos (manuales, informes, partes de incidencia, entre otros).\nLa asistencia y resolución de problemas en la explotación de aplicaciones.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Instala y actualiza aplicaciones ofimáticas, interpretando especificaciones y describiendo los pasos a seguir en el proceso.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han identificado y establecido las fases del proceso de instalación."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han respetado las especificaciones técnicas del proceso de instalación."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instalación de aplicaciones",
+            "items": [
+              "Tipos de aplicaciones ofimáticas.",
+              "Tipos de licencias software. Necesidades de los entornos de explotación. Procedimientos de instalación y configuración."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Elabora documentos y plantillas, describiendo y aplicando las opciones avanzadas de  procesadores de textos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se ha personalizado las opciones de software y barra de herramientas."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han diseñado plantillas."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Elaboración de documentos y plantillas mediante procesadores de texto",
+            "items": [
+              "Estilos.",
+              "Creación y uso de plantillas. Importación y exportación de documentos. Diseño y creación de macros. Elaboración de distintos tipos de documentos (manuales, partes de incidencias, entre otros)."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Elabora documentos y plantillas de cálculo, describiendo y aplicando opciones avanzadas de hojas  de  cálculo.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se ha personalizado las opciones de software y barra de herramientas."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han utilizado los diversos tipos de datos y referencia para celdas, rangos, hojas y libros."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Elaboración de documentos y plantillas mediante hojas de cálculo",
+            "items": [
+              "Estilos.",
+              "Utilización de fórmulas y funciones. Creación de tablas y gráficos dinámicos. Uso de plantillas y asistentes. Elaboración de distintos tipos de documentos (presupuestos, facturas, inventarios, entre otros). Diseño y creación de macros."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Elabora documentos con bases de datos ofimáticas describiendo y aplicando operaciones de manipulación de datos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han identificado los elementos de las bases de datos relacionales."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han creado bases de datos ofimáticas."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Utilización de bases de datos ofimáticas",
+            "items": [
+              "Elementos de las bases de datos relacionales.",
+              "Creación de bases de datos. Manejo de asistentes."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Manipula imágenes digitales analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se han analizado los distintos formatos de imágenes."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se ha realizado la adquisición de imágenes con periféricos."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Manipulación de imágenes",
+            "items": [
+              "Formatos y resolución de imágenes.",
+              "Utilización de retoque fotográfico, ajustes de imagen y de color. Importación y exportación de imágenes."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Manipula secuencias de vídeo analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se han reconocido los elementos que componen una secuencia de vídeo."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se han estudiado los tipos de formatos y codecs más empleados."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Manipulación de videos",
+            "items": [
+              "Formatos de vídeo.",
+              "Importación y exportación de vídeos."
+            ]
+          }
+        },
+        {
+          "numero": 7,
+          "descripcion": "Elabora presentaciones multimedia describiendo y aplicando normas básicas de composición y diseño.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "Se han identificado las opciones básicas de las aplicaciones de presentaciones."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "Se han reconocido los distintos tipos de vista asociados a una presentación."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Elaboración de presentaciones",
+            "items": [
+              "Diseño y edición de diapositivas.",
+              "Formateo de diapositivas, textos y objetos. Importación y exportación de presentaciones. Utilización de plantillas y asistentes. Patrones de diapositivas."
+            ]
+          }
+        },
+        {
+          "numero": 8,
+          "descripcion": "Realiza operaciones de gestión del correo y la agenda electrónica, relacionando necesidades de uso con su configuración.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA8.a",
+              "descripcion": "Se han descrito los elementos que componen un correo electrónico."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA8.b",
+              "descripcion": "Se han analizado las necesidades básicas de gestión de correo y agenda electrónica."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestión de correo y agenda electrónica",
+            "items": [
+              "Entorno de trabajo: configuración y personalización.",
+              "Plantillas y firmas corporativas. Foros de noticias (news). La libreta de direcciones. Gestión de correos. Gestión de la agenda."
+            ]
+          }
+        },
+        {
+          "numero": 9,
+          "descripcion": "Aplica técnicas de soporte en el uso de aplicaciones, identificando y resolviendo incidencias.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA9.a",
+              "descripcion": "Se han elaborado guías visuales con los conceptos básicos de uso de una aplicación."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA9.b",
+              "descripcion": "Se han identificado problemas relacionados con el uso de aplicaciones ofimáticas."
+            },
+            {
+              "letra": "s",
+              "codigo": "RA9.s",
+              "descripcion": "."
+            },
+            {
+              "letra": "s",
+              "codigo": "RA9.s",
+              "descripcion": ".\nD"
+            },
+            {
+              "letra": "s",
+              "codigo": "RA9.s",
+              "descripcion": ".\nL"
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aplicación de técnicas de soporte",
+            "items": [
+              "Elaboración de guías y manuales de uso de aplicaciones.",
+              "Formación al usuario."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Instalación de aplicaciones",
+          "items": [
+            "Tipos de aplicaciones ofimáticas.",
+            "Tipos de licencias software. Necesidades de los entornos de explotación. Procedimientos de instalación y configuración."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Elaboración de documentos y plantillas mediante procesadores de texto",
+          "items": [
+            "Estilos.",
+            "Creación y uso de plantillas. Importación y exportación de documentos. Diseño y creación de macros. Elaboración de distintos tipos de documentos (manuales, partes de incidencias, entre otros)."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Elaboración de documentos y plantillas mediante hojas de cálculo",
+          "items": [
+            "Estilos.",
+            "Utilización de fórmulas y funciones. Creación de tablas y gráficos dinámicos. Uso de plantillas y asistentes. Elaboración de distintos tipos de documentos (presupuestos, facturas, inventarios, entre otros). Diseño y creación de macros."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Utilización de bases de datos ofimáticas",
+          "items": [
+            "Elementos de las bases de datos relacionales.",
+            "Creación de bases de datos. Manejo de asistentes."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Manipulación de imágenes",
+          "items": [
+            "Formatos y resolución de imágenes.",
+            "Utilización de retoque fotográfico, ajustes de imagen y de color. Importación y exportación de imágenes."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Manipulación de videos",
+          "items": [
+            "Formatos de vídeo.",
+            "Importación y exportación de vídeos."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Elaboración de presentaciones",
+          "items": [
+            "Diseño y edición de diapositivas.",
+            "Formateo de diapositivas, textos y objetos. Importación y exportación de presentaciones. Utilización de plantillas y asistentes. Patrones de diapositivas."
+          ]
+        },
+        {
+          "ra": 8,
+          "codigo_ra": "RA8",
+          "titulo": "Gestión de correo y agenda electrónica",
+          "items": [
+            "Entorno de trabajo: configuración y personalización.",
+            "Plantillas y firmas corporativas. Foros de noticias (news). La libreta de direcciones. Gestión de correos. Gestión de la agenda."
+          ]
+        },
+        {
+          "ra": 9,
+          "codigo_ra": "RA9",
+          "titulo": "Aplicación de técnicas de soporte",
+          "items": [
+            "Elaboración de guías y manuales de uso de aplicaciones.",
+            "Formación al usuario."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0224",
+      "nombre": "Sistemas operativos en red",
+      "siglas": "SOR",
+      "curso_orientativo": "2º",
+      "horas": 95,
+      "creditos_ects": 4,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar las funciones de instalación y mantenimiento de sistemas operativos en red.\n\nLa definición de estas funciones incluye aspectos como:\n\nLos procesos de instalación y actualización de sistemas operativos en red para su utilización en sistemas microinformáticos.\n\nLa utilización de las funcionalidades del sistema microinformático mediante las herramientas del sistema operativo en red.\nEl control y seguimiento de la actividad y rendimiento del sistema operativo en red.\nLa gestión de los recursos compartidos del sistema operativo en redes homogéneas y heterogéneas.\nLa gestión de usuarios y grupos, así como sus perfiles y permisos.\nLa utilización de mecanismos de virtualización para la realización de pruebas.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\nLa instalación de sistemas operativos.\n\nLa gestión de sistemas en red.\nLa monitorización de sistemas operativos.\n\nLa formación del módulo contribuye a alcanzar los  objetivos generales  a), c), d),  f), g), h), i), j), k),  l), m) y ñ)  del ciclo formativo, y las competencias   a), c), e), f), h), l), m), n), ñ), p), q) y r) del título.\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nLa instalación y actualización de sistemas operativos en red.\n\nLa gestión de usuarios y grupos.\nLa gestión de dominios.\nLa gestión de los recursos compartidos en redes homogéneas.\nLa monitorización y uso del sistema operativo en red.\nLa integración de sistemas operativos en redes heterogéneas.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Instala sistemas operativos en red  describiendo sus características  e interpretando la documentación técnica.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se ha realizado el estudio de  compatibilidad del sistema informático."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han diferenciado los modos de instalación."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instalación de sistemas operativos en red",
+            "items": [
+              "Comprobación de los requisitos técnicos.",
+              "Preparación de la instalación. Particiones y sistema de archivos Componentes. Métodos. Automatización. Elaboración de la documentación sobre la instalación e incidencias. Instalación de sistemas operativos en red en máquinas virtuales."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Gestiona usuarios y grupos de sistemas operativos en red, interpretando especificaciones y aplicando herramientas del sistema.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han configurado y gestionado cuentas de usuario."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han configurado y gestionado perfiles de usuario."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestión de usuarios y grupos",
+            "items": [
+              "Cuenta de usuario y grupo.",
+              "Tipos de perfiles de usuario. Perfiles móviles. Gestión de grupos. Tipos y ámbitos. Propiedades. Usuarios y grupos predeterminados y especiales del sistema. Cuentas de usuario. Plantillas."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Realiza tareas de gestión sobre dominios identificando necesidades y aplicando herramientas de administración de dominios.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se ha identificado la función del servicio de directorio, sus elementos y nomenclatura."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se ha reconocido el concepto de dominio y sus funciones."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestión de dominios",
+            "items": [
+              "Servicio de directorio y dominio.",
+              "Elementos del servicio de directorio. Funciones del dominio. Instalación de un servicio de directorio. Configuración básica. Creación de dominios. Objetos que administra un dominio: usuarios globales, grupos, equipos entre otros. Creación de relaciones de confianza entre dominios. Creación de agrupaciones de elementos: nomenclatura."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Gestiona los recursos compartidos del sistema, interpretando especificaciones y determinando niveles de seguridad.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se ha reconocido la diferencia entre permiso y derecho."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han identificado los recursos del sistema que se van a compartir y en qué condiciones."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestión de los recursos compartidos en red",
+            "items": [
+              "Permisos y derechos.",
+              "Compartir archivos y directorios a través de la red. Configuración de permisos de recurso compartido. Configuración de impresoras compartidas en red."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Realiza tareas de monitorización y uso del sistema operativo en red, describiendo las herramientas utilizadas e identificando las principales incidencias.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se han descrito las características de los programas de monitorización."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han identificado problemas de rendimiento en los dispositivos de almacenamiento."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Monitorización y uso del sistema operativo en red",
+            "items": [
+              "Arranque del sistema operativo en red."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Realiza tareas de integración de sistemas operativos libres y propietarios, describiendo las ventajas de compartir recursos e instalando software específico.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se ha identificado la necesidad de compartir recursos en red entre diferentes sistemas operativos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se ha comprobado la conectividad de la red en un escenario heterogéneo."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Descripción de los fallos producidos en el arranque",
+            "items": [
+              "posibles soluciones. Utilización de herramientas para el control y seguimiento del rendimiento del sistema operativo en red. Gestión de los procesos relativos a los servicios del sistema operativo en red."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Instalación de sistemas operativos en red",
+          "items": [
+            "Comprobación de los requisitos técnicos.",
+            "Preparación de la instalación. Particiones y sistema de archivos Componentes. Métodos. Automatización. Elaboración de la documentación sobre la instalación e incidencias. Instalación de sistemas operativos en red en máquinas virtuales."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Gestión de usuarios y grupos",
+          "items": [
+            "Cuenta de usuario y grupo.",
+            "Tipos de perfiles de usuario. Perfiles móviles. Gestión de grupos. Tipos y ámbitos. Propiedades. Usuarios y grupos predeterminados y especiales del sistema. Cuentas de usuario. Plantillas."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Gestión de dominios",
+          "items": [
+            "Servicio de directorio y dominio.",
+            "Elementos del servicio de directorio. Funciones del dominio. Instalación de un servicio de directorio. Configuración básica. Creación de dominios. Objetos que administra un dominio: usuarios globales, grupos, equipos entre otros. Creación de relaciones de confianza entre dominios. Creación de agrupaciones de elementos: nomenclatura."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Gestión de los recursos compartidos en red",
+          "items": [
+            "Permisos y derechos.",
+            "Compartir archivos y directorios a través de la red. Configuración de permisos de recurso compartido. Configuración de impresoras compartidas en red."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Monitorización y uso del sistema operativo en red",
+          "items": [
+            "Arranque del sistema operativo en red."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Descripción de los fallos producidos en el arranque",
+          "items": [
+            "posibles soluciones. Utilización de herramientas para el control y seguimiento del rendimiento del sistema operativo en red. Gestión de los procesos relativos a los servicios del sistema operativo en red."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0225",
+      "nombre": "Redes locales",
+      "siglas": "RL",
+      "curso_orientativo": "1º",
+      "horas": 130,
+      "creditos_ects": 5,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación  y mantenimiento de  redes locales en pequeños entornos.\n\nLa definición de estas funciones incluye aspectos como:\n\nEl montaje de las canalizaciones y el tendido de líneas para redes locales cableadas.\n\nEl montaje de los elementos de la red local.\nLa integración de los elementos de la red.\nLa monitorización de la red local.\nLa resolución de incidencias físicas y lógicas de la red local.\n\nLas actividades profesionales asociadas a esta función se aplican en:\nEl montaje de redes locales cableadas, inalámbricas y mixtas.\n\nEl mantenimiento de la red local.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales a), b), d), e), f), g), h), i), j), k), y l) y m) del ciclo formativo, y las competencias c), e), f), g), h), j), y l), del título.\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nLa identificación de los elementos de la red local.\n\nLa interpretación de la documentación técnica de los elementos de la red local.\nEl montaje de las canalizaciones y el tendido del cableado.\nLa instalación y configuración de los elementos de la red.\nLa elaboración e interpretación de la documentación técnica sobre la distribución de la red local.\nLa resolución de problemas surgidos en la explotación de la red local.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Reconoce la estructura de redes locales cableadas analizando las características de entornos de aplicación y describiendo la funcionalidad de sus  componentes.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han descrito los principios de funcionamiento de las redes locales."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han identificado los distintos tipos de redes."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Despliegue del cableado",
+            "items": []
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Despliega el cableado de una red local interpretando especificaciones y aplicando técnicas de montaje.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han reconocido los principios funcionales de las redes locales."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han identificado los distintos tipos de redes."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Caracterización de Redes locales",
+            "items": [
+              "Características. Ventajas e inconvenientes.",
+              "Tipos. Elementos de red. Topologías."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Interconecta equipos en redes locales cableadas describiendo estándares de cableado y aplicando técnicas de montaje de conectores.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se ha interpretado el plan de montaje lógico de la red."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han montado los adaptadores de red en los equipos."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Identificación de elementos y espacios físicos de una red local",
+            "items": [
+              "Espacios.",
+              "Cuartos de comunicaciones. Armarios de comunicaciones. Paneles de parcheo. Canalizaciones",
+              "Medios de transmisión (par trenzado, fibra óptica, entre otros).",
+              "Conectores y tomas de red. Herramientas. Conexión de tomas y paneles de parcheo. Creación de cables. Recomendaciones en la instalación del cableado."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Instala equipos en red, describiendo sus prestaciones y aplicando técnicas de montaje.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han identificado las características funcionales de las redes inalámbricas."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han identificado los modos de funcionamiento de las redes inalámbricas."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Interconexión de equipos en redes locales",
+            "items": [
+              "Adaptadores para red cableada.",
+              "Dispositivos de interconexión de redes. Adaptadores para redes inalámbricas. Dispositivos de interconexión de redes inalámbricas. Redes mixtas."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Mantiene una red local interpretando recomendaciones de los fabricantes de hardware o software y estableciendo la relación entre disfunciones y sus causas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se han identificado incidencias y comportamientos anómalos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se ha identificado si la disfunción es debida al hardware o al software."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instalación/ configuración de los equipos de red",
+            "items": [
+              "Procedimientos de instalación.",
+              "Protocolos. TCP/IP. Estructura. Clases IP. Direcciones IP. Ipv4. IPv6. Configuración de los adaptadores de red en sistemas operativos libres y propietarios. Configuración básica de los dispositivos de interconexión de red cableada e inalámbrica. Seguridad básica en redes cableadas e inalámbricas."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Cumple las normas de prevención de riesgos laborales y de protección ambiental, identificando los riesgos asociados, las medidas y equipos para prevenirlos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se han identificado los riesgos y el nivel de peligrosidad que suponen la manipulación de los materiales, herramientas, útiles, máquinas y medios de transporte."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se han operado las máquinas respetando las normas de seguridad."
+            },
+            {
+              "letra": "s",
+              "codigo": "RA6.s",
+              "descripcion": "."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Resolución de incidencias de una red de área local",
+            "items": [
+              "Estrategias. Parámetros del rendimiento.",
+              "Incidencias físicas e incidencias lógicas en redes locales. Monitorización de redes cableadas e inalámbricas. Herramientas de diagnóstico. Comandos y programas.",
+              "Cumplimiento de las normas de prevención de riesgos laborales y protección ambiental: Identificación de riesgos.",
+              "Determinación de las medidas de prevención de riesgos laborales. Prevención de riesgos laborales en los procesos de montaje. Equipos de protección individual. Cumplimiento de la normativa de prevención de riesgos laborales. Cumplimiento de la normativa de protección ambiental."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Despliegue del cableado",
+          "items": []
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Caracterización de Redes locales",
+          "items": [
+            "Características. Ventajas e inconvenientes.",
+            "Tipos. Elementos de red. Topologías."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Identificación de elementos y espacios físicos de una red local",
+          "items": [
+            "Espacios.",
+            "Cuartos de comunicaciones. Armarios de comunicaciones. Paneles de parcheo. Canalizaciones",
+            "Medios de transmisión (par trenzado, fibra óptica, entre otros).",
+            "Conectores y tomas de red. Herramientas. Conexión de tomas y paneles de parcheo. Creación de cables. Recomendaciones en la instalación del cableado."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Interconexión de equipos en redes locales",
+          "items": [
+            "Adaptadores para red cableada.",
+            "Dispositivos de interconexión de redes. Adaptadores para redes inalámbricas. Dispositivos de interconexión de redes inalámbricas. Redes mixtas."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Instalación/ configuración de los equipos de red",
+          "items": [
+            "Procedimientos de instalación.",
+            "Protocolos. TCP/IP. Estructura. Clases IP. Direcciones IP. Ipv4. IPv6. Configuración de los adaptadores de red en sistemas operativos libres y propietarios. Configuración básica de los dispositivos de interconexión de red cableada e inalámbrica. Seguridad básica en redes cableadas e inalámbricas."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Resolución de incidencias de una red de área local",
+          "items": [
+            "Estrategias. Parámetros del rendimiento.",
+            "Incidencias físicas e incidencias lógicas en redes locales. Monitorización de redes cableadas e inalámbricas. Herramientas de diagnóstico. Comandos y programas.",
+            "Cumplimiento de las normas de prevención de riesgos laborales y protección ambiental: Identificación de riesgos.",
+            "Determinación de las medidas de prevención de riesgos laborales. Prevención de riesgos laborales en los procesos de montaje. Equipos de protección individual. Cumplimiento de la normativa de prevención de riesgos laborales. Cumplimiento de la normativa de protección ambiental."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0226",
+      "nombre": "Seguridad informática",
+      "siglas": "SI",
+      "curso_orientativo": "2º",
+      "horas": 75,
+      "creditos_ects": 3,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de implantación de medidas de seguridad en sistemas informáticos.\n\nLa definición de esta función incluye aspectos como:\n\nLa instalación de equipos y servidores en entornos seguros.\n\nLa incorporación de procedimientos de seguridad en el tratamiento de la información.\nLa actualización de los sistemas operativos y el software de aplicación instalado.\nLa protección frente a software malicioso.\nLa aplicación de la legislación y normativa sobre seguridad y protección de la información.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\nLa instalación de equipamiento informático.\n\nEl tratamiento, transmisión y almacenamiento de la información.\nEl mantenimiento de los sistemas informáticos.\n\nLa formación del módulo contribuye a alcanzar los  objetivos generales a), c), d), e), g), k) y l) del ciclo formativo, y las competencias a), c), i), j), l), n), o), p) y t) del título.\n\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nLa protección de equipos y redes informáticas.\n\nLa protección de la información transmitida y almacenada.\nLa legislación y normativa vigente en materia de seguridad.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Aplica medidas de seguridad pasiva en sistemas informáticos describiendo características de entornos y relacionándolas con sus necesidades.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se ha valorado la importancia de mantener la información segura."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han descrito las diferencias entre seguridad física y lógica."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aplicación de medidas de seguridad pasiva",
+            "items": [
+              "Ubicación y protección física de los equipos y servidores.",
+              "Sistemas de alimentación ininterrumpida."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Gestiona dispositivos de almacenamiento describiendo los procedimientos efectuados y aplicando técnicas para asegurar la integridad de la información.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se ha interpretado la documentación técnica relativa a la política de almacenamiento."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han tenido en cuenta factores inherentes al almacenamiento de la información (rendimiento, disponibilidad, accesibilidad, entre otros)."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestión de dispositivos de almacenamiento",
+            "items": []
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Aplica mecanismos de seguridad activa describiendo sus características y relacionándolas con las necesidades de uso del sistema informático.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han seguido planes de contingencia para actuar ante fallos de seguridad."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han clasificado los principales tipos de software malicioso."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Almacenamiento de la información",
+            "items": [
+              "rendimiento, disponibilidad, accesibilidad.",
+              "Almacenamiento redundante y distribuido. Almacenamiento remoto y extraíble. Criptografía. Copias de seguridad e imágenes de respaldo. Medios de almacenamiento."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Asegura la privacidad de la información transmitida en redes informáticas describiendo vulnerabilidades e instalando software especifico.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se ha identificado la necesidad de inventariar y controlar los servicios de red."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se ha contrastado la incidencia de las técnicas de ingeniería social en los fraudes informáticos y robos de información."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aplicación de mecanismos de seguridad activa",
+            "items": [
+              "Identificación digital. Firma electrónica y certificado digital.",
+              "Seguridad en los protocolos para comunicaciones inalámbricas. Utilización de cortafuegos en un sistema o servidor. Listas de control de acceso. Política de contraseñas. Recuperación de datos. Software malicioso. Clasificación. Herramientas de protección y desinfección."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Reconoce la legislación y normativa sobre seguridad y protección de datos analizando las repercusiones de su incumplimiento.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se ha descrito la legislación sobre protección de datos de carácter personal."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se ha determinado la necesidad de controlar el acceso a la información personal almacenada."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aseguramiento de la privacidad",
+            "items": [
+              "Métodos para asegurar la privacidad de la información transmitida.",
+              "Fraudes informáticos y robos de información. Control de la monitorización en redes cableadas. Seguridad en redes inalámbricas. Sistemas de identificación: firma electrónica, certificados digitales y otros. Cortafuegos en equipos y servidores."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Aplicación de medidas de seguridad pasiva",
+          "items": [
+            "Ubicación y protección física de los equipos y servidores.",
+            "Sistemas de alimentación ininterrumpida."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Gestión de dispositivos de almacenamiento",
+          "items": []
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Almacenamiento de la información",
+          "items": [
+            "rendimiento, disponibilidad, accesibilidad.",
+            "Almacenamiento redundante y distribuido. Almacenamiento remoto y extraíble. Criptografía. Copias de seguridad e imágenes de respaldo. Medios de almacenamiento."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Aplicación de mecanismos de seguridad activa",
+          "items": [
+            "Identificación digital. Firma electrónica y certificado digital.",
+            "Seguridad en los protocolos para comunicaciones inalámbricas. Utilización de cortafuegos en un sistema o servidor. Listas de control de acceso. Política de contraseñas. Recuperación de datos. Software malicioso. Clasificación. Herramientas de protección y desinfección."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Aseguramiento de la privacidad",
+          "items": [
+            "Métodos para asegurar la privacidad de la información transmitida.",
+            "Fraudes informáticos y robos de información. Control de la monitorización en redes cableadas. Seguridad en redes inalámbricas. Sistemas de identificación: firma electrónica, certificados digitales y otros. Cortafuegos en equipos y servidores."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0227",
+      "nombre": "Servicios en red",
+      "siglas": "SR",
+      "curso_orientativo": "1º",
+      "horas": 95,
+      "creditos_ects": 4,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación y mantenimiento de servicios en redes informáticas cableadas e inalámbricas.\n\nLa definición de estas funciones  incluye aspectos como:\n\nLa identificación de las principales aplicaciones usadas en redes informáticas para ejecutar servicios de red.\n\nLa definición de los aspectos técnicos de los servicios de red más extendidos.\nLa selección de un servicio de red y de una aplicación específica sobre la base de sus características.\nLa instalación y configuración de servicios en redes locales y públicas.\nLa configuración de puntos de acceso inalámbricos estableciendo la seguridad de las comunicaciones.\nLa puesta en marcha de mecanismos de conexión a redes públicas.\n\nLas actividades profesionales asociadas a esta función se aplican en:\n\nLa implantación y mantenimiento de servicios de red.\n\nEl despliegue de redes inalámbricas.\nLa conexión de redes locales con redes públicas.\n\nLa formación del módulo contribuye a alcanzar los  objetivos generales d), f), h), i), k), l) y m) del ciclo formativo y las competencias a), d), e), f), g), j), m), ñ) y r) del título.\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nLa configuración automática de los parámetros de red.\n\nLa implantación de servicios de resolución de nombres.\nLa implantación de servicios de transferencia de ficheros.\nLa implantación de servicios de correo electrónico.\nLa implantación de servicios web.\nLa implantación de servicios de acceso remoto.\nEl despliegue de redes inalámbricas.\nLa conexión de redes locales a redes públicas.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Instala servicios de configuración dinámica, describiendo sus características y aplicaciones.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se ha reconocido el funcionamiento de los mecanismos automatizados de configuración de los parámetros de red."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han identificado las ventajas que proporcionan."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instalación de servicios de configuración dinámica de sistemas",
+            "items": [
+              "Dirección IP, máscara de red, puerta de enlace.",
+              "DHCP. Rangos, exclusiones, concesiones y reservas."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Instala servicios de resolución de nombres, describiendo sus características y aplicaciones.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han identificado y descrito escenarios en los que surge la necesidad de un servicio de resolución de nombres."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han clasificado los principales mecanismos de resolución de nombres."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instalación de servicios de resolución de nombres",
+            "items": [
+              "Sistemas de nombres planos y jerárquicos.",
+              "Zonas primarias y secundarias. Transferencias de zona. Tipos de registros."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Instala servicios de transferencia de ficheros, describiendo sus características y aplicaciones.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se ha establecido la utilidad y modo de operación del servicio de transferencia de ficheros."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se ha instalado un servicio de transferencia de ficheros."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instalación de servicios de transferencia de ficheros",
+            "items": [
+              "Usuarios y grupos. Acceso anónimo.",
+              "Permisos. Cuotas. Límite de ancho de banda. Comandos de control, autenticación, gestión y transferencia de ficheros. Transferencia en modo texto y binario."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Gestiona servidores de correo electrónico identificando requerimientos de utilización y aplicando criterios de configuración.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han descrito los diferentes protocolos que intervienen en el envío y recogida del correo electrónico."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se ha instalado un servidor de correo electrónico."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestión de servicios de correo electrónico",
+            "items": [
+              "Cuentas de correo, alias y buzones de usuario.",
+              "Protocolos y servicios de descarga de correo."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Gestiona servidores web identificando requerimientos de utilización y aplicando criterios de configuración.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se han descrito los fundamentos y protocolos en los que se basa el funcionamiento de un servidor web."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se ha instalado un servidor web."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestión de servidores web",
+            "items": [
+              "Servidores virtuales. Nombre de encabezado de host. Identificación de un servidor virtual.",
+              "Acceso anónimo y autentificado. Métodos de autentificación."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Gestiona métodos de acceso remoto describiendo sus características e instalando los servicios correspondientes.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se han descrito métodos de acceso y administración remota de sistemas."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se ha instalado un servicio de acceso remoto en línea de comandos."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestión de acceso remoto",
+            "items": [
+              "Terminales en modo texto.",
+              "Terminales en modo gráfico."
+            ]
+          }
+        },
+        {
+          "numero": 7,
+          "descripcion": "Despliega redes inalámbricas seguras justificando la configuración elegida y describiendo los procedimientos de implantación.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "Se ha instalado un punto de acceso inalámbrico dentro de una red local."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "Se han reconocido los protocolos, modos de funcionamiento y principales parámetros de configuración del punto de acceso."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Despliegue de redes inalámbricas",
+            "items": [
+              "Puntos de acceso.",
+              "Encaminadores inalámbricos. Seguridad en redes inalámbricas."
+            ]
+          }
+        },
+        {
+          "numero": 8,
+          "descripcion": "Establece el acceso desde redes locales a redes públicas identificando posibles escenarios y aplicando software específico.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA8.a",
+              "descripcion": "Se ha instalado y configurado el hardware de un sistema con acceso  a una red privada local y a una red pública."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA8.b",
+              "descripcion": "Se ha instalado una aplicación que actúe de pasarela entre la red privada local y la red pública."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Interconexión de redes privadas con redes públicas",
+            "items": [
+              "Pasarelas a nivel de aplicación. Almacenamiento en memoria caché.",
+              "Enrutamiento de tráfico entre interfaces de red."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Instalación de servicios de configuración dinámica de sistemas",
+          "items": [
+            "Dirección IP, máscara de red, puerta de enlace.",
+            "DHCP. Rangos, exclusiones, concesiones y reservas."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Instalación de servicios de resolución de nombres",
+          "items": [
+            "Sistemas de nombres planos y jerárquicos.",
+            "Zonas primarias y secundarias. Transferencias de zona. Tipos de registros."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Instalación de servicios de transferencia de ficheros",
+          "items": [
+            "Usuarios y grupos. Acceso anónimo.",
+            "Permisos. Cuotas. Límite de ancho de banda. Comandos de control, autenticación, gestión y transferencia de ficheros. Transferencia en modo texto y binario."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Gestión de servicios de correo electrónico",
+          "items": [
+            "Cuentas de correo, alias y buzones de usuario.",
+            "Protocolos y servicios de descarga de correo."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Gestión de servidores web",
+          "items": [
+            "Servidores virtuales. Nombre de encabezado de host. Identificación de un servidor virtual.",
+            "Acceso anónimo y autentificado. Métodos de autentificación."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Gestión de acceso remoto",
+          "items": [
+            "Terminales en modo texto.",
+            "Terminales en modo gráfico."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Despliegue de redes inalámbricas",
+          "items": [
+            "Puntos de acceso.",
+            "Encaminadores inalámbricos. Seguridad en redes inalámbricas."
+          ]
+        },
+        {
+          "ra": 8,
+          "codigo_ra": "RA8",
+          "titulo": "Interconexión de redes privadas con redes públicas",
+          "items": [
+            "Pasarelas a nivel de aplicación. Almacenamiento en memoria caché.",
+            "Enrutamiento de tráfico entre interfaces de red."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0228",
+      "nombre": "Aplicaciones web",
+      "siglas": "AW",
+      "curso_orientativo": "2º",
+      "horas": 55,
+      "creditos_ects": 2,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para desempeñar la función de instalación, configuración y utilización de aplicaciones web.\n\nLa definición de estas funciones incluye aspectos como:\n\nLa identificación de las principales aplicaciones web.\n\nLa instalación de las aplicaciones.\nEl mantenimiento de usuarios.\nLa asignación de permisos.\nLa utilización de las aplicaciones instaladas.\n\nLas actividades profesionales asociadas a estas funciones se aplican en:\n\nLa instalación, configuración y mantenimiento de aplicaciones informáticas.\n\nLa asistencia en el uso de aplicaciones informáticas.\n\nLa formación del módulo contribuye a alcanzar los  objetivos generales a), c), i), k), l) y m) del ciclo formativo, y las competencias a), c), f), i), j), m), n), ñ), q) y r) del título.\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\n\nInstalación de aplicaciones web.\n\nConfiguración de aplicaciones web.\nExplotación de aplicaciones web.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Instala gestores de contenidos, identificando sus aplicaciones y  configurándolos según requerimientos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se han identificado los requerimientos necesarios para instalar gestores de contenidos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han gestionado usuarios con roles diferentes."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instalación de gestores de contenidos",
+            "items": [
+              "Instalación en sistemas operativos libres y propietarios.",
+              "Creación de usuarios y grupos de usuarios. Utilización del interfaz gráfico. Personalización del entorno. Funcionalidades proporcionadas por el gestor de contenidos. Sindicación. Funcionamiento de los gestores de contenidos. Actualizaciones del gestor de contenidos. Configuración de módulos y menús."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Instala sistemas de gestión de aprendizaje a distancia, describiendo la estructura del sitio y la jerarquía de directorios generada.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se ha reconocido la estructura del sitio y la jerarquía de directorios generada."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han realizado modificaciones en la estética o aspecto del sitio."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instalación de sistemas de gestión de aprendizaje a distancia",
+            "items": []
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Instala servicios de gestión de archivos web, identificando sus aplicaciones y verificando su integridad.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se ha establecido la utilidad de un servicio de gestión de archivos web."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han descrito diferentes aplicaciones de gestión de archivos web."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Elementos lógicos",
+            "items": [
+              "comunicación, materiales y actividades.",
+              "Instalación en sistemas operativos libres y propietarios. Modos de registro. Interfaz gráfico asociado. Personalización del entorno. Navegación y edición. Creación de cursos siguiendo especificaciones. Gestión de usuarios y grupos. Activación de funcionalidades."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Instala aplicaciones de ofimática web, describiendo sus características y entornos de uso.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han descrito diferentes aplicaciones de ofimática web (procesador de textos, hoja de cálculo, entre otras)."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instalación de servicios de gestión de archivos web",
+            "items": [
+              "Instalación.",
+              "Navegación y operaciones básicas. Administración del gestor. Usuarios y permisos. Tipos de usuario. Creación de recursos compartidos."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Instala aplicaciones web de escritorio, describiendo sus características y entornos de uso.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se han descrito diferentes aplicaciones web de escritorio."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han instalado aplicaciones para proveer de acceso web al servicio de correo electrónico."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instalación de aplicaciones de ofimática web",
+            "items": [
+              "Instalación.",
+              "Utilización de las aplicaciones instaladas. Gestión de usuarios y permisos asociados. Comprobación de la seguridad."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Instalación de gestores de contenidos",
+          "items": [
+            "Instalación en sistemas operativos libres y propietarios.",
+            "Creación de usuarios y grupos de usuarios. Utilización del interfaz gráfico. Personalización del entorno. Funcionalidades proporcionadas por el gestor de contenidos. Sindicación. Funcionamiento de los gestores de contenidos. Actualizaciones del gestor de contenidos. Configuración de módulos y menús."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Instalación de sistemas de gestión de aprendizaje a distancia",
+          "items": []
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Elementos lógicos",
+          "items": [
+            "comunicación, materiales y actividades.",
+            "Instalación en sistemas operativos libres y propietarios. Modos de registro. Interfaz gráfico asociado. Personalización del entorno. Navegación y edición. Creación de cursos siguiendo especificaciones. Gestión de usuarios y grupos. Activación de funcionalidades."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Instalación de servicios de gestión de archivos web",
+          "items": [
+            "Instalación.",
+            "Navegación y operaciones básicas. Administración del gestor. Usuarios y permisos. Tipos de usuario. Creación de recursos compartidos."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Instalación de aplicaciones de ofimática web",
+          "items": [
+            "Instalación.",
+            "Utilización de las aplicaciones instaladas. Gestión de usuarios y permisos asociados. Comprobación de la seguridad."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0229",
+      "nombre": "Formación y orientación laboral",
+      "siglas": "FOL",
+      "curso_orientativo": "1º",
+      "horas": 50,
+      "creditos_ects": 2,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Este módulo profesional contiene la formación necesaria para que el alumno pueda insertarse laboralmente y desarrollar su carrera profesional en el sector de los sistemas microinformáticos y redes.\n\nLa formación del módulo contribuye a alcanzar los objetivos generales n), o) y q) del ciclo formativo y las competencias  q), s) y v) del título.\n\nLas líneas de actuación en el proceso enseñanza-aprendizaje que permiten alcanzar los objetivos del módulo versarán sobre:\nEl manejo de las fuentes de información sobre el sistema educativo y laboral, en especial en lo referente al sector informático.\n\nLa realización de pruebas de orientación y dinámicas sobre la propia personalidad y el desarrollo de las habilidades sociales.\nLa  preparación y realización de currículos (CVs) y entrevistas de trabajo.\nLa identificación de la normativa laboral que afecta a los trabajadores del sector, manejo de los contratos más comúnmente utilizados, lectura comprensiva de los convenios colectivos de aplicación.\nLa cumplimentación de recibos de salario de diferentes características y otros documentos relacionados. \nEl análisis de la Ley de Prevención de Riesgos Laborales que le permita la evaluación de los riesgos derivados de las actividades desarrolladas en el sector productivo, y colaborar en la definición de un plan de prevención para la empresa, así como las medidas necesarias que deban adoptarse para su implementación.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 2,
+          "descripcion": "Aplica las estrategias del trabajo en equipo, valorando su eficacia y eficiencia para la consecución de los objetivos de la organización.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han valorado las ventajas de trabajo en equipo en situaciones de trabajo relacionadas con el perfil del técnico en sistemas microinformáticos y redes locales."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han identificado los equipos de trabajo que pueden constituirse en una situación real de trabajo."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Búsqueda activa de empleo",
+            "items": [
+              "Valoración de la importancia de la formación permanente para la trayectoria laboral y profesional del técnico en sistemas microinformáticos y redes.",
+              "Análisis de los intereses, aptitudes y motivaciones personales para la carrera profesional. Identificación de itinerarios formativos relacionados con el técnico en sistemas microinformáticos y redes. Definición y análisis del sector profesional del título de técnico en sistemas microinformáticos y redes. Proceso de búsqueda de empleo en pequeñas, medianas y grandes empresas del sector. Oportunidades de aprendizaje y empleo en Europa. Técnicas e instrumentos de búsqueda de empleo. El proceso de toma de decisiones."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Ejerce los derechos y cumple las obligaciones que se derivan de las relaciones laborales, reconociéndolas en los diferentes contratos de trabajo.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han identificado los conceptos básicos del derecho del trabajo."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han distinguido los principales organismos que intervienen en las relaciones entre empresarios y trabajadores."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestión del conflicto y equipos de trabajo",
+            "items": [
+              "Valoración de las ventajas e inconvenientes del trabajo de equipo para la eficacia de la organización.",
+              "Equipos en la industria de sistemas microinformáticos y redes según las funciones que desempeñan. La participación en el equipo de trabajo. Conflicto: características, fuentes y etapas. Métodos para la resolución o supresión del conflicto."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Determina la acción protectora del sistema de la Seguridad Social ante las distintas contingencias cubiertas, identificando las distintas clases de prestaciones.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se ha valorado el papel de la Seguridad Social como pilar esencial para la mejora de la calidad de vida de los ciudadanos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han enumerado las diversas contingencias que cubre el sistema de Seguridad Social."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Contrato de trabajo",
+            "items": [
+              "El derecho del trabajo.",
+              "Análisis de la relación laboral individual. Modalidades de contrato de trabajo y medidas de fomento de la contratación. Derechos y deberes derivados de la relación laboral. Modificación, suspensión y extinción del contrato de trabajo. Representación de los trabajadores. Análisis de un convenio colectivo aplicable al ámbito profesional del técnico en sistemas microinformáticos y redes. Beneficios para los trabajadores en las nuevas organizaciones: flexibilidad, beneficios sociales entre otros."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Evalúa los riesgos derivados de su actividad, analizando las condiciones de trabajo y los factores de riesgo presentes en su entorno laboral.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se ha valorado la importancia de la cultura preventiva en todos los ámbitos y actividades de la empresa."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han relacionado las condiciones laborales con la salud del trabajador."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Seguridad Social, Empleo y Desempleo",
+            "items": [
+              "Estructura del Sistema de la Seguridad Social.",
+              "Determinación de las principales obligaciones de empresarios y trabajadores en materia de Seguridad Social: afiliación, altas, bajas y cotización. Situaciones protegibles en la protección por desempleo."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Participa en la elaboración de un plan de prevención de riesgos en una pequeña empresa, identificando las responsabilidades de todos los agentes implicados.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se han determinado los principales derechos y deberes en materia de prevención de riesgos laborales."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se han clasificado las distintas formas de gestión de la prevención en la empresa, en función de los distintos criterios establecidos en la normativa sobre prevención de riesgos laborales."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Evaluación de riesgos profesionales",
+            "items": [
+              "Valoración de la relación entre trabajo y salud.",
+              "Análisis de factores de riesgo. La evaluación de riesgos en la empresa como elemento básico de la actividad preventiva. Análisis de riesgos ligados a las condiciones de seguridad. Análisis de riesgos ligados a las condiciones ambientales. Análisis de riesgos ligados a las condiciones ergonómicas y psico-sociales. Riesgos específicos en la industria de sistemas microinformáticos y redes. Determinación de los posibles daños a la salud del trabajador que pueden derivarse de las situaciones de riesgo detectadas."
+            ]
+          }
+        },
+        {
+          "numero": 7,
+          "descripcion": "Aplica las medidas de prevención y protección, analizando las situaciones de riesgo en el entorno laboral del técnico de sistemas microinformáticos y redes locales.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "Se han definido las técnicas de prevención y de protección que deben aplicarse para evitar los daños en su origen y minimizar sus consecuencias en caso de que sean inevitables."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "Se ha analizado el significado y alcance de los distintos tipos de señalización de seguridad."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Planificación de la prevención de riesgos en la empresa",
+            "items": [
+              "Derechos y deberes en materia de prevención de riesgos laborales.",
+              "Gestión de la prevención en la empresa. Organismos públicos relacionados con la prevención de riesgos laborales. Planificación de la prevención en la empresa. Planes de emergencia y de evacuación en entornos de trabajo. Elaboración de un plan de emergencia en una pyme."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Búsqueda activa de empleo",
+          "items": [
+            "Valoración de la importancia de la formación permanente para la trayectoria laboral y profesional del técnico en sistemas microinformáticos y redes.",
+            "Análisis de los intereses, aptitudes y motivaciones personales para la carrera profesional. Identificación de itinerarios formativos relacionados con el técnico en sistemas microinformáticos y redes. Definición y análisis del sector profesional del título de técnico en sistemas microinformáticos y redes. Proceso de búsqueda de empleo en pequeñas, medianas y grandes empresas del sector. Oportunidades de aprendizaje y empleo en Europa. Técnicas e instrumentos de búsqueda de empleo. El proceso de toma de decisiones."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Gestión del conflicto y equipos de trabajo",
+          "items": [
+            "Valoración de las ventajas e inconvenientes del trabajo de equipo para la eficacia de la organización.",
+            "Equipos en la industria de sistemas microinformáticos y redes según las funciones que desempeñan. La participación en el equipo de trabajo. Conflicto: características, fuentes y etapas. Métodos para la resolución o supresión del conflicto."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Contrato de trabajo",
+          "items": [
+            "El derecho del trabajo.",
+            "Análisis de la relación laboral individual. Modalidades de contrato de trabajo y medidas de fomento de la contratación. Derechos y deberes derivados de la relación laboral. Modificación, suspensión y extinción del contrato de trabajo. Representación de los trabajadores. Análisis de un convenio colectivo aplicable al ámbito profesional del técnico en sistemas microinformáticos y redes. Beneficios para los trabajadores en las nuevas organizaciones: flexibilidad, beneficios sociales entre otros."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Seguridad Social, Empleo y Desempleo",
+          "items": [
+            "Estructura del Sistema de la Seguridad Social.",
+            "Determinación de las principales obligaciones de empresarios y trabajadores en materia de Seguridad Social: afiliación, altas, bajas y cotización. Situaciones protegibles en la protección por desempleo."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Evaluación de riesgos profesionales",
+          "items": [
+            "Valoración de la relación entre trabajo y salud.",
+            "Análisis de factores de riesgo. La evaluación de riesgos en la empresa como elemento básico de la actividad preventiva. Análisis de riesgos ligados a las condiciones de seguridad. Análisis de riesgos ligados a las condiciones ambientales. Análisis de riesgos ligados a las condiciones ergonómicas y psico-sociales. Riesgos específicos en la industria de sistemas microinformáticos y redes. Determinación de los posibles daños a la salud del trabajador que pueden derivarse de las situaciones de riesgo detectadas."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Planificación de la prevención de riesgos en la empresa",
+          "items": [
+            "Derechos y deberes en materia de prevención de riesgos laborales.",
+            "Gestión de la prevención en la empresa. Organismos públicos relacionados con la prevención de riesgos laborales. Planificación de la prevención en la empresa. Planes de emergencia y de evacuación en entornos de trabajo. Elaboración de un plan de emergencia en una pyme."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0230",
+      "nombre": "Empresa e iniciativa emprendedora",
+      "siglas": "EEIE",
+      "curso_orientativo": "2º",
+      "horas": 35,
+      "creditos_ects": 1,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Manejo de las fuentes de información sobre el sector de la informática, incluyendo el análisis de los procesos de innovación sectorial en marcha.\n\nLa realización de casos y dinámicas de grupo que permitan comprender y valorar las actitudes de los emprendedores y ajustar la necesidad de los mismos al sector industrial relacionado con los procesos de sistemas microinformáticos y redes.\nLa utilización de programas de gestión administrativa para «pymes» del sector. \nLa realización de un proyecto de plan de empresa relacionada con la actividad de sistemas microinformáticos y redes y que incluya todas las facetas de puesta en marcha de un negocio: viabilidad, organización de la producción y los recursos humanos, acción comercial, control administrativo y financiero, así como justificación de su responsabilidad social.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Reconoce las capacidades asociadas a la iniciativa emprendedora, analizando los requerimientos derivados de los puestos de trabajo y de las actividades empresariales.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se ha identificado el concepto de innovación y su relación con el progreso de la sociedad y el aumento en el bienestar de los individuos."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se ha analizado el concepto de cultura emprendedora y su importancia como fuente de creación de empleo y bienestar social."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Iniciativa emprendedora",
+            "items": [
+              "Innovación y desarrollo económico. Principales características de la innovación en la actividad de los sistemas microinformáticos y redes (materiales, tecnología, organización de la producción, etc.)."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Define la oportunidad de creación de una pequeña empresa, valorando el impacto sobre el entorno de actuación e incorporando valores éticos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han descrito las funciones básicas que se realizan en una empresa y se ha analizado el concepto de sistema aplicado a la empresa."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han identificado los principales componentes del entorno general que rodea a la empresa; en especial el entorno económico, social, demográfico y cultural."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Factores claves de los emprendedores",
+            "items": [
+              "iniciativa, creatividad y formación. La actuación de los emprendedores como empleados de una empresa de informática. La actuación de los emprendedores como empresarios, de una pequeña empresa en el sector de la informática. El empresario. Requisitos para el ejercicio de la actividad empresarial. Plan de empresa: la idea de negocio en el ámbito de la informática."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Realiza las actividades para la constitución y puesta en marcha de una empresa, seleccionando la forma jurídica e identificando las obligaciones legales asociadas.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se han analizado las diferentes formas jurídicas de la empresa."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se ha especificado el grado de responsabilidad legal de los propietarios de la empresa en función de la forma jurídica elegida."
+            }
+          ],
+          "contenidos": {
+            "titulo": "La empresa y su entorno",
+            "items": [
+              "Funciones básicas de la empresa.",
+              "La empresa como sistema. Análisis del entorno general de una pyme de informática. Análisis del entorno específico de una pyme de informática. Relaciones de una pyme de informática con su entorno. Relaciones de una pyme de informática con el conjunto de la sociedad."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Realiza actividades de gestión administrativa y financiera básica de una «pyme», identificando las principales obligaciones contables y fiscales y cumplimentando la documentación.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se han analizado los conceptos básicos de contabilidad, así como las técnicas de registro de la información contable."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han descrito las técnicas básicas de análisis de la información contable, en especial en lo referente a la solvencia, liquidez y rentabilidad de la empresa."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Creación y puesta en marcha de una empresa",
+            "items": [
+              "Tipos de empresa.",
+              "La fiscalidad en las empresas. Elección de la forma jurídica. Trámites administrativos para la constitución de una empresa. Viabilidad económica y viabilidad financiera de una pyme de informática. Plan de empresa: elección de la forma jurídica, estudio de viabilidad económica y financiera, trámites administrativos y gestión de ayudas y subvenciones."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Iniciativa emprendedora",
+          "items": [
+            "Innovación y desarrollo económico. Principales características de la innovación en la actividad de los sistemas microinformáticos y redes (materiales, tecnología, organización de la producción, etc.)."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Factores claves de los emprendedores",
+          "items": [
+            "iniciativa, creatividad y formación. La actuación de los emprendedores como empleados de una empresa de informática. La actuación de los emprendedores como empresarios, de una pequeña empresa en el sector de la informática. El empresario. Requisitos para el ejercicio de la actividad empresarial. Plan de empresa: la idea de negocio en el ámbito de la informática."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "La empresa y su entorno",
+          "items": [
+            "Funciones básicas de la empresa.",
+            "La empresa como sistema. Análisis del entorno general de una pyme de informática. Análisis del entorno específico de una pyme de informática. Relaciones de una pyme de informática con su entorno. Relaciones de una pyme de informática con el conjunto de la sociedad."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Creación y puesta en marcha de una empresa",
+          "items": [
+            "Tipos de empresa.",
+            "La fiscalidad en las empresas. Elección de la forma jurídica. Trámites administrativos para la constitución de una empresa. Viabilidad económica y viabilidad financiera de una pyme de informática. Plan de empresa: elección de la forma jurídica, estudio de viabilidad económica y financiera, trámites administrativos y gestión de ayudas y subvenciones."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0231",
+      "nombre": "Formación en centros de trabajo",
+      "siglas": "FCT",
+      "curso_orientativo": "1º",
+      "horas": 220,
+      "creditos_ects": 9,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Identifica la estructura y organización de la empresa relacionándola con la producción y comercialización de los productos y servicios que ofrecen.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "Se ha identificado la estructura organizativa de la empresa y las funciones de cada área de la misma."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "Se han identificado los elementos que constituyen la red logística de la empresa: proveedores, clientes, sistemas de producción, almacenaje, entre otros."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Contenidos del RA1",
+            "items": [
+              "Contenidos y procedimientos asociados a: Identifica la estructura y organización de la empresa relacionándola con la producción y comercialización de los productos y servicios que ofrecen."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Aplica hábitos éticos y laborales, desarrollando su actividad profesional de acuerdo a las características del puesto de trabajo y procedimientos establecidos en la empresa.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "Se han reconocido y justificado:"
+            },
+            {
+              "letra": "s",
+              "codigo": "RA2.s",
+              "descripcion": ""
+            },
+            {
+              "letra": "s",
+              "codigo": "RA2.s",
+              "descripcion": ". \nL"
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "Se han identificado las normas de prevención de riesgos laborales aplicables en la actividad profesional y los aspectos fundamentales de la Ley de Prevención de Riesgos Laborales."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "Se han aplicado las y utilizado los equipos de protección individual según los riesgos de la actividad profesional y las normas de la empresa."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Contenidos del RA2",
+            "items": [
+              "Contenidos y procedimientos asociados a: Aplica hábitos éticos y laborales, desarrollando su actividad profesional de acuerdo a las características del puesto de trabajo y procedimientos establecidos en la empresa."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Monta equipos informáticos, siguiendo los procesos del sistema de calidad establecidos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "Se ha interpretado la documentación técnica."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "Se han ubicado, fijado y conectado los elementos y accesorios de los  equipos."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Contenidos del RA3",
+            "items": [
+              "Contenidos y procedimientos asociados a: Monta equipos informáticos, siguiendo los procesos del sistema de calidad establecidos."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Participa en el diagnóstico y reparación de averías aplicando técnicas de mantenimiento correctivo.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "Se ha elaborado un plan de intervención para la localización de la avería."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "Se han identificado los síntomas de las averías o disfunciones."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Contenidos del RA4",
+            "items": [
+              "Contenidos y procedimientos asociados a: Participa en el diagnóstico y reparación de averías aplicando técnicas de mantenimiento correctivo."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Instala sistemas operativos y aplicaciones respetando el plan de trabajo y las necesidades del cliente.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "Se han comprendido las órdenes de trabajo."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "Se han realizado las operaciones de instalación del sistema operativo y aplicaciones."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Contenidos del RA5",
+            "items": [
+              "Contenidos y procedimientos asociados a: Instala sistemas operativos y aplicaciones respetando el plan de trabajo y las necesidades del cliente."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Participa en la instalación, puesta en marcha y mantenimiento de pequeñas instalaciones con servicios de red local e Internet, documentando la intervención.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "Se ha interpretado documentación técnica relativa al hardware y al software."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "Se han identificado los elementos de la instalación."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Contenidos del RA6",
+            "items": [
+              "Contenidos y procedimientos asociados a: Participa en la instalación, puesta en marcha y mantenimiento de pequeñas instalaciones con servicios de red local e Internet, documentando la intervención."
+            ]
+          }
+        },
+        {
+          "numero": 7,
+          "descripcion": "Asiste al usuario, resolviendo problemas de la explotación de aplicaciones, según las normas de la empresa.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "Se han identificado las necesidades del usuario."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "Se han aplicado técnicas de comunicación con el usuario."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Contenidos del RA7",
+            "items": [
+              "Contenidos y procedimientos asociados a: Asiste al usuario, resolviendo problemas de la explotación de aplicaciones, según las normas de la empresa."
+            ]
+          }
+        },
+        {
+          "numero": 8,
+          "descripcion": "Participa en tareas de instalación, configuración o mantenimiento de sistemas que gestionan contenidos, aprendizaje a distancia, archivos entre otros, siguiendo el plan de trabajo establecido.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA8.a",
+              "descripcion": "Se ha comprendido el plan de trabajo."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA8.b",
+              "descripcion": "Se han identificado los requerimientos necesarios."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Contenidos del RA8",
+            "items": [
+              "Contenidos y procedimientos asociados a: Participa en tareas de instalación, configuración o mantenimiento de sistemas que gestionan contenidos, aprendizaje a distancia, archivos entre otros, siguiendo el plan de trabajo establecido."
+            ]
+          }
+        },
+        {
+          "numero": 221,
+          "descripcion": "Montaje y mantenimiento de equipo.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA221",
+            "items": [
+              "Contenidos y procedimientos asociados a: Montaje y mantenimiento de equipo."
+            ]
+          }
+        },
+        {
+          "numero": 223,
+          "descripcion": "Aplicaciones ofimáticas.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA223",
+            "items": [
+              "Contenidos y procedimientos asociados a: Aplicaciones ofimáticas."
+            ]
+          }
+        },
+        {
+          "numero": 222,
+          "descripcion": "Sistemas operativos monopuesto.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA222",
+            "items": [
+              "Contenidos y procedimientos asociados a: Sistemas operativos monopuesto."
+            ]
+          }
+        },
+        {
+          "numero": 225,
+          "descripcion": "Redes locales.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA225",
+            "items": [
+              "Contenidos y procedimientos asociados a: Redes locales."
+            ]
+          }
+        },
+        {
+          "numero": 227,
+          "descripcion": "Servicios en red.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA227",
+            "items": [
+              "Contenidos y procedimientos asociados a: Servicios en red."
+            ]
+          }
+        },
+        {
+          "numero": 224,
+          "descripcion": "Sistemas operativos en red.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA224",
+            "items": [
+              "Contenidos y procedimientos asociados a: Sistemas operativos en red."
+            ]
+          }
+        },
+        {
+          "numero": 226,
+          "descripcion": "Seguridad informática.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA226",
+            "items": [
+              "Contenidos y procedimientos asociados a: Seguridad informática."
+            ]
+          }
+        },
+        {
+          "numero": 228,
+          "descripcion": "Aplicaciones web.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA228",
+            "items": [
+              "Contenidos y procedimientos asociados a: Aplicaciones web."
+            ]
+          }
+        },
+        {
+          "numero": 229,
+          "descripcion": "Formación y orientación laboral.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA229",
+            "items": [
+              "Contenidos y procedimientos asociados a: Formación y orientación laboral."
+            ]
+          }
+        },
+        {
+          "numero": 230,
+          "descripcion": "Empresa  e iniciativa empresarial.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA230",
+            "items": [
+              "Contenidos y procedimientos asociados a: Empresa  e iniciativa empresarial."
+            ]
+          }
+        },
+        {
+          "numero": 225,
+          "descripcion": "Redes locales.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA225",
+            "items": [
+              "Contenidos y procedimientos asociados a: Redes locales."
+            ]
+          }
+        },
+        {
+          "numero": 221,
+          "descripcion": "Montaje y reparación de equipos.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA221",
+            "items": [
+              "Contenidos y procedimientos asociados a: Montaje y reparación de equipos."
+            ]
+          }
+        },
+        {
+          "numero": 223,
+          "descripcion": "Aplicaciones Ofimáticas.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA223",
+            "items": [
+              "Contenidos y procedimientos asociados a: Aplicaciones Ofimáticas."
+            ]
+          }
+        },
+        {
+          "numero": 227,
+          "descripcion": "Servicios de red.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA227",
+            "items": [
+              "Contenidos y procedimientos asociados a: Servicios de red."
+            ]
+          }
+        },
+        {
+          "numero": 228,
+          "descripcion": "Aplicaciones web.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA228",
+            "items": [
+              "Contenidos y procedimientos asociados a: Aplicaciones web."
+            ]
+          }
+        },
+        {
+          "numero": 230,
+          "descripcion": "Empresa e iniciativa emprendedora.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA230",
+            "items": [
+              "Contenidos y procedimientos asociados a: Empresa e iniciativa emprendedora."
+            ]
+          }
+        },
+        {
+          "numero": 222,
+          "descripcion": "Sistemas operativos monopuesto.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA222",
+            "items": [
+              "Contenidos y procedimientos asociados a: Sistemas operativos monopuesto."
+            ]
+          }
+        },
+        {
+          "numero": 222,
+          "descripcion": "Sistemas operativos monopuesto.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA222",
+            "items": [
+              "Contenidos y procedimientos asociados a: Sistemas operativos monopuesto."
+            ]
+          }
+        },
+        {
+          "numero": 222,
+          "descripcion": "Sistemas operativos monopuesto.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA222",
+            "items": [
+              "Contenidos y procedimientos asociados a: Sistemas operativos monopuesto."
+            ]
+          }
+        },
+        {
+          "numero": 225,
+          "descripcion": "Redes locales.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA225",
+            "items": [
+              "Contenidos y procedimientos asociados a: Redes locales."
+            ]
+          }
+        },
+        {
+          "numero": 223,
+          "descripcion": "Aplicaciones ofimáticas.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA223",
+            "items": [
+              "Contenidos y procedimientos asociados a: Aplicaciones ofimáticas."
+            ]
+          }
+        },
+        {
+          "numero": 223,
+          "descripcion": "Aplicaciones ofimáticas.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA223",
+            "items": [
+              "Contenidos y procedimientos asociados a: Aplicaciones ofimáticas."
+            ]
+          }
+        },
+        {
+          "numero": 221,
+          "descripcion": "Montaje y mantenimiento de equipos.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA221",
+            "items": [
+              "Contenidos y procedimientos asociados a: Montaje y mantenimiento de equipos."
+            ]
+          }
+        },
+        {
+          "numero": 221,
+          "descripcion": "Montaje y mantenimiento de equipos.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA221",
+            "items": [
+              "Contenidos y procedimientos asociados a: Montaje y mantenimiento de equipos."
+            ]
+          }
+        },
+        {
+          "numero": 226,
+          "descripcion": "Seguridad informática.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA226",
+            "items": [
+              "Contenidos y procedimientos asociados a: Seguridad informática."
+            ]
+          }
+        },
+        {
+          "numero": 227,
+          "descripcion": "Servicios en red.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA227",
+            "items": [
+              "Contenidos y procedimientos asociados a: Servicios en red."
+            ]
+          }
+        },
+        {
+          "numero": 226,
+          "descripcion": "Seguridad informática.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA226",
+            "items": [
+              "Contenidos y procedimientos asociados a: Seguridad informática."
+            ]
+          }
+        },
+        {
+          "numero": 222,
+          "descripcion": "Sistemas operativos monopuesto.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA222",
+            "items": [
+              "Contenidos y procedimientos asociados a: Sistemas operativos monopuesto."
+            ]
+          }
+        },
+        {
+          "numero": 223,
+          "descripcion": "Aplicaciones Ofimáticas.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA223",
+            "items": [
+              "Contenidos y procedimientos asociados a: Aplicaciones Ofimáticas."
+            ]
+          }
+        },
+        {
+          "numero": 222,
+          "descripcion": "Sistemas operativos monopuesto.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA222",
+            "items": [
+              "Contenidos y procedimientos asociados a: Sistemas operativos monopuesto."
+            ]
+          }
+        },
+        {
+          "numero": 225,
+          "descripcion": "Redes locales.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA225",
+            "items": [
+              "Contenidos y procedimientos asociados a: Redes locales."
+            ]
+          }
+        },
+        {
+          "numero": 225,
+          "descripcion": "Redes locales.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA225",
+            "items": [
+              "Contenidos y procedimientos asociados a: Redes locales."
+            ]
+          }
+        },
+        {
+          "numero": 227,
+          "descripcion": "Servicios en red.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA227",
+            "items": [
+              "Contenidos y procedimientos asociados a: Servicios en red."
+            ]
+          }
+        },
+        {
+          "numero": 226,
+          "descripcion": "Seguridad informática.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA226",
+            "items": [
+              "Contenidos y procedimientos asociados a: Seguridad informática."
+            ]
+          }
+        },
+        {
+          "numero": 221,
+          "descripcion": "Montaje y mantenimiento de equipos.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA221",
+            "items": [
+              "Contenidos y procedimientos asociados a: Montaje y mantenimiento de equipos."
+            ]
+          }
+        },
+        {
+          "numero": 221,
+          "descripcion": "Montaje y mantenimiento de equipos.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Contenidos del RA221",
+            "items": [
+              "Contenidos y procedimientos asociados a: Montaje y mantenimiento de equipos."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Contenidos del RA1",
+          "items": [
+            "Contenidos y procedimientos asociados a: Identifica la estructura y organización de la empresa relacionándola con la producción y comercialización de los productos y servicios que ofrecen."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Contenidos del RA2",
+          "items": [
+            "Contenidos y procedimientos asociados a: Aplica hábitos éticos y laborales, desarrollando su actividad profesional de acuerdo a las características del puesto de trabajo y procedimientos establecidos en la empresa."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Contenidos del RA3",
+          "items": [
+            "Contenidos y procedimientos asociados a: Monta equipos informáticos, siguiendo los procesos del sistema de calidad establecidos."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Contenidos del RA4",
+          "items": [
+            "Contenidos y procedimientos asociados a: Participa en el diagnóstico y reparación de averías aplicando técnicas de mantenimiento correctivo."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Contenidos del RA5",
+          "items": [
+            "Contenidos y procedimientos asociados a: Instala sistemas operativos y aplicaciones respetando el plan de trabajo y las necesidades del cliente."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Contenidos del RA6",
+          "items": [
+            "Contenidos y procedimientos asociados a: Participa en la instalación, puesta en marcha y mantenimiento de pequeñas instalaciones con servicios de red local e Internet, documentando la intervención."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Contenidos del RA7",
+          "items": [
+            "Contenidos y procedimientos asociados a: Asiste al usuario, resolviendo problemas de la explotación de aplicaciones, según las normas de la empresa."
+          ]
+        },
+        {
+          "ra": 8,
+          "codigo_ra": "RA8",
+          "titulo": "Contenidos del RA8",
+          "items": [
+            "Contenidos y procedimientos asociados a: Participa en tareas de instalación, configuración o mantenimiento de sistemas que gestionan contenidos, aprendizaje a distancia, archivos entre otros, siguiendo el plan de trabajo establecido."
+          ]
+        },
+        {
+          "ra": 221,
+          "codigo_ra": "RA221",
+          "titulo": "Contenidos del RA221",
+          "items": [
+            "Contenidos y procedimientos asociados a: Montaje y mantenimiento de equipo."
+          ]
+        },
+        {
+          "ra": 223,
+          "codigo_ra": "RA223",
+          "titulo": "Contenidos del RA223",
+          "items": [
+            "Contenidos y procedimientos asociados a: Aplicaciones ofimáticas."
+          ]
+        },
+        {
+          "ra": 222,
+          "codigo_ra": "RA222",
+          "titulo": "Contenidos del RA222",
+          "items": [
+            "Contenidos y procedimientos asociados a: Sistemas operativos monopuesto."
+          ]
+        },
+        {
+          "ra": 225,
+          "codigo_ra": "RA225",
+          "titulo": "Contenidos del RA225",
+          "items": [
+            "Contenidos y procedimientos asociados a: Redes locales."
+          ]
+        },
+        {
+          "ra": 227,
+          "codigo_ra": "RA227",
+          "titulo": "Contenidos del RA227",
+          "items": [
+            "Contenidos y procedimientos asociados a: Servicios en red."
+          ]
+        },
+        {
+          "ra": 224,
+          "codigo_ra": "RA224",
+          "titulo": "Contenidos del RA224",
+          "items": [
+            "Contenidos y procedimientos asociados a: Sistemas operativos en red."
+          ]
+        },
+        {
+          "ra": 226,
+          "codigo_ra": "RA226",
+          "titulo": "Contenidos del RA226",
+          "items": [
+            "Contenidos y procedimientos asociados a: Seguridad informática."
+          ]
+        },
+        {
+          "ra": 228,
+          "codigo_ra": "RA228",
+          "titulo": "Contenidos del RA228",
+          "items": [
+            "Contenidos y procedimientos asociados a: Aplicaciones web."
+          ]
+        },
+        {
+          "ra": 229,
+          "codigo_ra": "RA229",
+          "titulo": "Contenidos del RA229",
+          "items": [
+            "Contenidos y procedimientos asociados a: Formación y orientación laboral."
+          ]
+        },
+        {
+          "ra": 230,
+          "codigo_ra": "RA230",
+          "titulo": "Contenidos del RA230",
+          "items": [
+            "Contenidos y procedimientos asociados a: Empresa  e iniciativa empresarial."
+          ]
+        },
+        {
+          "ra": 225,
+          "codigo_ra": "RA225",
+          "titulo": "Contenidos del RA225",
+          "items": [
+            "Contenidos y procedimientos asociados a: Redes locales."
+          ]
+        },
+        {
+          "ra": 221,
+          "codigo_ra": "RA221",
+          "titulo": "Contenidos del RA221",
+          "items": [
+            "Contenidos y procedimientos asociados a: Montaje y reparación de equipos."
+          ]
+        },
+        {
+          "ra": 223,
+          "codigo_ra": "RA223",
+          "titulo": "Contenidos del RA223",
+          "items": [
+            "Contenidos y procedimientos asociados a: Aplicaciones Ofimáticas."
+          ]
+        },
+        {
+          "ra": 227,
+          "codigo_ra": "RA227",
+          "titulo": "Contenidos del RA227",
+          "items": [
+            "Contenidos y procedimientos asociados a: Servicios de red."
+          ]
+        },
+        {
+          "ra": 228,
+          "codigo_ra": "RA228",
+          "titulo": "Contenidos del RA228",
+          "items": [
+            "Contenidos y procedimientos asociados a: Aplicaciones web."
+          ]
+        },
+        {
+          "ra": 230,
+          "codigo_ra": "RA230",
+          "titulo": "Contenidos del RA230",
+          "items": [
+            "Contenidos y procedimientos asociados a: Empresa e iniciativa emprendedora."
+          ]
+        },
+        {
+          "ra": 222,
+          "codigo_ra": "RA222",
+          "titulo": "Contenidos del RA222",
+          "items": [
+            "Contenidos y procedimientos asociados a: Sistemas operativos monopuesto."
+          ]
+        },
+        {
+          "ra": 222,
+          "codigo_ra": "RA222",
+          "titulo": "Contenidos del RA222",
+          "items": [
+            "Contenidos y procedimientos asociados a: Sistemas operativos monopuesto."
+          ]
+        },
+        {
+          "ra": 222,
+          "codigo_ra": "RA222",
+          "titulo": "Contenidos del RA222",
+          "items": [
+            "Contenidos y procedimientos asociados a: Sistemas operativos monopuesto."
+          ]
+        },
+        {
+          "ra": 225,
+          "codigo_ra": "RA225",
+          "titulo": "Contenidos del RA225",
+          "items": [
+            "Contenidos y procedimientos asociados a: Redes locales."
+          ]
+        },
+        {
+          "ra": 223,
+          "codigo_ra": "RA223",
+          "titulo": "Contenidos del RA223",
+          "items": [
+            "Contenidos y procedimientos asociados a: Aplicaciones ofimáticas."
+          ]
+        },
+        {
+          "ra": 223,
+          "codigo_ra": "RA223",
+          "titulo": "Contenidos del RA223",
+          "items": [
+            "Contenidos y procedimientos asociados a: Aplicaciones ofimáticas."
+          ]
+        },
+        {
+          "ra": 221,
+          "codigo_ra": "RA221",
+          "titulo": "Contenidos del RA221",
+          "items": [
+            "Contenidos y procedimientos asociados a: Montaje y mantenimiento de equipos."
+          ]
+        },
+        {
+          "ra": 221,
+          "codigo_ra": "RA221",
+          "titulo": "Contenidos del RA221",
+          "items": [
+            "Contenidos y procedimientos asociados a: Montaje y mantenimiento de equipos."
+          ]
+        },
+        {
+          "ra": 226,
+          "codigo_ra": "RA226",
+          "titulo": "Contenidos del RA226",
+          "items": [
+            "Contenidos y procedimientos asociados a: Seguridad informática."
+          ]
+        },
+        {
+          "ra": 227,
+          "codigo_ra": "RA227",
+          "titulo": "Contenidos del RA227",
+          "items": [
+            "Contenidos y procedimientos asociados a: Servicios en red."
+          ]
+        },
+        {
+          "ra": 226,
+          "codigo_ra": "RA226",
+          "titulo": "Contenidos del RA226",
+          "items": [
+            "Contenidos y procedimientos asociados a: Seguridad informática."
+          ]
+        },
+        {
+          "ra": 222,
+          "codigo_ra": "RA222",
+          "titulo": "Contenidos del RA222",
+          "items": [
+            "Contenidos y procedimientos asociados a: Sistemas operativos monopuesto."
+          ]
+        },
+        {
+          "ra": 223,
+          "codigo_ra": "RA223",
+          "titulo": "Contenidos del RA223",
+          "items": [
+            "Contenidos y procedimientos asociados a: Aplicaciones Ofimáticas."
+          ]
+        },
+        {
+          "ra": 222,
+          "codigo_ra": "RA222",
+          "titulo": "Contenidos del RA222",
+          "items": [
+            "Contenidos y procedimientos asociados a: Sistemas operativos monopuesto."
+          ]
+        },
+        {
+          "ra": 225,
+          "codigo_ra": "RA225",
+          "titulo": "Contenidos del RA225",
+          "items": [
+            "Contenidos y procedimientos asociados a: Redes locales."
+          ]
+        },
+        {
+          "ra": 225,
+          "codigo_ra": "RA225",
+          "titulo": "Contenidos del RA225",
+          "items": [
+            "Contenidos y procedimientos asociados a: Redes locales."
+          ]
+        },
+        {
+          "ra": 227,
+          "codigo_ra": "RA227",
+          "titulo": "Contenidos del RA227",
+          "items": [
+            "Contenidos y procedimientos asociados a: Servicios en red."
+          ]
+        },
+        {
+          "ra": 226,
+          "codigo_ra": "RA226",
+          "titulo": "Contenidos del RA226",
+          "items": [
+            "Contenidos y procedimientos asociados a: Seguridad informática."
+          ]
+        },
+        {
+          "ra": 221,
+          "codigo_ra": "RA221",
+          "titulo": "Contenidos del RA221",
+          "items": [
+            "Contenidos y procedimientos asociados a: Montaje y mantenimiento de equipos."
+          ]
+        },
+        {
+          "ra": 221,
+          "codigo_ra": "RA221",
+          "titulo": "Contenidos del RA221",
+          "items": [
+            "Contenidos y procedimientos asociados a: Montaje y mantenimiento de equipos."
+          ]
+        }
+      ]
+    }
+  ],
+  "idioma": "CAS"
+}

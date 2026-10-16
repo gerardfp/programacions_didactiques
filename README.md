@@ -43,17 +43,21 @@ python generador_pd.py --generar-pedagogia --all
 ```
 *(Este archivo JSON resultante sirve como andamiaje o plantilla para que un modelo de inteligencia artificial o el docente personalice la metodología y recursos).*
 
-### Paso 3: Generar las Programaciones Didácticas ODT
-Genera los documentos `.odt` oficiales listos para inspección o uso docente:
+### Paso 3: Generar las Programaciones Didácticas ODT (Bilingüe: Valenciano y Castellano)
+Genera los documentos `.odt` oficiales listos para inspección o uso docente. Por defecto, el sistema genera **ambas versiones** (castellano con sufijo `_CAS` y valenciano con sufijo `_VAL`):
 ```bash
-# Generar todas las programaciones de todos los ciclos:
+# Generar todas las programaciones de todos los ciclos en ambos idiomas (_CAS y _VAL):
 python generador_pd.py --all
 
-# Generar solo las de un ciclo:
+# Generar solo las de un ciclo en ambos idiomas:
 python generador_pd.py --ciclo DAM
 
-# Generar un único módulo:
+# Generar un único módulo en ambos idiomas:
 python generador_pd.py --modulo 0489
+
+# Generar solo en valenciano o solo en castellano:
+python generador_pd.py --ciclo DAM --idioma val
+python generador_pd.py --modulo 0489 --idioma cas
 ```
 
 ---
@@ -71,10 +75,12 @@ python generador_pd.py --modulo 0489
 | `--all` | Ninguno | Aplica la acción a todos los ciclos disponibles (generar ODTs o pedagogía) |
 | `--ciclo` | `CODIGO` | Filtra por ciclo formativo (ej. `DAM`, `DAW`, `SMX`, `IA`, `ASIR`) |
 | `--modulo` | `CODIGO` | Genera solo el módulo indicado (por código o nombre) |
+| `--idioma` / `--lang` | `ambos` \| `cas` \| `val` | Idioma de generación: `ambos` (por defecto: genera `_CAS` y `_VAL`), `cas` (solo castellano), `val` (solo valenciano) |
 | `--curso-escolar` | `"AÑO / AÑO"` | Curso escolar reflejado en portadas y encabezados (por defecto: `"2026 / 2027"`) |
-| `--plantilla` | `RUTA.fodt` | Ruta a una plantilla ODF base alternativa (por defecto: `plantilla.fodt`) |
+| `--plantilla` | `RUTA.fodt` | Ruta a una plantilla ODF base alternativa (por defecto: `plantilla.fodt` / `plantilla_val.fodt`) |
 | `--output-dir` | `CARPETA` | Carpeta raíz de salida de los documentos (por defecto: `programaciones`) |
 | `--output` / `-o` | `ARCHIVO` | Nombre de archivo de salida personalizado (.odt o .json) |
+
 
 ---
 
@@ -317,7 +323,8 @@ La plantilla base está en formato **Flat XML ODF** (`plantilla.fodt`). Puede ab
 ```text
 programacions_didactiques/
 ├── generador_pd.py             # Script único: Parseo XML, Generación pedagógica y Maquetación ODT
-├── plantilla.fodt              # Plantilla maestra editable en LibreOffice Writer
+├── plantilla.fodt              # Plantilla maestra en castellano (Flat XML ODF)
+├── plantilla_val.fodt          # Plantilla maestra en valenciano (Flat XML ODF)
 ├── README.md                   # Esta documentación técnica de referencia
 ├── curriculum_dam.json         # Currículo oficial de DAM (BOE)
 ├── curriculum_daw.json         # Currículo oficial de DAW (BOE)
@@ -329,9 +336,12 @@ programacions_didactiques/
 │   ├── DAM_DAW.xml
 │   ├── SMX.xml
 │   └── (futuros ciclos: ASIR.xml, etc.)
-└── programaciones/             # Directorio de salida de los documentos generados
-    ├── DAM/                    # Archivos PD_26-27_DAM*.odt
-    ├── DAW/                    # Archivos PD_26-27_DAW*.odt
-    └── SMX/                    # Archivos PD_26-27_SMX*.odt
+└── programaciones/             # Directorio de salida de los documentos bilingües generados
+    ├── DAM/                    # Archivos PD_26-27_DAM*_[CAS|VAL].odt
+    ├── DAW/                    # Archivos PD_26-27_DAW*_[CAS|VAL].odt
+    ├── SMX/                    # Archivos PD_26-27_SMX*_[CAS|VAL].odt
+    ├── SMR/                    # Sincronización automática de alias SMX
+    ├── IABD/                   # Archivos PD_26-27_IABD*_[CAS|VAL].odt
+    └── IA/                     # Sincronización automática de alias IABD
 ```
 

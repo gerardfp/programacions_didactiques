@@ -1,0 +1,3239 @@
+{
+  "0483": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Fundamentos de los sistemas informáticos y máquinas virtuales",
+        "horas": 28,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Sistemas operativos. Introducción",
+        "horas": 26,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Sistemas operativos. Gestión de archivos y almacenamiento",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Sistemas operativos. Gestión de usuarios y procesos",
+        "horas": 26,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Sistemas informáticos en red. Configuración y explotación",
+        "horas": 26,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Gestión de recursos en red de un sistema informático",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD7: Aplicaciones informáticas",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          7
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos / Proyectos",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Metodología dinámica, abierta y flexible basada en la combinación de exposiciones conceptuales con prácticas intensivas en laboratorio informático. Uso de máquinas virtuales (VirtualBox) para la instalación y configuración de sistemas operativos libres y propietarios, resolución de supuestos prácticos de administración y configuración de red con comandos e interfaces gráficas.",
+    "recursos": {
+      "software": [
+        "VirtualBox / VMware para virtualización de sistemas",
+        "Sistemas operativos: GNU/Linux (Ubuntu/Debian) y Microsoft Windows 10/11",
+        "Herramientas de monitorización de sistemas y análisis de red (Wireshark, comandos de sistema)",
+        "Plataforma educativa Aules de la Generalitat Valenciana"
+      ],
+      "hardware": [
+        "Ordenador individual con soporte de virtualización activada en la BIOS",
+        "Acceso a red local del centro y conexión a Internet",
+        "Proyector interactivo y pizarra digital"
+      ]
+    },
+    "espacios": "Aula de informática polivalente con cableado estructurado y acceso a Internet",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Fundamentos de los sistemas informáticos y máquinas virtuales",
+        "horas": 28,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Sistemas operativos. Introducción",
+        "horas": 26,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Sistemas operativos. Gestión de archivos y almacenamiento",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Sistemas operativos. Gestión de usuarios y procesos",
+        "horas": 26,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Sistemas informáticos en red. Configuración y explotación",
+        "horas": 26,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Gestión de recursos en red de un sistema informático",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD7: Aplicaciones informáticas",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          7
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 15.0,
+      "2": 15.0,
+      "3": 15.0,
+      "4": 15.0,
+      "5": 15.0,
+      "6": 15.0,
+      "7": 10.0
+    },
+    "formula_evaluacion": "Módulo = 0.15 · RA_1 + 0.15 · RA_2 + 0.15 · RA_3 + 0.15 · RA_4 + 0.15 · RA_5 + 0.15 · RA_6 + 0.10 · RA_7",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "VirtualBox / VMware para virtualización de sistemas",
+      "Sistemas operativos: GNU/Linux (Ubuntu/Debian) y Microsoft Windows 10/11",
+      "Herramientas de monitorización de sistemas y análisis de red (Wireshark, comandos de sistema)",
+      "Plataforma educativa Aules de la Generalitat Valenciana"
+    ],
+    "recursos_hardware": [
+      "Ordenador individual con soporte de virtualización activada en la BIOS",
+      "Acceso a red local del centro y conexión a Internet",
+      "Proyector interactivo y pizarra digital"
+    ]
+  },
+  "0484": {
+    "unidades_programacion": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 1: Introducción a las bases de datos",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 2: Diseño conceptual de bases de datos (Model E/R)",
+        "horas": 22,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 3: Diseño lógico de bases de datos y Normalización",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 4: Lenguaje de Definición de Datos (DDL)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 5: Lenguaje de Control de Datos (DCL) y Seguridad",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 6",
+        "nombre": "UT 6: Lenguaje de Manipulación de Datos en SQL (DML)",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UT 7",
+        "nombre": "UT 7: Lenguaje de Consulta de Datos en SQL (DQL)",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Abril",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UT 8",
+        "nombre": "UT 8: Introducción al SQL procedimental (PL/SQL)",
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UT 9",
+        "nombre": "UT 9: Programación avanzada: cursores, triggers y procedimientos",
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UT 10",
+        "nombre": "UT 10: Bases de datos no relacionales (NoSQL) y nuevas tendencias",
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          7
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 8.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 12.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos / Proyectos",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprendizaje guiado y basado en proyectos de bases de datos reales. Diseño conceptual mediante diagramas E/R, transformación a modelo relacional normalizado e implementación práctica con sistemas gestores de bases de datos (MySQL/MariaDB, PostgreSQL). Ejercicios prácticos de consultas complejas, procedimientos almacenados e introducción en MongoDB.",
+    "recursos": {
+      "software": [
+        "SGBD: MySQL Server / MariaDB, PostgreSQL",
+        "Clientes de gestión: DBeaver, MySQL Workbench, pgAdmin",
+        "MongoDB y MongoDB Compass para NoSQL",
+        "Herramientas de modelado conceptual (Draw.io, Día)"
+      ],
+      "hardware": [
+        "Ordenadores de trabajo de aula con conexión a red",
+        "Servidor de bases de datos para prácticas de aula",
+        "Cañón de proyección"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 1: Introducción a las bases de datos",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 2: Diseño conceptual de bases de datos (Model E/R)",
+        "horas": 22,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 3: Diseño lógico de bases de datos y Normalización",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 4: Lenguaje de Definición de Datos (DDL)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 5: Lenguaje de Control de Datos (DCL) y Seguridad",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UT 6",
+        "nombre": "UT 6: Lenguaje de Manipulación de Datos en SQL (DML)",
+        "horas": 25,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UT 7",
+        "nombre": "UT 7: Lenguaje de Consulta de Datos en SQL (DQL)",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Abril",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UT 8",
+        "nombre": "UT 8: Introducción al SQL procedimental (PL/SQL)",
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UT 9",
+        "nombre": "UT 9: Programación avanzada: cursores, triggers y procedimientos",
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UT 10",
+        "nombre": "UT 10: Bases de datos no relacionales (NoSQL) y nuevas tendencias",
+        "horas": 10,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          7
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 8.0,
+      "2": 12.0,
+      "3": 25.0,
+      "4": 15.0,
+      "5": 15.0,
+      "6": 15.0,
+      "7": 10.0
+    },
+    "formula_evaluacion": "Módulo = 0.08 · RA_1 + 0.12 · RA_2 + 0.25 · RA_3 + 0.15 · RA_4 + 0.15 · RA_5 + 0.15 · RA_6 + 0.10 · RA_7",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "SGBD: MySQL Server / MariaDB, PostgreSQL",
+      "Clientes de gestión: DBeaver, MySQL Workbench, pgAdmin",
+      "MongoDB y MongoDB Compass para NoSQL",
+      "Herramientas de modelado conceptual (Draw.io, Día)"
+    ],
+    "recursos_hardware": [
+      "Ordenadores de trabajo de aula con conexión a red",
+      "Servidor de bases de datos para prácticas de aula",
+      "Cañón de proyección"
+    ]
+  },
+  "0485": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Introducción a la Programación. Java y estructuras de control",
+        "horas": 32,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Métodos, parámetros y modularidad",
+        "horas": 24,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2,
+          3
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Programación orientada a objetos (Clases, atributos y métodos)",
+        "horas": 24,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Estructuras de datos (Arrays unidimensionales y multidimensionales)",
+        "horas": 24,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Gestión de excepciones y control de errores",
+        "horas": 24,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Colecciones y estructuras dinámicas de datos (List, Set, Map)",
+        "horas": 16,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD7: Herencia y polimorfismo",
+        "horas": 16,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "UD8: Clases abstractas e interfaces en profundidad",
+        "horas": 16,
+        "trimestre": "3er Trimestre",
+        "inicio": "Marzo",
+        "fin": "Abril",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 9",
+        "nombre": "UD9: Gestión de archivos y flujos de datos (Texto, Binarios, Sirialización)",
+        "horas": 16,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 10",
+        "nombre": "UD10: Programación gráfica de interfaces de usuario (Swing / JavaFX)",
+        "horas": 16,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          8
+        ]
+      },
+      {
+        "codigo": "UD 11",
+        "nombre": "UD11: Conexión con bases de datos relacionales (JDBC)",
+        "horas": 16,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          7
+        ]
+      },
+      {
+        "codigo": "UD 12",
+        "nombre": "UD12: Proyecto integrador final aplicado y buenas prácticas",
+        "horas": 32,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          9
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 11.12
+      },
+      {
+        "codigo": "RA2",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA3",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA4",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA5",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA6",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA7",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA8",
+        "peso": 11.11
+      },
+      {
+        "codigo": "RA9",
+        "peso": 11.11
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes de cada evaluación para cada RA",
+        "porcentaje": 80,
+        "requisito": ">= 5 en cadascun dels RA"
+      },
+      {
+        "nombre": "Ejercicios y trabajos obligatorios en el aula y GitHub",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "La metodología será dinámica, abierta y flexible. Exposición de conceptos teóricos con materiales complementarios, uso intensivo de IntelliJ IDEA como entorno profesional de desarrollo, ejercicios entregados a través de Aulas y GitHub Classroom, prácticas individuales y en equipo con atención individualizada y comentario de errores habituales.",
+    "recursos": {
+      "software": [
+        "Java Development Kit (JDK 17/21)",
+        "IntelliJ IDEA Community / Ultimate",
+        "Git y GitHub Classroom",
+        "MySQL / SQLite para prácticas JDBC",
+        "Plataforma Aules"
+      ],
+      "hardware": [
+        "Ordenadores personales en el aula con memoria RAM suficiente para IDEs modernos",
+        "Conexión de alta velocidad a Internet y red local",
+        "Proyector de aula"
+      ]
+    },
+    "espacios": "Aula de informática polivalente",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Introducción a la Programación. Java y estructuras de control",
+        "horas": 32,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Métodos, parámetros y modularidad",
+        "horas": 24,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2,
+          3
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Programación orientada a objetos (Clases, atributos y métodos)",
+        "horas": 24,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Estructuras de datos (Arrays unidimensionales y multidimensionales)",
+        "horas": 24,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Gestión de excepciones y control de errores",
+        "horas": 24,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Colecciones y estructuras dinámicas de datos (List, Set, Map)",
+        "horas": 16,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD7: Herencia y polimorfismo",
+        "horas": 16,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "UD8: Clases abstractas e interfaces en profundidad",
+        "horas": 16,
+        "trimestre": "3er Trimestre",
+        "inicio": "Marzo",
+        "fin": "Abril",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 9",
+        "nombre": "UD9: Gestión de archivos y flujos de datos (Texto, Binarios, Sirialización)",
+        "horas": 16,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 10",
+        "nombre": "UD10: Programación gráfica de interfaces de usuario (Swing / JavaFX)",
+        "horas": 16,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          8
+        ]
+      },
+      {
+        "codigo": "UD 11",
+        "nombre": "UD11: Conexión con bases de datos relacionales (JDBC)",
+        "horas": 16,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Mayo",
+        "ras": [
+          7
+        ]
+      },
+      {
+        "codigo": "UD 12",
+        "nombre": "UD12: Proyecto integrador final aplicado y buenas prácticas",
+        "horas": 32,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          9
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 11.12,
+      "2": 11.11,
+      "3": 11.11,
+      "4": 11.11,
+      "5": 11.11,
+      "6": 11.11,
+      "7": 11.11,
+      "8": 11.11,
+      "9": 11.11
+    },
+    "formula_evaluacion": "Módulo = 0.11 · RA_1 + 0.11 · RA_2 + 0.11 · RA_3 + 0.11 · RA_4 + 0.11 · RA_5 + 0.11 · RA_6 + 0.11 · RA_7 + 0.11 · RA_8 + 0.11 · RA_9",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes de cada evaluación para cada RA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Ejercicios y trabajos obligatorios en el aula y GitHub",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes de cada evaluación para cada RA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Ejercicios y trabajos obligatorios en el aula y GitHub",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes de cada evaluación para cada RA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Ejercicios y trabajos obligatorios en el aula y GitHub",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes de cada evaluación para cada RA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Ejercicios y trabajos obligatorios en el aula y GitHub",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes de cada evaluación para cada RA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Ejercicios y trabajos obligatorios en el aula y GitHub",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exámenes de cada evaluación para cada RA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Ejercicios y trabajos obligatorios en el aula y GitHub",
+          "peso_ra": 20.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Exámenes de cada evaluación para cada RA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Ejercicios y trabajos obligatorios en el aula y GitHub",
+          "peso_ra": 20.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Exámenes de cada evaluación para cada RA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Ejercicios y trabajos obligatorios en el aula y GitHub",
+          "peso_ra": 20.0
+        }
+      ],
+      "9": [
+        {
+          "nombre": "Exámenes de cada evaluación para cada RA",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Ejercicios y trabajos obligatorios en el aula y GitHub",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Java Development Kit (JDK 17/21)",
+      "IntelliJ IDEA Community / Ultimate",
+      "Git y GitHub Classroom",
+      "MySQL / SQLite para prácticas JDBC",
+      "Plataforma Aules"
+    ],
+    "recursos_hardware": [
+      "Ordenadores personales en el aula con memoria RAM suficiente para IDEs modernos",
+      "Conexión de alta velocidad a Internet y red local",
+      "Proyector de aula"
+    ]
+  },
+  "0373": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Reconocimiento de las características de lenguajes de marcas y XML",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Utilización de lenguajes de marcas en entornos web (HTML5 y CSS3)",
+        "horas": 28,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Validación y manipulación de documentos XML mediante DTD y XML Schema",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Definición y transformación de estructuras XML con XPath y XSLT",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Almacenamiento y consulta de información XML mediante XQuery y bases de datos nativas",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Sistemas de gestión de información empresarial y sindicación de contenidos (RSS/Atom)",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6,
+          7
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 10.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos / Proyectos",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Práctica continua en diseño de documentos estructurados, hojas de estilo y transformaciones. Aplicación práctica de estándares web W3C, codificación con editores avanzados y validación de datos.",
+    "recursos": {
+      "software": [
+        "Visual Studio Code con extensiones para XML, HTML, CSS y XPath",
+        "Navegadores web actualizados (Firefox, Chrome)",
+        "Procesadores XSLT y almacenamiento eXist-db/ BaseX",
+        "Plataforma Aules"
+      ],
+      "hardware": [
+        "Ordenadores para el alumnado con acceso a la red",
+        "Proyector multimedia"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Reconocimiento de las características de lenguajes de marcas y XML",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Utilización de lenguajes de marcas en entornos web (HTML5 y CSS3)",
+        "horas": 28,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Validación y manipulación de documentos XML mediante DTD y XML Schema",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Definición y transformación de estructuras XML con XPath y XSLT",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Almacenamiento y consulta de información XML mediante XQuery y bases de datos nativas",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Sistemas de gestión de información empresarial y sindicación de contenidos (RSS/Atom)",
+        "horas": 20,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6,
+          7
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 10.0,
+      "2": 20.0,
+      "3": 15.0,
+      "4": 15.0,
+      "5": 15.0,
+      "6": 15.0,
+      "7": 10.0
+    },
+    "formula_evaluacion": "Módulo = 0.10 · RA_1 + 0.20 · RA_2 + 0.15 · RA_3 + 0.15 · RA_4 + 0.15 · RA_5 + 0.15 · RA_6 + 0.10 · RA_7",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Visual Studio Code con extensiones para XML, HTML, CSS y XPath",
+      "Navegadores web actualizados (Firefox, Chrome)",
+      "Procesadores XSLT y almacenamiento eXist-db/ BaseX",
+      "Plataforma Aules"
+    ],
+    "recursos_hardware": [
+      "Ordenadores para el alumnado con acceso a la red",
+      "Proyector multimedia"
+    ]
+  },
+  "0487": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Desarrollo de software y ciclo de vida",
+        "horas": 16,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Entornos integrados de desarrollo (IDE) y configuración",
+        "horas": 16,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Verificación y pruebas de programas (JUnit, pruebas unitarias y cobertura)",
+        "horas": 18,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Optimización, refactorización y documentación del código fuente",
+        "horas": 16,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Gráficos de clases y modelado UML estructural",
+        "horas": 18,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Diagramas de comportamiento UML (Casos de uso, secuencia y actividad)",
+        "horas": 12,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 18.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 17.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 18.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 12.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos / Proyectos",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Desarrollo orientado a la ingeniería de software moderna. Uso de ideas, aplicación de patrones de refactorización, automatización de pruebas con JUnit, análisis de cobertura de código y diseño de arquitectura de software mediante UML.",
+    "recursos": {
+      "software": [
+        "Eclipse IDE, IntelliJ IDEA, Visual Studio Code",
+        "Frameworks de pruebas: JUnit 5, Mockito",
+        "Herramientas UML: StarUML, Visual Paradigm, PlantUML",
+        "Sistemas de control de versiones Git y GitHub"
+      ],
+      "hardware": [
+        "Ordenadores individuales con hardware capacidad para IDEs y entornos de pruebas",
+        "Proyector interactivo"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Desarrollo de software y ciclo de vida",
+        "horas": 16,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Entornos integrados de desarrollo (IDE) y configuración",
+        "horas": 16,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Verificación y pruebas de programas (JUnit, pruebas unitarias y cobertura)",
+        "horas": 18,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Optimización, refactorización y documentación del código fuente",
+        "horas": 16,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Gráficos de clases y modelado UML estructural",
+        "horas": 18,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Diagramas de comportamiento UML (Casos de uso, secuencia y actividad)",
+        "horas": 12,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 15.0,
+      "3": 18.0,
+      "4": 17.0,
+      "5": 18.0,
+      "6": 12.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.15 · RA_2 + 0.18 · RA_3 + 0.17 · RA_4 + 0.18 · RA_5 + 0.12 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Eclipse IDE, IntelliJ IDEA, Visual Studio Code",
+      "Frameworks de pruebas: JUnit 5, Mockito",
+      "Herramientas UML: StarUML, Visual Paradigm, PlantUML",
+      "Sistemas de control de versiones Git y GitHub"
+    ],
+    "recursos_hardware": [
+      "Ordenadores individuales con hardware capacidad para IDEs y entornos de pruebas",
+      "Proyector interactivo"
+    ]
+  },
+  "0486": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Manejo de archivos y flujos de datos en Java",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Manejo de complementos de bases de datos relacionales (JDBC y DAO)",
+        "horas": 24,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Herramientas de mapeo objeto-relacional (ORM - Hibernate / JPA)",
+        "horas": 26,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Desarrollo de componentes de acceso a datos orientados a objetos",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Bases de datos orientadas a objetos y XML nativas",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Bases de datos no relacionales (NoSQL - MongoDB, Redis) y Big Data",
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 15.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos / Proyectos",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprendizaje activo con implementación de proyectos de persistencia de datos profesionales. Transición desde el acceso directo con JDBC hasta el uso de patrones de diseño arquitectónico (DAO, DTO) y frameworks de mapeo ORM (Hibernate, JPA) y almacenes NoSQL.",
+    "recursos": {
+      "software": [
+        "IntelliJ IDEA / Eclipse IDE",
+        "Hibernate ORM, Spring Fecha JPA",
+        "PostgreSQL / MySQL, MongoDB",
+        "Git y GitHub"
+      ],
+      "hardware": [
+        "Equipos de aula de informática con capacidad para servidores de bases de datos locales"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Manejo de archivos y flujos de datos en Java",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Manejo de complementos de bases de datos relacionales (JDBC y DAO)",
+        "horas": 24,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Herramientas de mapeo objeto-relacional (ORM - Hibernate / JPA)",
+        "horas": 26,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Desarrollo de componentes de acceso a datos orientados a objetos",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Bases de datos orientadas a objetos y XML nativas",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Bases de datos no relacionales (NoSQL - MongoDB, Redis) y Big Data",
+        "horas": 15,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Mayo",
+        "ras": [
+          6
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 15.0,
+      "2": 20.0,
+      "3": 25.0,
+      "4": 15.0,
+      "5": 10.0,
+      "6": 15.0
+    },
+    "formula_evaluacion": "Módulo = 0.15 · RA_1 + 0.20 · RA_2 + 0.25 · RA_3 + 0.15 · RA_4 + 0.10 · RA_5 + 0.15 · RA_6",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "IntelliJ IDEA / Eclipse IDE",
+      "Hibernate ORM, Spring Fecha JPA",
+      "PostgreSQL / MySQL, MongoDB",
+      "Git y GitHub"
+    ],
+    "recursos_hardware": [
+      "Equipos de aula de informática con capacidad para servidores de bases de datos locales"
+    ]
+  },
+  "0488": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Confección de interfaces de usuario (Componentes visuales y contenedores)",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Generación de interfaces visuales mediante herramientas específicas",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Creación de componentes visuales reutilizables",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Diseño de interfaces de usuario y experiencia de usuario (UI/UX)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Confección de informes de gestión y exportación de datos (JasperReports)",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Documentación de aplicaciones y creación de tutoriales",
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Marzo",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD7: Distribución y empaquetamiento de aplicaciones (Instaladores)",
+        "horas": 12,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          7
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "UD8: Pruebas de interfaz de usuario y evaluación de la usabilidad y accesibilidad",
+        "horas": 18,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          8
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 5.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 5.0
+      },
+      {
+        "codigo": "RA6",
+        "peso": 5.0
+      },
+      {
+        "codigo": "RA7",
+        "peso": 10.0
+      },
+      {
+        "codigo": "RA8",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos / Proyectos",
+        "porcentaje": 70,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+        "porcentaje": 30,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Desarrollo práctico de interfaces de escritorio y multiplataforma. Diseño basado en componentes, generación de informes profesionales con Jaspersoft Studio y preparación de paquetes de instalación.",
+    "recursos": {
+      "software": [
+        "JavaFX, Scene Builder, Swing, Qt / C, / Python GUI",
+        "Jaspersoft Studio para generación de informes",
+        "Herramientas de creación de instaladores (Inno Setup, jpackage)",
+        "Figma para prototipaje de pantallas"
+      ],
+      "hardware": [
+        "Ordenadores de aula con dos monitores o pantalla panorámica",
+        "Conexión a Internet"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Confección de interfaces de usuario (Componentes visuales y contenedores)",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Generación de interfaces visuales mediante herramientas específicas",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Creación de componentes visuales reutilizables",
+        "horas": 25,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Diseño de interfaces de usuario y experiencia de usuario (UI/UX)",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Confección de informes de gestión y exportación de datos (JasperReports)",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          5
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Documentación de aplicaciones y creación de tutoriales",
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Marzo",
+        "ras": [
+          6
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD7: Distribución y empaquetamiento de aplicaciones (Instaladores)",
+        "horas": 12,
+        "trimestre": "3er Trimestre",
+        "inicio": "Abril",
+        "fin": "Abril",
+        "ras": [
+          7
+        ]
+      },
+      {
+        "codigo": "UD 8",
+        "nombre": "UD8: Pruebas de interfaz de usuario y evaluación de la usabilidad y accesibilidad",
+        "horas": 18,
+        "trimestre": "3er Trimestre",
+        "inicio": "Mayo",
+        "fin": "Junio",
+        "ras": [
+          8
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 5.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 15.0,
+      "5": 5.0,
+      "6": 5.0,
+      "7": 10.0,
+      "8": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.05 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.15 · RA_4 + 0.05 · RA_5 + 0.05 · RA_6 + 0.10 · RA_7 + 0.20 · RA_8",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "6": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "7": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "8": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "JavaFX, Scene Builder, Swing, Qt / C, / Python GUI",
+      "Jaspersoft Studio para generación de informes",
+      "Herramientas de creación de instaladores (Inno Setup, jpackage)",
+      "Figma para prototipaje de pantallas"
+    ],
+    "recursos_hardware": [
+      "Ordenadores de aula con dos monitores o pantalla panorámica",
+      "Conexión a Internet"
+    ]
+  },
+  "0489": {
+    "unidades_programacion": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 1: Análisis de tecnologías para aplicaciones en dispositivos móviles",
+        "horas": 5,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Septiembre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 2: Programación de aplicaciones para dispositivos móviles (Android)",
+        "horas": 40,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Diciembre",
+        "ras": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 3: Utilización de librerías multimedia integradas",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          1,
+          3
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 4: Análisis de motores de juegos",
+        "horas": 5,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 5: Desarrollo de juegos 2D y 3D sencillos con motor",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          1,
+          4,
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos/ Proyectos de aplicaciones",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas/ Tareas de codificación y ejercicios",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprendizaje activo basado en proyectos de aplicaciones para móviles y videojuegos. Creación de proyectos completos desde la configuración del entorno de trabajo hasta la compilación y depuración en dispositivos reales y emuladores.",
+    "recursos": {
+      "software": [
+        "Android Studio, Kotlin / Java SDK",
+        "Emuladores de dispositivos móviles oficiales",
+        "Motores de juegos: Unity / Godot Engine",
+        "Visual Studio Code, Git y GitHub"
+      ],
+      "hardware": [
+        "Ordenadores de aula con al menos 16 GB de RAM y aceleración por hardware",
+        "Dispositivos móviles de prueba (smartphones / tabletas)"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UT 1",
+        "nombre": "UT 1: Análisis de tecnologías para aplicaciones en dispositivos móviles",
+        "horas": 5,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Septiembre",
+        "ras": [
+          1,
+          2
+        ]
+      },
+      {
+        "codigo": "UT 2",
+        "nombre": "UT 2: Programación de aplicaciones para dispositivos móviles (Android)",
+        "horas": 40,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Diciembre",
+        "ras": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "codigo": "UT 3",
+        "nombre": "UT 3: Utilización de librerías multimedia integradas",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          1,
+          3
+        ]
+      },
+      {
+        "codigo": "UT 4",
+        "nombre": "UT 4: Análisis de motores de juegos",
+        "horas": 5,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "codigo": "UT 5",
+        "nombre": "UT 5: Desarrollo de juegos 2D y 3D sencillos con motor",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          1,
+          4,
+          5
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos/ Proyectos de aplicaciones",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Tareas de codificación y ejercicios",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos/ Proyectos de aplicaciones",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Tareas de codificación y ejercicios",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos/ Proyectos de aplicaciones",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Tareas de codificación y ejercicios",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos/ Proyectos de aplicaciones",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Tareas de codificación y ejercicios",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos/ Proyectos de aplicaciones",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Tareas de codificación y ejercicios",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Android Studio, Kotlin / Java SDK",
+      "Emuladores de dispositivos móviles oficiales",
+      "Motores de juegos: Unity / Godot Engine",
+      "Visual Studio Code, Git y GitHub"
+    ],
+    "recursos_hardware": [
+      "Ordenadores de aula con al menos 16 GB de RAM y aceleración por hardware",
+      "Dispositivos móviles de prueba (smartphones / tabletas)"
+    ]
+  },
+  "0490": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Programación multiproceso (Gestión de procesos y comunicación interprocesos)",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Programación multifilo (Files de ejecución, sincronización y bloqueos)",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Programación de comunicaciones en red (Sockets TCP/UDP)",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Enero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Generación de servicios en red (HTTP, FTP, protocolos de aplicación)",
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Utilización de técnicas de programación segura y criptografía",
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 25.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 15.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 15.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos / Proyectos",
+        "porcentaje": 80,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+        "porcentaje": 20,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Enfoque eminentemente práctico sobre sistemas concurrentes y distribuidos. Resolución de problemas clásicos de concurrencia (filósofos, productor-consumidor), diseño de servidores multiconexión mediante sockets y aplicación práctica de algoritmos de cifrado simétrico, asimétrico y firmas digitales.",
+    "recursos": {
+      "software": [
+        "Java Development Kit (JDK), IntelliJ IDEA, Eclipse",
+        "Herramientas de análisis de red y sockets (Wireshark, Telnet/Netcat)",
+        "Librerías de criptografía de Java (JCE)",
+        "Plataforma Aules"
+      ],
+      "hardware": [
+        "Ordenadores de aula conectados en red local para pruebas de arquitectura cliente/servidor"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Programación multiproceso (Gestión de procesos y comunicación interprocesos)",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Programación multifilo (Files de ejecución, sincronización y bloqueos)",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Programación de comunicaciones en red (Sockets TCP/UDP)",
+        "horas": 15,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Enero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Generación de servicios en red (HTTP, FTP, protocolos de aplicación)",
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Utilización de técnicas de programación segura y criptografía",
+        "horas": 10,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 25.0,
+      "2": 25.0,
+      "3": 20.0,
+      "4": 15.0,
+      "5": 15.0
+    },
+    "formula_evaluacion": "Módulo = 0.25 · RA_1 + 0.25 · RA_2 + 0.20 · RA_3 + 0.15 · RA_4 + 0.15 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Java Development Kit (JDK), IntelliJ IDEA, Eclipse",
+      "Herramientas de análisis de red y sockets (Wireshark, Telnet/Netcat)",
+      "Librerías de criptografía de Java (JCE)",
+      "Plataforma Aules"
+    ],
+    "recursos_hardware": [
+      "Ordenadores de aula conectados en red local para pruebas de arquitectura cliente/servidor"
+    ]
+  },
+  "0491": {
+    "unidades_programacion": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Sistemas ERP-CRM-BI (Fundamentos y análisis de mercado)",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Instalación y configuración de un sistema ERP",
+        "horas": 4,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Octubre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Implantación de un ERP en la empresa",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Entorno de desarrollo y módulo Odoo",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Desarrollo de módulos: Modelo y Vista",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Desarrollo de módulos: Controlador, Herencia y Web Controllers",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD7: Desarrollo de componentes avanzados e integración",
+        "horas": 29,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA4",
+        "peso": 20.0
+      },
+      {
+        "codigo": "RA5",
+        "peso": 20.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos / Proyectos",
+        "porcentaje": 70,
+        "requisito": ">= 5"
+      },
+      {
+        "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+        "porcentaje": 30,
+        "requisito": ">= 5"
+      }
+    ],
+    "metodologia": "Aprendizaje aplicado sobre una plataforma ERP líder de código abierto (Odoo). Desarrollo en entorno local y Docker, configuración de módulos estándar y desarrollo de nuevos módulos con Python y XML siguiendo el patrón MVC.",
+    "recursos": {
+      "software": [
+        "Odoo Community Edition (Docker / entorno nativo)",
+        "Python 3, PostgreSQL, pgAdmin",
+        "Visual Studio Code / PyCharm",
+        "Git y GitHub"
+      ],
+      "hardware": [
+        "Ordenadores de aula con al menos 8 GB de RAM",
+        "Conexión a la red para el despliegue de servicios cliente-servidor"
+      ]
+    },
+    "espacios": "Aula de informática",
+    "unidades": [
+      {
+        "codigo": "UD 1",
+        "nombre": "UD1: Sistemas ERP-CRM-BI (Fundamentos y análisis de mercado)",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Octubre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UD 2",
+        "nombre": "UD2: Instalación y configuración de un sistema ERP",
+        "horas": 4,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Octubre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 3",
+        "nombre": "UD3: Implantación de un ERP en la empresa",
+        "horas": 15,
+        "trimestre": "1er Trimestre",
+        "inicio": "Octubre",
+        "fin": "Noviembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 4",
+        "nombre": "UD4: Entorno de desarrollo y módulo Odoo",
+        "horas": 20,
+        "trimestre": "1er Trimestre",
+        "inicio": "Noviembre",
+        "fin": "Diciembre",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UD 5",
+        "nombre": "UD5: Desarrollo de módulos: Modelo y Vista",
+        "horas": 20,
+        "trimestre": "2º Trimestre",
+        "inicio": "Enero",
+        "fin": "Enero",
+        "ras": [
+          3
+        ]
+      },
+      {
+        "codigo": "UD 6",
+        "nombre": "UD6: Desarrollo de módulos: Controlador, Herencia y Web Controllers",
+        "horas": 30,
+        "trimestre": "2º Trimestre",
+        "inicio": "Febrero",
+        "fin": "Febrero",
+        "ras": [
+          4
+        ]
+      },
+      {
+        "codigo": "UD 7",
+        "nombre": "UD7: Desarrollo de componentes avanzados e integración",
+        "horas": 29,
+        "trimestre": "2º Trimestre",
+        "inicio": "Marzo",
+        "fin": "Marzo",
+        "ras": [
+          5
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 20.0,
+      "2": 20.0,
+      "3": 20.0,
+      "4": 20.0,
+      "5": 20.0
+    },
+    "formula_evaluacion": "Módulo = 0.20 · RA_1 + 0.20 · RA_2 + 0.20 · RA_3 + 0.20 · RA_4 + 0.20 · RA_5",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "4": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ],
+      "5": [
+        {
+          "nombre": "Exámenes teórico-prácticos / Proyectos",
+          "peso_ra": 70.0
+        },
+        {
+          "nombre": "Prácticas/ Trabajos/ Casos prácticos",
+          "peso_ra": 30.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Odoo Community Edition (Docker / entorno nativo)",
+      "Python 3, PostgreSQL, pgAdmin",
+      "Visual Studio Code / PyCharm",
+      "Git y GitHub"
+    ],
+    "recursos_hardware": [
+      "Ordenadores de aula con al menos 8 GB de RAM",
+      "Conexión a la red para el despliegue de servicios cliente-servidor"
+    ]
+  },
+  "modulo_generico": {
+    "unidades_programacion": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y conceptos esenciales",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrollo práctico y aplicación técnica",
+        "horas": 40,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Integración de sistemas y proyecto aplicativo",
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "Marzo",
+        "fin": "Mayo",
+        "ras": [
+          3
+        ]
+      }
+    ],
+    "ponderaciones_ra": [
+      {
+        "codigo": "RA1",
+        "peso": 30.0
+      },
+      {
+        "codigo": "RA2",
+        "peso": 40.0
+      },
+      {
+        "codigo": "RA3",
+        "peso": 30.0
+      }
+    ],
+    "instrumentos_evaluacion": [
+      {
+        "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+        "porcentaje": 80,
+        "requisito": "Nota mínima de 5 sobre 10"
+      },
+      {
+        "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+        "porcentaje": 20,
+        "requisito": "Nota mínima de 5 sobre 10"
+      }
+    ],
+    "metodologia": "Metodología activa y orientada a la práctica (aprender haciendo / learning by doing), con resolución de supuestos reales, trabajo colaborativo y aprendizaje basado en proyectos. Se combina la exposición conceptual docente con actividades guiadas e individuales en aula-taller.",
+    "recursos": {
+      "software": [
+        "Sistemas operativos libres y propietarios (Linux/Windows)",
+        "Entornos integrados de desarrollo y suites de software del sector",
+        "Plataforma educativa Aules de la Generalitat Valenciana",
+        "Herramientas de control de versiones y gestión de proyectos"
+      ],
+      "hardware": [
+        "Equipos informáticos para el alumnado conectados a red local e Internet",
+        "Pizarra digital interactiva y cañón proyector en aula polivalente",
+        "Dispositivos periféricos e instrumental de laboratorio técnico"
+      ]
+    },
+    "espacios": "Aula de informática polivalente con conectividad cableada de alta velocidad, Taller de sistemas y mantenimiento de equipos",
+    "unidades": [
+      {
+        "codigo": "UP 1",
+        "nombre": "Unidad de Programación 1: Fundamentos y conceptos esenciales",
+        "horas": 30,
+        "trimestre": "1er Trimestre",
+        "inicio": "Septiembre",
+        "fin": "Noviembre",
+        "ras": [
+          1
+        ]
+      },
+      {
+        "codigo": "UP 2",
+        "nombre": "Unidad de Programación 2: Desarrollo práctico y aplicación técnica",
+        "horas": 40,
+        "trimestre": "2º Trimestre",
+        "inicio": "Diciembre",
+        "fin": "Febrero",
+        "ras": [
+          2
+        ]
+      },
+      {
+        "codigo": "UP 3",
+        "nombre": "Unidad de Programación 3: Integración de sistemas y proyecto aplicativo",
+        "horas": 30,
+        "trimestre": "3er Trimestre",
+        "inicio": "Marzo",
+        "fin": "Mayo",
+        "ras": [
+          3
+        ]
+      }
+    ],
+    "ra_ponderaciones": {
+      "1": 30.0,
+      "2": 40.0,
+      "3": 30.0
+    },
+    "formula_evaluacion": "Módulo = 0.30 · RA_1 + 0.40 · RA_2 + 0.30 · RA_3",
+    "instrumentos": {
+      "1": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "2": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 20.0
+        }
+      ],
+      "3": [
+        {
+          "nombre": "Exámenes teórico-prácticos y proyectos técnicos individuales",
+          "peso_ra": 80.0
+        },
+        {
+          "nombre": "Prácticas de laboratorio, tareas y supuestos prácticos aplicados",
+          "peso_ra": 20.0
+        }
+      ]
+    },
+    "recursos_software": [
+      "Sistemas operativos libres y propietarios (Linux/Windows)",
+      "Entornos integrados de desarrollo y suites de software del sector",
+      "Plataforma educativa Aules de la Generalitat Valenciana",
+      "Herramientas de control de versiones y gestión de proyectos"
+    ],
+    "recursos_hardware": [
+      "Equipos informáticos para el alumnado conectados a red local e Internet",
+      "Pizarra digital interactiva y cañón proyector en aula polivalente",
+      "Dispositivos periféricos e instrumental de laboratorio técnico"
+    ]
+  }
+}

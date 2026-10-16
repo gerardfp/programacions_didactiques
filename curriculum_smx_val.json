@@ -1,0 +1,3122 @@
+{
+  "ciclo": "SMX",
+  "codigo_ciclo": "IFC_SMX",
+  "titulo": "Cicle Formatiu de Grau Mitjà en Sistemes Microinformàtics i Xarxes",
+  "familia_profesional": "Informàtica i Comunicacions",
+  "nivel": "Grado Superior",
+  "normativa_referencia": "Reial Decret 1691/2007, de 14 de desembre, pel qual s'estableix el títol de Tècnic en Sistemes Microinformàtics i Xarxes i es fixen els seus ensenyaments mínims.",
+  "competencias_profesionales_personales_sociales": {
+    "b": "Muntar i configurar ordinadors i perifèrics, assegurant el seu funcionament en condicions de qualitat i seguretat."
+  },
+  "cualificaciones_profesionales": [],
+  "unidades_competencia": {},
+  "correspondencia_unidades_competencia": {},
+  "modulos": [
+    {
+      "codigo": "0221",
+      "nombre": "Muntatge i manteniment d'equips",
+      "siglas": "MME",
+      "curso_orientativo": "1r",
+      "horas": 130,
+      "creditos_ects": 5,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Aquest mòdul professional conté la formació necessària per a exercir la funció de muntar i mantenir equips microinformàtics i perifèrics comuns i adquirir una visió global i actualitzada del mercat.\n\nEl muntatge, revisió i manteniment d'equips microinformàtics i perifèrics inclou aspectes com:\n\nLa manipulació de tots els elements que formen el component físic dels equips microinformàtics.\n\nEl muntatge/desmuntatge dels components d'un equip microinformàtic.\nLa revisió mèdica i monitoratge d'equips.\nEl diagnòstic i resolució d'avaries.\nL'ampliació i/o substitució de components en equips.\nLa posada en funcionament i manteniment de perifèrics.\nLa constant adaptació als canvis i innovacions en aquest àmbit.\n\nLes activitats professionals associades a aquesta funció s'apliquen en:\n\nMuntatge i assemblament d'equips.\n\nManteniment d'equips.\nPosada en funcionament i manteniment de perifèrics.\nComercialització i atenció al client d'equips informàtics i perifèrics.\n\nLa formació del mòdul contribueix a assolir els objectius generals a), b), c), g), h), i), j), k) i l) del cicle formatiu, i les competències a), b), g), h), i), j), k) i l) del títol.\n\nLes línies d'actuació en el procés ensenyament-aprenentatge que permeten assolir els objectius del mòdul versaran sobre:\n\nLa identificació dels elements que formen el component físic dels equips informàtics.\n\nEl muntatge/desmuntatge d'equips microinformàtics.\nLa revisió dels equips muntats.\nEl diagnòstic d'equips amb problemes o avariats.\nEl muntatge/desmuntatge de components mecànics en perifèrics comuns.\nLa mesura de magnituds elèctriques.\nL'elaboració i/o interpretació d'inventaris, pressupostos, parts de muntatge i reparació.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Selecciona els components d'integració d'un equip microinformàtic estàndard, descrivint les seves funcions i comparant prestacions de diferents fabricants.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'han descrit els blocs que componen un equip microinformàtic i les seves funcions."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'ha reconegut l'arquitectura de busos."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Selecció de components d'equips microinformàtics estàndard",
+            "items": [
+              "Identificació dels blocs funcionals d'un sistema microinformàtic: Principals funcions de cada bloc."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Ensambla un equip microinformàtic, interpretant plans i instruccions del fabricant aplicant tècniques de muntatge.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'han seleccionat les eines i els estris necessaris per a l'assemblat d'equips microinformàtics."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'ha interpretat la documentació tècnica de tots els components que s'han d'assemblar."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Tipus de memòria. Característiques i funcions de cada tipus. Programari base i d'aplicació. Funcionalitat dels components de les plaques base",
+            "items": [
+              "Característiques dels microprocessadors.",
+              "Control de temperatures en un sistema microinformàtic. Dispositius integrats en placa. La memòria en una placa base. El programa de configuració de la placa base. Connectors E/S. Formats de placa base."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Mesura paràmetres elèctrics, identificant el tipus de senyal i relacionant-la amb les seves unitats característiques.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'ha identificat el tipus de senyal a mesurar amb l'aparell corresponent."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'ha seleccionat la magnitud, el rang de mesura i s'ha connectat l'aparell segons la magnitud a mesurar."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Anàlisi del mercat de components d'equips microinformàtics",
+            "items": [
+              "El xassís.",
+              "La memòria RAM. Discs fixos i controladores de disc. Suports de memòria auxiliar i unitats de lectura/enregistrament. L'adaptador gràfic i el monitor d'un equip microinformàtic. Connectivitat LAN i WAN d'un sistema microinformàtic. Components OEM i components «retail». Controladors de dispositius."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Manté equips informàtics interpretant les recomanacions dels fabricants i relacionant les disfuncions amb les seves causes.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'han reconegut els senyals acústics i/o visuals que avisen de problemes en el maquinari d'un equip."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'han identificat i solucionat les avaries produïdes per sobreescalfament del microprocessador."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Acoblat d'equips microinformàtics",
+            "items": [
+              "Seqüència de muntatge d'un ordinador.",
+              "Eines i estris. Precaucions i advertiments de seguretat. Acoblat del processador. Refrigerat del processador. Fixació dels mòduls de memòria RAM. Fixació i connexió de les unitats de disc Fijo. Fixació i connexió de les unitats de lectura / gravació en suports de memòria auxiliar. Fixació i connexió de la resta d'adaptadors i components. Utilitats de revisió mèdica i diagnòstic."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Instal·la programari en un equip informàtic utilitzant una imatge emmagatzemada en un suport de memòria i justificant el procediment a seguir.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "S'ha reconegut la diferència entre una instal·lació estàndard i una preinstal·lació de programari."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "S'han identificat i provat les diferents seqüències d'arrencada configurables en la placa base."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Mesurament de paràmetres elèctrics",
+            "items": [
+              "Tipus de senyals.",
+              "Valors tipus. Blocs d'una font d'alimentació. Sistemes d'alimentació interromput."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Reconeix noves tendències en l'assemblatge d'equips microinformàtics descrivint els seus avantatges i adaptant-les a les característiques d'ús dels equips.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "S'han reconegut les noves possibilitats per a donar forma al conjunt xassís-placa base."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "S'han descrit les prestacions i característiques d'algunes de les plataformes semiensambladas («barebones») més representatives del moment."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Manteniment d'equips microinformàtics",
+            "items": [
+              "Tècniques de manteniment preventiu.",
+              "Detecció d'avaries en un equip microinformàtic. Senyals d'avís, lluminoses i acústiques. Fallades comunes. Ampliacions de maquinari. Incompatibilitats."
+            ]
+          }
+        },
+        {
+          "numero": 7,
+          "descripcion": "Manté perifèrics, interpretant les recomanacions dels fabricants d'equips i relacionant disfuncions amb les seves causes.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "S'han identificat i solucionat problemes mecànics en perifèrics d'impressió estàndard."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "S'han substituït consumibles en perifèrics d'impressió estàndard."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instal·lació del Programari",
+            "items": [
+              "Opcions d'arrencada d'un ordinador.",
+              "Utilitats per a la creació d'imatges de partició/disc. Restauració d'imatges."
+            ]
+          }
+        },
+        {
+          "numero": 8,
+          "descripcion": "Compleix les normes de prevenció de riscos laborals i de protecció ambiental, identificant els riscos associats, les mesures i els equips per prevenir-los.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA8.a",
+              "descripcion": "S'han identificat els riscos i el nivell de perillositat que suposen la manipulació dels materials, eines, estris, màquines i mitjans de transport."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA8.b",
+              "descripcion": "S'han operat les màquines respectant les normes de seguretat."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aplicacions de noves tendències en equips informàtics",
+            "items": [
+              "Ocupació de barebons per al muntatge d'equips.",
+              "Informàtica mòbil."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Selecció de components d'equips microinformàtics estàndard",
+          "items": [
+            "Identificació dels blocs funcionals d'un sistema microinformàtic: Principals funcions de cada bloc."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Tipus de memòria. Característiques i funcions de cada tipus. Programari base i d'aplicació. Funcionalitat dels components de les plaques base",
+          "items": [
+            "Característiques dels microprocessadors.",
+            "Control de temperatures en un sistema microinformàtic. Dispositius integrats en placa. La memòria en una placa base. El programa de configuració de la placa base. Connectors E/S. Formats de placa base."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Anàlisi del mercat de components d'equips microinformàtics",
+          "items": [
+            "El xassís.",
+            "La memòria RAM. Discs fixos i controladores de disc. Suports de memòria auxiliar i unitats de lectura/enregistrament. L'adaptador gràfic i el monitor d'un equip microinformàtic. Connectivitat LAN i WAN d'un sistema microinformàtic. Components OEM i components «retail». Controladors de dispositius."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Acoblat d'equips microinformàtics",
+          "items": [
+            "Seqüència de muntatge d'un ordinador.",
+            "Eines i estris. Precaucions i advertiments de seguretat. Acoblat del processador. Refrigerat del processador. Fixació dels mòduls de memòria RAM. Fixació i connexió de les unitats de disc Fijo. Fixació i connexió de les unitats de lectura / gravació en suports de memòria auxiliar. Fixació i connexió de la resta d'adaptadors i components. Utilitats de revisió mèdica i diagnòstic."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Mesurament de paràmetres elèctrics",
+          "items": [
+            "Tipus de senyals.",
+            "Valors tipus. Blocs d'una font d'alimentació. Sistemes d'alimentació interromput."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Manteniment d'equips microinformàtics",
+          "items": [
+            "Tècniques de manteniment preventiu.",
+            "Detecció d'avaries en un equip microinformàtic. Senyals d'avís, lluminoses i acústiques. Fallades comunes. Ampliacions de maquinari. Incompatibilitats."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Instal·lació del Programari",
+          "items": [
+            "Opcions d'arrencada d'un ordinador.",
+            "Utilitats per a la creació d'imatges de partició/disc. Restauració d'imatges."
+          ]
+        },
+        {
+          "ra": 8,
+          "codigo_ra": "RA8",
+          "titulo": "Aplicacions de noves tendències en equips informàtics",
+          "items": [
+            "Ocupació de barebons per al muntatge d'equips.",
+            "Informàtica mòbil."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0222",
+      "nombre": "Sistemes operatius monolloc",
+      "siglas": "SOM",
+      "curso_orientativo": "2n",
+      "horas": 80,
+      "creditos_ects": 3,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Aquest mòdul professional conté la formació necessària per a exercir la funció d'instal·lació i explotació de sistemes operatius monoposat.\n\nLa definició d'aquestes funcions inclou aspectes com:\n\nLa instal·lació i actualització de sistemes operatius per a la seva utilització en sistemes microinformàtics.\n\nLa utilització de les funcionalitats del sistema microinformàtic mitjançant les eines del sistema operatiu.\nEl control i seguiment de l'activitat i rendiment del sistema operatiu.\nLa determinació i utilització dels recursos compartits del sistema operatiu.\nLa gestió dels usuaris i grups del sistema, així com els seus perfils i permisos.\nLa utilització de mecanismes de virtualització per a la realització de proves.\n\nLes activitats professionals associades a aquesta funció s'apliquen en:\n\nLa instal·lació i actualització de sistemes operatius en equips independents.\n\nLa utilització avançada del sistema operatiu.\nL'assistència a l'usuari final sobre l'ús del sistema operatiu.\n\nLa formació del mòdul contribueix a assolir els objectius generals a), c), g), h), i), j), k), l) i m) del cicle formatiu, i les competències a), c), g), h), k), l), m), n), ñ) i r) del títol.\nLes línies d'actuació en el procés ensenyament-aprenentatge que permeten assolir els objectius del mòdul versaran sobre:\n\nL'evolució dels canvis i novetats que es produeixen en el mercat sobre els sistemes operatius.\n\nLa instal·lació i actualització de sistemes operatius monoposat.\nL'elaboració de documents (manuals, informes, parts d'incidència, entre altres).\nL'assistència i resolució de problemes en la instal·lació de sistemes operatius.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Reconeix les característiques dels sistemes d'arxiu, descrivint els seus tipus i aplicacions.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'han identificat i descrit els elements funcionals d'un sistema informàtic."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'ha codificat i relacionat la informació en els diferents sistemes de representació."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Caracterització de sistemes operatius",
+            "items": [
+              "El sistema informàtic.",
+              "Programari de base d'un sistema informàtic. Concepte de sistema operatiu. Elements i estructura del Sistema Operatiu. Funcions del sistema operatiu. Recursos. Utilització del sistema operatiu: mode ordre, mode gràfic. Processos del sistema operatiu. Estats dels processos. Prioritat. Sistemes operatius actuals."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Instal·la sistemes operatius, relacionant les seves característiques amb el maquinari de l'equip i el programari d'aplicació.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'han analitzant les funcions del sistema operatiu."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'ha descrit l'arquitectura del sistema operatiu."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Operació de sistemes de fitxers",
+            "items": [
+              "Sistemes de fitxers, fitxer, directori, atributs, permisos."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Realitza tasques bàsiques de configuració de sistemes operatius, interpretant requeriments i descrivint els procediments seguits.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'han diferenciat les interfícies d'usuari segons les seves propietats."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'han aplicat les preferències a la configuració de l'entorn personal."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Operació amb fitxers",
+            "items": [
+              "nom i extensió, comodins, atributs, tipus. Operacions més comunes. Operació amb directoris: nom, atributs, permisos. Operacions més comunes. Selecció d'un sistema de fitxers. Tipus de sistemes d'arxius i les seves característiques. Transaccions. Sistemes transaccionals."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Realitza operacions bàsiques d'administració de sistemes operatius, interpretant requeriments i optimitzant el sistema per al seu ús.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'han configurat perfils d'usuari i grup."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'han utilitzat eines gràfiques per a descriure l'organització dels fitxers del sistema."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instal·lació de sistemes operatius lliures i propietaris",
+            "items": []
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Crea màquines virtuals identificant el seu camp d'aplicació i instal·lant programari específic.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "S'ha diferenciat entre màquina real i màquina virtual."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "S'han establert els avantatges i inconvenients de la utilització de màquines virtuals."
+            },
+            {
+              "letra": "e",
+              "codigo": "RA5.e",
+              "descripcion": ""
+            }
+          ],
+          "contenidos": {
+            "titulo": "Caracterització de sistemes operatius",
+            "items": [
+              "El sistema informàtic.",
+              "Programari de base d'un sistema informàtic. Sistema operatiu. Elements i estructura del Sistema Operatiu. Funcions del sistema operatiu. Recursos. Utilització del sistema operatiu: mode ordre, mode gràfic. Processos del sistema operatiu. Estats dels processos. Sistemes operatius actuals. Requisits tècnics del sistema operatiu. Planificació de la instal·lació: partions, sistema d'arxius. Selecció d'aplicacions bàsiques que s'han d'instal·lar. Paràmetres bàsics de la instal·lació."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Caracterització de sistemes operatius",
+          "items": [
+            "El sistema informàtic.",
+            "Programari de base d'un sistema informàtic. Concepte de sistema operatiu. Elements i estructura del Sistema Operatiu. Funcions del sistema operatiu. Recursos. Utilització del sistema operatiu: mode ordre, mode gràfic. Processos del sistema operatiu. Estats dels processos. Prioritat. Sistemes operatius actuals."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Operació de sistemes de fitxers",
+          "items": [
+            "Sistemes de fitxers, fitxer, directori, atributs, permisos."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Operació amb fitxers",
+          "items": [
+            "nom i extensió, comodins, atributs, tipus. Operacions més comunes. Operació amb directoris: nom, atributs, permisos. Operacions més comunes. Selecció d'un sistema de fitxers. Tipus de sistemes d'arxius i les seves característiques. Transaccions. Sistemes transaccionals."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Instal·lació de sistemes operatius lliures i propietaris",
+          "items": []
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Caracterització de sistemes operatius",
+          "items": [
+            "El sistema informàtic.",
+            "Programari de base d'un sistema informàtic. Sistema operatiu. Elements i estructura del Sistema Operatiu. Funcions del sistema operatiu. Recursos. Utilització del sistema operatiu: mode ordre, mode gràfic. Processos del sistema operatiu. Estats dels processos. Sistemes operatius actuals. Requisits tècnics del sistema operatiu. Planificació de la instal·lació: partions, sistema d'arxius. Selecció d'aplicacions bàsiques que s'han d'instal·lar. Paràmetres bàsics de la instal·lació."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0223",
+      "nombre": "Aplicacions ofimàtiques",
+      "siglas": "AO",
+      "curso_orientativo": "1r",
+      "horas": 135,
+      "creditos_ects": 5,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Aquest mòdul professional conté la formació necessària per a exercir la funció d'instal·lació i explotació d'aplicacions informàtiques.\n\nLa instal·lació i explotació d'aplicacions inclou aspectes com:\n\nLa recerca de programari d'aplicació adequat a l'entorn d'explotació.\n\nLa instal·lació i configuració d'aplicacions ofimàtiques.\nL'elaboració de documents i plantilles.\nLa resolució de problemes en l'explotació de les aplicacions.\nL'assistència a l'usuari.\n\nLes activitats professionals associades a aquesta funció s'apliquen en:\n\nLa instal·lació, configuració i manteniment d'aplicacions informàtiques.\n\nL'assistència en l'ús d'aplicacions informàtiques.\n\nLa formació del mòdul contribueix a assolir els objectius generals a), c), g), h), i), k), l), m), n) i o) del cicle formatiu i les competències a), c), f), g), h), j), k), l), m), n), ñ), p) i r) del títol.\nLes línies d'actuació en el procés ensenyament-aprenentatge que permeten assolir els objectius del mòdul versaran sobre:\nL'anàlisi dels canvis i novetats que es produeixen en el mercat d'aplicacions informàtiques.\n\nLa instal·lació i actualització d'aplicacions.\nL'elaboració de documents (manuals, informes, parts d'incidència, entre altres).\nL'assistència i resolució de problemes en l'explotació d'aplicacions.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Instal·la i actualitza aplicacions ofimàtiques, interpretant especificacions i descrivint els passos a seguir en el procés.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'han identificat i establert les fases del procés d'instal·lació."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'han respectat les especificacions tècniques del procés d'instal·lació."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instal·lació d'aplicacions",
+            "items": [
+              "Tipus d'aplicacions ofimàtiques.",
+              "Tipus de llicències programari. Necessitats dels entorns d'explotació. Procediments d'instal·lació i configuració."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Elabora documents i plantilles, descrivint i aplicant les opcions avançades de processadors de textos.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'ha personalitzat les opcions de programari i barra d'eines."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'han dissenyat plantilles."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Elaboració de documents i plantilles mitjançant processadors de text",
+            "items": [
+              "Estils.",
+              "Creació i ús de plantilles. Importació i exportació de documents. Disseny i creació de macros. Elaboració de diferents tipus de documents (manuals, parts d'incidències, entre altres)."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Elabora documents i plantilles de càlcul, descrivint i aplicant opcions avançades de fulls de càlcul.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'ha personalitzat les opcions de programari i barra d'eines."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'han utilitzat els diversos tipus de dades i referència per a cel·les, rangs, fulls i llibres."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Elaboració de documents i plantilles mitjançant fulls de càlcul",
+            "items": [
+              "Estils.",
+              "Utilització de fórmules i funcions. Creació de taules i gràfics dinàmics. Ús de plantilles i assistents. Elaboració de diferents tipus de documents (pressupostos, factures, inventaris, entre altres). Disseny i creació de macros."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Elabora documents amb bases de dades ofimàtiques descrivint i aplicant operacions de manipulació de dades.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'han identificat els elements de les bases de dades relacionals."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'han creat bases de dades ofimàtiques."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Utilització de bases de dades ofimàtiques",
+            "items": [
+              "Elements de les bases de dades relacionals.",
+              "Creació de bases de dades. Maneig d'assistents."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Manipula imatges digitals analitzant les possibilitats de diferents programes i aplicant tècniques de captura i edició bàsiques.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "S'han analitzat els diferents formats d'imatges."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "S'ha realitzat l'adquisició d'imatges amb perifèrics."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Manipulació d'imatges",
+            "items": [
+              "Formats i resolució d'imatges.",
+              "Utilització de retoc fotogràfic, ajustos d'imatge i de color. Importació i exportació d'imatges."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Manipula seqüències de vídeo analitzant les possibilitats de diferents programes i aplicant tècniques de captura i edició bàsiques.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "S'han reconegut els elements que componen una seqüència de vídeo."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "S'han estudiat els tipus de formats i codecs més emprats."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Manipulació de vídeos",
+            "items": [
+              "Formats de vídeo.",
+              "Importació i exportació de vídeos."
+            ]
+          }
+        },
+        {
+          "numero": 7,
+          "descripcion": "Elabora presentacions multimèdia descrivint i aplicant normes bàsiques de composició i disseny.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "S'han identificat les opcions bàsiques de les aplicacions de presentacions."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "S'han reconegut els diferents tipus de vista associats a una presentació."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Elaboració de presentacions",
+            "items": [
+              "Disseny i edició de diapositives.",
+              "Formatació de diapositives, textos i objectes. Importació i exportació de presentacions. Utilització de plantilles i assistents. Patrons de diapositives."
+            ]
+          }
+        },
+        {
+          "numero": 8,
+          "descripcion": "Realitza operacions de gestió del correu i l'agenda electrònica, relacionant necessitats d'ús amb la seva configuració.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA8.a",
+              "descripcion": "S'han descrit els elements que componen un correu electrònic."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA8.b",
+              "descripcion": "S'han analitzat les necessitats bàsiques de gestió de correu i agenda electrònica."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestió de correu i agenda electrònica",
+            "items": [
+              "Entorn de treball: configuració i personalització.",
+              "Plantilles i signatures corporatives. Fòrums de notícies (news). La llibreta d'adreces. Gestió de correus. Gestió de l'agenda."
+            ]
+          }
+        },
+        {
+          "numero": 9,
+          "descripcion": "Aplica tècniques de suport en l'ús d'aplicacions, identificant i resolent incidències.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA9.a",
+              "descripcion": "S'han elaborat guies visuals amb els conceptes bàsics d'ús d'una aplicació."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA9.b",
+              "descripcion": "S'han identificat problemes relacionats amb l'ús d'aplicacions ofimàtiques."
+            },
+            {
+              "letra": "s",
+              "codigo": "RA9.s",
+              "descripcion": "."
+            },
+            {
+              "letra": "s",
+              "codigo": "RA9.s",
+              "descripcion": ".\nDD"
+            },
+            {
+              "letra": "s",
+              "codigo": "RA9.s",
+              "descripcion": ".\nL"
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aplicació de tècniques de suport",
+            "items": [
+              "Elaboració de guies i manuals d'ús d'aplicacions.",
+              "Formació a l'usuari."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Instal·lació d'aplicacions",
+          "items": [
+            "Tipus d'aplicacions ofimàtiques.",
+            "Tipus de llicències programari. Necessitats dels entorns d'explotació. Procediments d'instal·lació i configuració."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Elaboració de documents i plantilles mitjançant processadors de text",
+          "items": [
+            "Estils.",
+            "Creació i ús de plantilles. Importació i exportació de documents. Disseny i creació de macros. Elaboració de diferents tipus de documents (manuals, parts d'incidències, entre altres)."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Elaboració de documents i plantilles mitjançant fulls de càlcul",
+          "items": [
+            "Estils.",
+            "Utilització de fórmules i funcions. Creació de taules i gràfics dinàmics. Ús de plantilles i assistents. Elaboració de diferents tipus de documents (pressupostos, factures, inventaris, entre altres). Disseny i creació de macros."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Utilització de bases de dades ofimàtiques",
+          "items": [
+            "Elements de les bases de dades relacionals.",
+            "Creació de bases de dades. Maneig d'assistents."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Manipulació d'imatges",
+          "items": [
+            "Formats i resolució d'imatges.",
+            "Utilització de retoc fotogràfic, ajustos d'imatge i de color. Importació i exportació d'imatges."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Manipulació de vídeos",
+          "items": [
+            "Formats de vídeo.",
+            "Importació i exportació de vídeos."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Elaboració de presentacions",
+          "items": [
+            "Disseny i edició de diapositives.",
+            "Formatació de diapositives, textos i objectes. Importació i exportació de presentacions. Utilització de plantilles i assistents. Patrons de diapositives."
+          ]
+        },
+        {
+          "ra": 8,
+          "codigo_ra": "RA8",
+          "titulo": "Gestió de correu i agenda electrònica",
+          "items": [
+            "Entorn de treball: configuració i personalització.",
+            "Plantilles i signatures corporatives. Fòrums de notícies (news). La llibreta d'adreces. Gestió de correus. Gestió de l'agenda."
+          ]
+        },
+        {
+          "ra": 9,
+          "codigo_ra": "RA9",
+          "titulo": "Aplicació de tècniques de suport",
+          "items": [
+            "Elaboració de guies i manuals d'ús d'aplicacions.",
+            "Formació a l'usuari."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0224",
+      "nombre": "Sistemes operatius en xarxa",
+      "siglas": "SOR",
+      "curso_orientativo": "2n",
+      "horas": 95,
+      "creditos_ects": 4,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Aquest mòdul professional conté la formació necessària per a exercir les funcions d'instal·lació i manteniment de sistemes operatius en xarxa.\n\nLa definició d'aquestes funcions inclou aspectes com:\n\nEls processos d'instal·lació i actualització de sistemes operatius en xarxa per a la seva utilització en sistemes microinformàtics.\n\nLa utilització de les funcionalitats del sistema microinformàtic mitjançant les eines del sistema operatiu en xarxa.\nEl control i seguiment de l'activitat i rendiment del sistema operatiu en xarxa.\nLa gestió dels recursos compartits del sistema operatiu en xarxes homogènies i heterogènies.\nLa gestió d'usuaris i grups, així com els seus perfils i permisos.\nLa utilització de mecanismes de virtualització per a la realització de proves.\n\nLes activitats professionals associades a aquesta funció s'apliquen en:\n\nLa instal·lació de sistemes operatius.\n\nLa gestió de sistemes en xarxa.\nEl monitoratge de sistemes operatius.\n\nLa formació del mòdul contribueix a assolir els objectius generals a), c), d), f), g), h), i), j), k), l), m) i ñ) del cicle formatiu, i les competències a), c), e), f), h), l), m), n), ñ), p), q) i r) del títol.\nLes línies d'actuació en el procés ensenyament-aprenentatge que permeten assolir els objectius del mòdul versaran sobre:\n\nLa instal·lació i actualització de sistemes operatius en xarxa.\n\nLa gestió d'usuaris i grups.\nLa gestió de dominis.\nLa gestió dels recursos compartits en xarxes homogènies.\nEl monitoratge i ús del sistema operatiu en xarxa.\nLa integració de sistemes operatius en xarxes heterogènies.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Instal·la sistemes operatius en xarxa descrivint les seves característiques i interpretant la documentació tècnica.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'ha realitzat l'estudi de compatibilitat del sistema informàtic."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'han diferenciat els modes d'instal·lació."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instal·lació de sistemes operatius en xarxa",
+            "items": [
+              "Comprovació dels requisits tècnics.",
+              "Preparació de la instal·lació. Particions i sistema de fitxers Components. Mètodes. Automatització. Elaboració de la documentació sobre la instal·lació i incidències. Instal·lació de sistemes operatius en xarxa en màquines virtuals."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Gestiona usuaris i grups de sistemes operatius en xarxa, interpretant especificacions i aplicant eines del sistema.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'han configurat i gestionat comptes d'usuari."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'han configurat i gestionat perfils d'usuari."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestió d'usuaris i grups",
+            "items": [
+              "Compte d'usuari i grup.",
+              "Tipus de perfils d'usuari. Perfils mòbils. Gestió de grups. Tipus i àmbits. Propietats. Usuaris i grups predeterminats i especials del sistema. Comptes d'usuari. Plantilles."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Realitza tasques de gestió sobre dominis identificant necessitats i aplicant eines d'administració de dominis.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'ha identificat la funció del servei de directori, els seus elements i nomenclatura."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'ha reconegut el concepte de domini i les seves funcions."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestió de dominis",
+            "items": [
+              "Servei de directori i domini.",
+              "Elements del servei de directori. Funcions del domini. Instal·lació d'un servei de directori. Configuració bàsica. Creació de dominis. Objectes que administra un domini: usuaris globals, grups, equips entre d'altres. Creació de relacions de confiança entre dominis. Creació d'agrupacions d'elements: nomenclatura."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Gestiona els recursos compartits del sistema, interpretant especificacions i determinant nivells de seguretat.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'ha reconegut la diferència entre permís i dret."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'han identificat els recursos del sistema que es compartiran i en quines condicions."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestió de les comparticions en xarxa",
+            "items": [
+              "Permisos i drets.",
+              "Compartir fitxers i directoris a través de la xarxa. Configuració dels permisos de compartició. Configuració d'impressores compartides en xarxa."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Fa tasques de monitoratge i ús del sistema operatiu en xarxa, descrivint les eines utilitzades i identificant les principals incidències.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "S'han descrit les característiques dels programes de monitoratge."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "S'han identificat problemes de rendiment en els dispositius d'emmagatzematge."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Monitoratge i ús del sistema operatiu en xarxa",
+            "items": [
+              "Arrenament del sistema operatiu en xarxa."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Realitza tasques d'integració de sistemes operatius lliures i propietaris, descrivint els avantatges de compartir recursos i instal·lant programari específic.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "S'ha identificat la necessitat de compartir recursos en xarxa entre diferents sistemes operatius."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "S'ha comprovat la connectivitat de la xarxa en un escenari heterogeni."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Descripció de les fallades produïdes en l'arrencada",
+            "items": [
+              "solucions. Utilització d'eines per al control i seguiment del rendiment del sistema operatiu en xarxa. Gestió dels processos relatius als serveis del sistema operatiu en xarxa."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Instal·lació de sistemes operatius en xarxa",
+          "items": [
+            "Comprovació dels requisits tècnics.",
+            "Preparació de la instal·lació. Particions i sistema de fitxers Components. Mètodes. Automatització. Elaboració de la documentació sobre la instal·lació i incidències. Instal·lació de sistemes operatius en xarxa en màquines virtuals."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Gestió d'usuaris i grups",
+          "items": [
+            "Compte d'usuari i grup.",
+            "Tipus de perfils d'usuari. Perfils mòbils. Gestió de grups. Tipus i àmbits. Propietats. Usuaris i grups predeterminats i especials del sistema. Comptes d'usuari. Plantilles."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Gestió de dominis",
+          "items": [
+            "Servei de directori i domini.",
+            "Elements del servei de directori. Funcions del domini. Instal·lació d'un servei de directori. Configuració bàsica. Creació de dominis. Objectes que administra un domini: usuaris globals, grups, equips entre d'altres. Creació de relacions de confiança entre dominis. Creació d'agrupacions d'elements: nomenclatura."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Gestió de les comparticions en xarxa",
+          "items": [
+            "Permisos i drets.",
+            "Compartir fitxers i directoris a través de la xarxa. Configuració dels permisos de compartició. Configuració d'impressores compartides en xarxa."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Monitoratge i ús del sistema operatiu en xarxa",
+          "items": [
+            "Arrenament del sistema operatiu en xarxa."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Descripció de les fallades produïdes en l'arrencada",
+          "items": [
+            "solucions. Utilització d'eines per al control i seguiment del rendiment del sistema operatiu en xarxa. Gestió dels processos relatius als serveis del sistema operatiu en xarxa."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0225",
+      "nombre": "Xarxes locals",
+      "siglas": "RL",
+      "curso_orientativo": "1r",
+      "horas": 130,
+      "creditos_ects": 5,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Aquest mòdul professional conté la formació necessària per a exercir la funció d'instal·lació i manteniment de xarxes locals en petits entorns.\n\nLa definició d'aquestes funcions inclou aspectes com:\n\nEl muntatge de les canalitzacions i l'estesa de línies per a xarxes locals cablejades.\n\nEl muntatge dels elements de la xarxa local.\nLa integració dels elements de la xarxa.\nEl monitoratge de la xarxa local.\nLa resolució d'incidències físiques i lògiques de la xarxa local.\n\nLes activitats professionals associades a aquesta funció s'apliquen en:\nEl muntatge de xarxes locals cablejades, sense fils i mixtes.\n\nEl manteniment de la xarxa local.\n\nLa formació del mòdul contribueix a assolir els objectius generals a), b), d), e), f), g), h), i), j), k), i l) i m) del cicle formatiu, i les competències c), e), f), g), h), j), i l), del títol.\nLes línies d'actuació en el procés ensenyament-aprenentatge que permeten assolir els objectius del mòdul versaran sobre:\n\nLa identificació dels elements de la xarxa local.\n\nLa interpretació de la documentació tècnica dels elements de la xarxa local.\nEl muntatge de les canalitzacions i l'estesa del.\nLa instal·lació i configuració dels elements de la xarxa.\nL'elaboració i interpretació de la documentació tècnica sobre la distribució de la xarxa local.\nLa resolució de problemes sorgits en l'explotació de la xarxa local.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Reconeix l'estructura de xarxes locals cablejades analitzant les característiques d'entorns d'aplicació i descrivint la funcionalitat dels seus components.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'han descrit els principis de funcionament de les xarxes locals."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'han identificat els diferents tipus de xarxes."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Desplegament del cablejat",
+            "items": []
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Desplaça el cablejat d'una xarxa local interpretant especificacions i aplicant tècniques de muntatge.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'han reconegut els principis funcionals de les xarxes locals."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'han identificat els diferents tipus de xarxes."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Caracterització de Xarxes locals",
+            "items": [
+              "Característiques. Avantatges i inconvenients.",
+              "Tipus. Elements de xarxa. Topologies."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Interconnecta equips en xarxes locals cablejades descrivint estàndards de cablejat i aplicant tècniques de muntatge de connectors.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'ha interpretat el pla de muntatge lògic de la xarxa."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'han muntat els adaptadors de xarxa en els equips."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Identificació d'elements i espais físics d'una xarxa local",
+            "items": [
+              "Espais.",
+              "Quarts de comunicacions. Armaris de comunicacions. Panells de pedaç. Canalitzacions",
+              "Mitjans de transmissió (parell trenat, fibra òptica, entre altres).",
+              "Connectors i preses de xarxa. Eines. Connexió de preses i panells de pegat. Creació de cables. Recomanacions en la instal·lació del cablejat."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Instal·la equips en xarxa, descrivint les seves prestacions i aplicant tècniques de muntatge.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'han identificat les característiques funcionals de les xarxes sense fils."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'han identificat les maneres de funcionament de les xarxes sense fils."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Interconnexió d'equips en xarxes locals",
+            "items": [
+              "Adaptadors per a xarxa cablejada.",
+              "Dispositius d'interconnexió de xarxes. Adaptadors per a xarxes sense fils. Dispositius d'interconnexió de xarxes sense fils. Xarxes mixtes."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Manté una xarxa local interpretant recomanacions dels fabricants de maquinari o programari i establint la relació entre disfuncions i les seves causes.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "S'han identificat incidències i comportaments anòmals."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "S'ha identificat si la disfunció és deguda al maquinari o al programari."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instal·lació / configuració dels equips de xarxa",
+            "items": [
+              "Procediments d'instal·lació.",
+              "Protocols. TCP/IP. Estructura. Classes IP. Direccions IP. Ipv4. IPv6. Configuració dels adaptadors de xarxa en sistemes operatius lliures i propietaris. Configuració bàsica dels dispositius d'interconnexió de xarxa cablejada i sense fil. Seguretat bàsica en xarxes cablejades i sense fils."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Compleix les normes de prevenció de riscos laborals i de protecció ambiental, identificant els riscos associats, les mesures i els equips per prevenir-los.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "S'han identificat els riscos i el nivell de perillositat que suposen la manipulació dels materials, eines, estris, màquines i mitjans de transport."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "S'han operat les màquines respectant les normes de seguretat."
+            },
+            {
+              "letra": "s",
+              "codigo": "RA6.s",
+              "descripcion": "."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Resolució d'incidències d'una xarxa d'àrea local",
+            "items": [
+              "Estratègies. Paràmetres del rendiment.",
+              "Incidències físiques i incidències lògiques en xarxes locals. Monitoratge de xarxes cablejades i sense fils. Eines de diagnòstic. Comandos i programes.",
+              "Compliment de les normes de prevenció de riscos laborals i protecció ambiental: Identificació de riscos.",
+              "Determinació de les mesures de prevenció de riscos laborals. Prevenció de riscos laborals en els processos de muntatge. Equips de protecció individual. Compliment de la normativa de prevenció de riscos laborals. Compliment de la normativa de protecció ambiental."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Desplegament del cablejat",
+          "items": []
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Caracterització de Xarxes locals",
+          "items": [
+            "Característiques. Avantatges i inconvenients.",
+            "Tipus. Elements de xarxa. Topologies."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Identificació d'elements i espais físics d'una xarxa local",
+          "items": [
+            "Espais.",
+            "Quarts de comunicacions. Armaris de comunicacions. Panells de pedaç. Canalitzacions",
+            "Mitjans de transmissió (parell trenat, fibra òptica, entre altres).",
+            "Connectors i preses de xarxa. Eines. Connexió de preses i panells de pegat. Creació de cables. Recomanacions en la instal·lació del cablejat."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Interconnexió d'equips en xarxes locals",
+          "items": [
+            "Adaptadors per a xarxa cablejada.",
+            "Dispositius d'interconnexió de xarxes. Adaptadors per a xarxes sense fils. Dispositius d'interconnexió de xarxes sense fils. Xarxes mixtes."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Instal·lació / configuració dels equips de xarxa",
+          "items": [
+            "Procediments d'instal·lació.",
+            "Protocols. TCP/IP. Estructura. Classes IP. Direccions IP. Ipv4. IPv6. Configuració dels adaptadors de xarxa en sistemes operatius lliures i propietaris. Configuració bàsica dels dispositius d'interconnexió de xarxa cablejada i sense fil. Seguretat bàsica en xarxes cablejades i sense fils."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Resolució d'incidències d'una xarxa d'àrea local",
+          "items": [
+            "Estratègies. Paràmetres del rendiment.",
+            "Incidències físiques i incidències lògiques en xarxes locals. Monitoratge de xarxes cablejades i sense fils. Eines de diagnòstic. Comandos i programes.",
+            "Compliment de les normes de prevenció de riscos laborals i protecció ambiental: Identificació de riscos.",
+            "Determinació de les mesures de prevenció de riscos laborals. Prevenció de riscos laborals en els processos de muntatge. Equips de protecció individual. Compliment de la normativa de prevenció de riscos laborals. Compliment de la normativa de protecció ambiental."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0226",
+      "nombre": "Seguretat informàtica",
+      "siglas": "SI",
+      "curso_orientativo": "2n",
+      "horas": 75,
+      "creditos_ects": 3,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Aquest mòdul professional conté la formació necessària per exercir la funció d'implantació de mesures de seguretat en sistemes informàtics.\n\nLa definició d'aquesta funció inclou aspectes com:\n\nLa instal·lació d'equips i servidors en entorns segurs.\n\nLa incorporació de procediments de seguretat en el tractament de la informació.\nL'actualització dels sistemes operatius i el programari d'aplicació instal·lat.\nLa protecció enfront de programari maliciós.\nL'aplicació de la legislació i normativa sobre seguretat i protecció de la informació.\n\nLes activitats professionals associades a aquesta funció s'apliquen en:\n\nLa instal·lació d'equipament informàtic.\n\nEl tractament, transmissió i emmagatzematge de la informació.\nEl manteniment dels sistemes informàtics.\n\nLa formació del mòdul contribueix a assolir els objectius generals a), c), d), e), g), k) i l) del cicle formatiu, i les competències a), c), i), j), l), n), o), p) i t) del títol.\n\nLes línies d'actuació en el procés ensenyament-aprenentatge que permeten assolir els objectius del mòdul versaran sobre:\n\nLa protecció d'equips i xarxes informàtiques.\n\nLa protecció de la informació transmesa i emmagatzemada.\nLa legislació i normativa vigent en matèria de seguretat.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Aplica mesures de seguretat passiva en sistemes informàtics descrivint característiques d'entorns i relacionant-les amb les seves necessitats.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'ha valorat la importància de mantenir la informació segura."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'han descrit les diferències entre seguretat física i lògica."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aplicació de mesures de seguretat passiva",
+            "items": [
+              "Ubicació i protecció física dels equips i servidors.",
+              "Sistemes d'alimentació ininterrompuda."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Gestiona dispositius d'emmagatzematge descrivint els procediments efectuats i aplicant tècniques per a assegurar la integritat de la informació.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'ha interpretat la documentació tècnica relativa a la política d'emmagatzematge."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'han tingut en compte factors inherents a l'emmagatzematge de la informació (rendiment, disponibilitat, accessibilitat, entre altres)."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestió de dispositius d'emmagatzematge",
+            "items": []
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Aplica mecanismes de seguretat activa descrivint les seves característiques i relacionant-les amb les necessitats d'ús del sistema informàtic.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'han seguit plans de contingència per a actuar davant fallades de seguretat."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'han classificat els principals tipus de programari maliciós."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Emmagatzematge de la informació",
+            "items": [
+              "disponibilitat, accessibilitat.",
+              "Emmagatzematge redundant i distribuït. Emmagatzematge remot i extraïble. Criptografia. Còpies de seguretat i imatges de còpia de seguretat. Mitjans d'emmagatzematge."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Assegura la privacitat de la informació transmesa en xarxes informàtiques descrivint vulnerabilitats i instal·lant programari específic.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'ha identificat la necessitat d'inventariar i controlar els serveis de xarxa."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'ha contrastat la incidència de les tècniques d'enginyeria social en els fraus informàtics i robatoris d'informació."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Aplicació de mecanismes de seguretat activa",
+            "items": [
+              "Identificació digital. Signatura electrònica i certificat digital.",
+              "Seguretat en els protocols per a comunicacions sense fils. Utilització de tallafocs en un sistema o servidor. Llistes de control d'accés. Política de contrasenyes. Recuperació de dades. Programari maliciós. Classificació. Eines de protecció i desinfecció."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Reconeix la legislació i normativa sobre seguretat i protecció de dades analitzant les repercussions del seu incompliment.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "S'ha descrit la legislació sobre protecció de dades de caràcter personal."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "S'ha determinat la necessitat de controlar l'accés a la informació personal emmagatzemada."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Assegurament de la privadesa",
+            "items": [
+              "Mètodes per assegurar la privacitat de la informació transmesa.",
+              "Fraus informàtics i robatoris d'informació. Control del monitoratge en xarxes cablejades. Seguretat en xarxes sense fils. Sistemes d'identificació: signatura electrònica, certificats digitals i altres. Tallafocs en equips i servidors."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Aplicació de mesures de seguretat passiva",
+          "items": [
+            "Ubicació i protecció física dels equips i servidors.",
+            "Sistemes d'alimentació ininterrompuda."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Gestió de dispositius d'emmagatzematge",
+          "items": []
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Emmagatzematge de la informació",
+          "items": [
+            "disponibilitat, accessibilitat.",
+            "Emmagatzematge redundant i distribuït. Emmagatzematge remot i extraïble. Criptografia. Còpies de seguretat i imatges de còpia de seguretat. Mitjans d'emmagatzematge."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Aplicació de mecanismes de seguretat activa",
+          "items": [
+            "Identificació digital. Signatura electrònica i certificat digital.",
+            "Seguretat en els protocols per a comunicacions sense fils. Utilització de tallafocs en un sistema o servidor. Llistes de control d'accés. Política de contrasenyes. Recuperació de dades. Programari maliciós. Classificació. Eines de protecció i desinfecció."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Assegurament de la privadesa",
+          "items": [
+            "Mètodes per assegurar la privacitat de la informació transmesa.",
+            "Fraus informàtics i robatoris d'informació. Control del monitoratge en xarxes cablejades. Seguretat en xarxes sense fils. Sistemes d'identificació: signatura electrònica, certificats digitals i altres. Tallafocs en equips i servidors."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0227",
+      "nombre": "Serveis en xarxa",
+      "siglas": "SR",
+      "curso_orientativo": "1r",
+      "horas": 95,
+      "creditos_ects": 4,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Aquest mòdul professional conté la formació necessària per a exercir la funció d'instal·lació i manteniment de serveis en xarxes informàtiques cablejades i sense fils.\n\nLa definició d'aquestes funcions inclou aspectes com:\n\nLa identificació de les principals aplicacions usades en xarxes informàtiques per a executar serveis de xarxa.\n\nLa definició dels aspectes tècnics dels serveis de xarxa més estesos.\nLa selecció d'un servei de xarxa i d'una aplicació específica sobre la base de les seves característiques.\nLa instal·lació i configuració de serveis en xarxes locals i públiques.\nLa configuració de punts d'accés sense fils establint la seguretat de les comunicacions.\nLa posada en marxa de mecanismes de connexió a xarxes públiques.\n\nLes activitats professionals associades a aquesta funció s'apliquen en:\n\nLa implantació i manteniment de serveis de xarxa.\n\nEl desplegament de xarxes sense fils.\nLa connexió de xarxes locals amb xarxes públiques.\n\nLa formació del mòdul contribueix a assolir els objectius generals d), f), h), i), k), l) i m) del cicle formatiu i les competències a), d), e), f), g), j), m), ñ) i r) del títol.\nLes línies d'actuació en el procés ensenyament-aprenentatge que permeten assolir els objectius del mòdul versaran sobre:\n\nLa configuració automàtica dels paràmetres de xarxa.\n\nLa implantació de serveis de resolució de noms.\nLa implantació de serveis de transferència de fitxers.\nLa implantació de serveis de correu electrònic.\nLa implantació de serveis web.\nLa implantació de serveis d'accés remot.\nEl desplegament de xarxes sense fils.\nLa connexió de xarxes locals a xarxes públiques.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Instal·la serveis de configuració dinàmica, descrivint les seves característiques i aplicacions.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'ha reconegut el funcionament dels mecanismes automatitzats de configuració dels paràmetres de xarxa."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'han identificat els avantatges que proporcionen."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instal·lació de serveis de configuració dinàmica de",
+            "items": [
+              "Adreça IP, màscara de xarxa, porta d'enllaç.",
+              "DHCP. Rangs, exclusions, concessions i reserves."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Instal·la serveis de resolució de noms, descrivint les seves característiques i aplicacions.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'han identificat i descrit escenaris en els quals sorgeix la necessitat d'un servei de resolució de noms."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'han classificat els principals mecanismes de resolució de noms."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instal·lació de serveis de resolució de noms",
+            "items": [
+              "Sistemes de noms plans i jeràrquics.",
+              "Zones primàries i secundàries. Transferències de zona. Tipus de registres."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Instal·la serveis de transferència de fitxers, descrivint les seves característiques i aplicacions.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'ha establert la utilitat i manera d'operació del servei de transferència de fitxers."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'ha instal·lat un servei de transferència de fitxers."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instal·lació de serveis de transferència de fitxers",
+            "items": [
+              "Usuaris i grups. Accés anònim.",
+              "Permisos. Quotes. Límit d'amplada de banda. Comandos de control, autenticació, gestió i transferència de fitxers. Transferència en mode text i binari."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Gestiona servidors de correu electrònic identificant requeriments d'utilització i aplicant criteris de configuració.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'han descrit els diferents protocols que intervenen en l'enviament i recollida del correu electrònic."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'ha instal·lat un servidor de correu."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestió de serveis de correu electrònic",
+            "items": [
+              "Comptes de correu, àlies i bústies d'usuari.",
+              "Protocols i serveis de descàrrega de correu."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Gestiona servidors web identificant requeriments d'utilització i aplicant criteris de configuració.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "S'han descrit els fonaments i protocols en els quals es basa el funcionament d'un servidor web."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "S'ha instal·lat un servidor web."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestió de servidors web",
+            "items": [
+              "Servidors virtuals. Nom de la capçalera de l'host. Identificació d'un servidor virtual.",
+              "Accés anònim i autentificat. Mètodes d'autenticació."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Gestiona mètodes d'accés remot descrivint les seves característiques i instal·lant els serveis corresponents.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "S'han descrit mètodes d'accés i administració remota de sistemes."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "S'ha instal·lat un servei d'accés remot en línia d'ordres."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestió d'accés remot",
+            "items": [
+              "Terminals en mode text.",
+              "Terminals en mode gràfic."
+            ]
+          }
+        },
+        {
+          "numero": 7,
+          "descripcion": "Desplaça xarxes sense fils segures justificant la configuració triada i descrivint els procediments d'implantació.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "S'ha instal·lat un punt d'accés sense fil dins d'una xarxa local."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "S'han reconegut els protocols, maneres de funcionament i principals paràmetres de configuració del punt d'accés."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Desplegament de xarxes sense fils",
+            "items": [
+              "Punts d'accés.",
+              "Encaminadors sense fils. Seguretat en xarxes sense fils."
+            ]
+          }
+        },
+        {
+          "numero": 8,
+          "descripcion": "Estableix l'accés des de xarxes locals a xarxes públiques identificant possibles escenaris i aplicant programari específic.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA8.a",
+              "descripcion": "S'ha instal·lat i configurat el maquinari d'un sistema amb accés a una xarxa privada local i a una xarxa pública."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA8.b",
+              "descripcion": "S'ha instal·lat una aplicació que actuï de passarel·la entre la xarxa privada local i la xarxa pública."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Interconnexió de xarxes privades amb xarxes públiques",
+            "items": [
+              "Passarel·les a nivell d'aplicació. Emmagatzematge en memòria cau.",
+              "Enrutament de trànsit entre interfícies de xarxa."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Instal·lació de serveis de configuració dinàmica de",
+          "items": [
+            "Adreça IP, màscara de xarxa, porta d'enllaç.",
+            "DHCP. Rangs, exclusions, concessions i reserves."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Instal·lació de serveis de resolució de noms",
+          "items": [
+            "Sistemes de noms plans i jeràrquics.",
+            "Zones primàries i secundàries. Transferències de zona. Tipus de registres."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Instal·lació de serveis de transferència de fitxers",
+          "items": [
+            "Usuaris i grups. Accés anònim.",
+            "Permisos. Quotes. Límit d'amplada de banda. Comandos de control, autenticació, gestió i transferència de fitxers. Transferència en mode text i binari."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Gestió de serveis de correu electrònic",
+          "items": [
+            "Comptes de correu, àlies i bústies d'usuari.",
+            "Protocols i serveis de descàrrega de correu."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Gestió de servidors web",
+          "items": [
+            "Servidors virtuals. Nom de la capçalera de l'host. Identificació d'un servidor virtual.",
+            "Accés anònim i autentificat. Mètodes d'autenticació."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Gestió d'accés remot",
+          "items": [
+            "Terminals en mode text.",
+            "Terminals en mode gràfic."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Desplegament de xarxes sense fils",
+          "items": [
+            "Punts d'accés.",
+            "Encaminadors sense fils. Seguretat en xarxes sense fils."
+          ]
+        },
+        {
+          "ra": 8,
+          "codigo_ra": "RA8",
+          "titulo": "Interconnexió de xarxes privades amb xarxes públiques",
+          "items": [
+            "Passarel·les a nivell d'aplicació. Emmagatzematge en memòria cau.",
+            "Enrutament de trànsit entre interfícies de xarxa."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0228",
+      "nombre": "Aplicacions web",
+      "siglas": "AW",
+      "curso_orientativo": "2n",
+      "horas": 55,
+      "creditos_ects": 2,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Aquest mòdul professional conté la formació necessària per a exercir la funció d'instal·lació, configuració i utilització d'aplicacions web.\n\nLa definició d'aquestes funcions inclou aspectes com:\n\nLa identificació de les principals aplicacions web.\n\nLa instal·lació de les aplicacions.\nEl manteniment dels usuaris.\nL'assignació de permisos.\nLa utilització de les aplicacions instal·lades.\n\nLes activitats professionals associades a aquestes funcions s'apliquen en:\n\nLa instal·lació, configuració i manteniment d'aplicacions informàtiques.\n\nL'assistència en l'ús d'aplicacions informàtiques.\n\nLa formació del mòdul contribueix a assolir els objectius generals a), c), i), k), l) i m) del cicle formatiu, i les competències a), c), f), i), j), m), n), ñ), q) i r) del títol.\nLes línies d'actuació en el procés ensenyament-aprenentatge que permeten assolir els objectius del mòdul versaran sobre:\n\nInstal·lació d'aplicacions web.\n\nConfiguració d'aplicacions web.\nExplotació d'aplicacions web.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Instal·la gestors de continguts, identificant les seves aplicacions i configurant-los segons requeriments.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'han identificat els requeriments necessaris per instal·lar gestors de continguts."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'han gestionat usuaris amb rols diferents."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instal·lació de gestors de continguts",
+            "items": [
+              "Instal·lació en sistemes operatius lliures i propietaris.",
+              "Creació d'usuaris i grups d'usuaris. Utilització de la interfície gràfica. Personalització de l'entorn. Funcionalitats proporcionades pel gestor de continguts. Sindicació. Funcionament dels gestors de continguts. Actualitzacions del gestor de continguts. Configuració de mòduls i menús."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Instal·la sistemes de gestió d'aprenentatge a distància, descrivint l'estructura del lloc i la jerarquia de directoris generada.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'ha reconegut l'estructura del lloc i la jerarquia de directoris generada."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'han realitzat modificacions en l'estètica o aspecte del lloc."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instal·lació de sistemes de gestió d'aprenentatge a distància",
+            "items": []
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Instal·la serveis de gestió d'arxius web, identificant les seves aplicacions i verificant la seva integritat.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'ha establert la utilitat d'un servei de gestió d'arxius web."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'han descrit diferents aplicacions de gestió de fitxers web."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Elements lògics",
+            "items": [
+              "comunicació, materials i activitats.",
+              "Instal·lació en sistemes operatius lliures i propietaris. Modes de registre. Interfície gràfica associada. Personalització de l'entorn. Navegació i edició. Creació de cursos seguint especificacions. Gestió d'usuaris i grups. Activació de funcionalitats."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Instal·la aplicacions d'ofimàtica web, descrivint les seves característiques i entorns d'ús.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S"
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'han descrit diferents aplicacions d'ofimàtica web (processador de textos, full de càlcul, entre altres)."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instal·lació de serveis de gestió de fitxers web",
+            "items": [
+              "Instal·lació.",
+              "Navegació i operacions bàsiques. Administració del gestor. Usuaris i permisos. Tipus d'usuari. Creació de recursos compartits."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Instal·la aplicacions web d'escriptori, descrivint les seves característiques i entorns d'ús.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "S'han descrit diferents aplicacions web d'escriptori."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "S'han instal·lat aplicacions per a proveir d'accés web al servei de correu electrònic."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Instal·lació d'aplicacions d'ofimàtica web",
+            "items": [
+              "Instal·lació.",
+              "Utilització de les aplicacions instal·lades. Gestió d'usuaris i permisos associats. Comprovació de la seguretat."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Instal·lació de gestors de continguts",
+          "items": [
+            "Instal·lació en sistemes operatius lliures i propietaris.",
+            "Creació d'usuaris i grups d'usuaris. Utilització de la interfície gràfica. Personalització de l'entorn. Funcionalitats proporcionades pel gestor de continguts. Sindicació. Funcionament dels gestors de continguts. Actualitzacions del gestor de continguts. Configuració de mòduls i menús."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Instal·lació de sistemes de gestió d'aprenentatge a distància",
+          "items": []
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Elements lògics",
+          "items": [
+            "comunicació, materials i activitats.",
+            "Instal·lació en sistemes operatius lliures i propietaris. Modes de registre. Interfície gràfica associada. Personalització de l'entorn. Navegació i edició. Creació de cursos seguint especificacions. Gestió d'usuaris i grups. Activació de funcionalitats."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Instal·lació de serveis de gestió de fitxers web",
+          "items": [
+            "Instal·lació.",
+            "Navegació i operacions bàsiques. Administració del gestor. Usuaris i permisos. Tipus d'usuari. Creació de recursos compartits."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Instal·lació d'aplicacions d'ofimàtica web",
+          "items": [
+            "Instal·lació.",
+            "Utilització de les aplicacions instal·lades. Gestió d'usuaris i permisos associats. Comprovació de la seguretat."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0229",
+      "nombre": "Formació i orientació laboral",
+      "siglas": "FOL",
+      "curso_orientativo": "1r",
+      "horas": 50,
+      "creditos_ects": 2,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Aquest mòdul professional conté la formació necessària perquè l'alumne pugui inserir-se laboralment i desenvolupar la seva carrera professional en el sector dels sistemes microinformàtics i xarxes.\n\nLa formació del mòdul contribueix a assolir els objectius generals n), o) i q) del cicle formatiu i les competències q), s) i v) del títol.\n\nLes línies d'actuació en el procés ensenyament-aprenentatge que permeten assolir els objectius del mòdul versaran sobre:\nEl maneig de les fonts d'informació sobre el sistema educatiu i laboral, en especial pel que fa al sector informàtic.\n\nLa realització de proves d'orientació i dinàmiques sobre la pròpia personalitat i el desenvolupament de les habilitats socials.\nLa preparació i realització de currículums (CVs) i entrevistes de treball.\nLa identificació de la normativa laboral que afecta els treballadors del sector, maneig dels contractes més comunament utilitzats, comprensiva dels convenis col·lectius d'aplicació.\nL'emplenament de rebuts de salari de diferents característiques i altres documents relacionats.\nL'anàlisi de la Llei de Prevenció de Riscos Laborals que li permeti l'avaluació dels riscos derivats de les activitats desenvolupades en el sector productiu, i col·laborar en la definició d'un pla de prevenció per a l'empresa, així com les mesures necessàries que s'hagin d'adoptar per a la seva implementació.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 2,
+          "descripcion": "Aplica les estratègies del treball en equip, i valora la seva eficàcia i eficiència per a la consecució dels objectius de l'organització.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'han valorat els avantatges de treball en equip en situacions de treball relacionades amb el perfil del tècnic en sistemes microinformàtics i xarxes locals."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'han identificat els equips de treball que poden constituir-se en una situació real de treball."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Cerca activa d'ocupació",
+            "items": [
+              "Valoració de la importància de la formació permanent per a la trajectòria laboral i professional del tècnic en sistemes microinformàtics i xarxes.",
+              "Anàlisi dels interessos, aptituds i motivacions personals per a la carrera professional. Identificació d'itineraris formatius relacionats amb el tècnic en sistemes microinformàtics i xarxes. Definició i anàlisi del sector professional del títol de tècnic en sistemes microinformàtics i xarxes. Procés de cerca d'ocupació en petites, mitjanes i grans empreses del sector. Oportunitats d'aprenentatge i ocupació a Europa. Tècniques i instruments de recerca d'ocupació. El procés de presa de decisions."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Exerceix els drets i compleix les obligacions que es deriven de les relacions laborals, reconeixent-les en els diferents contractes de treball.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'han identificat els conceptes bàsics del dret del treball."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'han distingit els principals organismes que intervenen en les relacions entre empresaris i treballadors."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Gestió del conflicte i equips de treball",
+            "items": [
+              "Valoració dels avantatges i inconvenients del treball d'equip per a l'eficàcia de l'organització.",
+              "Equips en la indústria de sistemes microinformàtics i xarxes segons les funcions que exerceixen. La participació en l'equip de treball. Conflicte: característiques, fonts i etapes. Mètodes per a la resolució o supressió del conflicte."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Determina l'acció protectora del sistema de la Seguretat Social davant les diferents contingències cobertes, identificant les diferents classes de prestacions.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'ha valorat el paper de la Seguretat Social com a pilar essencial per a la millora de la qualitat de vida dels ciutadans."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'han enumerat les diverses contingències que cobreix el sistema de Seguretat Social."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Contracte de treball",
+            "items": [
+              "El dret del treball.",
+              "Anàlisi de la relació laboral individual. Modalitats de contracte de treball i mesures de foment de la contractació. Drets i deures derivats de la relació laboral. Modificació, suspensió i extinció del contracte de treball. Representació dels treballadors. Anàlisi d'un conveni col·lectiu aplicable a l'àmbit professional del tècnic en sistemes microinformàtics i xarxes. Beneficis per als treballadors en les noves organitzacions: flexibilitat, beneficis socials entre altres."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Avalua els riscos derivats de la seva activitat, analitzant les condicions de treball i els factors de risc presents en el seu entorn laboral.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "S'ha valorat la importància de la cultura preventiva en tots els àmbits i activitats de l'empresa."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "S'han relacionat les condicions laborals amb la salut del treballador."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Seguretat Social, Ocupació i Desocupació",
+            "items": [
+              "Estructura del Sistema de la Seguretat Social.",
+              "Determinació de les principals obligacions d'empresaris i treballadors en matèria de Seguretat Social: afiliació, altes, baixes i cotització. Situacions protegibles en la protecció per desocupació."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Participa en l'elaboració d'un pla de prevenció de riscos en una petita empresa, identificant les responsabilitats de tots els agents implicats.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "S'han determinat els principals drets i deures en matèria de prevenció de riscos laborals."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "S'han classificat les diferents formes de gestió de la prevenció en l'empresa, en funció dels diferents criteris establerts en la normativa sobre prevenció de riscos laborals."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Avaluació de riscos professionals",
+            "items": [
+              "Valoració de la relació entre treball i salut.",
+              "Anàlisi de factors de risc. L'avaluació de riscos a l'empresa com a element bàsic de l'activitat preventiva. Anàlisi de riscos lligats a les condicions de seguretat. Anàlisi de riscos lligats a les condicions ambientals. Anàlisi de riscos lligats a les condicions ergonòmiques i psicosocials. Riscos específics en la indústria de sistemes microinformàtics i xarxes. Determinació dels possibles danys a la salut del treballador que es poden derivar de les situacions de risc detectades."
+            ]
+          }
+        },
+        {
+          "numero": 7,
+          "descripcion": "Aplica les mesures de prevenció i protecció, analitzant les situacions de risc en l'entorn laboral del tècnic de sistemes microinformàtics i xarxes locals.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "S'han definit les tècniques de prevenció i de protecció que han d'aplicar-se per a evitar els danys a l'origen i minimitzar les seves conseqüències en cas que siguin inevitables."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "S'ha analitzat el significat i abast dels diferents tipus de senyalització de seguretat."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Planificació de la prevenció de riscos a l'empresa",
+            "items": [
+              "Drets i deures en matèria de prevenció de riscos laborals.",
+              "Gestió de la prevenció a l'empresa. Organismes públics relacionats amb la prevenció de riscos laborals. Planificació de la prevenció a l'empresa. Plans d'emergència i d'evacuació en entorns de treball. Elaboració d'un pla d'emergència en una pime."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Cerca activa d'ocupació",
+          "items": [
+            "Valoració de la importància de la formació permanent per a la trajectòria laboral i professional del tècnic en sistemes microinformàtics i xarxes.",
+            "Anàlisi dels interessos, aptituds i motivacions personals per a la carrera professional. Identificació d'itineraris formatius relacionats amb el tècnic en sistemes microinformàtics i xarxes. Definició i anàlisi del sector professional del títol de tècnic en sistemes microinformàtics i xarxes. Procés de cerca d'ocupació en petites, mitjanes i grans empreses del sector. Oportunitats d'aprenentatge i ocupació a Europa. Tècniques i instruments de recerca d'ocupació. El procés de presa de decisions."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Gestió del conflicte i equips de treball",
+          "items": [
+            "Valoració dels avantatges i inconvenients del treball d'equip per a l'eficàcia de l'organització.",
+            "Equips en la indústria de sistemes microinformàtics i xarxes segons les funcions que exerceixen. La participació en l'equip de treball. Conflicte: característiques, fonts i etapes. Mètodes per a la resolució o supressió del conflicte."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Contracte de treball",
+          "items": [
+            "El dret del treball.",
+            "Anàlisi de la relació laboral individual. Modalitats de contracte de treball i mesures de foment de la contractació. Drets i deures derivats de la relació laboral. Modificació, suspensió i extinció del contracte de treball. Representació dels treballadors. Anàlisi d'un conveni col·lectiu aplicable a l'àmbit professional del tècnic en sistemes microinformàtics i xarxes. Beneficis per als treballadors en les noves organitzacions: flexibilitat, beneficis socials entre altres."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Seguretat Social, Ocupació i Desocupació",
+          "items": [
+            "Estructura del Sistema de la Seguretat Social.",
+            "Determinació de les principals obligacions d'empresaris i treballadors en matèria de Seguretat Social: afiliació, altes, baixes i cotització. Situacions protegibles en la protecció per desocupació."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Avaluació de riscos professionals",
+          "items": [
+            "Valoració de la relació entre treball i salut.",
+            "Anàlisi de factors de risc. L'avaluació de riscos a l'empresa com a element bàsic de l'activitat preventiva. Anàlisi de riscos lligats a les condicions de seguretat. Anàlisi de riscos lligats a les condicions ambientals. Anàlisi de riscos lligats a les condicions ergonòmiques i psicosocials. Riscos específics en la indústria de sistemes microinformàtics i xarxes. Determinació dels possibles danys a la salut del treballador que es poden derivar de les situacions de risc detectades."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Planificació de la prevenció de riscos a l'empresa",
+          "items": [
+            "Drets i deures en matèria de prevenció de riscos laborals.",
+            "Gestió de la prevenció a l'empresa. Organismes públics relacionats amb la prevenció de riscos laborals. Planificació de la prevenció a l'empresa. Plans d'emergència i d'evacuació en entorns de treball. Elaboració d'un pla d'emergència en una pime."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0230",
+      "nombre": "Empresa i iniciativa emprenedora",
+      "siglas": "EEIE",
+      "curso_orientativo": "2n",
+      "horas": 35,
+      "creditos_ects": 1,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "Maneig de les fonts d'informació sobre el sector de la informàtica, incloent l'anàlisi dels processos d'innovació sectorial en marxa.\n\nLa realització de casos i dinàmiques de grup que permetin comprendre i valorar les actituds dels emprenedors i ajustar la necessitat dels mateixos al sector industrial relacionat amb els processos de sistemes microinformàtics i xarxes.\nLa utilització de programes de gestió administrativa per a «pimes» del sector.\nLa realització d'un projecte de pla d'empresa relacionada amb l'activitat de sistemes microinformàtics i xarxes i que inclogui totes les facetes de posada en marxa d'un negoci: viabilitat, organització de la producció i els recursos humans, acció comercial, control administratiu i financer, així com justificació de la seva responsabilitat social.",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Reconeix les capacitats associades a la iniciativa emprenedora, analitzant els requeriments derivats dels llocs de treball i de les activitats empresarials.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'ha identificat el concepte d'innovació i la seva relació amb el progrés de la societat i l'augment en el benestar dels individus."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'ha analitzat el concepte de cultura emprenedora i la seva importància com a font de creació d'ocupació i benestar social."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Iniciativa emprenedora",
+            "items": [
+              "Innovació i desenvolupament econòmic. Principals característiques de la innovació en l'activitat dels sistemes microinformàtics i xarxes (materials, tecnologia, organització de la producció, etc.)."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Defineix l'oportunitat de creació d'una petita empresa, valorant l'impacte sobre l'entorn d'actuació i incorporant valors ètics.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'han descrit les funcions bàsiques que es realitzen en una empresa i s'ha analitzat el concepte de sistema aplicat a l'empresa."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'han identificat els principals components de l'entorn general que envolta a l'empresa; especialment l'entorn econòmic, social, demogràfic i cultural."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Factors claus dels emprenedors",
+            "items": [
+              "iniciativa, creativitat i formació. L'actuació dels emprenedors com a empleats d'una empresa d'informàtica. L'actuació dels emprenedors com a empresaris, d'una petita empresa en el sector de la informàtica. L'empresari. Requisits per a l'exercici de l'activitat empresarial. Pla d'empresa: la idea de negoci en l'àmbit de la informàtica."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Realitza les activitats per a la constitució i posada en marxa d'una empresa, seleccionant la forma jurídica i identificant les obligacions legals associades.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'han analitzat les diferents formes jurídiques de l'empresa."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'ha especificat el grau de responsabilitat legal dels propietaris de l'empresa en funció de la forma jurídica triada."
+            }
+          ],
+          "contenidos": {
+            "titulo": "L'empresa i el seu entorn",
+            "items": [
+              "Funcions bàsiques de l'empresa.",
+              "L'empresa com a sistema. Anàlisi de l'entorn general d'una pime d'informàtica. Anàlisi de l'entorn específic d'una pime d'informàtica. Relacions d'una pime d'informàtica amb el seu entorn. Relacions d'una pime d'informàtica amb el conjunt de la societat."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Realitza activitats de gestió administrativa i financera bàsica d'una «pime», identificant les principals obligacions comptables i fiscals i emplenant la documentació.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'han analitzat els conceptes bàsics de comptabilitat, així com les tècniques de registre de la informació comptable."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'han descrit les tècniques bàsiques d'anàlisis de la informació comptable, especialment referent a la solvència, liquiditat i rendibilitat de l'empresa."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Creació i posada en marxa d'una empresa",
+            "items": [
+              "Tipus d'empresa.",
+              "La fiscalitat en les empreses. Elecció de la forma jurídica. Tràmits administratius per a la constitució d'una empresa. Viabilitat econòmica i viabilitat financera d'una pime d'informàtica. Pla d'empresa: elecció de la forma jurídica, estudi de viabilitat econòmica i financera, tràmits administratius i gestió d'ajudes i subvencions."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Iniciativa emprenedora",
+          "items": [
+            "Innovació i desenvolupament econòmic. Principals característiques de la innovació en l'activitat dels sistemes microinformàtics i xarxes (materials, tecnologia, organització de la producció, etc.)."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Factors claus dels emprenedors",
+          "items": [
+            "iniciativa, creativitat i formació. L'actuació dels emprenedors com a empleats d'una empresa d'informàtica. L'actuació dels emprenedors com a empresaris, d'una petita empresa en el sector de la informàtica. L'empresari. Requisits per a l'exercici de l'activitat empresarial. Pla d'empresa: la idea de negoci en l'àmbit de la informàtica."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "L'empresa i el seu entorn",
+          "items": [
+            "Funcions bàsiques de l'empresa.",
+            "L'empresa com a sistema. Anàlisi de l'entorn general d'una pime d'informàtica. Anàlisi de l'entorn específic d'una pime d'informàtica. Relacions d'una pime d'informàtica amb el seu entorn. Relacions d'una pime d'informàtica amb el conjunt de la societat."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Creació i posada en marxa d'una empresa",
+          "items": [
+            "Tipus d'empresa.",
+            "La fiscalitat en les empreses. Elecció de la forma jurídica. Tràmits administratius per a la constitució d'una empresa. Viabilitat econòmica i viabilitat financera d'una pime d'informàtica. Pla d'empresa: elecció de la forma jurídica, estudi de viabilitat econòmica i financera, tràmits administratius i gestió d'ajudes i subvencions."
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0231",
+      "nombre": "Formació en centres de treball",
+      "siglas": "FCT",
+      "curso_orientativo": "1r",
+      "horas": 220,
+      "creditos_ects": 9,
+      "unidades_competencia": [],
+      "competencias_titulo": [
+        "b"
+      ],
+      "orientaciones_pedagogicas": "",
+      "resultados_aprendizaje": [
+        {
+          "numero": 1,
+          "descripcion": "Identifica l'estructura i organització de l'empresa relacionant-la amb la producció i comercialització dels productes i serveis que ofereixen.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA1.a",
+              "descripcion": "S'ha identificat l'estructura organitzativa de l'empresa i les funcions de cada àrea d'aquesta."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA1.b",
+              "descripcion": "S'han identificat els elements que constitueixen la xarxa logística de l'empresa: proveïdors, clients, sistemes de producció, emmagatzematge, entre altres."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Continguts del RA1",
+            "items": [
+              "Continguts i procediments associats a: Identifica l'estructura i organització de l'empresa relacionant-la amb la producció i comercialització dels productes i serveis que ofereixen."
+            ]
+          }
+        },
+        {
+          "numero": 2,
+          "descripcion": "Aplica hàbits ètics i laborals, desenvolupant la seva activitat professional d'acord amb les característiques del lloc de treball i procediments establerts a l'empresa.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA2.a",
+              "descripcion": "S'han reconegut i justificat:"
+            },
+            {
+              "letra": "s",
+              "codigo": "RA2.s",
+              "descripcion": ""
+            },
+            {
+              "letra": "s",
+              "codigo": "RA2.s",
+              "descripcion": ".\nL"
+            },
+            {
+              "letra": "b",
+              "codigo": "RA2.b",
+              "descripcion": "S'han identificat les normes de prevenció de riscos laborals aplicables en l'activitat professional i els aspectes fonamentals de la Llei de Prevenció de Riscos Laborals."
+            },
+            {
+              "letra": "c",
+              "codigo": "RA2.c",
+              "descripcion": "S'han aplicat les i utilitzat els equips de protecció individual segons els riscos de l'activitat professional i les normes de l'empresa."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Continguts del RA2",
+            "items": [
+              "Continguts i procediments associats a: Aplica hàbits ètics i laborals, desenvolupant la seva activitat professional d'acord amb les característiques del lloc de treball i procediments establerts a l'empresa."
+            ]
+          }
+        },
+        {
+          "numero": 3,
+          "descripcion": "Munta equips informàtics, seguint els processos del sistema de qualitat establerts.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA3.a",
+              "descripcion": "S'ha interpretat la documentació tècnica."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA3.b",
+              "descripcion": "S'han ubicat, fixat i connectat els elements i accessoris dels equips."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Continguts del RA3",
+            "items": [
+              "Continguts i procediments associats a: Munta equips informàtics, seguint els processos del sistema de qualitat establerts."
+            ]
+          }
+        },
+        {
+          "numero": 4,
+          "descripcion": "Participa en el diagnòstic i reparació d'avaries aplicant tècniques de manteniment correctiu.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA4.a",
+              "descripcion": "S'ha elaborat un pla d'intervenció per a la localització de l'avaria."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA4.b",
+              "descripcion": "S'han identificat els símptomes de les avaries o disfuncions."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Continguts del RA4",
+            "items": [
+              "Continguts i procediments associats a: Participa en el diagnòstic i reparació d'avaries aplicant tècniques de manteniment correctiu."
+            ]
+          }
+        },
+        {
+          "numero": 5,
+          "descripcion": "Instal·la sistemes operatius i aplicacions respectant el pla de treball i les necessitats del client.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA5.a",
+              "descripcion": "S'han comprès les ordres de treball."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA5.b",
+              "descripcion": "S'han realitzat les operacions d'instal·lació del sistema operatiu i aplicacions."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Continguts del RA5",
+            "items": [
+              "Continguts i procediments associats a: Instal·la sistemes operatius i aplicacions respectant el pla de treball i les necessitats del client."
+            ]
+          }
+        },
+        {
+          "numero": 6,
+          "descripcion": "Participa en la instal·lació, posada en marxa i manteniment de petites instal·lacions amb serveis de xarxa local i Internet, documentant la intervenció.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA6.a",
+              "descripcion": "S'ha interpretat documentació tècnica relativa al maquinari i al programari."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA6.b",
+              "descripcion": "S'han identificat els elements de la instal·lació."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Continguts del RA6",
+            "items": [
+              "Continguts i procediments associats a: Participa en la instal·lació, posada en marxa i manteniment de petites instal·lacions amb serveis de xarxa local i Internet, documentant la intervenció."
+            ]
+          }
+        },
+        {
+          "numero": 7,
+          "descripcion": "Assisteix a l'usuari, resolent problemes de l'explotació d'aplicacions, segons les normes de l'empresa.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA7.a",
+              "descripcion": "S'han identificat les necessitats de l'usuari."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA7.b",
+              "descripcion": "S'han aplicat tècniques de comunicació amb l'usuari."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Continguts del RA7",
+            "items": [
+              "Continguts i procediments associats a: Assisteix a l'usuari, resolent problemes de l'explotació d'aplicacions, segons les normes de l'empresa."
+            ]
+          }
+        },
+        {
+          "numero": 8,
+          "descripcion": "Participa en tasques d'instal·lació, configuració o manteniment de sistemes que gestionen continguts, aprenentatge a distància, arxius entre d'altres, seguint el pla de treball establert.",
+          "criterios_evaluacion": [
+            {
+              "letra": "a",
+              "codigo": "RA8.a",
+              "descripcion": "S'ha comprès el pla de treball."
+            },
+            {
+              "letra": "b",
+              "codigo": "RA8.b",
+              "descripcion": "S'han identificat els requeriments necessaris."
+            }
+          ],
+          "contenidos": {
+            "titulo": "Continguts del RA8",
+            "items": [
+              "Continguts i procediments associats a: Participa en tasques d'instal·lació, configuració o manteniment de sistemes que gestionen continguts, aprenentatge a distància, arxius entre d'altres, seguint el pla de treball establert."
+            ]
+          }
+        },
+        {
+          "numero": 221,
+          "descripcion": "Muntatge i manteniment d'equip.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA221",
+            "items": [
+              "Continguts i procediments associats a: Muntatge i manteniment d'equip."
+            ]
+          }
+        },
+        {
+          "numero": 223,
+          "descripcion": "Aplicacions ofimàtiques.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA223",
+            "items": [
+              "Continguts i procediments associats a: Aplicacions ofimàtiques."
+            ]
+          }
+        },
+        {
+          "numero": 222,
+          "descripcion": "Sistemes operatius monoposat.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA222",
+            "items": [
+              "Continguts i procediments associats a: Sistemes operatius monoposat."
+            ]
+          }
+        },
+        {
+          "numero": 225,
+          "descripcion": "Xarxes locals.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA225",
+            "items": [
+              "Continguts i procediments associats a: Xarxes locals."
+            ]
+          }
+        },
+        {
+          "numero": 227,
+          "descripcion": "Serveis en xarxa.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA227",
+            "items": [
+              "Continguts i procediments associats a: Serveis en xarxa."
+            ]
+          }
+        },
+        {
+          "numero": 224,
+          "descripcion": "Sistemes operatius en xarxa.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA224",
+            "items": [
+              "Continguts i procediments associats a: Sistemes operatius en xarxa."
+            ]
+          }
+        },
+        {
+          "numero": 226,
+          "descripcion": "Seguretat informàtica.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA226",
+            "items": [
+              "Continguts i procediments associats a: Seguretat informàtica."
+            ]
+          }
+        },
+        {
+          "numero": 228,
+          "descripcion": "Aplicacions web.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA228",
+            "items": [
+              "Continguts i procediments associats a: Aplicacions web."
+            ]
+          }
+        },
+        {
+          "numero": 229,
+          "descripcion": "Formació i orientació laboral.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA229",
+            "items": [
+              "Continguts i procediments associats a: Formació i orientació laboral."
+            ]
+          }
+        },
+        {
+          "numero": 230,
+          "descripcion": "Empresa i iniciativa empresarial.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA230",
+            "items": [
+              "Continguts i procediments associats a: Empresa i iniciativa empresarial."
+            ]
+          }
+        },
+        {
+          "numero": 225,
+          "descripcion": "Xarxes locals.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA225",
+            "items": [
+              "Continguts i procediments associats a: Xarxes locals."
+            ]
+          }
+        },
+        {
+          "numero": 221,
+          "descripcion": "Muntatge i reparació d'equips.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA221",
+            "items": [
+              "Continguts i procediments associats a: Muntatge i reparació d'equips."
+            ]
+          }
+        },
+        {
+          "numero": 223,
+          "descripcion": "Aplicacions Ofimàtiques.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA223",
+            "items": [
+              "Continguts i procediments associats a: Aplicacions Ofimàtiques."
+            ]
+          }
+        },
+        {
+          "numero": 227,
+          "descripcion": "Serveis de xarxa.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA227",
+            "items": [
+              "Continguts i procediments associats a: Serveis de xarxa."
+            ]
+          }
+        },
+        {
+          "numero": 228,
+          "descripcion": "Aplicacions web.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA228",
+            "items": [
+              "Continguts i procediments associats a: Aplicacions web."
+            ]
+          }
+        },
+        {
+          "numero": 230,
+          "descripcion": "Empresa i iniciativa emprenedora.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA230",
+            "items": [
+              "Continguts i procediments associats a: Empresa i iniciativa emprenedora."
+            ]
+          }
+        },
+        {
+          "numero": 222,
+          "descripcion": "Sistemes operatius monoposat.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA222",
+            "items": [
+              "Continguts i procediments associats a: Sistemes operatius monoposat."
+            ]
+          }
+        },
+        {
+          "numero": 222,
+          "descripcion": "Sistemes operatius monoposat.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA222",
+            "items": [
+              "Continguts i procediments associats a: Sistemes operatius monoposat."
+            ]
+          }
+        },
+        {
+          "numero": 222,
+          "descripcion": "Sistemes operatius monoposat.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA222",
+            "items": [
+              "Continguts i procediments associats a: Sistemes operatius monoposat."
+            ]
+          }
+        },
+        {
+          "numero": 225,
+          "descripcion": "Xarxes locals.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA225",
+            "items": [
+              "Continguts i procediments associats a: Xarxes locals."
+            ]
+          }
+        },
+        {
+          "numero": 223,
+          "descripcion": "Aplicacions ofimàtiques.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA223",
+            "items": [
+              "Continguts i procediments associats a: Aplicacions ofimàtiques."
+            ]
+          }
+        },
+        {
+          "numero": 223,
+          "descripcion": "Aplicacions ofimàtiques.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA223",
+            "items": [
+              "Continguts i procediments associats a: Aplicacions ofimàtiques."
+            ]
+          }
+        },
+        {
+          "numero": 221,
+          "descripcion": "Muntatge i manteniment d'equips.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA221",
+            "items": [
+              "Continguts i procediments associats a: Muntatge i manteniment d'equips."
+            ]
+          }
+        },
+        {
+          "numero": 221,
+          "descripcion": "Muntatge i manteniment d'equips.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA221",
+            "items": [
+              "Continguts i procediments associats a: Muntatge i manteniment d'equips."
+            ]
+          }
+        },
+        {
+          "numero": 226,
+          "descripcion": "Seguretat informàtica.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA226",
+            "items": [
+              "Continguts i procediments associats a: Seguretat informàtica."
+            ]
+          }
+        },
+        {
+          "numero": 227,
+          "descripcion": "Serveis en xarxa.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA227",
+            "items": [
+              "Continguts i procediments associats a: Serveis en xarxa."
+            ]
+          }
+        },
+        {
+          "numero": 226,
+          "descripcion": "Seguretat informàtica.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA226",
+            "items": [
+              "Continguts i procediments associats a: Seguretat informàtica."
+            ]
+          }
+        },
+        {
+          "numero": 222,
+          "descripcion": "Sistemes operatius monoposat.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA222",
+            "items": [
+              "Continguts i procediments associats a: Sistemes operatius monoposat."
+            ]
+          }
+        },
+        {
+          "numero": 223,
+          "descripcion": "Aplicacions Ofimàtiques.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA223",
+            "items": [
+              "Continguts i procediments associats a: Aplicacions Ofimàtiques."
+            ]
+          }
+        },
+        {
+          "numero": 222,
+          "descripcion": "Sistemes operatius monoposat.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA222",
+            "items": [
+              "Continguts i procediments associats a: Sistemes operatius monoposat."
+            ]
+          }
+        },
+        {
+          "numero": 225,
+          "descripcion": "Xarxes locals.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA225",
+            "items": [
+              "Continguts i procediments associats a: Xarxes locals."
+            ]
+          }
+        },
+        {
+          "numero": 225,
+          "descripcion": "Xarxes locals.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA225",
+            "items": [
+              "Continguts i procediments associats a: Xarxes locals."
+            ]
+          }
+        },
+        {
+          "numero": 227,
+          "descripcion": "Serveis en xarxa.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA227",
+            "items": [
+              "Continguts i procediments associats a: Serveis en xarxa."
+            ]
+          }
+        },
+        {
+          "numero": 226,
+          "descripcion": "Seguretat informàtica.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA226",
+            "items": [
+              "Continguts i procediments associats a: Seguretat informàtica."
+            ]
+          }
+        },
+        {
+          "numero": 221,
+          "descripcion": "Muntatge i manteniment d'equips.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA221",
+            "items": [
+              "Continguts i procediments associats a: Muntatge i manteniment d'equips."
+            ]
+          }
+        },
+        {
+          "numero": 221,
+          "descripcion": "Muntatge i manteniment d'equips.",
+          "criterios_evaluacion": [],
+          "contenidos": {
+            "titulo": "Continguts del RA221",
+            "items": [
+              "Continguts i procediments associats a: Muntatge i manteniment d'equips."
+            ]
+          }
+        }
+      ],
+      "contenidos": [
+        {
+          "ra": 1,
+          "codigo_ra": "RA1",
+          "titulo": "Continguts del RA1",
+          "items": [
+            "Continguts i procediments associats a: Identifica l'estructura i organització de l'empresa relacionant-la amb la producció i comercialització dels productes i serveis que ofereixen."
+          ]
+        },
+        {
+          "ra": 2,
+          "codigo_ra": "RA2",
+          "titulo": "Continguts del RA2",
+          "items": [
+            "Continguts i procediments associats a: Aplica hàbits ètics i laborals, desenvolupant la seva activitat professional d'acord amb les característiques del lloc de treball i procediments establerts a l'empresa."
+          ]
+        },
+        {
+          "ra": 3,
+          "codigo_ra": "RA3",
+          "titulo": "Continguts del RA3",
+          "items": [
+            "Continguts i procediments associats a: Munta equips informàtics, seguint els processos del sistema de qualitat establerts."
+          ]
+        },
+        {
+          "ra": 4,
+          "codigo_ra": "RA4",
+          "titulo": "Continguts del RA4",
+          "items": [
+            "Continguts i procediments associats a: Participa en el diagnòstic i reparació d'avaries aplicant tècniques de manteniment correctiu."
+          ]
+        },
+        {
+          "ra": 5,
+          "codigo_ra": "RA5",
+          "titulo": "Continguts del RA5",
+          "items": [
+            "Continguts i procediments associats a: Instal·la sistemes operatius i aplicacions respectant el pla de treball i les necessitats del client."
+          ]
+        },
+        {
+          "ra": 6,
+          "codigo_ra": "RA6",
+          "titulo": "Continguts del RA6",
+          "items": [
+            "Continguts i procediments associats a: Participa en la instal·lació, posada en marxa i manteniment de petites instal·lacions amb serveis de xarxa local i Internet, documentant la intervenció."
+          ]
+        },
+        {
+          "ra": 7,
+          "codigo_ra": "RA7",
+          "titulo": "Continguts del RA7",
+          "items": [
+            "Continguts i procediments associats a: Assisteix a l'usuari, resolent problemes de l'explotació d'aplicacions, segons les normes de l'empresa."
+          ]
+        },
+        {
+          "ra": 8,
+          "codigo_ra": "RA8",
+          "titulo": "Continguts del RA8",
+          "items": [
+            "Continguts i procediments associats a: Participa en tasques d'instal·lació, configuració o manteniment de sistemes que gestionen continguts, aprenentatge a distància, arxius entre d'altres, seguint el pla de treball establert."
+          ]
+        },
+        {
+          "ra": 221,
+          "codigo_ra": "RA221",
+          "titulo": "Continguts del RA221",
+          "items": [
+            "Continguts i procediments associats a: Muntatge i manteniment d'equip."
+          ]
+        },
+        {
+          "ra": 223,
+          "codigo_ra": "RA223",
+          "titulo": "Continguts del RA223",
+          "items": [
+            "Continguts i procediments associats a: Aplicacions ofimàtiques."
+          ]
+        },
+        {
+          "ra": 222,
+          "codigo_ra": "RA222",
+          "titulo": "Continguts del RA222",
+          "items": [
+            "Continguts i procediments associats a: Sistemes operatius monoposat."
+          ]
+        },
+        {
+          "ra": 225,
+          "codigo_ra": "RA225",
+          "titulo": "Continguts del RA225",
+          "items": [
+            "Continguts i procediments associats a: Xarxes locals."
+          ]
+        },
+        {
+          "ra": 227,
+          "codigo_ra": "RA227",
+          "titulo": "Continguts del RA227",
+          "items": [
+            "Continguts i procediments associats a: Serveis en xarxa."
+          ]
+        },
+        {
+          "ra": 224,
+          "codigo_ra": "RA224",
+          "titulo": "Continguts del RA224",
+          "items": [
+            "Continguts i procediments associats a: Sistemes operatius en xarxa."
+          ]
+        },
+        {
+          "ra": 226,
+          "codigo_ra": "RA226",
+          "titulo": "Continguts del RA226",
+          "items": [
+            "Continguts i procediments associats a: Seguretat informàtica."
+          ]
+        },
+        {
+          "ra": 228,
+          "codigo_ra": "RA228",
+          "titulo": "Continguts del RA228",
+          "items": [
+            "Continguts i procediments associats a: Aplicacions web."
+          ]
+        },
+        {
+          "ra": 229,
+          "codigo_ra": "RA229",
+          "titulo": "Continguts del RA229",
+          "items": [
+            "Continguts i procediments associats a: Formació i orientació laboral."
+          ]
+        },
+        {
+          "ra": 230,
+          "codigo_ra": "RA230",
+          "titulo": "Continguts del RA230",
+          "items": [
+            "Continguts i procediments associats a: Empresa i iniciativa empresarial."
+          ]
+        },
+        {
+          "ra": 225,
+          "codigo_ra": "RA225",
+          "titulo": "Continguts del RA225",
+          "items": [
+            "Continguts i procediments associats a: Xarxes locals."
+          ]
+        },
+        {
+          "ra": 221,
+          "codigo_ra": "RA221",
+          "titulo": "Continguts del RA221",
+          "items": [
+            "Continguts i procediments associats a: Muntatge i reparació d'equips."
+          ]
+        },
+        {
+          "ra": 223,
+          "codigo_ra": "RA223",
+          "titulo": "Continguts del RA223",
+          "items": [
+            "Continguts i procediments associats a: Aplicacions Ofimàtiques."
+          ]
+        },
+        {
+          "ra": 227,
+          "codigo_ra": "RA227",
+          "titulo": "Continguts del RA227",
+          "items": [
+            "Continguts i procediments associats a: Serveis de xarxa."
+          ]
+        },
+        {
+          "ra": 228,
+          "codigo_ra": "RA228",
+          "titulo": "Continguts del RA228",
+          "items": [
+            "Continguts i procediments associats a: Aplicacions web."
+          ]
+        },
+        {
+          "ra": 230,
+          "codigo_ra": "RA230",
+          "titulo": "Continguts del RA230",
+          "items": [
+            "Continguts i procediments associats a: Empresa i iniciativa emprenedora."
+          ]
+        },
+        {
+          "ra": 222,
+          "codigo_ra": "RA222",
+          "titulo": "Continguts del RA222",
+          "items": [
+            "Continguts i procediments associats a: Sistemes operatius monoposat."
+          ]
+        },
+        {
+          "ra": 222,
+          "codigo_ra": "RA222",
+          "titulo": "Continguts del RA222",
+          "items": [
+            "Continguts i procediments associats a: Sistemes operatius monoposat."
+          ]
+        },
+        {
+          "ra": 222,
+          "codigo_ra": "RA222",
+          "titulo": "Continguts del RA222",
+          "items": [
+            "Continguts i procediments associats a: Sistemes operatius monoposat."
+          ]
+        },
+        {
+          "ra": 225,
+          "codigo_ra": "RA225",
+          "titulo": "Continguts del RA225",
+          "items": [
+            "Continguts i procediments associats a: Xarxes locals."
+          ]
+        },
+        {
+          "ra": 223,
+          "codigo_ra": "RA223",
+          "titulo": "Continguts del RA223",
+          "items": [
+            "Continguts i procediments associats a: Aplicacions ofimàtiques."
+          ]
+        },
+        {
+          "ra": 223,
+          "codigo_ra": "RA223",
+          "titulo": "Continguts del RA223",
+          "items": [
+            "Continguts i procediments associats a: Aplicacions ofimàtiques."
+          ]
+        },
+        {
+          "ra": 221,
+          "codigo_ra": "RA221",
+          "titulo": "Continguts del RA221",
+          "items": [
+            "Continguts i procediments associats a: Muntatge i manteniment d'equips."
+          ]
+        },
+        {
+          "ra": 221,
+          "codigo_ra": "RA221",
+          "titulo": "Continguts del RA221",
+          "items": [
+            "Continguts i procediments associats a: Muntatge i manteniment d'equips."
+          ]
+        },
+        {
+          "ra": 226,
+          "codigo_ra": "RA226",
+          "titulo": "Continguts del RA226",
+          "items": [
+            "Continguts i procediments associats a: Seguretat informàtica."
+          ]
+        },
+        {
+          "ra": 227,
+          "codigo_ra": "RA227",
+          "titulo": "Continguts del RA227",
+          "items": [
+            "Continguts i procediments associats a: Serveis en xarxa."
+          ]
+        },
+        {
+          "ra": 226,
+          "codigo_ra": "RA226",
+          "titulo": "Continguts del RA226",
+          "items": [
+            "Continguts i procediments associats a: Seguretat informàtica."
+          ]
+        },
+        {
+          "ra": 222,
+          "codigo_ra": "RA222",
+          "titulo": "Continguts del RA222",
+          "items": [
+            "Continguts i procediments associats a: Sistemes operatius monoposat."
+          ]
+        },
+        {
+          "ra": 223,
+          "codigo_ra": "RA223",
+          "titulo": "Continguts del RA223",
+          "items": [
+            "Continguts i procediments associats a: Aplicacions Ofimàtiques."
+          ]
+        },
+        {
+          "ra": 222,
+          "codigo_ra": "RA222",
+          "titulo": "Continguts del RA222",
+          "items": [
+            "Continguts i procediments associats a: Sistemes operatius monoposat."
+          ]
+        },
+        {
+          "ra": 225,
+          "codigo_ra": "RA225",
+          "titulo": "Continguts del RA225",
+          "items": [
+            "Continguts i procediments associats a: Xarxes locals."
+          ]
+        },
+        {
+          "ra": 225,
+          "codigo_ra": "RA225",
+          "titulo": "Continguts del RA225",
+          "items": [
+            "Continguts i procediments associats a: Xarxes locals."
+          ]
+        },
+        {
+          "ra": 227,
+          "codigo_ra": "RA227",
+          "titulo": "Continguts del RA227",
+          "items": [
+            "Continguts i procediments associats a: Serveis en xarxa."
+          ]
+        },
+        {
+          "ra": 226,
+          "codigo_ra": "RA226",
+          "titulo": "Continguts del RA226",
+          "items": [
+            "Continguts i procediments associats a: Seguretat informàtica."
+          ]
+        },
+        {
+          "ra": 221,
+          "codigo_ra": "RA221",
+          "titulo": "Continguts del RA221",
+          "items": [
+            "Continguts i procediments associats a: Muntatge i manteniment d'equips."
+          ]
+        },
+        {
+          "ra": 221,
+          "codigo_ra": "RA221",
+          "titulo": "Continguts del RA221",
+          "items": [
+            "Continguts i procediments associats a: Muntatge i manteniment d'equips."
+          ]
+        }
+      ]
+    }
+  ],
+  "idioma": "VAL"
+}
